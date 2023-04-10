@@ -1,14 +1,12 @@
 extends CanvasLayer
 
-
-# Declare member variables here. Examples:
-# var a = 2
-# var b = "text"
-
 var hid = true
-
+onready var text = $CanvasLayer
+var change_text
 # Called when the node enters the scene tree for the first time.
 func _ready():
+	text.hide()
+	change_text = text.get_child(0).get_child(0)
 	hide()
 	pass # Replace with function body.
 
@@ -26,19 +24,32 @@ func _process(delta):
 
 
 func _on_Button_mouse_entered():
-	print("lol")
+	change_text.text = "school"
+	text.show()
 	pass # Replace with function body.
 
 func _on_Button_mouse_exited():
-	print("lol out")
+	text.hide()
 	pass # Replace with function body.
 
 func _on_Button_hide():
-	print("lol out")
+	text.hide()
 	pass # Replace with function body.
 
 
 func _on_Button2_mouse_entered():
-	print("lol2")
+	change_text.text = "my room"
+	text.show()
+	
+	pass # Replace with function body.
+
+
+func _on_Button2_mouse_exited():
+	text.hide()
+	pass # Replace with function body.
+
+
+func _on_Button2_hide():
+	text.hide()
 	pass # Replace with function body.
 

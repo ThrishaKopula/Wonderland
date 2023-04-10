@@ -1,7 +1,8 @@
-[gd_scene load_steps=10 format=2]
+[gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://Scenes/leoStuff/map.gd" type="Script" id=1]
 [ext_resource path="res://art/pokemon map.PNG" type="Texture" id=2]
+[ext_resource path="res://Scenes/leoStuff/text.tscn" type="PackedScene" id=3]
 
 [sub_resource type="StyleBoxFlat" id=1]
 
@@ -51,7 +52,12 @@ custom_styles/focus = SubResource( 5 )
 custom_styles/disabled = SubResource( 6 )
 custom_styles/normal = SubResource( 7 )
 
+[node name="CanvasLayer" parent="." instance=ExtResource( 3 )]
+visible = false
+
 [connection signal="hide" from="Panel/Button" to="." method="_on_Button_hide"]
 [connection signal="mouse_entered" from="Panel/Button" to="." method="_on_Button_mouse_entered"]
 [connection signal="mouse_exited" from="Panel/Button" to="." method="_on_Button_mouse_exited"]
+[connection signal="hide" from="Panel/Button2" to="." method="_on_Button2_hide"]
 [connection signal="mouse_entered" from="Panel/Button2" to="." method="_on_Button2_mouse_entered"]
+[connection signal="mouse_exited" from="Panel/Button2" to="." method="_on_Button2_mouse_exited"]
