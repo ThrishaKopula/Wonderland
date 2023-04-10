@@ -4,9 +4,14 @@ var motion = Vector2()
 
 export var speed = 100
 
+
+func _ready():
+	print(ControllerLeo.testingvar)
+	pass
+
 func _physics_process(delta):
 	motion = move_and_slide(motion)
-	pass # Replace with function body.
+	pass
 
 func _process(delta):
 	

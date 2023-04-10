@@ -35,6 +35,11 @@ func _on_Button_mouse_exited():
 func _on_Button_hide():
 	text.hide()
 	pass # Replace with function body.
+	
+func _on_Button_pressed():
+	ControllerLeo.testingvar = 9
+	get_tree().change_scene("res://Scenes/leoStuff/leo_testing_scene2.tscn")
+	pass # Replace with function body.
 
 
 func _on_Button2_mouse_entered():
@@ -52,4 +57,5 @@ func _on_Button2_mouse_exited():
 func _on_Button2_hide():
 	text.hide()
 	pass # Replace with function body.
+
 
