@@ -1,18 +1,12 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://icon.png" type="Texture" id=1]
-[ext_resource path="res://Scenes/leoStuff/camera.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Scenes/leoStuff/player.tscn" type="PackedScene" id=3]
-[ext_resource path="res://Scenes/leoStuff/map.tscn" type="PackedScene" id=4]
 
 [node name="test scene" type="Node2D"]
 
 [node name="KinematicBody2D" parent="." instance=ExtResource( 3 )]
-
-[node name="Camera2D" parent="KinematicBody2D" instance=ExtResource( 2 )]
-position = Vector2( 0, -30 )
-
-[node name="Control" parent="KinematicBody2D/Camera2D" instance=ExtResource( 4 )]
+position = Vector2( 426, 848 )
 
 [node name="Icon" type="Sprite" parent="."]
 position = Vector2( 941.433, 845.433 )
