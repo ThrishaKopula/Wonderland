@@ -1,7 +1,7 @@
 extends CanvasLayer
 
 var hid = true
-onready var text = $CanvasLayer
+onready var text = $"name of place"
 var change_text
 # Called when the node enters the scene tree for the first time.
 func _ready():
