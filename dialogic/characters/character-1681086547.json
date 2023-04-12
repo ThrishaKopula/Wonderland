@@ -2,7 +2,7 @@
 	"color": "#ffffffff",
 	"description": "",
 	"display_name": "",
-	"display_name_bool": true,
+	"display_name_bool": false,
 	"id": "character-1681086547.json",
 	"mirror_portraits": false,
 	"name": "Marlon",
@@ -13,7 +13,7 @@
 	"portraits": [
 		{
 			"name": "Default",
-			"path": "res://dialogic/characters/marlon.png"
+			"path": "res://dialogic/marlon.png"
 		}
 	],
 	"scale": 30,

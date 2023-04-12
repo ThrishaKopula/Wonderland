@@ -1,11 +1,11 @@
 {
 	"color": "#ffffffff",
 	"description": "",
-	"display_name": "",
-	"display_name_bool": false,
+	"display_name": "???",
+	"display_name_bool": true,
 	"id": "character-1681254232.json",
 	"mirror_portraits": false,
-	"name": "???",
+	"name": "Marlon Unk",
 	"nickname": "",
 	"nickname_bool": false,
 	"offset_x": 0,
@@ -13,7 +13,7 @@
 	"portraits": [
 		{
 			"name": "Default",
-			"path": "res://dialogic/characters/marlon.png"
+			"path": "res://dialogic/marlon.png"
 		}
 	],
 	"scale": 30,

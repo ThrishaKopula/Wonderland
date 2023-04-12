@@ -9,10 +9,9 @@
 				"character-1681086547.json",
 				"character-1681254232.json",
 				"character-1681272416.json",
-				"alice.png",
-				"marlon.png",
-				"alice.png.import",
-				"marlon.png.import"
+				"character-1681337913.json",
+				"character-1681338060.json",
+				"character-1681338302.json"
 			],
 			"folders": {
 
@@ -64,7 +63,7 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": true
+						"folded": false
 					}
 				}
 			},

@@ -3,9 +3,9 @@
 	"description": "",
 	"display_name": "",
 	"display_name_bool": false,
-	"id": "character-1681086055.json",
+	"id": "character-1681338060.json",
 	"mirror_portraits": false,
-	"name": "Alistair",
+	"name": "Mattie?",
 	"nickname": "",
 	"nickname_bool": false,
 	"offset_x": 0,
@@ -13,9 +13,9 @@
 	"portraits": [
 		{
 			"name": "Default",
-			"path": "res://dialogic/alice.png"
+			"path": ""
 		}
 	],
-	"scale": 30,
+	"scale": 100,
 	"theme": ""
 }
