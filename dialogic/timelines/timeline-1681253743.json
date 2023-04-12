@@ -1,0 +1,15 @@
+{
+	"events": [
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I guess this is what the school looks like… man, my front porch is bigger than this."
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1681253743.json",
+		"name": "ifMapClicked"
+	}
+}

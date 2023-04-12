@@ -1,0 +1,15 @@
+{
+	"events": [
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Can’t believe they expect me to sleep in this. What am I, a dog?"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1681253760.json",
+		"name": "ifBedClicked"
+	}
+}

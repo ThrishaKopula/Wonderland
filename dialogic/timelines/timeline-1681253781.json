@@ -1,0 +1,15 @@
+{
+	"events": [
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Maybe I should push the beds together. Eh, but none of my attendants are here to do it for me…"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1681253781.json",
+		"name": "ifOtherBedClicked"
+	}
+}

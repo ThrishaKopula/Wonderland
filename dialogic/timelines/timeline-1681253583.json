@@ -1,0 +1,33 @@
+{
+	"events": [
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Eww… it’s smaller than I expected."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I guess this is the best they can offer."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ugh, at least I don’t have to share with some other self-absorbed brat."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "It’s a double room, but it doesn’t look any more spacious than my broom closet."
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1681253583.json",
+		"name": "movingIn"
+	}
+}

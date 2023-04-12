@@ -2,10 +2,10 @@
 	"color": "#ffffffff",
 	"description": "",
 	"display_name": "",
-	"display_name_bool": true,
-	"id": "character-1681086547.json",
+	"display_name_bool": false,
+	"id": "character-1681272416.json",
 	"mirror_portraits": false,
-	"name": "Marlon",
+	"name": "Professor",
 	"nickname": "",
 	"nickname_bool": false,
 	"offset_x": 0,
@@ -13,9 +13,9 @@
 	"portraits": [
 		{
 			"name": "Default",
-			"path": "res://dialogic/characters/marlon.png"
+			"path": ""
 		}
 	],
-	"scale": 30,
+	"scale": 100,
 	"theme": ""
 }

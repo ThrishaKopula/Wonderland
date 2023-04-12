@@ -1,0 +1,563 @@
+{
+	"events": [
+		{
+			"background": "res://dialogic/dorm.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"animation": "slide_in_left.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": " I guess I have no choice but to settle in. Otherwise there’s no way I’ll get my hands on that trust fund."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I’ll just go to bed now."
+		},
+		{
+			"background": "res://dialogic/black.jpeg",
+			"event_id": "dialogic_021",
+			"fade_duration": 1
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Man, I can’t believe mom’s making me attend this stupid school."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I didn’t even wanna go, but she paid so much money that they accepted me."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Eh, I’ll find a way to make it through. After I get this degree, I’ll have that money and it’s smooth sailing for me. "
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "One week passes…"
+		},
+		{
+			"background": "res://dialogic/dorm.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Tomorrow is the first day of classes, I should sleep early…"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…Is what I would say if I cared!"
+		},
+		{
+			"animation": "slide_in_left.gd",
+			"animation_length": 2,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681254232.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681254232.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Whew, made it! I wonder-eep!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Huh? Whoa! Where did you come from? Who are you?"
+		},
+		{
+			"character": "character-1681254232.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Uh…uhm…"
+		},
+		{
+			"character": "character-1681254232.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…Heeey new roommate…?"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Augh!"
+		},
+		{
+			"character": "character-1681254232.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sorry I’m late, thank god there was space here! I’m Marlon, nice to meet you!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No! NO! There’s no space! Can’t you see!?"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086547.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681254232.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681086547.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I sure can see! There’s two beds! And look at this spacious floor plan! And I get a whole desk?!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No, no you don’t. There must be a mistake, this room is only meant for one person and that person is ME!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Get outta here!"
+		},
+		{
+			"character": "character-1681086547.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Haha, you talk silly! Goodnight!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No, no, no! This is all wrong! Get out, get–"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( …Is he… asleep? )"
+		},
+		{
+			"character": "character-1681086547.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "HE FELL ASLEEP!?"
+		},
+		{
+			"character": "character-1681086547.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "… *snore* …"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( …I’m gonna kill him. )"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( Although… it'll be much harder to get that trust fund if I break the law… Ugh, I’ll deal with this tomorrow. )"
+		},
+		{
+			"background": "res://dialogic/black.jpeg",
+			"event_id": "dialogic_021",
+			"fade_duration": 1.5
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The next morning…"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681254232.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086547.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681254232.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "BEEP BEEP BEEP BEEP!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "..."
+		},
+		{
+			"character": "character-1681254232.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "BEEP BEEP BEEP!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "… That…"
+		},
+		{
+			"character": "character-1681254232.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "BEEP BEEP BEEP!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "… Doesn’t sound like my alarm…"
+		},
+		{
+			"character": "character-1681254232.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "BEEEEEEEEEEEEEEEEEEEEEEEEEEEEE–"
+		},
+		{
+			"character": "character-1681254232.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "–EEEEEEEEEEEEEEEEEEEEEEEEEEEEEE–"
+		},
+		{
+			"character": "character-1681254232.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "–EEEEEEEEEEEEEEEEEEEEEEEEEEEEEP!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "SHUT THE FUCK UP!!"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086547.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681254232.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681086547.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "BEE-oh, goody! You’re awake!"
+		},
+		{
+			"background": "",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The whole school is awake! What’s your deal?"
+		},
+		{
+			"character": "character-1681086547.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "It’s the first day of school! As your trusty roommate and self-established friend, you can’t be late for class!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ugh, class…?"
+		},
+		{
+			"character": "character-1681086547.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yes, class! You can’t miss it!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Uggggghhh, okay okay…sheesh! I’m up! I’M UP! STOP PULLING ME!"
+		},
+		{
+			"character": "character-1681086547.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Okay, class starts in a minute, go get ‘em tiger."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "A MINUTE! All that beeping with a minute to spare!?"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alright, I'll head to class, but you better be gone by the time I come back."
+		},
+		{
+			"background": "res://dialogic/black.jpeg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "*lock click*"
+		},
+		{
+			"character": "character-1681086547.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Okay he’s gone, I swear it’s in here somewhere…"
+		},
+		{
+			"background": "res://dialogic/classroom.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1681272416.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Welcome to Biz 101, here’s a pop quiz."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "What!? Right off the bat!?"
+		},
+		{
+			"background": "res://dialogic/black.jpeg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Man… there’s no way I passed that…"
+		},
+		{
+			"background": "res://dialogic/dorm.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You? Why are you still here!?"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hey, listen to me when I’m speaking!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Listen here you little sh–WOAH!"
+		},
+		{
+			"background": "res://dialogic/black.jpeg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "AAAIIIIIIIIIEEEEEEEEEEE!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "WHY IS THE WORLD SPINNING!?"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "SOMEONE HELP ME! NOOOOOOW!!"
+		},
+		{
+			"background": "res://dialogic/teaParty.jpeg",
+			"event_id": "dialogic_021"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1681253910.json",
+		"name": "movingInPart2"
+	}
+}

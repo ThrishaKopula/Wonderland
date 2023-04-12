@@ -6,7 +6,13 @@
 		"Characters": {
 			"files": [
 				"character-1681086055.json",
-				"character-1681086547.json"
+				"character-1681086547.json",
+				"character-1681254232.json",
+				"character-1681272416.json",
+				"alice.png",
+				"marlon.png",
+				"alice.png.import",
+				"marlon.png.import"
 			],
 			"folders": {
 
@@ -42,10 +48,25 @@
 		},
 		"Timelines": {
 			"files": [
-				"timeline-1681085938.json"
+				"timeline-1681253583.json",
+				"timeline-1681253910.json"
 			],
 			"folders": {
+				"Interactables": {
+					"files": [
+						"timeline-1681253743.json",
+						"timeline-1681253760.json",
+						"timeline-1681253781.json",
+						"timeline-1681253800.json"
+					],
+					"folders": {
 
+					},
+					"metadata": {
+						"color": null,
+						"folded": true
+					}
+				}
 			},
 			"metadata": {
 				"color": null,

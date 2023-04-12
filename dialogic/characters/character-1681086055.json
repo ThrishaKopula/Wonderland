@@ -2,7 +2,7 @@
 	"color": "#ffffffff",
 	"description": "",
 	"display_name": "",
-	"display_name_bool": true,
+	"display_name_bool": false,
 	"id": "character-1681086055.json",
 	"mirror_portraits": false,
 	"name": "Allister",
@@ -13,9 +13,9 @@
 	"portraits": [
 		{
 			"name": "Default",
-			"path": "res://dialogic/jessica.png"
+			"path": "res://dialogic/characters/alice.png"
 		}
 	],
-	"scale": 100,
+	"scale": 30,
 	"theme": ""
 }
