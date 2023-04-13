@@ -1,11 +1,11 @@
 [gd_scene load_steps=10 format=2]
 
 [ext_resource path="res://code/game_butt_script.gd" type="Script" id=1]
-[ext_resource path="res://StyleBox/red.tres" type="StyleBox" id=2]
-[ext_resource path="res://StyleBox/green.tres" type="StyleBox" id=3]
-[ext_resource path="res://StyleBox/blue.tres" type="StyleBox" id=4]
-[ext_resource path="res://addons/animated_grid_container_plugin/animated_grid_container.gd" type="Script" id=5]
-[ext_resource path="res://Scenes/leoStuff/testing.gd" type="Script" id=6]
+[ext_resource path="res://Scenes/leoStuff/mini_game1/testing.gd" type="Script" id=2]
+[ext_resource path="res://addons/animated_grid_container_plugin/animated_grid_container.gd" type="Script" id=3]
+[ext_resource path="res://StyleBox/green.tres" type="StyleBox" id=4]
+[ext_resource path="res://StyleBox/red.tres" type="StyleBox" id=5]
+[ext_resource path="res://StyleBox/blue.tres" type="StyleBox" id=6]
 
 [sub_resource type="StyleBoxFlat" id=3]
 
@@ -32,7 +32,7 @@ margin_bottom = 210.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_styles/focus = SubResource( 3 )
-custom_styles/normal = ExtResource( 2 )
+custom_styles/normal = ExtResource( 5 )
 
 [node name="B4" type="Button" parent="GridContainer"]
 margin_left = 230.0
@@ -41,7 +41,7 @@ margin_bottom = 210.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_styles/focus = SubResource( 3 )
-custom_styles/normal = ExtResource( 3 )
+custom_styles/normal = ExtResource( 4 )
 
 [node name="C4" type="Button" parent="GridContainer"]
 margin_left = 460.0
@@ -50,7 +50,7 @@ margin_bottom = 210.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_styles/focus = SubResource( 3 )
-custom_styles/normal = ExtResource( 4 )
+custom_styles/normal = ExtResource( 6 )
 
 [node name="D4" type="Button" parent="GridContainer"]
 margin_left = 690.0
@@ -59,7 +59,7 @@ margin_bottom = 210.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_styles/focus = SubResource( 1 )
-custom_styles/normal = ExtResource( 2 )
+custom_styles/normal = ExtResource( 5 )
 
 [node name="A3" type="Button" parent="GridContainer"]
 margin_top = 230.0
@@ -68,7 +68,7 @@ margin_bottom = 440.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_styles/focus = SubResource( 2 )
-custom_styles/normal = ExtResource( 2 )
+custom_styles/normal = ExtResource( 5 )
 
 [node name="B3" type="Button" parent="GridContainer"]
 margin_left = 230.0
@@ -78,7 +78,7 @@ margin_bottom = 440.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_styles/focus = SubResource( 2 )
-custom_styles/normal = ExtResource( 3 )
+custom_styles/normal = ExtResource( 4 )
 
 [node name="C3" type="Button" parent="GridContainer"]
 margin_left = 460.0
@@ -88,7 +88,7 @@ margin_bottom = 440.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_styles/focus = SubResource( 2 )
-custom_styles/normal = ExtResource( 4 )
+custom_styles/normal = ExtResource( 6 )
 
 [node name="D3" type="Button" parent="GridContainer"]
 margin_left = 690.0
@@ -98,7 +98,7 @@ margin_bottom = 440.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_styles/focus = SubResource( 2 )
-custom_styles/normal = ExtResource( 2 )
+custom_styles/normal = ExtResource( 5 )
 
 [node name="A2" type="Button" parent="GridContainer"]
 margin_top = 460.0
@@ -107,7 +107,7 @@ margin_bottom = 670.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_styles/focus = SubResource( 2 )
-custom_styles/normal = ExtResource( 2 )
+custom_styles/normal = ExtResource( 5 )
 
 [node name="B2" type="Button" parent="GridContainer"]
 margin_left = 230.0
@@ -117,7 +117,7 @@ margin_bottom = 670.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_styles/focus = SubResource( 2 )
-custom_styles/normal = ExtResource( 3 )
+custom_styles/normal = ExtResource( 4 )
 
 [node name="C2" type="Button" parent="GridContainer"]
 margin_left = 460.0
@@ -127,7 +127,7 @@ margin_bottom = 670.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_styles/focus = SubResource( 2 )
-custom_styles/normal = ExtResource( 4 )
+custom_styles/normal = ExtResource( 6 )
 
 [node name="D2" type="Button" parent="GridContainer"]
 margin_left = 690.0
@@ -137,7 +137,7 @@ margin_bottom = 670.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_styles/focus = SubResource( 2 )
-custom_styles/normal = ExtResource( 2 )
+custom_styles/normal = ExtResource( 5 )
 
 [node name="A1" type="Button" parent="GridContainer"]
 margin_top = 690.0
@@ -146,7 +146,7 @@ margin_bottom = 900.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_styles/focus = SubResource( 2 )
-custom_styles/normal = ExtResource( 2 )
+custom_styles/normal = ExtResource( 5 )
 
 [node name="B1" type="Button" parent="GridContainer"]
 margin_left = 230.0
@@ -156,7 +156,7 @@ margin_bottom = 900.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_styles/focus = SubResource( 2 )
-custom_styles/normal = ExtResource( 3 )
+custom_styles/normal = ExtResource( 4 )
 
 [node name="C1" type="Button" parent="GridContainer"]
 margin_left = 460.0
@@ -166,7 +166,7 @@ margin_bottom = 900.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_styles/focus = SubResource( 2 )
-custom_styles/normal = ExtResource( 4 )
+custom_styles/normal = ExtResource( 6 )
 
 [node name="D1" type="Button" parent="GridContainer"]
 margin_left = 690.0
@@ -176,12 +176,12 @@ margin_bottom = 900.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_styles/focus = SubResource( 2 )
-custom_styles/normal = ExtResource( 2 )
+custom_styles/normal = ExtResource( 5 )
 
 [node name="Control" type="Control" parent="."]
 margin_right = 40.0
 margin_bottom = 40.0
-script = ExtResource( 6 )
+script = ExtResource( 2 )
 
 [node name="animated" type="Container" parent="Control"]
 margin_left = 171.0
@@ -189,7 +189,7 @@ margin_top = 157.0
 margin_right = 3000.0
 margin_bottom = 3000.0
 mouse_filter = 1
-script = ExtResource( 5 )
+script = ExtResource( 3 )
 rows = 4
 horizontal_separation = 5.0
 vertical_separation = 5.0
@@ -202,7 +202,7 @@ margin_bottom = 176.75
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_styles/focus = SubResource( 3 )
-custom_styles/normal = ExtResource( 2 )
+custom_styles/normal = ExtResource( 5 )
 
 [node name="B4" type="Button" parent="Control/animated"]
 margin_left = 180.875
@@ -211,7 +211,7 @@ margin_bottom = 176.75
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_styles/focus = SubResource( 3 )
-custom_styles/normal = ExtResource( 3 )
+custom_styles/normal = ExtResource( 4 )
 
 [node name="C4" type="Button" parent="Control/animated"]
 margin_left = 361.75
@@ -220,7 +220,7 @@ margin_bottom = 176.75
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_styles/focus = SubResource( 3 )
-custom_styles/normal = ExtResource( 4 )
+custom_styles/normal = ExtResource( 6 )
 
 [node name="D4" type="Button" parent="Control/animated"]
 margin_left = 542.625
@@ -229,7 +229,7 @@ margin_bottom = 176.75
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_styles/focus = SubResource( 1 )
-custom_styles/normal = ExtResource( 2 )
+custom_styles/normal = ExtResource( 5 )
 
 [node name="A3" type="Button" parent="Control/animated"]
 margin_top = 181.75
@@ -238,7 +238,7 @@ margin_bottom = 358.5
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_styles/focus = SubResource( 2 )
-custom_styles/normal = ExtResource( 2 )
+custom_styles/normal = ExtResource( 5 )
 
 [node name="B3" type="Button" parent="Control/animated"]
 margin_left = 180.875
@@ -248,7 +248,7 @@ margin_bottom = 358.5
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_styles/focus = SubResource( 2 )
-custom_styles/normal = ExtResource( 3 )
+custom_styles/normal = ExtResource( 4 )
 
 [node name="C3" type="Button" parent="Control/animated"]
 margin_left = 361.75
@@ -258,7 +258,7 @@ margin_bottom = 358.5
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_styles/focus = SubResource( 2 )
-custom_styles/normal = ExtResource( 4 )
+custom_styles/normal = ExtResource( 6 )
 
 [node name="D3" type="Button" parent="Control/animated"]
 margin_left = 542.625
@@ -268,7 +268,7 @@ margin_bottom = 358.5
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_styles/focus = SubResource( 2 )
-custom_styles/normal = ExtResource( 2 )
+custom_styles/normal = ExtResource( 5 )
 
 [node name="A2" type="Button" parent="Control/animated"]
 margin_top = 363.5
@@ -277,7 +277,7 @@ margin_bottom = 540.25
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_styles/focus = SubResource( 2 )
-custom_styles/normal = ExtResource( 2 )
+custom_styles/normal = ExtResource( 5 )
 
 [node name="B2" type="Button" parent="Control/animated"]
 margin_left = 180.875
@@ -287,7 +287,7 @@ margin_bottom = 540.25
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_styles/focus = SubResource( 2 )
-custom_styles/normal = ExtResource( 3 )
+custom_styles/normal = ExtResource( 4 )
 
 [node name="C2" type="Button" parent="Control/animated"]
 margin_left = 361.75
@@ -297,7 +297,7 @@ margin_bottom = 540.25
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_styles/focus = SubResource( 2 )
-custom_styles/normal = ExtResource( 4 )
+custom_styles/normal = ExtResource( 6 )
 
 [node name="D2" type="Button" parent="Control/animated"]
 margin_left = 542.625
@@ -307,7 +307,7 @@ margin_bottom = 540.25
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_styles/focus = SubResource( 2 )
-custom_styles/normal = ExtResource( 2 )
+custom_styles/normal = ExtResource( 5 )
 
 [node name="A1" type="Button" parent="Control/animated"]
 margin_top = 545.25
@@ -316,7 +316,7 @@ margin_bottom = 722.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_styles/focus = SubResource( 2 )
-custom_styles/normal = ExtResource( 2 )
+custom_styles/normal = ExtResource( 5 )
 
 [node name="B1" type="Button" parent="Control/animated"]
 margin_left = 180.875
@@ -326,7 +326,7 @@ margin_bottom = 722.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_styles/focus = SubResource( 2 )
-custom_styles/normal = ExtResource( 3 )
+custom_styles/normal = ExtResource( 4 )
 
 [node name="C1" type="Button" parent="Control/animated"]
 margin_left = 361.75
@@ -336,7 +336,7 @@ margin_bottom = 722.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_styles/focus = SubResource( 2 )
-custom_styles/normal = ExtResource( 4 )
+custom_styles/normal = ExtResource( 6 )
 
 [node name="D1" type="Button" parent="Control/animated"]
 margin_left = 542.625
@@ -346,7 +346,7 @@ margin_bottom = 722.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_styles/focus = SubResource( 2 )
-custom_styles/normal = ExtResource( 2 )
+custom_styles/normal = ExtResource( 5 )
 
 [connection signal="pressed" from="GridContainer/A4" to="GridContainer" method="_on_A4_pressed"]
 [connection signal="pressed" from="GridContainer/B4" to="GridContainer" method="_on_B4_pressed"]

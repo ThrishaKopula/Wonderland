@@ -1,10 +1,10 @@
 [gd_scene load_steps=9 format=2]
 
-[ext_resource path="res://StyleBox/green.tres" type="StyleBox" id=1]
-[ext_resource path="res://StyleBox/red.tres" type="StyleBox" id=2]
-[ext_resource path="res://StyleBox/blue.tres" type="StyleBox" id=3]
-[ext_resource path="res://Scenes/leoStuff/testing.gd" type="Script" id=4]
-[ext_resource path="res://addons/animated_grid_container_plugin/animated_grid_container.gd" type="Script" id=5]
+[ext_resource path="res://Scenes/leoStuff/mini_game1/testing.gd" type="Script" id=1]
+[ext_resource path="res://addons/animated_grid_container_plugin/animated_grid_container.gd" type="Script" id=2]
+[ext_resource path="res://StyleBox/green.tres" type="StyleBox" id=3]
+[ext_resource path="res://StyleBox/red.tres" type="StyleBox" id=4]
+[ext_resource path="res://StyleBox/blue.tres" type="StyleBox" id=5]
 
 [sub_resource type="StyleBoxFlat" id=3]
 
@@ -15,13 +15,13 @@
 [node name="Control" type="Control"]
 margin_right = 40.0
 margin_bottom = 40.0
-script = ExtResource( 4 )
+script = ExtResource( 1 )
 
 [node name="AnimatedGridContainer2" type="Container" parent="."]
 margin_right = 1920.0
 margin_bottom = 1080.0
 mouse_filter = 1
-script = ExtResource( 5 )
+script = ExtResource( 2 )
 rows = 4
 horizontal_separation = 5.0
 vertical_separation = 5.0
@@ -34,7 +34,7 @@ margin_bottom = 66.5625
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_styles/focus = SubResource( 3 )
-custom_styles/normal = ExtResource( 2 )
+custom_styles/normal = ExtResource( 4 )
 
 [node name="B4" type="Button" parent="AnimatedGridContainer2"]
 margin_left = 124.063
@@ -43,7 +43,7 @@ margin_bottom = 66.5625
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_styles/focus = SubResource( 3 )
-custom_styles/normal = ExtResource( 1 )
+custom_styles/normal = ExtResource( 3 )
 
 [node name="C4" type="Button" parent="AnimatedGridContainer2"]
 margin_left = 248.125
@@ -52,7 +52,7 @@ margin_bottom = 66.5625
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_styles/focus = SubResource( 3 )
-custom_styles/normal = ExtResource( 3 )
+custom_styles/normal = ExtResource( 5 )
 
 [node name="D4" type="Button" parent="AnimatedGridContainer2"]
 margin_left = 372.188
@@ -61,7 +61,7 @@ margin_bottom = 66.5625
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_styles/focus = SubResource( 1 )
-custom_styles/normal = ExtResource( 2 )
+custom_styles/normal = ExtResource( 4 )
 
 [node name="A3" type="Button" parent="AnimatedGridContainer2"]
 margin_top = 71.5625
@@ -70,7 +70,7 @@ margin_bottom = 138.125
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_styles/focus = SubResource( 2 )
-custom_styles/normal = ExtResource( 2 )
+custom_styles/normal = ExtResource( 4 )
 
 [node name="B3" type="Button" parent="AnimatedGridContainer2"]
 margin_left = 124.063
@@ -80,7 +80,7 @@ margin_bottom = 138.125
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_styles/focus = SubResource( 2 )
-custom_styles/normal = ExtResource( 1 )
+custom_styles/normal = ExtResource( 3 )
 
 [node name="C3" type="Button" parent="AnimatedGridContainer2"]
 margin_left = 248.125
@@ -90,7 +90,7 @@ margin_bottom = 138.125
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_styles/focus = SubResource( 2 )
-custom_styles/normal = ExtResource( 3 )
+custom_styles/normal = ExtResource( 5 )
 
 [node name="D3" type="Button" parent="AnimatedGridContainer2"]
 margin_left = 372.188
@@ -100,7 +100,7 @@ margin_bottom = 138.125
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_styles/focus = SubResource( 2 )
-custom_styles/normal = ExtResource( 2 )
+custom_styles/normal = ExtResource( 4 )
 
 [node name="A2" type="Button" parent="AnimatedGridContainer2"]
 margin_top = 143.125
@@ -109,7 +109,7 @@ margin_bottom = 209.688
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_styles/focus = SubResource( 2 )
-custom_styles/normal = ExtResource( 2 )
+custom_styles/normal = ExtResource( 4 )
 
 [node name="B2" type="Button" parent="AnimatedGridContainer2"]
 margin_left = 124.063
@@ -119,7 +119,7 @@ margin_bottom = 209.688
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_styles/focus = SubResource( 2 )
-custom_styles/normal = ExtResource( 1 )
+custom_styles/normal = ExtResource( 3 )
 
 [node name="C2" type="Button" parent="AnimatedGridContainer2"]
 margin_left = 248.125
@@ -129,7 +129,7 @@ margin_bottom = 209.688
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_styles/focus = SubResource( 2 )
-custom_styles/normal = ExtResource( 3 )
+custom_styles/normal = ExtResource( 5 )
 
 [node name="D2" type="Button" parent="AnimatedGridContainer2"]
 margin_left = 372.188
@@ -139,7 +139,7 @@ margin_bottom = 209.688
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_styles/focus = SubResource( 2 )
-custom_styles/normal = ExtResource( 2 )
+custom_styles/normal = ExtResource( 4 )
 
 [node name="A1" type="Button" parent="AnimatedGridContainer2"]
 margin_top = 214.688
@@ -148,7 +148,7 @@ margin_bottom = 281.25
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_styles/focus = SubResource( 2 )
-custom_styles/normal = ExtResource( 2 )
+custom_styles/normal = ExtResource( 4 )
 
 [node name="B1" type="Button" parent="AnimatedGridContainer2"]
 margin_left = 124.063
@@ -158,7 +158,7 @@ margin_bottom = 281.25
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_styles/focus = SubResource( 2 )
-custom_styles/normal = ExtResource( 1 )
+custom_styles/normal = ExtResource( 3 )
 
 [node name="C1" type="Button" parent="AnimatedGridContainer2"]
 margin_left = 248.125
@@ -168,7 +168,7 @@ margin_bottom = 281.25
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_styles/focus = SubResource( 2 )
-custom_styles/normal = ExtResource( 3 )
+custom_styles/normal = ExtResource( 5 )
 
 [node name="D1" type="Button" parent="AnimatedGridContainer2"]
 margin_left = 372.188
@@ -178,7 +178,7 @@ margin_bottom = 281.25
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_styles/focus = SubResource( 2 )
-custom_styles/normal = ExtResource( 2 )
+custom_styles/normal = ExtResource( 4 )
 
 [connection signal="pressed" from="AnimatedGridContainer2/A4" to="." method="_on_A4_pressed"]
 [connection signal="pressed" from="AnimatedGridContainer2/B4" to="." method="_on_B4_pressed"]
