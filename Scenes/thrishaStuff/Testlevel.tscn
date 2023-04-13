@@ -1,0 +1,102 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://dialogic/dorm.png" type="Texture" id=4]
+
+[sub_resource type="GDScript" id=1]
+script/source = "extends Node2D
+
+
+# Declare member variables here. Examples:
+# var a = 2
+# var b = \"text\"
+var isMapInteracted = false
+var isAlisBedInteracted = false
+var isOtherBedInteracted = false
+var isMirrorInteracted = false
+
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	var dialog = Dialogic.start(\"movingIn\")
+	add_child(dialog)
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+#func _process(delta):
+#	pass
+
+func _on_mirror_pressed():
+	var dialog = Dialogic.start(\"ifMirrorClicked\")
+	add_child(dialog)
+	yield(dialog, 'timeline_end')
+	isMirrorInteracted = true
+	checkAllInteractions()
+
+func _on_bed_Other_pressed():
+	var dialog = Dialogic.start(\"ifOtherBedClicked\")
+	add_child(dialog)
+	yield(dialog, 'timeline_end')
+	isOtherBedInteracted = true
+	checkAllInteractions()
+
+func _on_map_pressed():
+	var dialog = Dialogic.start(\"ifMapClicked\")
+	add_child(dialog)
+	yield(dialog, 'timeline_end')
+	isMapInteracted = true
+	checkAllInteractions()
+
+func _on_bed_Alistair_pressed():
+	var dialog = Dialogic.start(\"ifBedClicked\")
+	add_child(dialog)
+	yield(dialog, 'timeline_end')
+	isAlisBedInteracted = true
+	checkAllInteractions()
+ 
+func checkAllInteractions():
+	if (isMapInteracted && isMirrorInteracted && isOtherBedInteracted && isAlisBedInteracted):
+		var dialog1 = Dialogic.start(\"movingInPart2\")
+		add_child(dialog1)
+"
+
+[node name="TestLevel" type="Node2D"]
+script = SubResource( 1 )
+
+[node name="background_dorm" type="TextureRect" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+texture = ExtResource( 4 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="bed_Alistair" type="Button" parent="."]
+margin_left = 164.0
+margin_top = 54.0
+margin_right = 319.0
+margin_bottom = 151.0
+text = "Alistair Bed"
+
+[node name="mirror" type="Button" parent="."]
+margin_left = 340.0
+margin_top = 55.0
+margin_right = 476.0
+margin_bottom = 152.0
+text = "Mirror"
+
+[node name="bed_Other" type="Button" parent="."]
+margin_left = 502.0
+margin_top = 53.0
+margin_right = 639.0
+margin_bottom = 152.0
+text = "Other Bed"
+
+[node name="map" type="Button" parent="."]
+margin_left = 40.0
+margin_top = 56.0
+margin_right = 148.0
+margin_bottom = 150.0
+text = "Map"
+
+[connection signal="pressed" from="bed_Alistair" to="." method="_on_bed_Alistair_pressed"]
+[connection signal="pressed" from="mirror" to="." method="_on_mirror_pressed"]
+[connection signal="pressed" from="bed_Other" to="." method="_on_bed_Other_pressed"]
+[connection signal="pressed" from="map" to="." method="_on_map_pressed"]
