@@ -29,12 +29,13 @@ func _ready():
 
 
 func _on_A4_pressed():
-	
 	swap([0,0],$A4)
+	#swap([0,0],$A4)
 	pass # Replace with function body.
 
 
 func _on_B4_pressed():
+	print($B4.get_index())
 	swap([0,1],$B4)
 	pass # Replace with function body.
 
@@ -127,17 +128,17 @@ func swap(current,item):
 		
 		matrix[clicked[0]][clicked[1]] = matrix[current[0]][current[1]]
 		matrix[current[0]][current[1]] = temp
-		
+		clicked = [-1,-1]
 		
 		var temp2 = clicked_texture.get("custom_styles/normal")
 		clicked_texture.set("custom_styles/normal",item.get("custom_styles/normal"))
-		
+
 		item.set("custom_styles/normal",temp2)
-		clicked = [-1,-1]
+		
+		
 		item.release_focus()
 		
 		var mx = ""
-		
 		for x in 4:
 			for y in 4:
 				mx += matrix[x][y]

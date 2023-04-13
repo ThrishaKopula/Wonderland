@@ -96,7 +96,7 @@ window/size/resizable=false
 
 [editor_plugins]
 
-enabled=PoolStringArray( "res://addons/dialogic/plugin.cfg" )
+enabled=PoolStringArray( "res://addons/animated_grid_container_plugin/plugin.cfg", "res://addons/dialogic/plugin.cfg" )
 
 [gui]
 
