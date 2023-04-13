@@ -1,6 +1,30 @@
 {
 	"events": [
 		{
+			"background": "res://dialogic/dorm.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"animation": "slide_in_left.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
@@ -23,6 +47,10 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "It’s a double room, but it doesn’t look any more spacious than my broom closet."
+		},
+		{
+			"change_timeline": "timeline-1681253910.json",
+			"event_id": "dialogic_020"
 		}
 	],
 	"metadata": {

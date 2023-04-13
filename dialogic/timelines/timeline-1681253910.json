@@ -184,6 +184,12 @@
 			"z_index": 0
 		},
 		{
+			"character": "character-1681086547.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I sure can see! There’s two beds! And look at this spacious floor plan! And I get a whole desk?!"
+		},
+		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
@@ -452,7 +458,31 @@
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
+			"text": "( Huh…What…? )"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( …Whaaaaat? )"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
 			"text": "( Man… there’s no way I passed that… )"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( Ugh… )"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( I guess I’ll head back to my dorm… )"
 		},
 		{
 			"background": "res://dialogic/dorm.png",
@@ -732,7 +762,7 @@
 			"character": "character-1681338302.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Excuse us for a moment, uh… Mr…?"
+			"text": "Excuse us for a moment, uh… Sir…?"
 		},
 		{
 			"character": "character-1681086055.json",
@@ -744,7 +774,13 @@
 			"character": "character-1681338302.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Excuse us, Mr. Worthington."
+			"text": "Excuse us, Sir Worthington."
+		},
+		{
+			"character": "character-1681338302.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "March, come here for a moment…"
 		},
 		{
 			"background": "res://dialogic/teaParty.jpeg",
@@ -830,7 +866,7 @@
 			"character": "character-1681338302.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Ahem! Mr. Worthington, a moment of your time, if you will?"
+			"text": "Ahem! Sir Worthington, a moment of your time, if you will?"
 		},
 		{
 			"character": "character-1681086055.json",
@@ -1471,6 +1507,22 @@
 			"text": "How interesting…"
 		},
 		{
+			"background": "res://dialogic/black.jpeg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( So it really does work, then… )"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( Hmm… Maybe their offer is worth listening to… )"
+		},
+		{
 			"background": "res://dialogic/dorm.png",
 			"event_id": "dialogic_021"
 		},
@@ -1989,6 +2041,11 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "A–AAAAAAAAHHHHHHHH!!"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 2
 		},
 		{
 			"background": "res://dialogic/dorm.png",
