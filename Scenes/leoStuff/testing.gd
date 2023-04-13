@@ -12,7 +12,7 @@ func swap(item):
 
 	if clicked_node == null:
 		clicked_node = item
-		print(clicked_node.get_index())
+		
 		
 	elif clicked_node.get_index() == item.get_index():
 		item.release_focus()
