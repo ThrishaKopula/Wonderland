@@ -1,7 +1,7 @@
 [gd_scene load_steps=10 format=2]
 
-[ext_resource path="res://code/game_butt_script.gd" type="Script" id=1]
-[ext_resource path="res://Scenes/leoStuff/mini_game1/testing.gd" type="Script" id=2]
+[ext_resource path="res://Scenes/leoStuff/mini_game1/game_butt_script.gd" type="Script" id=1]
+[ext_resource path="res://Scenes/leoStuff/mini_game1/mini_game1_logic.gd" type="Script" id=2]
 [ext_resource path="res://addons/animated_grid_container_plugin/animated_grid_container.gd" type="Script" id=3]
 [ext_resource path="res://StyleBox/green.tres" type="StyleBox" id=4]
 [ext_resource path="res://StyleBox/red.tres" type="StyleBox" id=5]

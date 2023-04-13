@@ -13,20 +13,8 @@ var matrix = [["R","G","B","R"], ["R","G","B","R"],["R","G","B","R"],["R","G","B
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	
-#	for x in 4:
-#		for y in 4:
-#			print(matrix[x][y])
-#		print("!")
-	
-	
-	pass # Replace with function body.
 
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
-#	pass
-
+	pass
 
 func _on_A4_pressed():
 	swap([0,0],$A4)
@@ -152,3 +140,4 @@ func swap(current,item):
 		clicked_texture = item
 	
 	pass
+
