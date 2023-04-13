@@ -1,7 +1,7 @@
 {
 	"events": [
 		{
-			"animation": "slide_in_left.gd",
+			"animation": "[Default]",
 			"animation_length": 0,
 			"change_mirror_portrait": false,
 			"change_z_index": false,
@@ -11,7 +11,7 @@
 			"portrait": "Default",
 			"portrait_definition": "",
 			"position": {
-				"0": false,
+				"0": true,
 				"1": false,
 				"2": false,
 				"3": false,

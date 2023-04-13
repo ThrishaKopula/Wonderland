@@ -1,17 +1,18 @@
 {
 	"events": [
 		{
-			"animation": "slide_in_left.gd",
-			"animation_length": 0,
+			"animation": "[Default]",
+			"animation_length": 1,
+			"animation_wait": false,
 			"change_mirror_portrait": false,
 			"change_z_index": false,
-			"character": "",
+			"character": "character-1681086055.json",
 			"event_id": "dialogic_002",
 			"mirror_portrait": false,
-			"portrait": "",
+			"portrait": "Default",
 			"portrait_definition": "",
 			"position": {
-				"0": false,
+				"0": true,
 				"1": false,
 				"2": false,
 				"3": false,
