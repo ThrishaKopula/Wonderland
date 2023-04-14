@@ -1,0 +1,251 @@
+{
+	"events": [
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Psst… I got the goods."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681439104.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681439104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh! You’ve brought my [b]strings,[/b] lad!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sure did, now it’s time to hold up your side of the deal."
+		},
+		{
+			"character": "character-1681439104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "One moment! Let me fix my lyre!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( Are you serious… ugh, fine, just hurry up. )"
+		},
+		{
+			"background": "res://dialogic/black.jpeg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The Bard fixes his trusty lyre and plays a little tune…"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "It’s lovely, and you can feel the tavern’s atmosphere shift."
+		},
+		{
+			"background": "",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1681439104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Whee-hee-hee! This sounds simply euphonious! Thanks a bunch!"
+		},
+		{
+			"character": "character-1681439104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Now you were looking for parts of a music box, weren’t you?"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yes! That’s right."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You said you’ve seen a lot of people come and go. Did any of them ever talk about seeing a little [b]Ballerina[/b]?"
+		},
+		{
+			"character": "character-1681439104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oho! A [b]Ballerina[/b]? I swear that I’ve seen it in this very tavern!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Really!"
+		},
+		{
+			"character": "character-1681439104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yes, really, but I can’t remember exactly where…"
+		},
+		{
+			"character": "character-1681439104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hey, Bartender! We have a [b]Ballerina[/b] somewhere around here, don’t we?"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681452544.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681452544.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "*giggles*"
+		},
+		{
+			"character": "character-1681439104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Bartender…"
+		},
+		{
+			"character": "character-1681452544.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "*hic* Hehe…"
+		},
+		{
+			"character": "character-1681439104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh, this always happens. "
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Huh?"
+		},
+		{
+			"character": "character-1681439104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I know he’s seen a [b]Ballerina[/b], but it looks like he’s too drunk to speak right now…"
+		},
+		{
+			"character": "character-1681439104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hand me that glass of water, I’ll help him sober up."
+		},
+		{
+			"character": "character-1681439104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh, but someone needs to take over the bar."
+		},
+		{
+			"character": "character-1681439104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…You look capable."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Excuse me?"
+		},
+		{
+			"character": "character-1681439104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You want that [b]Ballerina [/b] or not?"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…Fine, fine! What do I need to do?"
+		},
+		{
+			"character": "character-1681439104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The Bartender keeps most of his [b]ingredients[/b] here, but you might need to get a few from the Vendors in town."
+		},
+		{
+			"character": "character-1681439104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Come back once you get the [b]ingredients[/b]."
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1681452284.json",
+		"name": "deliverStringsToBard"
+	}
+}

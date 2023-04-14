@@ -26,6 +26,10 @@
 			"z_index": 0
 		},
 		{
+			"background": "res://dialogic/dorm.png",
+			"event_id": "dialogic_021"
+		},
+		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
 			"portrait": "",

@@ -1,0 +1,169 @@
+{
+	"events": [
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681451149.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681451149.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hmm…Hmmm, hm… hmmmm…"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…Hello there! Uh…Um, nice tune you got going there!"
+		},
+		{
+			"character": "character-1681451149.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "*scoffs* Not nice enough…"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( Oh my god…  I can’t believe I’m getting involved in this. )"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh, not nice enough for what?"
+		},
+		{
+			"character": "character-1681451149.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Not for what, for who."
+		},
+		{
+			"character": "character-1681451149.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "She’s so gorgeous and is always smiling at everyone! She has so many friends too, she’s so sociable! I just can’t work up the courage to play her my song…"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Uh…"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Who are we talking about?"
+		},
+		{
+			"character": "character-1681451149.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "That beautiful cheerleader who practices out on the sports field!"
+		},
+		{
+			"character": "character-1681451149.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I even wrote her a letter, but there’s no way someone like me could ever approach someone like her!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( This’ll be a hassle, but she looks like someone who would carry some [b]strings[/b]… )"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( Maybe if I helped her out, I’d get some. )"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hey, uh… I could help deliver your letter."
+		},
+		{
+			"character": "character-1681451149.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "H-Huh?"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yeah! I can do that for you! I’m coincidentally looking for some [b]strings[/b]. Maybe you could give me some for delivering the letter?"
+		},
+		{
+			"character": "character-1681451149.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hmm… I do have extra [b]strings[/b]… Plus I definitely need a messenger…"
+		},
+		{
+			"character": "character-1681451149.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Okay, here’s the [b]letter[/b]. She should be on the sports field at this time of day."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Okay, I’ll be back in a bit."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( Guess I should head over there now… )"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1681440512.json",
+		"name": "searchForStrings"
+	}
+}

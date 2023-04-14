@@ -1,0 +1,145 @@
+{
+	"events": [
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681439104.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681439104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ughhh…"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hello there, lovely musician–"
+		},
+		{
+			"character": "character-1681439104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sorry lad, no tunes today. My lyre’s strings are broken."
+		},
+		{
+			"character": "character-1681439104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "But let’s talk about you for a minute."
+		},
+		{
+			"character": "character-1681439104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I haven’t seen you around here–and I know everyone."
+		},
+		{
+			"character": "character-1681439104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "What brings you to the tavern?"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( Why am I getting interrogated, I came here to ask questions! )"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( Although, maybe this Bard’s got some intel… )"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I, uh… I’m looking for parts of my friend's music box!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You like music, right? Surely, you can understand how important the situation is?"
+		},
+		{
+			"character": "character-1681439104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh, what a coincidence! I need parts for my lyre too!"
+		},
+		{
+			"character": "character-1681439104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "How about this, if you can procure a nice set of [b]strings[/b] for me, I’ll let you in on everything I know."
+		},
+		{
+			"character": "character-1681439104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "A lot of different folk visit the tavern, and I have songs about all of them! I might even be beginning to remember a song about a music box, so hurry along and get my [b]strings[/b]."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( What did I get dragged into… )"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( I guess I’ve got no choice but to go along with it. He does seem to have information. )"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( I wonder where I can get [b]strings[/b]… I should probably check around here and at school too… )"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1681439129.json",
+		"name": "initiateMainQuest"
+	}
+}

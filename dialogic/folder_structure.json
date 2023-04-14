@@ -11,7 +11,11 @@
 				"character-1681272416.json",
 				"character-1681337913.json",
 				"character-1681338060.json",
-				"character-1681338302.json"
+				"character-1681338302.json",
+				"character-1681439104.json",
+				"character-1681451149.json",
+				"character-1681451499.json",
+				"character-1681452544.json"
 			],
 			"folders": {
 
@@ -47,12 +51,17 @@
 		},
 		"Timelines": {
 			"files": [
-
+				"timeline-1681428466.json"
 			],
 			"folders": {
 				"Chapter 1": {
 					"files": [
-
+						"timeline-1681429308.json",
+						"timeline-1681439129.json",
+						"timeline-1681440512.json",
+						"timeline-1681451481.json",
+						"timeline-1681451808.json",
+						"timeline-1681452284.json"
 					],
 					"folders": {
 
@@ -80,13 +89,13 @@
 							},
 							"metadata": {
 								"color": null,
-								"folded": false
+								"folded": true
 							}
 						}
 					},
 					"metadata": {
 						"color": null,
-						"folded": false
+						"folded": true
 					}
 				}
 			},

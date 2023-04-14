@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=2]
 
-[ext_resource path="res://dialogic/dorm.png" type="Texture" id=4]
+[ext_resource path="res://dialogic/dorm.png" type="Texture" id=1]
 
 [sub_resource type="GDScript" id=1]
 script/source = "extends Node2D
@@ -14,6 +14,16 @@ var isAlisBedInteracted = false
 var isOtherBedInteracted = false
 var isMirrorInteracted = false
 
+var startQuest = false
+var isInitiateMainQuest = false
+var searchForStrings = false
+var deliverLetterToLover = false
+var reportBackToMusicGeek = false
+var deliverStringsToBard = false
+
+var bardCount = 0
+var musicGeekCount = 0
+var cheerleaderCount = 0
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	var dialog = Dialogic.start(\"movingIn\")
@@ -55,15 +65,61 @@ func checkAllInteractions():
 	if (isMapInteracted && isMirrorInteracted && isOtherBedInteracted && isAlisBedInteracted):
 		var dialog1 = Dialogic.start(\"movingInPart2\")
 		add_child(dialog1)
+		yield(dialog1, 'timeline_end')
+
+#CHAPTER 1 MAIN QUEST
+func _on_music_geek_pressed():
+	musicGeekCount = musicGeekCount + 1
+	if (isInitiateMainQuest):
+		var dialog = Dialogic.start(\"searchForStrings\")
+		add_child(dialog)
+		yield(dialog, 'timeline_end')
+		searchForStrings = true
+		isInitiateMainQuest = false
+	if(deliverLetterToLover):
+		var dialog = Dialogic.start(\"reportBackToMusicGeek\")
+		add_child(dialog)
+		yield(dialog, 'timeline_end')
+		reportBackToMusicGeek = true
+		deliverLetterToLover = false
+	if(musicGeekCount > 1 && searchForStrings == true && deliverLetterToLover == false):
+		print(\"can you just deliver it already\")
+
+func _on_bard_pressed():
+	bardCount = bardCount + 1
+	if(startQuest == false):
+		var dialog = Dialogic.start(\"initiateMainQuest\")
+		add_child(dialog)
+		yield(dialog, 'timeline_end')
+		startQuest = true
+		isInitiateMainQuest = true
+	if(reportBackToMusicGeek):
+		var dialog1 = Dialogic.start(\"deliverStringsToBard\")
+		add_child(dialog1)
+		yield(dialog1, 'timeline_end')
+		reportBackToMusicGeek = false
+	if(bardCount > 1 && startQuest == true && reportBackToMusicGeek == false):
+		print(\"where are my strings\")
+
+func _on_cheerleader_pressed():
+	if (searchForStrings):
+		var dialog = Dialogic.start(\"deliverLetterToLover\")
+		add_child(dialog)
+		yield(dialog, 'timeline_end')
+		deliverLetterToLover = true
+		searchForStrings = false
+	else:
+		print(\"can't talk rn\")
 "
 
 [node name="TestLevel" type="Node2D"]
 script = SubResource( 1 )
 
 [node name="background_dorm" type="TextureRect" parent="."]
+visible = false
 margin_right = 40.0
 margin_bottom = 40.0
-texture = ExtResource( 4 )
+texture = ExtResource( 1 )
 __meta__ = {
 "_edit_lock_": true
 }
@@ -96,7 +152,31 @@ margin_right = 148.0
 margin_bottom = 150.0
 text = "Map"
 
+[node name="bard" type="Button" parent="."]
+margin_left = 187.0
+margin_top = 403.0
+margin_right = 312.0
+margin_bottom = 490.0
+text = "BARD"
+
+[node name="music geek" type="Button" parent="."]
+margin_left = 184.0
+margin_top = 207.0
+margin_right = 324.0
+margin_bottom = 293.0
+text = "MUSIC GEEK"
+
+[node name="cheerleader" type="Button" parent="."]
+margin_left = 406.0
+margin_top = 324.0
+margin_right = 538.0
+margin_bottom = 398.0
+text = "CHEERLEADER"
+
 [connection signal="pressed" from="bed_Alistair" to="." method="_on_bed_Alistair_pressed"]
 [connection signal="pressed" from="mirror" to="." method="_on_mirror_pressed"]
 [connection signal="pressed" from="bed_Other" to="." method="_on_bed_Other_pressed"]
 [connection signal="pressed" from="map" to="." method="_on_map_pressed"]
+[connection signal="pressed" from="bard" to="." method="_on_bard_pressed"]
+[connection signal="pressed" from="music geek" to="." method="_on_music_geek_pressed"]
+[connection signal="pressed" from="cheerleader" to="." method="_on_cheerleader_pressed"]
