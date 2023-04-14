@@ -1,0 +1,245 @@
+{
+	"events": [
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681495641.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681495641.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "BEST PEACHES IN TOWN! RIGHT HERE!"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681495654.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681495654.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I'VE GOT LEMONS BETTER THAN THOSE PEACHES!"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681495659.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681495659.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "WELL LOOK NO FURTHER, THESE CHERRIES ARE BETTER THAN BOTH OF THOSE!"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681495850.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681495850.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "SHUT UP!"
+		},
+		{
+			"character": "character-1681495850.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "NO, YOU SHUT UP!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hey, hey! I need the [b]ingredients[/b] that the Bartender uses for his drinks!"
+		},
+		{
+			"character": "character-1681495641.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh yeah, he comes here often!"
+		},
+		{
+			"character": "character-1681495654.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yeah, we’ve got everything he needs!"
+		},
+		{
+			"character": "character-1681495659.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "But you aren’t our Bartender…"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh, um… just call me Alistair."
+		},
+		{
+			"character": "character-1681495654.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hiya Al, as long as you got the goods, we don’t mind who you are!"
+		},
+		{
+			"character": "character-1681495641.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yeah! What are you gonna trade us for?"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Huh? Uh…"
+		},
+		{
+			"character": "character-1681495654.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You didn’t think we’d just give them to you, did you?"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( I sorta hoped they would… )"
+		},
+		{
+			"character": "character-1681495659.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Listen here, mister. You aren’t one of our regulars now…"
+		},
+		{
+			"character": "character-1681495641.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "So we want some real nice things! Stuff we have never seen before!"
+		},
+		{
+			"character": "character-1681495654.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yeah, yeah! Nice otherworldly things!"
+		},
+		{
+			"character": "character-1681495654.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The walls of my house are looking a little bare lately, so I want something nice I [b]can put up[/b] on it."
+		},
+		{
+			"character": "character-1681495659.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I want something that I [b]can throw around[/b] to play with my best friend, my dog Doug!"
+		},
+		{
+			"character": "character-1681495641.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I would like something I [b]can use to add a splash of color[/b] to my stall! Bright colors always sell better!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( …Big requests from these guys… )"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( But it shouldn’t take me too long. I’m sure I can find these things… )"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Okay, I hear you."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I’ll be back with the best otherworldly things you guys will ever see!"
+		},
+		{
+			"character": "character-1681495850.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "AW YEAH!!"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1681495385.json",
+		"name": "getIngredientsFromVendors"
+	}
+}

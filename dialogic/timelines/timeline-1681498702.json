@@ -1,0 +1,275 @@
+{
+	"events": [
+		{
+			"background": "res://dialogic/black.jpeg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Whew! That was exhausting! I never want to do that again!"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681439104.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681439104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Don’t work much with people, do you?"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( I don’t work at all! )"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hah, no it's not that. I just didn’t think bartending would be this tiring."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I guess it doesn’t look hard when you’re the one drinking."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681452544.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681452544.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "That’s why I do both!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Looks like he’s sobered up a bit… I should ask him about the [b]Ballerina[/b]."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ahem! Bartender, I am looking for part of a music box, the little dancer inside it."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Have you seen a [b]Ballerina[/b] around here?"
+		},
+		{
+			"character": "character-1681439104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yes, I could have sworn seeing you with it quite a while back. Do you remember?"
+		},
+		{
+			"character": "character-1681452544.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…"
+		},
+		{
+			"character": "character-1681452544.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No, I don’t think I have seen a [b]Ballerina[/b] here."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( …Are you kidding? )"
+		},
+		{
+			"character": "character-1681439104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No, no! I swear you had one! It’s about this big… I swear it was silver…"
+		},
+		{
+			"character": "character-1681452544.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…!"
+		},
+		{
+			"character": "character-1681452544.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh, hold on! Could it be that thing…"
+		},
+		{
+			"character": "character-1681452544.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "*clink clink* *clank*"
+		},
+		{
+			"character": "character-1681452544.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "*CRASH*"
+		},
+		{
+			"character": "character-1681439104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "CAREFUL! THAT SCOTCH IS OLDER THAN YOUR GRANDMA!"
+		},
+		{
+			"character": "character-1681452544.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "AHA!"
+		},
+		{
+			"character": "character-1681452544.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Here you are."
+		},
+		{
+			"background": "",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1681452544.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I used it as a cork for this bottle of rum, it just happened to fit when the cork got lost."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( …Interesting replacement for a cork… but it’s what I need! No complaining here. )"
+		},
+		{
+			"background": "",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Here, I’ll take that."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…Th…"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…T-Thanks. Bye."
+		},
+		{
+			"character": "character-1681439104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "See you! Thanks again for the strings!"
+		},
+		{
+			"character": "character-1681452544.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Stop by for a drink if you’d like!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( That sounds nice… )"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( No, this is no time to get distracted. I should head back to tell Matthew the news. )"
+		},
+		{
+			"background": "res://dialogic/black.jpeg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"background": "",
+			"event_id": "dialogic_021"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1681498702.json",
+		"name": "getBallerinaFromBartender"
+	}
+}

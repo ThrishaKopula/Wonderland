@@ -5,20 +5,56 @@
 	"folders": {
 		"Characters": {
 			"files": [
-				"character-1681086055.json",
-				"character-1681086547.json",
-				"character-1681254232.json",
-				"character-1681272416.json",
-				"character-1681337913.json",
-				"character-1681338060.json",
-				"character-1681338302.json",
-				"character-1681439104.json",
-				"character-1681451149.json",
-				"character-1681451499.json",
-				"character-1681452544.json"
+
 			],
 			"folders": {
+				"Overworld": {
+					"files": [
+						"character-1681086055.json",
+						"character-1681272416.json",
+						"character-1681451149.json",
+						"character-1681451499.json"
+					],
+					"folders": {
 
+					},
+					"metadata": {
+						"color": null,
+						"folded": true
+					}
+				},
+				"Wonderland": {
+					"files": [
+						"character-1681086547.json",
+						"character-1681254232.json",
+						"character-1681337913.json",
+						"character-1681338060.json",
+						"character-1681338302.json",
+						"character-1681439104.json",
+						"character-1681452544.json"
+					],
+					"folders": {
+						"Plebs": {
+							"files": [
+								"character-1681495641.json",
+								"character-1681495654.json",
+								"character-1681495659.json",
+								"character-1681495850.json"
+							],
+							"folders": {
+
+							},
+							"metadata": {
+								"color": null,
+								"folded": true
+							}
+						}
+					},
+					"metadata": {
+						"color": null,
+						"folded": false
+					}
+				}
 			},
 			"metadata": {
 				"color": null,
@@ -61,7 +97,12 @@
 						"timeline-1681440512.json",
 						"timeline-1681451481.json",
 						"timeline-1681451808.json",
-						"timeline-1681452284.json"
+						"timeline-1681452284.json",
+						"timeline-1681495385.json",
+						"timeline-1681497225.json",
+						"timeline-1681498128.json",
+						"timeline-1681498702.json",
+						"timeline-1681499928.json"
 					],
 					"folders": {
 
@@ -89,7 +130,7 @@
 							},
 							"metadata": {
 								"color": null,
-								"folded": true
+								"folded": false
 							}
 						}
 					},

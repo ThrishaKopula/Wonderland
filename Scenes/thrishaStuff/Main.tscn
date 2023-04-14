@@ -102,6 +102,7 @@ func _on_bard_pressed():
 		print(\"where are my strings\")
 
 func _on_cheerleader_pressed():
+	cheerleaderCount = cheerleaderCount + 1
 	if (searchForStrings):
 		var dialog = Dialogic.start(\"deliverLetterToLover\")
 		add_child(dialog)
