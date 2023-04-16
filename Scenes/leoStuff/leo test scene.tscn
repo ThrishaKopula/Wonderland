@@ -1,8 +1,12 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://icon.png" type="Texture" id=1]
 [ext_resource path="res://Scenes/leoStuff/HUD/HUD.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Scenes/leoStuff/player.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Scenes/leoStuff/test_talk.gd" type="Script" id=4]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 220.5, 181 )
 
 [node name="test scene" type="Node2D"]
 
@@ -15,3 +19,18 @@ position = Vector2( 426, 848 )
 position = Vector2( 941.433, 845.433 )
 scale = Vector2( 7.23228, 6.79477 )
 texture = ExtResource( 1 )
+
+[node name="Area2D" type="Area2D" parent="."]
+script = ExtResource( 4 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2( -37, 857 )
+shape = SubResource( 1 )
+
+[node name="Sprite" type="Sprite" parent="Area2D/CollisionShape2D"]
+position = Vector2( 0.999989, -0.5 )
+scale = Vector2( 6.8125, 5.70313 )
+texture = ExtResource( 1 )
+
+[connection signal="body_entered" from="Area2D" to="Area2D" method="_on_Area2D_body_entered"]
+[connection signal="body_exited" from="Area2D" to="Area2D" method="_on_Area2D_body_exited"]
