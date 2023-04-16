@@ -27,3 +27,8 @@ func _on_Area2D_body_exited(body):
 	talk_able = false
 	print("not wow")
 	pass # Replace with function body.
+
+
+
+
+	pass # Replace with function body.
