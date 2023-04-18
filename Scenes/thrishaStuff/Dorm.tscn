@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Scenes/thrishaStuff/NPC.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Scenes/thrishaStuff/player.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Scenes/thrishaStuff/Map.gd" type="Script" id=3]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Mirror" parent="." instance=ExtResource( 1 )]
+position = Vector2( 481, 654 )
+
+[node name="Map" parent="." instance=ExtResource( 1 )]
+position = Vector2( 1387, 635 )
+script = ExtResource( 3 )
+
+[node name="player" parent="." instance=ExtResource( 2 )]
+position = Vector2( 912, 604 )
