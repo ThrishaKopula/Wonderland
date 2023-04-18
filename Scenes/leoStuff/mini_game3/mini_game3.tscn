@@ -133,3 +133,10 @@ anims/shuffle = SubResource( 2 )
 
 [editable path="Control/AnimatedGridContainer/J"]
 [editable path="Control/AnimatedGridContainer/J2"]
+[editable path="Control/AnimatedGridContainer/Q"]
+[editable path="Control/AnimatedGridContainer/Q2"]
+[editable path="Control/AnimatedGridContainer/K"]
+[editable path="Control/AnimatedGridContainer/K2"]
+[editable path="Control/AnimatedGridContainer/A"]
+[editable path="Control/AnimatedGridContainer/A2"]
+[editable path="Control/AnimatedGridContainer/Joker"]
