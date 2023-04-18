@@ -17,10 +17,12 @@ func _input(event):
 			var dialog = Dialogic.start("ifMirrorClicked")
 			dialog.pause_mode = Node.PAUSE_MODE_PROCESS
 			dialog.connect('timeline_end', self, 'unpause')
+
 			add_child(dialog)
 			
 func unpause(timeline_name):
 	get_tree().paused = false
+	active = false
 	
 func _on_NPC_body_entered(body):
 	if body.name == 'player':

@@ -3,9 +3,9 @@ extends Area2D
 var active = false
 
 # Called when the node enters the scene tree for the first time.
-#func _ready():
-#	connect("body_entered", self, "_on_NPC_body_entered")
-#	connect("body_exited", self, "_on_NPC_body_exited")
+func _ready():
+	connect("body_entered", self, "_on_NPC_body_entered")
+	connect("body_exited", self, "_on_NPC_body_exited")
 	
 func _process(_delta):
 	$QuestionMark.visible = active
@@ -21,6 +21,7 @@ func _input(event):
 			
 func unpause(timeline_name):
 	get_tree().paused = false
+	active = false
 	
 func _on_NPC_body_entered(body):
 	if body.name == 'player':
