@@ -1,5 +1,4 @@
-extends Sprite
-
+extends TextureButton
 
 var SHINE_TIME = .5
 
@@ -33,7 +32,6 @@ func shineBitch():
 	pass
 
 func _on_Button_mouse_entered():
-	print("in")
 	
 	icon.material.set_shader_param("onoff",1)
 	
@@ -41,8 +39,6 @@ func _on_Button_mouse_entered():
 
 
 func _on_Button_mouse_exited():
-	
-	print("out")
 	
 	icon.material.set_shader_param("onoff",0)
 	

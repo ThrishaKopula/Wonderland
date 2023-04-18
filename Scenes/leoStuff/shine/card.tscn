@@ -4,10 +4,9 @@
 [ext_resource path="res://Scenes/leoStuff/shine/shine.gd" type="Script" id=2]
 [ext_resource path="res://Scenes/leoStuff/shine/better_shine.tres" type="Material" id=3]
 
-[node name="icon" type="Sprite"]
+[node name="Card" type="TextureButton"]
 material = ExtResource( 3 )
-texture = ExtResource( 1 )
-centered = false
+texture_normal = ExtResource( 1 )
 script = ExtResource( 2 )
 
 [node name="Tween" type="Tween" parent="."]
@@ -17,7 +16,12 @@ playback/repeat = true
 [node name="Button" type="Button" parent="."]
 margin_right = 64.0
 margin_bottom = 64.0
+focus_mode = 0
+enabled_focus_mode = 0
 flat = true
+__meta__ = {
+"_edit_use_anchors_": true
+}
 
 [connection signal="mouse_entered" from="Button" to="." method="_on_Button_mouse_entered"]
 [connection signal="mouse_exited" from="Button" to="." method="_on_Button_mouse_exited"]
