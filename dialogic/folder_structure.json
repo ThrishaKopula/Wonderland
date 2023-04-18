@@ -58,7 +58,7 @@
 			},
 			"metadata": {
 				"color": null,
-				"folded": false
+				"folded": true
 			}
 		},
 		"Definitions": {
@@ -70,7 +70,7 @@
 			},
 			"metadata": {
 				"color": null,
-				"folded": false
+				"folded": true
 			}
 		},
 		"Themes": {
@@ -82,7 +82,7 @@
 			},
 			"metadata": {
 				"color": null,
-				"folded": false
+				"folded": true
 			}
 		},
 		"Timelines": {
@@ -105,7 +105,18 @@
 						"timeline-1681499928.json"
 					],
 					"folders": {
+						"basicNPCs": {
+							"files": [
+								"timeline-1681501715.json"
+							],
+							"folders": {
 
+							},
+							"metadata": {
+								"color": null,
+								"folded": false
+							}
+						}
 					},
 					"metadata": {
 						"color": null,
@@ -130,7 +141,7 @@
 							},
 							"metadata": {
 								"color": null,
-								"folded": false
+								"folded": true
 							}
 						}
 					},

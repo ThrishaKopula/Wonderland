@@ -1,6 +1,8 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://dialogic/dorm.png" type="Texture" id=1]
+[ext_resource path="res://Scenes/thrishaStuff/player.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Scenes/thrishaStuff/NPC.tscn" type="PackedScene" id=3]
 
 [sub_resource type="GDScript" id=1]
 script/source = "extends Node2D
@@ -111,6 +113,11 @@ func _on_cheerleader_pressed():
 		searchForStrings = false
 	else:
 		print(\"can't talk rn\")
+
+func _on_professor_pressed():
+	var dialog = Dialogic.start(\"professorCh1\")
+	add_child(dialog)
+	yield(dialog, 'timeline_end')
 "
 
 [node name="TestLevel" type="Node2D"]
@@ -174,6 +181,18 @@ margin_right = 538.0
 margin_bottom = 398.0
 text = "CHEERLEADER"
 
+[node name="professor" type="Button" parent="."]
+margin_left = 384.0
+margin_top = 208.0
+margin_right = 515.0
+margin_bottom = 287.0
+text = "PROFESSOR"
+
+[node name="player" parent="." instance=ExtResource( 2 )]
+
+[node name="NPC" parent="." instance=ExtResource( 3 )]
+position = Vector2( 1302, 491 )
+
 [connection signal="pressed" from="bed_Alistair" to="." method="_on_bed_Alistair_pressed"]
 [connection signal="pressed" from="mirror" to="." method="_on_mirror_pressed"]
 [connection signal="pressed" from="bed_Other" to="." method="_on_bed_Other_pressed"]
@@ -181,3 +200,4 @@ text = "CHEERLEADER"
 [connection signal="pressed" from="bard" to="." method="_on_bard_pressed"]
 [connection signal="pressed" from="music geek" to="." method="_on_music_geek_pressed"]
 [connection signal="pressed" from="cheerleader" to="." method="_on_cheerleader_pressed"]
+[connection signal="pressed" from="professor" to="." method="_on_professor_pressed"]
