@@ -1,182 +1,25 @@
-[gd_scene load_steps=10 format=2]
+[gd_scene load_steps=5 format=2]
 
-[ext_resource path="res://Scenes/leoStuff/mini_game1/game_butt_script.gd" type="Script" id=1]
+[ext_resource path="res://testing_object.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Scenes/leoStuff/mini_game1/mini_game1_logic.gd" type="Script" id=2]
 [ext_resource path="res://addons/animated_grid_container_plugin/animated_grid_container.gd" type="Script" id=3]
-[ext_resource path="res://StyleBox/green.tres" type="StyleBox" id=4]
-[ext_resource path="res://StyleBox/red.tres" type="StyleBox" id=5]
-[ext_resource path="res://StyleBox/blue.tres" type="StyleBox" id=6]
 
-[sub_resource type="StyleBoxFlat" id=3]
-
-[sub_resource type="StyleBoxFlat" id=1]
-
-[sub_resource type="StyleBoxFlat" id=2]
+[sub_resource type="Animation" id=4]
+resource_name = "testing"
+tracks/0/type = "value"
+tracks/0/path = NodePath("Control:script")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray(  ),
+"transitions": PoolRealArray(  ),
+"update": 1,
+"values": [  ]
+}
 
 [node name="game1" type="Node2D"]
-
-[node name="GridContainer" type="GridContainer" parent="."]
-visible = false
-margin_left = 100.0
-margin_top = 69.0
-margin_right = 1000.0
-margin_bottom = 969.0
-custom_constants/vseparation = 20
-custom_constants/hseparation = 20
-columns = 4
-script = ExtResource( 1 )
-
-[node name="A4" type="Button" parent="GridContainer"]
-margin_right = 210.0
-margin_bottom = 210.0
-size_flags_horizontal = 3
-size_flags_vertical = 3
-custom_styles/focus = SubResource( 3 )
-custom_styles/normal = ExtResource( 5 )
-
-[node name="B4" type="Button" parent="GridContainer"]
-margin_left = 230.0
-margin_right = 440.0
-margin_bottom = 210.0
-size_flags_horizontal = 3
-size_flags_vertical = 3
-custom_styles/focus = SubResource( 3 )
-custom_styles/normal = ExtResource( 4 )
-
-[node name="C4" type="Button" parent="GridContainer"]
-margin_left = 460.0
-margin_right = 670.0
-margin_bottom = 210.0
-size_flags_horizontal = 3
-size_flags_vertical = 3
-custom_styles/focus = SubResource( 3 )
-custom_styles/normal = ExtResource( 6 )
-
-[node name="D4" type="Button" parent="GridContainer"]
-margin_left = 690.0
-margin_right = 900.0
-margin_bottom = 210.0
-size_flags_horizontal = 3
-size_flags_vertical = 3
-custom_styles/focus = SubResource( 1 )
-custom_styles/normal = ExtResource( 5 )
-
-[node name="A3" type="Button" parent="GridContainer"]
-margin_top = 230.0
-margin_right = 210.0
-margin_bottom = 440.0
-size_flags_horizontal = 3
-size_flags_vertical = 3
-custom_styles/focus = SubResource( 2 )
-custom_styles/normal = ExtResource( 5 )
-
-[node name="B3" type="Button" parent="GridContainer"]
-margin_left = 230.0
-margin_top = 230.0
-margin_right = 440.0
-margin_bottom = 440.0
-size_flags_horizontal = 3
-size_flags_vertical = 3
-custom_styles/focus = SubResource( 2 )
-custom_styles/normal = ExtResource( 4 )
-
-[node name="C3" type="Button" parent="GridContainer"]
-margin_left = 460.0
-margin_top = 230.0
-margin_right = 670.0
-margin_bottom = 440.0
-size_flags_horizontal = 3
-size_flags_vertical = 3
-custom_styles/focus = SubResource( 2 )
-custom_styles/normal = ExtResource( 6 )
-
-[node name="D3" type="Button" parent="GridContainer"]
-margin_left = 690.0
-margin_top = 230.0
-margin_right = 900.0
-margin_bottom = 440.0
-size_flags_horizontal = 3
-size_flags_vertical = 3
-custom_styles/focus = SubResource( 2 )
-custom_styles/normal = ExtResource( 5 )
-
-[node name="A2" type="Button" parent="GridContainer"]
-margin_top = 460.0
-margin_right = 210.0
-margin_bottom = 670.0
-size_flags_horizontal = 3
-size_flags_vertical = 3
-custom_styles/focus = SubResource( 2 )
-custom_styles/normal = ExtResource( 5 )
-
-[node name="B2" type="Button" parent="GridContainer"]
-margin_left = 230.0
-margin_top = 460.0
-margin_right = 440.0
-margin_bottom = 670.0
-size_flags_horizontal = 3
-size_flags_vertical = 3
-custom_styles/focus = SubResource( 2 )
-custom_styles/normal = ExtResource( 4 )
-
-[node name="C2" type="Button" parent="GridContainer"]
-margin_left = 460.0
-margin_top = 460.0
-margin_right = 670.0
-margin_bottom = 670.0
-size_flags_horizontal = 3
-size_flags_vertical = 3
-custom_styles/focus = SubResource( 2 )
-custom_styles/normal = ExtResource( 6 )
-
-[node name="D2" type="Button" parent="GridContainer"]
-margin_left = 690.0
-margin_top = 460.0
-margin_right = 900.0
-margin_bottom = 670.0
-size_flags_horizontal = 3
-size_flags_vertical = 3
-custom_styles/focus = SubResource( 2 )
-custom_styles/normal = ExtResource( 5 )
-
-[node name="A1" type="Button" parent="GridContainer"]
-margin_top = 690.0
-margin_right = 210.0
-margin_bottom = 900.0
-size_flags_horizontal = 3
-size_flags_vertical = 3
-custom_styles/focus = SubResource( 2 )
-custom_styles/normal = ExtResource( 5 )
-
-[node name="B1" type="Button" parent="GridContainer"]
-margin_left = 230.0
-margin_top = 690.0
-margin_right = 440.0
-margin_bottom = 900.0
-size_flags_horizontal = 3
-size_flags_vertical = 3
-custom_styles/focus = SubResource( 2 )
-custom_styles/normal = ExtResource( 4 )
-
-[node name="C1" type="Button" parent="GridContainer"]
-margin_left = 460.0
-margin_top = 690.0
-margin_right = 670.0
-margin_bottom = 900.0
-size_flags_horizontal = 3
-size_flags_vertical = 3
-custom_styles/focus = SubResource( 2 )
-custom_styles/normal = ExtResource( 6 )
-
-[node name="D1" type="Button" parent="GridContainer"]
-margin_left = 690.0
-margin_top = 690.0
-margin_right = 900.0
-margin_bottom = 900.0
-size_flags_horizontal = 3
-size_flags_vertical = 3
-custom_styles/focus = SubResource( 2 )
-custom_styles/normal = ExtResource( 5 )
 
 [node name="Control" type="Control" parent="."]
 margin_right = 40.0
@@ -186,8 +29,9 @@ script = ExtResource( 2 )
 [node name="animated" type="Container" parent="Control"]
 margin_left = 171.0
 margin_top = 157.0
-margin_right = 3000.0
-margin_bottom = 3000.0
+margin_right = 539.0
+margin_bottom = 539.0
+rect_scale = Vector2( 2.5121, 2.5121 )
 mouse_filter = 1
 script = ExtResource( 3 )
 rows = 4
@@ -196,187 +40,127 @@ vertical_separation = 5.0
 update_time = 0.5
 update_ease = 1
 
-[node name="A4" type="Button" parent="Control/animated"]
-margin_right = 175.875
-margin_bottom = 176.75
-size_flags_horizontal = 3
-size_flags_vertical = 3
-custom_styles/focus = SubResource( 3 )
-custom_styles/normal = ExtResource( 5 )
+[node name="A1" parent="Control/animated" instance=ExtResource( 1 )]
+margin_right = 64.0
+margin_bottom = 64.0
 
-[node name="B4" type="Button" parent="Control/animated"]
-margin_left = 180.875
-margin_right = 356.75
-margin_bottom = 176.75
-size_flags_horizontal = 3
-size_flags_vertical = 3
-custom_styles/focus = SubResource( 3 )
-custom_styles/normal = ExtResource( 4 )
+[node name="A2" parent="Control/animated" instance=ExtResource( 1 )]
+margin_left = 69.0
+margin_right = 133.0
+margin_bottom = 64.0
 
-[node name="C4" type="Button" parent="Control/animated"]
-margin_left = 361.75
-margin_right = 537.625
-margin_bottom = 176.75
-size_flags_horizontal = 3
-size_flags_vertical = 3
-custom_styles/focus = SubResource( 3 )
-custom_styles/normal = ExtResource( 6 )
+[node name="A3" parent="Control/animated" instance=ExtResource( 1 )]
+margin_left = 138.0
+margin_right = 202.0
+margin_bottom = 64.0
 
-[node name="D4" type="Button" parent="Control/animated"]
-margin_left = 542.625
-margin_right = 718.5
-margin_bottom = 176.75
-size_flags_horizontal = 3
-size_flags_vertical = 3
-custom_styles/focus = SubResource( 1 )
-custom_styles/normal = ExtResource( 5 )
+[node name="A4" parent="Control/animated" instance=ExtResource( 1 )]
+margin_left = 207.0
+margin_right = 271.0
+margin_bottom = 64.0
 
-[node name="A3" type="Button" parent="Control/animated"]
-margin_top = 181.75
-margin_right = 175.875
-margin_bottom = 358.5
-size_flags_horizontal = 3
-size_flags_vertical = 3
-custom_styles/focus = SubResource( 2 )
-custom_styles/normal = ExtResource( 5 )
+[node name="B1" parent="Control/animated" instance=ExtResource( 1 )]
+margin_top = 69.0
+margin_right = 64.0
+margin_bottom = 133.0
 
-[node name="B3" type="Button" parent="Control/animated"]
-margin_left = 180.875
-margin_top = 181.75
-margin_right = 356.75
-margin_bottom = 358.5
-size_flags_horizontal = 3
-size_flags_vertical = 3
-custom_styles/focus = SubResource( 2 )
-custom_styles/normal = ExtResource( 4 )
+[node name="B2" parent="Control/animated" instance=ExtResource( 1 )]
+margin_left = 69.0
+margin_top = 69.0
+margin_right = 133.0
+margin_bottom = 133.0
 
-[node name="C3" type="Button" parent="Control/animated"]
-margin_left = 361.75
-margin_top = 181.75
-margin_right = 537.625
-margin_bottom = 358.5
-size_flags_horizontal = 3
-size_flags_vertical = 3
-custom_styles/focus = SubResource( 2 )
-custom_styles/normal = ExtResource( 6 )
+[node name="B3" parent="Control/animated" instance=ExtResource( 1 )]
+margin_left = 138.0
+margin_top = 69.0
+margin_right = 202.0
+margin_bottom = 133.0
 
-[node name="D3" type="Button" parent="Control/animated"]
-margin_left = 542.625
-margin_top = 181.75
-margin_right = 718.5
-margin_bottom = 358.5
-size_flags_horizontal = 3
-size_flags_vertical = 3
-custom_styles/focus = SubResource( 2 )
-custom_styles/normal = ExtResource( 5 )
+[node name="B4" parent="Control/animated" instance=ExtResource( 1 )]
+margin_left = 207.0
+margin_top = 69.0
+margin_right = 271.0
+margin_bottom = 133.0
 
-[node name="A2" type="Button" parent="Control/animated"]
-margin_top = 363.5
-margin_right = 175.875
-margin_bottom = 540.25
-size_flags_horizontal = 3
-size_flags_vertical = 3
-custom_styles/focus = SubResource( 2 )
-custom_styles/normal = ExtResource( 5 )
+[node name="C1" parent="Control/animated" instance=ExtResource( 1 )]
+margin_top = 138.0
+margin_right = 64.0
+margin_bottom = 202.0
 
-[node name="B2" type="Button" parent="Control/animated"]
-margin_left = 180.875
-margin_top = 363.5
-margin_right = 356.75
-margin_bottom = 540.25
-size_flags_horizontal = 3
-size_flags_vertical = 3
-custom_styles/focus = SubResource( 2 )
-custom_styles/normal = ExtResource( 4 )
+[node name="C2" parent="Control/animated" instance=ExtResource( 1 )]
+margin_left = 69.0
+margin_top = 138.0
+margin_right = 133.0
+margin_bottom = 202.0
 
-[node name="C2" type="Button" parent="Control/animated"]
-margin_left = 361.75
-margin_top = 363.5
-margin_right = 537.625
-margin_bottom = 540.25
-size_flags_horizontal = 3
-size_flags_vertical = 3
-custom_styles/focus = SubResource( 2 )
-custom_styles/normal = ExtResource( 6 )
+[node name="C3" parent="Control/animated" instance=ExtResource( 1 )]
+margin_left = 138.0
+margin_top = 138.0
+margin_right = 202.0
+margin_bottom = 202.0
 
-[node name="D2" type="Button" parent="Control/animated"]
-margin_left = 542.625
-margin_top = 363.5
-margin_right = 718.5
-margin_bottom = 540.25
-size_flags_horizontal = 3
-size_flags_vertical = 3
-custom_styles/focus = SubResource( 2 )
-custom_styles/normal = ExtResource( 5 )
+[node name="C4" parent="Control/animated" instance=ExtResource( 1 )]
+margin_left = 207.0
+margin_top = 138.0
+margin_right = 271.0
+margin_bottom = 202.0
 
-[node name="A1" type="Button" parent="Control/animated"]
-margin_top = 545.25
-margin_right = 175.875
-margin_bottom = 722.0
-size_flags_horizontal = 3
-size_flags_vertical = 3
-custom_styles/focus = SubResource( 2 )
-custom_styles/normal = ExtResource( 5 )
+[node name="D1" parent="Control/animated" instance=ExtResource( 1 )]
+margin_top = 207.0
+margin_right = 64.0
+margin_bottom = 271.0
 
-[node name="B1" type="Button" parent="Control/animated"]
-margin_left = 180.875
-margin_top = 545.25
-margin_right = 356.75
-margin_bottom = 722.0
-size_flags_horizontal = 3
-size_flags_vertical = 3
-custom_styles/focus = SubResource( 2 )
-custom_styles/normal = ExtResource( 4 )
+[node name="D2" parent="Control/animated" instance=ExtResource( 1 )]
+margin_left = 69.0
+margin_top = 207.0
+margin_right = 133.0
+margin_bottom = 271.0
 
-[node name="C1" type="Button" parent="Control/animated"]
-margin_left = 361.75
-margin_top = 545.25
-margin_right = 537.625
-margin_bottom = 722.0
-size_flags_horizontal = 3
-size_flags_vertical = 3
-custom_styles/focus = SubResource( 2 )
-custom_styles/normal = ExtResource( 6 )
+[node name="D3" parent="Control/animated" instance=ExtResource( 1 )]
+margin_left = 138.0
+margin_top = 207.0
+margin_right = 202.0
+margin_bottom = 271.0
 
-[node name="D1" type="Button" parent="Control/animated"]
-margin_left = 542.625
-margin_top = 545.25
-margin_right = 718.5
-margin_bottom = 722.0
-size_flags_horizontal = 3
-size_flags_vertical = 3
-custom_styles/focus = SubResource( 2 )
-custom_styles/normal = ExtResource( 5 )
+[node name="D4" parent="Control/animated" instance=ExtResource( 1 )]
+margin_left = 207.0
+margin_top = 207.0
+margin_right = 271.0
+margin_bottom = 271.0
 
-[connection signal="pressed" from="GridContainer/A4" to="GridContainer" method="_on_A4_pressed"]
-[connection signal="pressed" from="GridContainer/B4" to="GridContainer" method="_on_B4_pressed"]
-[connection signal="pressed" from="GridContainer/C4" to="GridContainer" method="_on_C4_pressed"]
-[connection signal="pressed" from="GridContainer/D4" to="GridContainer" method="_on_D4_pressed"]
-[connection signal="pressed" from="GridContainer/A3" to="GridContainer" method="_on_A3_pressed"]
-[connection signal="pressed" from="GridContainer/B3" to="GridContainer" method="_on_B3_pressed"]
-[connection signal="pressed" from="GridContainer/C3" to="GridContainer" method="_on_C3_pressed"]
-[connection signal="pressed" from="GridContainer/D3" to="GridContainer" method="_on_D3_pressed"]
-[connection signal="pressed" from="GridContainer/A2" to="GridContainer" method="_on_A2_pressed"]
-[connection signal="pressed" from="GridContainer/B2" to="GridContainer" method="_on_B2_pressed"]
-[connection signal="pressed" from="GridContainer/C2" to="GridContainer" method="_on_C2_pressed"]
-[connection signal="pressed" from="GridContainer/D2" to="GridContainer" method="_on_D2_pressed"]
-[connection signal="pressed" from="GridContainer/A1" to="GridContainer" method="_on_A1_pressed"]
-[connection signal="pressed" from="GridContainer/B1" to="GridContainer" method="_on_B1_pressed"]
-[connection signal="pressed" from="GridContainer/C1" to="GridContainer" method="_on_C1_pressed"]
-[connection signal="pressed" from="GridContainer/D1" to="GridContainer" method="_on_D1_pressed"]
-[connection signal="pressed" from="Control/animated/A4" to="Control" method="_on_A4_pressed"]
-[connection signal="pressed" from="Control/animated/B4" to="Control" method="_on_B4_pressed"]
-[connection signal="pressed" from="Control/animated/C4" to="Control" method="_on_C4_pressed"]
-[connection signal="pressed" from="Control/animated/D4" to="Control" method="_on_D4_pressed"]
-[connection signal="pressed" from="Control/animated/A3" to="Control" method="_on_A3_pressed"]
-[connection signal="pressed" from="Control/animated/B3" to="Control" method="_on_B3_pressed"]
-[connection signal="pressed" from="Control/animated/C3" to="Control" method="_on_C3_pressed"]
-[connection signal="pressed" from="Control/animated/D3" to="Control" method="_on_D3_pressed"]
-[connection signal="pressed" from="Control/animated/A2" to="Control" method="_on_A2_pressed"]
-[connection signal="pressed" from="Control/animated/B2" to="Control" method="_on_B2_pressed"]
-[connection signal="pressed" from="Control/animated/C2" to="Control" method="_on_C2_pressed"]
-[connection signal="pressed" from="Control/animated/D2" to="Control" method="_on_D2_pressed"]
-[connection signal="pressed" from="Control/animated/A1" to="Control" method="_on_A1_pressed"]
-[connection signal="pressed" from="Control/animated/B1" to="Control" method="_on_B1_pressed"]
-[connection signal="pressed" from="Control/animated/C1" to="Control" method="_on_C1_pressed"]
-[connection signal="pressed" from="Control/animated/D1" to="Control" method="_on_D1_pressed"]
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+anims/testing = SubResource( 4 )
+
+[connection signal="pressed" from="Control/animated/A1/Button" to="Control" method="_on_A1_pressed"]
+[connection signal="pressed" from="Control/animated/A2/Button" to="Control" method="_on_A2_pressed"]
+[connection signal="pressed" from="Control/animated/A3/Button" to="Control" method="_on_A3_pressed"]
+[connection signal="pressed" from="Control/animated/A4/Button" to="Control" method="_on_A4_pressed"]
+[connection signal="pressed" from="Control/animated/B1/Button" to="Control" method="_on_B1_pressed"]
+[connection signal="pressed" from="Control/animated/B2/Button" to="Control" method="_on_B2_pressed"]
+[connection signal="pressed" from="Control/animated/B3/Button" to="Control" method="_on_B3_pressed"]
+[connection signal="pressed" from="Control/animated/B4/Button" to="Control" method="_on_B4_pressed"]
+[connection signal="pressed" from="Control/animated/C1/Button" to="Control" method="_on_C1_pressed"]
+[connection signal="pressed" from="Control/animated/C2/Button" to="Control" method="_on_C2_pressed"]
+[connection signal="pressed" from="Control/animated/C3/Button" to="Control" method="_on_C3_pressed"]
+[connection signal="pressed" from="Control/animated/C4/Button" to="Control" method="_on_C4_pressed"]
+[connection signal="pressed" from="Control/animated/D1/Button" to="Control" method="_on_D1_pressed"]
+[connection signal="pressed" from="Control/animated/D2/Button" to="Control" method="_on_D2_pressed"]
+[connection signal="pressed" from="Control/animated/D3/Button" to="Control" method="_on_D3_pressed"]
+[connection signal="pressed" from="Control/animated/D4/Button" to="Control" method="_on_D4_pressed"]
+
+[editable path="Control/animated/A1"]
+[editable path="Control/animated/A2"]
+[editable path="Control/animated/A3"]
+[editable path="Control/animated/A4"]
+[editable path="Control/animated/B1"]
+[editable path="Control/animated/B2"]
+[editable path="Control/animated/B3"]
+[editable path="Control/animated/B4"]
+[editable path="Control/animated/C1"]
+[editable path="Control/animated/C2"]
+[editable path="Control/animated/C3"]
+[editable path="Control/animated/C4"]
+[editable path="Control/animated/D1"]
+[editable path="Control/animated/D2"]
+[editable path="Control/animated/D3"]
+[editable path="Control/animated/D4"]

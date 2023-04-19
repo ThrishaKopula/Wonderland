@@ -9,7 +9,7 @@ var pair_got = 0
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	
-	$AnimationPlayer.play("shuffle")
+	#$AnimationPlayer.play("shuffle")
 	
 	#$AnimationPlayer.play("flip to up")
 	#$AnimatedGridContainer/J/Button.disabled = true
@@ -38,9 +38,11 @@ func pick(item,type):
 	if type == "Joker":
 		lose()
 		
-	elif type == "none":
+	elif picked_type == "none":
 		
 		picked_type = type
+		
+		picked = item
 		
 		item.get_child(1).disabled = true
 		

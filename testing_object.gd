@@ -11,7 +11,6 @@ func _ready():
 	var mat_override = icon.material.duplicate()
 	icon.set_material(mat_override)
 	icon.material.set_shader_param("onoff",0)
-	
 	shineBitch()
 	
 	pass
@@ -32,14 +31,18 @@ func shineBitch():
 	pass
 
 func _on_Button_mouse_entered():
-
+	
 	icon.material.set_shader_param("onoff",1)
-
+	
 	pass # Replace with function body.
 
 
 func _on_Button_mouse_exited():
-
+	
 	icon.material.set_shader_param("onoff",0)
+	
+	pass # Replace with function body.
 
+
+func _on_A2_pressed():
 	pass # Replace with function body.

@@ -89,6 +89,7 @@ config/icon="res://icon.png"
 ControllerLeo="*res://code/ControllerLeo.gd"
 Controller="*res://Scripts/controller.gd"
 Saving="*res://Scenes/leoStuff/saving/saving.gd"
+StoryVariables="*res://Scenes/thrishaStuff/story_variables.gd"
 
 [display]
 

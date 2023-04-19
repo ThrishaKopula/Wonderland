@@ -2,6 +2,9 @@ extends Control
 
 var matrix = ["R","G","B","R", "R","G","B","R", "R","G","B","R", "R","G","B","R"]
 
+
+var matrix_win = ["G","R","B","R", "R","G","B","R", "R","G","B","R", "R","G","B","R"]
+
 var clicked_node = null
 
 # Called when the node enters the scene tree for the first time.
@@ -38,10 +41,18 @@ func swap(item):
 		
 		print(matrix)
 		
+		if matrix == matrix_win:
+			win()
+		
 	else:
 		
 		clicked_node = item
 	
+	pass
+
+func win():
+	print("you won")
+
 	pass
 
 func _on_A4_pressed():
@@ -123,3 +134,4 @@ func _on_C1_pressed():
 func _on_D1_pressed():
 	swap(get_node("animated/D1"))
 	pass # Replace with function body.
+
