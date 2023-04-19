@@ -1,0 +1,32 @@
+{
+	"events": [
+		{
+			"background": "res://dialogic/dorm.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "hello testinggg"
+		},
+		{
+			"background": "res://dialogic/black.jpeg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"change_scene": "res://Scenes/leoStuff/mini_game_1.tscn",
+			"event_id": "dialogic_041"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1681428466.json",
+		"name": "testing"
+	}
+}

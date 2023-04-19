@@ -1,0 +1,181 @@
+{
+	"events": [
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hey, I delivered the letter like you asked."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681451149.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681451149.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh my gosh! What did she say? Did she say anything? What if she hated it? What if I made a mistake–"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sheesh, calm down."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "She was really happy."
+		},
+		{
+			"character": "character-1681451149.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh, wow! Really!?"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yeah. She also said she loves hearing you practice."
+		},
+		{
+			"character": "character-1681451149.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Aaahhhh! I’m so glad! Wow!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "My [b]strings[/b]?"
+		},
+		{
+			"character": "character-1681451149.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Huh?"
+		},
+		{
+			"character": "character-1681451149.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh that’s right! Sorry, one second…"
+		},
+		{
+			"character": "character-1681451149.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alright! Here you go. Thanks for helping me out."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Uh… yeah, of course. I’ll take those [b]strings[/b] now. "
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Next time, you should… uh–"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( What am I doing? )"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Go see her yourself next time."
+		},
+		{
+			"character": "character-1681451149.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Huh?"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yeah, I think she’d appreciate that."
+		},
+		{
+			"character": "character-1681451149.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh… um. Will do then, thanks…"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alright, time to take these [b]strings [/b] back to that Bard."
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1681451808.json",
+		"name": "reportBackToMusicGeek"
+	}
+}

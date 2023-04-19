@@ -1,0 +1,289 @@
+{
+	"events": [
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086547.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681086547.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Mattie! We’re back!"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I’ve got the [b]Ballerina[/b]."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681338302.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681338302.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh, wonderful. Well done, both of you."
+		},
+		{
+			"character": "character-1681086547.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hehe!"
+		},
+		{
+			"character": "character-1681338302.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Now, the next step–"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Wait, wait. No rewards? All that work I did? Don’t I get something?"
+		},
+		{
+			"character": "character-1681338302.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…"
+		},
+		{
+			"character": "character-1681338302.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh, of course. My apologies, March would you give Sir Worthington here a little treat?"
+		},
+		{
+			"character": "character-1681086547.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Coming right up!"
+		},
+		{
+			"character": "character-1681086547.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Here you go Alis, you can eat this if you want! It’s the same as the [b]cheat treat[/b] I gave you earlier!"
+		},
+		{
+			"background": "",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1681338302.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Now that you have been rewarded, allow me to share my findings."
+		},
+		{
+			"character": "character-1681338302.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The next of the pieces I have located is the [b]Key[/b]."
+		},
+		{
+			"character": "character-1681338302.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "However, its location appears to be somewhere in your world, Sir Worthington."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "In my world? That’ll be easy!"
+		},
+		{
+			"character": "character-1681338302.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yes, I hope it is."
+		},
+		{
+			"character": "character-1681338302.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Marlon will accompany you as usual, so work together and find that piece."
+		},
+		{
+			"character": "character-1681086547.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ooh! We’re gonna be looking for the [b]Key[/b] in your school, Alis! That’s so exciting!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yeah, yeah, sure…"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( I wonder where it could be… I should start searching right away… )"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "*yawn*"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( Okay, maybe not right away… )"
+		},
+		{
+			"character": "character-1681086547.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hehe, it is getting pretty late, let’s head back to your dorm."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yeah, good idea. Let me pull out the mirror…"
+		},
+		{
+			"character": "character-1681086547.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Look at you, growing up!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Shut up!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "See you tomorrow Matthew. That [b]Key[/b] is as good as ours."
+		},
+		{
+			"character": "character-1681338302.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Excellent. Rest well, both of you."
+		},
+		{
+			"background": "res://dialogic/black.jpeg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( I think I can do this without screaming now… )"
+		},
+		{
+			"background": "res://dialogic/dorm.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1681086547.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Okay! Time for bed–oh! You’re already getting ready to crawl in."
+		},
+		{
+			"character": "character-1681086547.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Don’t forget, you’re still a student here, so we have to wake up for class tomorrow."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yeah, I know."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "G-Goodnight?"
+		},
+		{
+			"character": "character-1681086547.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "YOU SAID IT FIRST! NIGHTY-NIGHT, ALIS!"
+		},
+		{
+			"background": "res://dialogic/black.jpeg",
+			"event_id": "dialogic_021"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1681499928.json",
+		"name": "giveBallerinaToMatthew"
+	}
+}

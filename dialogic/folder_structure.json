@@ -5,32 +5,72 @@
 	"folders": {
 		"Characters": {
 			"files": [
-				"character-1681086055.json",
-				"character-1681086547.json",
-				"character-1681254232.json",
-				"character-1681272416.json",
-				"character-1681337913.json",
-				"character-1681338060.json",
-				"character-1681338302.json"
+
 			],
 			"folders": {
+				"Overworld": {
+					"files": [
+						"character-1681086055.json",
+						"character-1681272416.json",
+						"character-1681451149.json",
+						"character-1681451499.json"
+					],
+					"folders": {
 
+					},
+					"metadata": {
+						"color": null,
+						"folded": true
+					}
+				},
+				"Wonderland": {
+					"files": [
+						"character-1681086547.json",
+						"character-1681254232.json",
+						"character-1681337913.json",
+						"character-1681338060.json",
+						"character-1681338302.json",
+						"character-1681439104.json",
+						"character-1681452544.json"
+					],
+					"folders": {
+						"Plebs": {
+							"files": [
+								"character-1681495641.json",
+								"character-1681495654.json",
+								"character-1681495659.json",
+								"character-1681495850.json"
+							],
+							"folders": {
+
+							},
+							"metadata": {
+								"color": null,
+								"folded": true
+							}
+						}
+					},
+					"metadata": {
+						"color": null,
+						"folded": false
+					}
+				}
 			},
 			"metadata": {
 				"color": null,
-				"folded": false
+				"folded": true
 			}
 		},
 		"Definitions": {
 			"files": [
-
+				"1681425960-366"
 			],
 			"folders": {
 
 			},
 			"metadata": {
 				"color": null,
-				"folded": false
+				"folded": true
 			}
 		},
 		"Themes": {
@@ -42,24 +82,69 @@
 			},
 			"metadata": {
 				"color": null,
-				"folded": false
+				"folded": true
 			}
 		},
 		"Timelines": {
 			"files": [
-				"timeline-1681253583.json",
-				"timeline-1681253910.json"
+				"timeline-1681428466.json"
 			],
 			"folders": {
-				"Interactables": {
+				"Chapter 1": {
 					"files": [
-						"timeline-1681253743.json",
-						"timeline-1681253760.json",
-						"timeline-1681253781.json",
-						"timeline-1681253800.json"
+						"timeline-1681429308.json",
+						"timeline-1681439129.json",
+						"timeline-1681440512.json",
+						"timeline-1681451481.json",
+						"timeline-1681451808.json",
+						"timeline-1681452284.json",
+						"timeline-1681495385.json",
+						"timeline-1681497225.json",
+						"timeline-1681498128.json",
+						"timeline-1681498702.json",
+						"timeline-1681499928.json"
 					],
 					"folders": {
+						"basicNPCs": {
+							"files": [
+								"timeline-1681501715.json"
+							],
+							"folders": {
 
+							},
+							"metadata": {
+								"color": null,
+								"folded": false
+							}
+						}
+					},
+					"metadata": {
+						"color": null,
+						"folded": true
+					}
+				},
+				"Prologue": {
+					"files": [
+						"timeline-1681253583.json",
+						"timeline-1681253910.json",
+						"timeline-1681863086.json"
+					],
+					"folders": {
+						"Interactables": {
+							"files": [
+								"timeline-1681253743.json",
+								"timeline-1681253760.json",
+								"timeline-1681253781.json",
+								"timeline-1681253800.json"
+							],
+							"folders": {
+
+							},
+							"metadata": {
+								"color": null,
+								"folded": false
+							}
+						}
 					},
 					"metadata": {
 						"color": null,

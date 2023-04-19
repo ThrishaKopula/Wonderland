@@ -1,4 +1,4 @@
-extends Button
+extends Node2D
 
 
 # Declare member variables here. Examples:
@@ -8,14 +8,10 @@ extends Button
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	pass # Replace with function body.
+	var dialog = Dialogic.start("testing")
+	add_child(dialog)
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 #func _process(delta):
 #	pass
-
-
-func _on_bed_Other_pressed():
-	var dialog = Dialogic.start("ifOtherBedClicked")
-	add_child(dialog)

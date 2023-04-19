@@ -1,0 +1,163 @@
+{
+	"events": [
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681451499.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681451499.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hey! Hey!! Let’s have some fun!"
+		},
+		{
+			"character": "character-1681451499.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Put your hands together! We’re second best to no one!"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( This has got to be her… )"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hey, um, this is for y–"
+		},
+		{
+			"character": "character-1681451499.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "WE’LL CHEER LOUD! BECAUSE WE’RE PROUD!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hey!! Look over here!"
+		},
+		{
+			"character": "character-1681451499.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Huh?"
+		},
+		{
+			"character": "character-1681451499.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh, hello! I didn’t hear you walk up!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( No surprises there… )"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ahaha, that's fine! I just came by to deliver a [b]letter[/b] to you. Here you go."
+		},
+		{
+			"character": "character-1681451499.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh, how sweet! Did you write this just for me?"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "What no!? I’m delivering it on behalf of Music Geek!"
+		},
+		{
+			"character": "character-1681451499.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh, how lovely! I love the music she plays!"
+		},
+		{
+			"character": "character-1681451499.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "It always sounds like she’s working on a song or something! I would love it if she would play for me sometime!"
+		},
+		{
+			"character": "character-1681451499.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Is this really from her? That’s so thoughtful! I should go see her once practice is over."
+		},
+		{
+			"character": "character-1681451499.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Thanks for delivering this to me! You should go tell her I received it."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yeah, will do. Uh… see you later?"
+		},
+		{
+			"character": "character-1681451499.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Bye!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( She seemed really happy to get that letter… it’s just a piece of paper, I don’t get it. But I did what I promised. Time to get my [b]strings[/b]. )"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1681451481.json",
+		"name": "deliverLetterToLover"
+	}
+}
