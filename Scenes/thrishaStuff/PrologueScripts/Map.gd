@@ -26,9 +26,9 @@ func unpause(timeline_name):
 	active = false
 
 func _on_Map1_body_entered(body):
-	if body.name == 'player':
+	if (body.name == 'player' and StoryVariables.isPrologueDone == false):
 		active = true
 
 func _on_Map1_body_exited(body):
-	if body.name == 'player':
+	if (body.name == 'player' and StoryVariables.isPrologueDone == false):
 		active = false

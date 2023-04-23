@@ -81,7 +81,7 @@ _global_script_class_icons={
 [application]
 
 config/name="CMPM172FinalGame"
-run/main_scene="res://Scenes/leoStuff/leo test scene.tscn"
+run/main_scene="res://Scenes/thrishaStuff/Locations/Dorm.tscn"
 config/icon="res://icon.png"
 
 [autoload]
@@ -95,7 +95,6 @@ StoryVariables="*res://Scenes/thrishaStuff/story_variables.gd"
 
 window/size/width=1920
 window/size/height=1080
-window/size/resizable=false
 
 [editor_plugins]
 
