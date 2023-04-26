@@ -9,6 +9,10 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "hello testinggg"
+		},
+		{
+			"change_scene": "res://Scenes/thrishaStuff/Locations/Tavern.tscn",
+			"event_id": "dialogic_041"
 		}
 	],
 	"metadata": {

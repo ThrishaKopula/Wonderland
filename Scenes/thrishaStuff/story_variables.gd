@@ -1,6 +1,5 @@
 extends Node
 
-
 # Declare member variables here. Examples:
 var isMapInteracted = false
 var isAlisBedInteracted = false
@@ -8,7 +7,16 @@ var isOtherBedInteracted = false
 var isMirrorInteracted = false
 
 # Main game checkpoints
-var isPrologueDone = false;
+#PROLOGUE
+var isPrologueDone = false
+
+#CHAPTER ONE
+var isChapterOneStartDone = false
+var isInitiateMainQuestDone = false
+var isSearchForStringsDone = false
+var isDeliverLetterToLover = false
+var isReportBackToMusicGeek = false
+var isDeliverStringsToBard = false
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
