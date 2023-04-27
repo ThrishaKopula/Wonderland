@@ -20,6 +20,11 @@ position = Vector2( 779, 615 )
 scale = Vector2( 4, 4 )
 color = 3
 
+[node name="yellow" parent="." instance=ExtResource( 1 )]
+position = Vector2( 426, 617 )
+scale = Vector2( 4, 4 )
+color = 4
+
 [node name="drink_spawner" parent="." instance=ExtResource( 2 )]
 position = Vector2( 1750, 923 )
 scale = Vector2( 2.71785, 2.71785 )
@@ -30,3 +35,5 @@ scale = Vector2( 2.71785, 2.71785 )
 [connection signal="area_shape_exited" from="green" to="red" method="_on_color_area_shape_exited"]
 [connection signal="area_shape_entered" from="blue" to="blue" method="_on_color_area_shape_entered"]
 [connection signal="area_shape_exited" from="blue" to="blue" method="_on_color_area_shape_exited"]
+[connection signal="area_shape_entered" from="yellow" to="yellow" method="_on_color_area_shape_entered"]
+[connection signal="area_shape_exited" from="yellow" to="yellow" method="_on_color_area_shape_exited"]
