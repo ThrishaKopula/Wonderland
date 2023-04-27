@@ -1,17 +1,32 @@
 [gd_scene load_steps=3 format=2]
 
-[ext_resource path="res://Scenes/leoStuff/mini_game2/red.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Scenes/leoStuff/mini_game2/color.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Scenes/leoStuff/mini_game2/drink_spawner.tscn" type="PackedScene" id=2]
 
 [node name="mini_game2" type="Node2D"]
 
 [node name="red" parent="." instance=ExtResource( 1 )]
-position = Vector2( 1288, 610 )
-scale = Vector2( 4.52917, 4.52917 )
+position = Vector2( 1545, 613 )
+scale = Vector2( 4, 4 )
+color = 1
+
+[node name="green" parent="." instance=ExtResource( 1 )]
+position = Vector2( 1159, 615 )
+scale = Vector2( 4, 4 )
+color = 2
+
+[node name="blue" parent="." instance=ExtResource( 1 )]
+position = Vector2( 779, 615 )
+scale = Vector2( 4, 4 )
+color = 3
 
 [node name="drink_spawner" parent="." instance=ExtResource( 2 )]
 position = Vector2( 1750, 923 )
 scale = Vector2( 2.71785, 2.71785 )
 
-[connection signal="area_shape_entered" from="red" to="red" method="_on_red_area_shape_entered"]
-[connection signal="area_shape_exited" from="red" to="red" method="_on_red_area_shape_exited"]
+[connection signal="area_shape_entered" from="red" to="red" method="_on_color_area_shape_entered"]
+[connection signal="area_shape_exited" from="red" to="red" method="_on_color_area_shape_exited"]
+[connection signal="area_shape_entered" from="green" to="green" method="_on_color_area_shape_entered"]
+[connection signal="area_shape_exited" from="green" to="red" method="_on_color_area_shape_exited"]
+[connection signal="area_shape_entered" from="blue" to="blue" method="_on_color_area_shape_entered"]
+[connection signal="area_shape_exited" from="blue" to="blue" method="_on_color_area_shape_exited"]
