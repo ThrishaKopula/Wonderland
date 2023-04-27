@@ -2,7 +2,7 @@
 
 [ext_resource path="res://Scenes/thrishaStuff/images/bard.png" type="Texture" id=1]
 [ext_resource path="res://icon.png" type="Texture" id=2]
-[ext_resource path="res://Scenes/thrishaStuff/Locations/Bard.gd" type="Script" id=3]
+[ext_resource path="res://Scenes/thrishaStuff/ChapterOneScripts/Bard.gd" type="Script" id=3]
 [ext_resource path="res://Scenes/thrishaStuff/player.tscn" type="PackedScene" id=4]
 
 [sub_resource type="CircleShape2D" id=1]

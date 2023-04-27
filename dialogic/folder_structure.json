@@ -13,7 +13,8 @@
 						"character-1681086055.json",
 						"character-1681272416.json",
 						"character-1681451149.json",
-						"character-1681451499.json"
+						"character-1681451499.json",
+						"character-1682574603.json"
 					],
 					"folders": {
 
@@ -52,13 +53,13 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": false
+						"folded": true
 					}
 				}
 			},
 			"metadata": {
 				"color": null,
-				"folded": true
+				"folded": false
 			}
 		},
 		"Definitions": {
@@ -120,7 +121,7 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": false
+						"folded": true
 					}
 				},
 				"Prologue": {
@@ -142,13 +143,13 @@
 							},
 							"metadata": {
 								"color": null,
-								"folded": false
+								"folded": true
 							}
 						}
 					},
 					"metadata": {
 						"color": null,
-						"folded": true
+						"folded": false
 					}
 				}
 			},
