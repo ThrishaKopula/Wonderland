@@ -6,6 +6,7 @@
 bg_color = Color( 0, 0, 0, 1 )
 
 [node name="name of place" type="CanvasLayer"]
+layer = 2
 
 [node name="Control" type="Control" parent="."]
 margin_right = 40.0
