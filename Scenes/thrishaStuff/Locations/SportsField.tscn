@@ -1,14 +1,37 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://Scenes/thrishaStuff/images/cheerleader.png" type="Texture" id=1]
 [ext_resource path="res://Scenes/thrishaStuff/player.tscn" type="PackedScene" id=2]
 [ext_resource path="res://icon.png" type="Texture" id=3]
 [ext_resource path="res://Scenes/thrishaStuff/ChapterOneScripts/Cheerleader.gd" type="Script" id=4]
+[ext_resource path="res://Scenes/thrishaStuff/ChapterOneScripts/Football.gd" type="Script" id=5]
+[ext_resource path="res://Scenes/thrishaStuff/images/football.png" type="Texture" id=6]
+
+[sub_resource type="CircleShape2D" id=2]
+radius = 162.077
 
 [sub_resource type="CircleShape2D" id=1]
 radius = 162.077
 
 [node name="SportsField" type="Node2D"]
+
+[node name="Football" type="Area2D" parent="."]
+position = Vector2( 224, 842 )
+script = ExtResource( 5 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Football"]
+shape = SubResource( 2 )
+
+[node name="Sprite" type="Sprite" parent="Football"]
+scale = Vector2( 0.16, 0.16 )
+texture = ExtResource( 6 )
+
+[node name="QuestionMark" type="Sprite" parent="Football"]
+position = Vector2( 0, -135 )
+texture = ExtResource( 3 )
 
 [node name="Cheerleader" type="Area2D" parent="."]
 position = Vector2( 1445, 838 )
@@ -35,5 +58,7 @@ position = Vector2( 908, 798 )
 position = Vector2( 54, -261 )
 current = true
 
+[connection signal="body_entered" from="Football" to="Football" method="_on_Football_body_entered"]
+[connection signal="body_exited" from="Football" to="Football" method="_on_Football_body_exited"]
 [connection signal="body_entered" from="Cheerleader" to="Cheerleader" method="_on_Cheerleader_body_entered"]
 [connection signal="body_exited" from="Cheerleader" to="Cheerleader" method="_on_Cheerleader_body_exited"]

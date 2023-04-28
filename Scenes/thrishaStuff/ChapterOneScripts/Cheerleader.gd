@@ -16,6 +16,7 @@ func _input(event):
 				dialog.connect('timeline_end', self, 'unpause')
 				add_child(dialog)
 				StoryVariables.isDeliverLetterToLover = true
+				StoryVariables.isSearchForStringsDone = false
 
 func unpause(timeline_name):
 	get_tree().paused = false

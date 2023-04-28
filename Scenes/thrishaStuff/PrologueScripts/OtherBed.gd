@@ -20,7 +20,7 @@ func _input(event):
 			add_child(dialog)
 			StoryVariables.isOtherBedInteracted = true
 			StoryVariables.prologue_checkAllInteractions()
-			
+						
 func unpause(timeline_name):
 	get_tree().paused = false
 	active = false

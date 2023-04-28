@@ -15,6 +15,7 @@ func _input(event):
 				dialog.connect('timeline_end', self, 'unpause')
 				add_child(dialog)
 				StoryVariables.isSearchForStringsDone = true
+				StoryVariables.isInitiateMainQuestDone = false
 			elif(StoryVariables.isDeliverLetterToLover == true):
 				get_tree().paused = true
 				var dialog = Dialogic.start("reportBackToMusicGeek")
@@ -22,6 +23,7 @@ func _input(event):
 				dialog.connect('timeline_end', self, 'unpause')
 				add_child(dialog)
 				StoryVariables.isReportBackToMusicGeek = true
+				StoryVariables.isDeliverLetterToLover = false
 
 func unpause(timeline_name):
 	get_tree().paused = false

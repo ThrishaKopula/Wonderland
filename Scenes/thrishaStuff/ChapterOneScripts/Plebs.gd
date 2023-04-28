@@ -13,40 +13,32 @@ func _process(_delta):
 func _input(event):
 	if get_node_or_null('DialogNode') == null:
 		if event.is_action_pressed("ui_accept") and active:
-			
-			if(StoryVariables.isPrologueDone == true):
+			StoryVariables.chapter1_checkIfPlebItemsCollected()
+			if(StoryVariables.isDeliverStringsToBard == true):
 				get_tree().paused = true
-				var dialog = Dialogic.start("initiateMainQuest")
+				var dialog = Dialogic.start("getIngredientsFromVendors")
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
 				dialog.connect('timeline_end', self, 'unpause')
 				add_child(dialog)
-				StoryVariables.isInitiateMainQuestDone = true
-				StoryVariables.isPrologueDone = false
-			elif(StoryVariables.isReportBackToMusicGeek == true):
+				StoryVariables.isDeliverStringsToBard = false
+				StoryVariables.isGetIngredientsFromVendors = true
+			elif(StoryVariables.isAllItemsCollected == true):
 				get_tree().paused = true
-				var dialog = Dialogic.start("deliverStringsToBard")
+				var dialog = Dialogic.start("collectOtherworldlyItems")
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
 				dialog.connect('timeline_end', self, 'unpause')
 				add_child(dialog)
-				StoryVariables.isDeliverStringsToBard = true
-				StoryVariables.isReportBackToMusicGeek = false
-			elif(StoryVariables.isCollectOtherworldlyItems == true):
-				get_tree().paused = true
-				var dialog = Dialogic.start("bringIngredientsToTavern")
-				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
-				dialog.connect('timeline_end', self, 'unpause')
-				add_child(dialog)
-				StoryVariables.isBringIngredientsToTavern = true
-				StoryVariables.isCollectOtherworldlyItems = false
+				StoryVariables.isCollectOtherworldlyItems = true
+				StoryVariables.isAllItemsCollected = false
 
 func unpause(timeline_name):
 	get_tree().paused = false
 	active = false
 
-func _on_Bard_body_entered(body):
+func _on_Plebs_body_entered(body):
 	if body.name == 'player':
 		active = true
 
-func _on_Bard_body_exited(body):
+func _on_Plebs_body_exited(body):
 	if body.name == 'player':
 		active = false

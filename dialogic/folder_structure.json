@@ -108,6 +108,20 @@
 						"timeline-1681499928.json"
 					],
 					"folders": {
+						"Interactables": {
+							"files": [
+								"timeline-1682653695.json",
+								"timeline-1682653704.json",
+								"timeline-1682653720.json"
+							],
+							"folders": {
+
+							},
+							"metadata": {
+								"color": null,
+								"folded": false
+							}
+						},
 						"basicNPCs": {
 							"files": [
 								"timeline-1681501715.json"
@@ -117,7 +131,7 @@
 							},
 							"metadata": {
 								"color": null,
-								"folded": false
+								"folded": true
 							}
 						}
 					},
@@ -145,7 +159,7 @@
 							},
 							"metadata": {
 								"color": null,
-								"folded": true
+								"folded": false
 							}
 						}
 					},

@@ -21,10 +21,14 @@ var isReportBackToMusicGeek = false
 var isDeliverStringsToBard = false
 
 #Trading Vendors
-var isCollectOtherworldlyItems = false;
-var isPleb_AItemCollected = false;
-var isPleb_BItemCollected = false;
-var isPleb_CItemCollected = false;
+var isGetIngredientsFromVendors = false
+var isCollectOtherworldlyItems = false
+var isPleb_AItemCollected = false
+var isPleb_BItemCollected = false
+var isPleb_CItemCollected = false
+var isAllItemsCollected = false
+var isBringIngredientsToTavern = false
+
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -40,7 +44,4 @@ func prologue_checkAllInteractions():
 
 func chapter1_checkIfPlebItemsCollected():
 	if (isPleb_AItemCollected == true && isPleb_BItemCollected == true && isPleb_CItemCollected == true):
-		var dialog = Dialogic.start("collectOtherworldlyItems")
-		add_child(dialog)
-		yield(dialog, 'timeline_end')
-		isPrologueDone = true
+		isAllItemsCollected = true

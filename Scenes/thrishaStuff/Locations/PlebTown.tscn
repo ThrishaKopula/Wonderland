@@ -1,0 +1,55 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://Scenes/thrishaStuff/player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Scenes/thrishaStuff/ChapterOneScripts/Plebs.gd" type="Script" id=2]
+[ext_resource path="res://Scenes/thrishaStuff/images/pleb_B.png" type="Texture" id=3]
+[ext_resource path="res://Scenes/thrishaStuff/images/pleb_C.png" type="Texture" id=4]
+[ext_resource path="res://Scenes/thrishaStuff/images/pleb_A.png" type="Texture" id=5]
+[ext_resource path="res://icon.png" type="Texture" id=6]
+
+[sub_resource type="CapsuleShape2D" id=1]
+radius = 343.332
+height = 0.0
+
+[node name="PlebTown" type="Node2D"]
+
+[node name="Plebs" type="Area2D" parent="."]
+position = Vector2( 1449, 843 )
+scale = Vector2( 0.600002, 0.600002 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Plebs"]
+position = Vector2( 236.666, 0.00012207 )
+shape = SubResource( 1 )
+
+[node name="pleb_A" type="Sprite" parent="Plebs"]
+scale = Vector2( 0.16, 0.16 )
+texture = ExtResource( 5 )
+
+[node name="pleb_B" type="Sprite" parent="Plebs"]
+position = Vector2( 231.666, 0 )
+scale = Vector2( 0.16, 0.16 )
+texture = ExtResource( 3 )
+
+[node name="pleb_C" type="Sprite" parent="Plebs"]
+position = Vector2( 483.331, 0 )
+scale = Vector2( 0.16, 0.16 )
+texture = ExtResource( 4 )
+
+[node name="QuestionMark" type="Sprite" parent="Plebs"]
+position = Vector2( 231.666, -163.333 )
+texture = ExtResource( 6 )
+
+[node name="player" parent="." instance=ExtResource( 1 )]
+position = Vector2( 908, 798 )
+scale = Vector2( 0.68, 0.68 )
+
+[node name="Camera2D" type="Camera2D" parent="player"]
+position = Vector2( 54, -261 )
+current = true
+
+[connection signal="body_entered" from="Plebs" to="Plebs" method="_on_Plebs_body_entered"]
+[connection signal="body_exited" from="Plebs" to="Plebs" method="_on_Plebs_body_exited"]
