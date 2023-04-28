@@ -96,6 +96,7 @@ Mini2Global="*res://Scenes/leoStuff/mini_game2/mini2_global.gd"
 
 window/size/width=1920
 window/size/height=1080
+window/size/resizable=false
 
 [editor_plugins]
 
