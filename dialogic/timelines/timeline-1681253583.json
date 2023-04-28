@@ -1,10 +1,6 @@
 {
 	"events": [
 		{
-			"background": "res://dialogic/dorm.png",
-			"event_id": "dialogic_021"
-		},
-		{
 			"animation": "slide_in_left.gd",
 			"animation_length": 0,
 			"change_mirror_portrait": false,
@@ -25,10 +21,204 @@
 			"z_index": 0
 		},
 		{
+			"background": "res://dialogic/black.jpeg",
+			"event_id": "dialogic_021"
+		},
+		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Eww… it’s smaller than I expected."
+			"text": "I just don’t get it."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Why are you making me do this?"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1682574603.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1682574603.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh… just trust me, dear…"
+		},
+		{
+			"character": "character-1682574603.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I promise, you’ll love this place just as much as I did."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I’m only going through with this because of your promise."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Don’t you go back on your word."
+		},
+		{
+			"character": "character-1682574603.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Of course, honey. I would never."
+		},
+		{
+			"character": "character-1682574603.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…"
+		},
+		{
+			"character": "character-1682574603.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "But, promise me you’ll at least try to make the best of it, okay?"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…"
+		},
+		{
+			"character": "character-1682574603.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Honey… come on."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "… Fine."
+		},
+		{
+			"character": "character-1682574603.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…That’s good."
+		},
+		{
+			"character": "character-1682574603.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "They drive in silence for a long while."
+		},
+		{
+			"character": "character-1682574603.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "… Alright, here’s the front gate."
+		},
+		{
+			"character": "character-1682574603.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I know we discussed this already, but are you sure you don’t want me to come with you?"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I’m sure, our housemaids aren’t here to help me, anyway."
+		},
+		{
+			"character": "character-1682574603.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I could help you."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Just, no mom…"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "… Bye."
+		},
+		{
+			"background": "res://dialogic/black.jpeg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1682574603.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "He’s still angry…"
+		},
+		{
+			"character": "character-1682574603.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…But, what child wouldn’t be…"
+		},
+		{
+			"character": "character-1682574603.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…"
+		},
+		{
+			"character": "character-1682574603.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I really hope this was the right choice…"
+		},
+		{
+			"background": "res://dialogic/dorm.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh…it’s smaller than I expected."
 		},
 		{
 			"character": "character-1681086055.json",
@@ -40,13 +230,25 @@
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Ugh, at least I don’t have to share with some other self-absorbed brat."
+			"text": "Mom did say she made sure I got a single…but I see two beds…"
 		},
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "It’s a double room, but it doesn’t look any more spacious than my broom closet."
+			"text": "That’s fine, it's bigger than a single room anyway."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Well, guess I should get settled in."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I should look around to see what’s here."
 		}
 	],
 	"metadata": {
