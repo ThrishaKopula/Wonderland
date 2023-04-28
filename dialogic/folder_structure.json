@@ -14,7 +14,9 @@
 						"character-1681272416.json",
 						"character-1681451149.json",
 						"character-1681451499.json",
-						"character-1682574603.json"
+						"character-1682574603.json",
+						"character-1682633822.json",
+						"character-1682643732.json"
 					],
 					"folders": {
 
@@ -121,7 +123,7 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": true
+						"folded": false
 					}
 				},
 				"Prologue": {
