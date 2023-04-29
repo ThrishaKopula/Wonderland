@@ -36,8 +36,8 @@ func _ready():
 
 func prologue_checkAllInteractions():
 	if (isMapInteracted == true && isAlisBedInteracted == true && isOtherBedInteracted == true && isMirrorInteracted == true):
-#		var dialog = Dialogic.start("movingInPart2")
-		var dialog = Dialogic.start("testing")
+		var dialog = Dialogic.start("movingInPart2")
+#		var dialog = Dialogic.start("testing")
 		add_child(dialog)
 		yield(dialog, 'timeline_end')
 		isPrologueDone = true

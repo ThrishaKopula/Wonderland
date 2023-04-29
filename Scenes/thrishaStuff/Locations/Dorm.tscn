@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=2]
+[gd_scene load_steps=16 format=2]
 
 [ext_resource path="res://Scenes/thrishaStuff/player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Scenes/thrishaStuff/PrologueScripts/OtherBed.gd" type="Script" id=2]
@@ -10,23 +10,41 @@
 [ext_resource path="res://Scenes/thrishaStuff/PrologueScripts/Bed.gd" type="Script" id=8]
 [ext_resource path="res://Scenes/thrishaStuff/images/bed.png" type="Texture" id=9]
 [ext_resource path="res://Scenes/thrishaStuff/images/otherBed.png" type="Texture" id=10]
+[ext_resource path="res://Scenes/thrishaStuff/images/Dorm.png" type="Texture" id=11]
 
 [sub_resource type="CircleShape2D" id=1]
-radius = 162.077
+radius = 268.0
+
+[sub_resource type="CapsuleShape2D" id=3]
+radius = 110.0
+height = 202.0
+
+[sub_resource type="CapsuleShape2D" id=4]
+radius = 78.0
+height = 712.0
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 16, 546.5 )
 
 [node name="DormRoom" type="Node2D"]
 
+[node name="Dorm" type="Sprite" parent="."]
+position = Vector2( 963, 539 )
+texture = ExtResource( 11 )
+
 [node name="OtherBed" type="Area2D" parent="."]
-position = Vector2( 1717, 846 )
+position = Vector2( 1679, 654 )
 script = ExtResource( 2 )
 __meta__ = {
 "_edit_group_": true
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="OtherBed"]
+position = Vector2( -115, -35 )
 shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="OtherBed"]
+visible = false
 scale = Vector2( 0.16, 0.16 )
 texture = ExtResource( 10 )
 
@@ -35,7 +53,7 @@ position = Vector2( 0, -135 )
 texture = ExtResource( 5 )
 
 [node name="Bed" type="Area2D" parent="."]
-position = Vector2( 171, 851 )
+position = Vector2( 312, 648 )
 script = ExtResource( 8 )
 __meta__ = {
 "_edit_group_": true
@@ -45,6 +63,7 @@ __meta__ = {
 shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Bed"]
+visible = false
 scale = Vector2( 0.16, 0.16 )
 texture = ExtResource( 9 )
 
@@ -53,16 +72,17 @@ position = Vector2( 0, -135 )
 texture = ExtResource( 5 )
 
 [node name="Map" type="Area2D" parent="."]
-position = Vector2( 579, 853 )
+position = Vector2( 616, 424 )
 script = ExtResource( 3 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Map"]
-shape = SubResource( 1 )
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Map"]
+shape = SubResource( 3 )
 
 [node name="Sprite" type="Sprite" parent="Map"]
+visible = false
 scale = Vector2( 0.16, 0.16 )
 texture = ExtResource( 7 )
 
@@ -71,16 +91,18 @@ position = Vector2( 0, -135 )
 texture = ExtResource( 5 )
 
 [node name="Mirror" type="Area2D" parent="."]
-position = Vector2( 1379, 856 )
+position = Vector2( 1898, 584 )
 script = ExtResource( 4 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Mirror"]
-shape = SubResource( 1 )
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Mirror"]
+position = Vector2( 11, 28 )
+shape = SubResource( 4 )
 
 [node name="Sprite" type="Sprite" parent="Mirror"]
+visible = false
 scale = Vector2( 0.16, 0.16 )
 texture = ExtResource( 6 )
 
@@ -88,12 +110,30 @@ texture = ExtResource( 6 )
 position = Vector2( 0, -135 )
 texture = ExtResource( 5 )
 
-[node name="player" parent="." instance=ExtResource( 1 )]
-position = Vector2( 908, 798 )
-
-[node name="Camera2D" type="Camera2D" parent="player"]
-position = Vector2( 54, -261 )
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2( 976, 536 )
 current = true
+limit_left = 0
+limit_top = 0
+limit_right = 1920
+limit_bottom = 0
+
+[node name="player" parent="." instance=ExtResource( 1 )]
+position = Vector2( 950, 515 )
+scale = Vector2( 0.904085, 3.02499 )
+
+[node name="rightBoundary" type="StaticBody2D" parent="."]
+position = Vector2( 1944, 4 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="rightBoundary"]
+position = Vector2( -4, 532.5 )
+shape = SubResource( 2 )
+
+[node name="leftBoundary" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="leftBoundary"]
+position = Vector2( -4, 532.5 )
+shape = SubResource( 2 )
 
 [connection signal="body_entered" from="OtherBed" to="OtherBed" method="_on_Bed_body_entered"]
 [connection signal="body_exited" from="OtherBed" to="OtherBed" method="_on_Bed_body_exited"]

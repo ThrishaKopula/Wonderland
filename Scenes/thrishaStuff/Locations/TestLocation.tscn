@@ -1,4 +1,4 @@
-[gd_scene load_steps=35 format=2]
+[gd_scene load_steps=36 format=2]
 
 [ext_resource path="res://Scenes/thrishaStuff/player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Scenes/thrishaStuff/images/mirror.png" type="Texture" id=2]
@@ -26,6 +26,7 @@
 [ext_resource path="res://Scenes/thrishaStuff/ChapterOneScripts/Poster.gd" type="Script" id=24]
 [ext_resource path="res://Scenes/thrishaStuff/images/football.png" type="Texture" id=25]
 [ext_resource path="res://Scenes/thrishaStuff/ChapterOneScripts/Football.gd" type="Script" id=26]
+[ext_resource path="res://Scenes/leoStuff/HUD/map/map.tscn" type="PackedScene" id=27]
 
 [sub_resource type="CircleShape2D" id=1]
 radius = 162.077
@@ -53,6 +54,9 @@ radius = 162.077
 radius = 162.077
 
 [node name="Test" type="Node2D"]
+
+[node name="map" parent="." instance=ExtResource( 27 )]
+visible = false
 
 [node name="OtherBed" type="Area2D" parent="."]
 position = Vector2( 340, 848 )
