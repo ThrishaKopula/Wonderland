@@ -76,17 +76,18 @@ texture = ExtResource( 5 )
 position = Vector2( 0, -135 )
 texture = ExtResource( 7 )
 
-[node name="Camera2D" type="Camera2D" parent="."]
-position = Vector2( 976, 536 )
+[node name="player" parent="." instance=ExtResource( 1 )]
+position = Vector2( 950, 515 )
+scale = Vector2( 0.904085, 3.02499 )
+
+[node name="Camera2D" type="Camera2D" parent="player"]
+position = Vector2( 28.7583, 6.94217 )
+scale = Vector2( 1.10609, 0.33058 )
 current = true
 limit_left = 0
 limit_top = 0
 limit_right = 1920
 limit_bottom = 0
-
-[node name="player" parent="." instance=ExtResource( 1 )]
-position = Vector2( 950, 515 )
-scale = Vector2( 0.904085, 3.02499 )
 
 [node name="rightBoundary" type="StaticBody2D" parent="."]
 position = Vector2( 1944, 4 )
