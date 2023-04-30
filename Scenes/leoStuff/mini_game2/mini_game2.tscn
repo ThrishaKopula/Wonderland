@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://Scenes/leoStuff/mini_game2/color.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Scenes/leoStuff/mini_game2/drink_spawner.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Scenes/leoStuff/mini_game2/dispense.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Scenes/leoStuff/mini_game2/submit.tscn" type="PackedScene" id=4]
 
 [node name="mini_game2" type="Node2D"]
 
@@ -33,6 +34,10 @@ scale = Vector2( 2.71785, 2.71785 )
 [node name="dispense" parent="." instance=ExtResource( 3 )]
 position = Vector2( 970, 931 )
 scale = Vector2( 2.11364, 2.11364 )
+
+[node name="submit" parent="." instance=ExtResource( 4 )]
+position = Vector2( 201, 199 )
+scale = Vector2( 2.83283, 2.83283 )
 
 [connection signal="area_shape_entered" from="red" to="red" method="_on_color_area_shape_entered"]
 [connection signal="area_shape_exited" from="red" to="red" method="_on_color_area_shape_exited"]

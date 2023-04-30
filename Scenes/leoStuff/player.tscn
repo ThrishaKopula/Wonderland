@@ -66,7 +66,7 @@ tracks/1/keys = {
 
 [sub_resource type="ShaderMaterial" id=5]
 shader = ExtResource( 3 )
-shader_param/strength = 0.005
+shader_param/strength = 0.008
 shader_param/speed = 2.0
 shader_param/frames = 1
 shader_param/flowMap = ExtResource( 4 )
