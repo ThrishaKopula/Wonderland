@@ -1,17 +1,17 @@
 [gd_scene load_steps=17 format=2]
 
 [ext_resource path="res://Scenes/thrishaStuff/player.tscn" type="PackedScene" id=1]
-[ext_resource path="res://Scenes/thrishaStuff/PrologueScripts/OtherBed.gd" type="Script" id=2]
-[ext_resource path="res://Scenes/thrishaStuff/PrologueScripts/Map.gd" type="Script" id=3]
+[ext_resource path="res://Scenes/thrishaStuff/images/Dorm.png" type="Texture" id=2]
+[ext_resource path="res://Scenes/thrishaStuff/images/mirror.png" type="Texture" id=3]
 [ext_resource path="res://Scenes/thrishaStuff/PrologueScripts/Mirror.gd" type="Script" id=4]
-[ext_resource path="res://icon.png" type="Texture" id=5]
-[ext_resource path="res://Scenes/thrishaStuff/images/mirror.png" type="Texture" id=6]
-[ext_resource path="res://Scenes/thrishaStuff/images/map.png" type="Texture" id=7]
+[ext_resource path="res://Scenes/thrishaStuff/images/map.png" type="Texture" id=5]
+[ext_resource path="res://Scenes/thrishaStuff/images/otherBed.png" type="Texture" id=6]
+[ext_resource path="res://Scenes/leoStuff/HUD/map/map.tscn" type="PackedScene" id=7]
 [ext_resource path="res://Scenes/thrishaStuff/PrologueScripts/Bed.gd" type="Script" id=8]
-[ext_resource path="res://Scenes/thrishaStuff/images/bed.png" type="Texture" id=9]
-[ext_resource path="res://Scenes/thrishaStuff/images/otherBed.png" type="Texture" id=10]
-[ext_resource path="res://Scenes/thrishaStuff/images/Dorm.png" type="Texture" id=11]
-[ext_resource path="res://Scenes/leoStuff/HUD/map/map.tscn" type="PackedScene" id=12]
+[ext_resource path="res://Scenes/thrishaStuff/PrologueScripts/Map.gd" type="Script" id=9]
+[ext_resource path="res://Scenes/thrishaStuff/PrologueScripts/OtherBed.gd" type="Script" id=10]
+[ext_resource path="res://icon.png" type="Texture" id=11]
+[ext_resource path="res://Scenes/thrishaStuff/images/bed.png" type="Texture" id=12]
 
 [sub_resource type="CircleShape2D" id=1]
 radius = 268.0
@@ -31,14 +31,14 @@ extents = Vector2( 16, 546.5 )
 
 [node name="Dorm" type="Sprite" parent="."]
 position = Vector2( 963, 539 )
-texture = ExtResource( 11 )
+texture = ExtResource( 2 )
 
-[node name="map" parent="." instance=ExtResource( 12 )]
+[node name="map" parent="." instance=ExtResource( 7 )]
 visible = false
 
 [node name="OtherBed" type="Area2D" parent="."]
 position = Vector2( 1679, 654 )
-script = ExtResource( 2 )
+script = ExtResource( 10 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -50,11 +50,11 @@ shape = SubResource( 1 )
 [node name="Sprite" type="Sprite" parent="OtherBed"]
 visible = false
 scale = Vector2( 0.16, 0.16 )
-texture = ExtResource( 10 )
+texture = ExtResource( 6 )
 
 [node name="QuestionMark" type="Sprite" parent="OtherBed"]
 position = Vector2( 0, -135 )
-texture = ExtResource( 5 )
+texture = ExtResource( 11 )
 
 [node name="Bed" type="Area2D" parent="."]
 position = Vector2( 312, 648 )
@@ -69,15 +69,15 @@ shape = SubResource( 1 )
 [node name="Sprite" type="Sprite" parent="Bed"]
 visible = false
 scale = Vector2( 0.16, 0.16 )
-texture = ExtResource( 9 )
+texture = ExtResource( 12 )
 
 [node name="QuestionMark" type="Sprite" parent="Bed"]
 position = Vector2( 0, -135 )
-texture = ExtResource( 5 )
+texture = ExtResource( 11 )
 
 [node name="Map" type="Area2D" parent="."]
 position = Vector2( 616, 424 )
-script = ExtResource( 3 )
+script = ExtResource( 9 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -88,11 +88,11 @@ shape = SubResource( 3 )
 [node name="Sprite" type="Sprite" parent="Map"]
 visible = false
 scale = Vector2( 0.16, 0.16 )
-texture = ExtResource( 7 )
+texture = ExtResource( 5 )
 
 [node name="QuestionMark" type="Sprite" parent="Map"]
 position = Vector2( 0, -135 )
-texture = ExtResource( 5 )
+texture = ExtResource( 11 )
 
 [node name="Mirror" type="Area2D" parent="."]
 position = Vector2( 1898, 584 )
@@ -108,11 +108,11 @@ shape = SubResource( 4 )
 [node name="Sprite" type="Sprite" parent="Mirror"]
 visible = false
 scale = Vector2( 0.16, 0.16 )
-texture = ExtResource( 6 )
+texture = ExtResource( 3 )
 
 [node name="QuestionMark" type="Sprite" parent="Mirror"]
 position = Vector2( 0, -135 )
-texture = ExtResource( 5 )
+texture = ExtResource( 11 )
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2( 976, 536 )

@@ -1,9 +1,9 @@
 [gd_scene load_steps=6 format=2]
 
-[ext_resource path="res://Scenes/thrishaStuff/images/bard.png" type="Texture" id=1]
-[ext_resource path="res://icon.png" type="Texture" id=2]
-[ext_resource path="res://Scenes/thrishaStuff/ChapterOneScripts/Bard.gd" type="Script" id=3]
-[ext_resource path="res://Scenes/thrishaStuff/player.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Scenes/thrishaStuff/player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Scenes/thrishaStuff/ChapterOneScripts/Bard.gd" type="Script" id=2]
+[ext_resource path="res://Scenes/thrishaStuff/images/bard.png" type="Texture" id=3]
+[ext_resource path="res://icon.png" type="Texture" id=4]
 
 [sub_resource type="CircleShape2D" id=1]
 radius = 162.077
@@ -12,7 +12,7 @@ radius = 162.077
 
 [node name="Bard" type="Area2D" parent="."]
 position = Vector2( 1374, 851 )
-script = ExtResource( 3 )
+script = ExtResource( 2 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -22,13 +22,13 @@ shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Bard"]
 scale = Vector2( 0.16, 0.16 )
-texture = ExtResource( 1 )
+texture = ExtResource( 3 )
 
 [node name="QuestionMark" type="Sprite" parent="Bard"]
 position = Vector2( 0, -135 )
-texture = ExtResource( 2 )
+texture = ExtResource( 4 )
 
-[node name="player" parent="." instance=ExtResource( 4 )]
+[node name="player" parent="." instance=ExtResource( 1 )]
 position = Vector2( 908, 798 )
 
 [node name="Camera2D" type="Camera2D" parent="player"]

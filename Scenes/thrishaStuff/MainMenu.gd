@@ -15,5 +15,5 @@ func _on_StartButton_pressed():
 	var dialog = Dialogic.start("movingIn")
 	add_child(dialog)
 	yield(dialog, 'timeline_end')
-	get_tree().change_scene("res://Scenes/thrishaStuff/Locations/Dorm.tscn")
+	get_tree().change_scene("res://Scenes/thrishaStuff/Locations/Overworld/Dorm.tscn")
 	
