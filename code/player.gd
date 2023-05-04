@@ -10,6 +10,7 @@ func _ready():
 
 func _physics_process(delta):
 	motion = move_and_slide(motion)
+	
 	pass
 
 func _process(delta):
