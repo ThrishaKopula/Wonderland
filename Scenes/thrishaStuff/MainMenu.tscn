@@ -36,3 +36,4 @@ margin_bottom = 68.0
 text = "Quit"
 
 [connection signal="pressed" from="VBoxContainer/StartButton" to="." method="_on_StartButton_pressed"]
+[connection signal="pressed" from="VBoxContainer/Quit" to="." method="_on_Quit_pressed"]

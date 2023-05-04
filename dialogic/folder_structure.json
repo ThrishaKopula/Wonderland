@@ -78,14 +78,16 @@
 		},
 		"Themes": {
 			"files": [
-				"default-theme.cfg"
+				"default-theme.cfg",
+				"theme-1683081099.cfg",
+				"theme-1683225590.cfg"
 			],
 			"folders": {
 
 			},
 			"metadata": {
 				"color": null,
-				"folded": true
+				"folded": false
 			}
 		},
 		"Timelines": {
@@ -137,7 +139,7 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": false
+						"folded": true
 					}
 				},
 				"Prologue": {
@@ -165,13 +167,13 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": true
+						"folded": false
 					}
 				}
 			},
 			"metadata": {
 				"color": null,
-				"folded": false
+				"folded": true
 			}
 		}
 	}
