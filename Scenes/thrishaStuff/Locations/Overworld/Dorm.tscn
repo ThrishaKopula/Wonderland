@@ -35,9 +35,6 @@ script = ExtResource( 14 )
 position = Vector2( 963, 539 )
 texture = ExtResource( 2 )
 
-[node name="map" parent="." instance=ExtResource( 7 )]
-visible = false
-
 [node name="OtherBed" type="Area2D" parent="."]
 position = Vector2( 1679, 654 )
 script = ExtResource( 10 )
@@ -114,11 +111,13 @@ scale = Vector2( 0.904085, 3.02499 )
 [node name="Camera2D" type="Camera2D" parent="player"]
 position = Vector2( 28.7583, 6.94217 )
 scale = Vector2( 1.10609, 0.33058 )
-current = true
 limit_left = 0
 limit_top = 0
 limit_right = 1920
 limit_bottom = 0
+
+[node name="map" parent="player" instance=ExtResource( 7 )]
+visible = false
 
 [node name="rightBoundary" type="StaticBody2D" parent="."]
 position = Vector2( 1941, 5 )

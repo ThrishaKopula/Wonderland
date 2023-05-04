@@ -220,7 +220,7 @@
 			"text": "I really hope this was the right choice…"
 		},
 		{
-			"background": "res://dialogic/dorm.png",
+			"background": "",
 			"event_id": "dialogic_021"
 		},
 		{
