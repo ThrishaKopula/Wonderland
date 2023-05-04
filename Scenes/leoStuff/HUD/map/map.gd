@@ -7,6 +7,7 @@ var change_text;
 onready var trans = $"../trans/TransitionColor"
 
 func _ready():
+	trans.show();
 	text.hide();
 	change_text = text.get_child(0).get_child(0);
 	trans.get_child(0).play("transition_out");
