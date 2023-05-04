@@ -1,0 +1,107 @@
+[gd_scene load_steps=11 format=2]
+
+[ext_resource path="res://Scenes/thrishaStuff/Scripts/Nerd.gd" type="Script" id=1]
+[ext_resource path="res://Scenes/thrishaStuff/Scripts/Watercolor.gd" type="Script" id=2]
+[ext_resource path="res://Scenes/thrishaStuff/Prefab/player.tscn" type="PackedScene" id=3]
+[ext_resource path="res://icon.png" type="Texture" id=5]
+[ext_resource path="res://Scenes/thrishaStuff/images/watercolor.png" type="Texture" id=6]
+[ext_resource path="res://Scenes/thrishaStuff/Scripts/Professor.gd" type="Script" id=7]
+[ext_resource path="res://Scenes/thrishaStuff/images/cheerleader.png" type="Texture" id=8]
+
+[sub_resource type="CircleShape2D" id=2]
+radius = 162.077
+
+[sub_resource type="CircleShape2D" id=3]
+radius = 162.077
+
+[sub_resource type="RectangleShape2D" id=4]
+extents = Vector2( 16, 546.5 )
+
+[node name="Classroom" type="Node2D"]
+
+[node name="Watercolor" type="Area2D" parent="."]
+position = Vector2( 573, 839 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Watercolor"]
+shape = SubResource( 2 )
+
+[node name="Sprite" type="Sprite" parent="Watercolor"]
+scale = Vector2( 0.16, 0.16 )
+texture = ExtResource( 6 )
+
+[node name="QuestionMark" type="Sprite" parent="Watercolor"]
+position = Vector2( 0, -135 )
+texture = ExtResource( 5 )
+
+[node name="Professor" type="Area2D" parent="."]
+position = Vector2( 1445, 838 )
+script = ExtResource( 7 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Professor"]
+shape = SubResource( 3 )
+
+[node name="Sprite" type="Sprite" parent="Professor"]
+scale = Vector2( 0.16, 0.16 )
+texture = ExtResource( 8 )
+
+[node name="QuestionMark" type="Sprite" parent="Professor"]
+position = Vector2( 0, -135 )
+texture = ExtResource( 5 )
+
+[node name="Nerd" type="Area2D" parent="."]
+position = Vector2( 1770, 838 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Nerd"]
+shape = SubResource( 3 )
+
+[node name="Sprite" type="Sprite" parent="Nerd"]
+scale = Vector2( 0.16, 0.16 )
+texture = ExtResource( 8 )
+
+[node name="QuestionMark" type="Sprite" parent="Nerd"]
+position = Vector2( 0, -135 )
+texture = ExtResource( 5 )
+
+[node name="player" parent="." instance=ExtResource( 3 )]
+position = Vector2( 950, 515 )
+scale = Vector2( 0.904085, 3.02499 )
+
+[node name="Camera2D" type="Camera2D" parent="player"]
+position = Vector2( 28.7583, 6.94217 )
+scale = Vector2( 1.10609, 0.33058 )
+current = true
+limit_left = 0
+limit_top = 0
+limit_right = 1920
+limit_bottom = 0
+
+[node name="rightBoundary" type="StaticBody2D" parent="."]
+position = Vector2( 1944, 4 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="rightBoundary"]
+position = Vector2( -4, 532.5 )
+shape = SubResource( 4 )
+
+[node name="leftBoundary" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="leftBoundary"]
+position = Vector2( -4, 532.5 )
+shape = SubResource( 4 )
+
+[connection signal="body_entered" from="Watercolor" to="Watercolor" method="_on_Watercolor_body_entered"]
+[connection signal="body_exited" from="Watercolor" to="Watercolor" method="_on_Watercolor_body_exited"]
+[connection signal="body_entered" from="Professor" to="Professor" method="_on_Cheerleader_body_entered"]
+[connection signal="body_exited" from="Professor" to="Professor" method="_on_Cheerleader_body_exited"]
+[connection signal="body_entered" from="Nerd" to="Nerd" method="_on_Cheerleader_body_entered"]
+[connection signal="body_exited" from="Nerd" to="Nerd" method="_on_Cheerleader_body_exited"]

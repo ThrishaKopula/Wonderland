@@ -81,7 +81,7 @@ _global_script_class_icons={
 [application]
 
 config/name="CMPM172FinalGame"
-run/main_scene="res://Scenes/thrishaStuff/Locations/Dorm.tscn"
+run/main_scene="res://Scenes/thrishaStuff/MainMenu.tscn"
 config/icon="res://icon.png"
 
 [autoload]
@@ -97,6 +97,8 @@ Mini2Global="*res://Scenes/leoStuff/mini_game2/mini2_global.gd"
 window/size/width=1920
 window/size/height=1080
 window/size/resizable=false
+window/size/fullscreen=true
+window/stretch/mode="2d"
 
 [editor_plugins]
 

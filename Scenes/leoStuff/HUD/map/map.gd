@@ -38,7 +38,7 @@ func _on_Button_hide():
 	pass # Replace with function body.
 	
 func _on_Button_pressed():
-	get_tree().change_scene("res://Scenes/thrishaStuff/Locations/Dorm.tscn");
+	get_tree().change_scene("res://Scenes/thrishaStuff/Locations/Overworld/Dorm.tscn");
 	pass # Replace with function body.
 
 
@@ -60,7 +60,7 @@ func _on_Button2_hide():
 
 
 func _on_Button2_pressed():
-	get_tree().change_scene("res://Scenes/thrishaStuff/Locations/Hallway.tscn");
+	get_tree().change_scene("res://Scenes/thrishaStuff/Locations/Overworld/Hallway.tscn");
 	pass
 
 func _on_music_pressed():
@@ -91,7 +91,7 @@ func _on_tavern_hide():
 
 
 func _on_tavern_pressed():
-	get_tree().change_scene("res://Scenes/thrishaStuff/Locations/Tavern.tscn");
+	get_tree().change_scene("res://Scenes/thrishaStuff/Locations/Wonderland/Tavern.tscn");
 	pass # Replace with function body.
 
 

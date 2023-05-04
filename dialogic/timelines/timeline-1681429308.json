@@ -1,6 +1,164 @@
 {
 	"events": [
 		{
+			"background": "res://dialogic/black.jpeg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1682574603.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I-I don’t think we need to have private tutors for every subject instead of sending him to school!"
+		},
+		{
+			"character": "character-1682633822.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "… Nonsense. We have more than enough to buy an entire school just for him. Why would he need to leave the house just to learn things?"
+		},
+		{
+			"character": "character-1682574603.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Because! Because he can meet people! Talk to people…"
+		},
+		{
+			"character": "character-1682633822.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No need."
+		},
+		{
+			"character": "character-1682574603.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…"
+		},
+		{
+			"character": "character-1682574603.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alistair, what do you think? Don’t you want to go to school like the other kids?"
+		},
+		{
+			"character": "character-1682643732.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Huh? Whatever daddy says is probably right!"
+		},
+		{
+			"character": "character-1682574603.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "B-But don’t you want to make friends to hang out with?"
+		},
+		{
+			"character": "character-1682643732.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Nah, I already have tons of toys that daddy bought me."
+		},
+		{
+			"character": "character-1682574603.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…"
+		},
+		{
+			"character": "character-1682633822.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "See. Even though he's made his decision. Plus it’s easier this way. No need to hire someone to drop him off and pick him up everyday, just for him to talk to kids that aren’t like him…"
+		},
+		{
+			"character": "character-1682574603.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "… I… ugh, fine."
+		},
+		{
+			"character": "character-1682633822.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"background": "res://dialogic/dorm.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…!!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ugh… that was so long ago…"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "When was that? I was maybe twelve… It was before dad’s affair…At least I think…"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I’ve had private tutors for as long as I can remember, and even that was at my mother’s begging. Dad never really figured I needed to learn stuff I wouldn’t use later. "
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "But…"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I’m starting to wonder if mom wanted to send me to school for other reasons…"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "*yawn*"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ah, I can’t stay up thinking about the past, I’ve got a Ballerina to find tomorrow…"
+		},
+		{
+			"background": "res://dialogic/black.jpeg",
+			"event_id": "dialogic_021"
+		},
+		{
 			"animation": "[Default]",
 			"animation_length": 0,
 			"change_mirror_portrait": false,
@@ -25,26 +183,6 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "BEE–"
-		},
-		{
-			"animation": "[Default]",
-			"animation_length": 0,
-			"change_mirror_portrait": false,
-			"change_z_index": false,
-			"character": "character-1681086055.json",
-			"event_id": "dialogic_002",
-			"mirror_portrait": false,
-			"portrait": "Default",
-			"portrait_definition": "",
-			"position": {
-				"0": true,
-				"1": false,
-				"2": false,
-				"3": false,
-				"4": false
-			},
-			"type": 0,
-			"z_index": 0
 		},
 		{
 			"character": "character-1681086055.json",

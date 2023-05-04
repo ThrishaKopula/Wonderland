@@ -14,7 +14,9 @@
 						"character-1681272416.json",
 						"character-1681451149.json",
 						"character-1681451499.json",
-						"character-1682574603.json"
+						"character-1682574603.json",
+						"character-1682633822.json",
+						"character-1682643732.json"
 					],
 					"folders": {
 
@@ -76,14 +78,16 @@
 		},
 		"Themes": {
 			"files": [
-				"default-theme.cfg"
+				"default-theme.cfg",
+				"theme-1683081099.cfg",
+				"theme-1683225590.cfg"
 			],
 			"folders": {
 
 			},
 			"metadata": {
 				"color": null,
-				"folded": true
+				"folded": false
 			}
 		},
 		"Timelines": {
@@ -106,6 +110,20 @@
 						"timeline-1681499928.json"
 					],
 					"folders": {
+						"Interactables": {
+							"files": [
+								"timeline-1682653695.json",
+								"timeline-1682653704.json",
+								"timeline-1682653720.json"
+							],
+							"folders": {
+
+							},
+							"metadata": {
+								"color": null,
+								"folded": true
+							}
+						},
 						"basicNPCs": {
 							"files": [
 								"timeline-1681501715.json"
@@ -115,7 +133,7 @@
 							},
 							"metadata": {
 								"color": null,
-								"folded": false
+								"folded": true
 							}
 						}
 					},
@@ -155,7 +173,7 @@
 			},
 			"metadata": {
 				"color": null,
-				"folded": false
+				"folded": true
 			}
 		}
 	}

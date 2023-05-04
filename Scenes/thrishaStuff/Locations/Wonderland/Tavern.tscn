@@ -1,0 +1,90 @@
+[gd_scene load_steps=11 format=2]
+
+[ext_resource path="res://Scenes/thrishaStuff/Prefab/player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Scenes/thrishaStuff/Scripts/Bard.gd" type="Script" id=2]
+[ext_resource path="res://Scenes/thrishaStuff/images/bard.png" type="Texture" id=3]
+[ext_resource path="res://icon.png" type="Texture" id=4]
+[ext_resource path="res://Scenes/thrishaStuff/Scripts/Bartender.gd" type="Script" id=5]
+[ext_resource path="res://Scenes/thrishaStuff/images/cheerleader.png" type="Texture" id=6]
+[ext_resource path="res://Scenes/leoStuff/HUD/map/map.tscn" type="PackedScene" id=7]
+
+[sub_resource type="CircleShape2D" id=1]
+radius = 162.077
+
+[sub_resource type="CircleShape2D" id=2]
+radius = 162.077
+
+[sub_resource type="RectangleShape2D" id=3]
+extents = Vector2( 16, 546.5 )
+
+[node name="Tavern" type="Node2D"]
+
+[node name="map" parent="." instance=ExtResource( 7 )]
+visible = false
+
+[node name="Bard" type="Area2D" parent="."]
+position = Vector2( 1374, 851 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Bard"]
+shape = SubResource( 1 )
+
+[node name="Sprite" type="Sprite" parent="Bard"]
+scale = Vector2( 0.16, 0.16 )
+texture = ExtResource( 3 )
+
+[node name="QuestionMark" type="Sprite" parent="Bard"]
+position = Vector2( 0, -135 )
+texture = ExtResource( 4 )
+
+[node name="Bartender" type="Area2D" parent="."]
+position = Vector2( 644, 831 )
+script = ExtResource( 5 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Bartender"]
+shape = SubResource( 2 )
+
+[node name="Sprite" type="Sprite" parent="Bartender"]
+scale = Vector2( 0.16, 0.16 )
+texture = ExtResource( 6 )
+
+[node name="QuestionMark" type="Sprite" parent="Bartender"]
+position = Vector2( 0, -135 )
+texture = ExtResource( 4 )
+
+[node name="player" parent="." instance=ExtResource( 1 )]
+position = Vector2( 950, 515 )
+scale = Vector2( 0.904085, 3.02499 )
+
+[node name="Camera2D" type="Camera2D" parent="player"]
+position = Vector2( 28.7583, 6.94217 )
+scale = Vector2( 1.10609, 0.33058 )
+current = true
+limit_left = 0
+limit_top = 0
+limit_right = 1920
+limit_bottom = 0
+
+[node name="rightBoundary" type="StaticBody2D" parent="."]
+position = Vector2( 1944, 4 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="rightBoundary"]
+position = Vector2( -4, 532.5 )
+shape = SubResource( 3 )
+
+[node name="leftBoundary" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="leftBoundary"]
+position = Vector2( -4, 532.5 )
+shape = SubResource( 3 )
+
+[connection signal="body_entered" from="Bard" to="Bard" method="_on_Bard_body_entered"]
+[connection signal="body_exited" from="Bard" to="Bard" method="_on_Bard_body_exited"]
+[connection signal="body_entered" from="Bartender" to="Bartender" method="_on_Cheerleader_body_entered"]
+[connection signal="body_exited" from="Bartender" to="Bartender" method="_on_Cheerleader_body_exited"]

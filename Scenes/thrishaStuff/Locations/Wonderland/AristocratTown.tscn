@@ -1,0 +1,61 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://Scenes/thrishaStuff/Prefab/player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Scenes/thrishaStuff/images/cheerleader.png" type="Texture" id=2]
+[ext_resource path="res://icon.png" type="Texture" id=3]
+[ext_resource path="res://Scenes/thrishaStuff/Scripts/Aristocrats.gd" type="Script" id=4]
+
+[sub_resource type="CircleShape2D" id=1]
+radius = 162.077
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 16, 546.5 )
+
+[node name="AristocratTown" type="Node2D"]
+
+[node name="Aristocrats" type="Area2D" parent="."]
+position = Vector2( 644, 831 )
+script = ExtResource( 4 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Aristocrats"]
+shape = SubResource( 1 )
+
+[node name="Sprite" type="Sprite" parent="Aristocrats"]
+scale = Vector2( 0.16, 0.16 )
+texture = ExtResource( 2 )
+
+[node name="QuestionMark" type="Sprite" parent="Aristocrats"]
+position = Vector2( 0, -135 )
+texture = ExtResource( 3 )
+
+[node name="player" parent="." instance=ExtResource( 1 )]
+position = Vector2( 950, 515 )
+scale = Vector2( 0.904085, 3.02499 )
+
+[node name="Camera2D" type="Camera2D" parent="player"]
+position = Vector2( 28.7583, 6.94217 )
+scale = Vector2( 1.10609, 0.33058 )
+current = true
+limit_left = 0
+limit_top = 0
+limit_right = 1920
+limit_bottom = 0
+
+[node name="rightBoundary" type="StaticBody2D" parent="."]
+position = Vector2( 1944, 4 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="rightBoundary"]
+position = Vector2( -4, 532.5 )
+shape = SubResource( 2 )
+
+[node name="leftBoundary" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="leftBoundary"]
+position = Vector2( -4, 532.5 )
+shape = SubResource( 2 )
+
+[connection signal="body_entered" from="Aristocrats" to="Aristocrats" method="_on_Cheerleader_body_entered"]
+[connection signal="body_exited" from="Aristocrats" to="Aristocrats" method="_on_Cheerleader_body_exited"]

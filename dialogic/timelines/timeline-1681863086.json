@@ -244,10 +244,6 @@
 		{
 			"background": "res://dialogic/black.jpeg",
 			"event_id": "dialogic_021"
-		},
-		{
-			"change_scene": "res://Scenes/thrishaStuff/Dorm.tscn",
-			"event_id": "dialogic_041"
 		}
 	],
 	"metadata": {
