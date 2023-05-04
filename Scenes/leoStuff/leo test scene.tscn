@@ -51,6 +51,12 @@ position = Vector2( 426, 848 )
 
 [node name="HUD" parent="KinematicBody2D" instance=ExtResource( 2 )]
 
+[node name="map" parent="KinematicBody2D/HUD" index="0"]
+visible = false
+
+[node name="TransitionColor" parent="KinematicBody2D/HUD/trans" index="0"]
+visible = false
+
 [connection signal="body_entered" from="Area2D" to="Area2D" method="_on_Area2D_body_entered"]
 [connection signal="body_exited" from="Area2D" to="Area2D" method="_on_Area2D_body_exited"]
 
