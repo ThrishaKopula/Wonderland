@@ -8,8 +8,10 @@ position = Vector2( 0, -20 )
 current = true
 
 [node name="map" parent="." instance=ExtResource( 1 )]
+visible = false
 
 [node name="trans" type="CanvasLayer" parent="."]
 
 [node name="TransitionColor" parent="trans" instance=ExtResource( 2 )]
+visible = false
 margin_left = 0.0
