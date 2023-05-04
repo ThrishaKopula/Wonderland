@@ -6,7 +6,6 @@ export var speed = 300
 
 
 func _ready():
-	print(ControllerLeo.testingvar)
 	pass
 
 func _physics_process(delta):
