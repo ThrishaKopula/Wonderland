@@ -1,13 +1,20 @@
 extends CanvasLayer
 
-var hid = true
-onready var text = $"name of place"
-var change_text
-# Called when the node enters the scene tree for the first time.
+var hid = true;
+onready var text = $"name of place";
+var change_text;
+
+onready var trans = $"../trans/TransitionColor"
+
 func _ready():
-	text.hide()
-	change_text = text.get_child(0).get_child(0)
-	hide()
+	text.hide();
+	change_text = text.get_child(0).get_child(0);
+	trans.get_child(0).play("transition_out");
+	hide();
+	
+	trans.get_child(0).play("transition_in");
+	yield(trans.get_child(0), "animation_finished");
+	trans.hide();
 	pass # Replace with function body.
 
 
@@ -15,29 +22,33 @@ func _ready():
 func _process(delta):
 	
 	if Input.is_action_just_pressed("map") and !hid:
-		hide()
-		hid = true
+		hide();
+		hid = true;
 	elif Input.is_action_just_pressed("map") and hid:
-		show()
-		hid = false
+		show();
+		hid = false;
 	pass
 
 
 func _on_Button_mouse_entered():
-	print("in")
-	change_text.text = "Dorm"
-	text.show()
+	print("in");
+	change_text.text = "Dorm";
+	text.show();
 	pass # Replace with function body.
 
 func _on_Button_mouse_exited():
-	text.hide()
+	text.hide();
 	pass # Replace with function body.
 
 func _on_Button_hide():
-	text.hide()
+	text.hide();
 	pass # Replace with function body.
 	
 func _on_Button_pressed():
+	trans.show();
+	trans.get_child(0).play("transition_out");
+	yield(trans.get_child(0), "animation_finished");
+	
 	get_tree().change_scene("res://Scenes/thrishaStuff/Locations/Overworld/Dorm.tscn");
 	pass # Replace with function body.
 
@@ -60,6 +71,9 @@ func _on_Button2_hide():
 
 
 func _on_Button2_pressed():
+	
+	
+	
 	get_tree().change_scene("res://Scenes/thrishaStuff/Locations/Overworld/Hallway.tscn");
 	pass
 
