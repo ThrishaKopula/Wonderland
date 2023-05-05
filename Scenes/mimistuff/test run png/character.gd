@@ -6,6 +6,7 @@ extends Node2D
 # var b = "text"
 onready var character = $AnimationPlayer
 
+onready var sprite = $torso
 
 
 # Called when the node enters the scene tree for the first time.
@@ -15,10 +16,10 @@ func _ready():
 func _physics_process(_delta):
 	if Input.is_action_pressed("ui_right"):
 		character.play("Run")
-		$torso.h_flip = false
+		sprite.set_scale(Vector2(-1,1))
 	elif Input.is_action_pressed("ui_left"):
 		character.play("Run")
-		$torso.h_flip = true
+		sprite.set_scale(Vector2(1,1))
 	
 
 

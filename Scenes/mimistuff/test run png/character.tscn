@@ -721,7 +721,7 @@ offset = Vector2( 24, -118 )
 
 [node name="l thigh" type="Sprite" parent="torso/butt"]
 position = Vector2( -11, 1 )
-rotation = 0.11763
+rotation = 0.117629
 z_index = -1
 texture = ExtResource( 3 )
 offset = Vector2( 35, -122 )
