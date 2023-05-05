@@ -12,7 +12,7 @@ func _process(_delta):
 
 func _input(event):
 	if get_node_or_null('DialogNode') == null:
-		if event.is_action_pressed("ui_accept") and active:
+		if event.is_action_pressed("interact") and active:
 			pause_game()
 			var dialog = Dialogic.start("ifMapClicked")
 			dialog.pause_mode = Node.PAUSE_MODE_PROCESS
@@ -20,6 +20,7 @@ func _input(event):
 			add_child(dialog)
 			StoryVariables.isMapInteracted = true
 			StoryVariables.prologue_checkAllInteractions()
+			$Map_Interactable.hide()
 			
 func pause_game():
 	get_tree().paused = true
