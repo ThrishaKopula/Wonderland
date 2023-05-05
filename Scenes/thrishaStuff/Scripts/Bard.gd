@@ -13,9 +13,8 @@ func _process(_delta):
 func _input(event):
 	if get_node_or_null('DialogNode') == null:
 		if event.is_action_pressed("ui_accept") and active:
-			
 			if(StoryVariables.isPrologueDone == true):
-				get_tree().paused = true
+				pause_game()
 				var dialog = Dialogic.start("initiateMainQuest")
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
 				dialog.connect('timeline_end', self, 'unpause')
@@ -23,7 +22,7 @@ func _input(event):
 				StoryVariables.isInitiateMainQuestDone = true
 				StoryVariables.isPrologueDone = false
 			elif(StoryVariables.isReportBackToMusicGeek == true):
-				get_tree().paused = true
+				pause_game()
 				var dialog = Dialogic.start("deliverStringsToBard")
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
 				dialog.connect('timeline_end', self, 'unpause')
@@ -31,7 +30,7 @@ func _input(event):
 				StoryVariables.isDeliverStringsToBard = true
 				StoryVariables.isReportBackToMusicGeek = false
 			elif(StoryVariables.isCollectOtherworldlyItems == true):
-				get_tree().paused = true
+				pause_game()
 				var dialog = Dialogic.start("bringIngredientsToTavern")
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
 				dialog.connect('timeline_end', self, 'unpause')
@@ -39,8 +38,13 @@ func _input(event):
 				StoryVariables.isBringIngredientsToTavern = true
 				StoryVariables.isCollectOtherworldlyItems = false
 
+func pause_game():
+	get_tree().paused = true
+	StoryVariables.canPlayerMove = false
+	
 func unpause(timeline_name):
 	get_tree().paused = false
+	StoryVariables.canPlayerMove = true
 	active = false
 
 func _on_Bard_body_entered(body):

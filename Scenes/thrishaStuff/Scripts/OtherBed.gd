@@ -13,7 +13,7 @@ func _process(_delta):
 func _input(event):
 	if get_node_or_null('DialogNode') == null:
 		if event.is_action_pressed("ui_accept") and active:
-			get_tree().paused = true
+			pause_game()
 			var dialog = Dialogic.start("ifOtherBedClicked")
 			dialog.pause_mode = Node.PAUSE_MODE_PROCESS
 			dialog.connect('timeline_end', self, 'unpause')
@@ -21,8 +21,14 @@ func _input(event):
 			StoryVariables.isOtherBedInteracted = true
 			StoryVariables.prologue_checkAllInteractions()
 						
+						
+func pause_game():
+	get_tree().paused = true
+	StoryVariables.canPlayerMove = false
+	
 func unpause(timeline_name):
 	get_tree().paused = false
+	StoryVariables.canPlayerMove = true
 	active = false
 
 func _on_Bed_body_entered(body):
