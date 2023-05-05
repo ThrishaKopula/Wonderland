@@ -13,5 +13,6 @@ visible = false
 [node name="trans" type="CanvasLayer" parent="."]
 
 [node name="TransitionColor" parent="trans" instance=ExtResource( 2 )]
+pause_mode = 2
 visible = false
 margin_left = 0.0

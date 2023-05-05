@@ -15,7 +15,7 @@ func _input(event):
 		if event.is_action_pressed("ui_accept") and active:
 			StoryVariables.chapter1_checkIfPlebItemsCollected()
 			if(StoryVariables.isDeliverStringsToBard == true):
-				get_tree().paused = true
+				pause_game()
 				var dialog = Dialogic.start("getIngredientsFromVendors")
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
 				dialog.connect('timeline_end', self, 'unpause')
@@ -23,7 +23,7 @@ func _input(event):
 				StoryVariables.isDeliverStringsToBard = false
 				StoryVariables.isGetIngredientsFromVendors = true
 			elif(StoryVariables.isAllItemsCollected == true):
-				get_tree().paused = true
+				pause_game()
 				var dialog = Dialogic.start("collectOtherworldlyItems")
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
 				dialog.connect('timeline_end', self, 'unpause')
@@ -31,8 +31,13 @@ func _input(event):
 				StoryVariables.isCollectOtherworldlyItems = true
 				StoryVariables.isAllItemsCollected = false
 
+func pause_game():
+	get_tree().paused = true
+	StoryVariables.canPlayerMove = false
+	
 func unpause(timeline_name):
 	get_tree().paused = false
+	StoryVariables.canPlayerMove = true
 	active = false
 
 func _on_Plebs_body_entered(body):

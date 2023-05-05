@@ -14,7 +14,7 @@ func _input(event):
 	if get_node_or_null('DialogNode') == null:
 		if event.is_action_pressed("ui_accept") and active:
 			if(StoryVariables.isGetIngredientsFromVendors == true):
-				get_tree().paused = true
+				pause_game()
 				var dialog = Dialogic.start("ifWatercolorClicked")
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
 				dialog.connect('timeline_end', self, 'unpause')
@@ -22,8 +22,13 @@ func _input(event):
 				StoryVariables.isPleb_AItemCollected = true
 				StoryVariables.chapter1_checkIfPlebItemsCollected()
 			
+func pause_game():
+	get_tree().paused = true
+	StoryVariables.canPlayerMove = false
+	
 func unpause(timeline_name):
 	get_tree().paused = false
+	StoryVariables.canPlayerMove = true
 	active = false
 
 func _on_Watercolor_body_entered(body):

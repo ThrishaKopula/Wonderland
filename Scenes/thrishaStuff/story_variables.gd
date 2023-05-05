@@ -1,6 +1,9 @@
 extends Node
 
+
 # Declare member variables here. Examples:
+var canPlayerMove = true
+
 var isMapInteracted = false
 var isAlisBedInteracted = false
 var isOtherBedInteracted = false
@@ -36,11 +39,23 @@ func _ready():
 
 func prologue_checkAllInteractions():
 	if (isMapInteracted == true && isAlisBedInteracted == true && isOtherBedInteracted == true && isMirrorInteracted == true):
+#		var dialog = Dialogic.start("movingInPart2")
+##		var dialog = Dialogic.start("testing")
+#		add_child(dialog)
+#		yield(dialog, 'timeline_end')
+#		isPrologueDone = true
+		
+		get_tree().paused = true
+		canPlayerMove = false
 		var dialog = Dialogic.start("movingInPart2")
-#		var dialog = Dialogic.start("testing")
+		dialog.pause_mode = Node.PAUSE_MODE_PROCESS
+		dialog.connect('timeline_end', self, 'unpause')
 		add_child(dialog)
-		yield(dialog, 'timeline_end')
 		isPrologueDone = true
+	
+func unpause(timeline_name):
+	get_tree().paused = false
+	canPlayerMove = true
 
 func chapter1_checkIfPlebItemsCollected():
 	if (isPleb_AItemCollected == true && isPleb_BItemCollected == true && isPleb_CItemCollected == true):
