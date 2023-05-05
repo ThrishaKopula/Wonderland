@@ -1,6 +1,10 @@
 extends Node
 
+
 # Declare member variables here. Examples:
+var canPlayerMove = true
+
+
 var isMapInteracted = false
 var isAlisBedInteracted = false
 var isOtherBedInteracted = false
