@@ -403,7 +403,7 @@ tracks/3/keys = {
 "times": PoolRealArray( 0, 0.25, 0.5, 0.75, 1 ),
 "transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
 "update": 0,
-"values": [ 23.8168, 92.7575, 32.9498, -26.858, 23.8168 ]
+"values": [ 23.8168, 72.2644, 32.9498, -1.47608, 23.8168 ]
 }
 tracks/4/type = "value"
 tracks/4/path = NodePath("torso/butt/r thigh/r leg:position")
@@ -475,7 +475,7 @@ tracks/9/keys = {
 "times": PoolRealArray( 0, 0.25, 0.5, 0.75, 1 ),
 "transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
 "update": 0,
-"values": [ -1.42975, -47.4946, 15.3366, 78.1678, -1.42975 ]
+"values": [ -1.42975, -9.94851, 15.3366, 68.6411, -1.42975 ]
 }
 tracks/10/type = "value"
 tracks/10/path = NodePath("torso/butt:position")
@@ -523,7 +523,7 @@ tracks/13/keys = {
 "times": PoolRealArray( 0, 0.25, 0.5, 0.75, 1 ),
 "transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
 "update": 0,
-"values": [ 22.7066, 82.6942, 16.6573, -49.3797, 22.7066 ]
+"values": [ 22.7066, 71.8018, 16.6573, -17.9278, 22.7066 ]
 }
 tracks/14/type = "value"
 tracks/14/path = NodePath("torso/l upper:position")
@@ -547,7 +547,7 @@ tracks/15/keys = {
 "times": PoolRealArray( 0, 0.25, 0.5, 0.75, 1 ),
 "transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
 "update": 0,
-"values": [ -93.682, -112.935, -45.2492, 22.4361, -93.682 ]
+"values": [ -93.682, -93.5128, -45.2492, 4.96959, -93.682 ]
 }
 tracks/16/type = "value"
 tracks/16/path = NodePath("torso/r upper/r arm:position")
@@ -571,7 +571,7 @@ tracks/17/keys = {
 "times": PoolRealArray( 0, 0.25, 0.5, 0.75, 1 ),
 "transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
 "update": 0,
-"values": [ 32.8414, 60.7255, 40.395, 1.84373, 32.8414 ]
+"values": [ 32.8414, 85.211, 40.395, 20.6329, 32.8414 ]
 }
 tracks/18/type = "value"
 tracks/18/path = NodePath("torso/l upper/l arm/l hand:position")
@@ -667,7 +667,7 @@ tracks/25/keys = {
 "times": PoolRealArray( 0, 0.25, 0.5, 0.75, 1 ),
 "transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
 "update": 0,
-"values": [ 47.2693, 22.6856, 61.0631, 80.5672, 47.2693 ]
+"values": [ 47.2693, 22.6856, 61.0631, 116.61, 47.2693 ]
 }
 tracks/26/type = "value"
 tracks/26/path = NodePath("shadow:position")
