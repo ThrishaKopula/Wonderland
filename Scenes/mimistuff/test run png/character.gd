@@ -6,7 +6,7 @@ extends Node2D
 # var b = "text"
 onready var character = $AnimationPlayer
 
-onready var sprite = $torso
+onready var sprite = $body
 
 
 # Called when the node enters the scene tree for the first time.
