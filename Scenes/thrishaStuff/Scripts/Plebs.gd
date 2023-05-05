@@ -12,7 +12,7 @@ func _process(_delta):
 
 func _input(event):
 	if get_node_or_null('DialogNode') == null:
-		if event.is_action_pressed("ui_accept") and active:
+		if event.is_action_pressed("interact") and active:
 			StoryVariables.chapter1_checkIfPlebItemsCollected()
 			if(StoryVariables.isDeliverStringsToBard == true):
 				pause_game()
