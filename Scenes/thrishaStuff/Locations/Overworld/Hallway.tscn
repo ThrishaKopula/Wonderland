@@ -95,7 +95,7 @@ limit_bottom = 0
 position = Vector2( 1944, 4 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="rightBoundary"]
-position = Vector2( -4, 532.5 )
+position = Vector2( 327, 533 )
 shape = SubResource( 3 )
 
 [node name="leftBoundary" type="StaticBody2D" parent="."]

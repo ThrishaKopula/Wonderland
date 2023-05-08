@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Dorm_old.png-0d721a84e93a4c0c80dcb365c16c4108.stex"
+path="res://.import/Dorm_Final.png-e2412a3be8b8f2d9cb9947c4a9408e47.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Scenes/thrishaStuff/images/Dorm_old.png"
-dest_files=[ "res://.import/Dorm_old.png-0d721a84e93a4c0c80dcb365c16c4108.stex" ]
+source_file="res://Scenes/thrishaStuff/images/Dorm_Final.png"
+dest_files=[ "res://.import/Dorm_Final.png-e2412a3be8b8f2d9cb9947c4a9408e47.stex" ]
 
 [params]
 
