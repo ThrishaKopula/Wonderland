@@ -42,13 +42,13 @@ margin_right = 1777.0
 margin_bottom = 132.0
 script = ExtResource( 3 )
 
-[node name="can1" parent="." instance=ExtResource( 2 )]
-position = Vector2( 775, 502 )
-can_color = 1
-
 [node name="can" parent="." instance=ExtResource( 2 )]
 position = Vector2( 421, 506 )
 script = ExtResource( 4 )
+
+[node name="can1" parent="." instance=ExtResource( 2 )]
+position = Vector2( 775, 502 )
+can_color = 1
 
 [node name="can2" parent="." instance=ExtResource( 2 )]
 position = Vector2( 1180, 506 )
