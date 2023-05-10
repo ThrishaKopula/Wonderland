@@ -26,7 +26,9 @@ func _on_can_body_entered(body):
 		body.queue_free();
 	
 	else:
+		$"..".bad_call();
 		print("bad");
 		body.queue_free();
+		
 	
 	pass # Replace with function body.
