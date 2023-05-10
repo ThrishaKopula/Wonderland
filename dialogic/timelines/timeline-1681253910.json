@@ -3,7 +3,7 @@
 		{
 			"event_id": "dialogic_023",
 			"hide_dialogbox": true,
-			"wait_seconds": 1
+			"wait_seconds": 3
 		},
 		{
 			"animation": "slide_in_left.gd",
@@ -738,6 +738,10 @@
 			"event_id": "dialogic_021"
 		},
 		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1683225590.cfg"
+		},
+		{
 			"animation": "slide_in_left.gd",
 			"animation_length": 0,
 			"change_mirror_portrait": false,
@@ -1448,6 +1452,10 @@
 			"event_id": "dialogic_021"
 		},
 		{
+			"event_id": "dialogic_024",
+			"set_theme": "default-theme.cfg"
+		},
+		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
@@ -1810,6 +1818,10 @@
 		{
 			"background": "res://dialogic/teaParty.jpeg",
 			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1683225590.cfg"
 		},
 		{
 			"character": "character-1681338302.json",

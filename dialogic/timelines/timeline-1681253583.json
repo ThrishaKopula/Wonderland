@@ -10,28 +10,12 @@
 			"volume": 0
 		},
 		{
-			"animation": "slide_in_left.gd",
-			"animation_length": 0,
-			"change_mirror_portrait": false,
-			"change_z_index": false,
-			"character": "character-1681086055.json",
-			"event_id": "dialogic_002",
-			"mirror_portrait": false,
-			"portrait": "Default",
-			"portrait_definition": "",
-			"position": {
-				"0": true,
-				"1": false,
-				"2": false,
-				"3": false,
-				"4": false
-			},
-			"type": 0,
-			"z_index": 0
-		},
-		{
 			"background": "res://dialogic/black.jpeg",
 			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1683686222.cfg"
 		},
 		{
 			"character": "character-1681086055.json",
@@ -44,26 +28,6 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Why are you making me do this?"
-		},
-		{
-			"animation": "[Default]",
-			"animation_length": 0,
-			"change_mirror_portrait": false,
-			"change_z_index": false,
-			"character": "character-1682574603.json",
-			"event_id": "dialogic_002",
-			"mirror_portrait": false,
-			"portrait": "Default",
-			"portrait_definition": "",
-			"position": {
-				"0": true,
-				"1": false,
-				"2": false,
-				"3": false,
-				"4": false
-			},
-			"type": 0,
-			"z_index": 0
 		},
 		{
 			"character": "character-1682574603.json",
@@ -144,10 +108,33 @@
 			"text": "…"
 		},
 		{
+			"background": "res://dialogic/black.jpeg",
+			"event_id": "dialogic_021",
+			"fade_duration": 1
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1683081099.cfg"
+		},
+		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "They drive in silence for a long while."
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 1,
+			"waiting_skippable": false
+		},
+		{
+			"background": "res://Scenes/thrishaStuff/images/Dorm_Final.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1683686222.cfg"
 		},
 		{
 			"character": "character-1682574603.json",
@@ -220,8 +207,12 @@
 			"text": "I really hope this was the right choice…"
 		},
 		{
-			"background": "",
+			"background": "res://Scenes/thrishaStuff/images/Dorm_Final.png",
 			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "default-theme.cfg"
 		},
 		{
 			"character": "character-1681086055.json",

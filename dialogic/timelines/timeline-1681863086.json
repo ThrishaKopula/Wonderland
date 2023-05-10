@@ -5,6 +5,10 @@
 			"event_id": "dialogic_021"
 		},
 		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1683225590.cfg"
+		},
+		{
 			"character": "character-1681086547.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
@@ -198,6 +202,10 @@
 		{
 			"background": "res://dialogic/dorm.png",
 			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "default-theme.cfg"
 		},
 		{
 			"character": "character-1681086055.json",
