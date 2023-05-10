@@ -4,14 +4,14 @@ extends RigidBody2D
 # Declare member variables here. Examples:
 # var a = 2
 var hold : bool = false;
-var color : int;
+export var color : int;
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	
 	var rng = RandomNumberGenerator.new();
 	rng.randomize();
-	color = rng.randi_range(0, 4);
+	color = rng.randi_range(0, 2);
 	
 	pass # Replace with function body.
 
@@ -37,7 +37,9 @@ func _on_RigidBody2D_input_event(viewport, event, shape_idx):
 		hold = true;
 		
 	elif Input.is_action_just_released("click"):
-		print("not hold")
+		
+		
+		print("not hold");
 		hold = false;
 		mode = RigidBody2D.MODE_RIGID;
 

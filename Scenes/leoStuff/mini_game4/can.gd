@@ -1,13 +1,17 @@
-extends Button
+extends Area2D
 
 
 # Declare member variables here. Examples:
 # var a = 2
-# var b = "text"
+export var can_color : int;
 
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
+	
+	if Input.is_action_just_released("click"):
+		print("delete");
+	
 	pass # Replace with function body.
 
 
@@ -15,12 +19,14 @@ func _ready():
 #func _process(delta):
 #	pass
 
-
-func _on_Button_pressed():
+func _on_can_body_entered(body):
 	
-	var trash = load("res://Scenes/leoStuff/mini_game4/trash.tscn");
-	var trashs = trash.instance();
-	add_child(trashs);
+	if body.get("color") == can_color:
+		print("good");
+		body.queue_free();
+	
+	else:
+		print("bad");
+		body.queue_free();
 	
 	pass # Replace with function body.
-

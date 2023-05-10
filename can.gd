@@ -1,9 +1,9 @@
-extends Button
+extends Area2D
 
 
 # Declare member variables here. Examples:
 # var a = 2
-# var b = "text"
+export var b = "text"
 
 
 # Called when the node enters the scene tree for the first time.
@@ -14,13 +14,8 @@ func _ready():
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 #func _process(delta):
 #	pass
-
-
-func _on_Button_pressed():
+func _on_can_body_entered(body):
 	
-	var trash = load("res://Scenes/leoStuff/mini_game4/trash.tscn");
-	var trashs = trash.instance();
-	add_child(trashs);
+	print(body.get("color"));
 	
 	pass # Replace with function body.
-
