@@ -1,0 +1,241 @@
+{
+	"events": [
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1683770218.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hey, Janitor…"
+		},
+		{
+			"character": "character-1683770218.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Have to fix a creaky step here"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Janitor! This is from Lunch Lady!"
+		},
+		{
+			"character": "character-1683770218.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh!"
+		},
+		{
+			"character": "character-1683770218.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh, hello."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( Finally noticed me, huh… )"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( Must only have ears for his wife… )"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hey, Lunch Lady wanted to give you this peach pie slice."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "She baked it just for you."
+		},
+		{
+			"character": "character-1683770218.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "And you brought it all the way here for me."
+		},
+		{
+			"character": "character-1683770218.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "She must have taken a liking to you."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh, I just helped her grab some of the ingredients."
+		},
+		{
+			"character": "character-1683770218.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "That’s very thoughtful."
+		},
+		{
+			"character": "character-1683770218.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I guess I’ll take a break and have this now."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( Now’s my chance. )"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Um, excuse me. I happen to be looking for a [b]Key[/b]."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I, uh, I figured you might have seen an extra or something lying around?"
+		},
+		{
+			"character": "character-1683770218.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…"
+		},
+		{
+			"character": "character-1683770218.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hm…"
+		},
+		{
+			"character": "character-1683770218.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…I do remember finding a key that wouldn’t fit in any of the locks here…"
+		},
+		{
+			"character": "character-1683770218.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Tell you what boy, let me finish up this pie and I’ll take you to the backroom."
+		},
+		{
+			"background": "res://dialogic/black.jpeg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1683081099.cfg"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The janitor slowly finished his slice of pie. "
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "He eats slowly, but it’s clear he is enjoying the snack."
+		},
+		{
+			"background": "res://dialogic/classroom.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1683770218.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Okay, let’s get to this room."
+		},
+		{
+			"character": "character-1683770218.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Fair warning, it’s really cluttered. We might have to clean up before we can even find it."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "O-Oh… cleaning…?"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "We? Who’s we?"
+		},
+		{
+			"character": "character-1683770218.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Heh heh, you want that key, you’re gonna have to work for it, boy."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "M-Me? Cleaning?"
+		},
+		{
+			"character": "character-1683770218.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Haha, don’t look so worried, I’ll make it easy for ya."
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1683775490.json",
+		"name": "deliverToJanitor"
+	}
+}

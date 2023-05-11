@@ -1,0 +1,193 @@
+{
+	"events": [
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1683770218.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1683770218.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Whew! That was quite the cleanup! How’re you holding up, kid?"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( God, I’m tired… )"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( There’s dust in places I don’t even want to think about… )"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( Ugh… )"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I’m fine… I’ve never cleaned that much before…"
+		},
+		{
+			"character": "character-1683770218.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Haha, I can tell!"
+		},
+		{
+			"character": "character-1683770218.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Anyway, let’s get that key for you. It’s right over here."
+		},
+		{
+			"character": "character-1683770218.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "It looks like it's rather small…"
+		},
+		{
+			"character": "character-1683770218.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Looks almost like a toy!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "It’s gotta be the [b]Key[/b] for the music box!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "This has got to be it!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I uh, I need it for a…"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "School project!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…"
+		},
+		{
+			"character": "character-1683770218.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…"
+		},
+		{
+			"character": "character-1683770218.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Okay, good luck then."
+		},
+		{
+			"character": "character-1683770218.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "And thanks for helping me out, kid."
+		},
+		{
+			"character": "character-1683770218.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I know you wanted something out of it, but…"
+		},
+		{
+			"character": "character-1683770218.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Still, you went out of your way to clean up with me."
+		},
+		{
+			"character": "character-1683770218.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Thanks for that."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh, um… sure thing."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( I can’t get distracted now… )"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( I have to get back to Matthew and give him the [b]Key[/b]. )"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1683776187.json",
+		"name": "afterCleaningMinigame"
+	}
+}
