@@ -43,6 +43,10 @@
 			"fade_duration": 1
 		},
 		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1683686222.cfg"
+		},
+		{
 			"animation": "[Default]",
 			"animation_length": 0,
 			"change_mirror_portrait": false,
@@ -123,10 +127,18 @@
 			"text": "( I’ll find a way to make it through. After I get this degree, I’ll have that money and it’s smooth sailing for me. )"
 		},
 		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1683081099.cfg"
+		},
+		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "One week passes…"
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "default-theme.cfg"
 		},
 		{
 			"background": "res://dialogic/dorm.png",

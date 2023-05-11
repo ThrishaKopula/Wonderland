@@ -16,14 +16,16 @@
 						"character-1681451499.json",
 						"character-1682574603.json",
 						"character-1682633822.json",
-						"character-1682643732.json"
+						"character-1682643732.json",
+						"character-1683770218.json",
+						"character-1683770471.json"
 					],
 					"folders": {
 
 					},
 					"metadata": {
 						"color": null,
-						"folded": false
+						"folded": true
 					}
 				},
 				"Wonderland": {
@@ -61,7 +63,7 @@
 			},
 			"metadata": {
 				"color": null,
-				"folded": true
+				"folded": false
 			}
 		},
 		"Definitions": {
@@ -144,6 +146,20 @@
 						"folded": true
 					}
 				},
+				"Chapter 2": {
+					"files": [
+						"timeline-1683768800.json",
+						"timeline-1683770153.json",
+						"timeline-1683770428.json"
+					],
+					"folders": {
+
+					},
+					"metadata": {
+						"color": null,
+						"folded": false
+					}
+				},
 				"Prologue": {
 					"files": [
 						"timeline-1681253583.json",
@@ -169,7 +185,7 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": false
+						"folded": true
 					}
 				}
 			},
