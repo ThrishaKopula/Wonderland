@@ -32,6 +32,17 @@ var isPleb_CItemCollected = false
 var isAllItemsCollected = false
 var isBringIngredientsToTavern = false
 
+#CHAPTER 2
+var isChapterTwoStart= false
+var isInitiateCCh2MainQuest = false
+var isFindWhoIsCloseToJanitor = false
+var isRetrieveExoticFruit = false
+var isCatchTheThief = false
+var isBringThiefToVendors = false
+var isDeliverExoticFruitToLunchLady = false
+var isDeliverToJanitor = false
+var isAfterCleaningMinigame = false
+var isDeliverKeyToMatthew = false
 
 # Called when the node enters the scene tree for the first time.
 func _ready():

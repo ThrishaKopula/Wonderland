@@ -92,5 +92,5 @@ stream = ExtResource( 8 )
 
 [connection signal="body_entered" from="MusicGeek" to="MusicGeek" method="_on_MusicGeek_body_entered"]
 [connection signal="body_exited" from="MusicGeek" to="MusicGeek" method="_on_MusicGeek_body_exited"]
-[connection signal="body_entered" from="LunchLady" to="LunchLady" method="_on_Cheerleader_body_entered"]
-[connection signal="body_exited" from="LunchLady" to="LunchLady" method="_on_Cheerleader_body_exited"]
+[connection signal="body_entered" from="LunchLady" to="LunchLady" method="_on_LunchLady_body_entered"]
+[connection signal="body_exited" from="LunchLady" to="LunchLady" method="_on_LunchLady_body_exited"]
