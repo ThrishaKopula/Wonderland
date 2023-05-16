@@ -129,7 +129,7 @@
 			"waiting_skippable": false
 		},
 		{
-			"background": "res://Scenes/thrishaStuff/images/Dorm_Final.png",
+			"background": "res://dialogic/black.jpeg",
 			"event_id": "dialogic_021"
 		},
 		{
