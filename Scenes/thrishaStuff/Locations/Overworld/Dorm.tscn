@@ -4,12 +4,12 @@
 [ext_resource path="res://Scenes/thrishaStuff/images/Dorm_Final.png" type="Texture" id=2]
 [ext_resource path="res://Scenes/leoStuff/HUD/HUD.tscn" type="PackedScene" id=3]
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/Mirror.gd" type="Script" id=4]
-[ext_resource path="res://Scenes/thrishaStuff/images/move_left.png" type="Texture" id=5]
 [ext_resource path="res://Scenes/thrishaStuff/images/otherBed.png" type="Texture" id=6]
-[ext_resource path="res://Scenes/thrishaStuff/images/move_right.png" type="Texture" id=7]
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/Bed.gd" type="Script" id=8]
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/Map.gd" type="Script" id=9]
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/OtherBed.gd" type="Script" id=10]
+[ext_resource path="res://Scenes/thrishaStuff/images/AD_keys-2.png" type="Texture" id=11]
+[ext_resource path="res://Scenes/thrishaStuff/images/AD_keys-1.png" type="Texture" id=12]
 [ext_resource path="res://Scenes/thrishaStuff/Audio/Dorm/Kevin MacLeod： Chill.wav" type="AudioStream" id=13]
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/Dorm.gd" type="Script" id=14]
 [ext_resource path="res://Scenes/thrishaStuff/images/F_To_Interact.png" type="Texture" id=15]
@@ -117,15 +117,13 @@ limit_top = 0
 limit_right = 2225
 limit_bottom = 0
 
-[node name="MoveLeft" type="Sprite" parent="player"]
-position = Vector2( -143, -342 )
-scale = Vector2( 0.101852, 0.101852 )
-texture = ExtResource( 5 )
-
 [node name="MoveRight" type="Sprite" parent="player"]
-position = Vector2( 43, -340 )
-scale = Vector2( 0.0949075, 0.0949075 )
-texture = ExtResource( 7 )
+position = Vector2( 69, -319 )
+texture = ExtResource( 11 )
+
+[node name="MoveLeft" type="Sprite" parent="player"]
+position = Vector2( -135, -317 )
+texture = ExtResource( 12 )
 
 [node name="rightBoundary" type="StaticBody2D" parent="."]
 position = Vector2( 1941, 5 )
