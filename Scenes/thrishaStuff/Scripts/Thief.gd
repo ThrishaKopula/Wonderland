@@ -10,14 +10,14 @@ func _input(event):
 		if event.is_action_pressed("interact") and active:
 			if(StoryVariables.isInTavern == true):
 				pause_game()
-				var dialog = Dialogic.start("thief_tavern")
+				var dialog = Dialogic.start("testing")
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
 				dialog.connect('timeline_end', self, 'unpause')
 				add_child(dialog)
 				StoryVariables.catch_tavern = true
 			elif(StoryVariables.isInPlebTown == true):
 				pause_game()
-				var dialog = Dialogic.start("thief_plebTown")
+				var dialog = Dialogic.start("testing")
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
 				dialog.connect('timeline_end', self, 'unpause')
 				add_child(dialog)

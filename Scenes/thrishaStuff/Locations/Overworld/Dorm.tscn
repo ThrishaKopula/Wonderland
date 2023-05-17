@@ -55,7 +55,7 @@ scale = Vector2( 0.16, 0.16 )
 texture = ExtResource( 6 )
 
 [node name="QuestionMark" type="Sprite" parent="OtherBed"]
-position = Vector2( -149, -279 )
+position = Vector2( -206.243, -279 )
 texture = ExtResource( 15 )
 
 [node name="Bed" type="Area2D" parent="."]

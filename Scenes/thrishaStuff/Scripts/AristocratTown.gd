@@ -22,3 +22,4 @@ func _on_Thief_body_entered(body):
 
 func _on_Thief_body_exited(body):
 	StoryVariables.isInAristocratTown = false
+	$Thief.queue_free()
