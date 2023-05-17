@@ -39,7 +39,7 @@ position = Vector2( 1112.5, 540 )
 texture = ExtResource( 2 )
 
 [node name="OtherBed" type="Area2D" parent="."]
-position = Vector2( 1750, 656 )
+position = Vector2( 1717, 638 )
 script = ExtResource( 10 )
 __meta__ = {
 "_edit_group_": true
@@ -93,7 +93,7 @@ position = Vector2( 224, -157 )
 texture = ExtResource( 15 )
 
 [node name="Mirror" type="Area2D" parent="."]
-position = Vector2( 2111, 586 )
+position = Vector2( 2116, 558 )
 script = ExtResource( 4 )
 __meta__ = {
 "_edit_group_": true
@@ -120,11 +120,11 @@ limit_right = 2225
 limit_bottom = 0
 
 [node name="MoveRight" type="Sprite" parent="player"]
-position = Vector2( 69, -319 )
+position = Vector2( 174, 283 )
 texture = ExtResource( 11 )
 
 [node name="MoveLeft" type="Sprite" parent="player"]
-position = Vector2( -135, -317 )
+position = Vector2( -163, 283 )
 texture = ExtResource( 12 )
 
 [node name="rightBoundary" type="StaticBody2D" parent="."]
