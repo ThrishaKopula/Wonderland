@@ -15,6 +15,7 @@ func _input(event):
 				dialog.connect('timeline_end', self, 'unpause')
 				add_child(dialog)
 				StoryVariables.catch_tavern = true
+				StoryVariables.chapter2_checkCatchTheThief()
 			elif(StoryVariables.isInPlebTown == true):
 				pause_game()
 				var dialog = Dialogic.start("testing")
@@ -22,6 +23,7 @@ func _input(event):
 				dialog.connect('timeline_end', self, 'unpause')
 				add_child(dialog)
 				StoryVariables.catch_plebTown = true
+				StoryVariables.chapter2_checkCatchTheThief()
 			elif(StoryVariables.isInAristocratTown == true):
 				pause_game()
 				var dialog = Dialogic.start("thief_aristocratTown")
@@ -29,6 +31,7 @@ func _input(event):
 				dialog.connect('timeline_end', self, 'unpause')
 				add_child(dialog)
 				StoryVariables.catch_aristocratTown = true
+				StoryVariables.chapter2_checkCatchTheThief()
 
 func pause_game():
 	get_tree().paused = true

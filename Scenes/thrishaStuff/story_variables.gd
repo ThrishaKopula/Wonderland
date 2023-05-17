@@ -58,7 +58,6 @@ func _ready():
 
 func prologue_checkAllInteractions():
 	if (isMapInteracted == true && isAlisBedInteracted == true && isOtherBedInteracted == true && isMirrorInteracted == true):
-		
 		get_tree().paused = true
 		canPlayerMove = false
 		var dialog = Dialogic.start("movingInPart2")
@@ -78,5 +77,12 @@ func chapter1_checkIfPlebItemsCollected():
 func chapter2_checkCatchTheThief():
 	if (catch_aristocratTown == true && catch_plebTown == true && catch_tavern == true):
 		isCatchTheThief = true
+		get_tree().paused = true
+		canPlayerMove = false
+		var dialog = Dialogic.start("afterThiefGame")
+		dialog.pause_mode = Node.PAUSE_MODE_PROCESS
+		dialog.connect('timeline_end', self, 'unpause')
+		add_child(dialog)
+		
 
 		
