@@ -702,6 +702,7 @@ tracks/27/keys = {
 [node name="torso" type="Sprite" parent="body"]
 position = Vector2( 16, 106 )
 rotation = -0.232932
+z_index = 3
 texture = ExtResource( 5 )
 offset = Vector2( 24, -109 )
 

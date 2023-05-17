@@ -12,28 +12,35 @@ anchor_left = 1.0
 anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_left = -483.0
-margin_top = -521.0
-margin_right = -420.0
-margin_bottom = -453.0
+margin_left = -447.0
+margin_top = -629.0
+margin_right = -382.0
+margin_bottom = -537.0
 rect_scale = Vector2( 6.12, 6.12 )
 
 [node name="StartButton" type="Button" parent="VBoxContainer"]
-margin_right = 63.0
+margin_right = 65.0
 margin_bottom = 20.0
 text = "Start"
 
 [node name="Options" type="Button" parent="VBoxContainer"]
 margin_top = 24.0
-margin_right = 63.0
+margin_right = 65.0
 margin_bottom = 44.0
-text = "Options"
+text = "Controls"
 
 [node name="Quit" type="Button" parent="VBoxContainer"]
 margin_top = 48.0
-margin_right = 63.0
+margin_right = 65.0
 margin_bottom = 68.0
 text = "Quit"
 
+[node name="Credits" type="Button" parent="VBoxContainer"]
+margin_top = 72.0
+margin_right = 65.0
+margin_bottom = 92.0
+text = "Credits"
+
 [connection signal="pressed" from="VBoxContainer/StartButton" to="." method="_on_StartButton_pressed"]
 [connection signal="pressed" from="VBoxContainer/Quit" to="." method="_on_Quit_pressed"]
+[connection signal="pressed" from="VBoxContainer/Credits" to="." method="_on_Credits_pressed"]

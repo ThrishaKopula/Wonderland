@@ -113,5 +113,5 @@ stream = ExtResource( 9 )
 [connection signal="body_exited" from="Poster" to="Poster" method="_on_Poster_body_exited"]
 [connection signal="body_entered" from="Jock" to="Jock" method="_on_Cheerleader_body_entered"]
 [connection signal="body_exited" from="Jock" to="Jock" method="_on_Cheerleader_body_exited"]
-[connection signal="body_entered" from="Janitor" to="Janitor" method="_on_Cheerleader_body_entered"]
-[connection signal="body_exited" from="Janitor" to="Janitor" method="_on_Cheerleader_body_exited"]
+[connection signal="body_entered" from="Janitor" to="Janitor" method="_on_Janitor_body_entered"]
+[connection signal="body_exited" from="Janitor" to="Janitor" method="_on_Janitor_body_exited"]

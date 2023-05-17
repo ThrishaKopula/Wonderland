@@ -1,0 +1,561 @@
+{
+	"events": [
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681495641.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681495654.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681495659.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681495850.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1683771916.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681495850.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hooray for Al!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "It really wasn’t that bad you guys…"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( It was tedious… )"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( But seeing this lot get so giddy over it… )"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( …! )"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( H-Hah! No time for this feel-good crap… )"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Anyway, here he is!"
+		},
+		{
+			"character": "character-1681495850.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "RAAAAAAAAAAAAHH! SKIN HIM ALIVE!!"
+		},
+		{
+			"character": "character-1683771916.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "AIIIIIIIIIIIIIIIEEEEEEEEEEEEEEEEEEEEE!"
+		},
+		{
+			"character": "character-1683771916.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "NO! DON’T!"
+		},
+		{
+			"character": "character-1683771916.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Listen, please! Please!"
+		},
+		{
+			"character": "character-1683771916.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "It… It actually wasn’t me!"
+		},
+		{
+			"character": "character-1683771916.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Honest!"
+		},
+		{
+			"character": "character-1683771916.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I mean, come on."
+		},
+		{
+			"character": "character-1683771916.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You don’t REALLY think I look like a guy that would steal things, do you?"
+		},
+		{
+			"character": "character-1681495641.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…"
+		},
+		{
+			"character": "character-1681495654.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…"
+		},
+		{
+			"character": "character-1681495659.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "..."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…"
+		},
+		{
+			"character": "character-1683771916.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I really didn’t do it!"
+		},
+		{
+			"character": "character-1683771916.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…"
+		},
+		{
+			"character": "character-1683771916.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Okay fine, it was me, but it was only one peac–"
+		},
+		{
+			"character": "character-1681495641.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "GET HIM!!"
+		},
+		{
+			"character": "character-1683771916.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "NO! NOOO! WAIT!"
+		},
+		{
+			"character": "character-1683771916.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…*sniff*"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Are you crying?"
+		},
+		{
+			"character": "character-1683771916.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "*sob* *sob* I’m a failure!"
+		},
+		{
+			"character": "character-1683771916.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I’m, *hic*, I’m supposed to be the town THIEF!"
+		},
+		{
+			"character": "character-1683771916.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "What kind of a thief can’t even pull off a successful theft? "
+		},
+		{
+			"character": "character-1683771916.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Waaaaaah!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( Did not see this coming… )"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Uh… Hey, look you, uh…"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You did steal successfully!"
+		},
+		{
+			"character": "character-1683771916.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "*sniff* Huh?"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I mean, like these guys had to call upon me just to catch you…"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "It took four of us just to catch one of you!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You’re a… good…thief?"
+		},
+		{
+			"character": "character-1681495641.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "AND A DEAD ONE!"
+		},
+		{
+			"character": "character-1681495641.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "C’MERE YOU STICKY-FINGERED BASTARD!"
+		},
+		{
+			"character": "character-1683771916.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "EEK!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Whoa, whoa! Okay, hold up!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "How about…"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "How about you guys become partners?"
+		},
+		{
+			"character": "character-1681495654.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Like…"
+		},
+		{
+			"character": "character-1681495659.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Like romantically?"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Well, sure, if you wanted?"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "But I mean in business."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Clearly if you got robbed by this thief, it means your security is clearly lacking."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( That’s right… even I have my attendants at home check security. )"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "How about you hire this thief to protect your goods at night?"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "As payment, you have to give him some of your profits."
+		},
+		{
+			"character": "character-1683771916.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…!"
+		},
+		{
+			"character": "character-1681495850.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…"
+		},
+		{
+			"character": "character-1681495641.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hm…"
+		},
+		{
+			"character": "character-1683771916.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…Please!"
+		},
+		{
+			"character": "character-1683771916.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I’ll never steal again! I’ll be YOUR thief!"
+		},
+		{
+			"character": "character-1683771916.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hell, I’ll steal from your competitors."
+		},
+		{
+			"character": "character-1681495850.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "HE’S HIRED!!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( Talk about two-faced… )"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Well, all’s well that ends well right?"
+		},
+		{
+			"character": "character-1681495641.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh, before you forget! You needed [b]peaches[/b] right?"
+		},
+		{
+			"character": "character-1681495654.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yeah, now that you caught our thief, we got our goods back!"
+		},
+		{
+			"character": "character-1681495659.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You even got us a security guard! Have some extra on the house!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "W-Whoa!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Th…"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Thanks, guys."
+		},
+		{
+			"character": "character-1681495850.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Anytime, Al!"
+		},
+		{
+			"character": "character-1681495850.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "See ya!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Take care."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Whew… I’ve got the [b]peaches[/b]."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I should go back to give these to the Lunch Lady…"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1683772074.json",
+		"name": "bringThiefToVendors"
+	}
+}
