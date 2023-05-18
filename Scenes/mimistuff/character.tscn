@@ -2,52 +2,53 @@
 
 [ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/Overworld-Alistair-Idle-9.png" type="Texture" id=1]
 [ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/Overworld-Alistair-Idle-2.png" type="Texture" id=2]
-[ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/Overworld-Alistair-Idle-14.png" type="Texture" id=3]
-[ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/Overworld-Alistair-Idle-11.png" type="Texture" id=4]
-[ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/Wonderland-Alistair-Idle-2.png" type="Texture" id=5]
-[ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/Overworld-Alistair-Idle-12.png" type="Texture" id=6]
-[ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/Overworld-Alistair-Idle-3.png" type="Texture" id=7]
-[ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/Overworld-Alistair-Idle-4.png" type="Texture" id=8]
-[ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/Overworld-Alistair-Idle-10.png" type="Texture" id=9]
-[ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/Overworld-Alistair-Idle-13.png" type="Texture" id=10]
-[ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/Overworld-Alistair-Idle-7.png" type="Texture" id=11]
-[ext_resource path="res://Scenes/mimistuff/alistair wonderland run/Alistair Run Wonderland/Wonderland-Alistair-Run-2.png" type="Texture" id=12]
-[ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/Overworld-Alistair-Idle-1.png" type="Texture" id=13]
-[ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/coattail_blank.png" type="Texture" id=14]
-[ext_resource path="res://Scenes/mimistuff/test run png/character.gd" type="Script" id=15]
-[ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/Overworld-Alistair-Idle-6.png" type="Texture" id=16]
-[ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/Overworld-Alistair-Idle-5.png" type="Texture" id=17]
-[ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/Overworld-Alistair-Idle-8.png" type="Texture" id=18]
-[ext_resource path="res://Scenes/mimistuff/alistair overworld run/Alistair Run Overworld/Overworld-Alistair-Run-4.png" type="Texture" id=19]
-[ext_resource path="res://Scenes/mimistuff/alistair wonderland run/Alistair Run Wonderland/Wonderland-Alistair-Run-12.png" type="Texture" id=20]
-[ext_resource path="res://Scenes/mimistuff/alistair wonderland run/Alistair Run Wonderland/Wonderland-Alistair-Run-9.png" type="Texture" id=21]
-[ext_resource path="res://Scenes/mimistuff/alistair wonderland idle/Alistair Idle Wonderland/Wonderland-Alistair-Idle-14.png" type="Texture" id=22]
-[ext_resource path="res://Scenes/mimistuff/alistair overworld run/Alistair Run Overworld/Overworld-Alistair-Run-14.png" type="Texture" id=23]
-[ext_resource path="res://Scenes/mimistuff/alistair wonderland run/Alistair Run Wonderland/Wonderland-Alistair-Run-8.png" type="Texture" id=24]
-[ext_resource path="res://Scenes/mimistuff/alistair wonderland idle/Alistair Idle Wonderland/Wonderland-Alistair-Idle-3.png" type="Texture" id=25]
-[ext_resource path="res://Scenes/mimistuff/alistair wonderland idle/Alistair Idle Wonderland/Wonderland-Alistair-Idle-8.png" type="Texture" id=26]
-[ext_resource path="res://Scenes/mimistuff/alistair wonderland run/Alistair Run Wonderland/Wonderland-Alistair-Run-13.png" type="Texture" id=27]
-[ext_resource path="res://Scenes/mimistuff/alistair overworld run/Alistair Run Overworld/Overworld-Alistair-Run-12.png" type="Texture" id=28]
-[ext_resource path="res://Scenes/mimistuff/alistair overworld run/Alistair Run Overworld/Overworld-Alistair-Run-8.png" type="Texture" id=29]
-[ext_resource path="res://Scenes/mimistuff/alistair overworld run/Alistair Run Overworld/Overworld-Alistair-Run-1.png" type="Texture" id=30]
-[ext_resource path="res://Scenes/mimistuff/alistair wonderland idle/Alistair Idle Wonderland/Wonderland-Alistair-Idle-15.png" type="Texture" id=31]
-[ext_resource path="res://Scenes/mimistuff/alistair wonderland idle/Alistair Idle Wonderland/Wonderland-Alistair-Idle-13.png" type="Texture" id=32]
-[ext_resource path="res://Scenes/mimistuff/alistair wonderland run/Alistair Run Wonderland/Wonderland-Alistair-Run-6.png" type="Texture" id=33]
-[ext_resource path="res://Scenes/mimistuff/alistair wonderland idle/Alistair Idle Wonderland/Wonderland-Alistair-Idle-6.png" type="Texture" id=34]
-[ext_resource path="res://Scenes/mimistuff/alistair wonderland idle/Alistair Idle Wonderland/Wonderland-Alistair-Idle-12.png" type="Texture" id=35]
-[ext_resource path="res://Scenes/mimistuff/alistair wonderland idle/Alistair Idle Wonderland/Wonderland-Alistair-Idle-10.png" type="Texture" id=36]
-[ext_resource path="res://Scenes/mimistuff/alistair wonderland run/Alistair Run Wonderland/Wonderland-Alistair-Run-15.png" type="Texture" id=37]
-[ext_resource path="res://Scenes/mimistuff/alistair overworld run/Alistair Run Overworld/Overworld-Alistair-Run-9.png" type="Texture" id=38]
-[ext_resource path="res://Scenes/mimistuff/alistair overworld run/Alistair Run Overworld/Overworld-Alistair-Run-11.png" type="Texture" id=39]
-[ext_resource path="res://Scenes/mimistuff/alistair wonderland run/Alistair Run Wonderland/Wonderland-Alistair-Run-10.png" type="Texture" id=40]
-[ext_resource path="res://Scenes/mimistuff/alistair wonderland idle/Alistair Idle Wonderland/Wonderland-Alistair-Idle-9.png" type="Texture" id=41]
-[ext_resource path="res://Scenes/mimistuff/alistair overworld run/Alistair Run Overworld/Overworld-Alistair-Run-10.png" type="Texture" id=42]
-[ext_resource path="res://Scenes/mimistuff/alistair overworld run/Alistair Run Overworld/Overworld-Alistair-Run-7.png" type="Texture" id=43]
-[ext_resource path="res://Scenes/mimistuff/alistair wonderland run/Alistair Run Wonderland/Wonderland-Alistair-Run-11.png" type="Texture" id=44]
-[ext_resource path="res://Scenes/mimistuff/alistair wonderland idle/Alistair Idle Wonderland/Wonderland-Alistair-Idle-11.png" type="Texture" id=45]
-[ext_resource path="res://Scenes/mimistuff/alistair overworld run/Alistair Run Overworld/Overworld-Alistair-Run-5.png" type="Texture" id=46]
-[ext_resource path="res://Scenes/mimistuff/alistair overworld run/Alistair Run Overworld/Overworld-Alistair-Run-6.png" type="Texture" id=47]
-[ext_resource path="res://Scenes/mimistuff/alistair wonderland run/Alistair Run Wonderland/Wonderland-Alistair-Run-14.png" type="Texture" id=48]
+[ext_resource path="res://Scenes/mimistuff/alistair overworld run/Alistair Run Overworld/Overworld-Alistair-Run-4.png" type="Texture" id=3]
+[ext_resource path="res://Scenes/mimistuff/alistair wonderland run/Alistair Run Wonderland/Wonderland-Alistair-Run-12.png" type="Texture" id=4]
+[ext_resource path="res://Scenes/mimistuff/alistair wonderland run/Alistair Run Wonderland/Wonderland-Alistair-Run-9.png" type="Texture" id=5]
+[ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/Overworld-Alistair-Idle-14.png" type="Texture" id=6]
+[ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/Overworld-Alistair-Idle-11.png" type="Texture" id=7]
+[ext_resource path="res://Scenes/mimistuff/alistair wonderland idle/Alistair Idle Wonderland/Wonderland-Alistair-Idle-14.png" type="Texture" id=8]
+[ext_resource path="res://Scenes/mimistuff/alistair overworld run/Alistair Run Overworld/Overworld-Alistair-Run-14.png" type="Texture" id=9]
+[ext_resource path="res://Scenes/mimistuff/alistair wonderland run/Alistair Run Wonderland/Wonderland-Alistair-Run-8.png" type="Texture" id=10]
+[ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/Wonderland-Alistair-Idle-2.png" type="Texture" id=11]
+[ext_resource path="res://Scenes/mimistuff/alistair wonderland idle/Alistair Idle Wonderland/Wonderland-Alistair-Idle-3.png" type="Texture" id=12]
+[ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/Overworld-Alistair-Idle-12.png" type="Texture" id=13]
+[ext_resource path="res://Scenes/mimistuff/alistair wonderland idle/Alistair Idle Wonderland/Wonderland-Alistair-Idle-8.png" type="Texture" id=14]
+[ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/Overworld-Alistair-Idle-3.png" type="Texture" id=15]
+[ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/Overworld-Alistair-Idle-4.png" type="Texture" id=16]
+[ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/Overworld-Alistair-Idle-10.png" type="Texture" id=17]
+[ext_resource path="res://Scenes/mimistuff/alistair wonderland run/Alistair Run Wonderland/Wonderland-Alistair-Run-13.png" type="Texture" id=18]
+[ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/Overworld-Alistair-Idle-13.png" type="Texture" id=19]
+[ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/Overworld-Alistair-Idle-7.png" type="Texture" id=20]
+[ext_resource path="res://Scenes/mimistuff/test run png/character.gd" type="Script" id=21]
+[ext_resource path="res://Scenes/mimistuff/alistair overworld run/Alistair Run Overworld/Overworld-Alistair-Run-12.png" type="Texture" id=22]
+[ext_resource path="res://Scenes/mimistuff/alistair overworld run/Alistair Run Overworld/Overworld-Alistair-Run-8.png" type="Texture" id=23]
+[ext_resource path="res://Scenes/mimistuff/alistair overworld run/Alistair Run Overworld/Overworld-Alistair-Run-1.png" type="Texture" id=24]
+[ext_resource path="res://Scenes/mimistuff/alistair wonderland idle/Alistair Idle Wonderland/Wonderland-Alistair-Idle-15.png" type="Texture" id=25]
+[ext_resource path="res://Scenes/mimistuff/alistair wonderland idle/Alistair Idle Wonderland/Wonderland-Alistair-Idle-13.png" type="Texture" id=26]
+[ext_resource path="res://Scenes/mimistuff/alistair wonderland run/Alistair Run Wonderland/Wonderland-Alistair-Run-6.png" type="Texture" id=27]
+[ext_resource path="res://Scenes/mimistuff/alistair wonderland idle/Alistair Idle Wonderland/Wonderland-Alistair-Idle-6.png" type="Texture" id=28]
+[ext_resource path="res://Scenes/mimistuff/alistair wonderland idle/Alistair Idle Wonderland/Wonderland-Alistair-Idle-12.png" type="Texture" id=29]
+[ext_resource path="res://Scenes/mimistuff/alistair wonderland idle/Alistair Idle Wonderland/Wonderland-Alistair-Idle-10.png" type="Texture" id=30]
+[ext_resource path="res://Scenes/mimistuff/alistair wonderland run/Alistair Run Wonderland/Wonderland-Alistair-Run-15.png" type="Texture" id=31]
+[ext_resource path="res://Scenes/mimistuff/alistair overworld run/Alistair Run Overworld/Overworld-Alistair-Run-9.png" type="Texture" id=32]
+[ext_resource path="res://Scenes/mimistuff/alistair overworld run/Alistair Run Overworld/Overworld-Alistair-Run-11.png" type="Texture" id=33]
+[ext_resource path="res://Scenes/mimistuff/alistair wonderland run/Alistair Run Wonderland/Wonderland-Alistair-Run-2.png" type="Texture" id=34]
+[ext_resource path="res://Scenes/mimistuff/alistair wonderland run/Alistair Run Wonderland/Wonderland-Alistair-Run-10.png" type="Texture" id=35]
+[ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/Overworld-Alistair-Idle-1.png" type="Texture" id=36]
+[ext_resource path="res://Scenes/mimistuff/alistair wonderland idle/Alistair Idle Wonderland/Wonderland-Alistair-Idle-9.png" type="Texture" id=37]
+[ext_resource path="res://Scenes/mimistuff/alistair overworld run/Alistair Run Overworld/Overworld-Alistair-Run-10.png" type="Texture" id=38]
+[ext_resource path="res://Scenes/mimistuff/alistair overworld run/Alistair Run Overworld/Overworld-Alistair-Run-7.png" type="Texture" id=39]
+[ext_resource path="res://Scenes/mimistuff/alistair wonderland run/Alistair Run Wonderland/Wonderland-Alistair-Run-11.png" type="Texture" id=40]
+[ext_resource path="res://Scenes/mimistuff/Alistair Animations/Alistair Idle Overworld/coattail blank.png" type="Texture" id=41]
+[ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/Overworld-Alistair-Idle-6.png" type="Texture" id=42]
+[ext_resource path="res://Scenes/mimistuff/alistair wonderland idle/Alistair Idle Wonderland/Wonderland-Alistair-Idle-11.png" type="Texture" id=43]
+[ext_resource path="res://Scenes/mimistuff/alistair overworld run/Alistair Run Overworld/Overworld-Alistair-Run-5.png" type="Texture" id=44]
+[ext_resource path="res://Scenes/mimistuff/alistair overworld run/Alistair Run Overworld/Overworld-Alistair-Run-6.png" type="Texture" id=45]
+[ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/Overworld-Alistair-Idle-5.png" type="Texture" id=46]
+[ext_resource path="res://Scenes/mimistuff/alistair wonderland run/Alistair Run Wonderland/Wonderland-Alistair-Run-14.png" type="Texture" id=47]
+[ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/Overworld-Alistair-Idle-8.png" type="Texture" id=48]
+
 
 [sub_resource type="Animation" id=1]
 resource_name = "Idle 1 Overworld"
@@ -424,7 +425,7 @@ tracks/30/keys = {
 "times": PoolRealArray( 0, 2 ),
 "transitions": PoolRealArray( 1, 1 ),
 "update": 1,
-"values": [ ExtResource( 9 ), ExtResource( 9 ) ]
+"values": [ ExtResource( 17 ), ExtResource( 17 ) ]
 }
 tracks/31/type = "value"
 tracks/31/path = NodePath("body/torso/head:texture")
@@ -436,7 +437,7 @@ tracks/31/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 3 ) ]
+"values": [ ExtResource( 6 ) ]
 }
 tracks/32/type = "value"
 tracks/32/path = NodePath("body/torso/butt:texture")
@@ -448,7 +449,7 @@ tracks/32/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 8 ) ]
+"values": [ ExtResource( 16 ) ]
 }
 tracks/33/type = "value"
 tracks/33/path = NodePath("body/torso/butt/coattails:texture")
@@ -460,7 +461,7 @@ tracks/33/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 14 ) ]
+"values": [ ExtResource( 41 ) ]
 }
 tracks/34/type = "value"
 tracks/34/path = NodePath("body/torso/butt/l thigh:texture")
@@ -472,7 +473,7 @@ tracks/34/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 7 ) ]
+"values": [ ExtResource( 15 ) ]
 }
 tracks/35/type = "value"
 tracks/35/path = NodePath("body/torso/butt/l thigh/l leg:texture")
@@ -496,7 +497,7 @@ tracks/36/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 16 ) ]
+"values": [ ExtResource( 42 ) ]
 }
 tracks/37/type = "value"
 tracks/37/path = NodePath("body/torso/butt/r thigh/r leg:texture")
@@ -508,7 +509,7 @@ tracks/37/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 17 ) ]
+"values": [ ExtResource( 46 ) ]
 }
 tracks/38/type = "value"
 tracks/38/path = NodePath("body/torso/l upper:texture")
@@ -520,7 +521,7 @@ tracks/38/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 11 ) ]
+"values": [ ExtResource( 20 ) ]
 }
 tracks/39/type = "value"
 tracks/39/path = NodePath("body/torso/l upper/l arm:texture")
@@ -532,7 +533,7 @@ tracks/39/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 18 ) ]
+"values": [ ExtResource( 48 ) ]
 }
 tracks/40/type = "value"
 tracks/40/path = NodePath("body/torso/l upper/l arm/l hand:texture")
@@ -556,7 +557,7 @@ tracks/41/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 4 ) ]
+"values": [ ExtResource( 7 ) ]
 }
 tracks/42/type = "value"
 tracks/42/path = NodePath("body/torso/r upper/r arm:texture")
@@ -568,7 +569,7 @@ tracks/42/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 6 ) ]
+"values": [ ExtResource( 13 ) ]
 }
 tracks/43/type = "value"
 tracks/43/path = NodePath("body/torso/r upper/r arm/r hand:texture")
@@ -580,7 +581,7 @@ tracks/43/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 10 ) ]
+"values": [ ExtResource( 19 ) ]
 }
 tracks/44/type = "value"
 tracks/44/path = NodePath("body/shadow:texture")
@@ -592,7 +593,7 @@ tracks/44/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 13 ) ]
+"values": [ ExtResource( 36 ) ]
 }
 
 [sub_resource type="Animation" id=2]
@@ -969,7 +970,7 @@ tracks/30/keys = {
 "times": PoolRealArray( 0, 2 ),
 "transitions": PoolRealArray( 1, 1 ),
 "update": 1,
-"values": [ ExtResource( 45 ), ExtResource( 9 ) ]
+"values": [ ExtResource( 43 ), ExtResource( 17 ) ]
 }
 tracks/31/type = "value"
 tracks/31/path = NodePath("body/torso/head:texture")
@@ -981,7 +982,7 @@ tracks/31/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 31 ) ]
+"values": [ ExtResource( 25 ) ]
 }
 tracks/32/type = "value"
 tracks/32/path = NodePath("body/torso/butt:texture")
@@ -993,7 +994,7 @@ tracks/32/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 8 ) ]
+"values": [ ExtResource( 16 ) ]
 }
 tracks/33/type = "value"
 tracks/33/path = NodePath("body/torso/butt/coattails:texture")
@@ -1005,7 +1006,7 @@ tracks/33/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 5 ) ]
+"values": [ ExtResource( 11 ) ]
 }
 tracks/34/type = "value"
 tracks/34/path = NodePath("body/torso/butt/l thigh:texture")
@@ -1017,7 +1018,7 @@ tracks/34/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 7 ) ]
+"values": [ ExtResource( 15 ) ]
 }
 tracks/35/type = "value"
 tracks/35/path = NodePath("body/torso/butt/l thigh/l leg:texture")
@@ -1029,7 +1030,7 @@ tracks/35/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 25 ) ]
+"values": [ ExtResource( 12 ) ]
 }
 tracks/36/type = "value"
 tracks/36/path = NodePath("body/torso/butt/r thigh:texture")
@@ -1041,7 +1042,7 @@ tracks/36/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 16 ) ]
+"values": [ ExtResource( 42 ) ]
 }
 tracks/37/type = "value"
 tracks/37/path = NodePath("body/torso/butt/r thigh/r leg:texture")
@@ -1053,7 +1054,7 @@ tracks/37/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 34 ) ]
+"values": [ ExtResource( 28 ) ]
 }
 tracks/38/type = "value"
 tracks/38/path = NodePath("body/torso/l upper:texture")
@@ -1065,7 +1066,7 @@ tracks/38/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 26 ) ]
+"values": [ ExtResource( 14 ) ]
 }
 tracks/39/type = "value"
 tracks/39/path = NodePath("body/torso/l upper/l arm:texture")
@@ -1077,7 +1078,7 @@ tracks/39/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 41 ) ]
+"values": [ ExtResource( 37 ) ]
 }
 tracks/40/type = "value"
 tracks/40/path = NodePath("body/torso/l upper/l arm/l hand:texture")
@@ -1089,7 +1090,7 @@ tracks/40/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 36 ) ]
+"values": [ ExtResource( 30 ) ]
 }
 tracks/41/type = "value"
 tracks/41/path = NodePath("body/torso/r upper:texture")
@@ -1101,7 +1102,7 @@ tracks/41/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 35 ) ]
+"values": [ ExtResource( 29 ) ]
 }
 tracks/42/type = "value"
 tracks/42/path = NodePath("body/torso/r upper/r arm:texture")
@@ -1113,7 +1114,7 @@ tracks/42/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 32 ) ]
+"values": [ ExtResource( 26 ) ]
 }
 tracks/43/type = "value"
 tracks/43/path = NodePath("body/torso/r upper/r arm/r hand:texture")
@@ -1125,7 +1126,7 @@ tracks/43/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 22 ) ]
+"values": [ ExtResource( 8 ) ]
 }
 tracks/44/type = "value"
 tracks/44/path = NodePath("body/shadow:texture")
@@ -1137,7 +1138,7 @@ tracks/44/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 13 ) ]
+"values": [ ExtResource( 36 ) ]
 }
 
 [sub_resource type="Animation" id=3]
@@ -1515,7 +1516,7 @@ tracks/30/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 9 ) ]
+"values": [ ExtResource( 17 ) ]
 }
 tracks/31/type = "value"
 tracks/31/path = NodePath("body/torso/head:texture")
@@ -1527,7 +1528,7 @@ tracks/31/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 3 ) ]
+"values": [ ExtResource( 6 ) ]
 }
 tracks/32/type = "value"
 tracks/32/path = NodePath("body/torso/butt:texture")
@@ -1539,7 +1540,7 @@ tracks/32/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 8 ) ]
+"values": [ ExtResource( 16 ) ]
 }
 tracks/33/type = "value"
 tracks/33/path = NodePath("body/torso/butt/coattails:texture")
@@ -1551,7 +1552,7 @@ tracks/33/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 14 ) ]
+"values": [ ExtResource( 41 ) ]
 }
 tracks/34/type = "value"
 tracks/34/path = NodePath("body/torso/butt/l thigh:texture")
@@ -1563,7 +1564,7 @@ tracks/34/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 7 ) ]
+"values": [ ExtResource( 15 ) ]
 }
 tracks/35/type = "value"
 tracks/35/path = NodePath("body/torso/butt/l thigh/l leg:texture")
@@ -1587,7 +1588,7 @@ tracks/36/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 16 ) ]
+"values": [ ExtResource( 42 ) ]
 }
 tracks/37/type = "value"
 tracks/37/path = NodePath("body/torso/butt/r thigh/r leg:texture")
@@ -1599,7 +1600,7 @@ tracks/37/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 17 ) ]
+"values": [ ExtResource( 46 ) ]
 }
 tracks/38/type = "value"
 tracks/38/path = NodePath("body/torso/l upper:texture")
@@ -1611,7 +1612,7 @@ tracks/38/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 11 ) ]
+"values": [ ExtResource( 20 ) ]
 }
 tracks/39/type = "value"
 tracks/39/path = NodePath("body/torso/l upper/l arm:texture")
@@ -1623,7 +1624,7 @@ tracks/39/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 18 ) ]
+"values": [ ExtResource( 48 ) ]
 }
 tracks/40/type = "value"
 tracks/40/path = NodePath("body/torso/r upper:texture")
@@ -1635,7 +1636,7 @@ tracks/40/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 4 ) ]
+"values": [ ExtResource( 7 ) ]
 }
 tracks/41/type = "value"
 tracks/41/path = NodePath("body/torso/l upper/l arm/l hand:texture")
@@ -1659,7 +1660,7 @@ tracks/42/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 6 ) ]
+"values": [ ExtResource( 13 ) ]
 }
 tracks/43/type = "value"
 tracks/43/path = NodePath("body/torso/r upper/r arm/r hand:texture")
@@ -1671,7 +1672,7 @@ tracks/43/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 10 ) ]
+"values": [ ExtResource( 19 ) ]
 }
 tracks/44/type = "value"
 tracks/44/path = NodePath("body/shadow:texture")
@@ -1683,7 +1684,7 @@ tracks/44/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 13 ) ]
+"values": [ ExtResource( 36 ) ]
 }
 
 [sub_resource type="Animation" id=4]
@@ -2060,7 +2061,7 @@ tracks/30/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 45 ) ]
+"values": [ ExtResource( 43 ) ]
 }
 tracks/31/type = "value"
 tracks/31/path = NodePath("body/torso/head:texture")
@@ -2072,7 +2073,7 @@ tracks/31/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 31 ) ]
+"values": [ ExtResource( 25 ) ]
 }
 tracks/32/type = "value"
 tracks/32/path = NodePath("body/torso/butt:texture")
@@ -2084,7 +2085,7 @@ tracks/32/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 8 ) ]
+"values": [ ExtResource( 16 ) ]
 }
 tracks/33/type = "value"
 tracks/33/path = NodePath("body/torso/butt/coattails:texture")
@@ -2096,7 +2097,7 @@ tracks/33/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 5 ) ]
+"values": [ ExtResource( 11 ) ]
 }
 tracks/34/type = "value"
 tracks/34/path = NodePath("body/torso/butt/l thigh:texture")
@@ -2108,7 +2109,7 @@ tracks/34/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 7 ) ]
+"values": [ ExtResource( 15 ) ]
 }
 tracks/35/type = "value"
 tracks/35/path = NodePath("body/torso/butt/l thigh/l leg:texture")
@@ -2120,7 +2121,7 @@ tracks/35/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 25 ) ]
+"values": [ ExtResource( 12 ) ]
 }
 tracks/36/type = "value"
 tracks/36/path = NodePath("body/torso/butt/r thigh:texture")
@@ -2132,7 +2133,7 @@ tracks/36/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 16 ) ]
+"values": [ ExtResource( 42 ) ]
 }
 tracks/37/type = "value"
 tracks/37/path = NodePath("body/torso/butt/r thigh/r leg:texture")
@@ -2144,7 +2145,7 @@ tracks/37/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 34 ) ]
+"values": [ ExtResource( 28 ) ]
 }
 tracks/38/type = "value"
 tracks/38/path = NodePath("body/torso/l upper:texture")
@@ -2156,7 +2157,7 @@ tracks/38/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 26 ) ]
+"values": [ ExtResource( 14 ) ]
 }
 tracks/39/type = "value"
 tracks/39/path = NodePath("body/torso/l upper/l arm:texture")
@@ -2168,7 +2169,7 @@ tracks/39/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 41 ) ]
+"values": [ ExtResource( 37 ) ]
 }
 tracks/40/type = "value"
 tracks/40/path = NodePath("body/torso/r upper:texture")
@@ -2180,7 +2181,7 @@ tracks/40/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 35 ) ]
+"values": [ ExtResource( 29 ) ]
 }
 tracks/41/type = "value"
 tracks/41/path = NodePath("body/torso/l upper/l arm/l hand:texture")
@@ -2192,7 +2193,7 @@ tracks/41/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 36 ) ]
+"values": [ ExtResource( 30 ) ]
 }
 tracks/42/type = "value"
 tracks/42/path = NodePath("body/torso/r upper/r arm:texture")
@@ -2204,7 +2205,7 @@ tracks/42/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 32 ) ]
+"values": [ ExtResource( 26 ) ]
 }
 tracks/43/type = "value"
 tracks/43/path = NodePath("body/torso/r upper/r arm/r hand:texture")
@@ -2216,7 +2217,7 @@ tracks/43/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 22 ) ]
+"values": [ ExtResource( 8 ) ]
 }
 tracks/44/type = "value"
 tracks/44/path = NodePath("body/shadow:texture")
@@ -2228,7 +2229,7 @@ tracks/44/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 13 ) ]
+"values": [ ExtResource( 36 ) ]
 }
 
 [sub_resource type="Animation" id=5]
@@ -2606,7 +2607,7 @@ tracks/30/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 9 ) ]
+"values": [ ExtResource( 17 ) ]
 }
 tracks/31/type = "value"
 tracks/31/path = NodePath("body/torso/head:texture")
@@ -2618,7 +2619,7 @@ tracks/31/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 3 ) ]
+"values": [ ExtResource( 6 ) ]
 }
 tracks/32/type = "value"
 tracks/32/path = NodePath("body/torso/butt:texture")
@@ -2630,7 +2631,7 @@ tracks/32/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 8 ) ]
+"values": [ ExtResource( 16 ) ]
 }
 tracks/33/type = "value"
 tracks/33/path = NodePath("body/torso/butt/coattails:texture")
@@ -2642,7 +2643,7 @@ tracks/33/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 14 ) ]
+"values": [ ExtResource( 41 ) ]
 }
 tracks/34/type = "value"
 tracks/34/path = NodePath("body/torso/butt/l thigh:texture")
@@ -2654,7 +2655,7 @@ tracks/34/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 7 ) ]
+"values": [ ExtResource( 15 ) ]
 }
 tracks/35/type = "value"
 tracks/35/path = NodePath("body/torso/butt/l thigh/l leg:texture")
@@ -2678,7 +2679,7 @@ tracks/36/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 16 ) ]
+"values": [ ExtResource( 42 ) ]
 }
 tracks/37/type = "value"
 tracks/37/path = NodePath("body/torso/butt/r thigh/r leg:texture")
@@ -2690,7 +2691,7 @@ tracks/37/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 17 ) ]
+"values": [ ExtResource( 46 ) ]
 }
 tracks/38/type = "value"
 tracks/38/path = NodePath("body/torso/l upper:texture")
@@ -2702,7 +2703,7 @@ tracks/38/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 11 ) ]
+"values": [ ExtResource( 20 ) ]
 }
 tracks/39/type = "value"
 tracks/39/path = NodePath("body/torso/l upper/l arm:texture")
@@ -2714,7 +2715,7 @@ tracks/39/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 18 ) ]
+"values": [ ExtResource( 48 ) ]
 }
 tracks/40/type = "value"
 tracks/40/path = NodePath("body/torso/l upper/l arm/l hand:texture")
@@ -2738,7 +2739,7 @@ tracks/41/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 4 ) ]
+"values": [ ExtResource( 7 ) ]
 }
 tracks/42/type = "value"
 tracks/42/path = NodePath("body/torso/r upper/r arm:texture")
@@ -2750,7 +2751,7 @@ tracks/42/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 6 ) ]
+"values": [ ExtResource( 13 ) ]
 }
 tracks/43/type = "value"
 tracks/43/path = NodePath("body/torso/r upper/r arm/r hand:texture")
@@ -2762,7 +2763,7 @@ tracks/43/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 10 ) ]
+"values": [ ExtResource( 19 ) ]
 }
 tracks/44/type = "value"
 tracks/44/path = NodePath("body/shadow:texture")
@@ -2774,7 +2775,7 @@ tracks/44/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 13 ) ]
+"values": [ ExtResource( 36 ) ]
 }
 
 [sub_resource type="Animation" id=6]
@@ -3151,7 +3152,7 @@ tracks/30/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 45 ) ]
+"values": [ ExtResource( 43 ) ]
 }
 tracks/31/type = "value"
 tracks/31/path = NodePath("body/torso/head:texture")
@@ -3163,7 +3164,7 @@ tracks/31/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 31 ) ]
+"values": [ ExtResource( 25 ) ]
 }
 tracks/32/type = "value"
 tracks/32/path = NodePath("body/torso/butt:texture")
@@ -3175,7 +3176,7 @@ tracks/32/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 8 ) ]
+"values": [ ExtResource( 16 ) ]
 }
 tracks/33/type = "value"
 tracks/33/path = NodePath("body/torso/butt/coattails:texture")
@@ -3187,7 +3188,7 @@ tracks/33/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 5 ) ]
+"values": [ ExtResource( 11 ) ]
 }
 tracks/34/type = "value"
 tracks/34/path = NodePath("body/torso/butt/l thigh:texture")
@@ -3199,7 +3200,7 @@ tracks/34/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 7 ) ]
+"values": [ ExtResource( 15 ) ]
 }
 tracks/35/type = "value"
 tracks/35/path = NodePath("body/torso/butt/l thigh/l leg:texture")
@@ -3211,7 +3212,7 @@ tracks/35/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 25 ) ]
+"values": [ ExtResource( 12 ) ]
 }
 tracks/36/type = "value"
 tracks/36/path = NodePath("body/torso/butt/r thigh:texture")
@@ -3223,7 +3224,7 @@ tracks/36/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 16 ) ]
+"values": [ ExtResource( 42 ) ]
 }
 tracks/37/type = "value"
 tracks/37/path = NodePath("body/torso/butt/r thigh/r leg:texture")
@@ -3235,7 +3236,7 @@ tracks/37/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 34 ) ]
+"values": [ ExtResource( 28 ) ]
 }
 tracks/38/type = "value"
 tracks/38/path = NodePath("body/torso/l upper:texture")
@@ -3247,7 +3248,7 @@ tracks/38/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 26 ) ]
+"values": [ ExtResource( 14 ) ]
 }
 tracks/39/type = "value"
 tracks/39/path = NodePath("body/torso/l upper/l arm:texture")
@@ -3259,7 +3260,7 @@ tracks/39/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 41 ) ]
+"values": [ ExtResource( 37 ) ]
 }
 tracks/40/type = "value"
 tracks/40/path = NodePath("body/torso/l upper/l arm/l hand:texture")
@@ -3283,7 +3284,7 @@ tracks/41/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 35 ) ]
+"values": [ ExtResource( 29 ) ]
 }
 tracks/42/type = "value"
 tracks/42/path = NodePath("body/torso/r upper/r arm:texture")
@@ -3295,7 +3296,7 @@ tracks/42/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 32 ) ]
+"values": [ ExtResource( 26 ) ]
 }
 tracks/43/type = "value"
 tracks/43/path = NodePath("body/torso/r upper/r arm/r hand:texture")
@@ -3307,7 +3308,7 @@ tracks/43/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 22 ) ]
+"values": [ ExtResource( 8 ) ]
 }
 tracks/44/type = "value"
 tracks/44/path = NodePath("body/shadow:texture")
@@ -3319,7 +3320,7 @@ tracks/44/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 13 ) ]
+"values": [ ExtResource( 36 ) ]
 }
 
 [sub_resource type="Animation" id=7]
@@ -4239,7 +4240,7 @@ tracks/30/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 23 ) ]
+"values": [ ExtResource( 9 ) ]
 }
 tracks/31/type = "value"
 tracks/31/path = NodePath("body/torso:texture")
@@ -4251,7 +4252,7 @@ tracks/31/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 42 ) ]
+"values": [ ExtResource( 38 ) ]
 }
 tracks/32/type = "value"
 tracks/32/path = NodePath("body/torso/butt:texture")
@@ -4263,7 +4264,7 @@ tracks/32/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 19 ) ]
+"values": [ ExtResource( 3 ) ]
 }
 tracks/33/type = "value"
 tracks/33/path = NodePath("body/torso/butt/coattails:texture")
@@ -4275,7 +4276,7 @@ tracks/33/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 14 ) ]
+"values": [ ExtResource( 41 ) ]
 }
 tracks/34/type = "value"
 tracks/34/path = NodePath("body/torso/butt/l thigh:texture")
@@ -4287,7 +4288,7 @@ tracks/34/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 7 ) ]
+"values": [ ExtResource( 15 ) ]
 }
 tracks/35/type = "value"
 tracks/35/path = NodePath("body/torso/butt/l thigh/l leg:texture")
@@ -4299,7 +4300,7 @@ tracks/35/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 46 ) ]
+"values": [ ExtResource( 44 ) ]
 }
 tracks/36/type = "value"
 tracks/36/path = NodePath("body/torso/butt/r thigh:texture")
@@ -4311,7 +4312,7 @@ tracks/36/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 47 ) ]
+"values": [ ExtResource( 45 ) ]
 }
 tracks/37/type = "value"
 tracks/37/path = NodePath("body/torso/butt/r thigh/r leg:texture")
@@ -4323,7 +4324,7 @@ tracks/37/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 46 ) ]
+"values": [ ExtResource( 44 ) ]
 }
 tracks/38/type = "value"
 tracks/38/path = NodePath("body/torso/l upper:texture")
@@ -4335,7 +4336,7 @@ tracks/38/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 43 ) ]
+"values": [ ExtResource( 39 ) ]
 }
 tracks/39/type = "value"
 tracks/39/path = NodePath("body/torso/l upper/l arm:texture")
@@ -4347,7 +4348,7 @@ tracks/39/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 29 ) ]
+"values": [ ExtResource( 23 ) ]
 }
 tracks/40/type = "value"
 tracks/40/path = NodePath("body/torso/l upper/l arm/l hand:texture")
@@ -4359,7 +4360,7 @@ tracks/40/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 38 ) ]
+"values": [ ExtResource( 32 ) ]
 }
 tracks/41/type = "value"
 tracks/41/path = NodePath("body/torso/r upper:texture")
@@ -4371,7 +4372,7 @@ tracks/41/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 39 ) ]
+"values": [ ExtResource( 33 ) ]
 }
 tracks/42/type = "value"
 tracks/42/path = NodePath("body/torso/r upper/r arm:texture")
@@ -4383,7 +4384,7 @@ tracks/42/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 28 ) ]
+"values": [ ExtResource( 22 ) ]
 }
 tracks/43/type = "value"
 tracks/43/path = NodePath("body/torso/r upper/r arm/r hand:texture")
@@ -4395,7 +4396,7 @@ tracks/43/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 10 ) ]
+"values": [ ExtResource( 19 ) ]
 }
 tracks/44/type = "value"
 tracks/44/path = NodePath("body/shadow:texture")
@@ -4407,7 +4408,7 @@ tracks/44/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 30 ) ]
+"values": [ ExtResource( 24 ) ]
 }
 tracks/45/type = "value"
 tracks/45/path = NodePath("body/torso/butt/r thigh:scale")
@@ -4963,7 +4964,7 @@ tracks/30/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 37 ) ]
+"values": [ ExtResource( 31 ) ]
 }
 tracks/31/type = "value"
 tracks/31/path = NodePath("body/torso:texture")
@@ -4975,7 +4976,7 @@ tracks/31/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 44 ) ]
+"values": [ ExtResource( 40 ) ]
 }
 tracks/32/type = "value"
 tracks/32/path = NodePath("body/torso/butt:texture")
@@ -4987,7 +4988,7 @@ tracks/32/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 19 ) ]
+"values": [ ExtResource( 3 ) ]
 }
 tracks/33/type = "value"
 tracks/33/path = NodePath("body/torso/butt/coattails:texture")
@@ -4999,7 +5000,7 @@ tracks/33/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 12 ) ]
+"values": [ ExtResource( 34 ) ]
 }
 tracks/34/type = "value"
 tracks/34/path = NodePath("body/torso/butt/l thigh:texture")
@@ -5011,7 +5012,7 @@ tracks/34/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 7 ) ]
+"values": [ ExtResource( 15 ) ]
 }
 tracks/35/type = "value"
 tracks/35/path = NodePath("body/torso/butt/l thigh/l leg:texture")
@@ -5023,7 +5024,7 @@ tracks/35/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 33 ) ]
+"values": [ ExtResource( 27 ) ]
 }
 tracks/36/type = "value"
 tracks/36/path = NodePath("body/torso/butt/r thigh:texture")
@@ -5035,7 +5036,7 @@ tracks/36/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 47 ) ]
+"values": [ ExtResource( 45 ) ]
 }
 tracks/37/type = "value"
 tracks/37/path = NodePath("body/torso/butt/r thigh/r leg:texture")
@@ -5047,7 +5048,7 @@ tracks/37/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 33 ) ]
+"values": [ ExtResource( 27 ) ]
 }
 tracks/38/type = "value"
 tracks/38/path = NodePath("body/torso/l upper:texture")
@@ -5059,7 +5060,7 @@ tracks/38/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 24 ) ]
+"values": [ ExtResource( 10 ) ]
 }
 tracks/39/type = "value"
 tracks/39/path = NodePath("body/torso/l upper/l arm:texture")
@@ -5071,7 +5072,7 @@ tracks/39/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 21 ) ]
+"values": [ ExtResource( 5 ) ]
 }
 tracks/40/type = "value"
 tracks/40/path = NodePath("body/torso/l upper/l arm/l hand:texture")
@@ -5083,7 +5084,7 @@ tracks/40/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 40 ) ]
+"values": [ ExtResource( 35 ) ]
 }
 tracks/41/type = "value"
 tracks/41/path = NodePath("body/torso/r upper:texture")
@@ -5095,7 +5096,7 @@ tracks/41/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 20 ) ]
+"values": [ ExtResource( 4 ) ]
 }
 tracks/42/type = "value"
 tracks/42/path = NodePath("body/torso/r upper/r arm:texture")
@@ -5107,7 +5108,7 @@ tracks/42/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 27 ) ]
+"values": [ ExtResource( 18 ) ]
 }
 tracks/43/type = "value"
 tracks/43/path = NodePath("body/torso/r upper/r arm/r hand:texture")
@@ -5119,7 +5120,7 @@ tracks/43/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 48 ) ]
+"values": [ ExtResource( 47 ) ]
 }
 tracks/44/type = "value"
 tracks/44/path = NodePath("body/shadow:texture")
@@ -5131,7 +5132,7 @@ tracks/44/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ ExtResource( 30 ) ]
+"values": [ ExtResource( 24 ) ]
 }
 tracks/45/type = "value"
 tracks/45/path = NodePath("body/torso/butt/r thigh:scale")
@@ -5680,105 +5681,105 @@ tracks/29/keys = {
 
 [node name="character" type="Node2D"]
 z_index = 2
-script = ExtResource( 15 )
+script = ExtResource( 21 )
 
 [node name="body" type="Sprite" parent="."]
 
 [node name="torso" type="Sprite" parent="body"]
 position = Vector2( 24, 106 )
 rotation = -0.0872665
-texture = ExtResource( 42 )
+texture = ExtResource( 38 )
 offset = Vector2( 24, -109 )
 region_rect = Rect2( 347, 299, 1, 0 )
 
 [node name="head" type="Sprite" parent="body/torso"]
 position = Vector2( 1, -125 )
 z_index = 1
-texture = ExtResource( 23 )
+texture = ExtResource( 9 )
 offset = Vector2( 25, 11 )
 
 [node name="butt" type="Sprite" parent="body/torso"]
 position = Vector2( -5.50391, 5.54138 )
 rotation = 0.122173
 z_index = -1
-texture = ExtResource( 19 )
+texture = ExtResource( 3 )
 offset = Vector2( 26, -114 )
 
 [node name="coattails" type="Sprite" parent="body/torso/butt"]
 position = Vector2( 4.63951, -28.6053 )
 rotation = -0.0872665
 z_index = -4
-texture = ExtResource( 14 )
+texture = ExtResource( 41 )
 offset = Vector2( 19, -70 )
 
 [node name="l thigh" type="Sprite" parent="body/torso/butt"]
 position = Vector2( -28, 14 )
 z_index = -1
-texture = ExtResource( 7 )
+texture = ExtResource( 15 )
 offset = Vector2( 54, -131 )
 
 [node name="l leg" type="Sprite" parent="body/torso/butt/l thigh"]
 position = Vector2( -2, 73 )
 z_index = -1
-texture = ExtResource( 46 )
+texture = ExtResource( 44 )
 offset = Vector2( 55, -206 )
 
 [node name="r thigh" type="Sprite" parent="body/torso/butt"]
 position = Vector2( 25, 10 )
 z_index = 1
-texture = ExtResource( 47 )
+texture = ExtResource( 45 )
 offset = Vector2( 0, -124 )
 
 [node name="r leg" type="Sprite" parent="body/torso/butt/r thigh"]
 position = Vector2( 3, 79 )
 z_index = -1
-texture = ExtResource( 46 )
+texture = ExtResource( 44 )
 offset = Vector2( -4, -207 )
 
 [node name="l upper" type="Sprite" parent="body/torso"]
 position = Vector2( -9, -109 )
 rotation = 0.107086
 z_index = -3
-texture = ExtResource( 43 )
+texture = ExtResource( 39 )
 offset = Vector2( 33, -1 )
 
 [node name="l arm" type="Sprite" parent="body/torso/l upper"]
 position = Vector2( -45.6521, 43.1264 )
 rotation = -0.881885
-texture = ExtResource( 29 )
+texture = ExtResource( 23 )
 offset = Vector2( 75, -43 )
 
 [node name="l hand" type="Sprite" parent="body/torso/l upper/l arm"]
 position = Vector2( -30, 40 )
 rotation = 0.106363
-texture = ExtResource( 38 )
+texture = ExtResource( 32 )
 offset = Vector2( 104, -79 )
 
 [node name="r upper" type="Sprite" parent="body/torso"]
 position = Vector2( 20, -115 )
 rotation = 0.19221
 z_index = 1
-texture = ExtResource( 39 )
+texture = ExtResource( 33 )
 offset = Vector2( 3, 0 )
 
 [node name="r arm" type="Sprite" parent="body/torso/r upper"]
 position = Vector2( 41, 42 )
 rotation = 2.68671
 z_index = 1
-texture = ExtResource( 28 )
+texture = ExtResource( 22 )
 offset = Vector2( -38, -43 )
 
 [node name="r hand" type="Sprite" parent="body/torso/r upper/r arm"]
 position = Vector2( 29, 38 )
 rotation = 0.348237
 z_index = 1
-texture = ExtResource( 10 )
+texture = ExtResource( 19 )
 offset = Vector2( -66, -78 )
 
 [node name="shadow" type="Sprite" parent="body"]
 position = Vector2( 37, -7 )
 z_index = -4
-texture = ExtResource( 30 )
+texture = ExtResource( 24 )
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 "anims/Idle 1 Overworld" = SubResource( 1 )
