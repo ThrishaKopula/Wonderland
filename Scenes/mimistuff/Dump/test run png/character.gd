@@ -15,11 +15,13 @@ func _ready():
 	
 func _physics_process(_delta):
 	if Input.is_action_pressed("ui_right"):
-		character.play("Run")
+		character.play("Run Overworld")
 		sprite.set_scale(Vector2(-1,1))
 	elif Input.is_action_pressed("ui_left"):
-		character.play("Run")
+		character.play("Run Overworld")
 		sprite.set_scale(Vector2(1,1))
+	else:
+		character.play("Idle 1 Overworld")
 	
 
 
