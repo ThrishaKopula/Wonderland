@@ -30,23 +30,6 @@ func _input(event):
 				add_child(dialog)
 				StoryVariables.isCollectOtherworldlyItems = true
 				StoryVariables.isAllItemsCollected = false
-			elif(StoryVariables.isFindWhoIsCloseToJanitor == true):
-				pause_game()
-				var dialog = Dialogic.start("/Chapter 2/retrieveExoticFruit")
-				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
-				dialog.connect('timeline_end', self, 'unpause')
-				add_child(dialog)
-				StoryVariables.isRetrieveExoticFruit = true
-				StoryVariables.isFindWhoIsCloseToJanitor = false
-			elif(StoryVariables.isCatchTheThief == true):
-				pause_game()
-				var dialog = Dialogic.start("/Chapter 2/bringThiefToVendors")
-				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
-				dialog.connect('timeline_end', self, 'unpause')
-				add_child(dialog)
-				StoryVariables.isBringThiefToVendors = true
-				StoryVariables.isCatchTheThief = false
-				
 
 func pause_game():
 	get_tree().paused = true

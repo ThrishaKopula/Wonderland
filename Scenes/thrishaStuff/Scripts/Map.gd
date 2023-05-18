@@ -15,8 +15,9 @@ func _input(event):
 			dialog.connect('timeline_end', self, 'unpause')
 			add_child(dialog)
 			StoryVariables.isMapInteracted = true
+			StoryVariables.prologue_checkAllInteractions()
 			interacted = true
-
+			
 func pause_game():
 	get_tree().paused = true
 	StoryVariables.canPlayerMove = false
@@ -26,7 +27,6 @@ func unpause(timeline_name):
 	StoryVariables.canPlayerMove = true
 	active = false
 	$Map_Interactable.hide()
-	StoryVariables.prologue_checkAllInteractions()
 	
 
 func _on_Map1_body_entered(body):

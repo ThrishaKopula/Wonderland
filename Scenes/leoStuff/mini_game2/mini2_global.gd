@@ -23,8 +23,6 @@ var win_Y = 0;
 # red = 1 green = 2 blue = 3 yellow = 4 checkWin = 5
 var cur_color = 0;
 
-var correct_drink = 0;
-
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	pass # Replace with function body.
@@ -35,35 +33,15 @@ func check_win():
 	if red_pump == win_R and green_pump == win_G and blue_pump == win_B and yellow_pump == win_Y:
 		
 		print("W");
-		correct_drink += 1;
-		win();
-		
-	else:
-		
-		print("L");
 	
-	if correct_drink == 5:
-		win();
+	else:
+		print("L");
 	
 	red_pump = 0;
 	green_pump = 0;
 	blue_pump = 0;
 	yellow_pump = 0;
-	pass
-
-func win():
 	
-	var dialog = Dialogic.start("getBallerinaFromBartender");
-	dialog.connect('timeline_end', self, 'unpause');
-	add_child(dialog);
-	
-	pass
-
-func unpause(timeline_name):
-	
-	get_tree().change_scene("res://Scenes/thrishaStuff/Locations/Wonderland/Tavern.tscn");
-	pass
-
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 #func _process(delta):
