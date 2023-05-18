@@ -1,5 +1,5 @@
 {
-	"color": "#ff000000",
+	"color": "#ffffffff",
 	"description": "",
 	"display_name": "",
 	"display_name_bool": false,
@@ -8,26 +8,14 @@
 	"name": "Alistair",
 	"nickname": "",
 	"nickname_bool": false,
-	"offset_x": 100,
+	"offset_x": 0,
 	"offset_y": 0,
 	"portraits": [
 		{
 			"name": "Default",
-			"path": "res://Scenes/thrishaStuff/images/Portraits_-1.png"
-		},
-		{
-			"name": "happy",
-			"path": "res://Scenes/thrishaStuff/images/happy.png"
-		},
-		{
-			"name": "mad",
-			"path": "res://Scenes/thrishaStuff/images/mad.png"
-		},
-		{
-			"name": "shock",
-			"path": "res://Scenes/thrishaStuff/images/shock.png"
+			"path": "res://dialogic/alice.png"
 		}
 	],
-	"scale": 70,
+	"scale": 30,
 	"theme": ""
 }
