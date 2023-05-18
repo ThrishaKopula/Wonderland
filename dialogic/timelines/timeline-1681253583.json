@@ -63,13 +63,13 @@
 			"character": "character-1682574603.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Of course, honey. I would never."
+			"text": "…"
 		},
 		{
 			"character": "character-1682574603.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "…"
+			"text": "Of course, honey. I would never."
 		},
 		{
 			"character": "character-1682574603.json",
@@ -129,7 +129,7 @@
 			"waiting_skippable": false
 		},
 		{
-			"background": "res://Scenes/thrishaStuff/images/Dorm_Final.png",
+			"background": "res://dialogic/black.jpeg",
 			"event_id": "dialogic_021"
 		},
 		{
@@ -213,6 +213,26 @@
 		{
 			"event_id": "dialogic_024",
 			"set_theme": "default-theme.cfg"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
 		},
 		{
 			"character": "character-1681086055.json",

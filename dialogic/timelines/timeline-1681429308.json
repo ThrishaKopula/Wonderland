@@ -74,7 +74,7 @@
 			"character": "character-1682574603.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "… I… ugh, fine."
+			"text": "I… ugh, fine."
 		},
 		{
 			"character": "character-1682633822.json",
@@ -152,7 +152,7 @@
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Ah, I can’t stay up thinking about the past, I’ve got a Ballerina to find tomorrow…"
+			"text": "Ah, I can’t stay up thinking about the past, I’ve got a [b]Ballerina[/b] to find tomorrow…"
 		},
 		{
 			"background": "res://dialogic/black.jpeg",

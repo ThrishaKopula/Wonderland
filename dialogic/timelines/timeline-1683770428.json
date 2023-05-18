@@ -1,0 +1,241 @@
+{
+	"events": [
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1683770471.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hello! Lunch Lady, do you have any food?"
+		},
+		{
+			"character": "character-1683770471.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Haha, finally ready to try cafeteria grub, are you?"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Heh, well, it’s not for me actually…"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I, uh, our Janitor’s pretty swamped with cleaning, but he wants a bite to eat."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I was thinking I should deliver him some food from here."
+		},
+		{
+			"character": "character-1683770471.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh! Is that so?"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( Is she skeptical…? )"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Uh, yes!"
+		},
+		{
+			"character": "character-1683770471.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Well I’ll be!"
+		},
+		{
+			"character": "character-1683770471.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Maybe chivalry isn’t dead! How thoughtful of you!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Heh…"
+		},
+		{
+			"character": "character-1683770471.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Well, lucky for you, I was just about to make a peach pie for him!"
+		},
+		{
+			"character": "character-1683770471.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "He’s loved a good slice of pie ever since I made him one back when we were just young lovebirds!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh, you’re–"
+		},
+		{
+			"character": "character-1683770471.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Married! Yes, my husband is the sweetest, most hard-working hard worker."
+		},
+		{
+			"character": "character-1683770471.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Too much for his own good sometimes…"
+		},
+		{
+			"character": "character-1683770471.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ah well, let me get started on that peach pie…"
+		},
+		{
+			"character": "character-1683770471.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…!"
+		},
+		{
+			"character": "character-1683770471.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh dear, it appears I’m all out of [b]peaches[/b]!"
+		},
+		{
+			"character": "character-1683770471.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "And what a shame, I told him I would bring him a slice this morning…"
+		},
+		{
+			"character": "character-1683770471.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I’m not sure if I’ll have time to go out and buy [b]peaches[/b] on such a short notice…"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( Ugh! One problem after another! I need that [b]Key[/b]! But… )"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( [b]Peaches[/b]… )"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( Why does that sound familiar… )"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( Oh, of course! I know where to get peaches! )"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Lunch Lady, don't worry!"
+		},
+		{
+			"character": "character-1683770471.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh?"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I can bring you back some peaches soon!"
+		},
+		{
+			"character": "character-1683770471.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh dear!"
+		},
+		{
+			"character": "character-1683770471.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "First you offer to bring my husband a snack, now you’re offering to buy peaches for me? How sweet you are!"
+		},
+		{
+			"character": "character-1683770471.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Don’t worry if you can’t find any, dear! I’ll be here all day, so stop by anytime!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Don’t worry, ma’am! I’ll be back in a flash!"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1683770428.json",
+		"name": "findWhoIsCloseToJanitor"
+	}
+}
