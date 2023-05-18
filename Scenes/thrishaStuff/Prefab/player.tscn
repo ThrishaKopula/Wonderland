@@ -3,7 +3,6 @@
 [ext_resource path="res://Scenes/mimistuff/Dump/test run png/character.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/player.gd" type="Script" id=2]
 
-
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 124.5, 290.5 )
 

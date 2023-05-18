@@ -5684,28 +5684,28 @@ tracks/29/keys = {
 [node name="torso" type="Sprite" parent="body"]
 position = Vector2( 24, 106 )
 rotation = -0.0872665
-texture = ExtResource( 1 )
+texture = ExtResource( 45 )
 offset = Vector2( 24, -109 )
 region_rect = Rect2( 347, 299, 1, 0 )
 
 [node name="head" type="Sprite" parent="body/torso"]
 position = Vector2( 1, -125 )
 z_index = 1
-texture = ExtResource( 24 )
+texture = ExtResource( 35 )
 offset = Vector2( 25, 11 )
 
 [node name="butt" type="Sprite" parent="body/torso"]
 position = Vector2( -5.50391, 5.54138 )
 rotation = 0.122173
 z_index = -1
-texture = ExtResource( 31 )
+texture = ExtResource( 47 )
 offset = Vector2( 26, -114 )
 
 [node name="coattails" type="Sprite" parent="body/torso/butt"]
 position = Vector2( 4.63951, -28.6053 )
 rotation = -0.0872665
 z_index = -4
-texture = ExtResource( 2 )
+texture = ExtResource( 27 )
 offset = Vector2( 19, -70 )
 
 [node name="l thigh" type="Sprite" parent="body/torso/butt"]
@@ -5717,65 +5717,65 @@ offset = Vector2( 54, -131 )
 [node name="l leg" type="Sprite" parent="body/torso/butt/l thigh"]
 position = Vector2( -2, 73 )
 z_index = -1
-texture = ExtResource( 19 )
+texture = ExtResource( 37 )
 offset = Vector2( 55, -206 )
 
 [node name="r thigh" type="Sprite" parent="body/torso/butt"]
 position = Vector2( 25, 10 )
 z_index = 1
-texture = ExtResource( 12 )
+texture = ExtResource( 5 )
 offset = Vector2( 0, -124 )
 
 [node name="r leg" type="Sprite" parent="body/torso/butt/r thigh"]
 position = Vector2( 3, 79 )
 z_index = -1
-texture = ExtResource( 19 )
+texture = ExtResource( 13 )
 offset = Vector2( -4, -207 )
 
 [node name="l upper" type="Sprite" parent="body/torso"]
 position = Vector2( -9, -109 )
 rotation = 0.107086
 z_index = -3
-texture = ExtResource( 40 )
+texture = ExtResource( 44 )
 offset = Vector2( 33, -1 )
 
 [node name="l arm" type="Sprite" parent="body/torso/l upper"]
 position = Vector2( -45.6521, 43.1264 )
 rotation = -0.881885
-texture = ExtResource( 39 )
+texture = ExtResource( 7 )
 offset = Vector2( 75, -43 )
 
 [node name="l hand" type="Sprite" parent="body/torso/l upper/l arm"]
 position = Vector2( -30, 40 )
 rotation = 0.106363
-texture = ExtResource( 14 )
+texture = ExtResource( 34 )
 offset = Vector2( 104, -79 )
 
 [node name="r upper" type="Sprite" parent="body/torso"]
 position = Vector2( 20, -115 )
 rotation = 0.19221
 z_index = 1
-texture = ExtResource( 38 )
+texture = ExtResource( 41 )
 offset = Vector2( 3, 0 )
 
 [node name="r arm" type="Sprite" parent="body/torso/r upper"]
 position = Vector2( 41, 42 )
 rotation = 2.68671
 z_index = 1
-texture = ExtResource( 48 )
+texture = ExtResource( 36 )
 offset = Vector2( -38, -43 )
 
 [node name="r hand" type="Sprite" parent="body/torso/r upper/r arm"]
 position = Vector2( 29, 38 )
 rotation = 0.348237
 z_index = 1
-texture = ExtResource( 16 )
+texture = ExtResource( 46 )
 offset = Vector2( -66, -78 )
 
 [node name="shadow" type="Sprite" parent="body"]
 position = Vector2( 37, -7 )
 z_index = -4
-texture = ExtResource( 9 )
+texture = ExtResource( 15 )
 
 [node name="AnimationPlayerIdles" type="AnimationPlayer" parent="."]
 "anims/Idle 1 Overworld" = SubResource( 1 )
