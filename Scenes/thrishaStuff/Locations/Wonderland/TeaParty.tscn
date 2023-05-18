@@ -37,7 +37,8 @@ texture = ExtResource( 3 )
 
 [node name="player" parent="." instance=ExtResource( 1 )]
 pause_mode = 2
-position = Vector2( 949, 671 )
+position = Vector2( 950, 515 )
+scale = Vector2( 0.904085, 3.02499 )
 
 [node name="HUD" parent="player" instance=ExtResource( 5 )]
 visible = false
@@ -66,5 +67,5 @@ pause_mode = 2
 position = Vector2( 980, 566 )
 stream = ExtResource( 6 )
 
-[connection signal="body_entered" from="MadHatter" to="MadHatter" method="_on_MadHatter_body_entered"]
-[connection signal="body_exited" from="MadHatter" to="MadHatter" method="_on_MadHatter_body_exited"]
+[connection signal="body_entered" from="MadHatter" to="MadHatter" method="_on_Cheerleader_body_entered"]
+[connection signal="body_exited" from="MadHatter" to="MadHatter" method="_on_Cheerleader_body_exited"]
