@@ -2078,10 +2078,6 @@
 		{
 			"background": "res://dialogic/black.jpeg",
 			"event_id": "dialogic_021"
-		},
-		{
-			"change_scene": "res://Scenes/leoStuff/mini_game1/mini_game_1.tscn",
-			"event_id": "dialogic_041"
 		}
 	],
 	"metadata": {

@@ -20,7 +20,7 @@ func _input(event):
 				pause_game()
 				var dialog = Dialogic.start("/Chapter 2/deliverToJanitor")
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
-				dialog.connect('timeline_end', self, 'unpause')
+				dialog.connect('timeline_end', self, 'miniGameUnpause')
 				add_child(dialog)
 				StoryVariables.isDeliverToJanitor = true
 				StoryVariables.isDeliverExoticFruitToLunchLady == false
@@ -33,7 +33,13 @@ func unpause(timeline_name):
 	get_tree().paused = false
 	StoryVariables.canPlayerMove = true
 	active = false
-			
+
+func miniGameUnpause(timeline_name):
+	get_tree().paused = false
+	StoryVariables.canPlayerMove = true
+	active = false
+	get_tree().change_scene("res://Scenes/leoStuff/mini_game4/mini_game4.tscn")
+
 func _on_Janitor_body_entered(body):
 	if body.name == 'player':
 		active = true

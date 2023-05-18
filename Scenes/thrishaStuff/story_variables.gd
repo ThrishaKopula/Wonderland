@@ -51,7 +51,7 @@ var isInAristocratTown = false
 var catch_tavern = false
 var catch_plebTown = false
 var catch_aristocratTown = false
-
+var mini_game1 = false
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	pass # Replace with function body.
@@ -69,6 +69,7 @@ func prologue_checkAllInteractions():
 func unpause(timeline_name):
 	get_tree().paused = false
 	canPlayerMove = true
+	get_tree().change_scene("res://Scenes/leoStuff/mini_game1/mini_game_1.tscn")
 
 func chapter1_checkIfPlebItemsCollected():
 	if (isPleb_AItemCollected == true && isPleb_BItemCollected == true && isPleb_CItemCollected == true):
@@ -85,4 +86,3 @@ func chapter2_checkCatchTheThief():
 		add_child(dialog)
 		
 
-		
