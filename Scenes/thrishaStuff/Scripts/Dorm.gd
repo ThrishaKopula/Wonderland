@@ -14,3 +14,8 @@ func _process(delta):
 	if ($DormAudio.playing == false):
 		$DormAudio.play()
 	pass
+	if Input.is_action_pressed("move_left"):
+		$player/MoveLeft.hide()
+	if Input.is_action_pressed("move_right"):
+		$player/MoveRight.hide()
+	

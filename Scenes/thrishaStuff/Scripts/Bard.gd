@@ -33,7 +33,7 @@ func _input(event):
 				pause_game()
 				var dialog = Dialogic.start("bringIngredientsToTavern")
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
-				dialog.connect('timeline_end', self, 'unpause')
+				dialog.connect('timeline_end', self, 'miniGameUnpause')
 				add_child(dialog)
 				StoryVariables.isBringIngredientsToTavern = true
 				StoryVariables.isCollectOtherworldlyItems = false
@@ -41,6 +41,14 @@ func _input(event):
 func pause_game():
 	get_tree().paused = true
 	StoryVariables.canPlayerMove = false
+	
+	
+func miniGameUnpause(timeline_name):
+	get_tree().paused = false
+	StoryVariables.canPlayerMove = true
+	active = false
+	get_tree().change_scene("res://Scenes/leoStuff/mini_game2/mini_game2.tscn")
+	
 	
 func unpause(timeline_name):
 	get_tree().paused = false

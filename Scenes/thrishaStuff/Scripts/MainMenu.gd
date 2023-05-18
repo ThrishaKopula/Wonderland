@@ -17,3 +17,6 @@ func _on_StartButton_pressed():
 
 func _on_Quit_pressed():
 	get_tree().quit()
+
+func _on_Credits_pressed():
+	pass # Replace with function body.
