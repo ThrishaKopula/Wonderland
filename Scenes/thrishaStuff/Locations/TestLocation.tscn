@@ -1,8 +1,307 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=36 format=2]
 
+[ext_resource path="res://Scenes/thrishaStuff/Prefab/player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Scenes/thrishaStuff/images/mirror.png" type="Texture" id=2]
+[ext_resource path="res://Scenes/thrishaStuff/Scripts/Mirror.gd" type="Script" id=3]
+[ext_resource path="res://Scenes/thrishaStuff/images/map.png" type="Texture" id=4]
+[ext_resource path="res://Scenes/thrishaStuff/images/otherBed.png" type="Texture" id=5]
+[ext_resource path="res://Scenes/thrishaStuff/Scripts/Bed.gd" type="Script" id=6]
+[ext_resource path="res://Scenes/thrishaStuff/Scripts/Map.gd" type="Script" id=7]
+[ext_resource path="res://Scenes/thrishaStuff/Scripts/OtherBed.gd" type="Script" id=8]
+[ext_resource path="res://icon.png" type="Texture" id=9]
+[ext_resource path="res://Scenes/thrishaStuff/images/bed.png" type="Texture" id=10]
+[ext_resource path="res://Scenes/thrishaStuff/Scripts/Bard.gd" type="Script" id=11]
+[ext_resource path="res://Scenes/thrishaStuff/images/bard.png" type="Texture" id=12]
+[ext_resource path="res://Scenes/thrishaStuff/images/musicGeek.png" type="Texture" id=13]
+[ext_resource path="res://Scenes/thrishaStuff/Scripts/MusicGeek.gd" type="Script" id=14]
+[ext_resource path="res://Scenes/thrishaStuff/images/cheerleader.png" type="Texture" id=15]
+[ext_resource path="res://Scenes/thrishaStuff/Scripts/Cheerleader.gd" type="Script" id=16]
+[ext_resource path="res://Scenes/thrishaStuff/images/pleb_B.png" type="Texture" id=17]
+[ext_resource path="res://Scenes/thrishaStuff/images/pleb_C.png" type="Texture" id=18]
+[ext_resource path="res://Scenes/thrishaStuff/images/pleb_A.png" type="Texture" id=19]
+[ext_resource path="res://Scenes/thrishaStuff/Scripts/Plebs.gd" type="Script" id=20]
+[ext_resource path="res://Scenes/thrishaStuff/Scripts/Watercolor.gd" type="Script" id=21]
+[ext_resource path="res://Scenes/thrishaStuff/images/watercolor.png" type="Texture" id=22]
+[ext_resource path="res://Scenes/thrishaStuff/images/poster.png" type="Texture" id=23]
+[ext_resource path="res://Scenes/thrishaStuff/Scripts/Poster.gd" type="Script" id=24]
+[ext_resource path="res://Scenes/thrishaStuff/images/football.png" type="Texture" id=25]
+[ext_resource path="res://Scenes/thrishaStuff/Scripts/Football.gd" type="Script" id=26]
 [ext_resource path="res://Scenes/leoStuff/HUD/map/map.tscn" type="PackedScene" id=27]
+
+[sub_resource type="CircleShape2D" id=1]
+radius = 162.077
+
+[sub_resource type="CircleShape2D" id=2]
+radius = 162.077
+
+[sub_resource type="CircleShape2D" id=3]
+radius = 162.077
+
+[sub_resource type="CircleShape2D" id=4]
+radius = 162.077
+
+[sub_resource type="CapsuleShape2D" id=5]
+radius = 343.332
+height = 0.0
+
+[sub_resource type="CircleShape2D" id=6]
+radius = 162.077
+
+[sub_resource type="CircleShape2D" id=7]
+radius = 162.077
+
+[sub_resource type="CircleShape2D" id=8]
+radius = 162.077
 
 [node name="Test" type="Node2D"]
 
 [node name="map" parent="." instance=ExtResource( 27 )]
 visible = false
+
+[node name="OtherBed" type="Area2D" parent="."]
+position = Vector2( 340, 848 )
+scale = Vector2( 0.44001, 0.44001 )
+script = ExtResource( 8 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="OtherBed"]
+shape = SubResource( 1 )
+
+[node name="Sprite" type="Sprite" parent="OtherBed"]
+scale = Vector2( 0.16, 0.16 )
+texture = ExtResource( 5 )
+
+[node name="QuestionMark" type="Sprite" parent="OtherBed"]
+position = Vector2( 0, -135 )
+texture = ExtResource( 9 )
+
+[node name="Bed" type="Area2D" parent="."]
+position = Vector2( 171, 851 )
+scale = Vector2( 0.519999, 0.519999 )
+script = ExtResource( 6 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Bed"]
+shape = SubResource( 1 )
+
+[node name="Sprite" type="Sprite" parent="Bed"]
+scale = Vector2( 0.16, 0.16 )
+texture = ExtResource( 10 )
+
+[node name="QuestionMark" type="Sprite" parent="Bed"]
+position = Vector2( 0, -135 )
+texture = ExtResource( 9 )
+
+[node name="Map" type="Area2D" parent="."]
+position = Vector2( 521, 850 )
+scale = Vector2( 0.599998, 0.599998 )
+script = ExtResource( 7 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Map"]
+shape = SubResource( 1 )
+
+[node name="Sprite" type="Sprite" parent="Map"]
+scale = Vector2( 0.16, 0.16 )
+texture = ExtResource( 4 )
+
+[node name="QuestionMark" type="Sprite" parent="Map"]
+position = Vector2( 0, -135 )
+texture = ExtResource( 9 )
+
+[node name="Mirror" type="Area2D" parent="."]
+position = Vector2( 726, 856 )
+scale = Vector2( 0.56, 0.56 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Mirror"]
+shape = SubResource( 1 )
+
+[node name="Sprite" type="Sprite" parent="Mirror"]
+scale = Vector2( 0.16, 0.16 )
+texture = ExtResource( 2 )
+
+[node name="QuestionMark" type="Sprite" parent="Mirror"]
+position = Vector2( 0, -135 )
+texture = ExtResource( 9 )
+
+[node name="MusicGeek" type="Area2D" parent="."]
+position = Vector2( 1169, 844 )
+scale = Vector2( 0.64, 0.64 )
+script = ExtResource( 14 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="MusicGeek"]
+shape = SubResource( 2 )
+
+[node name="Sprite" type="Sprite" parent="MusicGeek"]
+scale = Vector2( 0.16, 0.16 )
+texture = ExtResource( 13 )
+
+[node name="QuestionMark" type="Sprite" parent="MusicGeek"]
+position = Vector2( 0, -135 )
+texture = ExtResource( 9 )
+
+[node name="Bard" type="Area2D" parent="."]
+position = Vector2( 1374, 851 )
+scale = Vector2( 0.64, 0.64 )
+script = ExtResource( 11 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Bard"]
+shape = SubResource( 3 )
+
+[node name="Sprite" type="Sprite" parent="Bard"]
+scale = Vector2( 0.16, 0.16 )
+texture = ExtResource( 12 )
+
+[node name="QuestionMark" type="Sprite" parent="Bard"]
+position = Vector2( 0, -135 )
+texture = ExtResource( 9 )
+
+[node name="Cheerleader" type="Area2D" parent="."]
+position = Vector2( 1596, 853 )
+scale = Vector2( 0.600002, 0.600002 )
+script = ExtResource( 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Cheerleader"]
+shape = SubResource( 4 )
+
+[node name="Sprite" type="Sprite" parent="Cheerleader"]
+scale = Vector2( 0.16, 0.16 )
+texture = ExtResource( 15 )
+
+[node name="QuestionMark" type="Sprite" parent="Cheerleader"]
+position = Vector2( 0, -135 )
+texture = ExtResource( 9 )
+
+[node name="Plebs" type="Area2D" parent="."]
+position = Vector2( 1813, 853 )
+scale = Vector2( 0.600002, 0.600002 )
+script = ExtResource( 20 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Plebs"]
+position = Vector2( 236.666, 0.00012207 )
+shape = SubResource( 5 )
+
+[node name="pleb_A" type="Sprite" parent="Plebs"]
+scale = Vector2( 0.16, 0.16 )
+texture = ExtResource( 19 )
+
+[node name="pleb_B" type="Sprite" parent="Plebs"]
+position = Vector2( 231.666, 0 )
+scale = Vector2( 0.16, 0.16 )
+texture = ExtResource( 17 )
+
+[node name="pleb_C" type="Sprite" parent="Plebs"]
+position = Vector2( 483.331, 0 )
+scale = Vector2( 0.16, 0.16 )
+texture = ExtResource( 18 )
+
+[node name="QuestionMark" type="Sprite" parent="Plebs"]
+position = Vector2( 231.666, -163.333 )
+texture = ExtResource( 9 )
+
+[node name="Watercolor" type="Area2D" parent="."]
+position = Vector2( 2383, 852 )
+script = ExtResource( 21 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Watercolor"]
+shape = SubResource( 6 )
+
+[node name="Sprite" type="Sprite" parent="Watercolor"]
+scale = Vector2( 0.16, 0.16 )
+texture = ExtResource( 22 )
+
+[node name="QuestionMark" type="Sprite" parent="Watercolor"]
+position = Vector2( 0, -135 )
+texture = ExtResource( 9 )
+
+[node name="Poster" type="Area2D" parent="."]
+position = Vector2( 2703, 849 )
+script = ExtResource( 24 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Poster"]
+shape = SubResource( 7 )
+
+[node name="Sprite" type="Sprite" parent="Poster"]
+scale = Vector2( 0.16, 0.16 )
+texture = ExtResource( 23 )
+
+[node name="QuestionMark" type="Sprite" parent="Poster"]
+position = Vector2( 0, -135 )
+texture = ExtResource( 9 )
+
+[node name="Football" type="Area2D" parent="."]
+position = Vector2( 3014, 849 )
+script = ExtResource( 26 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Football"]
+shape = SubResource( 8 )
+
+[node name="Sprite" type="Sprite" parent="Football"]
+scale = Vector2( 0.16, 0.16 )
+texture = ExtResource( 25 )
+
+[node name="QuestionMark" type="Sprite" parent="Football"]
+position = Vector2( 0, -135 )
+texture = ExtResource( 9 )
+
+[node name="player" parent="." instance=ExtResource( 1 )]
+position = Vector2( 908, 798 )
+scale = Vector2( 0.68, 0.68 )
+
+[node name="Camera2D" type="Camera2D" parent="player"]
+position = Vector2( 54, -261 )
+current = true
+
+[connection signal="body_entered" from="OtherBed" to="OtherBed" method="_on_Bed_body_entered"]
+[connection signal="body_exited" from="OtherBed" to="OtherBed" method="_on_Bed_body_exited"]
+[connection signal="body_entered" from="Bed" to="Bed" method="_on_Bed_body_entered"]
+[connection signal="body_exited" from="Bed" to="Bed" method="_on_Bed_body_exited"]
+[connection signal="body_entered" from="Map" to="Map" method="_on_Map1_body_entered"]
+[connection signal="body_exited" from="Map" to="Map" method="_on_Map1_body_exited"]
+[connection signal="body_entered" from="Mirror" to="Mirror" method="_on_Mirror_body_entered"]
+[connection signal="body_exited" from="Mirror" to="Mirror" method="_on_Mirror_body_exited"]
+[connection signal="body_entered" from="MusicGeek" to="MusicGeek" method="_on_MusicGeek_body_entered"]
+[connection signal="body_exited" from="MusicGeek" to="MusicGeek" method="_on_MusicGeek_body_exited"]
+[connection signal="body_entered" from="Bard" to="Bard" method="_on_Bard_body_entered"]
+[connection signal="body_exited" from="Bard" to="Bard" method="_on_Bard_body_exited"]
+[connection signal="body_entered" from="Cheerleader" to="Cheerleader" method="_on_Cheerleader_body_entered"]
+[connection signal="body_exited" from="Cheerleader" to="Cheerleader" method="_on_Cheerleader_body_exited"]
+[connection signal="body_entered" from="Plebs" to="Plebs" method="_on_Plebs_body_entered"]
+[connection signal="body_exited" from="Plebs" to="Plebs" method="_on_Plebs_body_exited"]
+[connection signal="body_entered" from="Watercolor" to="Watercolor" method="_on_Watercolor_body_entered"]
+[connection signal="body_exited" from="Watercolor" to="Watercolor" method="_on_Watercolor_body_exited"]
+[connection signal="body_entered" from="Poster" to="Poster" method="_on_Poster_body_entered"]
+[connection signal="body_exited" from="Poster" to="Poster" method="_on_Poster_body_exited"]
+[connection signal="body_entered" from="Football" to="Football" method="_on_Football_body_entered"]
+[connection signal="body_exited" from="Football" to="Football" method="_on_Football_body_exited"]

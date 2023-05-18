@@ -16,9 +16,7 @@
 						"character-1681451499.json",
 						"character-1682574603.json",
 						"character-1682633822.json",
-						"character-1682643732.json",
-						"character-1683770218.json",
-						"character-1683770471.json"
+						"character-1682643732.json"
 					],
 					"folders": {
 
@@ -36,8 +34,7 @@
 						"character-1681338060.json",
 						"character-1681338302.json",
 						"character-1681439104.json",
-						"character-1681452544.json",
-						"character-1683771916.json"
+						"character-1681452544.json"
 					],
 					"folders": {
 						"Plebs": {
@@ -52,7 +49,7 @@
 							},
 							"metadata": {
 								"color": null,
-								"folded": false
+								"folded": true
 							}
 						}
 					},
@@ -144,40 +141,6 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": false
-					}
-				},
-				"Chapter 2": {
-					"files": [
-						"timeline-1683768800.json",
-						"timeline-1683770153.json",
-						"timeline-1683770428.json",
-						"timeline-1683771434.json",
-						"timeline-1683772074.json",
-						"timeline-1683775113.json",
-						"timeline-1683775490.json",
-						"timeline-1683776187.json",
-						"timeline-1683776718.json"
-					],
-					"folders": {
-						"catchTheThief": {
-							"files": [
-								"timeline-1684260526.json",
-								"timeline-1684260538.json",
-								"timeline-1684260548.json",
-								"timeline-1684347322.json"
-							],
-							"folders": {
-
-							},
-							"metadata": {
-								"color": null,
-								"folded": false
-							}
-						}
-					},
-					"metadata": {
-						"color": null,
 						"folded": true
 					}
 				},
@@ -206,7 +169,7 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": true
+						"folded": false
 					}
 				}
 			},

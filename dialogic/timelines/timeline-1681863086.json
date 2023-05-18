@@ -252,15 +252,6 @@
 		{
 			"background": "res://dialogic/black.jpeg",
 			"event_id": "dialogic_021"
-		},
-		{
-			"event_id": "dialogic_023",
-			"hide_dialogbox": true,
-			"wait_seconds": 3
-		},
-		{
-			"change_timeline": "timeline-1681429308.json",
-			"event_id": "dialogic_020"
 		}
 	],
 	"metadata": {
