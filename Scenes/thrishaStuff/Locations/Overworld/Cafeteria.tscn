@@ -60,8 +60,7 @@ texture = ExtResource( 4 )
 
 [node name="player" parent="." instance=ExtResource( 1 )]
 pause_mode = 2
-position = Vector2( 950, 515 )
-scale = Vector2( 0.904085, 3.02499 )
+position = Vector2( 945, 631 )
 
 [node name="HUD" parent="player" instance=ExtResource( 7 )]
 visible = false
@@ -92,5 +91,5 @@ stream = ExtResource( 8 )
 
 [connection signal="body_entered" from="MusicGeek" to="MusicGeek" method="_on_MusicGeek_body_entered"]
 [connection signal="body_exited" from="MusicGeek" to="MusicGeek" method="_on_MusicGeek_body_exited"]
-[connection signal="body_entered" from="LunchLady" to="LunchLady" method="_on_Cheerleader_body_entered"]
-[connection signal="body_exited" from="LunchLady" to="LunchLady" method="_on_Cheerleader_body_exited"]
+[connection signal="body_entered" from="LunchLady" to="LunchLady" method="_on_LunchLady_body_entered"]
+[connection signal="body_exited" from="LunchLady" to="LunchLady" method="_on_LunchLady_body_exited"]
