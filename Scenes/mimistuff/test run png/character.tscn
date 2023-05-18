@@ -1,53 +1,53 @@
 [gd_scene load_steps=59 format=2]
 
-[ext_resource path="res://Scenes/mimistuff/Alistair Animations/Alistair Idle Overworld/Overworld-Alistair-Idle-9.png" type="Texture" id=1]
-[ext_resource path="res://Scenes/mimistuff/Alistair Animations/Alistair Idle Overworld/Overworld-Alistair-Idle-2.png" type="Texture" id=2]
-[ext_resource path="res://Scenes/mimistuff/Alistair Animations/Alistair Idle Overworld/Overworld-Alistair-Idle-14.png" type="Texture" id=3]
-[ext_resource path="res://Scenes/mimistuff/Alistair Animations/Alistair Idle Overworld/Overworld-Alistair-Idle-11.png" type="Texture" id=4]
-[ext_resource path="res://Scenes/mimistuff/Alistair Animations/Alistair Idle Overworld/Wonderland-Alistair-Idle-2.png" type="Texture" id=5]
-[ext_resource path="res://Scenes/mimistuff/Alistair Animations/Alistair Idle Overworld/Overworld-Alistair-Idle-12.png" type="Texture" id=6]
-[ext_resource path="res://Scenes/mimistuff/Alistair Animations/Alistair Idle Overworld/Overworld-Alistair-Idle-3.png" type="Texture" id=7]
-[ext_resource path="res://Scenes/mimistuff/Alistair Animations/Alistair Idle Overworld/Overworld-Alistair-Idle-4.png" type="Texture" id=8]
-[ext_resource path="res://Scenes/mimistuff/Alistair Animations/Alistair Idle Overworld/Overworld-Alistair-Idle-10.png" type="Texture" id=9]
-[ext_resource path="res://Scenes/mimistuff/Alistair Animations/Alistair Idle Overworld/Overworld-Alistair-Idle-13.png" type="Texture" id=10]
-[ext_resource path="res://Scenes/mimistuff/Alistair Animations/Alistair Idle Overworld/Overworld-Alistair-Idle-7.png" type="Texture" id=11]
-[ext_resource path="res://Scenes/mimistuff/Alistair Animations/Alistair Run Wonderland/Wonderland-Alistair-Run-2.png" type="Texture" id=12]
-[ext_resource path="res://Scenes/mimistuff/Alistair Animations/Alistair Idle Overworld/Overworld-Alistair-Idle-1.png" type="Texture" id=13]
-[ext_resource path="res://Scenes/mimistuff/Alistair Animations/Alistair Idle Overworld/coattail blank.png" type="Texture" id=14]
-[ext_resource path="res://Scenes/mimistuff/Dump/test run png/character.gd" type="Script" id=15]
-[ext_resource path="res://Scenes/mimistuff/Alistair Animations/Alistair Idle Overworld/Overworld-Alistair-Idle-6.png" type="Texture" id=16]
-[ext_resource path="res://Scenes/mimistuff/Alistair Animations/Alistair Idle Overworld/Overworld-Alistair-Idle-5.png" type="Texture" id=17]
-[ext_resource path="res://Scenes/mimistuff/Alistair Animations/Alistair Idle Overworld/Overworld-Alistair-Idle-8.png" type="Texture" id=18]
-[ext_resource path="res://Scenes/mimistuff/Alistair Animations/Alistair Run Overworld/Overworld-Alistair-Run-4.png" type="Texture" id=19]
-[ext_resource path="res://Scenes/mimistuff/Alistair Animations/Alistair Run Wonderland/Wonderland-Alistair-Run-12.png" type="Texture" id=20]
-[ext_resource path="res://Scenes/mimistuff/Alistair Animations/Alistair Run Wonderland/Wonderland-Alistair-Run-9.png" type="Texture" id=21]
-[ext_resource path="res://Scenes/mimistuff/Alistair Animations/Alistair Idle Wonderland/Wonderland-Alistair-Idle-14.png" type="Texture" id=22]
-[ext_resource path="res://Scenes/mimistuff/Dump/alistair overworld run/Alistair Run Overworld/Overworld-Alistair-Run-14.png" type="Texture" id=23]
-[ext_resource path="res://Scenes/mimistuff/Alistair Animations/Alistair Run Wonderland/Wonderland-Alistair-Run-8.png" type="Texture" id=24]
-[ext_resource path="res://Scenes/mimistuff/Alistair Animations/Alistair Idle Wonderland/Wonderland-Alistair-Idle-3.png" type="Texture" id=25]
-[ext_resource path="res://Scenes/mimistuff/Alistair Animations/Alistair Idle Wonderland/Wonderland-Alistair-Idle-8.png" type="Texture" id=26]
-[ext_resource path="res://Scenes/mimistuff/Alistair Animations/Alistair Run Wonderland/Wonderland-Alistair-Run-13.png" type="Texture" id=27]
-[ext_resource path="res://Scenes/mimistuff/Alistair Animations/Alistair Run Overworld/Overworld-Alistair-Run-12.png" type="Texture" id=28]
-[ext_resource path="res://Scenes/mimistuff/Alistair Animations/Alistair Run Overworld/Overworld-Alistair-Run-8.png" type="Texture" id=29]
-[ext_resource path="res://Scenes/mimistuff/Alistair Animations/Alistair Run Overworld/Overworld-Alistair-Run-1.png" type="Texture" id=30]
-[ext_resource path="res://Scenes/mimistuff/Alistair Animations/Alistair Idle Wonderland/Wonderland-Alistair-Idle-15.png" type="Texture" id=31]
-[ext_resource path="res://Scenes/mimistuff/Alistair Animations/Alistair Idle Wonderland/Wonderland-Alistair-Idle-13.png" type="Texture" id=32]
-[ext_resource path="res://Scenes/mimistuff/Alistair Animations/Alistair Run Wonderland/Wonderland-Alistair-Run-6.png" type="Texture" id=33]
-[ext_resource path="res://Scenes/mimistuff/Alistair Animations/Alistair Idle Wonderland/Wonderland-Alistair-Idle-6.png" type="Texture" id=34]
-[ext_resource path="res://Scenes/mimistuff/Alistair Animations/Alistair Idle Wonderland/Wonderland-Alistair-Idle-12.png" type="Texture" id=35]
-[ext_resource path="res://Scenes/mimistuff/Alistair Animations/Alistair Idle Wonderland/Wonderland-Alistair-Idle-10.png" type="Texture" id=36]
-[ext_resource path="res://Scenes/mimistuff/Alistair Animations/Alistair Run Wonderland/Wonderland-Alistair-Run-15.png" type="Texture" id=37]
-[ext_resource path="res://Scenes/mimistuff/Alistair Animations/Alistair Run Overworld/Overworld-Alistair-Run-9.png" type="Texture" id=38]
-[ext_resource path="res://Scenes/mimistuff/Alistair Animations/Alistair Run Overworld/Overworld-Alistair-Run-11.png" type="Texture" id=39]
-[ext_resource path="res://Scenes/mimistuff/Alistair Animations/Alistair Run Wonderland/Wonderland-Alistair-Run-10.png" type="Texture" id=40]
-[ext_resource path="res://Scenes/mimistuff/Alistair Animations/Alistair Idle Wonderland/Wonderland-Alistair-Idle-9.png" type="Texture" id=41]
-[ext_resource path="res://Scenes/mimistuff/Alistair Animations/Alistair Run Overworld/Overworld-Alistair-Run-10.png" type="Texture" id=42]
-[ext_resource path="res://Scenes/mimistuff/Alistair Animations/Alistair Run Overworld/Overworld-Alistair-Run-7.png" type="Texture" id=43]
-[ext_resource path="res://Scenes/mimistuff/Alistair Animations/Alistair Run Wonderland/Wonderland-Alistair-Run-11.png" type="Texture" id=44]
-[ext_resource path="res://Scenes/mimistuff/Alistair Animations/Alistair Idle Wonderland/Wonderland-Alistair-Idle-11.png" type="Texture" id=45]
-[ext_resource path="res://Scenes/mimistuff/Alistair Animations/Alistair Run Overworld/Overworld-Alistair-Run-5.png" type="Texture" id=46]
-[ext_resource path="res://Scenes/mimistuff/Alistair Animations/Alistair Run Overworld/Overworld-Alistair-Run-6.png" type="Texture" id=47]
-[ext_resource path="res://Scenes/mimistuff/Alistair Animations/Alistair Run Wonderland/Wonderland-Alistair-Run-14.png" type="Texture" id=48]
+[ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/Overworld-Alistair-Idle-9.png" type="Texture" id=1]
+[ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/Overworld-Alistair-Idle-2.png" type="Texture" id=2]
+[ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/Overworld-Alistair-Idle-14.png" type="Texture" id=3]
+[ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/Overworld-Alistair-Idle-11.png" type="Texture" id=4]
+[ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/Wonderland-Alistair-Idle-2.png" type="Texture" id=5]
+[ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/Overworld-Alistair-Idle-12.png" type="Texture" id=6]
+[ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/Overworld-Alistair-Idle-3.png" type="Texture" id=7]
+[ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/Overworld-Alistair-Idle-4.png" type="Texture" id=8]
+[ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/Overworld-Alistair-Idle-10.png" type="Texture" id=9]
+[ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/Overworld-Alistair-Idle-13.png" type="Texture" id=10]
+[ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/Overworld-Alistair-Idle-7.png" type="Texture" id=11]
+[ext_resource path="res://Scenes/mimistuff/alistair wonderland run/Alistair Run Wonderland/Wonderland-Alistair-Run-2.png" type="Texture" id=12]
+[ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/Overworld-Alistair-Idle-1.png" type="Texture" id=13]
+[ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/coattail_blank.png" type="Texture" id=14]
+[ext_resource path="res://Scenes/mimistuff/test run png/character.gd" type="Script" id=15]
+[ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/Overworld-Alistair-Idle-6.png" type="Texture" id=16]
+[ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/Overworld-Alistair-Idle-5.png" type="Texture" id=17]
+[ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/Overworld-Alistair-Idle-8.png" type="Texture" id=18]
+[ext_resource path="res://Scenes/mimistuff/alistair overworld run/Alistair Run Overworld/Overworld-Alistair-Run-4.png" type="Texture" id=19]
+[ext_resource path="res://Scenes/mimistuff/alistair wonderland run/Alistair Run Wonderland/Wonderland-Alistair-Run-12.png" type="Texture" id=20]
+[ext_resource path="res://Scenes/mimistuff/alistair wonderland run/Alistair Run Wonderland/Wonderland-Alistair-Run-9.png" type="Texture" id=21]
+[ext_resource path="res://Scenes/mimistuff/alistair wonderland idle/Alistair Idle Wonderland/Wonderland-Alistair-Idle-14.png" type="Texture" id=22]
+[ext_resource path="res://Scenes/mimistuff/alistair overworld run/Alistair Run Overworld/Overworld-Alistair-Run-14.png" type="Texture" id=23]
+[ext_resource path="res://Scenes/mimistuff/alistair wonderland run/Alistair Run Wonderland/Wonderland-Alistair-Run-8.png" type="Texture" id=24]
+[ext_resource path="res://Scenes/mimistuff/alistair wonderland idle/Alistair Idle Wonderland/Wonderland-Alistair-Idle-3.png" type="Texture" id=25]
+[ext_resource path="res://Scenes/mimistuff/alistair wonderland idle/Alistair Idle Wonderland/Wonderland-Alistair-Idle-8.png" type="Texture" id=26]
+[ext_resource path="res://Scenes/mimistuff/alistair wonderland run/Alistair Run Wonderland/Wonderland-Alistair-Run-13.png" type="Texture" id=27]
+[ext_resource path="res://Scenes/mimistuff/alistair overworld run/Alistair Run Overworld/Overworld-Alistair-Run-12.png" type="Texture" id=28]
+[ext_resource path="res://Scenes/mimistuff/alistair overworld run/Alistair Run Overworld/Overworld-Alistair-Run-8.png" type="Texture" id=29]
+[ext_resource path="res://Scenes/mimistuff/alistair overworld run/Alistair Run Overworld/Overworld-Alistair-Run-1.png" type="Texture" id=30]
+[ext_resource path="res://Scenes/mimistuff/alistair wonderland idle/Alistair Idle Wonderland/Wonderland-Alistair-Idle-15.png" type="Texture" id=31]
+[ext_resource path="res://Scenes/mimistuff/alistair wonderland idle/Alistair Idle Wonderland/Wonderland-Alistair-Idle-13.png" type="Texture" id=32]
+[ext_resource path="res://Scenes/mimistuff/alistair wonderland run/Alistair Run Wonderland/Wonderland-Alistair-Run-6.png" type="Texture" id=33]
+[ext_resource path="res://Scenes/mimistuff/alistair wonderland idle/Alistair Idle Wonderland/Wonderland-Alistair-Idle-6.png" type="Texture" id=34]
+[ext_resource path="res://Scenes/mimistuff/alistair wonderland idle/Alistair Idle Wonderland/Wonderland-Alistair-Idle-12.png" type="Texture" id=35]
+[ext_resource path="res://Scenes/mimistuff/alistair wonderland idle/Alistair Idle Wonderland/Wonderland-Alistair-Idle-10.png" type="Texture" id=36]
+[ext_resource path="res://Scenes/mimistuff/alistair wonderland run/Alistair Run Wonderland/Wonderland-Alistair-Run-15.png" type="Texture" id=37]
+[ext_resource path="res://Scenes/mimistuff/alistair overworld run/Alistair Run Overworld/Overworld-Alistair-Run-9.png" type="Texture" id=38]
+[ext_resource path="res://Scenes/mimistuff/alistair overworld run/Alistair Run Overworld/Overworld-Alistair-Run-11.png" type="Texture" id=39]
+[ext_resource path="res://Scenes/mimistuff/alistair wonderland run/Alistair Run Wonderland/Wonderland-Alistair-Run-10.png" type="Texture" id=40]
+[ext_resource path="res://Scenes/mimistuff/alistair wonderland idle/Alistair Idle Wonderland/Wonderland-Alistair-Idle-9.png" type="Texture" id=41]
+[ext_resource path="res://Scenes/mimistuff/alistair overworld run/Alistair Run Overworld/Overworld-Alistair-Run-10.png" type="Texture" id=42]
+[ext_resource path="res://Scenes/mimistuff/alistair overworld run/Alistair Run Overworld/Overworld-Alistair-Run-7.png" type="Texture" id=43]
+[ext_resource path="res://Scenes/mimistuff/alistair wonderland run/Alistair Run Wonderland/Wonderland-Alistair-Run-11.png" type="Texture" id=44]
+[ext_resource path="res://Scenes/mimistuff/alistair wonderland idle/Alistair Idle Wonderland/Wonderland-Alistair-Idle-11.png" type="Texture" id=45]
+[ext_resource path="res://Scenes/mimistuff/alistair overworld run/Alistair Run Overworld/Overworld-Alistair-Run-5.png" type="Texture" id=46]
+[ext_resource path="res://Scenes/mimistuff/alistair overworld run/Alistair Run Overworld/Overworld-Alistair-Run-6.png" type="Texture" id=47]
+[ext_resource path="res://Scenes/mimistuff/alistair wonderland run/Alistair Run Wonderland/Wonderland-Alistair-Run-14.png" type="Texture" id=48]
 
 [sub_resource type="Animation" id=1]
 resource_name = "Idle 1 Overworld"
@@ -5687,21 +5687,21 @@ script = ExtResource( 15 )
 [node name="torso" type="Sprite" parent="body"]
 position = Vector2( 24, 106 )
 rotation = -0.0872665
-texture = ExtResource( 9 )
+texture = ExtResource( 42 )
 offset = Vector2( 24, -109 )
 region_rect = Rect2( 347, 299, 1, 0 )
 
 [node name="head" type="Sprite" parent="body/torso"]
 position = Vector2( 1, -125 )
 z_index = 1
-texture = ExtResource( 3 )
+texture = ExtResource( 23 )
 offset = Vector2( 25, 11 )
 
 [node name="butt" type="Sprite" parent="body/torso"]
 position = Vector2( -5.50391, 5.54138 )
 rotation = 0.122173
 z_index = -1
-texture = ExtResource( 8 )
+texture = ExtResource( 19 )
 offset = Vector2( 26, -114 )
 
 [node name="coattails" type="Sprite" parent="body/torso/butt"]
@@ -5720,52 +5720,52 @@ offset = Vector2( 54, -131 )
 [node name="l leg" type="Sprite" parent="body/torso/butt/l thigh"]
 position = Vector2( -2, 73 )
 z_index = -1
-texture = ExtResource( 2 )
+texture = ExtResource( 46 )
 offset = Vector2( 55, -206 )
 
 [node name="r thigh" type="Sprite" parent="body/torso/butt"]
 position = Vector2( 25, 10 )
 z_index = 1
-texture = ExtResource( 16 )
+texture = ExtResource( 47 )
 offset = Vector2( 0, -124 )
 
 [node name="r leg" type="Sprite" parent="body/torso/butt/r thigh"]
 position = Vector2( 3, 79 )
 z_index = -1
-texture = ExtResource( 17 )
+texture = ExtResource( 46 )
 offset = Vector2( -4, -207 )
 
 [node name="l upper" type="Sprite" parent="body/torso"]
 position = Vector2( -9, -109 )
 rotation = 0.107086
 z_index = -3
-texture = ExtResource( 11 )
+texture = ExtResource( 43 )
 offset = Vector2( 33, -1 )
 
 [node name="l arm" type="Sprite" parent="body/torso/l upper"]
 position = Vector2( -45.6521, 43.1264 )
 rotation = -0.881885
-texture = ExtResource( 18 )
+texture = ExtResource( 29 )
 offset = Vector2( 75, -43 )
 
 [node name="l hand" type="Sprite" parent="body/torso/l upper/l arm"]
 position = Vector2( -30, 40 )
 rotation = 0.106363
-texture = ExtResource( 1 )
+texture = ExtResource( 38 )
 offset = Vector2( 104, -79 )
 
 [node name="r upper" type="Sprite" parent="body/torso"]
 position = Vector2( 20, -115 )
 rotation = 0.19221
 z_index = 1
-texture = ExtResource( 4 )
+texture = ExtResource( 39 )
 offset = Vector2( 3, 0 )
 
 [node name="r arm" type="Sprite" parent="body/torso/r upper"]
 position = Vector2( 41, 42 )
 rotation = 2.68671
 z_index = 1
-texture = ExtResource( 6 )
+texture = ExtResource( 28 )
 offset = Vector2( -38, -43 )
 
 [node name="r hand" type="Sprite" parent="body/torso/r upper/r arm"]
@@ -5778,7 +5778,7 @@ offset = Vector2( -66, -78 )
 [node name="shadow" type="Sprite" parent="body"]
 position = Vector2( 37, -7 )
 z_index = -4
-texture = ExtResource( 13 )
+texture = ExtResource( 30 )
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 "anims/Idle 1 Overworld" = SubResource( 1 )
