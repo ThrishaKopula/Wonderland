@@ -42,6 +42,7 @@ inOverworld = false
 
 [node name="HUD" parent="player" instance=ExtResource( 5 )]
 position = Vector2( -159, -121 )
+current = false
 limit_left = 0
 limit_top = 0
 limit_right = 2225
