@@ -108,6 +108,7 @@ position = Vector2( -74, -469 )
 texture = ExtResource( 15 )
 
 [node name="player" parent="." instance=ExtResource( 5 )]
+pause_mode = 2
 position = Vector2( 1056, 715 )
 
 [node name="MoveRight" type="Sprite" parent="player"]
@@ -119,7 +120,7 @@ position = Vector2( -127, 278 )
 texture = ExtResource( 12 )
 
 [node name="HUD" parent="player" instance=ExtResource( 3 )]
-position = Vector2( -959, -1158.4 )
+position = Vector2( 162, -121 )
 limit_left = 0
 limit_top = 0
 limit_right = 2225

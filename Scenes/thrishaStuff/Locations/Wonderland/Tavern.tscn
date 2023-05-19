@@ -1,6 +1,5 @@
-[gd_scene load_steps=14 format=2]
+[gd_scene load_steps=15 format=2]
 
-[ext_resource path="res://Scenes/thrishaStuff/Prefab/player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/Bard.gd" type="Script" id=2]
 [ext_resource path="res://Scenes/thrishaStuff/images/bard.png" type="Texture" id=3]
 [ext_resource path="res://icon.png" type="Texture" id=4]
@@ -9,6 +8,8 @@
 [ext_resource path="res://Scenes/leoStuff/HUD/HUD.tscn" type="PackedScene" id=7]
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/Tavern.gd" type="Script" id=8]
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/Thief.gd" type="Script" id=9]
+[ext_resource path="res://Scenes/mimistuff/test run png/character.gd" type="Script" id=10]
+[ext_resource path="res://Scenes/mimistuff/test run png/character.tscn" type="PackedScene" id=11]
 
 [sub_resource type="CircleShape2D" id=1]
 radius = 162.077
@@ -79,17 +80,17 @@ texture = ExtResource( 6 )
 position = Vector2( 0, -135 )
 texture = ExtResource( 4 )
 
-[node name="player" parent="." instance=ExtResource( 1 )]
+[node name="player" parent="." instance=ExtResource( 11 )]
 pause_mode = 2
-position = Vector2( 995, 670 )
+position = Vector2( 1056, 715 )
+script = ExtResource( 10 )
+inOverworld = false
 
 [node name="HUD" parent="player" instance=ExtResource( 7 )]
-visible = false
-position = Vector2( 0, 7.60333 )
-current = false
+position = Vector2( 162, -121 )
 limit_left = 0
 limit_top = 0
-limit_right = 1920
+limit_right = 2225
 limit_bottom = 0
 
 [node name="rightBoundary" type="StaticBody2D" parent="."]
