@@ -1,6 +1,5 @@
-[gd_scene load_steps=16 format=2]
+[gd_scene load_steps=15 format=2]
 
-[ext_resource path="res://Scenes/mimistuff/test run png/character.gd" type="Script" id=1]
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/Plebs.gd" type="Script" id=2]
 [ext_resource path="res://Scenes/thrishaStuff/images/pleb_B.png" type="Texture" id=3]
 [ext_resource path="res://Scenes/thrishaStuff/images/pleb_C.png" type="Texture" id=4]
@@ -95,11 +94,11 @@ texture = ExtResource( 6 )
 [node name="player" parent="." instance=ExtResource( 12 )]
 pause_mode = 2
 position = Vector2( 1056, 715 )
-script = ExtResource( 1 )
 inOverworld = false
 
 [node name="HUD" parent="player" instance=ExtResource( 10 )]
 position = Vector2( 162, -121 )
+current = false
 limit_left = 0
 limit_top = 0
 limit_right = 2225
