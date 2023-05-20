@@ -40,6 +40,21 @@
 						"character-1683771916.json"
 					],
 					"folders": {
+						"Jesters": {
+							"files": [
+								"character-1684459870.json",
+								"character-1684460120.json",
+								"character-1684460126.json",
+								"character-1684460132.json"
+							],
+							"folders": {
+
+							},
+							"metadata": {
+								"color": null,
+								"folded": false
+							}
+						},
 						"Plebs": {
 							"files": [
 								"character-1681495641.json",
@@ -52,7 +67,7 @@
 							},
 							"metadata": {
 								"color": null,
-								"folded": false
+								"folded": true
 							}
 						}
 					},
@@ -175,6 +190,20 @@
 								"folded": false
 							}
 						}
+					},
+					"metadata": {
+						"color": null,
+						"folded": true
+					}
+				},
+				"Chapter 3": {
+					"files": [
+						"timeline-1684459134.json",
+						"timeline-1684459799.json",
+						"timeline-1684460299.json"
+					],
+					"folders": {
+
 					},
 					"metadata": {
 						"color": null,

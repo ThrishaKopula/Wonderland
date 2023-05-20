@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=2]
+[gd_scene load_steps=14 format=2]
 
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/Nerd.gd" type="Script" id=1]
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/Watercolor.gd" type="Script" id=2]
@@ -9,7 +9,6 @@
 [ext_resource path="res://Scenes/thrishaStuff/images/cheerleader.png" type="Texture" id=8]
 [ext_resource path="res://Scenes/thrishaStuff/Audio/Classroom/Kevin MacLeod： Covert Affair.wav" type="AudioStream" id=9]
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/Classroom.gd" type="Script" id=10]
-[ext_resource path="res://Scenes/mimistuff/test run png/character.gd" type="Script" id=11]
 [ext_resource path="res://Scenes/mimistuff/test run png/character.tscn" type="PackedScene" id=12]
 
 [sub_resource type="CircleShape2D" id=2]
@@ -81,11 +80,11 @@ texture = ExtResource( 5 )
 [node name="player" parent="." instance=ExtResource( 12 )]
 pause_mode = 2
 position = Vector2( 1056, 715 )
-script = ExtResource( 11 )
 inOverworld = false
 
 [node name="HUD" parent="player" instance=ExtResource( 4 )]
-position = Vector2( 162, -121 )
+position = Vector2( -125, -121 )
+current = false
 limit_left = 0
 limit_top = 0
 limit_right = 2225

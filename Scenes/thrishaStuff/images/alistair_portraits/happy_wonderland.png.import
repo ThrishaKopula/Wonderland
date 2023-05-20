@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/happy.png-4218060f3f7a328ca0f8622f67674e7b.stex"
+path="res://.import/happy_wonderland.png-5acdec12127ed36c8dd602e112553e2f.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Scenes/thrishaStuff/images/happy.png"
-dest_files=[ "res://.import/happy.png-4218060f3f7a328ca0f8622f67674e7b.stex" ]
+source_file="res://Scenes/thrishaStuff/images/alistair_portraits/happy_wonderland.png"
+dest_files=[ "res://.import/happy_wonderland.png-5acdec12127ed36c8dd602e112553e2f.stex" ]
 
 [params]
 

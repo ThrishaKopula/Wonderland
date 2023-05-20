@@ -1,0 +1,265 @@
+{
+	"events": [
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1684459870.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1684460120.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1684460126.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1684460132.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1684459870.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ughhh… I’m so boooooored… Standing guard is no fun."
+		},
+		{
+			"character": "character-1684459870.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Say, Spade, got any books on you?"
+		},
+		{
+			"character": "character-1684460132.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Huhh… *yawn* I… don’t have any…"
+		},
+		{
+			"character": "character-1684460126.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yeah, Queen’s been real strict with giving us books now, ever since you lost that one!"
+		},
+		{
+			"character": "character-1684459870.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I did NOT lose it! I was reading it, and it disappeared right as I came back from afternoon tea!"
+		},
+		{
+			"character": "character-1684460120.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "So you lost it then, sweetie!"
+		},
+		{
+			"character": "character-1684460126.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yeah, yeah! I agree!"
+		},
+		{
+			"character": "character-1684460132.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "*yaaaaawn* I think… you lost it…"
+		},
+		{
+			"character": "character-1684459870.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Argh! Shut it, all of you!"
+		},
+		{
+			"character": "character-1684459870.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I read his books all the time, but the one time I take his most important one, it vanishes!"
+		},
+		{
+			"character": "character-1684460126.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "What was it about anyway?"
+		},
+		{
+			"character": "character-1684460120.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Mhmm, I’d hope you at least remember what you read before losing it."
+		},
+		{
+			"character": "character-1684459870.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Of course I remember! It was about that world. You know, the OTHER world."
+		},
+		{
+			"character": "character-1684460126.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oooh! What’s it say about the other world?"
+		},
+		{
+			"character": "character-1684459870.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Well, most of it was some mumbo jumbo about a music box, but it looks a lot like our world!"
+		},
+		{
+			"character": "character-1684459870.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "But check this, they drink COFFEE there! I mean, who can stomach that bitter thing? Our Queen reserves that stuff for the prisoners… those poor other world people…"
+		},
+		{
+			"character": "character-1684459870.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh, and one more thing! The book says there's no magic! I mean, how can you do anything without magic? I’d have to carry things with my hands… and sweep the floors with my arms!"
+		},
+		{
+			"character": "character-1684460132.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I guess…it would be nice to… *yawn* stretch your muscles…"
+		},
+		{
+			"character": "character-1684460120.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Big talk coming from you! I haven’t seen you do anything but crawl between the front gates, the kitchen, and your bed!"
+		},
+		{
+			"character": "character-1684460132.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yeah… *yawn* That’s plenty of stretching…"
+		},
+		{
+			"character": "character-1684460126.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I sure would like to see that other world!"
+		},
+		{
+			"character": "character-1684459870.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "So would I! But that book specifically said there’s no way to travel back and forth unless you can manipulate mirrors."
+		},
+		{
+			"character": "character-1684460120.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Perhaps you can abscond with a book about mirrors next time, haha!"
+		},
+		{
+			"character": "character-1684459870.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ugh! Stop making it sound like I stole the book! I would never steal from his highness!"
+		},
+		{
+			"character": "character-1684460132.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Maybe the Queen knows about the mirrors… *yawn* I bet he can show us what the other world is like…"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( Other world? Is that my world? )"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1684460299.json",
+		"name": "eavesdropOnJesters"
+	}
+}

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/shock.png-71f82828cd99c4fa6fa59bfb0542c1fa.stex"
+path="res://.import/mad_wonderland.png-bb0dd2442a943e276395794f15770ce7.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Scenes/thrishaStuff/images/shock.png"
-dest_files=[ "res://.import/shock.png-71f82828cd99c4fa6fa59bfb0542c1fa.stex" ]
+source_file="res://Scenes/thrishaStuff/images/alistair_portraits/mad_wonderland.png"
+dest_files=[ "res://.import/mad_wonderland.png-bb0dd2442a943e276395794f15770ce7.stex" ]
 
 [params]
 

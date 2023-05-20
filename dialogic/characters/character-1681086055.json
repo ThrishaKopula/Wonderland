@@ -13,19 +13,35 @@
 	"portraits": [
 		{
 			"name": "Default",
-			"path": "res://Scenes/thrishaStuff/images/Portraits_-1.png"
+			"path": "res://Scenes/thrishaStuff/images/alistair_portraits/default.png"
 		},
 		{
 			"name": "happy",
-			"path": "res://Scenes/thrishaStuff/images/happy.png"
+			"path": "res://Scenes/thrishaStuff/images/alistair_portraits/happy.png"
 		},
 		{
 			"name": "mad",
-			"path": "res://Scenes/thrishaStuff/images/mad.png"
+			"path": "res://Scenes/thrishaStuff/images/alistair_portraits/mad.png"
 		},
 		{
 			"name": "shock",
-			"path": "res://Scenes/thrishaStuff/images/shock.png"
+			"path": "res://Scenes/thrishaStuff/images/alistair_portraits/shock.png"
+		},
+		{
+			"name": "default_wonderland",
+			"path": "res://Scenes/thrishaStuff/images/alistair_portraits/default_wonderland.png"
+		},
+		{
+			"name": "happy_wonderland",
+			"path": "res://Scenes/thrishaStuff/images/alistair_portraits/happy_wonderland.png"
+		},
+		{
+			"name": "mad_wonderland",
+			"path": "res://Scenes/thrishaStuff/images/alistair_portraits/mad_wonderland.png"
+		},
+		{
+			"name": "shock_wonderland",
+			"path": "res://Scenes/thrishaStuff/images/alistair_portraits/shock_wonderland.png"
 		}
 	],
 	"scale": 70,
