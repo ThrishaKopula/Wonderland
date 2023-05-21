@@ -5682,6 +5682,7 @@ tracks/29/keys = {
 extents = Vector2( 105, 314.5 )
 
 [node name="character" type="KinematicBody2D"]
+position = Vector2( 1032, 617 )
 z_index = 10
 script = ExtResource( 15 )
 
