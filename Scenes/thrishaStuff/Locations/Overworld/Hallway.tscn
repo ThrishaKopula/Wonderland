@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=2]
+[gd_scene load_steps=14 format=2]
 
 [ext_resource path="res://Scenes/thrishaStuff/images/poster.png" type="Texture" id=1]
 [ext_resource path="res://Scenes/mimistuff/test run png/character.tscn" type="PackedScene" id=2]
@@ -10,7 +10,6 @@
 [ext_resource path="res://Scenes/leoStuff/HUD/HUD.tscn" type="PackedScene" id=8]
 [ext_resource path="res://Scenes/thrishaStuff/Audio/Hallway/Kevin MacLeod： Aces High.wav" type="AudioStream" id=9]
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/Hallway.gd" type="Script" id=10]
-[ext_resource path="res://Scenes/mimistuff/test run png/character.gd" type="Script" id=11]
 
 [sub_resource type="CircleShape2D" id=1]
 radius = 162.077
@@ -81,7 +80,6 @@ texture = ExtResource( 4 )
 [node name="player" parent="." instance=ExtResource( 2 )]
 pause_mode = 2
 position = Vector2( 1056, 715 )
-script = ExtResource( 11 )
 
 [node name="HUD" parent="player" instance=ExtResource( 8 )]
 position = Vector2( -178, -121 )

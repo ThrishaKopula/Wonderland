@@ -1,6 +1,5 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=3 format=2]
 
-[ext_resource path="res://Scenes/mimistuff/test run png/character.gd" type="Script" id=1]
 [ext_resource path="res://Scenes/mimistuff/test run png/character.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Scenes/leoStuff/HUD/HUD.tscn" type="PackedScene" id=3]
 
@@ -9,7 +8,6 @@
 [node name="player" parent="." instance=ExtResource( 2 )]
 pause_mode = 2
 position = Vector2( 1056, 715 )
-script = ExtResource( 1 )
 inOverworld = false
 
 [node name="HUD" parent="player" instance=ExtResource( 3 )]
