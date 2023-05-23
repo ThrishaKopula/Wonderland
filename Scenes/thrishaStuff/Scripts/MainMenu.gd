@@ -20,3 +20,15 @@ func _on_Quit_pressed():
 
 func _on_Credits_pressed():
 	pass # Replace with function body.
+
+func _on_StartButton_button_down():
+	$ButtonClick.play()
+
+func _on_Options_button_down():
+	$ButtonClick.play()
+
+func _on_Quit_button_down():
+	$ButtonClick.play()
+
+func _on_Credits_button_down():
+	$ButtonClick.play()
