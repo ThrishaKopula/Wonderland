@@ -1,5 +1,6 @@
-[gd_scene load_steps=14 format=2]
+[gd_scene load_steps=15 format=2]
 
+[ext_resource path="res://Scenes/thrishaStuff/Audio/Cafeteria/Kevin MacLeod： Airport Lounge.wav" type="AudioStream" id=1]
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/Bard.gd" type="Script" id=2]
 [ext_resource path="res://Scenes/thrishaStuff/images/bard.png" type="Texture" id=3]
 [ext_resource path="res://icon.png" type="Texture" id=4]
@@ -104,6 +105,11 @@ shape = SubResource( 3 )
 [node name="CollisionShape2D" type="CollisionShape2D" parent="leftBoundary"]
 position = Vector2( -4, 532.5 )
 shape = SubResource( 3 )
+
+[node name="TavernAudio" type="AudioStreamPlayer2D" parent="."]
+pause_mode = 2
+position = Vector2( 980, 566 )
+stream = ExtResource( 1 )
 
 [connection signal="body_entered" from="Bard" to="Bard" method="_on_Bard_body_entered"]
 [connection signal="body_exited" from="Bard" to="Bard" method="_on_Bard_body_exited"]

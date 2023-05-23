@@ -107,7 +107,7 @@
 			},
 			"metadata": {
 				"color": null,
-				"folded": false
+				"folded": true
 			}
 		},
 		"Timelines": {
@@ -159,7 +159,7 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": false
+						"folded": true
 					}
 				},
 				"Chapter 2": {
@@ -193,21 +193,37 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": false
+						"folded": true
 					}
 				},
 				"Chapter 3": {
 					"files": [
 						"timeline-1684459134.json",
 						"timeline-1684459799.json",
-						"timeline-1684460299.json"
+						"timeline-1684460299.json",
+						"timeline-1684733511.json"
 					],
 					"folders": {
+						"royalGiftsQuest": {
+							"files": [
+								"timeline-1684734384.json",
+								"timeline-1684734454.json",
+								"timeline-1684735248.json",
+								"timeline-1684735337.json",
+								"timeline-1684735406.json"
+							],
+							"folders": {
 
+							},
+							"metadata": {
+								"color": null,
+								"folded": true
+							}
+						}
 					},
 					"metadata": {
 						"color": null,
-						"folded": false
+						"folded": true
 					}
 				},
 				"Prologue": {

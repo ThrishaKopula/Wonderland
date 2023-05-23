@@ -13,6 +13,8 @@ func _ready():
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
+	if ($PlebTownAudio.playing == false):
+		$PlebTownAudio.play()
 	pass
 	
 func _on_Thief_body_entered(body):

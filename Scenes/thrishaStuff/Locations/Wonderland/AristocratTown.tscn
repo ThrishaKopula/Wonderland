@@ -1,5 +1,6 @@
-[gd_scene load_steps=11 format=2]
+[gd_scene load_steps=12 format=2]
 
+[ext_resource path="res://Scenes/thrishaStuff/Audio/AristocratTown/Kevin MacLeod： Trio for Piano Violin and Viola.wav" type="AudioStream" id=1]
 [ext_resource path="res://Scenes/thrishaStuff/images/cheerleader.png" type="Texture" id=2]
 [ext_resource path="res://icon.png" type="Texture" id=3]
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/Aristocrats.gd" type="Script" id=4]
@@ -80,6 +81,11 @@ shape = SubResource( 2 )
 [node name="CollisionShape2D" type="CollisionShape2D" parent="leftBoundary"]
 position = Vector2( -4, 532.5 )
 shape = SubResource( 2 )
+
+[node name="AristocratTownAudio" type="AudioStreamPlayer2D" parent="."]
+pause_mode = 2
+position = Vector2( 980, 566 )
+stream = ExtResource( 1 )
 
 [connection signal="body_entered" from="Aristocrats" to="Aristocrats" method="_on_Cheerleader_body_entered"]
 [connection signal="body_exited" from="Aristocrats" to="Aristocrats" method="_on_Cheerleader_body_exited"]

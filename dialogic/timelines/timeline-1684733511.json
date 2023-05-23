@@ -1,0 +1,289 @@
+{
+	"events": [
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1684459870.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1684460120.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1684460126.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1684460132.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1684459870.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Weren’t you here a few minutes ago? We already told you, the Queen isn’t here right now!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No, wait! L-Listen, you’re close to the Queen, right? Can’t you convince him to meet with me?"
+		},
+		{
+			"character": "character-1684460120.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hehe, maybe. But why would we do that?"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Uh, I…"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I’m from that other world!"
+		},
+		{
+			"character": "character-1684459870.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "What? No way, I don’t believe you! And you were eavesdropping on us?"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No–well, yes, but you want to see that world don’t you? Help me out and I’ll show you!"
+		},
+		{
+			"character": "character-1684460126.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oooh! You’ll take us to see that other world?"
+		},
+		{
+			"character": "character-1684460132.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "*yawn* Not so fast, Clover…We can’t leave the gates remember…?"
+		},
+		{
+			"character": "character-1684460120.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ho-hum. That is rule No. 253. It’ll be off with our heads if we go against our Queen’s wishes. "
+		},
+		{
+			"character": "character-1684459870.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I guess that's the end of that. The Queen’s rules are the law. Plus, you’re probably just lying about that other world stuff. No way someone like you knows about the mirrors."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No no no, hold up! You have to believe me! I can, I can, uh…"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You can’t leave your posts right?"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Tell me about what you read in that book. I’ll bring you back some keepsakes from my world."
+		},
+		{
+			"character": "character-1684460126.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ooooh, yes please!"
+		},
+		{
+			"character": "character-1684460132.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "That would be… *yawn* …nice…"
+		},
+		{
+			"character": "character-1684460120.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hehe, I guess we’ll see if you’re just all talk or not."
+		},
+		{
+			"character": "character-1684459870.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hmm… okay. Since it doesn’t interfere with the Queen’s rules, I’ll allow it."
+		},
+		{
+			"character": "character-1684459870.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I would like… a tale of wonderful and tragic passion! A tale of forbidden love! I wonder if the books in that world are similar to ours."
+		},
+		{
+			"character": "character-1684460126.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ooh! Ooooh!! Heart told me there’s no magic in that world, but some people still keep little good luck charms. I want one!"
+		},
+		{
+			"character": "character-1684460120.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hmm… this might be a fairly simple request, but I would love to add some utensils to my growing collection of blades. Bring me back a knife from that world!"
+		},
+		{
+			"character": "character-1684460132.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I would like… *yawn* …A…"
+		},
+		{
+			"character": "character-1684460132.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "… Spade."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Okay, so a book, a lucky charm, a knife, and a… spade, right?"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Heh, that’s child’s play! I’ll be right back!"
+		},
+		{
+			"character": "character-1684459870.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Confident are we?"
+		},
+		{
+			"character": "character-1684459870.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "We’ll–"
+		},
+		{
+			"character": "character-1684460126.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "–be waiting–"
+		},
+		{
+			"character": "character-1684460120.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "–for your–"
+		},
+		{
+			"character": "character-1684460132.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "–return… *yawn*"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1684733511.json",
+		"name": "initiateRoyalGiftsQuest"
+	}
+}

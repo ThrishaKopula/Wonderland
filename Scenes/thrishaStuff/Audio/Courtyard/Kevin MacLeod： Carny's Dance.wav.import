@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Kevin MacLeod： Carny's Dance.wav-94817570113f02690f00f28128a4d136.sample"
+
+[deps]
+
+source_file="res://Scenes/thrishaStuff/Audio/Courtyard/Kevin MacLeod： Carny's Dance.wav"
+dest_files=[ "res://.import/Kevin MacLeod： Carny's Dance.wav-94817570113f02690f00f28128a4d136.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
