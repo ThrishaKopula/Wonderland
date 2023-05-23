@@ -37,6 +37,8 @@ func _input(event):
 				add_child(dialog)
 				StoryVariables.isBringIngredientsToTavern = true
 				StoryVariables.isCollectOtherworldlyItems = false
+			elif(StoryVariables.isInitiateMainQuestDone == true and StoryVariables.isReportBackToMusicGeek == false):
+				pass # add dialogue if quest is not done
 
 func pause_game():
 	get_tree().paused = true
@@ -47,7 +49,6 @@ func miniGameUnpause(timeline_name):
 	StoryVariables.canPlayerMove = true
 	active = false
 	get_tree().change_scene("res://Scenes/leoStuff/mini_game2/mini_game2.tscn")
-	
 	
 func unpause(timeline_name):
 	get_tree().paused = false

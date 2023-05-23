@@ -10,8 +10,10 @@ var isOtherBedInteracted = false
 var isMirrorInteracted = false
 
 # Main game checkpoints
-#PROLOGUE
 var isPrologueDone = false
+var isChapterOneDone = false
+var isChapterTwoDone = false
+var isChapterThreeDone = false
 
 #CHAPTER ONE
 var isChapterOneStartDone = false
@@ -31,6 +33,8 @@ var isPleb_BItemCollected = false
 var isPleb_CItemCollected = false
 var isAllItemsCollected = false
 var isBringIngredientsToTavern = false
+var isGetBallerinaFromBartender = false
+var isGiveBallerinaToMatthew = false
 
 #CHAPTER 2
 var isChapterTwoStart= false
