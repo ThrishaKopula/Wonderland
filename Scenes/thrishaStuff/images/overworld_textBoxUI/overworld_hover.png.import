@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/oveerworld_hover.png-b3987a538c5a6c83f10b3f210736d691.stex"
+path="res://.import/overworld_hover.png-852fabf64d4c0fc1dbc5c91d21fca988.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Scenes/thrishaStuff/images/overworld_textBoxUI/oveerworld_hover.png"
-dest_files=[ "res://.import/oveerworld_hover.png-b3987a538c5a6c83f10b3f210736d691.stex" ]
+source_file="res://Scenes/thrishaStuff/images/overworld_textBoxUI/overworld_hover.png"
+dest_files=[ "res://.import/overworld_hover.png-852fabf64d4c0fc1dbc5c91d21fca988.stex" ]
 
 [params]
 
