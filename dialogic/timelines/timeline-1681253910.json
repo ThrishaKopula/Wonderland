@@ -13,7 +13,7 @@
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_002",
 			"mirror_portrait": false,
-			"portrait": "default_wonderland",
+			"portrait": "Default",
 			"portrait_definition": "",
 			"position": {
 				"0": true,
@@ -139,10 +139,6 @@
 		{
 			"event_id": "dialogic_024",
 			"set_theme": "default-theme.cfg"
-		},
-		{
-			"background": "res://dialogic/dorm.png",
-			"event_id": "dialogic_021"
 		},
 		{
 			"character": "character-1681086055.json",
@@ -764,8 +760,8 @@
 			"portrait": "Default",
 			"portrait_definition": "",
 			"position": {
-				"0": false,
-				"1": true,
+				"0": true,
+				"1": false,
 				"2": false,
 				"3": false,
 				"4": false
