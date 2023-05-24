@@ -223,7 +223,7 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": true
+						"folded": false
 					}
 				},
 				"Prologue": {
@@ -245,7 +245,7 @@
 							},
 							"metadata": {
 								"color": null,
-								"folded": true
+								"folded": false
 							}
 						}
 					},
