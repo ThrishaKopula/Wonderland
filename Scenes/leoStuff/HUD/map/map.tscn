@@ -19,29 +19,78 @@ margin_left = 940.0
 margin_top = 356.0
 margin_right = 1052.0
 margin_bottom = 446.0
-flat = true
 
 [node name="Hallway" type="Button" parent="."]
 margin_left = 938.0
 margin_top = 462.0
 margin_right = 1056.0
 margin_bottom = 569.0
-flat = true
 
-[node name="music" type="Button" parent="."]
-visible = false
+[node name="Cafe" type="Button" parent="."]
 margin_left = 632.0
 margin_top = 365.0
 margin_right = 718.0
 margin_bottom = 443.0
-flat = true
 
-[node name="tavern" type="Button" parent="."]
+[node name="Sports" type="Button" parent="."]
 margin_left = 1274.0
 margin_top = 263.0
 margin_right = 1360.0
 margin_bottom = 341.0
-flat = true
+
+[node name="classroom" type="Button" parent="."]
+margin_left = 958.0
+margin_top = 202.0
+margin_right = 1035.0
+margin_bottom = 275.0
+
+[node name="change" type="Button" parent="."]
+margin_left = 1807.0
+margin_top = 25.0
+margin_right = 1895.0
+margin_bottom = 128.0
+
+[node name="ArstocratTown" type="Button" parent="."]
+visible = false
+margin_left = 844.0
+margin_top = 586.0
+margin_right = 1053.0
+margin_bottom = 858.0
+
+[node name="Courtyard" type="Button" parent="."]
+visible = false
+margin_left = 1157.0
+margin_top = 531.0
+margin_right = 1349.0
+margin_bottom = 672.0
+
+[node name="PlebTown" type="Button" parent="."]
+visible = false
+margin_left = 320.0
+margin_top = 543.0
+margin_right = 544.0
+margin_bottom = 735.0
+
+[node name="QueenCourt" type="Button" parent="."]
+visible = false
+margin_left = 266.0
+margin_top = 57.0
+margin_right = 510.0
+margin_bottom = 238.0
+
+[node name="Tavern" type="Button" parent="."]
+visible = false
+margin_left = 1169.0
+margin_top = 285.0
+margin_right = 1356.0
+margin_bottom = 463.0
+
+[node name="TeaParty" type="Button" parent="."]
+visible = false
+margin_left = 805.0
+margin_top = 281.0
+margin_right = 1048.0
+margin_bottom = 459.0
 
 [connection signal="hide" from="dorm" to="." method="_on_Button_hide"]
 [connection signal="mouse_entered" from="dorm" to="." method="_on_Button_mouse_entered"]
@@ -51,11 +100,40 @@ flat = true
 [connection signal="mouse_entered" from="Hallway" to="." method="_on_Button2_mouse_entered"]
 [connection signal="mouse_exited" from="Hallway" to="." method="_on_Button2_mouse_exited"]
 [connection signal="pressed" from="Hallway" to="." method="_on_Button2_pressed"]
-[connection signal="hide" from="music" to="." method="_on_music_hide"]
-[connection signal="mouse_entered" from="music" to="." method="_on_music_mouse_entered"]
-[connection signal="mouse_exited" from="music" to="." method="_on_music_mouse_exited"]
-[connection signal="pressed" from="music" to="." method="_on_music_pressed"]
-[connection signal="hide" from="tavern" to="." method="_on_tavern_hide"]
-[connection signal="mouse_entered" from="tavern" to="." method="_on_tavern_mouse_entered"]
-[connection signal="mouse_exited" from="tavern" to="." method="_on_tavern_mouse_exited"]
-[connection signal="pressed" from="tavern" to="." method="_on_tavern_pressed"]
+[connection signal="hide" from="Cafe" to="." method="_on_cafe_hide"]
+[connection signal="mouse_entered" from="Cafe" to="." method="_on_cafe_mouse_entered"]
+[connection signal="mouse_exited" from="Cafe" to="." method="_on_cafe_mouse_exited"]
+[connection signal="pressed" from="Cafe" to="." method="_on_cafe_pressed"]
+[connection signal="hide" from="Sports" to="." method="_on_sport_hide"]
+[connection signal="mouse_entered" from="Sports" to="." method="_on_sport_mouse_entered"]
+[connection signal="mouse_exited" from="Sports" to="." method="_on_sport_mouse_exited"]
+[connection signal="pressed" from="Sports" to="." method="_on_sport_pressed"]
+[connection signal="hide" from="classroom" to="." method="_on_classroom_hide"]
+[connection signal="mouse_entered" from="classroom" to="." method="_on_classroom_mouse_entered"]
+[connection signal="mouse_exited" from="classroom" to="." method="_on_classroom_mouse_exited"]
+[connection signal="pressed" from="classroom" to="." method="_on_classroom_pressed"]
+[connection signal="pressed" from="change" to="." method="_on_change_pressed"]
+[connection signal="hide" from="ArstocratTown" to="." method="_on_ArstocratTown_hide"]
+[connection signal="mouse_entered" from="ArstocratTown" to="." method="_on_ArstocratTown_mouse_entered"]
+[connection signal="mouse_exited" from="ArstocratTown" to="." method="_on_ArstocratTown_mouse_exited"]
+[connection signal="pressed" from="ArstocratTown" to="." method="_on_ArstocratTown_pressed"]
+[connection signal="hide" from="Courtyard" to="." method="_on_Courtyard_hide"]
+[connection signal="mouse_entered" from="Courtyard" to="." method="_on_Courtyard_mouse_entered"]
+[connection signal="mouse_exited" from="Courtyard" to="." method="_on_Courtyard_mouse_exited"]
+[connection signal="pressed" from="Courtyard" to="." method="_on_Courtyard_pressed"]
+[connection signal="hide" from="PlebTown" to="." method="_on_PlebTown_hide"]
+[connection signal="mouse_entered" from="PlebTown" to="." method="_on_PlebTown_mouse_entered"]
+[connection signal="mouse_exited" from="PlebTown" to="." method="_on_PlebTown_mouse_exited"]
+[connection signal="pressed" from="PlebTown" to="." method="_on_PlebTown_pressed"]
+[connection signal="hide" from="QueenCourt" to="." method="_on_QueenCourt_hide"]
+[connection signal="mouse_entered" from="QueenCourt" to="." method="_on_QueenCourt_mouse_entered"]
+[connection signal="mouse_exited" from="QueenCourt" to="." method="_on_QueenCourt_mouse_exited"]
+[connection signal="pressed" from="QueenCourt" to="." method="_on_QueenCourt_pressed"]
+[connection signal="hide" from="Tavern" to="." method="_on_Tavern_hide"]
+[connection signal="mouse_entered" from="Tavern" to="." method="_on_Tavern_mouse_entered"]
+[connection signal="mouse_exited" from="Tavern" to="." method="_on_Tavern_mouse_exited"]
+[connection signal="pressed" from="Tavern" to="." method="_on_Tavern_pressed"]
+[connection signal="hide" from="TeaParty" to="." method="_on_TeaParty_hide"]
+[connection signal="mouse_entered" from="TeaParty" to="." method="_on_TeaParty_mouse_entered"]
+[connection signal="mouse_exited" from="TeaParty" to="." method="_on_TeaParty_mouse_exited"]
+[connection signal="pressed" from="TeaParty" to="." method="_on_TeaParty_pressed"]

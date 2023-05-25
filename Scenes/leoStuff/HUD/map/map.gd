@@ -8,6 +8,12 @@ export var enable = true;
 
 onready var trans = $"../trans/TransitionColor"
 
+onready var overworld = preload("res://art/pokemon map.PNG")
+
+onready var wonderland = preload("res://art/1200px-LGPE_Kanto_Map.png")
+
+var isOverworld = true
+
 func _ready():
 	trans.show();
 	text.hide();
@@ -75,49 +81,247 @@ func _on_Button2_hide():
 
 func _on_Button2_pressed():
 	
-	
-	
 	get_tree().change_scene("res://Scenes/thrishaStuff/Locations/Overworld/Hallway.tscn");
 	pass
 
-func _on_music_pressed():
-	#get_tree().change_scene();
+func _on_cafe_pressed():
+	get_tree().change_scene("res://Scenes/thrishaStuff/Locations/Overworld/Cafeteria.tscn");
+	pass # Replace with function body.
+
+
+func _on_cafe_mouse_entered():
+	change_text.text = "Cafeteria";
+	text.show();
+	pass # Replace with function body.
+
+
+func _on_cafe_mouse_exited():
+	text.hide();
+	pass # Replace with function body.
+
+
+func _on_cafe_hide():
+	text.hide();
+	pass # Replace with function body.
+
+
+func _on_sport_pressed():
+	get_tree().change_scene("res://Scenes/thrishaStuff/Locations/Overworld/SportsField.tscn");
+	pass # Replace with function body.
+
+
+func _on_sport_mouse_entered():
+	change_text.text = "Sports Field";
+	text.show();
+	pass # Replace with function body.
+
+
+func _on_sport_mouse_exited():
+	text.hide();
+	pass # Replace with function body.
+
+
+func _on_sport_hide():
+	text.hide();
+	pass # Replace with function body.
+
+
+func _on_classroom_pressed():
+	get_tree().change_scene("res://Scenes/thrishaStuff/Locations/Overworld/Classroom.tscn");
+	pass # Replace with function body.
+
+
+func _on_classroom_hide():
+	text.hide();
+	pass # Replace with function body.
+
+
+func _on_classroom_mouse_entered():
+	change_text.text = "Classroom";
+	text.show();
+	pass # Replace with function body.
+
+
+func _on_classroom_mouse_exited():
+	text.hide();
+	pass # Replace with function body.
+
+
+func _on_change_pressed():
 	
-	pass
+	if isOverworld:
+		$PokemonMap.texture = wonderland;
+		isOverworld = false;
+		
+		$classroom.hide();
+		$Sports.hide();
+		$Cafe.hide();
+		$Hallway.hide();
+		$dorm.hide();
+		
+		$ArstocratTown.show();
+		$Courtyard.show();
+		$PlebTown.show();
+		$QueenCourt.show();
+		$Tavern.show();
+		$TeaParty.show();
+		
+		
+	else:
+		$PokemonMap.texture = overworld
+		isOverworld = true;
+		
+		$ArstocratTown.hide();
+		$Courtyard.hide();
+		$PlebTown.hide();
+		$QueenCourt.hide();
+		$Tavern.hide();
+		$TeaParty.hide();
+		
+		
+		$classroom.show();
+		$Sports.show();
+		$Cafe.show();
+		$Hallway.show();
+		$dorm.show();
+		
+	pass # Replace with function body.
 
 
-func _on_music_mouse_entered():
-	change_text.text = "music geek";
+func _on_ArstocratTown_pressed():
+	get_tree().change_scene("res://Scenes/thrishaStuff/Locations/Wonderland/AristocratTown.tscn");
+	
+	pass # Replace with function body.
+
+
+func _on_ArstocratTown_mouse_entered():
+	
+	change_text.text = "Arstocrat Town";
 	text.show();
-	pass
+	
+	pass # Replace with function body.
 
 
-func _on_music_mouse_exited():
-	text.hide();
-	pass
-
-
-func _on_music_hide():
+func _on_ArstocratTown_mouse_exited():
 	text.hide();
 	pass # Replace with function body.
 
 
-func _on_tavern_hide():
+func _on_ArstocratTown_hide():
+	text.hide();
+	pass # Replace with function body.
+
+func _on_Courtyard_pressed():
+	get_tree().change_scene("res://Scenes/thrishaStuff/Locations/Wonderland/Courtyard.tscn");
+	
+	pass # Replace with function body.
+
+
+func _on_Courtyard_mouse_entered():
+	change_text.text = "Courtyard";
+	text.show();
+	pass # Replace with function body.
+
+
+func _on_Courtyard_mouse_exited():
 	text.hide();
 	pass # Replace with function body.
 
 
-func _on_tavern_pressed():
+func _on_Courtyard_hide():
+	text.hide();
+	pass # Replace with function body.
+	
+
+
+func _on_PlebTown_pressed():
+	get_tree().change_scene("res://Scenes/thrishaStuff/Locations/Wonderland/PlebTown.tscn");
+	
+	pass # Replace with function body.
+
+
+func _on_PlebTown_mouse_entered():
+	change_text.text = "Pleb Town";
+	text.show();
+	pass # Replace with function body.
+
+
+func _on_PlebTown_mouse_exited():
+	text.hide();
+	pass # Replace with function body.
+
+
+func _on_PlebTown_hide():
+	text.hide();
+	pass # Replace with function body.
+
+
+
+func _on_QueenCourt_pressed():
+	get_tree().change_scene("res://Scenes/thrishaStuff/Locations/Wonderland/QueenCourt.tscn");
+	
+	pass # Replace with function body.
+
+
+func _on_QueenCourt_mouse_entered():
+	change_text.text = "Queen Court";
+	text.show();
+	pass # Replace with function body.
+
+
+func _on_QueenCourt_mouse_exited():
+	text.hide();
+	pass # Replace with function body.
+
+
+func _on_QueenCourt_hide():
+	text.hide();
+	pass # Replace with function body.
+	
+	
+
+
+func _on_Tavern_pressed():
 	get_tree().change_scene("res://Scenes/thrishaStuff/Locations/Wonderland/Tavern.tscn");
+	
 	pass # Replace with function body.
 
 
-func _on_tavern_mouse_exited():
+func _on_Tavern_mouse_entered():
+	change_text.text = "Tavern";
+	text.show();
+	pass # Replace with function body.
+
+
+func _on_Tavern_mouse_exited():
 	text.hide();
 	pass # Replace with function body.
 
 
-func _on_tavern_mouse_entered():
-	change_text.text = "tavern";
+func _on_Tavern_hide():
+	text.hide();
+	pass # Replace with function body.
+	
+	
+
+
+func _on_TeaParty_pressed():
+	get_tree().change_scene("res://Scenes/thrishaStuff/Locations/Wonderland/TeaParty.tscn");
+	
+	pass # Replace with function body.
+
+
+func _on_TeaParty_mouse_entered():
+	change_text.text = "Tea Party";
 	text.show();
+	pass # Replace with function body.
+
+
+func _on_TeaParty_mouse_exited():
+	text.hide();
+	pass # Replace with function body.
+
+
+func _on_TeaParty_hide():
+	text.hide();
 	pass # Replace with function body.
