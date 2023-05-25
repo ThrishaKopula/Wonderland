@@ -7,6 +7,8 @@ extends CanvasLayer
 
 var hid = true;
 
+export var enable = true;
+
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	
@@ -16,10 +18,10 @@ func _ready():
 
 func _input(delta):
 	
-	if Input.is_action_just_pressed("menu") and !hid:
+	if Input.is_action_just_pressed("menu") and !hid and enable:
 		hide();
 		hid = true;
-	elif Input.is_action_just_pressed("menu") and hid:
+	elif Input.is_action_just_pressed("menu") and hid and enable:
 		show();
 		hid = false;
 		
