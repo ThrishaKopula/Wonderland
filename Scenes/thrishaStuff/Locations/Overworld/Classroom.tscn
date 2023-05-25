@@ -9,7 +9,7 @@
 [ext_resource path="res://Scenes/thrishaStuff/images/cheerleader.png" type="Texture" id=8]
 [ext_resource path="res://Scenes/thrishaStuff/Audio/Classroom/Kevin MacLeod： Covert Affair.wav" type="AudioStream" id=9]
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/Classroom.gd" type="Script" id=10]
-[ext_resource path="res://Scenes/mimistuff/test run png/character.tscn" type="PackedScene" id=12]
+[ext_resource path="res://Scenes/mimistuff/alistair_animations/character.tscn" type="PackedScene" id=12]
 
 [sub_resource type="CircleShape2D" id=2]
 radius = 162.077

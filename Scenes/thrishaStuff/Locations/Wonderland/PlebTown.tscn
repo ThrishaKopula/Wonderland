@@ -11,7 +11,7 @@
 [ext_resource path="res://Scenes/thrishaStuff/images/cheerleader.png" type="Texture" id=9]
 [ext_resource path="res://Scenes/leoStuff/HUD/HUD.tscn" type="PackedScene" id=10]
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/PlebTown.gd" type="Script" id=11]
-[ext_resource path="res://Scenes/mimistuff/test run png/character.tscn" type="PackedScene" id=12]
+[ext_resource path="res://Scenes/mimistuff/alistair_animations/character.tscn" type="PackedScene" id=12]
 
 [sub_resource type="CapsuleShape2D" id=1]
 radius = 343.332

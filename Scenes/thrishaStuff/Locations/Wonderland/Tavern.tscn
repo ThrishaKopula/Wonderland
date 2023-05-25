@@ -9,7 +9,7 @@
 [ext_resource path="res://Scenes/leoStuff/HUD/HUD.tscn" type="PackedScene" id=7]
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/Tavern.gd" type="Script" id=8]
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/Thief.gd" type="Script" id=9]
-[ext_resource path="res://Scenes/mimistuff/test run png/character.tscn" type="PackedScene" id=11]
+[ext_resource path="res://Scenes/mimistuff/alistair_animations/character.tscn" type="PackedScene" id=11]
 
 [sub_resource type="CircleShape2D" id=1]
 radius = 162.077
