@@ -20,27 +20,27 @@ margin_right = -382.0
 margin_bottom = -537.0
 rect_scale = Vector2( 6.12, 6.12 )
 
-[node name="StartButton" type="Button" parent="VBoxContainer"]
-visible = false
+[node name="testing" type="Button" parent="VBoxContainer"]
 margin_right = 65.0
 margin_bottom = 20.0
-text = "Start"
+text = "testing"
 
 [node name="Options" type="Button" parent="VBoxContainer"]
-margin_right = 65.0
-margin_bottom = 20.0
-text = "Controls"
-
-[node name="Quit" type="Button" parent="VBoxContainer"]
 margin_top = 24.0
 margin_right = 65.0
 margin_bottom = 44.0
-text = "Quit"
+text = "Controls"
 
-[node name="Credits" type="Button" parent="VBoxContainer"]
+[node name="Quit" type="Button" parent="VBoxContainer"]
 margin_top = 48.0
 margin_right = 65.0
 margin_bottom = 68.0
+text = "Quit"
+
+[node name="Credits" type="Button" parent="VBoxContainer"]
+margin_top = 72.0
+margin_right = 65.0
+margin_bottom = 92.0
 text = "Credits"
 
 [node name="Chapters" type="VBoxContainer" parent="."]
@@ -89,8 +89,14 @@ limit_top = 0
 limit_right = 2225
 limit_bottom = 0
 
-[connection signal="button_down" from="VBoxContainer/StartButton" to="." method="_on_StartButton_button_down"]
-[connection signal="pressed" from="VBoxContainer/StartButton" to="." method="_on_StartButton_pressed"]
+[node name="map" parent="HUD" index="0"]
+enable = false
+
+[node name="menu" parent="HUD" index="2"]
+enable = false
+
+[connection signal="button_down" from="VBoxContainer/testing" to="." method="_on_StartButton_button_down"]
+[connection signal="pressed" from="VBoxContainer/testing" to="." method="_on_StartButton_pressed"]
 [connection signal="button_down" from="VBoxContainer/Options" to="." method="_on_Options_button_down"]
 [connection signal="button_down" from="VBoxContainer/Quit" to="." method="_on_Quit_button_down"]
 [connection signal="pressed" from="VBoxContainer/Quit" to="." method="_on_Quit_pressed"]
@@ -103,3 +109,5 @@ limit_bottom = 0
 [connection signal="pressed" from="Chapters/Chapter 2" to="." method="_on_Quit_pressed"]
 [connection signal="button_down" from="Chapters/Chapter 3" to="." method="_on_Credits_button_down"]
 [connection signal="pressed" from="Chapters/Chapter 3" to="." method="_on_Credits_pressed"]
+
+[editable path="HUD"]
