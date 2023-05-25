@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/happy.png-7fbc171667917ea7e6d1c3dff06a06db.stex"
+path="res://.import/coattail_blank.png-b80161ad04a747e5e543aa7eb3365a2a.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Scenes/thrishaStuff/images/alistair_portraits/happy.png"
-dest_files=[ "res://.import/happy.png-7fbc171667917ea7e6d1c3dff06a06db.stex" ]
+source_file="res://Scenes/mimistuff/Alistair Idle Overworld/coattail_blank.png"
+dest_files=[ "res://.import/coattail_blank.png-b80161ad04a747e5e543aa7eb3365a2a.stex" ]
 
 [params]
 

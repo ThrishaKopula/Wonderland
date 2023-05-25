@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/happy.png-7fbc171667917ea7e6d1c3dff06a06db.stex"
+path="res://.import/Wonderland-Alistair-Run-10.png-3070ca75158ae4cd698bf7233d1196df.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Scenes/thrishaStuff/images/alistair_portraits/happy.png"
-dest_files=[ "res://.import/happy.png-7fbc171667917ea7e6d1c3dff06a06db.stex" ]
+source_file="res://Scenes/mimistuff/Alistair Run Wonderland/Wonderland-Alistair-Run-10.png"
+dest_files=[ "res://.import/Wonderland-Alistair-Run-10.png-3070ca75158ae4cd698bf7233d1196df.stex" ]
 
 [params]
 

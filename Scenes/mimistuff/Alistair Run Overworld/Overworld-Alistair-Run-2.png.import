@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/happy.png-7fbc171667917ea7e6d1c3dff06a06db.stex"
+path="res://.import/Overworld-Alistair-Run-2.png-cb3f0af4dcb78ed74f0f69132bd7ef91.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Scenes/thrishaStuff/images/alistair_portraits/happy.png"
-dest_files=[ "res://.import/happy.png-7fbc171667917ea7e6d1c3dff06a06db.stex" ]
+source_file="res://Scenes/mimistuff/Alistair Run Overworld/Overworld-Alistair-Run-2.png"
+dest_files=[ "res://.import/Overworld-Alistair-Run-2.png-cb3f0af4dcb78ed74f0f69132bd7ef91.stex" ]
 
 [params]
 
