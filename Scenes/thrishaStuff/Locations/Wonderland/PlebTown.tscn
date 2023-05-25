@@ -1,10 +1,8 @@
-[gd_scene load_steps=16 format=2]
+[gd_scene load_steps=14 format=2]
 
 [ext_resource path="res://Scenes/thrishaStuff/Audio/PlebTown/Kevin MacLeod： Achaidh Cheide.wav" type="AudioStream" id=1]
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/Plebs.gd" type="Script" id=2]
-[ext_resource path="res://Scenes/thrishaStuff/images/pleb_B.png" type="Texture" id=3]
-[ext_resource path="res://Scenes/thrishaStuff/images/pleb_C.png" type="Texture" id=4]
-[ext_resource path="res://Scenes/thrishaStuff/images/pleb_A.png" type="Texture" id=5]
+[ext_resource path="res://Scenes/thrishaStuff/Prefab/plebs.tscn" type="PackedScene" id=3]
 [ext_resource path="res://icon.png" type="Texture" id=6]
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/Thief.gd" type="Script" id=7]
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/Mayor.gd" type="Script" id=8]
@@ -13,9 +11,8 @@
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/PlebTown.gd" type="Script" id=11]
 [ext_resource path="res://Scenes/mimistuff/alistair_animations/character.tscn" type="PackedScene" id=12]
 
-[sub_resource type="CapsuleShape2D" id=1]
-radius = 343.332
-height = 0.0
+[sub_resource type="RectangleShape2D" id=9]
+extents = Vector2( 541, 345.5 )
 
 [sub_resource type="CircleShape2D" id=2]
 radius = 162.077
@@ -27,37 +24,32 @@ extents = Vector2( 16, 546.5 )
 script = ExtResource( 11 )
 
 [node name="Plebs" type="Area2D" parent="."]
-position = Vector2( 1449, 843 )
-scale = Vector2( 0.600002, 0.600002 )
+position = Vector2( 1101, 722 )
 script = ExtResource( 2 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Plebs"]
-position = Vector2( 236.666, 0.00012207 )
-shape = SubResource( 1 )
-
-[node name="pleb_A" type="Sprite" parent="Plebs"]
-scale = Vector2( 0.16, 0.16 )
-texture = ExtResource( 5 )
-
-[node name="pleb_B" type="Sprite" parent="Plebs"]
-position = Vector2( 231.666, 0 )
-scale = Vector2( 0.16, 0.16 )
-texture = ExtResource( 3 )
-
-[node name="pleb_C" type="Sprite" parent="Plebs"]
-position = Vector2( 483.331, 0 )
-scale = Vector2( 0.16, 0.16 )
-texture = ExtResource( 4 )
-
 [node name="QuestionMark" type="Sprite" parent="Plebs"]
-position = Vector2( 231.666, -163.333 )
+position = Vector2( 300, -500 )
 texture = ExtResource( 6 )
 
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Plebs"]
+position = Vector2( 326, -11.5 )
+shape = SubResource( 9 )
+
+[node name="PlebA" parent="Plebs" instance=ExtResource( 3 )]
+
+[node name="PlebB" parent="Plebs" instance=ExtResource( 3 )]
+position = Vector2( 363, -10 )
+pleb = 1
+
+[node name="PlebC" parent="Plebs" instance=ExtResource( 3 )]
+position = Vector2( 685, -10 )
+pleb = 2
+
 [node name="Mayor" type="Area2D" parent="."]
-position = Vector2( 644, 831 )
+position = Vector2( 446, 833 )
 script = ExtResource( 8 )
 __meta__ = {
 "_edit_group_": true
@@ -75,7 +67,7 @@ position = Vector2( 0, -135 )
 texture = ExtResource( 6 )
 
 [node name="Thief" type="Area2D" parent="."]
-position = Vector2( 644, 831 )
+position = Vector2( 222, 829 )
 script = ExtResource( 7 )
 __meta__ = {
 "_edit_group_": true
@@ -94,19 +86,18 @@ texture = ExtResource( 6 )
 
 [node name="player" parent="." instance=ExtResource( 12 )]
 pause_mode = 2
-position = Vector2( 1056, 715 )
+position = Vector2( 728, 715 )
 inOverworld = false
 
 [node name="HUD" parent="player" instance=ExtResource( 10 )]
 position = Vector2( 162, -121 )
-current = false
 limit_left = 0
 limit_top = 0
 limit_right = 2225
 limit_bottom = 0
 
 [node name="rightBoundary" type="StaticBody2D" parent="."]
-position = Vector2( 1944, 4 )
+position = Vector2( 2411, 4 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="rightBoundary"]
 position = Vector2( -4, 532.5 )

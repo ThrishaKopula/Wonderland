@@ -1,7 +1,8 @@
-[gd_scene load_steps=14 format=2]
+[gd_scene load_steps=15 format=2]
 
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/Nerd.gd" type="Script" id=1]
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/Watercolor.gd" type="Script" id=2]
+[ext_resource path="res://Scenes/thrishaStuff/images/Classroom.png" type="Texture" id=3]
 [ext_resource path="res://Scenes/leoStuff/HUD/HUD.tscn" type="PackedScene" id=4]
 [ext_resource path="res://icon.png" type="Texture" id=5]
 [ext_resource path="res://Scenes/thrishaStuff/images/watercolor.png" type="Texture" id=6]
@@ -22,6 +23,10 @@ extents = Vector2( 16, 546.5 )
 
 [node name="Classroom" type="Node2D"]
 script = ExtResource( 10 )
+
+[node name="Classroom" type="Sprite" parent="."]
+position = Vector2( 2480, 540 )
+texture = ExtResource( 3 )
 
 [node name="Watercolor" type="Area2D" parent="."]
 position = Vector2( 573, 839 )
@@ -84,13 +89,14 @@ inOverworld = false
 
 [node name="HUD" parent="player" instance=ExtResource( 4 )]
 position = Vector2( -125, -121 )
+current = true
 limit_left = 0
 limit_top = 0
-limit_right = 2225
+limit_right = 4979
 limit_bottom = 0
 
 [node name="rightBoundary" type="StaticBody2D" parent="."]
-position = Vector2( 1944, 4 )
+position = Vector2( 4972, 0 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="rightBoundary"]
 position = Vector2( -4, 532.5 )
@@ -104,7 +110,7 @@ shape = SubResource( 4 )
 
 [node name="ClassroomAudio" type="AudioStreamPlayer2D" parent="."]
 pause_mode = 2
-position = Vector2( 980, 566 )
+position = Vector2( 2480, 540 )
 stream = ExtResource( 9 )
 
 [connection signal="body_entered" from="Watercolor" to="Watercolor" method="_on_Watercolor_body_entered"]

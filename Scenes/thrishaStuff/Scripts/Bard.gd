@@ -1,14 +1,20 @@
 extends Area2D
 
+onready var character = $AnimationPlayer
+
+onready var sprite = $body
+
+func _physics_process(_delta):
+	character.play("Idle 1 Overworld")
+
 var active = false
 
-# Called when the node enters the scene tree for the first time.
-#func _ready():
-#	connect("body_entered", self, "_on_Bed_body_entered")
-#	connect("body_exited", self, "_on_Bed_body_exited")
-	
 func _process(_delta):
 	$QuestionMark.visible = active
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	pass # Replace with function body.
+	
 
 func _input(event):
 	if get_node_or_null('DialogNode') == null:
