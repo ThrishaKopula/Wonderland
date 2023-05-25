@@ -152,3 +152,5 @@ stream = ExtResource( 13 )
 [connection signal="body_exited" from="Map" to="Map" method="_on_Map1_body_exited"]
 [connection signal="body_entered" from="Mirror" to="Mirror" method="_on_Mirror_body_entered"]
 [connection signal="body_exited" from="Mirror" to="Mirror" method="_on_Mirror_body_exited"]
+
+[editable path="player/HUD"]
