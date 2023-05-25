@@ -15,11 +15,10 @@ func _process(_delta):
 func _ready():
 	pass # Replace with function body.
 	
-
 func _input(event):
 	if get_node_or_null('DialogNode') == null:
 		if event.is_action_pressed("interact") and active:
-			if(StoryVariables.isPrologueDone == true):
+			if(StoryVariables.isChapterOneStartDone == true):
 				pause_game()
 				var dialog = Dialogic.start("initiateMainQuest")
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS

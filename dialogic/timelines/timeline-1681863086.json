@@ -260,7 +260,7 @@
 			"wait_seconds": 2
 		},
 		{
-			"background": "res://Scenes/thrishaStuff/images/Dorm_Final.png",
+			"background": "res://Scenes/thrishaStuff/images/dialog_backgrounds/Dorm_W_Mirror_1920.png",
 			"event_id": "dialogic_021"
 		},
 		{

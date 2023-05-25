@@ -1,10 +1,11 @@
 extends Area2D
 
+onready var character = $AnimationPlayer
 
-# Declare member variables here. Examples:
-# var a = 2
-# var b = "text"
+onready var sprite = $body
 
+func _physics_process(_delta):
+	character.play("Idle 2 Overworld")
 
 # Called when the node enters the scene tree for the first time.
 func _ready():

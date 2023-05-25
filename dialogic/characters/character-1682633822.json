@@ -1,5 +1,5 @@
 {
-	"color": "#ff000000",
+	"color": "#ffffffff",
 	"description": "",
 	"display_name": "",
 	"display_name_bool": false,
@@ -17,5 +17,5 @@
 		}
 	],
 	"scale": 100,
-	"theme": ""
+	"theme": "theme-1683686222.cfg"
 }
