@@ -4,6 +4,8 @@ var hid = true;
 onready var text = $"name of place";
 var change_text;
 
+export var enable = true;
+
 onready var trans = $"../trans/TransitionColor"
 
 func _ready():
@@ -22,10 +24,10 @@ func _ready():
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _input(delta):
 	
-	if Input.is_action_just_pressed("map") and !hid:
+	if Input.is_action_just_pressed("map") and !hid and enable:
 		hide();
 		hid = true;
-	elif Input.is_action_just_pressed("map") and hid:
+	elif Input.is_action_just_pressed("map") and hid and enable:
 		show();
 		hid = false;
 	pass
