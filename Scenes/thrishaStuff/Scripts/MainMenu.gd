@@ -9,8 +9,8 @@ func _ready():
 #	pass
 
 func _on_StartButton_pressed():
-#	var dialog = Dialogic.start("movingIn")
-	var dialog = Dialogic.start("testing")
+	var dialog = Dialogic.start("movingIn")
+#	var dialog = Dialogic.start("testing")
 	add_child(dialog)
 	yield(dialog, 'timeline_end')
 	get_tree().change_scene("res://Scenes/thrishaStuff/Locations/Overworld/Dorm.tscn")
@@ -31,4 +31,14 @@ func _on_Quit_button_down():
 	$ButtonClick.play()
 
 func _on_Credits_button_down():
+	$ButtonClick.play()
+	
+func _on_Prologue_pressed():
+	var dialog = Dialogic.start("movingIn")
+#	var dialog = Dialogic.start("afterMiniGame")
+	add_child(dialog)
+	yield(dialog, 'timeline_end')
+	get_tree().change_scene("res://Scenes/thrishaStuff/Locations/Overworld/Dorm.tscn")
+
+func _on_Prologue_button_down():
 	$ButtonClick.play()

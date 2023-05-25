@@ -5,6 +5,66 @@
 			"event_id": "dialogic_021"
 		},
 		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086547.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681338302.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
 			"event_id": "dialogic_024",
 			"set_theme": "theme-1683225590.cfg"
 		},
@@ -200,7 +260,7 @@
 			"wait_seconds": 2
 		},
 		{
-			"background": "res://dialogic/dorm.png",
+			"background": "res://Scenes/thrishaStuff/images/Dorm_Final.png",
 			"event_id": "dialogic_021"
 		},
 		{
@@ -250,6 +310,26 @@
 			"text": "Ugh…Goodnight."
 		},
 		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "[All]",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
 			"background": "res://dialogic/black.jpeg",
 			"event_id": "dialogic_021"
 		},
@@ -257,10 +337,6 @@
 			"event_id": "dialogic_023",
 			"hide_dialogbox": true,
 			"wait_seconds": 3
-		},
-		{
-			"change_timeline": "timeline-1681429308.json",
-			"event_id": "dialogic_020"
 		}
 	],
 	"metadata": {
