@@ -3,7 +3,7 @@
 [ext_resource path="res://Scenes/thrishaStuff/images/Dorm_Final.png" type="Texture" id=2]
 [ext_resource path="res://Scenes/leoStuff/HUD/HUD.tscn" type="PackedScene" id=3]
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/Mirror.gd" type="Script" id=4]
-[ext_resource path="res://Scenes/mimistuff/test run png/character.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Scenes/mimistuff/alistair_animations/character.tscn" type="PackedScene" id=5]
 [ext_resource path="res://Scenes/thrishaStuff/images/otherBed.png" type="Texture" id=6]
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/Bed.gd" type="Script" id=8]
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/Map.gd" type="Script" id=9]

@@ -5,7 +5,7 @@
 [ext_resource path="res://icon.png" type="Texture" id=3]
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/Jesters.gd" type="Script" id=4]
 [ext_resource path="res://Scenes/leoStuff/HUD/HUD.tscn" type="PackedScene" id=5]
-[ext_resource path="res://Scenes/mimistuff/test run png/character.tscn" type="PackedScene" id=6]
+[ext_resource path="res://Scenes/mimistuff/alistair_animations/character.tscn" type="PackedScene" id=6]
 [ext_resource path="res://Scenes/thrishaStuff/Audio/Courtyard/Kevin MacLeod： Carny's Dance.wav" type="AudioStream" id=7]
 
 [sub_resource type="CircleShape2D" id=1]
@@ -42,7 +42,6 @@ inOverworld = false
 
 [node name="HUD" parent="player" instance=ExtResource( 5 )]
 position = Vector2( -112, -121 )
-current = false
 limit_left = 0
 limit_top = 0
 limit_right = 2225

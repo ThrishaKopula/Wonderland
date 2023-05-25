@@ -6,7 +6,7 @@
 [ext_resource path="res://Scenes/leoStuff/HUD/HUD.tscn" type="PackedScene" id=5]
 [ext_resource path="res://Scenes/thrishaStuff/Audio/TeaParty/Kevin MacLeod： Darkest Child (var A).wav" type="AudioStream" id=6]
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/TeaParty.gd" type="Script" id=7]
-[ext_resource path="res://Scenes/mimistuff/test run png/character.tscn" type="PackedScene" id=8]
+[ext_resource path="res://Scenes/mimistuff/alistair_animations/character.tscn" type="PackedScene" id=8]
 
 [sub_resource type="CircleShape2D" id=1]
 radius = 162.077
@@ -42,7 +42,6 @@ inOverworld = false
 
 [node name="HUD" parent="player" instance=ExtResource( 5 )]
 position = Vector2( -159, -121 )
-current = false
 limit_left = 0
 limit_top = 0
 limit_right = 2225

@@ -8,7 +8,7 @@
 [ext_resource path="res://Scenes/leoStuff/HUD/HUD.tscn" type="PackedScene" id=7]
 [ext_resource path="res://Scenes/thrishaStuff/Audio/Cafeteria/Kevin MacLeod： Airport Lounge.wav" type="AudioStream" id=8]
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/Cafeteria.gd" type="Script" id=9]
-[ext_resource path="res://Scenes/mimistuff/test run png/character.tscn" type="PackedScene" id=11]
+[ext_resource path="res://Scenes/mimistuff/alistair_animations/character.tscn" type="PackedScene" id=11]
 
 [sub_resource type="CircleShape2D" id=3]
 radius = 162.077
@@ -64,7 +64,6 @@ position = Vector2( 1056, 715 )
 
 [node name="HUD" parent="player" instance=ExtResource( 7 )]
 position = Vector2( -158, -121 )
-current = false
 limit_left = 0
 limit_top = 0
 limit_right = 2225
