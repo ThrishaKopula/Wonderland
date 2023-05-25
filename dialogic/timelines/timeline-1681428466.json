@@ -1,6 +1,14 @@
 {
 	"events": [
 		{
+			"background": "res://Scenes/thrishaStuff/images/Dorm_Final.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "default-theme.cfg"
+		},
+		{
 			"animation": "[Default]",
 			"animation_length": 0,
 			"change_mirror_portrait": false,
@@ -21,105 +29,36 @@
 			"z_index": 0
 		},
 		{
-			"background": "res://dialogic/dorm.png",
-			"event_id": "dialogic_021"
-		},
-		{
-			"event_id": "dialogic_024",
-			"set_theme": "default-theme.cfg"
-		},
-		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "TESTING TESTING TESTING TESTING TESTING TESTING TESTING TESTING TESTING TESTING TESTING TESTING TESTING TESTING "
+			"text": "Of course I am!"
 		},
 		{
-			"event_id": "dialogic_024",
-			"set_theme": "theme-1683081099.cfg"
-		},
-		{
-			"character": "",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "testing narrator theme"
-		},
-		{
-			"event_id": "dialogic_024",
-			"set_theme": "theme-1683225590.cfg"
-		},
-		{
-			"character": "character-1681086055.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "testing wonderland theme"
-		},
-		{
-			"event_id": "dialogic_024",
-			"set_theme": "default-theme.cfg"
-		},
-		{
-			"character": "character-1681086055.json",
+			"character": "character-1681338302.json",
 			"event_id": "dialogic_010",
 			"options": [
 
 			],
 			"portrait": "",
-			"question": "insert question"
+			"question": "tellll me about it "
 		},
 		{
-			"choice": "choice one",
+			"choice": "Ballerina",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
 			"value": ""
 		},
 		{
-			"choice": "choice two",
+			"choice": "Key",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
 			"value": ""
 		},
 		{
-			"choice": "choice three",
-			"condition": "",
-			"definition": "",
-			"event_id": "dialogic_011",
-			"value": ""
-		},
-		{
-			"event_id": "dialogic_013"
-		},
-		{
-			"event_id": "dialogic_024",
-			"set_theme": "theme-1683225590.cfg"
-		},
-		{
-			"character": "character-1681086055.json",
-			"event_id": "dialogic_010",
-			"options": [
-
-			],
-			"portrait": "",
-			"question": "insert question"
-		},
-		{
-			"choice": "choice one",
-			"condition": "",
-			"definition": "",
-			"event_id": "dialogic_011",
-			"value": ""
-		},
-		{
-			"choice": "choice two",
-			"condition": "",
-			"definition": "",
-			"event_id": "dialogic_011",
-			"value": ""
-		},
-		{
-			"choice": "choice three",
+			"choice": "Pedestal",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",

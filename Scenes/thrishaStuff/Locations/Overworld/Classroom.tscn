@@ -2,7 +2,6 @@
 
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/Nerd.gd" type="Script" id=1]
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/Watercolor.gd" type="Script" id=2]
-[ext_resource path="res://Scenes/thrishaStuff/Prefab/player.tscn" type="PackedScene" id=3]
 [ext_resource path="res://Scenes/leoStuff/HUD/HUD.tscn" type="PackedScene" id=4]
 [ext_resource path="res://icon.png" type="Texture" id=5]
 [ext_resource path="res://Scenes/thrishaStuff/images/watercolor.png" type="Texture" id=6]
@@ -10,6 +9,7 @@
 [ext_resource path="res://Scenes/thrishaStuff/images/cheerleader.png" type="Texture" id=8]
 [ext_resource path="res://Scenes/thrishaStuff/Audio/Classroom/Kevin MacLeod： Covert Affair.wav" type="AudioStream" id=9]
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/Classroom.gd" type="Script" id=10]
+[ext_resource path="res://Scenes/mimistuff/alistair_animations/character.tscn" type="PackedScene" id=12]
 
 [sub_resource type="CircleShape2D" id=2]
 radius = 162.077
@@ -77,18 +77,17 @@ texture = ExtResource( 8 )
 position = Vector2( 0, -135 )
 texture = ExtResource( 5 )
 
-[node name="player" parent="." instance=ExtResource( 3 )]
+[node name="player" parent="." instance=ExtResource( 12 )]
 pause_mode = 2
-position = Vector2( 950, 515 )
-scale = Vector2( 0.904085, 3.02499 )
+position = Vector2( 1056, 715 )
+inOverworld = false
 
 [node name="HUD" parent="player" instance=ExtResource( 4 )]
-visible = false
-position = Vector2( 0, 7.60333 )
+position = Vector2( -125, -121 )
 current = false
 limit_left = 0
 limit_top = 0
-limit_right = 1920
+limit_right = 2225
 limit_bottom = 0
 
 [node name="rightBoundary" type="StaticBody2D" parent="."]

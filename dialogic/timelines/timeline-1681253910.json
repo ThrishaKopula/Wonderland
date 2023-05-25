@@ -47,7 +47,7 @@
 			"animation_length": 0,
 			"change_mirror_portrait": false,
 			"change_z_index": false,
-			"character": "",
+			"character": "[All]",
 			"event_id": "dialogic_002",
 			"mirror_portrait": false,
 			"portrait": "",
@@ -59,7 +59,7 @@
 				"3": false,
 				"4": false
 			},
-			"type": 0,
+			"type": 1,
 			"z_index": 0
 		},
 		{
@@ -131,6 +131,30 @@
 		{
 			"background": "res://dialogic/dorm.png",
 			"event_id": "dialogic_021"
+		},
+		{
+			"background": "res://Scenes/thrishaStuff/images/Dorm_Final.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
 		},
 		{
 			"character": "character-1681086055.json",
@@ -298,6 +322,26 @@
 			"fade_duration": 1.5
 		},
 		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "[All]",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
@@ -426,15 +470,35 @@
 			"event_id": "dialogic_021"
 		},
 		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "shock",
 			"text": "…Aah!!"
 		},
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Default",
 			"text": "Haah… I didn’t… Why did I remember that just now…"
 		},
 		{
@@ -530,10 +594,10 @@
 			"portrait": "Default",
 			"portrait_definition": "",
 			"position": {
-				"0": false,
+				"0": true,
 				"1": false,
 				"2": false,
-				"3": true,
+				"3": false,
 				"4": false
 			},
 			"type": 0,
@@ -566,7 +630,7 @@
 			"text": "BEE-oh, goody! You’re awake!"
 		},
 		{
-			"background": "res://dialogic/dorm.png",
+			"background": "res://Scenes/thrishaStuff/images/Dorm_Final.png",
 			"event_id": "dialogic_021"
 		},
 		{
@@ -638,6 +702,26 @@
 			"event_id": "dialogic_021"
 		},
 		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681272416.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
 			"character": "character-1681272416.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
@@ -650,8 +734,10 @@
 			"text": "What!? Right off the bat!?"
 		},
 		{
-			"background": "res://dialogic/black.jpeg",
-			"event_id": "dialogic_021"
+			"event_id": "dialogic_015",
+			"id": "anchor-1634488067",
+			"index": 0,
+			"name": "ADD QUIZ HERE"
 		},
 		{
 			"character": "character-1681086055.json",
@@ -664,6 +750,10 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "( …Whaaaaat? )"
+		},
+		{
+			"background": "res://dialogic/black.jpeg",
+			"event_id": "dialogic_021"
 		},
 		{
 			"character": "character-1681086055.json",
@@ -684,7 +774,7 @@
 			"text": "( I guess I’ll head back to my dorm… )"
 		},
 		{
-			"background": "res://dialogic/dorm.png",
+			"background": "res://Scenes/thrishaStuff/images/Dorm_Final.png",
 			"event_id": "dialogic_021"
 		},
 		{
@@ -718,19 +808,19 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "shock",
 			"text": "AAAIIIIIIIIIEEEEEEEEEEE!"
 		},
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "shock",
 			"text": "WHY IS THE WORLD SPINNING!?"
 		},
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "shock",
 			"text": "SOMEONE HELP ME! NOOOOOOW!!"
 		},
 		{
@@ -800,7 +890,7 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "mad",
 			"text": "…Who… huh? What? No, no, I should be the one asking questions!"
 		},
 		{
@@ -812,13 +902,13 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "mad",
 			"text": "Huh?"
 		},
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Default",
 			"text": "Uh… Well… okay."
 		},
 		{
@@ -848,7 +938,7 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "shock",
 			"text": "HOW ARE YOU A BUNNY!?"
 		},
 		{
@@ -922,7 +1012,7 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Default",
 			"text": "Alright, alright, I get it."
 		},
 		{

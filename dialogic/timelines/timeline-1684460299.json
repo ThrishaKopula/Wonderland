@@ -125,6 +125,12 @@
 			"text": "Yeah, Queen’s been real strict with giving us books now, ever since you lost that one!"
 		},
 		{
+			"character": "character-1684460120.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "He even added a new rule because of it. Rule No. 783: All personnel are prohibited from taking books outside of the archive room."
+		},
+		{
 			"character": "character-1684459870.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
@@ -218,7 +224,7 @@
 			"character": "character-1684460132.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Yeah… *yawn* That’s plenty of stretching…"
+			"text": "Yeah… *yawn* That’s plenty of stretching… plus I’m not breaking any rules."
 		},
 		{
 			"character": "character-1684460126.json",

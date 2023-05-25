@@ -1,10 +1,12 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=10 format=2]
 
+[ext_resource path="res://Scenes/thrishaStuff/Scripts/Courtyard.gd" type="Script" id=1]
 [ext_resource path="res://Scenes/thrishaStuff/images/cheerleader.png" type="Texture" id=2]
 [ext_resource path="res://icon.png" type="Texture" id=3]
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/Jesters.gd" type="Script" id=4]
 [ext_resource path="res://Scenes/leoStuff/HUD/HUD.tscn" type="PackedScene" id=5]
-[ext_resource path="res://Scenes/mimistuff/test run png/character.tscn" type="PackedScene" id=6]
+[ext_resource path="res://Scenes/mimistuff/alistair_animations/character.tscn" type="PackedScene" id=6]
+[ext_resource path="res://Scenes/thrishaStuff/Audio/Courtyard/Kevin MacLeod： Carny's Dance.wav" type="AudioStream" id=7]
 
 [sub_resource type="CircleShape2D" id=1]
 radius = 162.077
@@ -13,6 +15,7 @@ radius = 162.077
 extents = Vector2( 16, 546.5 )
 
 [node name="Courtyard" type="Node2D"]
+script = ExtResource( 1 )
 
 [node name="Jesters" type="Area2D" parent="."]
 position = Vector2( 644, 831 )
@@ -39,6 +42,7 @@ inOverworld = false
 
 [node name="HUD" parent="player" instance=ExtResource( 5 )]
 position = Vector2( -112, -121 )
+current = false
 limit_left = 0
 limit_top = 0
 limit_right = 2225
@@ -56,6 +60,11 @@ shape = SubResource( 2 )
 [node name="CollisionShape2D" type="CollisionShape2D" parent="leftBoundary"]
 position = Vector2( -4, 532.5 )
 shape = SubResource( 2 )
+
+[node name="CourtyardAudio" type="AudioStreamPlayer2D" parent="."]
+pause_mode = 2
+position = Vector2( 980, 566 )
+stream = ExtResource( 7 )
 
 [connection signal="body_entered" from="Jesters" to="Jesters" method="_on_Cheerleader_body_entered"]
 [connection signal="body_exited" from="Jesters" to="Jesters" method="_on_Cheerleader_body_exited"]

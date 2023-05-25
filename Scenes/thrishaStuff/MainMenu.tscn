@@ -1,6 +1,8 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/MainMenu.gd" type="Script" id=1]
+[ext_resource path="res://Scenes/thrishaStuff/Audio/MouseClick.wav" type="AudioStream" id=2]
+[ext_resource path="res://Scenes/leoStuff/HUD/HUD.tscn" type="PackedScene" id=3]
 
 [node name="Menu" type="Control"]
 anchor_right = 1.0
@@ -12,28 +14,100 @@ anchor_left = 1.0
 anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_left = -483.0
-margin_top = -521.0
-margin_right = -420.0
-margin_bottom = -453.0
+margin_left = -447.0
+margin_top = -629.0
+margin_right = -382.0
+margin_bottom = -537.0
 rect_scale = Vector2( 6.12, 6.12 )
 
-[node name="StartButton" type="Button" parent="VBoxContainer"]
-margin_right = 63.0
+[node name="testing" type="Button" parent="VBoxContainer"]
+margin_right = 65.0
 margin_bottom = 20.0
-text = "Start"
+text = "testing"
 
 [node name="Options" type="Button" parent="VBoxContainer"]
 margin_top = 24.0
-margin_right = 63.0
+margin_right = 65.0
 margin_bottom = 44.0
-text = "Options"
+text = "Controls"
 
 [node name="Quit" type="Button" parent="VBoxContainer"]
 margin_top = 48.0
-margin_right = 63.0
+margin_right = 65.0
 margin_bottom = 68.0
 text = "Quit"
 
-[connection signal="pressed" from="VBoxContainer/StartButton" to="." method="_on_StartButton_pressed"]
+[node name="Credits" type="Button" parent="VBoxContainer"]
+margin_top = 72.0
+margin_right = 65.0
+margin_bottom = 92.0
+text = "Credits"
+
+[node name="Chapters" type="VBoxContainer" parent="."]
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -1833.0
+margin_top = -629.0
+margin_right = -1760.0
+margin_bottom = -537.0
+rect_scale = Vector2( 6.12, 6.12 )
+
+[node name="Prologue" type="Button" parent="Chapters"]
+margin_right = 73.0
+margin_bottom = 20.0
+text = "Prologue"
+
+[node name="Chapter 1" type="Button" parent="Chapters"]
+margin_top = 24.0
+margin_right = 73.0
+margin_bottom = 44.0
+text = "Chapter 1"
+
+[node name="Chapter 2" type="Button" parent="Chapters"]
+margin_top = 48.0
+margin_right = 73.0
+margin_bottom = 68.0
+text = "Chapter 2"
+
+[node name="Chapter 3" type="Button" parent="Chapters"]
+margin_top = 72.0
+margin_right = 73.0
+margin_bottom = 92.0
+text = "Chapter 3"
+
+[node name="ButtonClick" type="AudioStreamPlayer2D" parent="."]
+pause_mode = 2
+position = Vector2( 980, 566 )
+stream = ExtResource( 2 )
+
+[node name="HUD" parent="." instance=ExtResource( 3 )]
+position = Vector2( 162, -121 )
+limit_left = 0
+limit_top = 0
+limit_right = 2225
+limit_bottom = 0
+
+[node name="map" parent="HUD" index="0"]
+enable = false
+
+[node name="menu" parent="HUD" index="2"]
+enable = false
+
+[connection signal="button_down" from="VBoxContainer/testing" to="." method="_on_StartButton_button_down"]
+[connection signal="pressed" from="VBoxContainer/testing" to="." method="_on_StartButton_pressed"]
+[connection signal="button_down" from="VBoxContainer/Options" to="." method="_on_Options_button_down"]
+[connection signal="button_down" from="VBoxContainer/Quit" to="." method="_on_Quit_button_down"]
 [connection signal="pressed" from="VBoxContainer/Quit" to="." method="_on_Quit_pressed"]
+[connection signal="button_down" from="VBoxContainer/Credits" to="." method="_on_Credits_button_down"]
+[connection signal="pressed" from="VBoxContainer/Credits" to="." method="_on_Credits_pressed"]
+[connection signal="button_down" from="Chapters/Prologue" to="." method="_on_Prologue_button_down"]
+[connection signal="pressed" from="Chapters/Prologue" to="." method="_on_Prologue_pressed"]
+[connection signal="button_down" from="Chapters/Chapter 1" to="." method="_on_Options_button_down"]
+[connection signal="button_down" from="Chapters/Chapter 2" to="." method="_on_Quit_button_down"]
+[connection signal="pressed" from="Chapters/Chapter 2" to="." method="_on_Quit_pressed"]
+[connection signal="button_down" from="Chapters/Chapter 3" to="." method="_on_Credits_button_down"]
+[connection signal="pressed" from="Chapters/Chapter 3" to="." method="_on_Credits_pressed"]
+
+[editable path="HUD"]

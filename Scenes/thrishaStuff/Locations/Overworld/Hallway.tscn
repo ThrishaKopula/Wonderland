@@ -1,7 +1,7 @@
 [gd_scene load_steps=14 format=2]
 
 [ext_resource path="res://Scenes/thrishaStuff/images/poster.png" type="Texture" id=1]
-[ext_resource path="res://Scenes/thrishaStuff/Prefab/player.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Scenes/mimistuff/alistair_animations/character.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/Poster.gd" type="Script" id=3]
 [ext_resource path="res://icon.png" type="Texture" id=4]
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/Jock.gd" type="Script" id=5]
@@ -79,16 +79,13 @@ texture = ExtResource( 4 )
 
 [node name="player" parent="." instance=ExtResource( 2 )]
 pause_mode = 2
-position = Vector2( 950, 515 )
-scale = Vector2( 0.904085, 3.02499 )
+position = Vector2( 1056, 715 )
 
 [node name="HUD" parent="player" instance=ExtResource( 8 )]
-visible = false
-position = Vector2( 0, 7.60333 )
-current = false
+position = Vector2( -178, -121 )
 limit_left = 0
 limit_top = 0
-limit_right = 1920
+limit_right = 2225
 limit_bottom = 0
 
 [node name="rightBoundary" type="StaticBody2D" parent="."]
@@ -113,5 +110,5 @@ stream = ExtResource( 9 )
 [connection signal="body_exited" from="Poster" to="Poster" method="_on_Poster_body_exited"]
 [connection signal="body_entered" from="Jock" to="Jock" method="_on_Cheerleader_body_entered"]
 [connection signal="body_exited" from="Jock" to="Jock" method="_on_Cheerleader_body_exited"]
-[connection signal="body_entered" from="Janitor" to="Janitor" method="_on_Cheerleader_body_entered"]
-[connection signal="body_exited" from="Janitor" to="Janitor" method="_on_Cheerleader_body_exited"]
+[connection signal="body_entered" from="Janitor" to="Janitor" method="_on_Janitor_body_entered"]
+[connection signal="body_exited" from="Janitor" to="Janitor" method="_on_Janitor_body_exited"]
