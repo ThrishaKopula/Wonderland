@@ -36,10 +36,10 @@ func _ready():
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _input(delta):
 	
-	if Input.is_action_just_pressed("map") and !hid and enable:
+	if Input.is_action_just_pressed("map") and !hid and enable and !get_tree().paused:
 		hide();
 		hid = true;
-	elif Input.is_action_just_pressed("map") and hid and enable:
+	elif Input.is_action_just_pressed("map") and hid and enable and !get_tree().paused:
 		show();
 		hid = false;
 	pass

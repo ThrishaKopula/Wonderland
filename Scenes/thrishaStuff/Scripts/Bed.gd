@@ -24,6 +24,7 @@ func pause_game():
 	get_tree().paused = true
 	StoryVariables.canPlayerMove = false
 	
+	
 func unpause(timeline_name):
 	get_tree().paused = false
 	StoryVariables.canPlayerMove = true
