@@ -5410,7 +5410,6 @@ shape = SubResource( 10 )
 [node name="player" parent="." instance=ExtResource( 12 )]
 pause_mode = 2
 position = Vector2( 1056, 715 )
-inOverworld = false
 
 [node name="HUD" parent="player" instance=ExtResource( 4 )]
 position = Vector2( -125, -121 )
