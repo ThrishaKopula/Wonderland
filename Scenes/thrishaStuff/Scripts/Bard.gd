@@ -25,7 +25,7 @@ func _input(event):
 				dialog.connect('timeline_end', self, 'unpause')
 				add_child(dialog)
 				StoryVariables.isInitiateMainQuestDone = true
-				StoryVariables.isPrologueDone = false
+				StoryVariables.isChapterOneStartDone = false
 			elif(StoryVariables.isReportBackToMusicGeek == true):
 				pause_game()
 				var dialog = Dialogic.start("deliverStringsToBard")

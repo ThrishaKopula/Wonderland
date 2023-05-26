@@ -832,12 +832,52 @@
 			"text": "SOMEONE HELP ME! NOOOOOOW!!"
 		},
 		{
-			"background": "res://dialogic/teaParty.jpeg",
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"background": "res://Scenes/thrishaStuff/images/dialog_backgrounds/Tea_Party_1920.png",
 			"event_id": "dialogic_021"
 		},
 		{
 			"event_id": "dialogic_024",
 			"set_theme": "theme-1683225590.cfg"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "default_wonderland",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
 		},
 		{
 			"animation": "slide_in_left.gd",
@@ -898,7 +938,7 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "mad",
+			"portrait": "mad_wonderland",
 			"text": "…Who… huh? What? No, no, I should be the one asking questions!"
 		},
 		{
@@ -910,13 +950,13 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "mad",
+			"portrait": "mad_wonderland",
 			"text": "Huh?"
 		},
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "Default",
+			"portrait": "default_wonderland",
 			"text": "Uh… Well… okay."
 		},
 		{
@@ -946,7 +986,7 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "shock",
+			"portrait": "shock_wonderland",
 			"text": "HOW ARE YOU A BUNNY!?"
 		},
 		{
@@ -1020,7 +1060,7 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "Default",
+			"portrait": "default_wonderland",
 			"text": "Alright, alright, I get it."
 		},
 		{
@@ -1084,7 +1124,7 @@
 			"text": "March, come here for a moment…"
 		},
 		{
-			"background": "res://dialogic/teaParty.jpeg",
+			"background": "res://Scenes/thrishaStuff/images/dialog_backgrounds/Tea_Party_1920.png",
 			"event_id": "dialogic_021"
 		},
 		{
@@ -1160,7 +1200,7 @@
 			"text": "Yes, really. Let’s not leave him waiting now."
 		},
 		{
-			"background": "res://dialogic/teaParty.jpeg",
+			"background": "res://Scenes/thrishaStuff/images/dialog_backgrounds/Tea_Party_1920.png",
 			"event_id": "dialogic_021"
 		},
 		{
@@ -1556,7 +1596,7 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Default",
 			"text": "Ugh… I think I’m gonna be sick…"
 		},
 		{

@@ -7692,7 +7692,7 @@ extents = Vector2( 16, 546.5 )
 script = ExtResource( 10 )
 
 [node name="Poster" type="Area2D" parent="."]
-position = Vector2( 1298, 213 )
+position = Vector2( 1473, 643 )
 script = ExtResource( 3 )
 __meta__ = {
 "_edit_group_": true
@@ -7710,7 +7710,7 @@ position = Vector2( 0, -135 )
 texture = ExtResource( 4 )
 
 [node name="Jock" type="Area2D" parent="."]
-position = Vector2( 1654, 688 )
+position = Vector2( 1936, 741 )
 script = ExtResource( 5 )
 __meta__ = {
 "_edit_group_": true
