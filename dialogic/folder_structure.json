@@ -25,7 +25,7 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": false
+						"folded": true
 					}
 				},
 				"Wonderland": {
@@ -52,7 +52,7 @@
 							},
 							"metadata": {
 								"color": null,
-								"folded": false
+								"folded": true
 							}
 						},
 						"Plebs": {
@@ -67,13 +67,13 @@
 							},
 							"metadata": {
 								"color": null,
-								"folded": true
+								"folded": false
 							}
 						}
 					},
 					"metadata": {
 						"color": null,
-						"folded": true
+						"folded": false
 					}
 				}
 			},
@@ -141,7 +141,7 @@
 							},
 							"metadata": {
 								"color": null,
-								"folded": false
+								"folded": true
 							}
 						},
 						"basicNPCs": {
@@ -187,7 +187,7 @@
 							},
 							"metadata": {
 								"color": null,
-								"folded": false
+								"folded": true
 							}
 						}
 					},
@@ -226,6 +226,24 @@
 						"folded": true
 					}
 				},
+				"Marlon": {
+					"files": [
+						"timeline-1685134229.json",
+						"timeline-1685134236.json",
+						"timeline-1685134244.json",
+						"timeline-1685134251.json",
+						"timeline-1685134378.json",
+						"timeline-1685134461.json",
+						"timeline-1685134481.json"
+					],
+					"folders": {
+
+					},
+					"metadata": {
+						"color": null,
+						"folded": false
+					}
+				},
 				"Prologue": {
 					"files": [
 						"timeline-1681253583.json",
@@ -245,13 +263,13 @@
 							},
 							"metadata": {
 								"color": null,
-								"folded": true
+								"folded": false
 							}
 						}
 					},
 					"metadata": {
 						"color": null,
-						"folded": false
+						"folded": true
 					}
 				}
 			},

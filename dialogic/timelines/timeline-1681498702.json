@@ -5,6 +5,10 @@
 			"event_id": "dialogic_021"
 		},
 		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1683225590.cfg"
+		},
+		{
 			"animation": "[Default]",
 			"animation_length": 0,
 			"change_mirror_portrait": false,

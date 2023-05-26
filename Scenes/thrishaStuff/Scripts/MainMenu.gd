@@ -4,10 +4,6 @@ extends Control
 func _ready():
 	pass # Replace with function body.
 
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
-#	pass
-
 func _on_StartButton_pressed():
 	var dialog = Dialogic.start("testing")
 	add_child(dialog)
@@ -40,4 +36,28 @@ func _on_Prologue_pressed():
 	get_tree().change_scene("res://Scenes/thrishaStuff/Locations/Overworld/Dorm.tscn")
 
 func _on_Prologue_button_down():
+	$ButtonClick.play()
+	
+func _on_Chapter_1_pressed():
+	var dialog = Dialogic.start("chapter1Start")
+	add_child(dialog)
+	yield(dialog, 'timeline_end')
+	StoryVariables.isChapterOneStartDone = true
+	get_tree().change_scene("res://Scenes/thrishaStuff/Locations/Overworld/Classroom.tscn")
+
+func _on_Chapter_1_button_down():
+	$ButtonClick.play()
+
+
+
+
+func _on_Chapter_2_pressed():
+	var dialog = Dialogic.start("chapter2Start")
+	add_child(dialog)
+	yield(dialog, 'timeline_end')
+	StoryVariables.isChapterTwoStart = true
+	get_tree().change_scene("res://Scenes/thrishaStuff/Locations/Overworld/Classroom.tscn")
+
+
+func _on_Chapter_2_button_down():
 	$ButtonClick.play()

@@ -21,6 +21,10 @@
 			"z_index": 0
 		},
 		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1683225590.cfg"
+		},
+		{
 			"character": "character-1681086547.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
@@ -243,8 +247,12 @@
 			"text": "( I think I can do this without screaming now… )"
 		},
 		{
-			"background": "res://dialogic/dorm.png",
+			"background": "res://Scenes/thrishaStuff/images/dialog_backgrounds/Dorm_W_Mirror_1920.png",
 			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "default-theme.cfg"
 		},
 		{
 			"character": "character-1681086547.json",

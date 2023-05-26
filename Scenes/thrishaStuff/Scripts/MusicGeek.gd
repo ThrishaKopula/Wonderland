@@ -1,5 +1,12 @@
 extends Area2D
 
+onready var character = $AnimationPlayer
+
+onready var sprite = $body
+
+func _physics_process(_delta):
+	character.play("Idle 2 Overworld")
+	
 var active = false
 
 func _process(_delta):
