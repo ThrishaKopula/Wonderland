@@ -20,7 +20,12 @@ limit_top = 0
 limit_right = 2225
 limit_bottom = 0
 
+[node name="map" parent="player/HUD" index="0"]
+isOverworld = false
+
 [node name="QueenCourtAudio" type="AudioStreamPlayer2D" parent="."]
 pause_mode = 2
 position = Vector2( 980, 566 )
 stream = ExtResource( 4 )
+
+[editable path="player/HUD"]

@@ -6,15 +6,21 @@ var change_text;
 
 export var enable = true;
 
-onready var trans = $"../trans/TransitionColor"
+onready var trans = $"../trans/TransitionColor";
 
-onready var overworld = preload("res://art/pokemon map.PNG")
+onready var overworld = preload("res://art/pokemon map.PNG");
 
-onready var wonderland = preload("res://art/1200px-LGPE_Kanto_Map.png")
+onready var wonderland = preload("res://art/1200px-LGPE_Kanto_Map.png");
 
-var isOverworld = true
+export var isOverworld = true;
 
 func _ready():
+	
+	if !isOverworld:
+		isOverworld = true;
+		changeMap();
+		isOverworld = false;
+	
 	trans.show();
 	text.hide();
 	change_text = text.get_child(0).get_child(0);
@@ -30,10 +36,10 @@ func _ready():
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _input(delta):
 	
-	if Input.is_action_just_pressed("map") and !hid and enable:
+	if Input.is_action_just_pressed("map") and !hid and enable and !get_tree().paused:
 		hide();
 		hid = true;
-	elif Input.is_action_just_pressed("map") and hid and enable:
+	elif Input.is_action_just_pressed("map") and hid and enable and !get_tree().paused:
 		show();
 		hid = false;
 	pass
@@ -149,6 +155,13 @@ func _on_classroom_mouse_exited():
 
 func _on_change_pressed():
 	
+	changeMap();
+		
+	pass # Replace with function body.
+
+
+func changeMap():
+	
 	if isOverworld:
 		$PokemonMap.texture = wonderland;
 		isOverworld = false;
@@ -184,9 +197,8 @@ func _on_change_pressed():
 		$Cafe.show();
 		$Hallway.show();
 		$dorm.show();
-		
-	pass # Replace with function body.
-
+	
+	pass
 
 func _on_ArstocratTown_pressed():
 	get_tree().change_scene("res://Scenes/thrishaStuff/Locations/Wonderland/AristocratTown.tscn");
