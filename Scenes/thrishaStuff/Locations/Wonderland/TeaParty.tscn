@@ -7572,6 +7572,9 @@ limit_top = 0
 limit_right = 2109
 limit_bottom = 0
 
+[node name="map" parent="player/HUD" index="0"]
+isOverworld = false
+
 [node name="rightBoundary" type="StaticBody2D" parent="."]
 position = Vector2( 2109, 0 )
 
@@ -7595,3 +7598,5 @@ stream = ExtResource( 6 )
 [connection signal="body_exited" from="MadHatter" to="MadHatter" method="_on_MadHatter_body_exited"]
 [connection signal="body_entered" from="Marlon" to="Marlon" method="_on_Marlon_body_entered"]
 [connection signal="body_exited" from="Marlon" to="Marlon" method="_on_Marlon_body_exited"]
+
+[editable path="player/HUD"]
