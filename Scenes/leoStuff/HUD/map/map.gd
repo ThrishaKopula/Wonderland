@@ -6,18 +6,20 @@ var change_text;
 
 export var enable = true;
 
-onready var trans = $"../trans/TransitionColor"
+onready var trans = $"../trans/TransitionColor";
 
-onready var overworld = preload("res://art/pokemon map.PNG")
+onready var overworld = preload("res://art/pokemon map.PNG");
 
-onready var wonderland = preload("res://art/1200px-LGPE_Kanto_Map.png")
+onready var wonderland = preload("res://art/1200px-LGPE_Kanto_Map.png");
 
-export var isOverworld = true
+export var isOverworld = true;
 
 func _ready():
 	
-	if not isOverworld:
+	if !isOverworld:
+		isOverworld = true;
 		changeMap();
+		isOverworld = false;
 	
 	trans.show();
 	text.hide();
