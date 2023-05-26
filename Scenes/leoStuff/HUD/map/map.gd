@@ -12,9 +12,13 @@ onready var overworld = preload("res://art/pokemon map.PNG")
 
 onready var wonderland = preload("res://art/1200px-LGPE_Kanto_Map.png")
 
-var isOverworld = true
+export var isOverworld = true
 
 func _ready():
+	
+	if not isOverworld:
+		changeMap();
+	
 	trans.show();
 	text.hide();
 	change_text = text.get_child(0).get_child(0);
@@ -149,6 +153,13 @@ func _on_classroom_mouse_exited():
 
 func _on_change_pressed():
 	
+	changeMap();
+		
+	pass # Replace with function body.
+
+
+func changeMap():
+	
 	if isOverworld:
 		$PokemonMap.texture = wonderland;
 		isOverworld = false;
@@ -184,9 +195,8 @@ func _on_change_pressed():
 		$Cafe.show();
 		$Hallway.show();
 		$dorm.show();
-		
-	pass # Replace with function body.
-
+	
+	pass
 
 func _on_ArstocratTown_pressed():
 	get_tree().change_scene("res://Scenes/thrishaStuff/Locations/Wonderland/AristocratTown.tscn");

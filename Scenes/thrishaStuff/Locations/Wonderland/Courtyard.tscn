@@ -48,6 +48,9 @@ limit_top = 0
 limit_right = 2225
 limit_bottom = 0
 
+[node name="map" parent="player/HUD" index="0"]
+isOverworld = false
+
 [node name="rightBoundary" type="StaticBody2D" parent="."]
 position = Vector2( 1944, 4 )
 
@@ -68,3 +71,5 @@ stream = ExtResource( 7 )
 
 [connection signal="body_entered" from="Jesters" to="Jesters" method="_on_Cheerleader_body_entered"]
 [connection signal="body_exited" from="Jesters" to="Jesters" method="_on_Cheerleader_body_exited"]
+
+[editable path="player/HUD"]
