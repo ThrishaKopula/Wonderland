@@ -8,17 +8,22 @@ var active = false
 #	connect("body_exited", self, "_on_Bed_body_exited")
 	
 func _process(_delta):
-	$QuestionMark.visible = active
+	if(StoryVariables.isOtherBedInteracted == true):
+		$QuestionMark.visible = !StoryVariables.isOtherBedInteracted
+	else:
+		$QuestionMark.visible = active
 
 func _input(event):
 	if get_node_or_null('DialogNode') == null:
 		if event.is_action_pressed("interact") and active:
-			pause_game()
-			var dialog = Dialogic.start("ifOtherBedClicked")
-			dialog.pause_mode = Node.PAUSE_MODE_PROCESS
-			dialog.connect('timeline_end', self, 'unpause')
-			add_child(dialog)
-			StoryVariables.isOtherBedInteracted = true
+			if(StoryVariables.isOtherBedInteracted == false):
+				pause_game()
+				var dialog = Dialogic.start("ifOtherBedClicked")
+				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
+				dialog.connect('timeline_end', self, 'unpause')
+				add_child(dialog)
+				StoryVariables.isOtherBedInteracted = true
+
 
 func pause_game():
 	get_tree().paused = true

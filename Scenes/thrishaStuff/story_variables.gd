@@ -3,6 +3,8 @@ extends Node
 
 # Declare member variables here. Examples:
 var canPlayerMove = true
+var isLeft = false
+var isRight = false
 
 var isMapInteracted = false
 var isAlisBedInteracted = false

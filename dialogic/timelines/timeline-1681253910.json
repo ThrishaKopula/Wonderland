@@ -366,6 +366,15 @@
 			"event_id": "dialogic_021"
 		},
 		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://Scenes/thrishaStuff/Audio/Kevin MacLeod： There is Romance.wav",
+			"volume": 0
+		},
+		{
 			"character": "character-1682574603.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
@@ -1586,8 +1595,26 @@
 			"text": "Wait! Wait–AAAAAAAAAAAAAAAAAH!"
 		},
 		{
+			"background": "res://dialogic/black.jpeg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
 			"background": "res://Scenes/thrishaStuff/images/dialog_backgrounds/Dorm_W_Mirror_1920.png",
 			"event_id": "dialogic_021"
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://Scenes/thrishaStuff/Audio/Dorm/Kevin MacLeod： Chill.wav",
+			"volume": 0
 		},
 		{
 			"event_id": "dialogic_024",
