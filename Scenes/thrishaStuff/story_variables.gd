@@ -38,7 +38,7 @@ var isGiveBallerinaToMatthew = false
 
 #CHAPTER 2
 var isChapterTwoStart= false
-var isInitiateCCh2MainQuest = false
+var isInitiateCh2MainQuest = false
 var isFindWhoIsCloseToJanitor = false
 var isRetrieveExoticFruit = false
 var isCatchTheThief = false
