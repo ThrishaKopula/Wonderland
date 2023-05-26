@@ -5,15 +5,16 @@
 			"set_theme": "theme-1683686222.cfg"
 		},
 		{
-			"background": "",
-			"event_id": "dialogic_021"
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://Scenes/thrishaStuff/Audio/Kevin MacLeod： There is Romance.wav",
+			"volume": 0
 		},
 		{
 			"background": "res://dialogic/black.jpeg",
-			"event_id": "dialogic_021"
-		},
-		{
-			"background": "",
 			"event_id": "dialogic_021"
 		},
 		{
@@ -233,8 +234,17 @@
 			"text": "*Sigh* "
 		},
 		{
-			"background": "res://Scenes/thrishaStuff/images/Dorm_Final.png",
+			"background": "res://Scenes/thrishaStuff/images/dialog_backgrounds/Dorm_W_Mirror_1920.png",
 			"event_id": "dialogic_021"
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://Scenes/thrishaStuff/Audio/Dorm/Kevin MacLeod： Chill.wav",
+			"volume": 0
 		},
 		{
 			"event_id": "dialogic_024",
@@ -303,11 +313,36 @@
 			"text": "I need to rest up for tomorrow."
 		},
 		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
 			"background": "res://dialogic/black.jpeg",
 			"event_id": "dialogic_021"
 		},
 		{
-			"background": "res://Scenes/thrishaStuff/images/Dorm_Final.png",
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"background": "res://Scenes/thrishaStuff/images/dialog_backgrounds/Dorm_W_Mirror_1920.png",
 			"event_id": "dialogic_021"
 		},
 		{
@@ -316,6 +351,26 @@
 			"change_mirror_portrait": false,
 			"change_z_index": false,
 			"character": "character-1681086547.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086055.json",
 			"event_id": "dialogic_002",
 			"mirror_portrait": false,
 			"portrait": "Default",
@@ -353,8 +408,17 @@
 			"event_id": "dialogic_021"
 		},
 		{
-			"background": "res://dialogic/classroom.png",
+			"background": "res://Scenes/thrishaStuff/images/dialog_backgrounds/Classroom_1920.png",
 			"event_id": "dialogic_021"
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://Scenes/thrishaStuff/Audio/Classroom/Kevin MacLeod： Covert Affair.wav",
+			"volume": 0
 		},
 		{
 			"character": "character-1681086055.json",
