@@ -67,13 +67,13 @@
 							},
 							"metadata": {
 								"color": null,
-								"folded": false
+								"folded": true
 							}
 						}
 					},
 					"metadata": {
 						"color": null,
-						"folded": false
+						"folded": true
 					}
 				}
 			},
@@ -107,7 +107,7 @@
 			},
 			"metadata": {
 				"color": null,
-				"folded": true
+				"folded": false
 			}
 		},
 		"Timelines": {
@@ -153,13 +153,13 @@
 							},
 							"metadata": {
 								"color": null,
-								"folded": false
+								"folded": true
 							}
 						}
 					},
 					"metadata": {
 						"color": null,
-						"folded": false
+						"folded": true
 					}
 				},
 				"Chapter 2": {
@@ -248,7 +248,8 @@
 					"files": [
 						"timeline-1681253583.json",
 						"timeline-1681253910.json",
-						"timeline-1681863086.json"
+						"timeline-1681863086.json",
+						"timeline-1685147945.json"
 					],
 					"folders": {
 						"Interactables": {

@@ -10,6 +10,7 @@ var isMapInteracted = false
 var isAlisBedInteracted = false
 var isOtherBedInteracted = false
 var isMirrorInteracted = false
+var isAllRoomInteracted = false
 
 # Main game checkpoints
 var isPrologueDone = false
@@ -64,15 +65,27 @@ func _ready():
 
 func prologue_checkAllInteractions():
 	if (isMapInteracted == true && isAlisBedInteracted == true && isOtherBedInteracted == true && isMirrorInteracted == true):
+		isAllRoomInteracted = true
 		get_tree().paused = true
 		canPlayerMove = false
 		var dialog = Dialogic.start("movingInPart2")
 		dialog.pause_mode = Node.PAUSE_MODE_PROCESS
-		dialog.connect('timeline_end', self, 'unpause')
+		dialog.connect('timeline_end', self, 'unpauseProloguePart3')
 		add_child(dialog)
 		isPrologueDone = true
 	
-func unpause(timeline_name):
+func unpauseProloguePart3(timeline_name):
+	get_tree().change_scene("res://Scenes/thrishaStuff/Locations/Overworld/Dream.tscn")
+	get_tree().paused = true
+	canPlayerMove = false
+	var dialog = Dialogic.start("movingInPart3")
+	dialog.pause_mode = Node.PAUSE_MODE_PROCESS
+	dialog.connect('timeline_end', self, 'unpauseMiniGame1')
+	add_child(dialog)
+	isPrologueDone = true
+
+	
+func unpauseMiniGame1(timeline_name):
 	get_tree().paused = false
 	canPlayerMove = true
 	get_tree().change_scene("res://Scenes/leoStuff/mini_game1/mini_game_1.tscn")
@@ -90,5 +103,10 @@ func chapter2_checkCatchTheThief():
 		dialog.pause_mode = Node.PAUSE_MODE_PROCESS
 		dialog.connect('timeline_end', self, 'unpause')
 		add_child(dialog)
+		
+func unpause(timeline_name):
+	get_tree().paused = false
+	canPlayerMove = true
+
 		
 
