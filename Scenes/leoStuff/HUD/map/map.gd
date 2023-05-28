@@ -6,8 +6,6 @@ var change_text;
 
 export var enable = true;
 
-onready var trans = $"../trans/TransitionColor";
-
 onready var overworld = preload("res://art/pokemon map.PNG");
 
 onready var wonderland = preload("res://art/1200px-LGPE_Kanto_Map.png");
@@ -21,15 +19,10 @@ func _ready():
 		changeMap();
 		isOverworld = false;
 	
-	trans.show();
 	text.hide();
 	change_text = text.get_child(0).get_child(0);
-	trans.get_child(0).play("transition_out");
 	hide();
-	
-	trans.get_child(0).play("transition_in");
-	yield(trans.get_child(0), "animation_finished");
-	trans.hide();
+
 	pass # Replace with function body.
 
 
@@ -60,9 +53,6 @@ func _on_Button_hide():
 	pass # Replace with function body.
 	
 func _on_Button_pressed():
-	trans.show();
-	trans.get_child(0).play("transition_out");
-	yield(trans.get_child(0), "animation_finished");
 	
 	get_tree().change_scene("res://Scenes/thrishaStuff/Locations/Overworld/Dorm.tscn");
 	pass # Replace with function body.
