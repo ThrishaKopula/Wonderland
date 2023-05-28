@@ -43,6 +43,7 @@ func _on_Chapter_1_pressed():
 	add_child(dialog)
 	yield(dialog, 'timeline_end')
 	StoryVariables.isChapterOneStartDone = true
+	StoryVariables.currentlyInChapterOne = true
 	get_tree().change_scene("res://Scenes/thrishaStuff/Locations/Overworld/Classroom.tscn")
 
 func _on_Chapter_1_button_down():
@@ -53,6 +54,7 @@ func _on_Chapter_2_pressed():
 	add_child(dialog)
 	yield(dialog, 'timeline_end')
 	StoryVariables.isChapterTwoStart = true
+	StoryVariables.currentlyInChapterTwo = true
 	get_tree().change_scene("res://Scenes/thrishaStuff/Locations/Overworld/Classroom.tscn")
 
 func _on_Chapter_2_button_down():

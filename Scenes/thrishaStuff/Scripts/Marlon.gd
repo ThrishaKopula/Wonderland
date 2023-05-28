@@ -23,7 +23,7 @@ func _ready():
 func _input(event):
 	if get_node_or_null('DialogNode') == null:
 		if event.is_action_pressed("interact") and active:
-			if(StoryVariables.isChapterOneStartDone == true):
+			if(StoryVariables.currentlyInChapterOne == true):
 				pause_game()
 				var dialog;
 				if(inOverworld):
@@ -33,7 +33,7 @@ func _input(event):
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
 				dialog.connect('timeline_end', self, 'unpause')
 				add_child(dialog)
-			elif(StoryVariables.isChapterTwoStart == true):
+			elif(StoryVariables.currentlyInChapterTwo == true):
 				pause_game()
 				var dialog;
 				if(inOverworld):
@@ -43,7 +43,7 @@ func _input(event):
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
 				dialog.connect('timeline_end', self, 'unpause')
 				add_child(dialog)
-			elif(StoryVariables.isChapterThreeDone == true):
+			elif(StoryVariables.currentlyInChapterThree == true):
 				pause_game()
 				var dialog;
 				if(inOverworld):

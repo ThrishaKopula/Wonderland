@@ -24,6 +24,7 @@ func _input(event):
 				StoryVariables.isDeliverKeyToMatthew = true
 				StoryVariables.isAfterCleaningMinigame == false
 				StoryVariables.isChapterTwoDone = true
+				StoryVariables.currentlyInChapterTwo = false
 
 func pause_game():
 	get_tree().paused = true

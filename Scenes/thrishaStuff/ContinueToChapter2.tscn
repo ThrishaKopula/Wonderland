@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=2]
 
-[ext_resource path="res://Scenes/thrishaStuff/Scripts/ContinueToChapter1.gd" type="Script" id=1]
+[ext_resource path="res://Scenes/thrishaStuff/Scripts/ContinueToChapter2.gd" type="Script" id=1]
 [ext_resource path="res://Scenes/thrishaStuff/Audio/MouseClick.wav" type="AudioStream" id=2]
 
 [node name="goToChapter2" type="Control"]

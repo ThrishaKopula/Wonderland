@@ -38,11 +38,14 @@ func _process(delta):
 		dialog.connect('timeline_end', self, 'unpauseContinueToChapter2')
 		add_child(dialog)
 		StoryVariables.isChapterOneDone = true
+		StoryVariables.currentlyInChapterOne = false
+		StoryVariables.isGiveBallerinaToMatthew = false
 
 func unpauseContinueToChapter2(timeline_name):
 	get_tree().paused = false
 	Fade.change_scene("res://Scenes/thrishaStuff/ContinueToChapter2.tscn")
 	yield(get_tree().create_timer(2), "timeout")
+	StoryVariables.currentlyInChapterTwo = true
 
 
 
