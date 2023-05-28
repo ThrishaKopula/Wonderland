@@ -33,7 +33,7 @@ tracks/0/keys = {
 "values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
 }
 
-[node name="CanvasLayer" type="CanvasLayer"]
+[node name="fading" type="CanvasLayer"]
 script = ExtResource( 1 )
 
 [node name="fade" type="ColorRect" parent="."]
