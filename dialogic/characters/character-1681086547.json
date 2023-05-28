@@ -8,14 +8,30 @@
 	"name": "Marlon",
 	"nickname": "",
 	"nickname_bool": false,
-	"offset_x": 0,
+	"offset_x": 100,
 	"offset_y": 0,
 	"portraits": [
 		{
 			"name": "Default",
-			"path": "res://dialogic/marlon.png"
+			"path": "res://Scenes/thrishaStuff/images/marlon/marlon_default_overworld.png"
+		},
+		{
+			"name": "default_wonderland",
+			"path": "res://Scenes/thrishaStuff/images/marlon/marlon_default_wonderland.png"
+		},
+		{
+			"name": "mad_wonderland",
+			"path": "res://Scenes/thrishaStuff/images/marlon/marlon_mad_wonderland.png"
+		},
+		{
+			"name": "shock_overworld",
+			"path": "res://Scenes/thrishaStuff/images/marlon/marlon_shock_overworld.png"
+		},
+		{
+			"name": "cry_wonderland",
+			"path": "res://Scenes/thrishaStuff/images/marlon/marlon_cry_wonderland.png"
 		}
 	],
-	"scale": 30,
+	"scale": 70,
 	"theme": ""
 }

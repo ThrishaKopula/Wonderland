@@ -20,7 +20,7 @@ func _input(event):
 				dialog.connect('timeline_end', self, 'unpause')
 				add_child(dialog)
 				StoryVariables.isPleb_AItemCollected = true
-				StoryVariables.chapter1_checkIfPlebItemsCollected()
+				
 			
 func pause_game():
 	get_tree().paused = true
@@ -30,6 +30,7 @@ func unpause(timeline_name):
 	get_tree().paused = false
 	StoryVariables.canPlayerMove = true
 	active = false
+	StoryVariables.chapter1_checkIfPlebItemsCollected()
 
 func _on_Watercolor_body_entered(body):
 	if (body.name == 'player' and StoryVariables.isGetIngredientsFromVendors == true):

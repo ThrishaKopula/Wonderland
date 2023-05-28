@@ -16,10 +16,10 @@ func _ready():
 #	pass
 
 func _on_Continue_pressed():
-	var dialog = Dialogic.start("chapter1Start")
+	var dialog = Dialogic.start("chapter2Start")
 	add_child(dialog)
 	yield(dialog, 'timeline_end')
-	StoryVariables.isChapterOneStartDone = true
+	StoryVariables.isChapterTwoStart = true
 	get_tree().change_scene("res://Scenes/thrishaStuff/Locations/Overworld/Classroom.tscn")
 
 func _on_Continue_button_down():

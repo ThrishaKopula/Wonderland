@@ -12,10 +12,9 @@ func _input(event):
 				pause_game()
 				var dialog = Dialogic.start("/Chapter 1/giveBallerinaToMatthew")
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
-				dialog.connect('timeline_end', self, 'unpause')
+				dialog.connect('timeline_end', self, 'unpauseToDormChapter1')
 				add_child(dialog)
 				StoryVariables.isGiveBallerinaToMatthew = true
-				StoryVariables.isChapterOneDone = true
 			elif(StoryVariables.isAfterCleaningMinigame == true):
 				pause_game()
 				var dialog = Dialogic.start("/Chapter 2/deliverKeyToMatthew")
@@ -34,6 +33,25 @@ func unpause(timeline_name):
 	get_tree().paused = false
 	StoryVariables.canPlayerMove = true
 	active = false
+
+func unpauseToDormChapter1(timeline_name):
+	active = false
+	get_tree().paused = false
+	Fade.change_scene("res://Scenes/thrishaStuff/Locations/Overworld/Dorm.tscn")
+	yield(get_tree().create_timer(2), "timeout")
+
+#	get_tree().paused = true
+#	StoryVariables.canPlayerMove = false
+#	var dialog = Dialogic.start("chapter1End")
+#	dialog.pause_mode = Node.PAUSE_MODE_PROCESS
+#	dialog.connect('timeline_end', self, 'unpauseContinueToChapter2')
+#	add_child(dialog)
+#	StoryVariables.isChapterOneDone = true
+
+func unpauseContinueToChapter2(timeline_name):
+	get_tree().paused = false
+	Fade.change_scene("res://Scenes/thrishaStuff/ContinueToChapter2.tscn")
+	yield(get_tree().create_timer(2), "timeout")
 			
 func _on_MadHatter_body_entered(body):
 	if body.name == 'player':

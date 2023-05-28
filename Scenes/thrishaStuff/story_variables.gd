@@ -1,6 +1,7 @@
 extends Node
 
 
+
 # Declare member variables here. Examples:
 var canPlayerMove = true
 var isLeft = false
@@ -74,14 +75,11 @@ func prologue_checkAllInteractions():
 		dialog.pause_mode = Node.PAUSE_MODE_PROCESS
 		dialog.connect('timeline_end', self, 'unpauseProloguePart3')
 		add_child(dialog)
-		isPrologueDone = true
 	
 func unpauseProloguePart3(timeline_name):
-	#get_tree().change_scene("res://Scenes/thrishaStuff/Locations/Overworld/Dream.tscn")
 	get_tree().paused = false
 	Fade.change_scene("res://Scenes/thrishaStuff/Locations/Overworld/Dream.tscn")
-	
-	yield(get_tree().create_timer(3), "timeout")
+	yield(get_tree().create_timer(2), "timeout")
 	
 	get_tree().paused = true
 	canPlayerMove = false
@@ -89,7 +87,6 @@ func unpauseProloguePart3(timeline_name):
 	dialog.pause_mode = Node.PAUSE_MODE_PROCESS
 	dialog.connect('timeline_end', self, 'unpauseMiniGame1')
 	add_child(dialog)
-	isPrologueDone = true
 
 func unpauseMiniGame1(timeline_name):
 	get_tree().paused = false
@@ -99,6 +96,13 @@ func unpauseMiniGame1(timeline_name):
 func chapter1_checkIfPlebItemsCollected():
 	if (isPleb_AItemCollected == true && isPleb_BItemCollected == true && isPleb_CItemCollected == true):
 		isAllItemsCollected = true
+		get_tree().paused = true
+		canPlayerMove = false
+		var dialog = Dialogic.start("afterInteracted")
+		dialog.pause_mode = Node.PAUSE_MODE_PROCESS
+		dialog.connect('timeline_end', self, 'unpause')
+		add_child(dialog)
+		
 
 func chapter2_checkCatchTheThief():
 	if (catch_aristocratTown == true && catch_plebTown == true && catch_tavern == true):
@@ -113,6 +117,3 @@ func chapter2_checkCatchTheThief():
 func unpause(timeline_name):
 	get_tree().paused = false
 	canPlayerMove = true
-
-		
-

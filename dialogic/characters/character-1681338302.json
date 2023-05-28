@@ -8,14 +8,14 @@
 	"name": "Matthew",
 	"nickname": "",
 	"nickname_bool": false,
-	"offset_x": 0,
+	"offset_x": 50,
 	"offset_y": 0,
 	"portraits": [
 		{
 			"name": "Default",
-			"path": "res://dialogic/matthew.png"
+			"path": "res://Scenes/thrishaStuff/images/matthew/Matthew.png"
 		}
 	],
-	"scale": 30,
+	"scale": 70,
 	"theme": "theme-1683225590.cfg"
 }

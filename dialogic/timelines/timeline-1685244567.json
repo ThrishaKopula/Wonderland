@@ -1,10 +1,6 @@
 {
 	"events": [
 		{
-			"background": "res://Scenes/thrishaStuff/images/dialog_backgrounds/Dorm_W_Mirror_1920.png",
-			"event_id": "dialogic_021"
-		},
-		{
 			"event_id": "dialogic_024",
 			"set_theme": "default-theme.cfg"
 		},

@@ -14,6 +14,62 @@
 			"volume": -3
 		},
 		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1683225590.cfg"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086547.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "default_wonderland",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681086547.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "How wonderful! You did it!"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681338302.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681338302.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yes, I believe you are ready for the challenges that may come your way."
+		},
+		{
 			"animation": "[Default]",
 			"animation_length": 0,
 			"change_mirror_portrait": false,
@@ -32,62 +88,6 @@
 			},
 			"type": 0,
 			"z_index": 0
-		},
-		{
-			"animation": "[Default]",
-			"animation_length": 0,
-			"change_mirror_portrait": false,
-			"change_z_index": false,
-			"character": "character-1681086547.json",
-			"event_id": "dialogic_002",
-			"mirror_portrait": false,
-			"portrait": "Default",
-			"portrait_definition": "",
-			"position": {
-				"0": true,
-				"1": false,
-				"2": false,
-				"3": false,
-				"4": false
-			},
-			"type": 0,
-			"z_index": 0
-		},
-		{
-			"animation": "[Default]",
-			"animation_length": 0,
-			"change_mirror_portrait": false,
-			"change_z_index": false,
-			"character": "character-1681338302.json",
-			"event_id": "dialogic_002",
-			"mirror_portrait": false,
-			"portrait": "Default",
-			"portrait_definition": "",
-			"position": {
-				"0": true,
-				"1": false,
-				"2": false,
-				"3": false,
-				"4": false
-			},
-			"type": 0,
-			"z_index": 0
-		},
-		{
-			"event_id": "dialogic_024",
-			"set_theme": "theme-1683225590.cfg"
-		},
-		{
-			"character": "character-1681086547.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "How wonderful! You did it!"
-		},
-		{
-			"character": "character-1681338302.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "Yes, I believe you are ready for the challenges that may come your way."
 		},
 		{
 			"character": "character-1681086055.json",
@@ -334,7 +334,7 @@
 		{
 			"character": "character-1681086547.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Default",
 			"text": "Come on, off to bed you go!"
 		},
 		{
@@ -390,11 +390,6 @@
 		{
 			"background": "res://dialogic/black.jpeg",
 			"event_id": "dialogic_021"
-		},
-		{
-			"event_id": "dialogic_023",
-			"hide_dialogbox": true,
-			"wait_seconds": 1
 		}
 	],
 	"metadata": {

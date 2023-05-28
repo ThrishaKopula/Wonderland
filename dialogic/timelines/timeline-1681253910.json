@@ -239,7 +239,7 @@
 			"text": "No! NO! There’s no space! Can’t you see!?"
 		},
 		{
-			"animation": "[Default]",
+			"animation": "instant_in.gd",
 			"animation_length": 0,
 			"change_mirror_portrait": false,
 			"change_z_index": false,

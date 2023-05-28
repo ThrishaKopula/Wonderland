@@ -662,7 +662,7 @@
 		{
 			"character": "character-1681086547.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "cry_wonderland",
 			"text": "Mattie! I’m soooooorrryy!! I didn’t mean to, he jumped in when I wasn’t looking!"
 		},
 		{
@@ -910,7 +910,7 @@
 		{
 			"character": "character-1681086547.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "default_wonderland",
 			"text": "…"
 		},
 		{
@@ -1431,7 +1431,7 @@
 		{
 			"character": "character-1681086547.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Default",
 			"text": "No time for that! You gotta make it to class tomorrow for your full score!"
 		},
 		{
@@ -1476,7 +1476,27 @@
 		},
 		{
 			"event_id": "dialogic_024",
-			"set_theme": "theme-1683685843.cfg"
+			"set_theme": "theme-1683686222.cfg"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
 		},
 		{
 			"character": "character-1681086055.json",
@@ -1549,6 +1569,26 @@
 			"text": "Today’s the big day!"
 		},
 		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
 			"portrait": "Default",
@@ -1577,6 +1617,15 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Yeah, yeah. I hear you. Let’s head off."
+		},
+		{
+			"background": "res://dialogic/black.jpeg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
 		},
 		{
 			"background": "res://Scenes/thrishaStuff/images/dialog_backgrounds/Classroom_1920.png",
@@ -2006,7 +2055,7 @@
 		{
 			"character": "character-1681086547.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "default_wonderland",
 			"text": "Or so we thought!"
 		},
 		{

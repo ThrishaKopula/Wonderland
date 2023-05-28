@@ -92,7 +92,7 @@ limit_bottom = 0
 [node name="map" parent="HUD" index="0"]
 enable = false
 
-[node name="menu" parent="HUD" index="2"]
+[node name="menu" parent="HUD" index="1"]
 enable = false
 
 [connection signal="button_down" from="VBoxContainer/testing" to="." method="_on_StartButton_button_down"]

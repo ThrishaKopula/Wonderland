@@ -1,5 +1,6 @@
 extends Node2D
 
+var inChapter1End = false
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	pass
@@ -17,3 +18,24 @@ func _process(delta):
 	if(StoryVariables.isLeft == true and StoryVariables.isRight == true):
 		$player/MoveLeft.hide()
 		$player/MoveRight.hide()
+	if(StoryVariables.isPrologueDone == false):
+		$Marlon.hide()
+		
+	if(StoryVariables.isGiveBallerinaToMatthew and inChapter1End == false):
+		inChapter1End = true
+		yield(get_tree().create_timer(2), "timeout")
+		get_tree().paused = true
+		StoryVariables.canPlayerMove = false
+		var dialog = Dialogic.start("chapter1End")
+		dialog.pause_mode = Node.PAUSE_MODE_PROCESS
+		dialog.connect('timeline_end', self, 'unpauseContinueToChapter2')
+		add_child(dialog)
+		StoryVariables.isChapterOneDone = true
+
+func unpauseContinueToChapter2(timeline_name):
+	get_tree().paused = false
+	Fade.change_scene("res://Scenes/thrishaStuff/ContinueToChapter2.tscn")
+	yield(get_tree().create_timer(2), "timeout")
+
+
+

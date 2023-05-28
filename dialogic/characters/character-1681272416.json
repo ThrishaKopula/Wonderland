@@ -13,9 +13,9 @@
 	"portraits": [
 		{
 			"name": "Default",
-			"path": ""
+			"path": "res://Scenes/thrishaStuff/images/professor/professor.png"
 		}
 	],
-	"scale": 100,
+	"scale": 70,
 	"theme": "default-theme.cfg"
 }

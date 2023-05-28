@@ -19,7 +19,7 @@ static func get_character_list() -> Array:
 	for file in DialogicResources.listdir(DialogicResources.get_path('CHAR_DIR')):
 		if '.json' in file:
 			var data: Dictionary = DialogicResources.get_character_json(file)
-			
+		
 			characters.append({
 				'name': data.get('name', data['id']),
 				'color': Color(data.get('color', "#ffffff")),

@@ -13,9 +13,9 @@
 	"portraits": [
 		{
 			"name": "Default",
-			"path": ""
+			"path": "res://Scenes/thrishaStuff/images/matthew/Matthew.png"
 		}
 	],
-	"scale": 100,
+	"scale": 70,
 	"theme": "theme-1683225590.cfg"
 }

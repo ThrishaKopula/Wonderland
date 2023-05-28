@@ -55,12 +55,13 @@ func win():
 	var dialog = Dialogic.start("afterMiniGame");
 	dialog.connect('timeline_end', self, 'unpause');
 	add_child(dialog);
-	
+	StoryVariables.isPrologueDone = true
 	pass
 
 func unpause(timeline_name):
-	
-	get_tree().change_scene("res://Scenes/thrishaStuff/ContinueToChapter1.tscn");
+	get_tree().paused = false
+	Fade.change_scene("res://Scenes/thrishaStuff/ContinueToChapter1.tscn")
+	yield(get_tree().create_timer(2), "timeout")
 	pass
 
 func _on_A4_pressed():
