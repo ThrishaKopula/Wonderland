@@ -20,7 +20,14 @@ func _process(delta):
 		$player/MoveRight.hide()
 	if(StoryVariables.isPrologueDone == false):
 		$Marlon.hide()
-		
+	if(StoryVariables.isChapterOneStartDone == true or StoryVariables.isChapterTwoStart == true or StoryVariables.isChapter3Start == true):
+		$Marlon.show()
+		StoryVariables.isLeft = true
+		StoryVariables.isRight = true
+		StoryVariables.isMapInteracted = true
+		StoryVariables.isAlisBedInteracted = true
+		StoryVariables.isOtherBedInteracted = true
+		StoryVariables.isMirrorInteracted = true
 	if(StoryVariables.isGiveBallerinaToMatthew and inChapter1End == false):
 		inChapter1End = true
 		yield(get_tree().create_timer(2), "timeout")

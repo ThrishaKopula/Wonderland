@@ -61,6 +61,9 @@ var catch_plebTown = false
 var catch_aristocratTown = false
 var mini_game1 = false
 
+#CHAPTER 3
+var isChapter3Start = false
+
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	connect("my_signal", self, "signal_handler")

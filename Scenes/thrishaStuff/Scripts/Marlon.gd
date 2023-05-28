@@ -65,7 +65,7 @@ func unpause(timeline_name):
 	active = false
 	
 func _on_Marlon_body_entered(body):
-	if body.name == 'player' and StoryVariables.isPrologueDone == true:
+	if body.name == 'player' and StoryVariables.isPrologueDone == true or StoryVariables.isChapterOneStartDone == true or StoryVariables.isChapterTwoStart == true or StoryVariables.isChapter3Start == true:
 		active = true
 
 func _on_Marlon_body_exited(body):
