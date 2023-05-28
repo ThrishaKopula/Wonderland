@@ -38,7 +38,7 @@
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_002",
 			"mirror_portrait": false,
-			"portrait": "Default",
+			"portrait": "default_wonderland",
 			"portrait_definition": "",
 			"position": {
 				"0": true,
@@ -245,48 +245,6 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "( I think I can do this without screaming now… )"
-		},
-		{
-			"background": "res://Scenes/thrishaStuff/images/dialog_backgrounds/Dorm_W_Mirror_1920.png",
-			"event_id": "dialogic_021"
-		},
-		{
-			"event_id": "dialogic_024",
-			"set_theme": "default-theme.cfg"
-		},
-		{
-			"character": "character-1681086547.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "Okay! Time for bed–oh! You’re already getting ready to crawl in."
-		},
-		{
-			"character": "character-1681086547.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "Don’t forget, you’re still a student here, so we have to wake up for class tomorrow."
-		},
-		{
-			"character": "character-1681086055.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "Yeah, I know."
-		},
-		{
-			"character": "character-1681086055.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "G-Goodnight?"
-		},
-		{
-			"character": "character-1681086547.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "YOU SAID IT FIRST! NIGHTY-NIGHT, ALIS!"
-		},
-		{
-			"background": "res://dialogic/black.jpeg",
-			"event_id": "dialogic_021"
 		}
 	],
 	"metadata": {

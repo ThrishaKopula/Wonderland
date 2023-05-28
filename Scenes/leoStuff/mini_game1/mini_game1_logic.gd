@@ -60,7 +60,7 @@ func win():
 
 func unpause(timeline_name):
 	
-	get_tree().change_scene("res://Scenes/thrishaStuff/Locations/Wonderland/TeaParty.tscn");
+	get_tree().change_scene("res://Scenes/thrishaStuff/ContinueToChapter1.tscn");
 	pass
 
 func _on_A4_pressed():

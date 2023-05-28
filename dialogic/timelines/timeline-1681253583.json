@@ -211,6 +211,15 @@
 			"event_id": "dialogic_021"
 		},
 		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://Scenes/thrishaStuff/Audio/Dorm/Kevin MacLeod： Chill.wav",
+			"volume": 0
+		},
+		{
 			"event_id": "dialogic_024",
 			"set_theme": "default-theme.cfg"
 		},

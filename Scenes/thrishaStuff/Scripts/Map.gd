@@ -4,18 +4,25 @@ var active = false
 var interacted = false
 	
 func _process(_delta):
-	$QuestionMark.visible = active
-
+	if(StoryVariables.isMapInteracted == true):
+		$QuestionMark.visible = !StoryVariables.isMapInteracted
+		$Map_Interactable.hide()
+		active = false
+	else:
+		$QuestionMark.visible = active
+		
+		
 func _input(event):
 	if get_node_or_null('DialogNode') == null:
 		if event.is_action_pressed("interact") and active:
-			pause_game()
-			var dialog = Dialogic.start("ifMapClicked")
-			dialog.pause_mode = Node.PAUSE_MODE_PROCESS
-			dialog.connect('timeline_end', self, 'unpause')
-			add_child(dialog)
-			StoryVariables.isMapInteracted = true
-			interacted = true
+			if(StoryVariables.isMapInteracted == false):
+				pause_game()
+				var dialog = Dialogic.start("ifMapClicked")
+				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
+				dialog.connect('timeline_end', self, 'unpause')
+				add_child(dialog)
+				StoryVariables.isMapInteracted = true
+				interacted = true
 
 func pause_game():
 	get_tree().paused = true
@@ -25,7 +32,6 @@ func unpause(timeline_name):
 	get_tree().paused = false
 	StoryVariables.canPlayerMove = true
 	active = false
-	$Map_Interactable.hide()
 	StoryVariables.prologue_checkAllInteractions()
 	
 
