@@ -11,6 +11,7 @@ position = Vector2( 0, -20 )
 visible = false
 
 [node name="trans" type="CanvasLayer" parent="."]
+visible = false
 
 [node name="TransitionColor" parent="trans" instance=ExtResource( 2 )]
 pause_mode = 2
