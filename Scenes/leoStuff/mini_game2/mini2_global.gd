@@ -52,17 +52,19 @@ func check_win():
 	pass
 
 func win():
-	
+	get_tree().paused = false
+	Fade.change_scene("res://Scenes/thrishaStuff/Locations/Wonderland/Tavern.tscn")
+	yield(get_tree().create_timer(2), "timeout")
+	StoryVariables.canPlayerMove = false
 	var dialog = Dialogic.start("getBallerinaFromBartender");
 	dialog.connect('timeline_end', self, 'unpause');
 	add_child(dialog);
-	
+	StoryVariables.isGetBallerinaFromBartender = true
 	pass
 
 func unpause(timeline_name):
-	
-	get_tree().change_scene("res://Scenes/thrishaStuff/Locations/Wonderland/Tavern.tscn");
-	pass
+	get_tree().paused = false
+	StoryVariables.canPlayerMove = true
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
