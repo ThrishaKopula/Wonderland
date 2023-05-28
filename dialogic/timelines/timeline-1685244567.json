@@ -1,31 +1,19 @@
 {
 	"events": [
 		{
-			"animation": "[Default]",
-			"animation_length": 0,
-			"change_mirror_portrait": false,
-			"change_z_index": false,
-			"character": "character-1681086055.json",
-			"event_id": "dialogic_002",
-			"mirror_portrait": false,
-			"portrait": "default_wonderland",
-			"portrait_definition": "",
-			"position": {
-				"0": true,
-				"1": false,
-				"2": false,
-				"3": false,
-				"4": false
-			},
-			"type": 0,
-			"z_index": 0
+			"background": "res://Scenes/thrishaStuff/images/dialog_backgrounds/Dorm_W_Mirror_1920.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "default-theme.cfg"
 		},
 		{
 			"animation": "[Default]",
 			"animation_length": 0,
 			"change_mirror_portrait": false,
 			"change_z_index": false,
-			"character": "character-1681439104.json",
+			"character": "character-1681086547.json",
 			"event_id": "dialogic_002",
 			"mirror_portrait": false,
 			"portrait": "Default",
@@ -41,41 +29,63 @@
 			"z_index": 0
 		},
 		{
-			"event_id": "dialogic_024",
-			"set_theme": "theme-1683225590.cfg"
-		},
-		{
-			"character": "character-1681439104.json",
+			"character": "character-1681086547.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Ah, you’re back with the [b]ingredients[/b]! Perfect, Bartender’s just about to keel over."
+			"text": "Okay! Time for bed–oh! You’re already getting ready to crawl in."
 		},
 		{
-			"character": "character-1681439104.json",
+			"character": "character-1681086547.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Let’s get you behind that bar!"
+			"text": "Don’t forget, you’re still a student here, so we have to wake up for class tomorrow."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
 		},
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Alright, time to do this, I guess."
+			"text": "Yeah, I know."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "G-Goodnight?"
+		},
+		{
+			"character": "character-1681086547.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "YOU SAID IT FIRST! NIGHTY-NIGHT, ALIS!"
 		},
 		{
 			"background": "res://dialogic/black.jpeg",
 			"event_id": "dialogic_021"
-		},
-		{
-			"event_id": "dialogic_015",
-			"id": "anchor-1634488067",
-			"index": 0,
-			"name": "INSERT MINIGAME HERE"
 		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.5",
-		"file": "timeline-1681498128.json",
-		"name": "bringIngredientsToTavern"
+		"file": "timeline-1685244567.json",
+		"name": "chapter1End"
 	}
 }

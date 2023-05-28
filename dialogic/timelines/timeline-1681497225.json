@@ -31,6 +31,26 @@
 			"text": "You’re back! Didja get our stuff?"
 		},
 		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "happy_wonderland",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
@@ -39,7 +59,7 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "default_wonderland",
 			"text": "( Can’t believe I’m saying this, but I’m a little excited to trade them their things… )"
 		},
 		{

@@ -8,7 +8,7 @@
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_002",
 			"mirror_portrait": false,
-			"portrait": "Default",
+			"portrait": "default_wonderland",
 			"portrait_definition": "",
 			"position": {
 				"0": true,
@@ -71,7 +71,7 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "mad_wonderland",
 			"text": "( Are you serious… ugh, fine, just hurry up. )"
 		},
 		{
@@ -109,7 +109,7 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "default_wonderland",
 			"text": "Yes! That’s right."
 		},
 		{
@@ -127,7 +127,7 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "happy_wonderland",
 			"text": "Really!"
 		},
 		{

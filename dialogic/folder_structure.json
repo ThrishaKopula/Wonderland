@@ -107,7 +107,7 @@
 			},
 			"metadata": {
 				"color": null,
-				"folded": false
+				"folded": true
 			}
 		},
 		"Timelines": {
@@ -127,7 +127,8 @@
 						"timeline-1681497225.json",
 						"timeline-1681498128.json",
 						"timeline-1681498702.json",
-						"timeline-1681499928.json"
+						"timeline-1681499928.json",
+						"timeline-1685244567.json"
 					],
 					"folders": {
 						"Interactables": {
@@ -141,7 +142,7 @@
 							},
 							"metadata": {
 								"color": null,
-								"folded": false
+								"folded": true
 							}
 						},
 						"basicNPCs": {
@@ -159,7 +160,7 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": true
+						"folded": false
 					}
 				},
 				"Chapter 2": {

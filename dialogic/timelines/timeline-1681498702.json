@@ -16,7 +16,7 @@
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_002",
 			"mirror_portrait": false,
-			"portrait": "Default",
+			"portrait": "default_wonderland",
 			"portrait_definition": "",
 			"position": {
 				"0": true,
