@@ -59,8 +59,10 @@ var catch_tavern = false
 var catch_plebTown = false
 var catch_aristocratTown = false
 var mini_game1 = false
+
 # Called when the node enters the scene tree for the first time.
 func _ready():
+	connect("my_signal", self, "signal_handler")
 	pass # Replace with function body.
 
 func prologue_checkAllInteractions():
@@ -75,7 +77,12 @@ func prologue_checkAllInteractions():
 		isPrologueDone = true
 	
 func unpauseProloguePart3(timeline_name):
-	get_tree().change_scene("res://Scenes/thrishaStuff/Locations/Overworld/Dream.tscn")
+	#get_tree().change_scene("res://Scenes/thrishaStuff/Locations/Overworld/Dream.tscn")
+	get_tree().paused = false
+	Fade.change_scene("res://Scenes/thrishaStuff/Locations/Overworld/Dream.tscn")
+	
+	yield(get_tree().create_timer(3), "timeout")
+	
 	get_tree().paused = true
 	canPlayerMove = false
 	var dialog = Dialogic.start("movingInPart3")
@@ -84,7 +91,6 @@ func unpauseProloguePart3(timeline_name):
 	add_child(dialog)
 	isPrologueDone = true
 
-	
 func unpauseMiniGame1(timeline_name):
 	get_tree().paused = false
 	canPlayerMove = true

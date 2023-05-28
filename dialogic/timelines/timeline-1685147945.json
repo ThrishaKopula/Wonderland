@@ -10,10 +10,6 @@
 			"volume": 0
 		},
 		{
-			"background": "res://dialogic/black.jpeg",
-			"event_id": "dialogic_021"
-		},
-		{
 			"animation": "[Default]",
 			"animation_length": 0,
 			"change_mirror_portrait": false,
@@ -32,10 +28,6 @@
 			},
 			"type": 1,
 			"z_index": 0
-		},
-		{
-			"background": "res://dialogic/black.jpeg",
-			"event_id": "dialogic_021"
 		},
 		{
 			"event_id": "dialogic_024",
