@@ -225,11 +225,6 @@
 			"text": "The next morning…"
 		},
 		{
-			"event_id": "dialogic_023",
-			"hide_dialogbox": true,
-			"wait_seconds": 2
-		},
-		{
 			"event_id": "dialogic_024",
 			"set_theme": "default-theme.cfg"
 		},
@@ -449,7 +444,7 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "shock",
 			"text": "What!? Right off the bat!?"
 		},
 		{
@@ -461,13 +456,13 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "mad",
 			"text": "( Huh…What…? )"
 		},
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "shock",
 			"text": "( …Whaaaaat? )"
 		},
 		{
@@ -477,7 +472,7 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Default",
 			"text": "( Man… there’s no way I passed that… )"
 		},
 		{
@@ -493,10 +488,24 @@
 			"text": "( I guess I’ll head back to my dorm… )"
 		},
 		{
-			"character": "",
-			"event_id": "dialogic_001",
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
 			"portrait": "",
-			"text": ""
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
 		},
 		{
 			"background": "res://dialogic/black.jpeg",
@@ -521,27 +530,47 @@
 			"volume": 0
 		},
 		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "mad",
 			"text": "You? Why are you still here!?"
 		},
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Default",
 			"text": "…"
 		},
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "mad",
 			"text": "Hey, listen to me when I’m speaking!"
 		},
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "mad",
 			"text": "Listen here you little sh–WOAH!"
 		},
 		{
@@ -1187,7 +1216,7 @@
 			"text": "Oh, of course, Mattie! Here you go, Alis!"
 		},
 		{
-			"background": "",
+			"background": "res://Scenes/thrishaStuff/images/dialog_backgrounds/Tea_Party_1920.png",
 			"event_id": "dialogic_021"
 		},
 		{
@@ -1454,6 +1483,10 @@
 			"event_id": "dialogic_021"
 		},
 		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1683685843.cfg"
+		},
+		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
 			"portrait": "Default",
@@ -1512,6 +1545,10 @@
 		{
 			"background": "res://Scenes/thrishaStuff/images/dialog_backgrounds/Dorm_W_Mirror_1920.png",
 			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "default-theme.cfg"
 		},
 		{
 			"character": "character-1681086547.json",
@@ -1613,7 +1650,7 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "shock",
 			"text": "U-Uh! Here, I’m here."
 		},
 		{
@@ -1876,7 +1913,7 @@
 			"event_name": "BackgroundMusic",
 			"fade_length": 1,
 			"file": "res://Scenes/thrishaStuff/Audio/TeaParty/Kevin MacLeod： Darkest Child (var A).wav",
-			"volume": 0
+			"volume": -3
 		},
 		{
 			"event_id": "dialogic_024",
