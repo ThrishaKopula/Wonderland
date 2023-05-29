@@ -1,8 +1,10 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/MainMenu.gd" type="Script" id=1]
 [ext_resource path="res://Scenes/thrishaStuff/Audio/MouseClick.wav" type="AudioStream" id=2]
 [ext_resource path="res://Scenes/leoStuff/HUD/HUD.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Scenes/thrishaStuff/Audio/Dorm/Kevin MacLeod： Chill.wav" type="AudioStream" id=4]
+[ext_resource path="res://Scenes/thrishaStuff/Scripts/MenuAudio.gd" type="Script" id=5]
 
 [node name="Menu" type="Control"]
 anchor_right = 1.0
@@ -94,6 +96,13 @@ enable = false
 
 [node name="menu" parent="HUD" index="1"]
 enable = false
+
+[node name="MenuAudio" type="AudioStreamPlayer" parent="."]
+pause_mode = 2
+stream = ExtResource( 4 )
+volume_db = -3.0
+autoplay = true
+script = ExtResource( 5 )
 
 [connection signal="button_down" from="VBoxContainer/testing" to="." method="_on_StartButton_button_down"]
 [connection signal="pressed" from="VBoxContainer/testing" to="." method="_on_StartButton_pressed"]
