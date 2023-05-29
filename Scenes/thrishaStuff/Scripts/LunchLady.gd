@@ -22,7 +22,7 @@ func _input(event):
 				dialog.connect('timeline_end', self, 'unpause')
 				add_child(dialog)
 				StoryVariables.isFindWhoIsCloseToJanitor = true
-				StoryVariables.isInitiateCh2MainQuest == false
+				StoryVariables.isInitiateCh2MainQuest = false
 			elif(StoryVariables.isBringThiefToVendors == true):
 				pause_game()
 				var dialog = Dialogic.start("/Chapter 2/deliverExoticFruitToLunchLady")
@@ -30,7 +30,7 @@ func _input(event):
 				dialog.connect('timeline_end', self, 'unpause')
 				add_child(dialog)
 				StoryVariables.isDeliverExoticFruitToLunchLady = true
-				StoryVariables.isBringThiefToVendors == false
+				StoryVariables.isBringThiefToVendors = false
 
 func pause_game():
 	get_tree().paused = true

@@ -187,8 +187,12 @@
 			"text": "He eats slowly, but it’s clear he is enjoying the snack."
 		},
 		{
-			"background": "res://dialogic/classroom.png",
+			"background": "",
 			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "default-theme.cfg"
 		},
 		{
 			"character": "character-1683770218.json",

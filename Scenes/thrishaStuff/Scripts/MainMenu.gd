@@ -14,6 +14,7 @@ func checkAudio():
 		
 func _on_StartButton_pressed():
 	canAudioPlay = false
+	checkAudio()
 	var dialog = Dialogic.start("testing")
 	add_child(dialog)
 	yield(dialog, 'timeline_end')
@@ -70,6 +71,6 @@ func _on_Chapter_2_pressed():
 	StoryVariables.isChapterTwoStart = true
 	StoryVariables.currentlyInChapterTwo = true
 	get_tree().change_scene("res://Scenes/thrishaStuff/Locations/Overworld/Classroom.tscn")
-
+	
 func _on_Chapter_2_button_down():
 	$ButtonClick.play()
