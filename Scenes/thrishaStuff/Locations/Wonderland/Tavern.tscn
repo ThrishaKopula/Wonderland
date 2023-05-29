@@ -12622,6 +12622,7 @@ position = Vector2( 11, -11.5 )
 shape = SubResource( 10 )
 
 [node name="Thief" type="Area2D" parent="."]
+pause_mode = 2
 position = Vector2( 278, 720 )
 script = ExtResource( 9 )
 __meta__ = {

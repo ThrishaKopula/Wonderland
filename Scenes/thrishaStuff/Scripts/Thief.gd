@@ -3,35 +3,57 @@ extends Area2D
 var active = false
 
 func _process(_delta):
+	
 	$QuestionMark.visible = active
 
 func _input(event):
 	if get_node_or_null('DialogNode') == null:
 		if event.is_action_pressed("interact") and active:
-			if(StoryVariables.isInTavern == true):
+			if(StoryVariables.isInThiefGame == true and StoryVariables.isInTavern == true):
 				pause_game()
-				var dialog = Dialogic.start("testing")
+				var dialog;
+				match StoryVariables.catch_num:
+					0:
+						dialog = Dialogic.start("thief_catch1")
+					1:
+						dialog = Dialogic.start("thief_catch2")
+					2:
+						dialog = Dialogic.start("thief_catch3")
+						StoryVariables.isCatchTheThief = true
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
 				dialog.connect('timeline_end', self, 'unpause')
 				add_child(dialog)
-				StoryVariables.catch_tavern = true
-				StoryVariables.chapter2_checkCatchTheThief()
-			elif(StoryVariables.isInPlebTown == true):
+				StoryVariables.catch_num += 1
+			elif(StoryVariables.isInThiefGame == true and StoryVariables.isInPlebTown == true):
 				pause_game()
-				var dialog = Dialogic.start("testing")
+				var dialog;
+				match StoryVariables.catch_num:
+					0:
+						dialog = Dialogic.start("thief_catch1")
+					1:
+						dialog = Dialogic.start("thief_catch2")
+					2:
+						dialog = Dialogic.start("thief_catch3")
+						StoryVariables.isCatchTheThief = true
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
 				dialog.connect('timeline_end', self, 'unpause')
 				add_child(dialog)
-				StoryVariables.catch_plebTown = true
-				StoryVariables.chapter2_checkCatchTheThief()
-			elif(StoryVariables.isInAristocratTown == true):
+				StoryVariables.catch_num += 1
+			elif(StoryVariables.isInThiefGame == true and StoryVariables.isInAristocratTown == true):
 				pause_game()
-				var dialog = Dialogic.start("thief_aristocratTown")
+				var dialog;
+				match StoryVariables.catch_num:
+					0:
+						dialog = Dialogic.start("thief_catch1")
+					1:
+						dialog = Dialogic.start("thief_catch2")
+					2:
+						dialog = Dialogic.start("thief_catch3")
+						StoryVariables.isCatchTheThief = true
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
 				dialog.connect('timeline_end', self, 'unpause')
 				add_child(dialog)
-				StoryVariables.catch_aristocratTown = true
-				StoryVariables.chapter2_checkCatchTheThief()
+				StoryVariables.catch_num += 1
 
 func pause_game():
 	get_tree().paused = true
@@ -43,8 +65,15 @@ func unpause(timeline_name):
 	active = false
 
 func _on_Thief_body_entered(body):
-	if body.name == 'player':
+	if body.name == 'player' and StoryVariables.isInThiefGame == true:
 		active = true
+	if(StoryVariables.isInPlebTown == true and StoryVariables.catch_plebTown == true):
+		active = false
+	if(StoryVariables.isInAristocratTown == true and StoryVariables.catch_aristocratTown == true):
+		active = false
+	if(StoryVariables.isInTavern == true and StoryVariables.catch_tavern == true):
+		active = false
+	
 
 func _on_Thief_body_exited(body):
 	if body.name == 'player':

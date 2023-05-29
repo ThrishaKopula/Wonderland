@@ -37,6 +37,7 @@ func _input(event):
 				dialog.connect('timeline_end', self, 'unpause')
 				add_child(dialog)
 				StoryVariables.isRetrieveExoticFruit = true
+				StoryVariables.isInThiefGame = true
 				StoryVariables.isFindWhoIsCloseToJanitor = false
 			elif(StoryVariables.isCatchTheThief == true):
 				pause_game()

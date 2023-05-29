@@ -143,7 +143,7 @@
 							},
 							"metadata": {
 								"color": null,
-								"folded": false
+								"folded": true
 							}
 						},
 						"basicNPCs": {
@@ -161,7 +161,7 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": false
+						"folded": true
 					}
 				},
 				"Chapter 2": {
@@ -181,15 +181,14 @@
 							"files": [
 								"timeline-1684260526.json",
 								"timeline-1684260538.json",
-								"timeline-1684260548.json",
-								"timeline-1684347322.json"
+								"timeline-1684260548.json"
 							],
 							"folders": {
 
 							},
 							"metadata": {
 								"color": null,
-								"folded": true
+								"folded": false
 							}
 						}
 					},
@@ -225,7 +224,7 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": false
+						"folded": true
 					}
 				},
 				"Marlon": {

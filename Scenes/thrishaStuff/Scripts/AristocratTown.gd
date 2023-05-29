@@ -15,7 +15,10 @@ func _ready():
 func _process(delta):
 	if ($AristocratTownAudio.playing == false):
 		$AristocratTownAudio.play()
-	pass
+	if(StoryVariables.isInThiefGame == true and StoryVariables.catch_aristocratTown == false):
+		$Thief.show()
+	else:
+		$Thief.hide()
 
 
 func _on_Thief_body_entered(body):
@@ -24,4 +27,5 @@ func _on_Thief_body_entered(body):
 
 func _on_Thief_body_exited(body):
 	StoryVariables.isInAristocratTown = false
-	$Thief.queue_free()
+	StoryVariables.catch_aristocratTown = true
+	$Thief.hide()

@@ -21,6 +21,12 @@
 			"z_index": 0
 		},
 		{
+			"character": "character-1683770471.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh, you were dead serious!"
+		},
+		{
 			"animation": "[Default]",
 			"animation_length": 0,
 			"change_mirror_portrait": false,
@@ -39,12 +45,6 @@
 			},
 			"type": 0,
 			"z_index": 0
-		},
-		{
-			"character": "character-1683770471.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "Oh, you were dead serious!"
 		},
 		{
 			"character": "character-1681086055.json",
