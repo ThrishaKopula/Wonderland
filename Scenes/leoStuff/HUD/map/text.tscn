@@ -1,9 +1,12 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://Scenes/leoStuff/HUD/map/map_text.gd" type="Script" id=1]
+[ext_resource path="res://addons/dialogic/Example Assets/Fonts/Overlock/Overlock.tres" type="DynamicFont" id=2]
+
+[sub_resource type="Theme" id=2]
 
 [sub_resource type="StyleBoxFlat" id=1]
-bg_color = Color( 0, 0, 0, 1 )
+bg_color = Color( 0.6, 0.6, 0.6, 0 )
 
 [node name="name of place" type="CanvasLayer"]
 layer = 2
@@ -22,6 +25,9 @@ margin_left = -20.0
 margin_top = -12.5
 margin_right = 20.0
 margin_bottom = 1.5
+theme = SubResource( 2 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = ExtResource( 2 )
 custom_styles/normal = SubResource( 1 )
 text = "LOL"
 align = 1

@@ -6,9 +6,13 @@ var change_text;
 
 export var enable = true;
 
-onready var overworld = preload("res://art/pokemon map.PNG");
+onready var overworld = preload("res://Scenes/leoStuff/HUD/map/mapArt/Map_Overworld-1.png");
 
-onready var wonderland = preload("res://art/1200px-LGPE_Kanto_Map.png");
+onready var wonderland = preload("res://Scenes/leoStuff/HUD/map/mapArt/Map_Wonderland-1.png");
+
+onready var overworldBut = preload("res://Scenes/leoStuff/HUD/map/mapArt/Map_Overworld_BUTTON.png");
+
+onready var wonderlandBut = preload("res://Scenes/leoStuff/HUD/map/mapArt/Map_Wonderland_BUTTON.png");
 
 export var isOverworld = true;
 
@@ -146,7 +150,7 @@ func _on_classroom_mouse_exited():
 func _on_change_pressed():
 	
 	changeMap();
-		
+	
 	pass # Replace with function body.
 
 
@@ -162,6 +166,8 @@ func changeMap():
 		$Hallway.hide();
 		$dorm.hide();
 		
+		
+		$change.icon = wonderlandBut;
 		$ArstocratTown.show();
 		$Courtyard.show();
 		$PlebTown.show();
@@ -174,6 +180,8 @@ func changeMap():
 		$PokemonMap.texture = overworld
 		isOverworld = true;
 		
+		
+		$change.icon = overworldBut;
 		$ArstocratTown.hide();
 		$Courtyard.hide();
 		$PlebTown.hide();
@@ -326,4 +334,14 @@ func _on_TeaParty_mouse_exited():
 
 func _on_TeaParty_hide():
 	text.hide();
+	pass # Replace with function body.
+
+
+func _on_change_mouse_entered():
+	$change.rect_scale = Vector2(1,1);
+	pass # Replace with function body.
+
+
+func _on_change_mouse_exited():
+	$change.rect_scale = Vector2(.8,.8);
 	pass # Replace with function body.
