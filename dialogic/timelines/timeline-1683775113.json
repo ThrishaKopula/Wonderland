@@ -109,8 +109,12 @@
 			"text": "The steaming pie is sliced evenly and packed into a cute, little parcel."
 		},
 		{
-			"background": "res://dialogic/classroom.png",
+			"background": "",
 			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "default-theme.cfg"
 		},
 		{
 			"character": "character-1683770471.json",

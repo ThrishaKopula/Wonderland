@@ -9,13 +9,14 @@ func _input(event):
 	if get_node_or_null('DialogNode') == null:
 		if event.is_action_pressed("interact") and active:
 			if(StoryVariables.isChapterTwoStart == true):
+				print(StoryVariables.isChapterTwoStart)
 				pause_game()
 				var dialog = Dialogic.start("initiateCh2MainQuest")
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
 				dialog.connect('timeline_end', self, 'unpause')
 				add_child(dialog)
 				StoryVariables.isInitiateCh2MainQuest = true
-				StoryVariables.isChapterTwoStart == false
+				StoryVariables.isChapterTwoStart = false
 			elif(StoryVariables.isDeliverExoticFruitToLunchLady == true):
 				pause_game()
 				var dialog = Dialogic.start("/Chapter 2/deliverToJanitor")

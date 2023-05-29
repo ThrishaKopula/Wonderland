@@ -51,7 +51,7 @@ var isCatchTheThief = false
 var isBringThiefToVendors = false
 var isDeliverExoticFruitToLunchLady = false
 var isDeliverToJanitor = false
-var isAfterCleaningMinigame = false
+var isAfterCleaningMinigame = true
 var isDeliverKeyToMatthew = false
 
 #CATCH THE THIEF GAME

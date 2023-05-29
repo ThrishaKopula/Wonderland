@@ -1,10 +1,6 @@
 extends Control
 
 
-# Declare member variables here. Examples:
-# var a = 2
-# var b = "text"
-
 var canAudioPlay = true
 
 func checkAudio():
@@ -17,11 +13,11 @@ func checkAudio():
 func _on_Continue_pressed():
 	canAudioPlay = false
 	checkAudio()
-	var dialog = Dialogic.start("chapter1Start")
+	var dialog = Dialogic.start("chapter3Start")
 	add_child(dialog)
 	yield(dialog, 'timeline_end')
-	StoryVariables.isChapterOneStartDone= true
-	StoryVariables.currentlyInChapterOne = true
+	StoryVariables.isChapter3Start = true
+	StoryVariables.currentlyInChapterThree = true
 	get_tree().change_scene("res://Scenes/thrishaStuff/Locations/Overworld/Classroom.tscn")
 
 func _on_Continue_button_down():
