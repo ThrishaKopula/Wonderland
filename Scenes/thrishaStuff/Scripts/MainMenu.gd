@@ -15,7 +15,7 @@ func checkAudio():
 func _on_StartButton_pressed():
 	canAudioPlay = false
 	checkAudio()
-	var dialog = Dialogic.start("testing")
+	var dialog = Dialogic.start("movingInPart3")
 	add_child(dialog)
 	yield(dialog, 'timeline_end')
 	get_tree().change_scene("res://Scenes/thrishaStuff/Locations/Overworld/Dorm.tscn")
