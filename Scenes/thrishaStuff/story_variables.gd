@@ -77,6 +77,9 @@ func _ready():
 func prologue_checkAllInteractions():
 	if (isMapInteracted == true && isAlisBedInteracted == true && isOtherBedInteracted == true && isMirrorInteracted == true):
 		isAllRoomInteracted = true
+		get_tree().paused = false
+		Fade.change_scene("res://Scenes/thrishaStuff/Locations/Overworld/Dream.tscn")
+		yield(get_tree().create_timer(2), "timeout")
 		get_tree().paused = true
 		canPlayerMove = false
 		var dialog = Dialogic.start("movingInPart2")

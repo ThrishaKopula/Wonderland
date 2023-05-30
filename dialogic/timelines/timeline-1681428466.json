@@ -1,19 +1,19 @@
 {
 	"events": [
 		{
-			"background": "res://Scenes/thrishaStuff/images/dialog_backgrounds/Classroom_1920.png",
+			"background": "res://Scenes/thrishaStuff/images/dialog_backgrounds/Tea_Party_1920.png",
 			"event_id": "dialogic_021"
 		},
 		{
 			"event_id": "dialogic_024",
-			"set_theme": "default-theme.cfg"
+			"set_theme": "theme-1683225590.cfg"
 		},
 		{
 			"animation": "[Default]",
 			"animation_length": 0,
 			"change_mirror_portrait": false,
 			"change_z_index": false,
-			"character": "character-1681272416.json",
+			"character": "character-1681086547.json",
 			"event_id": "dialogic_002",
 			"mirror_portrait": false,
 			"portrait": "Default",
@@ -29,36 +29,10 @@
 			"z_index": 0
 		},
 		{
-			"character": "character-1681272416.json",
+			"character": "character-1681086547.json",
 			"event_id": "dialogic_001",
 			"portrait": "default_wonderland",
 			"text": "Of course I am!"
-		},
-		{
-			"animation": "[Default]",
-			"animation_length": 0,
-			"change_mirror_portrait": false,
-			"change_z_index": false,
-			"character": "character-1681086055.json",
-			"event_id": "dialogic_002",
-			"mirror_portrait": false,
-			"portrait": "Default",
-			"portrait_definition": "",
-			"position": {
-				"0": true,
-				"1": false,
-				"2": false,
-				"3": false,
-				"4": false
-			},
-			"type": 0,
-			"z_index": 0
-		},
-		{
-			"character": "character-1681086055.json",
-			"event_id": "dialogic_001",
-			"portrait": "(Don't change)",
-			"text": "hello"
 		},
 		{
 			"character": "character-1681338302.json",
