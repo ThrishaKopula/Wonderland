@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Tea_Party_Mini_game-10.png-943f042d10dd433fd604f45cfc005893.stex"
+path="res://.import/SIDE_CUPS-3.png-eb284ee864cd2481316fa7931feca760.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Scenes/leoStuff/mini_game1/art/Tea_Party_Mini_game-10.png"
-dest_files=[ "res://.import/Tea_Party_Mini_game-10.png-943f042d10dd433fd604f45cfc005893.stex" ]
+source_file="res://Scenes/leoStuff/mini_game1/art/SIDE_CUPS-3.png"
+dest_files=[ "res://.import/SIDE_CUPS-3.png-eb284ee864cd2481316fa7931feca760.stex" ]
 
 [params]
 
