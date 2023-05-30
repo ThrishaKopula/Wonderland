@@ -54,6 +54,8 @@ func swap(item):
 		if turn <= 0:
 			timelabel.text = var2str(0);
 			$"../Wcon".play("lose");
+			yield( $"../Wcon", "animation_finished");
+			get_tree().reload_current_scene();
 		else:
 			
 			timelabel.text = var2str(turn);
