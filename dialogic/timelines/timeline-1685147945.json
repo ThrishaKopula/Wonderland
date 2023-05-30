@@ -1678,18 +1678,6 @@
 			"text": "BEEP BEEP BEE–"
 		},
 		{
-			"character": "character-1681086055.json",
-			"event_id": "dialogic_001",
-			"portrait": "shock",
-			"text": "GODDAMN, IT WASN’T A DREAM!"
-		},
-		{
-			"character": "character-1681086547.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "BEEP–"
-		},
-		{
 			"animation": "[Default]",
 			"animation_length": 0,
 			"change_mirror_portrait": false,
@@ -1708,6 +1696,18 @@
 			},
 			"type": 0,
 			"z_index": 0
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "mad",
+			"text": "GODDAMN, IT WASN’T A DREAM!"
+		},
+		{
+			"character": "character-1681086547.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "BEEP–"
 		},
 		{
 			"character": "character-1681086055.json",
