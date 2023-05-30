@@ -176,13 +176,25 @@ func _on_D1_pressed():
 	swap(get_node("animated/D1"));
 	pass # Replace with function body.
 
-
-
 func _on_cheat_mouse_entered():
-	$"../cheat".rect_scale = Vector2(1,1);
+	if not $"../cheat".disabled:
+		$"../cheat".rect_scale = Vector2(1,1);
 	pass # Replace with function body.
 
 
 func _on_cheat_mouse_exited():
-	$"../cheat".rect_scale = Vector2(0.9,0.9);
+	if not $"../cheat".disabled:
+		$"../cheat".rect_scale = Vector2(0.9,0.9);
+	pass # Replace with function body.
+
+
+func _on_cheat_pressed():
+	turn = turn + 999;
+	$"../block".show();
+	$"../overall".get_node("AnimationPlayer").play("Best Cookie (Yellow)");
+	yield($"../overall".get_node("AnimationPlayer"), "animation_finished");
+	$"../block".hide();
+	timelabel.text = "∞";
+	$"../Wcon".play("add time");
+	$"../cheat".disabled = true;
 	pass # Replace with function body.

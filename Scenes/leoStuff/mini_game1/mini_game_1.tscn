@@ -1,4 +1,4 @@
-[gd_scene load_steps=38 format=2]
+[gd_scene load_steps=40 format=2]
 
 [ext_resource path="res://testing_object.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Scenes/leoStuff/mini_game1/mini_game1_logic.gd" type="Script" id=2]
@@ -34,6 +34,7 @@
 [ext_resource path="res://Scenes/mimistuff/marlon/Marlon-Overworld-7.png" type="Texture" id=32]
 [ext_resource path="res://Scenes/mimistuff/overworld_NPC/coattail blank.png" type="Texture" id=33]
 [ext_resource path="res://addons/dialogic/Example Assets/Fonts/Overlock/Overlock.tres" type="DynamicFont" id=34]
+[ext_resource path="res://Scenes/mimistuff/00 cookie eat animation/cookie ani.tscn" type="PackedScene" id=35]
 
 [sub_resource type="Animation" id=1]
 resource_name = "RESET"
@@ -60,6 +61,34 @@ tracks/1/keys = {
 "transitions": PoolRealArray( 1 ),
 "update": 0,
 "values": [ ExtResource( 16 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Timer/timer:custom_colors/font_color")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 1 ) ]
+}
+
+[sub_resource type="Animation" id=4]
+resource_name = "add time"
+length = 0.6
+tracks/0/type = "value"
+tracks/0/path = NodePath("Timer/timer:custom_colors/font_color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 1 ), Color( 0.513726, 0.898039, 0.490196, 1 ), Color( 0, 0, 0, 1 ), Color( 0.513726, 0.898039, 0.490196, 1 ), Color( 0, 0, 0, 1 ), Color( 0.513726, 0.898039, 0.490196, 1 ), Color( 0, 0, 0, 1 ) ]
 }
 
 [sub_resource type="Animation" id=2]
@@ -390,6 +419,8 @@ grow_horizontal = 2
 grow_vertical = 2
 rect_scale = Vector2( 0.9, 0.9 )
 rect_pivot_offset = Vector2( 167, 112 )
+focus_mode = 0
+enabled_focus_mode = 0
 icon = ExtResource( 13 )
 flat = true
 
@@ -407,17 +438,6 @@ custom_fonts/font = ExtResource( 34 )
 text = "10"
 align = 1
 valign = 1
-
-[node name="WL" type="Node2D" parent="."]
-modulate = Color( 1, 1, 1, 0 )
-
-[node name="back" type="Sprite" parent="WL"]
-texture = ExtResource( 15 )
-centered = false
-
-[node name="text" type="Sprite" parent="WL"]
-texture = ExtResource( 16 )
-centered = false
 
 [node name="character" parent="." instance=ExtResource( 20 )]
 position = Vector2( 1548, 1018 )
@@ -470,8 +490,37 @@ texture = ExtResource( 29 )
 [node name="r hand" parent="character/body/torso/r upper/r arm" index="0"]
 texture = ExtResource( 31 )
 
+[node name="WL" type="Node2D" parent="."]
+modulate = Color( 1, 1, 1, 0 )
+z_index = 20
+
+[node name="back" type="Sprite" parent="WL"]
+texture = ExtResource( 15 )
+centered = false
+
+[node name="text" type="Sprite" parent="WL"]
+texture = ExtResource( 16 )
+centered = false
+
+[node name="overall" parent="." instance=ExtResource( 35 )]
+position = Vector2( 960, 540 )
+
+[node name="cookie" parent="overall" index="0"]
+scale = Vector2( 0.750628, 0.750628 )
+
+[node name="block" type="Button" parent="."]
+visible = false
+margin_left = 209.0
+margin_top = 226.0
+margin_right = 894.0
+margin_bottom = 869.0
+focus_mode = 0
+enabled_focus_mode = 0
+flat = true
+
 [node name="Wcon" type="AnimationPlayer" parent="."]
 anims/RESET = SubResource( 1 )
+"anims/add time" = SubResource( 4 )
 anims/lose = SubResource( 2 )
 anims/won = SubResource( 3 )
 
@@ -493,6 +542,7 @@ anims/won = SubResource( 3 )
 [connection signal="pressed" from="Control/animated/D4/Button" to="Control" method="_on_D4_pressed"]
 [connection signal="mouse_entered" from="cheat" to="Control" method="_on_cheat_mouse_entered"]
 [connection signal="mouse_exited" from="cheat" to="Control" method="_on_cheat_mouse_exited"]
+[connection signal="pressed" from="cheat" to="Control" method="_on_cheat_pressed"]
 
 [editable path="Control/animated/A1"]
 [editable path="Control/animated/A2"]
@@ -511,3 +561,4 @@ anims/won = SubResource( 3 )
 [editable path="Control/animated/D3"]
 [editable path="Control/animated/D4"]
 [editable path="character"]
+[editable path="overall"]

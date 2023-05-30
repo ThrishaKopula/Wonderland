@@ -25,7 +25,7 @@
 [sub_resource type="Animation" id=5]
 resource_name = "Best Cookie (Yellow)"
 length = 1.75
-loop = true
+step = 0.01
 tracks/0/type = "value"
 tracks/0/path = NodePath("cookie:position")
 tracks/0/interp = 1
@@ -66,7 +66,7 @@ tracks/2/keys = {
 [sub_resource type="Animation" id=3]
 resource_name = "Blue Cookie"
 length = 1.75
-loop = true
+step = 0.01
 tracks/0/type = "value"
 tracks/0/path = NodePath("cookie:position")
 tracks/0/interp = 1
@@ -107,7 +107,6 @@ tracks/2/keys = {
 [sub_resource type="Animation" id=1]
 resource_name = "Pink Cookie"
 length = 1.75
-loop = true
 step = 0.05
 tracks/0/type = "value"
 tracks/0/path = NodePath("cookie:position")
@@ -149,7 +148,6 @@ tracks/2/keys = {
 [sub_resource type="Animation" id=4]
 resource_name = "Purple Cookie"
 length = 1.75
-loop = true
 tracks/0/type = "value"
 tracks/0/path = NodePath("cookie:position")
 tracks/0/interp = 1
@@ -199,7 +197,7 @@ tracks/0/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 0,
-"values": [ Vector2( 0, 0 ) ]
+"values": [ Vector2( 0, 805 ) ]
 }
 tracks/1/type = "value"
 tracks/1/path = NodePath("cookie:rotation_degrees")
@@ -217,7 +215,8 @@ tracks/1/keys = {
 [node name="overall" type="Node2D"]
 
 [node name="cookie" type="Sprite" parent="."]
-texture = ExtResource( 17 )
+position = Vector2( 0, 805 )
+texture = ExtResource( 6 )
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 "anims/Best Cookie (Yellow)" = SubResource( 5 )
