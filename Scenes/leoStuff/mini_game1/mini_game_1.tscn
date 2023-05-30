@@ -1,4 +1,4 @@
-[gd_scene load_steps=38 format=2]
+[gd_scene load_steps=39 format=2]
 
 [ext_resource path="res://testing_object.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Scenes/leoStuff/mini_game1/mini_game1_logic.gd" type="Script" id=2]
@@ -60,6 +60,34 @@ tracks/1/keys = {
 "transitions": PoolRealArray( 1 ),
 "update": 0,
 "values": [ ExtResource( 16 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Timer/timer:custom_colors/font_color")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 1 ) ]
+}
+
+[sub_resource type="Animation" id=4]
+resource_name = "add time"
+length = 0.4
+tracks/0/type = "value"
+tracks/0/path = NodePath("Timer/timer:custom_colors/font_color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 1 ), Color( 0.513726, 0.898039, 0.490196, 1 ), Color( 0, 0, 0, 1 ), Color( 0.513726, 0.898039, 0.490196, 1 ), Color( 0, 0, 0, 1 ) ]
 }
 
 [sub_resource type="Animation" id=2]
@@ -390,6 +418,8 @@ grow_horizontal = 2
 grow_vertical = 2
 rect_scale = Vector2( 0.9, 0.9 )
 rect_pivot_offset = Vector2( 167, 112 )
+focus_mode = 0
+enabled_focus_mode = 0
 icon = ExtResource( 13 )
 flat = true
 
@@ -472,6 +502,7 @@ texture = ExtResource( 31 )
 
 [node name="Wcon" type="AnimationPlayer" parent="."]
 anims/RESET = SubResource( 1 )
+"anims/add time" = SubResource( 4 )
 anims/lose = SubResource( 2 )
 anims/won = SubResource( 3 )
 
@@ -493,6 +524,7 @@ anims/won = SubResource( 3 )
 [connection signal="pressed" from="Control/animated/D4/Button" to="Control" method="_on_D4_pressed"]
 [connection signal="mouse_entered" from="cheat" to="Control" method="_on_cheat_mouse_entered"]
 [connection signal="mouse_exited" from="cheat" to="Control" method="_on_cheat_mouse_exited"]
+[connection signal="pressed" from="cheat" to="Control" method="_on_cheat_pressed"]
 
 [editable path="Control/animated/A1"]
 [editable path="Control/animated/A2"]
