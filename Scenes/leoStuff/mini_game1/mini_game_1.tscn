@@ -1,4 +1,4 @@
-[gd_scene load_steps=39 format=2]
+[gd_scene load_steps=40 format=2]
 
 [ext_resource path="res://testing_object.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Scenes/leoStuff/mini_game1/mini_game1_logic.gd" type="Script" id=2]
@@ -34,6 +34,7 @@
 [ext_resource path="res://Scenes/mimistuff/marlon/Marlon-Overworld-7.png" type="Texture" id=32]
 [ext_resource path="res://Scenes/mimistuff/overworld_NPC/coattail blank.png" type="Texture" id=33]
 [ext_resource path="res://addons/dialogic/Example Assets/Fonts/Overlock/Overlock.tres" type="DynamicFont" id=34]
+[ext_resource path="res://Scenes/mimistuff/00 cookie eat animation/cookie ani.tscn" type="PackedScene" id=35]
 
 [sub_resource type="Animation" id=1]
 resource_name = "RESET"
@@ -501,6 +502,22 @@ centered = false
 texture = ExtResource( 16 )
 centered = false
 
+[node name="overall" parent="." instance=ExtResource( 35 )]
+position = Vector2( 960, 540 )
+
+[node name="cookie" parent="overall" index="0"]
+scale = Vector2( 0.750628, 0.750628 )
+
+[node name="block" type="Button" parent="."]
+visible = false
+margin_left = 209.0
+margin_top = 226.0
+margin_right = 894.0
+margin_bottom = 869.0
+focus_mode = 0
+enabled_focus_mode = 0
+flat = true
+
 [node name="Wcon" type="AnimationPlayer" parent="."]
 anims/RESET = SubResource( 1 )
 "anims/add time" = SubResource( 4 )
@@ -544,3 +561,4 @@ anims/won = SubResource( 3 )
 [editable path="Control/animated/D3"]
 [editable path="Control/animated/D4"]
 [editable path="character"]
+[editable path="overall"]

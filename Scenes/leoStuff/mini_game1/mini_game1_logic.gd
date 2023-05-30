@@ -189,8 +189,12 @@ func _on_cheat_mouse_exited():
 
 
 func _on_cheat_pressed():
-	turn = turn + 5;
-	timelabel.text = var2str(turn);
+	turn = turn + 999;
+	$"../block".show();
+	$"../overall".get_node("AnimationPlayer").play("Best Cookie (Yellow)");
+	yield($"../overall".get_node("AnimationPlayer"), "animation_finished");
+	$"../block".hide();
+	timelabel.text = "∞";
 	$"../Wcon".play("add time");
 	$"../cheat".disabled = true;
 	pass # Replace with function body.
