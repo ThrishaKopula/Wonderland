@@ -54,6 +54,8 @@ func swap(item):
 		if turn <= 0:
 			timelabel.text = var2str(0);
 			$"../Wcon".play("lose");
+			yield( $"../Wcon", "animation_finished");
+			get_tree().reload_current_scene();
 		else:
 			
 			timelabel.text = var2str(turn);
@@ -174,3 +176,13 @@ func _on_D1_pressed():
 	swap(get_node("animated/D1"));
 	pass # Replace with function body.
 
+
+
+func _on_cheat_mouse_entered():
+	$"../cheat".rect_scale = Vector2(1,1);
+	pass # Replace with function body.
+
+
+func _on_cheat_mouse_exited():
+	$"../cheat".rect_scale = Vector2(0.9,0.9);
+	pass # Replace with function body.
