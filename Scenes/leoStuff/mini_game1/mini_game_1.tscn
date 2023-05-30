@@ -1,36 +1,138 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=38 format=2]
 
 [ext_resource path="res://testing_object.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Scenes/leoStuff/mini_game1/mini_game1_logic.gd" type="Script" id=2]
 [ext_resource path="res://addons/animated_grid_container_plugin/animated_grid_container.gd" type="Script" id=3]
+[ext_resource path="res://Scenes/leoStuff/mini_game1/art/Tea_Party_Mini_game-1.png" type="Texture" id=4]
+[ext_resource path="res://Scenes/leoStuff/mini_game1/art/CUPS_Tea_Party_Mini_game_-4.png" type="Texture" id=5]
+[ext_resource path="res://Scenes/leoStuff/mini_game1/art/CUPS_Tea_Party_Mini_game_-2.png" type="Texture" id=6]
+[ext_resource path="res://Scenes/leoStuff/mini_game1/art/CUPS_Tea_Party_Mini_game_-3.png" type="Texture" id=7]
+[ext_resource path="res://Scenes/leoStuff/mini_game1/art/SIDE_CUPS-2.png" type="Texture" id=8]
+[ext_resource path="res://Scenes/leoStuff/mini_game1/art/Tea_Party_Mini_game-2.png" type="Texture" id=9]
+[ext_resource path="res://Scenes/leoStuff/mini_game1/art/SIDE_CUPS-1.png" type="Texture" id=10]
+[ext_resource path="res://Scenes/leoStuff/mini_game1/art/SIDE_CUPS-4.png" type="Texture" id=11]
+[ext_resource path="res://Scenes/leoStuff/mini_game1/art/SIDE_CUPS-3.png" type="Texture" id=12]
+[ext_resource path="res://Scenes/leoStuff/mini_game1/art/cheat.png" type="Texture" id=13]
+[ext_resource path="res://Scenes/leoStuff/mini_game1/art/timer.png" type="Texture" id=14]
+[ext_resource path="res://Scenes/leoStuff/mini_game1/art/back.png" type="Texture" id=15]
+[ext_resource path="res://Scenes/leoStuff/mini_game1/art/win.png" type="Texture" id=16]
+[ext_resource path="res://Scenes/leoStuff/mini_game1/art/lose.png" type="Texture" id=17]
+[ext_resource path="res://Scenes/mimistuff/marlon/Marlon-Overworld-8.png" type="Texture" id=18]
+[ext_resource path="res://Scenes/mimistuff/marlon/Marlon-Overworld-11.png" type="Texture" id=19]
+[ext_resource path="res://Scenes/mimistuff/marlon/marlon.tscn" type="PackedScene" id=20]
+[ext_resource path="res://Scenes/mimistuff/marlon/Marlon-Overworld-6.png" type="Texture" id=21]
+[ext_resource path="res://Scenes/mimistuff/marlon/Marlon-Overworld-4.png" type="Texture" id=22]
+[ext_resource path="res://Scenes/mimistuff/marlon/Marlon-Overworld-9.png" type="Texture" id=23]
+[ext_resource path="res://Scenes/mimistuff/marlon/Marlon-Overworld-3.png" type="Texture" id=24]
+[ext_resource path="res://Scenes/mimistuff/marlon/Marlon-Overworld-10.png" type="Texture" id=25]
+[ext_resource path="res://Scenes/mimistuff/marlon/Marlon-Overworld-2.png" type="Texture" id=26]
+[ext_resource path="res://Scenes/mimistuff/marlon/Marlon-Overworld-14.png" type="Texture" id=27]
+[ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/coattail_blank.png" type="Texture" id=28]
+[ext_resource path="res://Scenes/mimistuff/marlon/Marlon-Overworld-12.png" type="Texture" id=29]
+[ext_resource path="res://Scenes/mimistuff/marlon/Marlon-Overworld-5.png" type="Texture" id=30]
+[ext_resource path="res://Scenes/mimistuff/marlon/Marlon-Overworld-13.png" type="Texture" id=31]
+[ext_resource path="res://Scenes/mimistuff/marlon/Marlon-Overworld-7.png" type="Texture" id=32]
+[ext_resource path="res://Scenes/mimistuff/overworld_NPC/coattail blank.png" type="Texture" id=33]
+[ext_resource path="res://addons/dialogic/Example Assets/Fonts/Overlock/Overlock.tres" type="DynamicFont" id=34]
 
-[sub_resource type="Animation" id=4]
-resource_name = "testing"
+[sub_resource type="Animation" id=1]
+resource_name = "RESET"
 tracks/0/type = "value"
-tracks/0/path = NodePath("Control:script")
+tracks/0/path = NodePath("WL:modulate")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/imported = false
 tracks/0/enabled = true
 tracks/0/keys = {
-"times": PoolRealArray(  ),
-"transitions": PoolRealArray(  ),
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("WL/text:texture")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ ExtResource( 16 ) ]
+}
+
+[sub_resource type="Animation" id=2]
+resource_name = "lose"
+length = 2.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("WL:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("WL/text:texture")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [  ]
+"values": [ ExtResource( 17 ) ]
+}
+
+[sub_resource type="Animation" id=3]
+resource_name = "won"
+length = 2.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("WL:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("WL/text:texture")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ ExtResource( 16 ) ]
 }
 
 [node name="game1" type="Node2D"]
 
+[node name="TeaPartyMiniGame-1" type="Sprite" parent="."]
+texture = ExtResource( 4 )
+centered = false
+
 [node name="Control" type="Control" parent="."]
-margin_right = 40.0
-margin_bottom = 40.0
+margin_left = 212.0
+margin_top = 237.0
+margin_right = 1833.0
+margin_bottom = 1790.0
+rect_scale = Vector2( 0.4, 0.4 )
 script = ExtResource( 2 )
 
 [node name="animated" type="Container" parent="Control"]
-margin_left = 171.0
-margin_top = 157.0
-margin_right = 539.0
-margin_bottom = 539.0
 rect_scale = Vector2( 2.5121, 2.5121 )
 mouse_filter = 1
 script = ExtResource( 3 )
@@ -41,95 +143,329 @@ update_time = 0.5
 update_ease = 1
 
 [node name="A1" parent="Control/animated" instance=ExtResource( 1 )]
-margin_right = 64.0
-margin_bottom = 64.0
+
+[node name="Button" parent="Control/animated/A1" index="1"]
+margin_right = 158.0
+margin_bottom = 154.0
 
 [node name="A2" parent="Control/animated" instance=ExtResource( 1 )]
-margin_left = 69.0
-margin_right = 133.0
-margin_bottom = 64.0
+margin_left = 165.0
+margin_right = 325.0
+texture_normal = ExtResource( 5 )
+
+[node name="Button" parent="Control/animated/A2" index="1"]
+margin_left = 2.0
+margin_right = 158.0
+margin_bottom = 154.0
 
 [node name="A3" parent="Control/animated" instance=ExtResource( 1 )]
-margin_left = 138.0
-margin_right = 202.0
-margin_bottom = 64.0
+margin_left = 330.0
+margin_right = 490.0
+texture_normal = ExtResource( 7 )
+
+[node name="Button" parent="Control/animated/A3" index="1"]
+margin_right = 159.0
+margin_bottom = 156.0
 
 [node name="A4" parent="Control/animated" instance=ExtResource( 1 )]
-margin_left = 207.0
-margin_right = 271.0
-margin_bottom = 64.0
+margin_left = 495.0
+margin_right = 655.0
+texture_normal = ExtResource( 6 )
 
 [node name="B1" parent="Control/animated" instance=ExtResource( 1 )]
-margin_top = 69.0
-margin_right = 64.0
-margin_bottom = 133.0
+margin_top = 160.0
+margin_bottom = 315.0
 
 [node name="B2" parent="Control/animated" instance=ExtResource( 1 )]
-margin_left = 69.0
-margin_top = 69.0
-margin_right = 133.0
-margin_bottom = 133.0
+margin_left = 165.0
+margin_top = 160.0
+margin_right = 325.0
+margin_bottom = 315.0
+texture_normal = ExtResource( 5 )
 
 [node name="B3" parent="Control/animated" instance=ExtResource( 1 )]
-margin_left = 138.0
-margin_top = 69.0
-margin_right = 202.0
-margin_bottom = 133.0
+margin_left = 330.0
+margin_top = 160.0
+margin_right = 490.0
+margin_bottom = 315.0
+texture_normal = ExtResource( 7 )
 
 [node name="B4" parent="Control/animated" instance=ExtResource( 1 )]
-margin_left = 207.0
-margin_top = 69.0
-margin_right = 271.0
-margin_bottom = 133.0
+margin_left = 495.0
+margin_top = 160.0
+margin_right = 655.0
+margin_bottom = 315.0
+texture_normal = ExtResource( 6 )
 
 [node name="C1" parent="Control/animated" instance=ExtResource( 1 )]
-margin_top = 138.0
-margin_right = 64.0
-margin_bottom = 202.0
+margin_top = 320.0
+margin_bottom = 475.0
 
 [node name="C2" parent="Control/animated" instance=ExtResource( 1 )]
-margin_left = 69.0
-margin_top = 138.0
-margin_right = 133.0
-margin_bottom = 202.0
+margin_left = 165.0
+margin_top = 320.0
+margin_right = 325.0
+margin_bottom = 475.0
+texture_normal = ExtResource( 5 )
 
 [node name="C3" parent="Control/animated" instance=ExtResource( 1 )]
-margin_left = 138.0
-margin_top = 138.0
-margin_right = 202.0
-margin_bottom = 202.0
+margin_left = 330.0
+margin_top = 320.0
+margin_right = 490.0
+margin_bottom = 475.0
+texture_normal = ExtResource( 7 )
 
 [node name="C4" parent="Control/animated" instance=ExtResource( 1 )]
-margin_left = 207.0
-margin_top = 138.0
-margin_right = 271.0
-margin_bottom = 202.0
+margin_left = 495.0
+margin_top = 320.0
+margin_right = 655.0
+margin_bottom = 475.0
+texture_normal = ExtResource( 6 )
 
 [node name="D1" parent="Control/animated" instance=ExtResource( 1 )]
-margin_top = 207.0
-margin_right = 64.0
-margin_bottom = 271.0
+margin_top = 480.0
+margin_bottom = 635.0
 
 [node name="D2" parent="Control/animated" instance=ExtResource( 1 )]
-margin_left = 69.0
-margin_top = 207.0
-margin_right = 133.0
-margin_bottom = 271.0
+margin_left = 165.0
+margin_top = 480.0
+margin_right = 325.0
+margin_bottom = 635.0
+texture_normal = ExtResource( 5 )
 
 [node name="D3" parent="Control/animated" instance=ExtResource( 1 )]
-margin_left = 138.0
-margin_top = 207.0
-margin_right = 202.0
-margin_bottom = 271.0
+margin_left = 330.0
+margin_top = 480.0
+margin_right = 490.0
+margin_bottom = 635.0
+texture_normal = ExtResource( 7 )
 
 [node name="D4" parent="Control/animated" instance=ExtResource( 1 )]
-margin_left = 207.0
-margin_top = 207.0
-margin_right = 271.0
-margin_bottom = 271.0
+margin_left = 495.0
+margin_top = 480.0
+margin_right = 655.0
+margin_bottom = 635.0
+texture_normal = ExtResource( 6 )
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
-anims/testing = SubResource( 4 )
+[node name="TeaPartyMiniGame-2" type="Sprite" parent="."]
+texture = ExtResource( 9 )
+centered = false
+
+[node name="GridContainer" type="GridContainer" parent="."]
+margin_left = 1222.0
+margin_top = 147.0
+margin_right = 1672.0
+margin_bottom = 542.0
+rect_scale = Vector2( 1.21997, 1.21997 )
+custom_constants/vseparation = 30
+custom_constants/hseparation = 30
+columns = 4
+
+[node name="TextureButton" type="TextureButton" parent="GridContainer"]
+margin_right = 86.0
+margin_bottom = 70.0
+disabled = true
+texture_normal = ExtResource( 11 )
+
+[node name="TextureButton2" type="TextureButton" parent="GridContainer"]
+margin_left = 116.0
+margin_right = 202.0
+margin_bottom = 70.0
+disabled = true
+texture_normal = ExtResource( 11 )
+
+[node name="TextureButton3" type="TextureButton" parent="GridContainer"]
+margin_left = 232.0
+margin_right = 318.0
+margin_bottom = 70.0
+disabled = true
+texture_normal = ExtResource( 12 )
+
+[node name="TextureButton4" type="TextureButton" parent="GridContainer"]
+margin_left = 348.0
+margin_right = 434.0
+margin_bottom = 70.0
+disabled = true
+texture_normal = ExtResource( 8 )
+
+[node name="TextureButton5" type="TextureButton" parent="GridContainer"]
+margin_top = 100.0
+margin_right = 86.0
+margin_bottom = 170.0
+disabled = true
+texture_normal = ExtResource( 10 )
+
+[node name="TextureButton6" type="TextureButton" parent="GridContainer"]
+margin_left = 116.0
+margin_top = 100.0
+margin_right = 202.0
+margin_bottom = 170.0
+disabled = true
+texture_normal = ExtResource( 8 )
+
+[node name="TextureButton7" type="TextureButton" parent="GridContainer"]
+margin_left = 232.0
+margin_top = 100.0
+margin_right = 318.0
+margin_bottom = 170.0
+disabled = true
+texture_normal = ExtResource( 10 )
+
+[node name="TextureButton8" type="TextureButton" parent="GridContainer"]
+margin_left = 348.0
+margin_top = 100.0
+margin_right = 434.0
+margin_bottom = 170.0
+disabled = true
+texture_normal = ExtResource( 12 )
+
+[node name="TextureButton9" type="TextureButton" parent="GridContainer"]
+margin_top = 200.0
+margin_right = 86.0
+margin_bottom = 270.0
+disabled = true
+texture_normal = ExtResource( 11 )
+
+[node name="TextureButton10" type="TextureButton" parent="GridContainer"]
+margin_left = 116.0
+margin_top = 200.0
+margin_right = 202.0
+margin_bottom = 270.0
+disabled = true
+texture_normal = ExtResource( 8 )
+
+[node name="TextureButton11" type="TextureButton" parent="GridContainer"]
+margin_left = 232.0
+margin_top = 200.0
+margin_right = 318.0
+margin_bottom = 270.0
+disabled = true
+texture_normal = ExtResource( 11 )
+
+[node name="TextureButton12" type="TextureButton" parent="GridContainer"]
+margin_left = 348.0
+margin_top = 200.0
+margin_right = 434.0
+margin_bottom = 270.0
+disabled = true
+texture_normal = ExtResource( 12 )
+
+[node name="TextureButton13" type="TextureButton" parent="GridContainer"]
+margin_top = 300.0
+margin_right = 86.0
+margin_bottom = 370.0
+disabled = true
+texture_normal = ExtResource( 10 )
+
+[node name="TextureButton14" type="TextureButton" parent="GridContainer"]
+margin_left = 116.0
+margin_top = 300.0
+margin_right = 202.0
+margin_bottom = 370.0
+disabled = true
+texture_normal = ExtResource( 12 )
+
+[node name="TextureButton15" type="TextureButton" parent="GridContainer"]
+margin_left = 232.0
+margin_top = 300.0
+margin_right = 318.0
+margin_bottom = 370.0
+disabled = true
+texture_normal = ExtResource( 10 )
+
+[node name="TextureButton16" type="TextureButton" parent="GridContainer"]
+margin_left = 348.0
+margin_top = 300.0
+margin_right = 434.0
+margin_bottom = 370.0
+disabled = true
+texture_normal = ExtResource( 8 )
+
+[node name="Cheat" type="Sprite" parent="."]
+texture = ExtResource( 13 )
+centered = false
+
+[node name="Timer" type="Sprite" parent="."]
+texture = ExtResource( 14 )
+centered = false
+
+[node name="timer" type="Label" parent="Timer"]
+margin_left = 903.0
+margin_top = 60.0
+margin_right = 1021.0
+margin_bottom = 190.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = ExtResource( 34 )
+text = "10"
+align = 1
+valign = 1
+
+[node name="WL" type="Node2D" parent="."]
+modulate = Color( 1, 1, 1, 0 )
+
+[node name="back" type="Sprite" parent="WL"]
+texture = ExtResource( 15 )
+centered = false
+
+[node name="text" type="Sprite" parent="WL"]
+texture = ExtResource( 16 )
+centered = false
+
+[node name="character" parent="." instance=ExtResource( 20 )]
+position = Vector2( 1548, 1018 )
+
+[node name="torso" parent="character/body" index="0"]
+texture = ExtResource( 25 )
+
+[node name="head" parent="character/body/torso" index="0"]
+texture = ExtResource( 27 )
+
+[node name="r ear" parent="character/body/torso/head" index="0"]
+texture = ExtResource( 33 )
+
+[node name="l ear" parent="character/body/torso/head" index="1"]
+texture = ExtResource( 33 )
+
+[node name="butt" parent="character/body/torso" index="1"]
+texture = ExtResource( 22 )
+
+[node name="coattails" parent="character/body/torso/butt" index="0"]
+texture = ExtResource( 28 )
+
+[node name="l thigh" parent="character/body/torso/butt" index="1"]
+texture = ExtResource( 24 )
+
+[node name="l leg" parent="character/body/torso/butt/l thigh" index="0"]
+texture = ExtResource( 26 )
+
+[node name="r thigh" parent="character/body/torso/butt" index="2"]
+texture = ExtResource( 21 )
+
+[node name="r leg" parent="character/body/torso/butt/r thigh" index="0"]
+texture = ExtResource( 30 )
+
+[node name="l upper" parent="character/body/torso" index="2"]
+texture = ExtResource( 32 )
+
+[node name="l arm" parent="character/body/torso/l upper" index="0"]
+texture = ExtResource( 18 )
+
+[node name="l hand" parent="character/body/torso/l upper/l arm" index="0"]
+texture = ExtResource( 23 )
+
+[node name="r upper" parent="character/body/torso" index="3"]
+texture = ExtResource( 19 )
+
+[node name="r arm" parent="character/body/torso/r upper" index="0"]
+texture = ExtResource( 29 )
+
+[node name="r hand" parent="character/body/torso/r upper/r arm" index="0"]
+texture = ExtResource( 31 )
+
+[node name="Wcon" type="AnimationPlayer" parent="."]
+anims/RESET = SubResource( 1 )
+anims/lose = SubResource( 2 )
+anims/won = SubResource( 3 )
 
 [connection signal="pressed" from="Control/animated/A1/Button" to="Control" method="_on_A1_pressed"]
 [connection signal="pressed" from="Control/animated/A2/Button" to="Control" method="_on_A2_pressed"]
@@ -164,3 +500,4 @@ anims/testing = SubResource( 4 )
 [editable path="Control/animated/D2"]
 [editable path="Control/animated/D3"]
 [editable path="Control/animated/D4"]
+[editable path="character"]
