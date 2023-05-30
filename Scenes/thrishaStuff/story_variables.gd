@@ -17,7 +17,7 @@ var isChapterOneDone = false
 var isChapterTwoDone = false
 var isChapterThreeDone = false
 
-var currentlyInChapterOne = true
+var currentlyInChapterOne = false
 var currentlyInChapterTwo = false
 var currentlyInChapterThree = false
 
@@ -25,9 +25,9 @@ var currentlyInChapterThree = false
 var isChapterOneStartDone = false
 
 #Getting Strings For Bard
-var isInitiateMainQuestDone = true
+var isInitiateMainQuestDone = false
 var isSearchForStringsDone = false
-var isDeliverLetterToLover = true
+var isDeliverLetterToLover = false
 var isReportBackToMusicGeek = false
 var isDeliverStringsToBard = false
 
@@ -51,7 +51,7 @@ var isCatchTheThief = false
 var isBringThiefToVendors = false
 var isDeliverExoticFruitToLunchLady = false
 var isDeliverToJanitor = false
-var isAfterCleaningMinigame = true
+var isAfterCleaningMinigame = false
 var isDeliverKeyToMatthew = false
 
 #CATCH THE THIEF GAME
