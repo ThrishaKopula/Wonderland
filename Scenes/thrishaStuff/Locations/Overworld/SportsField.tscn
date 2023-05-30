@@ -10274,9 +10274,7 @@ position = Vector2( -1573, 0 )
 position = Vector2( -8, 532.5 )
 shape = SubResource( 4 )
 
-[node name="SportsFieldAudio" type="AudioStreamPlayer2D" parent="."]
-pause_mode = 2
-position = Vector2( 980, 566 )
+[node name="SportsFieldAudio" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 9 )
 
 [connection signal="body_entered" from="Football" to="Football" method="_on_Football_body_entered"]
