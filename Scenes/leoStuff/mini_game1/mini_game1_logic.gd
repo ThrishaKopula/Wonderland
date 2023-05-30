@@ -55,7 +55,7 @@ func swap(item):
 			timelabel.text = var2str(0);
 			$"../Wcon".play("lose");
 		else:
-		
+			
 			timelabel.text = var2str(turn);
 		
 		print("matrix:");
@@ -68,6 +68,9 @@ func swap(item):
 			win();
 		
 	else:
+		
+		item.modulate = Color(0.662745, 0.662745, 0.662745);
+		clicked_node.modulate = Color(1, 1, 1);
 		
 		clicked_node = item
 	
