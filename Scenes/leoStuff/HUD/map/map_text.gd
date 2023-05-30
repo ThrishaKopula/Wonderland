@@ -16,7 +16,8 @@ func _ready():
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	
-	$".".rect_position.x = get_viewport().get_mouse_position().x+10
-	$".".rect_position.y = get_viewport().get_mouse_position().y+10
+	$".".rect_position.x = get_viewport().get_mouse_position().x+5;
+	$".".rect_position.y = get_viewport().get_mouse_position().y+5;
+	
 	
 	pass
