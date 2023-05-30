@@ -8,6 +8,8 @@ var clicked_node = null;
 
 onready var marlon =  $"../character".get_node("AnimationPlayer");
 
+var cheat = false;
+
 export var turn : int  = 10;
 onready var timelabel = $"../Timer/timer";
 
@@ -50,15 +52,16 @@ func swap(item):
 		item.release_focus();
 		clicked_node = null;
 		
-		turn = turn - 1;
-		if turn <= 0:
-			timelabel.text = var2str(0);
-			$"../Wcon".play("lose");
-			yield( $"../Wcon", "animation_finished");
-			get_tree().reload_current_scene();
-		else:
-			
-			timelabel.text = var2str(turn);
+		if not cheat:
+			turn = turn - 1;
+			if turn <= 0:
+				timelabel.text = var2str(0);
+				$"../Wcon".play("lose");
+				yield( $"../Wcon", "animation_finished");
+				get_tree().reload_current_scene();
+			else:
+				
+				timelabel.text = var2str(turn);
 		
 		print("matrix:");
 		print(matrix);
@@ -176,13 +179,25 @@ func _on_D1_pressed():
 	swap(get_node("animated/D1"));
 	pass # Replace with function body.
 
-
-
 func _on_cheat_mouse_entered():
-	$"../cheat".rect_scale = Vector2(1,1);
+	if not $"../cheat".disabled:
+		$"../cheat".rect_scale = Vector2(1,1);
 	pass # Replace with function body.
 
 
 func _on_cheat_mouse_exited():
-	$"../cheat".rect_scale = Vector2(0.9,0.9);
+	if not $"../cheat".disabled:
+		$"../cheat".rect_scale = Vector2(0.9,0.9);
+	pass # Replace with function body.
+
+
+func _on_cheat_pressed():
+	cheat = true;
+	$"../block".show();
+	$"../overall".get_node("AnimationPlayer").play("Best Cookie (Yellow)");
+	yield($"../overall".get_node("AnimationPlayer"), "animation_finished");
+	$"../block".hide();
+	timelabel.text = "∞";
+	$"../Wcon".play("add time");
+	$"../cheat".disabled = true;
 	pass # Replace with function body.
