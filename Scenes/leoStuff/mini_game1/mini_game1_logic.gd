@@ -1,15 +1,36 @@
 extends Control
 
-var matrix = ["R","G","B","R", "R","G","B","R", "R","G","B","R", "R","G","B","R"]
+var matrix = ["B","P","R","G",  "B","P","R","G",  "B","P","R","G",  "B","P","R","G",];
 
+var matrix_win = ["P","P","R","G",  "B","G","B","R",  "G","P","R","B",  "R","B","G","P"];
 
-var matrix_win = ["G","R","B","R", "R","G","B","R", "R","G","B","R", "R","G","B","R"]
+var clicked_node = null;
 
-var clicked_node = null
+onready var marlon =  $"../character".get_node("AnimationPlayer");
+
+export var time : int  = 100 * 60;
+onready var timelabel = $"../Timer/timer";
+
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
+	marlon.play("Idle 2 Wonderland");
 	pass # Replace with function body.
+
+func _process(delta):
+	
+	time = time - delta;
+	
+	
+	
+	if time <= 0:
+		timelabel.text = var2str(0);
+		$"../Wcon".play("lose");
+	else:
+		timelabel.text = var2str(time/100);
+	
+	pass
+
 
 func swap(item):
 
@@ -36,13 +57,17 @@ func swap(item):
 		get_node("animated").move_child(item, temp2_index);
 		get_node("animated").move_child(clicked_node, temp_index);
 		
-		item.release_focus()
-		clicked_node = null
+		item.release_focus();
+		clicked_node = null;
 		
-		print(matrix)
+		print("matrix:");
+		print(matrix);
+		print("win:");
+		print(matrix_win);
 		
 		if matrix == matrix_win:
-			win()
+			print("won");
+			win();
 		
 	else:
 		
@@ -51,6 +76,10 @@ func swap(item):
 	pass
 
 func win():
+	
+	$"../Wcon".play("won");
+	
+	yield( $"../Wcon", "animation_finished");
 	
 	var dialog = Dialogic.start("afterMiniGame");
 	dialog.connect('timeline_end', self, 'unpause');
