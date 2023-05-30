@@ -2,13 +2,13 @@ extends Control
 
 var matrix = ["B","P","R","G",  "B","P","R","G",  "B","P","R","G",  "B","P","R","G",];
 
-var matrix_win = ["P","P","R","G",  "B","G","B","R",  "G","P","R","B",  "R","B","G","P"];
+var matrix_win = ["P","P","R","G",  "B","G","B","R",  "P","G","P","R",  "B","R","B","G"];
 
 var clicked_node = null;
 
 onready var marlon =  $"../character".get_node("AnimationPlayer");
 
-export var time : int  = 100 * 60;
+export var turn : int  = 10;
 onready var timelabel = $"../Timer/timer";
 
 
@@ -16,20 +16,6 @@ onready var timelabel = $"../Timer/timer";
 func _ready():
 	marlon.play("Idle 2 Wonderland");
 	pass # Replace with function body.
-
-func _process(delta):
-	
-	time = time - delta;
-	
-	
-	
-	if time <= 0:
-		timelabel.text = var2str(0);
-		$"../Wcon".play("lose");
-	else:
-		timelabel.text = var2str(time/100);
-	
-	pass
 
 
 func swap(item):
@@ -59,6 +45,14 @@ func swap(item):
 		
 		item.release_focus();
 		clicked_node = null;
+		
+		turn = turn - 1;
+		if turn <= 0:
+			timelabel.text = var2str(0);
+			$"../Wcon".play("lose");
+		else:
+		
+			timelabel.text = var2str(turn);
 		
 		print("matrix:");
 		print(matrix);
