@@ -24,7 +24,6 @@ func _input(event):
 				add_child(dialog)
 				StoryVariables.isOtherBedInteracted = true
 
-
 func pause_game():
 	get_tree().paused = true
 	StoryVariables.canPlayerMove = false
