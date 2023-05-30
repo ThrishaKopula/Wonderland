@@ -8,6 +8,7 @@ func _physics_process(_delta):
 	character.play("Idle 1 Overworld")
 
 var active = false
+var doneWithStrings = false
 
 func _process(_delta):
 	$QuestionMark.visible = active
@@ -34,6 +35,7 @@ func _input(event):
 				add_child(dialog)
 				StoryVariables.isDeliverStringsToBard = true
 				StoryVariables.isReportBackToMusicGeek = false
+				doneWithStrings = true
 			elif(StoryVariables.isCollectOtherworldlyItems == true):
 				pause_game()
 				var dialog = Dialogic.start("bringIngredientsToTavern")
@@ -42,8 +44,34 @@ func _input(event):
 				add_child(dialog)
 				StoryVariables.isBringIngredientsToTavern = true
 				StoryVariables.isCollectOtherworldlyItems = false
-			elif(StoryVariables.isInitiateMainQuestDone == true and StoryVariables.isReportBackToMusicGeek == false):
-				pass # add dialogue if quest is not done
+			elif(StoryVariables.currentlyInChapterOne == true and StoryVariables.isReportBackToMusicGeek == false and doneWithStrings == false): 
+				#chapter 1 basic dialogue before giving strings
+				pause_game()
+				var dialog = Dialogic.start("ch1_beforeStrings")
+				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
+				dialog.connect('timeline_end', self, 'unpause')
+				add_child(dialog)
+			elif(StoryVariables.currentlyInChapterOne == true and StoryVariables.isCollectOtherworldlyItems == false and doneWithStrings == true): 
+				#chapter 1 basic dialogue before giving ingredients
+				pause_game()
+				var dialog = Dialogic.start("ch1_beforeIngredients")
+				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
+				dialog.connect('timeline_end', self, 'unpause')
+				add_child(dialog)
+			elif(StoryVariables.currentlyInChapterTwo == true): 
+				#chapter 2 basic dialogue
+				pause_game()
+				var dialog = Dialogic.start("ch2_bard")
+				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
+				dialog.connect('timeline_end', self, 'unpause')
+				add_child(dialog)
+			elif(StoryVariables.currentlyInChapterThree == true): 
+				#chapter 3 basic dialogue
+				pause_game()
+				var dialog = Dialogic.start("ch3_bard")
+				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
+				dialog.connect('timeline_end', self, 'unpause')
+				add_child(dialog)
 
 func pause_game():
 	get_tree().paused = true

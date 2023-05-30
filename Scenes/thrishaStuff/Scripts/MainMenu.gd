@@ -74,3 +74,16 @@ func _on_Chapter_2_pressed():
 	
 func _on_Chapter_2_button_down():
 	$ButtonClick.play()
+
+func _on_Chapter_3_button_down():
+	$ButtonClick.play()
+
+func _on_Chapter_3_pressed():
+	canAudioPlay = false
+	checkAudio()
+	var dialog = Dialogic.start("chapter3Start")
+	add_child(dialog)
+	yield(dialog, 'timeline_end')
+	StoryVariables.isChapter3Start = true
+	StoryVariables.currentlyInChapterThree = true
+	get_tree().change_scene("res://Scenes/thrishaStuff/Locations/Overworld/Classroom.tscn")

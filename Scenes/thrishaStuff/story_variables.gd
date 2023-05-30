@@ -17,7 +17,7 @@ var isChapterOneDone = false
 var isChapterTwoDone = false
 var isChapterThreeDone = false
 
-var currentlyInChapterOne = false
+var currentlyInChapterOne = true
 var currentlyInChapterTwo = false
 var currentlyInChapterThree = false
 
@@ -25,9 +25,9 @@ var currentlyInChapterThree = false
 var isChapterOneStartDone = false
 
 #Getting Strings For Bard
-var isInitiateMainQuestDone = false
+var isInitiateMainQuestDone = true
 var isSearchForStringsDone = false
-var isDeliverLetterToLover = false
+var isDeliverLetterToLover = true
 var isReportBackToMusicGeek = false
 var isDeliverStringsToBard = false
 
