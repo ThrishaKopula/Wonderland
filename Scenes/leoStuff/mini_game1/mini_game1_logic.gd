@@ -8,6 +8,8 @@ var clicked_node = null;
 
 onready var marlon =  $"../character".get_node("AnimationPlayer");
 
+var cheat = false;
+
 export var turn : int  = 10;
 onready var timelabel = $"../Timer/timer";
 
@@ -50,15 +52,16 @@ func swap(item):
 		item.release_focus();
 		clicked_node = null;
 		
-		turn = turn - 1;
-		if turn <= 0:
-			timelabel.text = var2str(0);
-			$"../Wcon".play("lose");
-			yield( $"../Wcon", "animation_finished");
-			get_tree().reload_current_scene();
-		else:
-			
-			timelabel.text = var2str(turn);
+		if not cheat:
+			turn = turn - 1;
+			if turn <= 0:
+				timelabel.text = var2str(0);
+				$"../Wcon".play("lose");
+				yield( $"../Wcon", "animation_finished");
+				get_tree().reload_current_scene();
+			else:
+				
+				timelabel.text = var2str(turn);
 		
 		print("matrix:");
 		print(matrix);
@@ -189,7 +192,7 @@ func _on_cheat_mouse_exited():
 
 
 func _on_cheat_pressed():
-	turn = turn + 999;
+	cheat = true;
 	$"../block".show();
 	$"../overall".get_node("AnimationPlayer").play("Best Cookie (Yellow)");
 	yield($"../overall".get_node("AnimationPlayer"), "animation_finished");
