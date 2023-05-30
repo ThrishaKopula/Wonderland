@@ -270,6 +270,21 @@
 						"folded": true
 					}
 				},
+				"LunchLady": {
+					"files": [
+						"timeline-1685412682.json",
+						"timeline-1685412732.json",
+						"timeline-1685412750.json",
+						"timeline-1685412791.json"
+					],
+					"folders": {
+
+					},
+					"metadata": {
+						"color": null,
+						"folded": false
+					}
+				},
 				"Marlon": {
 					"files": [
 						"timeline-1685134229.json",
@@ -299,7 +314,7 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": false
+						"folded": true
 					}
 				},
 				"Prologue": {
