@@ -13,7 +13,7 @@
 			"animation_length": 0,
 			"change_mirror_portrait": false,
 			"change_z_index": false,
-			"character": "character-1681086547.json",
+			"character": "character-1681272416.json",
 			"event_id": "dialogic_002",
 			"mirror_portrait": false,
 			"portrait": "Default",
@@ -29,7 +29,7 @@
 			"z_index": 0
 		},
 		{
-			"character": "character-1681086547.json",
+			"character": "character-1681272416.json",
 			"event_id": "dialogic_001",
 			"portrait": "default_wonderland",
 			"text": "Of course I am!"
