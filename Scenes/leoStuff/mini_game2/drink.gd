@@ -30,7 +30,7 @@ func _on_drink_input_event(viewport, event, shape_idx):
 	elif Input.is_action_just_released("click"):
 		hold = false;
 		#print("down");
-		if Mini2Global.cur_color != null:
+		if Mini2Global.cur_color != 0:
 			
 			if Mini2Global.cur_color == 5:
 				
