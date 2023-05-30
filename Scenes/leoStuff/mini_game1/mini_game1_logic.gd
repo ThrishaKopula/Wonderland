@@ -1,25 +1,33 @@
 extends Control
 
-var matrix = ["R","G","B","R", "R","G","B","R", "R","G","B","R", "R","G","B","R"]
+var matrix = ["B","P","R","G",  "B","P","R","G",  "B","P","R","G",  "B","P","R","G",];
 
+var matrix_win = ["P","P","R","G",  "B","G","B","R",  "P","G","P","R",  "B","R","B","G"];
 
-var matrix_win = ["G","R","B","R", "R","G","B","R", "R","G","B","R", "R","G","B","R"]
+var clicked_node = null;
 
-var clicked_node = null
+onready var marlon =  $"../character".get_node("AnimationPlayer");
+
+export var turn : int  = 10;
+onready var timelabel = $"../Timer/timer";
+
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
+	marlon.play("Idle 2 Wonderland");
 	pass # Replace with function body.
+
 
 func swap(item):
 
 	if clicked_node == null:
 		clicked_node = item;
-		
+		clicked_node.modulate = Color(0.662745, 0.662745, 0.662745);
 		
 	elif clicked_node.get_index() == item.get_index():
 		item.release_focus();
 		clicked_node = null;
+		item.modulate = Color(1, 1, 1);
 		
 	elif item.get_index() - 1 == clicked_node.get_index() || item.get_index() + 1 == clicked_node.get_index()|| item.get_index() + 4 == clicked_node.get_index() || item.get_index() - 4 == clicked_node.get_index():
 		
@@ -36,21 +44,43 @@ func swap(item):
 		get_node("animated").move_child(item, temp2_index);
 		get_node("animated").move_child(clicked_node, temp_index);
 		
-		item.release_focus()
-		clicked_node = null
+		item.modulate = Color(1, 1, 1);
+		clicked_node.modulate = Color(1, 1, 1);
 		
-		print(matrix)
+		item.release_focus();
+		clicked_node = null;
+		
+		turn = turn - 1;
+		if turn <= 0:
+			timelabel.text = var2str(0);
+			$"../Wcon".play("lose");
+		else:
+			
+			timelabel.text = var2str(turn);
+		
+		print("matrix:");
+		print(matrix);
+		print("win:");
+		print(matrix_win);
 		
 		if matrix == matrix_win:
-			win()
+			print("won");
+			win();
 		
 	else:
+		
+		item.modulate = Color(0.662745, 0.662745, 0.662745);
+		clicked_node.modulate = Color(1, 1, 1);
 		
 		clicked_node = item
 	
 	pass
 
 func win():
+	
+	$"../Wcon".play("won");
+	
+	yield( $"../Wcon", "animation_finished");
 	
 	var dialog = Dialogic.start("afterMiniGame");
 	dialog.connect('timeline_end', self, 'unpause');

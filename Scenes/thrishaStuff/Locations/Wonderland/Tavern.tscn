@@ -12911,8 +12911,8 @@ stream = ExtResource( 1 )
 
 [connection signal="body_entered" from="Bard" to="Bard" method="_on_Bard_body_entered"]
 [connection signal="body_exited" from="Bard" to="Bard" method="_on_Bard_body_exited"]
-[connection signal="body_entered" from="Bartender" to="Bartender" method="_on_Cheerleader_body_entered"]
-[connection signal="body_exited" from="Bartender" to="Bartender" method="_on_Cheerleader_body_exited"]
+[connection signal="body_entered" from="Bartender" to="Bartender" method="_on_Bartender_body_entered"]
+[connection signal="body_exited" from="Bartender" to="Bartender" method="_on_Bartender_body_exited"]
 [connection signal="body_entered" from="Thief" to="." method="_on_Thief_body_entered"]
 [connection signal="body_entered" from="Thief" to="Thief" method="_on_Thief_body_entered"]
 [connection signal="body_exited" from="Thief" to="." method="_on_Thief_body_exited"]

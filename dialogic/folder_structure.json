@@ -115,6 +115,35 @@
 				"timeline-1681428466.json"
 			],
 			"folders": {
+				"Bard": {
+					"files": [
+						"timeline-1685405995.json",
+						"timeline-1685406007.json",
+						"timeline-1685406018.json",
+						"timeline-1685406024.json"
+					],
+					"folders": {
+
+					},
+					"metadata": {
+						"color": null,
+						"folded": true
+					}
+				},
+				"Bartender": {
+					"files": [
+						"timeline-1685406557.json",
+						"timeline-1685406567.json",
+						"timeline-1685406576.json"
+					],
+					"folders": {
+
+					},
+					"metadata": {
+						"color": null,
+						"folded": true
+					}
+				},
 				"Chapter 1": {
 					"files": [
 						"timeline-1681429308.json",
@@ -224,6 +253,35 @@
 					},
 					"metadata": {
 						"color": null,
+						"folded": true
+					}
+				},
+				"Cheerleader": {
+					"files": [
+						"timeline-1685407052.json",
+						"timeline-1685407061.json",
+						"timeline-1685407072.json"
+					],
+					"folders": {
+
+					},
+					"metadata": {
+						"color": null,
+						"folded": true
+					}
+				},
+				"LunchLady": {
+					"files": [
+						"timeline-1685412682.json",
+						"timeline-1685412732.json",
+						"timeline-1685412750.json",
+						"timeline-1685412791.json"
+					],
+					"folders": {
+
+					},
+					"metadata": {
+						"color": null,
 						"folded": false
 					}
 				},
@@ -236,6 +294,20 @@
 						"timeline-1685134378.json",
 						"timeline-1685134461.json",
 						"timeline-1685134481.json"
+					],
+					"folders": {
+
+					},
+					"metadata": {
+						"color": null,
+						"folded": true
+					}
+				},
+				"MusicGeek": {
+					"files": [
+						"timeline-1685409612.json",
+						"timeline-1685409638.json",
+						"timeline-1685409651.json"
 					],
 					"folders": {
 
