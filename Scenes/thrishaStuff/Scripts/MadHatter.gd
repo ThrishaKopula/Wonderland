@@ -53,6 +53,11 @@ func unpauseContinueToChapter2(timeline_name):
 	get_tree().paused = false
 	Fade.change_scene("res://Scenes/thrishaStuff/ContinueToChapter2.tscn")
 	yield(get_tree().create_timer(2), "timeout")
+	
+func unpauseContinueToChapter3(timeline_name):
+	get_tree().paused = false
+	Fade.change_scene("res://Scenes/thrishaStuff/ContinueToChapter3.tscn")
+	yield(get_tree().create_timer(2), "timeout")
 			
 func _on_MadHatter_body_entered(body):
 	if body.name == 'player':

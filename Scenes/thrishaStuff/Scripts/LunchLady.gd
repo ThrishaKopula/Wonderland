@@ -22,7 +22,7 @@ func _input(event):
 				dialog.connect('timeline_end', self, 'unpause')
 				add_child(dialog)
 				StoryVariables.isFindWhoIsCloseToJanitor = true
-				StoryVariables.isInitiateCh2MainQuest == false
+				StoryVariables.isInitiateCh2MainQuest = false
 			elif(StoryVariables.isBringThiefToVendors == true):
 				pause_game()
 				var dialog = Dialogic.start("/Chapter 2/deliverExoticFruitToLunchLady")
@@ -30,7 +30,28 @@ func _input(event):
 				dialog.connect('timeline_end', self, 'unpause')
 				add_child(dialog)
 				StoryVariables.isDeliverExoticFruitToLunchLady = true
-				StoryVariables.isBringThiefToVendors == false
+				StoryVariables.isBringThiefToVendors = false
+			elif(StoryVariables.currentlyInChapterOne == true):
+				#ch1 basic
+				pause_game()
+				var dialog = Dialogic.start("ch1_lunchlady")
+				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
+				dialog.connect('timeline_end', self, 'unpause')
+				add_child(dialog)
+			elif(StoryVariables.currentlyInChapterTwo == true and StoryVariables.isInitiateCh2MainQuest == false and StoryVariables.isBringThiefToVendors == false):
+				#ch2 dialog
+				pause_game()
+				var dialog = Dialogic.start("ch2_lunchlady")
+				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
+				dialog.connect('timeline_end', self, 'unpause')
+				add_child(dialog)
+			elif(StoryVariables.currentlyInChapterThree == true):
+				#ch1 basic
+				pause_game()
+				var dialog = Dialogic.start("ch3_lunchlady")
+				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
+				dialog.connect('timeline_end', self, 'unpause')
+				add_child(dialog)
 
 func pause_game():
 	get_tree().paused = true

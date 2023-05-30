@@ -21,6 +21,12 @@
 			"z_index": 0
 		},
 		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hey, Janitor…"
+		},
+		{
 			"animation": "[Default]",
 			"animation_length": 0,
 			"change_mirror_portrait": false,
@@ -39,12 +45,6 @@
 			},
 			"type": 0,
 			"z_index": 0
-		},
-		{
-			"character": "character-1681086055.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "Hey, Janitor…"
 		},
 		{
 			"character": "character-1683770218.json",
@@ -187,8 +187,12 @@
 			"text": "He eats slowly, but it’s clear he is enjoying the snack."
 		},
 		{
-			"background": "res://dialogic/classroom.png",
+			"background": "",
 			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "default-theme.cfg"
 		},
 		{
 			"character": "character-1683770218.json",

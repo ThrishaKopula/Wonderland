@@ -8,6 +8,8 @@ func _physics_process(_delta):
 	character.play("Idle 2 Overworld")
 	
 var active = false
+var initiateStrings = false
+var letterDeliver = false
 
 func _process(_delta):
 	$QuestionMark.visible = active
@@ -23,6 +25,7 @@ func _input(event):
 				add_child(dialog)
 				StoryVariables.isSearchForStringsDone = true
 				StoryVariables.isInitiateMainQuestDone = false
+				initiateStrings = true
 			elif(StoryVariables.isDeliverLetterToLover == true):
 				pause_game()
 				var dialog = Dialogic.start("reportBackToMusicGeek")
@@ -31,6 +34,28 @@ func _input(event):
 				add_child(dialog)
 				StoryVariables.isReportBackToMusicGeek = true
 				StoryVariables.isDeliverLetterToLover = false
+				letterDeliver = true
+			elif(StoryVariables.currentlyInChapterOne == true and initiateStrings == false and letterDeliver == false):
+				#ch1 before main quest
+				pause_game()
+				var dialog = Dialogic.start("ch1_mgStrings")
+				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
+				dialog.connect('timeline_end', self, 'unpause')
+				add_child(dialog)
+			elif(StoryVariables.currentlyInChapterOne == true and initiateStrings == true and letterDeliver == false):
+				#ch1 before reporting back
+				pause_game()
+				var dialog = Dialogic.start("ch1_mgReport")
+				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
+				dialog.connect('timeline_end', self, 'unpause')
+				add_child(dialog)
+			elif(StoryVariables.currentlyInChapterOne == true and letterDeliver == true):
+				#ch1 after letter
+				pause_game()
+				var dialog = Dialogic.start("ch1_mgLetter")
+				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
+				dialog.connect('timeline_end', self, 'unpause')
+				add_child(dialog)
 
 func pause_game():
 	get_tree().paused = true

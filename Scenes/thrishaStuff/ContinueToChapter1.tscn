@@ -1,7 +1,9 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/ContinueToChapter1.gd" type="Script" id=1]
 [ext_resource path="res://Scenes/thrishaStuff/Audio/MouseClick.wav" type="AudioStream" id=2]
+[ext_resource path="res://Scenes/thrishaStuff/Audio/Dorm/Kevin MacLeod： Chill.wav" type="AudioStream" id=3]
+[ext_resource path="res://Scenes/thrishaStuff/Scripts/MenuAudio.gd" type="Script" id=4]
 
 [node name="ContinueToChapter1" type="Control"]
 anchor_right = 1.0
@@ -36,6 +38,13 @@ text = "Main Menu"
 pause_mode = 2
 position = Vector2( 980, 566 )
 stream = ExtResource( 2 )
+
+[node name="continueAudio" type="AudioStreamPlayer" parent="."]
+pause_mode = 2
+stream = ExtResource( 3 )
+volume_db = -3.0
+autoplay = true
+script = ExtResource( 4 )
 
 [connection signal="button_down" from="HBoxContainer/Continue" to="." method="_on_Continue_button_down"]
 [connection signal="pressed" from="HBoxContainer/Continue" to="." method="_on_Continue_pressed"]

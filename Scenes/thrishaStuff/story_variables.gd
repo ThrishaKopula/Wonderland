@@ -1,7 +1,5 @@
 extends Node
 
-
-
 # Declare member variables here. Examples:
 var canPlayerMove = true
 var isLeft = false
@@ -57,12 +55,15 @@ var isAfterCleaningMinigame = false
 var isDeliverKeyToMatthew = false
 
 #CATCH THE THIEF GAME
+var isInThiefGame = false
 var isInTavern = false
 var isInPlebTown = false
 var isInAristocratTown = false
+
 var catch_tavern = false
 var catch_plebTown = false
 var catch_aristocratTown = false
+var catch_num = 0
 var mini_game1 = false
 
 #CHAPTER 3
@@ -106,17 +107,6 @@ func chapter1_checkIfPlebItemsCollected():
 		get_tree().paused = true
 		canPlayerMove = false
 		var dialog = Dialogic.start("afterInteracted")
-		dialog.pause_mode = Node.PAUSE_MODE_PROCESS
-		dialog.connect('timeline_end', self, 'unpause')
-		add_child(dialog)
-		
-
-func chapter2_checkCatchTheThief():
-	if (catch_aristocratTown == true && catch_plebTown == true && catch_tavern == true):
-		isCatchTheThief = true
-		get_tree().paused = true
-		canPlayerMove = false
-		var dialog = Dialogic.start("afterThiefGame")
 		dialog.pause_mode = Node.PAUSE_MODE_PROCESS
 		dialog.connect('timeline_end', self, 'unpause')
 		add_child(dialog)

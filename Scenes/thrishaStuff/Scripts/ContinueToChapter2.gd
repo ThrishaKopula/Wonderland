@@ -1,21 +1,18 @@
 extends Control
 
 
-# Declare member variables here. Examples:
-# var a = 2
-# var b = "text"
+var canAudioPlay = true
 
-
-# Called when the node enters the scene tree for the first time.
-func _ready():
-	pass # Replace with function body.
-
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
-#	pass
+func checkAudio():
+	if(canAudioPlay == true):
+		$continueAudio.play()
+	else:
+		$continueAudio.stop()
+		$continueAudio.playing == false
 
 func _on_Continue_pressed():
+	canAudioPlay = false
+	checkAudio()
 	var dialog = Dialogic.start("chapter2Start")
 	add_child(dialog)
 	yield(dialog, 'timeline_end')
