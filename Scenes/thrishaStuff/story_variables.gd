@@ -88,9 +88,9 @@ func prologue_checkAllInteractions():
 		add_child(dialog)
 	
 func unpauseProloguePart3(timeline_name):
-	get_tree().paused = false
-	Fade.change_scene("res://Scenes/thrishaStuff/Locations/Overworld/Dream.tscn")
-	yield(get_tree().create_timer(2), "timeout")
+#	get_tree().paused = false
+#	Fade.change_scene("res://Scenes/thrishaStuff/Locations/Overworld/Dream.tscn")
+#	yield(get_tree().create_timer(2), "timeout")
 	
 	get_tree().paused = true
 	canPlayerMove = false

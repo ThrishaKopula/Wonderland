@@ -1,11 +1,6 @@
 {
 	"events": [
 		{
-			"event_id": "dialogic_023",
-			"hide_dialogbox": true,
-			"wait_seconds": 5
-		},
-		{
 			"audio_bus": "Master",
 			"background-music": "play",
 			"event_id": "dialogic_031",
@@ -485,17 +480,17 @@
 
 			],
 			"portrait": "",
-			"question": "hello"
+			"question": "What's the dev's favorite color?"
 		},
 		{
-			"choice": "twix",
+			"choice": "purple",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
 			"value": ""
 		},
 		{
-			"choice": "mimi",
+			"choice": "yellow",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
@@ -629,6 +624,15 @@
 			"event_id": "dialogic_001",
 			"portrait": "mad",
 			"text": "Listen here you little sh–WOAH!"
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "",
+			"volume": 0
 		},
 		{
 			"background": "res://dialogic/black.jpeg",
@@ -1523,7 +1527,7 @@
 			"wait_seconds": 3
 		},
 		{
-			"background": "res://Scenes/thrishaStuff/images/dialog_backgrounds/Dorm_W_Mirror_1920.png",
+			"background": "res://Scenes/thrishaStuff/images/dialog_backgrounds/Dorm_Night.png",
 			"event_id": "dialogic_021"
 		},
 		{
@@ -1686,6 +1690,26 @@
 			"text": "BEEP–"
 		},
 		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "mad",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
 			"portrait": "mad",
@@ -1704,26 +1728,6 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Today’s the big day!"
-		},
-		{
-			"animation": "[Default]",
-			"animation_length": 0,
-			"change_mirror_portrait": false,
-			"change_z_index": false,
-			"character": "character-1681086055.json",
-			"event_id": "dialogic_002",
-			"mirror_portrait": false,
-			"portrait": "Default",
-			"portrait_definition": "",
-			"position": {
-				"0": true,
-				"1": false,
-				"2": false,
-				"3": false,
-				"4": false
-			},
-			"type": 0,
-			"z_index": 0
 		},
 		{
 			"character": "character-1681086055.json",
@@ -1754,6 +1758,26 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Yeah, yeah. I hear you. Let’s head off."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
 		},
 		{
 			"background": "res://dialogic/black.jpeg",
@@ -1788,6 +1812,26 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "It was a pop quiz, I didn’t expect much from you anyway, but there was one student who got every question right!"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
 		},
 		{
 			"character": "character-1681086055.json",
@@ -1890,10 +1934,6 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "How interesting…"
-		},
-		{
-			"background": "res://dialogic/black.jpeg",
-			"event_id": "dialogic_021"
 		},
 		{
 			"character": "character-1681086055.json",
