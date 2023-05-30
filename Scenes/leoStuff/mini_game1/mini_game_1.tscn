@@ -76,7 +76,7 @@ tracks/2/keys = {
 
 [sub_resource type="Animation" id=4]
 resource_name = "add time"
-length = 0.4
+length = 0.6
 tracks/0/type = "value"
 tracks/0/path = NodePath("Timer/timer:custom_colors/font_color")
 tracks/0/interp = 1
@@ -84,10 +84,10 @@ tracks/0/loop_wrap = true
 tracks/0/imported = false
 tracks/0/enabled = true
 tracks/0/keys = {
-"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4 ),
-"transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1 ),
 "update": 0,
-"values": [ Color( 0, 0, 0, 1 ), Color( 0.513726, 0.898039, 0.490196, 1 ), Color( 0, 0, 0, 1 ), Color( 0.513726, 0.898039, 0.490196, 1 ), Color( 0, 0, 0, 1 ) ]
+"values": [ Color( 0, 0, 0, 1 ), Color( 0.513726, 0.898039, 0.490196, 1 ), Color( 0, 0, 0, 1 ), Color( 0.513726, 0.898039, 0.490196, 1 ), Color( 0, 0, 0, 1 ), Color( 0.513726, 0.898039, 0.490196, 1 ), Color( 0, 0, 0, 1 ) ]
 }
 
 [sub_resource type="Animation" id=2]
@@ -438,17 +438,6 @@ text = "10"
 align = 1
 valign = 1
 
-[node name="WL" type="Node2D" parent="."]
-modulate = Color( 1, 1, 1, 0 )
-
-[node name="back" type="Sprite" parent="WL"]
-texture = ExtResource( 15 )
-centered = false
-
-[node name="text" type="Sprite" parent="WL"]
-texture = ExtResource( 16 )
-centered = false
-
 [node name="character" parent="." instance=ExtResource( 20 )]
 position = Vector2( 1548, 1018 )
 
@@ -499,6 +488,18 @@ texture = ExtResource( 29 )
 
 [node name="r hand" parent="character/body/torso/r upper/r arm" index="0"]
 texture = ExtResource( 31 )
+
+[node name="WL" type="Node2D" parent="."]
+modulate = Color( 1, 1, 1, 0 )
+z_index = 20
+
+[node name="back" type="Sprite" parent="WL"]
+texture = ExtResource( 15 )
+centered = false
+
+[node name="text" type="Sprite" parent="WL"]
+texture = ExtResource( 16 )
+centered = false
 
 [node name="Wcon" type="AnimationPlayer" parent="."]
 anims/RESET = SubResource( 1 )
