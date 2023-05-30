@@ -1,13 +1,13 @@
 [gd_scene load_steps=4 format=2]
 
-[ext_resource path="res://icon.png" type="Texture" id=1]
+[ext_resource path="res://Scenes/leoStuff/mini_game1/art/CUPS_Tea_Party_Mini_game_-1.png" type="Texture" id=1]
 [ext_resource path="res://Scenes/leoStuff/shine/better_shine.tres" type="Material" id=2]
 [ext_resource path="res://testing_object.gd" type="Script" id=3]
 
 [node name="testing_object" type="TextureButton"]
 material = ExtResource( 2 )
-margin_right = 41.0
-margin_bottom = 40.0
+margin_right = 160.0
+margin_bottom = 155.0
 texture_normal = ExtResource( 1 )
 script = ExtResource( 3 )
 
@@ -16,8 +16,8 @@ repeat = true
 playback/repeat = true
 
 [node name="Button" type="Button" parent="."]
-margin_right = 64.0
-margin_bottom = 64.0
+margin_right = 160.0
+margin_bottom = 155.0
 focus_mode = 0
 enabled_focus_mode = 0
 flat = true
