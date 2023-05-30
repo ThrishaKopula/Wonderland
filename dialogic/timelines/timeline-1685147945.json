@@ -1,6 +1,11 @@
 {
 	"events": [
 		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 5
+		},
+		{
 			"audio_bus": "Master",
 			"background-music": "play",
 			"event_id": "dialogic_031",
@@ -28,6 +33,40 @@
 			},
 			"type": 1,
 			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1683081099.cfg"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alistair closes his eyes and drifts off to sleep."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "He's had a long, hard day after all, dealing with that uninvited guest."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Poor Alistair."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "He usually doesn't dream, but tonight his thoughts are running through his mind."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "A man and a woman appear in his vision. They are arguing with one another loudly."
 		},
 		{
 			"event_id": "dialogic_024",
@@ -142,7 +181,7 @@
 			"text": "H-Huh, what was that sound? Alistair, are you still up? Where are you?"
 		},
 		{
-			"background": "res://Scenes/thrishaStuff/images/dialog_backgrounds/Dorm_W_Mirror_1920.png",
+			"background": "res://Scenes/thrishaStuff/images/dialog_backgrounds/Dorm_Night.png",
 			"event_id": "dialogic_021"
 		},
 		{
@@ -440,10 +479,30 @@
 			"text": "What!? Right off the bat!?"
 		},
 		{
-			"event_id": "dialogic_015",
-			"id": "anchor-1634488067",
-			"index": 0,
-			"name": "ADD QUIZ HERE"
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "hello"
+		},
+		{
+			"choice": "twix",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "mimi",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
 		},
 		{
 			"character": "character-1681086055.json",
@@ -509,7 +568,7 @@
 			"wait_seconds": 3
 		},
 		{
-			"background": "res://Scenes/thrishaStuff/images/dialog_backgrounds/Dorm_W_Mirror_1920.png",
+			"background": "res://Scenes/thrishaStuff/images/dialog_backgrounds/Dorm_Marlon_Vq_.png",
 			"event_id": "dialogic_021"
 		},
 		{
@@ -552,6 +611,12 @@
 			"event_id": "dialogic_001",
 			"portrait": "Default",
 			"text": "…"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "shock",
+			"text": "Why is the mirror glowing!?"
 		},
 		{
 			"character": "character-1681086055.json",
@@ -608,8 +673,44 @@
 			"z_index": 0
 		},
 		{
-			"background": "res://dialogic/black.jpeg",
-			"event_id": "dialogic_021"
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1683081099.cfg"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alistair tumbles down."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "That's it. Just down. There's nothing else to see around him, no walls, no windows, nothing."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "He's lost sight of that other boy, so he's tumbling all alone in the darkness."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alistair thinks he screams, but he doesn't hear the sound of his own voice."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "He feels like he'll never stop falling."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Suddenly, a blinding light begins to shine underneath him and Alistair swears he sees a teapot right before he comes crashing down."
 		},
 		{
 			"event_id": "dialogic_023",
@@ -632,6 +733,38 @@
 		{
 			"event_id": "dialogic_024",
 			"set_theme": "theme-1683225590.cfg"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "shock_wonderland",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "Ow ow owww!!!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "What the hell was all that about!?"
 		},
 		{
 			"animation": "[Default]",
@@ -666,18 +799,6 @@
 			"text": "Mattie! I’m soooooorrryy!! I didn’t mean to, he jumped in when I wasn’t looking!"
 		},
 		{
-			"character": "character-1681338060.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "How can you let someone out-jump you!? How was he even able to enter?"
-		},
-		{
-			"character": "character-1681086547.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "*sniff* I don’t knoooooow! Mattie, don’t be mad at meeeeee… *sob*"
-		},
-		{
 			"animation": "[Default]",
 			"animation_length": 0,
 			"change_mirror_portrait": false,
@@ -701,6 +822,18 @@
 			"character": "character-1681338060.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
+			"text": "How can you let someone out-jump you!? How was he even able to enter?"
+		},
+		{
+			"character": "character-1681086547.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "*sniff* I don’t knoooooow! Mattie, don’t be mad at meeeeee… *sob*"
+		},
+		{
+			"character": "character-1681338060.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
 			"text": "*sigh* Marchie, I could never be mad at you, please. Cease this nonsense…"
 		},
 		{
@@ -708,26 +841,6 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "In any case, who are you?"
-		},
-		{
-			"animation": "[Default]",
-			"animation_length": 0,
-			"change_mirror_portrait": false,
-			"change_z_index": false,
-			"character": "character-1681086055.json",
-			"event_id": "dialogic_002",
-			"mirror_portrait": false,
-			"portrait": "default_wonderland",
-			"portrait_definition": "",
-			"position": {
-				"0": true,
-				"1": false,
-				"2": false,
-				"3": false,
-				"4": false
-			},
-			"type": 0,
-			"z_index": 0
 		},
 		{
 			"character": "character-1681086055.json",
@@ -1228,14 +1341,14 @@
 			"text": "Oh, of course, Mattie! Here you go, Alis!"
 		},
 		{
-			"background": "res://Scenes/thrishaStuff/images/dialog_backgrounds/Tea_Party_1920.png",
+			"background": "res://Scenes/thrishaStuff/images/cheat_treat.png",
 			"event_id": "dialogic_021"
 		},
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Alistair: What… What is this?"
+			"text": "What… What is this?"
 		},
 		{
 			"character": "character-1681086547.json",
@@ -1266,6 +1379,10 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "( Who knows where that's been? )"
+		},
+		{
+			"background": "res://Scenes/thrishaStuff/images/dialog_backgrounds/Tea_Party_1920.png",
+			"event_id": "dialogic_021"
 		},
 		{
 			"character": "character-1681338302.json",
