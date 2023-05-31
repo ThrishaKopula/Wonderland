@@ -9874,6 +9874,7 @@ position = Vector2( 0, -135 )
 texture = ExtResource( 7 )
 
 [node name="Jock" type="Area2D" parent="."]
+pause_mode = 2
 position = Vector2( 577, 711 )
 script = ExtResource( 4 )
 __meta__ = {
@@ -10279,8 +10280,8 @@ stream = ExtResource( 9 )
 
 [connection signal="body_entered" from="Football" to="Football" method="_on_Football_body_entered"]
 [connection signal="body_exited" from="Football" to="Football" method="_on_Football_body_exited"]
-[connection signal="body_entered" from="Jock" to="Jock" method="_on_Cheerleader_body_entered"]
-[connection signal="body_exited" from="Jock" to="Jock" method="_on_Cheerleader_body_exited"]
+[connection signal="body_entered" from="Jock" to="Jock" method="_on_Jock_body_entered"]
+[connection signal="body_exited" from="Jock" to="Jock" method="_on_Jock_body_exited"]
 [connection signal="body_entered" from="Cheerleader" to="Cheerleader" method="_on_Cheerleader_body_entered"]
 [connection signal="body_exited" from="Cheerleader" to="Cheerleader" method="_on_Cheerleader_body_exited"]
 [connection signal="body_entered" from="Marlon" to="Marlon" method="_on_Marlon_body_entered"]

@@ -10239,6 +10239,7 @@ position = Vector2( -4, 532.5 )
 shape = SubResource( 1 )
 
 [node name="CafeteriaAudio" type="AudioStreamPlayer" parent="."]
+pause_mode = 2
 stream = ExtResource( 8 )
 
 [connection signal="body_entered" from="MusicGeek" to="MusicGeek" method="_on_MusicGeek_body_entered"]
