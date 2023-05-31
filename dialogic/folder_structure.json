@@ -115,6 +115,20 @@
 				"timeline-1681428466.json"
 			],
 			"folders": {
+				"Aristocrats": {
+					"files": [
+						"timeline-1685576885.json",
+						"timeline-1685576898.json",
+						"timeline-1685576909.json"
+					],
+					"folders": {
+
+					},
+					"metadata": {
+						"color": null,
+						"folded": false
+					}
+				},
 				"Bard": {
 					"files": [
 						"timeline-1685405995.json",
@@ -346,7 +360,7 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": false
+						"folded": true
 					}
 				},
 				"MusicGeek": {

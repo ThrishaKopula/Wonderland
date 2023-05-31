@@ -1,7 +1,7 @@
 [gd_scene load_steps=86 format=2]
 
 [ext_resource path="res://Scenes/thrishaStuff/Audio/AristocratTown/Kevin MacLeod： Trio for Piano Violin and Viola.wav" type="AudioStream" id=1]
-[ext_resource path="res://Scenes/thrishaStuff/images/cheerleader.png" type="Texture" id=2]
+[ext_resource path="res://Scenes/thrishaStuff/Prefab/plebs.tscn" type="PackedScene" id=2]
 [ext_resource path="res://icon.png" type="Texture" id=3]
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/Aristocrats.gd" type="Script" id=4]
 [ext_resource path="res://Scenes/leoStuff/HUD/HUD.tscn" type="PackedScene" id=5]
@@ -69,8 +69,8 @@
 [ext_resource path="res://Scenes/mimistuff/overworld_NPC/Basic-Npcs-8.png" type="Texture" id=67]
 [ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/Overworld-Alistair-Idle-11.png" type="Texture" id=68]
 
-[sub_resource type="CircleShape2D" id=1]
-radius = 162.077
+[sub_resource type="RectangleShape2D" id=19]
+extents = Vector2( 541, 345.5 )
 
 [sub_resource type="Animation" id=13]
 resource_name = "Idle 1 Overworld"
@@ -7293,22 +7293,30 @@ extents = Vector2( 16, 546.5 )
 script = ExtResource( 6 )
 
 [node name="Aristocrats" type="Area2D" parent="."]
-position = Vector2( 644, 831 )
+position = Vector2( 2262, 746 )
 script = ExtResource( 4 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Aristocrats"]
-shape = SubResource( 1 )
-
-[node name="Sprite" type="Sprite" parent="Aristocrats"]
-scale = Vector2( 0.16, 0.16 )
-texture = ExtResource( 2 )
-
 [node name="QuestionMark" type="Sprite" parent="Aristocrats"]
-position = Vector2( 0, -135 )
+position = Vector2( 300, -500 )
 texture = ExtResource( 3 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Aristocrats"]
+position = Vector2( 326, -11.5 )
+shape = SubResource( 19 )
+
+[node name="aristo_1" parent="Aristocrats" instance=ExtResource( 2 )]
+position = Vector2( 294, -8 )
+
+[node name="aristo_2" parent="Aristocrats" instance=ExtResource( 2 )]
+position = Vector2( -14, -8 )
+pleb = 1
+
+[node name="aristo_3" parent="Aristocrats" instance=ExtResource( 2 )]
+position = Vector2( 588, -12 )
+pleb = 3
 
 [node name="Thief" type="Area2D" parent="."]
 position = Vector2( 240, 713 )
@@ -7572,19 +7580,20 @@ inOverworld = false
 
 [node name="HUD" parent="player" instance=ExtResource( 5 )]
 position = Vector2( -126, -121 )
+current = true
 limit_left = 0
 limit_top = 0
-limit_right = 2225
+limit_right = 3295
 limit_bottom = 0
 
 [node name="map" parent="player/HUD" index="0"]
 isOverworld = false
 
 [node name="rightBoundary" type="StaticBody2D" parent="."]
-position = Vector2( 1944, 4 )
+position = Vector2( 3295, 0 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="rightBoundary"]
-position = Vector2( -4, 532.5 )
+position = Vector2( -9, 540 )
 shape = SubResource( 2 )
 
 [node name="leftBoundary" type="StaticBody2D" parent="."]
@@ -7597,8 +7606,8 @@ shape = SubResource( 2 )
 pause_mode = 2
 stream = ExtResource( 1 )
 
-[connection signal="body_entered" from="Aristocrats" to="Aristocrats" method="_on_Cheerleader_body_entered"]
-[connection signal="body_exited" from="Aristocrats" to="Aristocrats" method="_on_Cheerleader_body_exited"]
+[connection signal="body_entered" from="Aristocrats" to="Aristocrats" method="_on_Aristocrats_body_entered"]
+[connection signal="body_exited" from="Aristocrats" to="Aristocrats" method="_on_Aristocrats_body_exited"]
 [connection signal="body_entered" from="Thief" to="." method="_on_Thief_body_entered"]
 [connection signal="body_entered" from="Thief" to="Thief" method="_on_Thief_body_entered"]
 [connection signal="body_exited" from="Thief" to="." method="_on_Thief_body_exited"]
