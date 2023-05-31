@@ -10264,8 +10264,8 @@ stream = ExtResource( 9 )
 
 [connection signal="body_entered" from="Watercolor" to="Watercolor" method="_on_Watercolor_body_entered"]
 [connection signal="body_exited" from="Watercolor" to="Watercolor" method="_on_Watercolor_body_exited"]
-[connection signal="body_entered" from="Professor" to="Professor" method="_on_Cheerleader_body_entered"]
-[connection signal="body_exited" from="Professor" to="Professor" method="_on_Cheerleader_body_exited"]
+[connection signal="body_entered" from="Professor" to="Professor" method="_on_Professor_body_entered"]
+[connection signal="body_exited" from="Professor" to="Professor" method="_on_Professor_body_exited"]
 [connection signal="body_entered" from="Nerd" to="Nerd" method="_on_Nerd_body_entered"]
 [connection signal="body_exited" from="Nerd" to="Nerd" method="_on_Nerd_body_exited"]
 [connection signal="body_entered" from="Marlon" to="Marlon" method="_on_Marlon_body_entered"]

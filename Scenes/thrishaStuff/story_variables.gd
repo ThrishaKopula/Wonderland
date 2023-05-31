@@ -5,6 +5,9 @@ var canPlayerMove = true
 var isLeft = false
 var isRight = false
 
+var dormDay = true
+
+
 var isMapInteracted = false
 var isAlisBedInteracted = false
 var isOtherBedInteracted = false
@@ -55,7 +58,7 @@ var isCatchTheThief = false
 var isBringThiefToVendors = false
 var isDeliverExoticFruitToLunchLady = false
 var isDeliverToJanitor = false
-var isAfterCleaningMinigame = false
+var isAfterCleaningMinigame = true
 var isDeliverKeyToMatthew = false
 
 #CATCH THE THIEF GAME

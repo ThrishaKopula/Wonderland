@@ -76,7 +76,7 @@ func _input(event):
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
 				dialog.connect('timeline_end', self, 'unpause')
 				add_child(dialog)
-			elif(StoryVariables.currentlyInChapterOne == true):
+			elif(StoryVariables.currentlyInChapterThree == true):
 				#ch3 basic
 				pause_game()
 				var dialog = Dialogic.start("ch3_plebs")

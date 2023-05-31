@@ -12,19 +12,58 @@ func _input(event):
 				pause_game()
 				var dialog = Dialogic.start("/Chapter 1/giveBallerinaToMatthew")
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
-				dialog.connect('timeline_end', self, 'unpauseToDormChapter1')
+				dialog.connect('timeline_end', self, 'unpauseToDorm')
 				add_child(dialog)
 				StoryVariables.isGiveBallerinaToMatthew = true
 			elif(StoryVariables.isAfterCleaningMinigame == true):
 				pause_game()
 				var dialog = Dialogic.start("/Chapter 2/deliverKeyToMatthew")
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
-				dialog.connect('timeline_end', self, 'unpause')
+				dialog.connect('timeline_end', self, 'unpauseToDorm')
 				add_child(dialog)
 				StoryVariables.isDeliverKeyToMatthew = true
-				StoryVariables.isAfterCleaningMinigame == false
-				StoryVariables.isChapterTwoDone = true
-				StoryVariables.currentlyInChapterTwo = false
+			elif(StoryVariables.currentlyInChapterOne == true and StoryVariables.chapterOneQuest == true and StoryVariables.isGetBallerinaFromBartender == false):
+				#chapter 1 during quest
+				pause_game()
+				var dialog = Dialogic.start("ch1_matthewQuest")
+				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
+				dialog.connect('timeline_end', self, 'unpause')
+				add_child(dialog)
+			elif(StoryVariables.currentlyInChapterOne == true and StoryVariables.chapterOneQuest == false and StoryVariables.isGetBallerinaFromBartender == false):
+				#chapter 1 before/after quest
+				pause_game()
+				var dialog = Dialogic.start("ch1_matthewNoQuest")
+				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
+				dialog.connect('timeline_end', self, 'unpause')
+				add_child(dialog)
+			elif(StoryVariables.currentlyInChapterTwo == true and StoryVariables.chapterTwoQuest == true and StoryVariables.isAfterCleaningMinigame == false):
+				#chapter 2 during quest
+				pause_game()
+				var dialog = Dialogic.start("ch2_matthewQuest")
+				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
+				dialog.connect('timeline_end', self, 'unpause')
+				add_child(dialog)
+			elif(StoryVariables.currentlyInChapterTwo == true and StoryVariables.chapterTwoQuest == false and StoryVariables.isAfterCleaningMinigame == false):
+				#chapter 2 before/after quest
+				pause_game()
+				var dialog = Dialogic.start("ch2_matthewNoQuest")
+				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
+				dialog.connect('timeline_end', self, 'unpause')
+				add_child(dialog)
+			elif(StoryVariables.currentlyInChapterThree == true and StoryVariables.chapterThreeQuest == true):
+				#chapter 3 before/after quest
+				pause_game()
+				var dialog = Dialogic.start("ch3_matthewQuest")
+				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
+				dialog.connect('timeline_end', self, 'unpause')
+				add_child(dialog)
+			elif(StoryVariables.currentlyInChapterThree == true and StoryVariables.chapterThreeQuest == false):
+				#chapter 3 before/after quest
+				pause_game()
+				var dialog = Dialogic.start("ch3_matthewNoQuest")
+				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
+				dialog.connect('timeline_end', self, 'unpause')
+				add_child(dialog)
 
 func pause_game():
 	get_tree().paused = true
@@ -35,29 +74,19 @@ func unpause(timeline_name):
 	StoryVariables.canPlayerMove = true
 	active = false
 
-func unpauseToDormChapter1(timeline_name):
+func unpauseToDorm(timeline_name):
+	StoryVariables.dormDay = false
 	active = false
 	get_tree().paused = false
 	Fade.change_scene("res://Scenes/thrishaStuff/Locations/Overworld/Dorm.tscn")
 	yield(get_tree().create_timer(2), "timeout")
-
-#	get_tree().paused = true
-#	StoryVariables.canPlayerMove = false
-#	var dialog = Dialogic.start("chapter1End")
-#	dialog.pause_mode = Node.PAUSE_MODE_PROCESS
-#	dialog.connect('timeline_end', self, 'unpauseContinueToChapter2')
-#	add_child(dialog)
-#	StoryVariables.isChapterOneDone = true
 
 func unpauseContinueToChapter2(timeline_name):
 	get_tree().paused = false
 	Fade.change_scene("res://Scenes/thrishaStuff/ContinueToChapter2.tscn")
 	yield(get_tree().create_timer(2), "timeout")
 	
-func unpauseContinueToChapter3(timeline_name):
-	get_tree().paused = false
-	Fade.change_scene("res://Scenes/thrishaStuff/ContinueToChapter3.tscn")
-	yield(get_tree().create_timer(2), "timeout")
+
 			
 func _on_MadHatter_body_entered(body):
 	if body.name == 'player':

@@ -416,14 +416,14 @@
 		},
 		{
 			"event_id": "dialogic_024",
-			"set_theme": "theme-1683686222.cfg"
+			"set_theme": "theme-1683685843.cfg"
 		},
 		{
 			"animation": "[Default]",
 			"animation_length": 0,
 			"change_mirror_portrait": false,
 			"change_z_index": false,
-			"character": "character-1681086055.json",
+			"character": "[All]",
 			"event_id": "dialogic_002",
 			"mirror_portrait": false,
 			"portrait": "",
@@ -515,78 +515,6 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "( It really has been… )"
-		},
-		{
-			"background": "res://Scenes/thrishaStuff/images/dialog_backgrounds/Dorm_W_Mirror_1920.png",
-			"event_id": "dialogic_021"
-		},
-		{
-			"event_id": "dialogic_024",
-			"set_theme": "default-theme.cfg"
-		},
-		{
-			"character": "character-1681086547.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "Haaah, we have a big day ahead of us, Alis."
-		},
-		{
-			"animation": "[Default]",
-			"animation_length": 0,
-			"change_mirror_portrait": false,
-			"change_z_index": false,
-			"character": "character-1681086055.json",
-			"event_id": "dialogic_002",
-			"mirror_portrait": false,
-			"portrait": "Default",
-			"portrait_definition": "",
-			"position": {
-				"0": true,
-				"1": false,
-				"2": false,
-				"3": false,
-				"4": false
-			},
-			"type": 0,
-			"z_index": 0
-		},
-		{
-			"character": "character-1681086055.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "( I should sleep right away… )"
-		},
-		{
-			"character": "character-1681086055.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "Way ahead of you *yawn*"
-		},
-		{
-			"character": "character-1681086055.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "Goodnight, Marlon."
-		},
-		{
-			"character": "character-1681086547.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "…"
-		},
-		{
-			"character": "character-1681086547.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "Goodnight, Alistair."
-		},
-		{
-			"background": "res://dialogic/black.jpeg",
-			"event_id": "dialogic_021"
-		},
-		{
-			"background": "",
-			"event_id": "dialogic_021"
 		}
 	],
 	"metadata": {
