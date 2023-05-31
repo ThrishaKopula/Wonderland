@@ -7624,6 +7624,7 @@ position = Vector2( -4, 532.5 )
 shape = SubResource( 3 )
 
 [node name="PlebTownAudio" type="AudioStreamPlayer" parent="."]
+pause_mode = 2
 stream = ExtResource( 1 )
 
 [connection signal="body_entered" from="Plebs" to="Plebs" method="_on_Plebs_body_entered"]

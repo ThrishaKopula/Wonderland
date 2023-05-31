@@ -4898,6 +4898,7 @@ position = Vector2( -4, 532.5 )
 shape = SubResource( 2 )
 
 [node name="CourtyardAudio" type="AudioStreamPlayer" parent="."]
+pause_mode = 2
 stream = ExtResource( 7 )
 
 [connection signal="body_entered" from="Jesters" to="Jesters" method="_on_Cheerleader_body_entered"]

@@ -24,6 +24,7 @@ limit_bottom = 0
 isOverworld = false
 
 [node name="QueenCourtAudio" type="AudioStreamPlayer" parent="."]
+pause_mode = 2
 stream = ExtResource( 4 )
 
 [editable path="player/HUD"]

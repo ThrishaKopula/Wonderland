@@ -7590,6 +7590,7 @@ position = Vector2( -4, 532.5 )
 shape = SubResource( 2 )
 
 [node name="TeaPartyAudio" type="AudioStreamPlayer" parent="."]
+pause_mode = 2
 stream = ExtResource( 6 )
 
 [connection signal="body_entered" from="MadHatter" to="MadHatter" method="_on_MadHatter_body_entered"]
