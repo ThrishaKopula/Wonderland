@@ -281,7 +281,7 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": false
+						"folded": true
 					}
 				},
 				"LunchLady": {
@@ -329,6 +329,20 @@
 					"metadata": {
 						"color": null,
 						"folded": true
+					}
+				},
+				"Nerd": {
+					"files": [
+						"timeline-1685557151.json",
+						"timeline-1685557160.json",
+						"timeline-1685557168.json"
+					],
+					"folders": {
+
+					},
+					"metadata": {
+						"color": null,
+						"folded": false
 					}
 				},
 				"Prologue": {

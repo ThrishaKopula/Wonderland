@@ -7629,8 +7629,8 @@ stream = ExtResource( 1 )
 
 [connection signal="body_entered" from="Plebs" to="Plebs" method="_on_Plebs_body_entered"]
 [connection signal="body_exited" from="Plebs" to="Plebs" method="_on_Plebs_body_exited"]
-[connection signal="body_entered" from="Mayor" to="Mayor" method="_on_Cheerleader_body_entered"]
-[connection signal="body_exited" from="Mayor" to="Mayor" method="_on_Cheerleader_body_exited"]
+[connection signal="body_entered" from="Mayor" to="Mayor" method="_on_Mayor_body_entered"]
+[connection signal="body_exited" from="Mayor" to="Mayor" method="_on_Mayor_body_exited"]
 [connection signal="body_entered" from="Thief" to="." method="_on_Thief_body_entered"]
 [connection signal="body_entered" from="Thief" to="Thief" method="_on_Thief_body_entered"]
 [connection signal="body_exited" from="Thief" to="." method="_on_Thief_body_exited"]
