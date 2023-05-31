@@ -38,15 +38,22 @@ func _input(event):
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
 				dialog.connect('timeline_end', self, 'unpause')
 				add_child(dialog)
-			elif(StoryVariables.currentlyInChapterTwo == true and StoryVariables.isInitiateCh2MainQuest == false and StoryVariables.isBringThiefToVendors == false):
-				#ch2 dialog
+			elif(StoryVariables.chapterTwoQuest == true and StoryVariables.isInitiateCh2MainQuest == false and StoryVariables.isBringThiefToVendors == false):
+				#ch2 during quest
 				pause_game()
-				var dialog = Dialogic.start("ch2_lunchlady")
+				var dialog = Dialogic.start("ch2_lunchladyQuest")
+				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
+				dialog.connect('timeline_end', self, 'unpause')
+				add_child(dialog)
+			elif(StoryVariables.chapterTwoQuest == false and StoryVariables.isInitiateCh2MainQuest == false and StoryVariables.isBringThiefToVendors == false):
+				#ch2 before/after quest
+				pause_game()
+				var dialog = Dialogic.start("ch2_lunchladyNoQuest")
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
 				dialog.connect('timeline_end', self, 'unpause')
 				add_child(dialog)
 			elif(StoryVariables.currentlyInChapterThree == true):
-				#ch1 basic
+				#ch3 basic
 				pause_game()
 				var dialog = Dialogic.start("ch3_lunchlady")
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS

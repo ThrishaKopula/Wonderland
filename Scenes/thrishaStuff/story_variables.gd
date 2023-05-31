@@ -19,7 +19,11 @@ var isChapterThreeDone = false
 
 var currentlyInChapterOne = false
 var currentlyInChapterTwo = false
-var currentlyInChapterThree = true
+var currentlyInChapterThree = false
+
+var chapterOneQuest = false
+var chapterTwoQuest = false
+var chapterThreeQuest = false
 
 #CHAPTER ONE
 var isChapterOneStartDone = false

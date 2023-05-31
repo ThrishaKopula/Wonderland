@@ -1,5 +1,11 @@
 extends Area2D
+onready var character = $AnimationPlayer
 
+onready var sprite = $body
+
+func _physics_process(_delta):
+	character.play("Idle 2 Overworld")
+	
 var active = false
 
 func _process(_delta):
@@ -9,7 +15,7 @@ func _process(_delta):
 func _input(event):
 	if get_node_or_null('DialogNode') == null:
 		if event.is_action_pressed("interact") and active:
-			if(StoryVariables.isInThiefGame == true and StoryVariables.isInTavern == true):
+			if(StoryVariables.currentlyInChapterTwo == true and StoryVariables.isInThiefGame == true and StoryVariables.isInTavern == true):
 				pause_game()
 				var dialog;
 				match StoryVariables.catch_num:
@@ -20,11 +26,12 @@ func _input(event):
 					2:
 						dialog = Dialogic.start("thief_catch3")
 						StoryVariables.isCatchTheThief = true
+						
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
 				dialog.connect('timeline_end', self, 'unpause')
 				add_child(dialog)
 				StoryVariables.catch_num += 1
-			elif(StoryVariables.isInThiefGame == true and StoryVariables.isInPlebTown == true):
+			elif(StoryVariables.currentlyInChapterTwo == true and StoryVariables.isInThiefGame == true and StoryVariables.isInPlebTown == true):
 				pause_game()
 				var dialog;
 				match StoryVariables.catch_num:
@@ -35,11 +42,12 @@ func _input(event):
 					2:
 						dialog = Dialogic.start("thief_catch3")
 						StoryVariables.isCatchTheThief = true
+
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
 				dialog.connect('timeline_end', self, 'unpause')
 				add_child(dialog)
 				StoryVariables.catch_num += 1
-			elif(StoryVariables.isInThiefGame == true and StoryVariables.isInAristocratTown == true):
+			elif(StoryVariables.currentlyInChapterTwo == true and StoryVariables.isInThiefGame == true and StoryVariables.isInAristocratTown == true):
 				pause_game()
 				var dialog;
 				match StoryVariables.catch_num:
@@ -50,10 +58,12 @@ func _input(event):
 					2:
 						dialog = Dialogic.start("thief_catch3")
 						StoryVariables.isCatchTheThief = true
+
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
 				dialog.connect('timeline_end', self, 'unpause')
 				add_child(dialog)
 				StoryVariables.catch_num += 1
+		
 
 func pause_game():
 	get_tree().paused = true

@@ -27,6 +27,7 @@ func _input(event):
 				add_child(dialog)
 				StoryVariables.isInitiateMainQuestDone = true
 				StoryVariables.isChapterOneStartDone = false
+				StoryVariables.chapterOneQuest = true
 			elif(StoryVariables.isReportBackToMusicGeek == true):
 				pause_game()
 				var dialog = Dialogic.start("deliverStringsToBard")
@@ -44,17 +45,18 @@ func _input(event):
 				add_child(dialog)
 				StoryVariables.isBringIngredientsToTavern = true
 				StoryVariables.isCollectOtherworldlyItems = false
-			elif(StoryVariables.currentlyInChapterOne == true and StoryVariables.isReportBackToMusicGeek == false and doneWithStrings == false): 
-				#chapter 1 basic dialogue before giving strings
+				StoryVariables.chapterOneQuest = false
+			elif(StoryVariables.currentlyInChapterOne == true and StoryVariables.chapterOneQuest == true and StoryVariables.isChapterOneStartDone == false and StoryVariables.isReportBackToMusicGeek == false and StoryVariables.isCollectOtherworldlyItems == false): 
+				#chapter 1 during quest
 				pause_game()
-				var dialog = Dialogic.start("ch1_beforeStrings")
+				var dialog = Dialogic.start("ch1_bardQuest")
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
 				dialog.connect('timeline_end', self, 'unpause')
 				add_child(dialog)
-			elif(StoryVariables.currentlyInChapterOne == true and StoryVariables.isCollectOtherworldlyItems == false and doneWithStrings == true): 
-				#chapter 1 basic dialogue before giving ingredients
+			elif(StoryVariables.currentlyInChapterOne == true and StoryVariables.chapterOneQuest == false and StoryVariables.isChapterOneStartDone == false and StoryVariables.isReportBackToMusicGeek == false and StoryVariables.isCollectOtherworldlyItems == false): 
+				#chapter 1 before/after quest
 				pause_game()
-				var dialog = Dialogic.start("ch1_beforeIngredients")
+				var dialog = Dialogic.start("ch1_bardNoQuest")
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
 				dialog.connect('timeline_end', self, 'unpause')
 				add_child(dialog)

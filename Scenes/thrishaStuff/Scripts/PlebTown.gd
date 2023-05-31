@@ -11,6 +11,8 @@ func _ready():
 func _process(delta):
 	if ($PlebTownAudio.playing == false):
 		$PlebTownAudio.play()
+	if(StoryVariables.isInThiefGame == true):
+		$RealThief.hide()
 	if(StoryVariables.isInThiefGame == true and StoryVariables.catch_plebTown == false):
 		$Thief.show()
 	else:

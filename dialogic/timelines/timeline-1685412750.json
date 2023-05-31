@@ -4,12 +4,12 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "ch2 ll"
+			"text": "ch2 quest ll "
 		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.5",
 		"file": "timeline-1685412750.json",
-		"name": "ch2_lunchlady"
+		"name": "ch2_lunchladyQuest"
 	}
 }

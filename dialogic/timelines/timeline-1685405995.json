@@ -4,12 +4,12 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "testing ch1_before strings"
+			"text": "ch1 bard quest"
 		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.5",
 		"file": "timeline-1685405995.json",
-		"name": "ch1_beforeStrings"
+		"name": "ch1_bardQuest"
 	}
 }

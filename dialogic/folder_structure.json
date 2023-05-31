@@ -79,7 +79,7 @@
 			},
 			"metadata": {
 				"color": null,
-				"folded": false
+				"folded": true
 			}
 		},
 		"Definitions": {
@@ -91,7 +91,7 @@
 			},
 			"metadata": {
 				"color": null,
-				"folded": false
+				"folded": true
 			}
 		},
 		"Themes": {
@@ -107,7 +107,7 @@
 			},
 			"metadata": {
 				"color": null,
-				"folded": false
+				"folded": true
 			}
 		},
 		"Timelines": {
@@ -270,6 +270,20 @@
 						"folded": true
 					}
 				},
+				"Janitor": {
+					"files": [
+						"timeline-1685558490.json",
+						"timeline-1685558498.json",
+						"timeline-1685558505.json"
+					],
+					"folders": {
+
+					},
+					"metadata": {
+						"color": null,
+						"folded": true
+					}
+				},
 				"Jock": {
 					"files": [
 						"timeline-1685556722.json",
@@ -342,7 +356,23 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": false
+						"folded": true
+					}
+				},
+				"Plebs": {
+					"files": [
+						"timeline-1685560614.json",
+						"timeline-1685560629.json",
+						"timeline-1685560639.json",
+						"timeline-1685560652.json",
+						"timeline-1685560664.json"
+					],
+					"folders": {
+
+					},
+					"metadata": {
+						"color": null,
+						"folded": true
 					}
 				},
 				"Prologue": {
@@ -368,6 +398,20 @@
 								"folded": false
 							}
 						}
+					},
+					"metadata": {
+						"color": null,
+						"folded": true
+					}
+				},
+				"Thief": {
+					"files": [
+						"timeline-1685562698.json",
+						"timeline-1685562707.json",
+						"timeline-1685562715.json"
+					],
+					"folders": {
+
 					},
 					"metadata": {
 						"color": null,

@@ -4,12 +4,12 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "ch1 bard no quest"
+			"text": "ch2 middle quest"
 		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.5",
-		"file": "timeline-1685406007.json",
-		"name": "ch1_bardNoQuest"
+		"file": "timeline-1685558505.json",
+		"name": "ch2_janitorMiddleQuest"
 	}
 }

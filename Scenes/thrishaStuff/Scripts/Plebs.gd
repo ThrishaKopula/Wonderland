@@ -47,6 +47,42 @@ func _input(event):
 				add_child(dialog)
 				StoryVariables.isBringThiefToVendors = true
 				StoryVariables.isCatchTheThief = false
+				StoryVariables.isInThiefGame = false
+			elif(StoryVariables.chapterOneQuest == true and StoryVariables.isDeliverStringsToBard == false and StoryVariables.isAllItemsCollected == false):
+				#ch1 during quest
+				pause_game()
+				var dialog = Dialogic.start("ch1_plebsQuest")
+				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
+				dialog.connect('timeline_end', self, 'unpause')
+				add_child(dialog)
+			elif(StoryVariables.currentlyInChapterOne == true and StoryVariables.chapterOneQuest == false and StoryVariables.isDeliverStringsToBard == false and StoryVariables.isAllItemsCollected == false):
+				#ch1 before/after quest
+				pause_game()
+				var dialog = Dialogic.start("ch1_plebsNoQuest")
+				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
+				dialog.connect('timeline_end', self, 'unpause')
+				add_child(dialog)
+			elif(StoryVariables.chapterTwoQuest == true and StoryVariables.isFindWhoIsCloseToJanitor == false and StoryVariables.isCatchTheThief == false):
+				#ch2 during quest
+				pause_game()
+				var dialog = Dialogic.start("ch2_plebsQuest")
+				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
+				dialog.connect('timeline_end', self, 'unpause')
+				add_child(dialog)
+			elif(StoryVariables.currentlyInChapterTwo == true and StoryVariables.chapterTwoQuest == false and StoryVariables.isFindWhoIsCloseToJanitor == false and StoryVariables.isCatchTheThief == false):
+				#ch2 before/after quest
+				pause_game()
+				var dialog = Dialogic.start("ch2_plebsNoQuest")
+				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
+				dialog.connect('timeline_end', self, 'unpause')
+				add_child(dialog)
+			elif(StoryVariables.currentlyInChapterOne == true):
+				#ch3 basic
+				pause_game()
+				var dialog = Dialogic.start("ch3_plebs")
+				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
+				dialog.connect('timeline_end', self, 'unpause')
+				add_child(dialog)
 				
 
 func pause_game():
