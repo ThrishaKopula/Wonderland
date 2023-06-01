@@ -5799,3 +5799,6 @@ anims/UNAVAILABLE = SubResource( 10 )
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2( 19, 0 )
 shape = SubResource( 11 )
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+pitch_scale = 1.3
