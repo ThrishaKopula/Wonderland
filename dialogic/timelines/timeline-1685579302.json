@@ -1,0 +1,358 @@
+{
+	"events": [
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1685579332.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1685579332.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No you cannot reschedule the tea parties to after the croquet tournaments, that goes directly against rule No. 187!"
+		},
+		{
+			"character": "character-1685579332.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "And you! Absolutely no bow ties on Thursday evenings, did you even read rule No. 923?"
+		},
+		{
+			"character": "character-1685579332.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "And YOU. What have I said about the roses? Not yellow! Not pink! RED! RED ROSES! ROSES MUST BE RED! OFF WITH YOUR HEAD!"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "default_wonderland",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( Oh dear. )"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( They said he was terrifying but this is a different level of its own. )"
+		},
+		{
+			"character": "character-1685579332.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Huh?"
+		},
+		{
+			"character": "character-1685579332.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "And what are you standing there like a lost puppy for?"
+		},
+		{
+			"character": "character-1685579332.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Speak, boy."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "H-Hey! Um… I’m, uh, looking for something…?"
+		},
+		{
+			"character": "character-1685579332.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "It appears you seem confused on what you’re even looking for. Be specific."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Well, it’s a, it’s a piece of…"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "A music box."
+		},
+		{
+			"character": "character-1685579332.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…"
+		},
+		{
+			"character": "character-1685579332.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh? What sort of music box?"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "J-Just an ordinary one, you know. With the wind-up, and the…um."
+		},
+		{
+			"character": "character-1685579332.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Don’t lie to me."
+		},
+		{
+			"character": "character-1685579332.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "As it happens to be, I know of a very specific music box. Also supposedly in pieces like you mentioned. So tell me, what more do you know about the other parts of this music box?"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "O-Oh, haha… not much. It’s just an old music box, really. It broke from wear–"
+		},
+		{
+			"character": "character-1685579332.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "It did not."
+		},
+		{
+			"character": "character-1685579332.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I said don’t lie to me."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "( Crap, he’s onto me. What should I say…? )"
+		},
+		{
+			"choice": "There’s this Box…",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Well, it's got this decorative outer Box…"
+		},
+		{
+			"character": "character-1685579332.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "With gold leaf?"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Um–yes!"
+		},
+		{
+			"character": "character-1685579332.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hmm…"
+		},
+		{
+			"choice": "There’s this Ballerina…",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "It has a little dancing centerpiece, a Ballerina…"
+		},
+		{
+			"character": "character-1685579332.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "And it’s wearing a blue dress?"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Um, yeah, it sure is…"
+		},
+		{
+			"character": "character-1685579332.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I see…"
+		},
+		{
+			"choice": "There’s this Key…",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "It's a little rusty, but it's a very small Key…"
+		},
+		{
+			"character": "character-1685579332.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hm, bronze?"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Um, I'm not sure, but it seems that way…"
+		},
+		{
+			"character": "character-1685579332.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Interesting…"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1685579332.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "And why have you come to me?"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Well there's one last piece and…"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( Shoot! I can’t tell him about Matthew and Marlon… )"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…I’ve looked everywhere for it, and I just can’t find it. I was hoping a capable Queen such as yourself might point me in the right direction."
+		},
+		{
+			"character": "character-1685579332.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I most definitely can, but why should I?"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Um…"
+		},
+		{
+			"character": "character-1685579332.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "More importantly, if you know of the other pieces, then it means you can travel through mirrors…"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( No, if he keeps piecing information together like this… )"
+		},
+		{
+			"character": "character-1685579332.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Mirrors… Music Box…?"
+		},
+		{
+			"character": "character-1685579332.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Could it be…? That book…"
+		},
+		{
+			"character": "character-1685579332.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hmmm…"
+		},
+		{
+			"character": "character-1685579332.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I’ve heard enough from you. You passed the trials of my Jesters, didn’t you?"
+		},
+		{
+			"character": "character-1685579332.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Y-Yes."
+		},
+		{
+			"character": "character-1685579332.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Now you will face my trial. Steel yourself!"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1685579302.json",
+		"name": "talkToQueen"
+	}
+}

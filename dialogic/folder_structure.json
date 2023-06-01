@@ -25,7 +25,7 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": false
+						"folded": true
 					}
 				},
 				"Wonderland": {
@@ -37,7 +37,8 @@
 						"character-1681338302.json",
 						"character-1681439104.json",
 						"character-1681452544.json",
-						"character-1683771916.json"
+						"character-1683771916.json",
+						"character-1685579332.json"
 					],
 					"folders": {
 						"Jesters": {
@@ -73,13 +74,13 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": true
+						"folded": false
 					}
 				}
 			},
 			"metadata": {
 				"color": null,
-				"folded": true
+				"folded": false
 			}
 		},
 		"Definitions": {
@@ -126,7 +127,7 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": false
+						"folded": true
 					}
 				},
 				"Bard": {
@@ -246,7 +247,10 @@
 						"timeline-1684459134.json",
 						"timeline-1684459799.json",
 						"timeline-1684460299.json",
-						"timeline-1684733511.json"
+						"timeline-1684733511.json",
+						"timeline-1685577475.json",
+						"timeline-1685578120.json",
+						"timeline-1685579302.json"
 					],
 					"folders": {
 						"royalGiftsQuest": {
@@ -268,7 +272,7 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": true
+						"folded": false
 					}
 				},
 				"Cheerleader": {

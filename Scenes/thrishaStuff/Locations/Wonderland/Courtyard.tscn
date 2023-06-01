@@ -1,7 +1,7 @@
 [gd_scene load_steps=53 format=2]
 
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/Courtyard.gd" type="Script" id=1]
-[ext_resource path="res://Scenes/thrishaStuff/images/cheerleader.png" type="Texture" id=2]
+[ext_resource path="res://Scenes/thrishaStuff/Prefab/plebs.tscn" type="PackedScene" id=2]
 [ext_resource path="res://icon.png" type="Texture" id=3]
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/Jesters.gd" type="Script" id=4]
 [ext_resource path="res://Scenes/leoStuff/HUD/HUD.tscn" type="PackedScene" id=5]
@@ -42,8 +42,8 @@
 [ext_resource path="res://Scenes/mimistuff/marlon/Marlon-Wonderland-11.png" type="Texture" id=40]
 [ext_resource path="res://Scenes/mimistuff/marlon/Marlon-Wonderland-14.png" type="Texture" id=41]
 
-[sub_resource type="CircleShape2D" id=1]
-radius = 162.077
+[sub_resource type="RectangleShape2D" id=12]
+extents = Vector2( 665.5, 345.5 )
 
 [sub_resource type="Animation" id=3]
 resource_name = "Idle 1 Overworld"
@@ -4718,22 +4718,34 @@ extents = Vector2( 16, 546.5 )
 script = ExtResource( 1 )
 
 [node name="Jesters" type="Area2D" parent="."]
-position = Vector2( 644, 831 )
+position = Vector2( 2232, 759 )
 script = ExtResource( 4 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Jesters"]
-shape = SubResource( 1 )
-
-[node name="Sprite" type="Sprite" parent="Jesters"]
-scale = Vector2( 0.16, 0.16 )
-texture = ExtResource( 2 )
-
 [node name="QuestionMark" type="Sprite" parent="Jesters"]
-position = Vector2( 0, -135 )
+position = Vector2( 300, -500 )
 texture = ExtResource( 3 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Jesters"]
+position = Vector2( 450.5, -11.5 )
+shape = SubResource( 12 )
+
+[node name="heart" parent="Jesters" instance=ExtResource( 2 )]
+position = Vector2( 294, -8 )
+
+[node name="diamong" parent="Jesters" instance=ExtResource( 2 )]
+position = Vector2( -14, -8 )
+pleb = 1
+
+[node name="clover" parent="Jesters" instance=ExtResource( 2 )]
+position = Vector2( 588, -12 )
+pleb = 3
+
+[node name="spade" parent="Jesters" instance=ExtResource( 2 )]
+position = Vector2( 890, -17 )
+pleb = 3
 
 [node name="Marlon" type="Area2D" parent="."]
 position = Vector2( 264, 701 )
