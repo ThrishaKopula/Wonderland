@@ -75,6 +75,20 @@ var mini_game1 = false
 
 #CHAPTER 3
 var isChapter3Start = false
+var isRejectedByJesters = false
+var isEavesdropOnJesters = false
+var isInitiateRoyalGiftsQuest = false
+var isAllRoyalItemsCollected = false
+var isDeliverGiftsToJesters = false
+var isTalkToGuards = false
+var isTalkToQueen = false
+
+#ROYAL GIFTS QUEST
+var heartItem = false
+var diamondItem = false
+var cloverItem = false
+var spadeItem = false
+
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -114,6 +128,16 @@ func unpauseMiniGame1(timeline_name):
 func chapter1_checkIfPlebItemsCollected():
 	if (isPleb_AItemCollected == true && isPleb_BItemCollected == true && isPleb_CItemCollected == true):
 		isAllItemsCollected = true
+		get_tree().paused = true
+		canPlayerMove = false
+		var dialog = Dialogic.start("afterInteracted")
+		dialog.pause_mode = Node.PAUSE_MODE_PROCESS
+		dialog.connect('timeline_end', self, 'unpause')
+		add_child(dialog)
+
+func chapter3_checkJesterItems():
+	if (heartItem == true and cloverItem == true and spadeItem == true and diamondItem == true):
+		isAllRoyalItemsCollected = true
 		get_tree().paused = true
 		canPlayerMove = false
 		var dialog = Dialogic.start("afterInteracted")

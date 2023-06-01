@@ -4888,16 +4888,20 @@ inOverworld = false
 
 [node name="HUD" parent="player" instance=ExtResource( 5 )]
 position = Vector2( -112, -121 )
+current = true
 limit_left = 0
 limit_top = 0
-limit_right = 2225
+limit_right = 3495
 limit_bottom = 0
 
 [node name="map" parent="player/HUD" index="0"]
 isOverworld = false
 
 [node name="rightBoundary" type="StaticBody2D" parent="."]
-position = Vector2( 1944, 4 )
+position = Vector2( 3495, 0 )
+__meta__ = {
+"_edit_group_": true
+}
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="rightBoundary"]
 position = Vector2( -4, 532.5 )
@@ -4913,8 +4917,8 @@ shape = SubResource( 2 )
 pause_mode = 2
 stream = ExtResource( 7 )
 
-[connection signal="body_entered" from="Jesters" to="Jesters" method="_on_Cheerleader_body_entered"]
-[connection signal="body_exited" from="Jesters" to="Jesters" method="_on_Cheerleader_body_exited"]
+[connection signal="body_entered" from="Jesters" to="Jesters" method="_on_Jesters_body_entered"]
+[connection signal="body_exited" from="Jesters" to="Jesters" method="_on_Jesters_body_exited"]
 [connection signal="body_entered" from="Marlon" to="Marlon" method="_on_Marlon_body_entered"]
 [connection signal="body_exited" from="Marlon" to="Marlon" method="_on_Marlon_body_exited"]
 

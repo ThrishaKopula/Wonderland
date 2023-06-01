@@ -258,15 +258,14 @@
 								"timeline-1684734384.json",
 								"timeline-1684734454.json",
 								"timeline-1684735248.json",
-								"timeline-1684735337.json",
-								"timeline-1684735406.json"
+								"timeline-1684735337.json"
 							],
 							"folders": {
 
 							},
 							"metadata": {
 								"color": null,
-								"folded": true
+								"folded": false
 							}
 						}
 					},
@@ -301,6 +300,20 @@
 					"metadata": {
 						"color": null,
 						"folded": true
+					}
+				},
+				"Jesters": {
+					"files": [
+						"timeline-1685581162.json",
+						"timeline-1685581172.json",
+						"timeline-1685581185.json"
+					],
+					"folders": {
+
+					},
+					"metadata": {
+						"color": null,
+						"folded": false
 					}
 				},
 				"Jock": {
