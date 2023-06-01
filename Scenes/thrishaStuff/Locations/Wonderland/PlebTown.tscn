@@ -1,4 +1,4 @@
-[gd_scene load_steps=98 format=2]
+[gd_scene load_steps=101 format=2]
 
 [ext_resource path="res://Scenes/thrishaStuff/Audio/PlebTown/Kevin MacLeod： Achaidh Cheide.wav" type="AudioStream" id=1]
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/Plebs.gd" type="Script" id=2]
@@ -70,9 +70,12 @@
 [ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/Overworld-Alistair-Idle-12.png" type="Texture" id=68]
 [ext_resource path="res://Scenes/mimistuff/overworld_NPC/Basic-Npcs-8.png" type="Texture" id=69]
 [ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/Overworld-Alistair-Idle-11.png" type="Texture" id=70]
+[ext_resource path="res://Scenes/thrishaStuff/images/dialog_backgrounds/plebTown/Pleb_Town-1.png" type="Texture" id=71]
+[ext_resource path="res://Scenes/thrishaStuff/images/dialog_backgrounds/plebTown/Pleb_Town-3.png" type="Texture" id=72]
+[ext_resource path="res://Scenes/thrishaStuff/images/dialog_backgrounds/plebTown/Pleb_Town-2.png" type="Texture" id=73]
 
 [sub_resource type="RectangleShape2D" id=9]
-extents = Vector2( 541, 345.5 )
+extents = Vector2( 541, 714.417 )
 
 [sub_resource type="Animation" id=25]
 resource_name = "Idle 1 Overworld"
@@ -12384,8 +12387,23 @@ extents = Vector2( 16, 546.5 )
 [node name="PlebTown" type="Node2D"]
 script = ExtResource( 11 )
 
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+offset = Vector2( 800, 540 )
+transform = Transform2D( 1, 0, 0, 1, 800, 540 )
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2( 0.5, 1 )
+
+[node name="Sprite" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
+texture = ExtResource( 71 )
+
+[node name="ParallaxLayer2" type="ParallaxLayer" parent="ParallaxBackground"]
+
+[node name="Sprite" type="Sprite" parent="ParallaxBackground/ParallaxLayer2"]
+texture = ExtResource( 73 )
+
 [node name="Plebs" type="Area2D" parent="."]
-position = Vector2( 1101, 722 )
+position = Vector2( 369, 571 )
 script = ExtResource( 2 )
 __meta__ = {
 "_edit_group_": true
@@ -12396,18 +12414,25 @@ position = Vector2( 300, -500 )
 texture = ExtResource( 6 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Plebs"]
-position = Vector2( 326, -11.5 )
+position = Vector2( 326, -27 )
+scale = Vector2( 1.64943, 0.720867 )
 shape = SubResource( 9 )
 
 [node name="PlebA" parent="Plebs" instance=ExtResource( 3 )]
+position = Vector2( -136, 0 )
 
 [node name="PlebB" parent="Plebs" instance=ExtResource( 3 )]
-position = Vector2( 363, -10 )
+position = Vector2( 329, -6 )
 pleb = 1
 
 [node name="PlebC" parent="Plebs" instance=ExtResource( 3 )]
-position = Vector2( 685, -10 )
+position = Vector2( 764, -6 )
 pleb = 2
+
+[node name="plebStands" type="Sprite" parent="."]
+position = Vector2( 793, 608 )
+z_index = 20
+texture = ExtResource( 72 )
 
 [node name="Mayor" type="Area2D" parent="."]
 position = Vector2( 2707, 729 )
@@ -12652,7 +12677,7 @@ position = Vector2( 11, -11.5 )
 shape = SubResource( 24 )
 
 [node name="Thief" type="Area2D" parent="."]
-position = Vector2( 257, 719 )
+position = Vector2( -766, 553 )
 script = ExtResource( 7 )
 __meta__ = {
 "_edit_group_": true
@@ -12909,27 +12934,29 @@ shape = SubResource( 18 )
 [node name="player" parent="." instance=ExtResource( 12 )]
 pause_mode = 2
 position = Vector2( 728, 715 )
+z_index = 25
 inOverworld = false
 
 [node name="HUD" parent="player" instance=ExtResource( 10 )]
 position = Vector2( 162, -121 )
 current = true
-limit_left = 0
+limit_left = -1764
 limit_top = 0
-limit_right = 3739
+limit_right = 3416
 limit_bottom = 0
 
 [node name="map" parent="player/HUD" index="0"]
 isOverworld = false
 
 [node name="rightBoundary" type="StaticBody2D" parent="."]
-position = Vector2( 3739, 0 )
+position = Vector2( 3416, 0 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="rightBoundary"]
 position = Vector2( -4, 532.5 )
 shape = SubResource( 3 )
 
 [node name="leftBoundary" type="StaticBody2D" parent="."]
+position = Vector2( -1764, 0 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="leftBoundary"]
 position = Vector2( -4, 532.5 )
