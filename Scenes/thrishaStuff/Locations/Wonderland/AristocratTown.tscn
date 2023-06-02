@@ -9859,7 +9859,7 @@ texture = ExtResource( 69 )
 texture = ExtResource( 70 )
 
 [node name="Mayor" type="Area2D" parent="."]
-position = Vector2( 2707, 729 )
+position = Vector2( 2711, 615 )
 script = ExtResource( 71 )
 __meta__ = {
 "_edit_group_": true
@@ -9980,7 +9980,7 @@ position = Vector2( 11, -11.5 )
 shape = SubResource( 25 )
 
 [node name="Aristocrats" type="Area2D" parent="."]
-position = Vector2( -1030, 723 )
+position = Vector2( -1030, 623 )
 script = ExtResource( 4 )
 __meta__ = {
 "_edit_group_": true
@@ -10006,7 +10006,7 @@ position = Vector2( 588, -12 )
 pleb = 3
 
 [node name="Thief" type="Area2D" parent="."]
-position = Vector2( 240, 713 )
+position = Vector2( 244, 627 )
 script = ExtResource( 7 )
 __meta__ = {
 "_edit_group_": true
@@ -10127,7 +10127,7 @@ position = Vector2( 11, -11.5 )
 shape = SubResource( 18 )
 
 [node name="Marlon" type="Area2D" parent="."]
-position = Vector2( 1558, 727 )
+position = Vector2( 1569, 620 )
 script = ExtResource( 19 )
 __meta__ = {
 "_edit_group_": true
@@ -10262,7 +10262,7 @@ shape = SubResource( 12 )
 
 [node name="player" parent="." instance=ExtResource( 8 )]
 pause_mode = 2
-position = Vector2( 1056, 715 )
+position = Vector2( 924, 711 )
 inOverworld = false
 
 [node name="HUD" parent="player" instance=ExtResource( 5 )]
