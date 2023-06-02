@@ -247,6 +247,12 @@
 			"text": "Huh? Y-Yeah!"
 		},
 		{
+			"character": "character-1685727814.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Let's head back to the classroom now."
+		},
+		{
 			"background": "res://dialogic/black.jpeg",
 			"event_id": "dialogic_021"
 		},

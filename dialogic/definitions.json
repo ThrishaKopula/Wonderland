@@ -14,6 +14,12 @@
 			"name": "nerdHelp",
 			"type": 0,
 			"value": "1"
+		},
+		{
+			"id": "1685734949-440",
+			"name": "mayorHelp",
+			"type": 0,
+			"value": "1"
 		}
 	]
 }

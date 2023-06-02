@@ -18,6 +18,14 @@ func _ready():
 func _input(event):
 	if get_node_or_null('DialogNode') == null:
 		if event.is_action_pressed("interact") and active:
+			if(StoryVariables.isMayorQuestEnded == false):
+				#side quest
+				pause_game()
+				var dialog = Dialogic.start("mayor_sideQuest")
+				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
+				dialog.connect('timeline_end', self, 'unpause')
+				add_child(dialog)
+				StoryVariables.isMayorQuestStarted = true
 			if(StoryVariables.currentlyInChapterOne == true):
 				#chapter 1 basic dialogue
 				pause_game()
@@ -48,6 +56,10 @@ func unpause(timeline_name):
 	get_tree().paused = false
 	StoryVariables.canPlayerMove = true
 	active = false
+	
+	if Dialogic.get_variable('mayorHelp') == "0":
+		print("does equal?", Dialogic.get_variable('mayorHelp') == '0')
+		StoryVariables.isMayorQuestEnded = true
 
 func _on_Mayor_body_entered(body):
 	if body.name == 'player':

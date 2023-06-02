@@ -93,6 +93,12 @@ var spadeItem = false
 var isNerdQuestStarted = false
 var isNerdQuestEnded = false
 
+var isMayorQuestStarted = false
+var isMayorQuestEnded = false
+
+var isJockQuestStarted = false
+var isJockQuestEnded = false
+
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	connect("my_signal", self, "signal_handler")
