@@ -276,7 +276,7 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": false
+						"folded": true
 					}
 				},
 				"Cheerleader": {
@@ -405,14 +405,16 @@
 					"files": [
 						"timeline-1685409612.json",
 						"timeline-1685409638.json",
-						"timeline-1685409651.json"
+						"timeline-1685409651.json",
+						"timeline-1685739435.json",
+						"timeline-1685739454.json"
 					],
 					"folders": {
 
 					},
 					"metadata": {
 						"color": null,
-						"folded": true
+						"folded": false
 					}
 				},
 				"Nerd": {
@@ -443,7 +445,7 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": true
+						"folded": false
 					}
 				},
 				"Professor": {

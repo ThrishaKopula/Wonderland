@@ -8,7 +8,6 @@ func _input(event):
 	if get_node_or_null('DialogNode') == null:
 		if event.is_action_pressed("interact") and active:
 			if(StoryVariables.isChapterTwoStart == true):
-				print(StoryVariables.isChapterTwoStart)
 				pause_game()
 				var dialog = Dialogic.start("initiateCh2MainQuest")
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS

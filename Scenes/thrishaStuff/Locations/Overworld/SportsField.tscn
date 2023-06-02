@@ -10255,6 +10255,7 @@ position = Vector2( 1056, 715 )
 
 [node name="HUD" parent="player" instance=ExtResource( 8 )]
 position = Vector2( -202, -121 )
+current = true
 limit_left = -1573
 limit_top = 0
 limit_right = 2504
@@ -10275,6 +10276,7 @@ position = Vector2( -8, 532.5 )
 shape = SubResource( 4 )
 
 [node name="SportsFieldAudio" type="AudioStreamPlayer" parent="."]
+pause_mode = 2
 stream = ExtResource( 9 )
 
 [connection signal="body_entered" from="Football" to="Football" method="_on_Football_body_entered"]

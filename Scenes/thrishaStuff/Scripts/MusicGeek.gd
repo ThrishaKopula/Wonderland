@@ -56,7 +56,20 @@ func _input(event):
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
 				dialog.connect('timeline_end', self, 'unpause')
 				add_child(dialog)
-
+			elif(StoryVariables.currentlyInChapterTwo == true):
+				#ch2 basic
+				pause_game()
+				var dialog = Dialogic.start("ch2_musicGeek")
+				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
+				dialog.connect('timeline_end', self, 'unpause')
+				add_child(dialog)
+			elif(StoryVariables.currentlyInChapterThree == true):
+				#ch3 basic
+				pause_game()
+				var dialog = Dialogic.start("ch3_musicGeek")
+				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
+				dialog.connect('timeline_end', self, 'unpause')
+				add_child(dialog)
 func pause_game():
 	get_tree().paused = true
 	StoryVariables.canPlayerMove = false
