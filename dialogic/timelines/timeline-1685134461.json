@@ -1,6 +1,10 @@
 {
 	"events": [
 		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1683225590.cfg"
+		},
+		{
 			"animation": "[Default]",
 			"animation_length": 0,
 			"change_mirror_portrait": false,
@@ -8,7 +12,7 @@
 			"character": "character-1681086547.json",
 			"event_id": "dialogic_002",
 			"mirror_portrait": false,
-			"portrait": "Default",
+			"portrait": "default_wonderland",
 			"portrait_definition": "",
 			"position": {
 				"0": true,

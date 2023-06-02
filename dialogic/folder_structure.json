@@ -18,14 +18,15 @@
 						"character-1682633822.json",
 						"character-1682643732.json",
 						"character-1683770218.json",
-						"character-1683770471.json"
+						"character-1683770471.json",
+						"character-1685727814.json"
 					],
 					"folders": {
 
 					},
 					"metadata": {
 						"color": null,
-						"folded": true
+						"folded": false
 					}
 				},
 				"Wonderland": {
@@ -74,25 +75,28 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": false
+						"folded": true
 					}
 				}
 			},
 			"metadata": {
 				"color": null,
-				"folded": false
+				"folded": true
 			}
 		},
 		"Definitions": {
 			"files": [
-				"1681425960-366"
+				"1681425960-366",
+				"1685727918-648",
+				"1685734949-440",
+				"1685735501-247"
 			],
 			"folders": {
 
 			},
 			"metadata": {
 				"color": null,
-				"folded": true
+				"folded": false
 			}
 		},
 		"Themes": {
@@ -108,7 +112,7 @@
 			},
 			"metadata": {
 				"color": null,
-				"folded": true
+				"folded": false
 			}
 		},
 		"Timelines": {
@@ -258,7 +262,8 @@
 								"timeline-1684734384.json",
 								"timeline-1684734454.json",
 								"timeline-1684735248.json",
-								"timeline-1684735337.json"
+								"timeline-1684735337.json",
+								"timeline-1685736352.json"
 							],
 							"folders": {
 
@@ -271,7 +276,7 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": false
+						"folded": true
 					}
 				},
 				"Cheerleader": {
@@ -313,14 +318,15 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": false
+						"folded": true
 					}
 				},
 				"Jock": {
 					"files": [
 						"timeline-1685556722.json",
 						"timeline-1685556730.json",
-						"timeline-1685556738.json"
+						"timeline-1685556738.json",
+						"timeline-1685735182.json"
 					],
 					"folders": {
 
@@ -380,11 +386,12 @@
 						"folded": true
 					}
 				},
-				"MusicGeek": {
+				"Mayor": {
 					"files": [
-						"timeline-1685409612.json",
-						"timeline-1685409638.json",
-						"timeline-1685409651.json"
+						"timeline-1685734793.json",
+						"timeline-1685734804.json",
+						"timeline-1685734815.json",
+						"timeline-1685734907.json"
 					],
 					"folders": {
 
@@ -394,11 +401,28 @@
 						"folded": true
 					}
 				},
+				"MusicGeek": {
+					"files": [
+						"timeline-1685409612.json",
+						"timeline-1685409638.json",
+						"timeline-1685409651.json",
+						"timeline-1685739435.json",
+						"timeline-1685739454.json"
+					],
+					"folders": {
+
+					},
+					"metadata": {
+						"color": null,
+						"folded": false
+					}
+				},
 				"Nerd": {
 					"files": [
 						"timeline-1685557151.json",
 						"timeline-1685557160.json",
-						"timeline-1685557168.json"
+						"timeline-1685557168.json",
+						"timeline-1685727772.json"
 					],
 					"folders": {
 
@@ -421,7 +445,7 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": true
+						"folded": false
 					}
 				},
 				"Professor": {

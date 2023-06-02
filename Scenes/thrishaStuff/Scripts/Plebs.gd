@@ -8,7 +8,6 @@ func _process(_delta):
 func _input(event):
 	if get_node_or_null('DialogNode') == null:
 		if event.is_action_pressed("interact") and active:
-			StoryVariables.chapter1_checkIfPlebItemsCollected()
 			if(StoryVariables.isDeliverStringsToBard == true):
 				pause_game()
 				var dialog = Dialogic.start("getIngredientsFromVendors")
@@ -17,6 +16,7 @@ func _input(event):
 				add_child(dialog)
 				StoryVariables.isDeliverStringsToBard = false
 				StoryVariables.isGetIngredientsFromVendors = true
+				StoryVariables.chapter1_checkIfPlebItemsCollected()
 			elif(StoryVariables.isAllItemsCollected == true):
 				pause_game()
 				var dialog = Dialogic.start("collectOtherworldlyItems")

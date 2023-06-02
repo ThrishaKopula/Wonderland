@@ -33,7 +33,7 @@ func _process(delta):
 		$player/MoveRight.hide()
 	if(StoryVariables.isPrologueDone == false):
 		$Marlon.hide()
-	if(StoryVariables.isChapterOneStartDone == true or StoryVariables.isChapterTwoStart == true or StoryVariables.isChapter3Start == true):
+	if(StoryVariables.currentlyInChapterOne == true or StoryVariables.currentlyInChapterTwo == true or StoryVariables.currentlyInChapterThree == true):
 		$Marlon.show()
 		StoryVariables.isLeft = true
 		StoryVariables.isRight = true

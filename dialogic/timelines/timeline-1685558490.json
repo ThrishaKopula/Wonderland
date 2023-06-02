@@ -1,6 +1,11 @@
 {
 	"events": [
-
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "ch1 janitor"
+		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.5",

@@ -97,7 +97,6 @@ Fade="*res://Scenes/leoStuff/transition/fade.tscn"
 
 window/size/width=1920
 window/size/height=1080
-window/size/resizable=false
 window/size/fullscreen=true
 window/size/test_width=1920
 window/size/test_height=1080

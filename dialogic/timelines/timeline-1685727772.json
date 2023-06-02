@@ -1,0 +1,290 @@
+{
+	"events": [
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1685727814.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1685727814.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ugh… this model rocket is a lot heavier than it looks…"
+		},
+		{
+			"character": "character-1685727814.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hah… whew…"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( She’s getting nowhere lugging that thing. )"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "( It’s getting hard to watch… )"
+		},
+		{
+			"choice": "I should just go help her.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1685727918-648",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ugh, listen you’re getting nowhere with that."
+		},
+		{
+			"character": "character-1685727814.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "..."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "That came out wrong. I wanted to help."
+		},
+		{
+			"character": "character-1685727814.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Well, then don’t just stand there!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Here, let me take one end…"
+		},
+		{
+			"character": "character-1685727814.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Lift with your back! Okay! Go!"
+		},
+		{
+			"background": "res://dialogic/black.jpeg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ugh… *pant*... How far is your dorm?"
+		},
+		{
+			"character": "character-1685727814.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Huuh… *gasp*... Shouldn’t be far now. Just a few more steps."
+		},
+		{
+			"background": "res://dialogic/black.jpeg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "*huff*... Whoa… you’re obsessed."
+		},
+		{
+			"character": "character-1685727814.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I KNOW right!"
+		},
+		{
+			"character": "character-1685727814.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I’ve wanted to design and engineer prototypes for rockets like these ever since I was a little girl."
+		},
+		{
+			"character": "character-1685727814.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Coming here to learn more about what I really love is so exciting!"
+		},
+		{
+			"character": "character-1685727814.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Don’t you feel the same?"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I, uh…"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( Honestly…I don’t feel that way. )"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( … )"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( Mom just sent me here so I’d figure out what I wanted to do with myself. )"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( She said it’s good to have passions and stupid stuff like that… )"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( Hmph! I’m just here for my trust fund. )"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( But she seems so excited… )"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( … Am I… jealous…? )"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( No. )"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sure, I feel that way. I’ve also got something I’m looking forward to after graduating."
+		},
+		{
+			"character": "character-1685727814.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "How nice! Well…"
+		},
+		{
+			"character": "character-1685727814.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Here’s to both of us, yeah?"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Huh? Y-Yeah!"
+		},
+		{
+			"character": "character-1685727814.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Let's head back to the classroom now."
+		},
+		{
+			"background": "res://dialogic/black.jpeg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"background": "",
+			"event_id": "dialogic_021"
+		},
+		{
+			"choice": "I don’t have time to keep staring.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685727814.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hrrghh…*huff* *gasp*"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1685727772.json",
+		"name": "nerd_sideQuest"
+	}
+}

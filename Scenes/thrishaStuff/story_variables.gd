@@ -1,12 +1,16 @@
 extends Node
 
+var goodPoints = 0
+var badPoints = 0
+
+var lockedMap = preload("res://Scenes/thrishaStuff/images/Map_Wonderland_Locked.png")
+
 # Declare member variables here. Examples:
 var canPlayerMove = true
 var isLeft = false
 var isRight = false
 
 var dormDay = true
-
 
 var isMapInteracted = false
 var isAlisBedInteracted = false
@@ -89,6 +93,15 @@ var diamondItem = false
 var cloverItem = false
 var spadeItem = false
 
+#SIDE QUESTS
+var isNerdQuestStarted = false
+var isNerdQuestEnded = false
+
+var isMayorQuestStarted = false
+var isMayorQuestEnded = false
+
+var isJockQuestStarted = false
+var isJockQuestEnded = false
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -140,7 +153,7 @@ func chapter3_checkJesterItems():
 		isAllRoyalItemsCollected = true
 		get_tree().paused = true
 		canPlayerMove = false
-		var dialog = Dialogic.start("afterInteracted")
+		var dialog = Dialogic.start("afterRoyalInteracted")
 		dialog.pause_mode = Node.PAUSE_MODE_PROCESS
 		dialog.connect('timeline_end', self, 'unpause')
 		add_child(dialog)
@@ -148,3 +161,16 @@ func chapter3_checkJesterItems():
 func unpause(timeline_name):
 	get_tree().paused = false
 	canPlayerMove = true
+	
+func checkEnding():
+	if(isNerdQuestEnded == false):
+		badPoints += 1
+	if(isMayorQuestEnded == false):
+		badPoints += 1
+	if(isJockQuestEnded == false):
+		badPoints += 1
+	
+	if(goodPoints >= badPoints):
+		pass
+	else:
+		pass
