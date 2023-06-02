@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/foot.mp3-b5437b0bee21aac2ab6aeec5936dfe39.mp3str"
+
+[deps]
+
+source_file="res://Scenes/leoStuff/sound/foot.mp3"
+dest_files=[ "res://.import/foot.mp3-b5437b0bee21aac2ab6aeec5936dfe39.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
