@@ -55,8 +55,8 @@ func unpause(timeline_name):
 	active = false
 	
 	if Dialogic.get_variable('nerdHelp') == "0":
-		print("does equal?", Dialogic.get_variable('nerdHelp') == '0')
 		StoryVariables.isNerdQuestEnded = true
+		StoryVariables.goodPoints += 1
 
 func _on_Nerd_body_entered(body):
 	if body.name == 'player':

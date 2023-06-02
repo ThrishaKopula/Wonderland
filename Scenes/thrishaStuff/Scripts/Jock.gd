@@ -59,6 +59,7 @@ func unpause(timeline_name):
 	
 	if Dialogic.get_variable('jockHelp') == "0":
 		StoryVariables.isJockQuestEnded = true
+		StoryVariables.goodPoints += 1
 	
 func _on_Jock_body_entered(body):
 	if body.name == 'player':

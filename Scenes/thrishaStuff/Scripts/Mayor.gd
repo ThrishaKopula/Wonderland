@@ -59,6 +59,7 @@ func unpause(timeline_name):
 	
 	if Dialogic.get_variable('mayorHelp') == "0":
 		StoryVariables.isMayorQuestEnded = true
+		StoryVariables.goodPoints += 1
 
 func _on_Mayor_body_entered(body):
 	if body.name == 'player':
