@@ -89,6 +89,9 @@ var diamondItem = false
 var cloverItem = false
 var spadeItem = false
 
+#SIDE QUESTS
+var isNerdQuestStarted = false
+var isNerdQuestEnded = false
 
 # Called when the node enters the scene tree for the first time.
 func _ready():

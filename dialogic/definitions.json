@@ -8,6 +8,12 @@
 			"name": "count",
 			"type": 0,
 			"value": "0"
+		},
+		{
+			"id": "1685727918-648",
+			"name": "nerdHelp",
+			"type": 0,
+			"value": "1"
 		}
 	]
 }

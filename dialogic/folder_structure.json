@@ -18,14 +18,15 @@
 						"character-1682633822.json",
 						"character-1682643732.json",
 						"character-1683770218.json",
-						"character-1683770471.json"
+						"character-1683770471.json",
+						"character-1685727814.json"
 					],
 					"folders": {
 
 					},
 					"metadata": {
 						"color": null,
-						"folded": true
+						"folded": false
 					}
 				},
 				"Wonderland": {
@@ -74,25 +75,26 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": false
+						"folded": true
 					}
 				}
 			},
 			"metadata": {
 				"color": null,
-				"folded": false
+				"folded": true
 			}
 		},
 		"Definitions": {
 			"files": [
-				"1681425960-366"
+				"1681425960-366",
+				"1685727918-648"
 			],
 			"folders": {
 
 			},
 			"metadata": {
 				"color": null,
-				"folded": true
+				"folded": false
 			}
 		},
 		"Themes": {
@@ -108,7 +110,7 @@
 			},
 			"metadata": {
 				"color": null,
-				"folded": true
+				"folded": false
 			}
 		},
 		"Timelines": {
@@ -271,7 +273,7 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": false
+						"folded": true
 					}
 				},
 				"Cheerleader": {
@@ -313,7 +315,7 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": false
+						"folded": true
 					}
 				},
 				"Jock": {
@@ -398,14 +400,15 @@
 					"files": [
 						"timeline-1685557151.json",
 						"timeline-1685557160.json",
-						"timeline-1685557168.json"
+						"timeline-1685557168.json",
+						"timeline-1685727772.json"
 					],
 					"folders": {
 
 					},
 					"metadata": {
 						"color": null,
-						"folded": true
+						"folded": false
 					}
 				},
 				"Plebs": {
