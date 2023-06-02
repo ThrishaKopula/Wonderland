@@ -139,12 +139,6 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Well, you deserved it. You can enter the [b]Queen’s Court[/b] now."
-		},
-		{
-			"character": "character-1681086055.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "( Nice! I’m in. All I have to do now is find that [b]Pedestal[/b[. )"
 		}
 	],
 	"metadata": {

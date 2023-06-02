@@ -3,8 +3,6 @@ extends Node
 var goodPoints = 0
 var badPoints = 0
 
-var lockedMap = preload("res://Scenes/thrishaStuff/images/Map_Wonderland_Locked.png")
-
 # Declare member variables here. Examples:
 var canPlayerMove = true
 var isLeft = false
@@ -84,6 +82,7 @@ var isEavesdropOnJesters = false
 var isInitiateRoyalGiftsQuest = false
 var isAllRoyalItemsCollected = false
 var isDeliverGiftsToJesters = false
+var isChapter3Minigame = false
 var isTalkToGuards = false
 var isTalkToQueen = false
 
