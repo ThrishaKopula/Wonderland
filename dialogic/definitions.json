@@ -20,6 +20,12 @@
 			"name": "mayorHelp",
 			"type": 0,
 			"value": "1"
+		},
+		{
+			"id": "1685735501-247",
+			"name": "jockHelp",
+			"type": 0,
+			"value": "1"
 		}
 	]
 }
