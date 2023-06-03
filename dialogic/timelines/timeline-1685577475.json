@@ -1,0 +1,371 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1683225590.cfg"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1684459870.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1684459870.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh, you’re back."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1684460120.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1684460120.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Not empty-handed, I hope? Though I wouldn’t be surprised, hehe."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "default_wonderland",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yes, and yes!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Behold!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Your treasures from the other world!"
+		},
+		{
+			"character": "character-1684459870.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Whoa! You actually brought me a book! Is that a vampire? And a werewolf? Oh my! I can’t wait to cozy up with this romantic novel!"
+		},
+		{
+			"character": "character-1684459870.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": " I mean… hm. Well done."
+		},
+		{
+			"character": "character-1684460120.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "What is this you have brought me? A knife?"
+		},
+		{
+			"character": "character-1684460120.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": " So flimsy! What can you possibly cut with this? Haha–"
+		},
+		{
+			"character": "character-1684460120.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "–no, wait! This must be a test. You think I won’t be able to master a knife from the other world?"
+		},
+		{
+			"character": "character-1684460120.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": " I accept this gift. I will add it to my collection."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1684460126.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1684460126.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Whoaaaa! A clover! With four leaves! The book said that it’s real lucky isn't it? We don’t need luck here, so our clovers only have three."
+		},
+		{
+			"character": "character-1684460126.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I love it!"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1684460132.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1684460132.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "This is… *yawn*"
+		},
+		{
+			"character": "character-1684460132.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "A shovel."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No, no it’s a spade, just like you asked."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( Right? )"
+		},
+		{
+			"character": "character-1684460132.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No…*yawn* It's a shovel."
+		},
+		{
+			"character": "character-1684460126.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Are you sure? Kind of looks like a spade to me."
+		},
+		{
+			"character": "character-1684460120.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No, no. Definitely looks like a shovel to me."
+		},
+		{
+			"character": "character-1684459870.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh, stop confusing her! Come to think of it, I don’t even know what that really is…"
+		},
+		{
+			"character": "character-1684460132.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…It’s okay. Whatever it is, rule No. 413 says I can use it in the summer. And on Tuesdays, if it’s still foggy past seven o-clock."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( I will never understand the laws of this place. )"
+		},
+		{
+			"character": "character-1684459870.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ahem! You’ve done what we asked."
+		},
+		{
+			"character": "character-1684459870.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Thank–"
+		},
+		{
+			"character": "character-1684460126.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "–you–"
+		},
+		{
+			"character": "character-1684460120.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "–very–"
+		},
+		{
+			"character": "character-1684460132.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "–much… *yawn*"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Of course! I did good, didn’t I?"
+		},
+		{
+			"character": "character-1684459870.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh, fine. You surpassed our expectations. I guess you really can go to that other world."
+		},
+		{
+			"character": "character-1684460120.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Agreed! You did a marvelous job."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Well? Take me to see the Queen then! You promised you would!"
+		},
+		{
+			"character": "character-1684460126.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Okay, but…"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "But? But what?"
+		},
+		{
+			"character": "character-1684460132.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "He… *yawn* …is very strict about his rules."
+		},
+		{
+			"character": "character-1684459870.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "And rule No. 562 means you have to pass our trial before meeting him!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Fine! Bring it!"
+		},
+		{
+			"character": "character-1684459870.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "So confident!"
+		},
+		{
+			"character": "character-1684459870.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alright, girls!"
+		},
+		{
+			"character": "character-1684459870.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Time to–"
+		},
+		{
+			"character": "character-1684460126.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "–shuffle–"
+		},
+		{
+			"character": "character-1684460120.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "–the–"
+		},
+		{
+			"character": "character-1684460132.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "–deck! … *yawn*"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1685577475.json",
+		"name": "deliverGiftsToJesters"
+	}
+}

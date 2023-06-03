@@ -7305,6 +7305,7 @@ texture = ExtResource( 38 )
 texture = ExtResource( 37 )
 
 [node name="MadHatter" type="Area2D" parent="."]
+pause_mode = 2
 position = Vector2( 506, 712 )
 script = ExtResource( 4 )
 __meta__ = {
@@ -7426,6 +7427,7 @@ position = Vector2( 11, -11.5 )
 shape = SubResource( 8 )
 
 [node name="Marlon" type="Area2D" parent="."]
+pause_mode = 2
 position = Vector2( -35, 708 )
 script = ExtResource( 46 )
 __meta__ = {
@@ -7589,11 +7591,9 @@ position = Vector2( -409, 0 )
 position = Vector2( -4, 532.5 )
 shape = SubResource( 2 )
 
-[node name="TeaPartyAudio" type="AudioStreamPlayer2D" parent="."]
+[node name="TeaPartyAudio" type="AudioStreamPlayer" parent="."]
 pause_mode = 2
-position = Vector2( 980, 566 )
 stream = ExtResource( 6 )
-volume_db = -3.0
 
 [connection signal="body_entered" from="MadHatter" to="MadHatter" method="_on_MadHatter_body_entered"]
 [connection signal="body_exited" from="MadHatter" to="MadHatter" method="_on_MadHatter_body_exited"]

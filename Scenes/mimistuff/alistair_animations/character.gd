@@ -7,6 +7,7 @@ extends KinematicBody2D
 onready var character = $AnimationPlayer
 
 onready var sprite = $body
+var footstep = preload("res://Scenes/leoStuff/sound/foot.mp3");
 
 export var inOverworld = true
 export(int) var speed = 600
@@ -24,6 +25,7 @@ func _physics_process(_delta):
 	if Input.is_action_pressed("ui_right") and StoryVariables.canPlayerMove:
 		
 		rng = rngg.randi_range(0,2)
+		play_foot();
 		
 		if inOverworld:
 			character.play("Run Overworld")
@@ -36,6 +38,7 @@ func _physics_process(_delta):
 	elif Input.is_action_pressed("ui_left") and StoryVariables.canPlayerMove:
 		
 		rng = rngg.randi_range(0,2)
+		play_foot();
 		
 		if inOverworld:
 			character.play("Run Overworld")
@@ -46,7 +49,7 @@ func _physics_process(_delta):
 		velocity.x -= 1.0
 		
 	else:
-		
+		$AudioStreamPlayer2D.stop();
 		if inOverworld:
 			
 			match rng:
@@ -68,7 +71,10 @@ func _physics_process(_delta):
 	
 	move_and_slide(velocity * speed)
 
-
+func play_foot():
+	if !$AudioStreamPlayer2D.is_playing():
+		$AudioStreamPlayer2D.stream = footstep;
+		$AudioStreamPlayer2D.play();
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 #func _process(delta):

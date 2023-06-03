@@ -4,10 +4,22 @@
 	],
 	"variables": [
 		{
-			"id": "1681425960-366",
-			"name": "count",
+			"id": "1685727918-648",
+			"name": "nerdHelp",
 			"type": 0,
-			"value": "0"
+			"value": "1"
+		},
+		{
+			"id": "1685734949-440",
+			"name": "mayorHelp",
+			"type": 0,
+			"value": "1"
+		},
+		{
+			"id": "1685735501-247",
+			"name": "jockHelp",
+			"type": 0,
+			"value": "1"
 		}
 	]
 }

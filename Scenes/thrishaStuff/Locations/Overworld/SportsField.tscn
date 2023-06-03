@@ -9874,6 +9874,7 @@ position = Vector2( 0, -135 )
 texture = ExtResource( 7 )
 
 [node name="Jock" type="Area2D" parent="."]
+pause_mode = 2
 position = Vector2( 577, 711 )
 script = ExtResource( 4 )
 __meta__ = {
@@ -9995,6 +9996,7 @@ position = Vector2( 11, -11.5 )
 shape = SubResource( 10 )
 
 [node name="Cheerleader" type="Area2D" parent="."]
+pause_mode = 2
 position = Vector2( 1544, 712 )
 script = ExtResource( 6 )
 __meta__ = {
@@ -10116,6 +10118,7 @@ position = Vector2( 11, -11.5 )
 shape = SubResource( 10 )
 
 [node name="Marlon" type="Area2D" parent="."]
+pause_mode = 2
 position = Vector2( 2089, 729 )
 script = ExtResource( 47 )
 __meta__ = {
@@ -10274,15 +10277,14 @@ position = Vector2( -1573, 0 )
 position = Vector2( -8, 532.5 )
 shape = SubResource( 4 )
 
-[node name="SportsFieldAudio" type="AudioStreamPlayer2D" parent="."]
+[node name="SportsFieldAudio" type="AudioStreamPlayer" parent="."]
 pause_mode = 2
-position = Vector2( 980, 566 )
 stream = ExtResource( 9 )
 
 [connection signal="body_entered" from="Football" to="Football" method="_on_Football_body_entered"]
 [connection signal="body_exited" from="Football" to="Football" method="_on_Football_body_exited"]
-[connection signal="body_entered" from="Jock" to="Jock" method="_on_Cheerleader_body_entered"]
-[connection signal="body_exited" from="Jock" to="Jock" method="_on_Cheerleader_body_exited"]
+[connection signal="body_entered" from="Jock" to="Jock" method="_on_Jock_body_entered"]
+[connection signal="body_exited" from="Jock" to="Jock" method="_on_Jock_body_exited"]
 [connection signal="body_entered" from="Cheerleader" to="Cheerleader" method="_on_Cheerleader_body_entered"]
 [connection signal="body_exited" from="Cheerleader" to="Cheerleader" method="_on_Cheerleader_body_exited"]
 [connection signal="body_entered" from="Marlon" to="Marlon" method="_on_Marlon_body_entered"]

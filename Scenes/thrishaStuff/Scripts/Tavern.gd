@@ -18,5 +18,4 @@ func _on_Thief_body_entered(body):
 
 func _on_Thief_body_exited(body):
 	StoryVariables.isInTavern = false
-	StoryVariables.catch_tavern = true
 	$Thief.hide()

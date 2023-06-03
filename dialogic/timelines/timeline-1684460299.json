@@ -21,11 +21,23 @@
 			"z_index": 0
 		},
 		{
+			"character": "character-1684459870.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ughhh… I’m so boooooored… Standing guard is no fun."
+		},
+		{
+			"character": "character-1684459870.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Say, Spade, got any books on you?"
+		},
+		{
 			"animation": "[Default]",
 			"animation_length": 0,
 			"change_mirror_portrait": false,
 			"change_z_index": false,
-			"character": "character-1684460120.json",
+			"character": "character-1684460132.json",
 			"event_id": "dialogic_002",
 			"mirror_portrait": false,
 			"portrait": "Default",
@@ -39,6 +51,12 @@
 			},
 			"type": 0,
 			"z_index": 0
+		},
+		{
+			"character": "character-1684460132.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Huhh… *yawn* I… don’t have any…"
 		},
 		{
 			"animation": "[Default]",
@@ -59,64 +77,6 @@
 			},
 			"type": 0,
 			"z_index": 0
-		},
-		{
-			"animation": "[Default]",
-			"animation_length": 0,
-			"change_mirror_portrait": false,
-			"change_z_index": false,
-			"character": "character-1684460132.json",
-			"event_id": "dialogic_002",
-			"mirror_portrait": false,
-			"portrait": "Default",
-			"portrait_definition": "",
-			"position": {
-				"0": true,
-				"1": false,
-				"2": false,
-				"3": false,
-				"4": false
-			},
-			"type": 0,
-			"z_index": 0
-		},
-		{
-			"animation": "[Default]",
-			"animation_length": 0,
-			"change_mirror_portrait": false,
-			"change_z_index": false,
-			"character": "character-1681086055.json",
-			"event_id": "dialogic_002",
-			"mirror_portrait": false,
-			"portrait": "Default",
-			"portrait_definition": "",
-			"position": {
-				"0": true,
-				"1": false,
-				"2": false,
-				"3": false,
-				"4": false
-			},
-			"type": 0,
-			"z_index": 0
-		},
-		{
-			"character": "character-1684459870.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "Ughhh… I’m so boooooored… Standing guard is no fun."
-		},
-		{
-			"character": "character-1684459870.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "Say, Spade, got any books on you?"
-		},
-		{
-			"character": "character-1684460132.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "Huhh… *yawn* I… don’t have any…"
 		},
 		{
 			"character": "character-1684460126.json",
@@ -135,6 +95,26 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "I did NOT lose it! I was reading it, and it disappeared right as I came back from afternoon tea!"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1684460120.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
 		},
 		{
 			"character": "character-1684460120.json",
@@ -255,6 +235,26 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Maybe the Queen knows about the mirrors… *yawn* I bet he can show us what the other world is like…"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "default_wonderland",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
 		},
 		{
 			"character": "character-1681086055.json",

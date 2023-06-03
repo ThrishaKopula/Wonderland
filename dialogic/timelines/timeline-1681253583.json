@@ -14,6 +14,33 @@
 			"event_id": "dialogic_021"
 		},
 		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1683081099.cfg"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "A mother and son drive down the interstate. The atmosphere is tense."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Silence is all that fills the air, except for the light, anxious tapping of the boy's fingertips against the window."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The mother is unsure whether this is the right decision for the both of them."
+		},
+		{
 			"event_id": "dialogic_024",
 			"set_theme": "theme-1683686222.cfg"
 		},
@@ -198,13 +225,54 @@
 			"character": "character-1682574603.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "…"
+			"text": "I know this is a big change from how he was raised, but undoing what that man taught him... I need to do that somehow."
+		},
+		{
+			"character": "character-1682574603.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "If this doesn't work, I still have that trust fund I promised him. It's most of what I have, but I'll be fine."
+		},
+		{
+			"character": "character-1682574603.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "That's how I convinced him to go through with this in the first place, after all. "
 		},
 		{
 			"character": "character-1682574603.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "I really hope this was the right choice…"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1682574603.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"background": "res://dialogic/black.jpeg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
 		},
 		{
 			"background": "res://Scenes/thrishaStuff/images/dialog_backgrounds/Dorm_W_Mirror_1920.png",

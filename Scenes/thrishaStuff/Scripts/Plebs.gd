@@ -1,11 +1,6 @@
 extends Area2D
 	
 var active = false
-
-# Called when the node enters the scene tree for the first time.
-#func _ready():
-#	connect("body_entered", self, "_on_Bed_body_entered")
-#	connect("body_exited", self, "_on_Bed_body_exited")
 	
 func _process(_delta):
 	$QuestionMark.visible = active
@@ -13,7 +8,6 @@ func _process(_delta):
 func _input(event):
 	if get_node_or_null('DialogNode') == null:
 		if event.is_action_pressed("interact") and active:
-			StoryVariables.chapter1_checkIfPlebItemsCollected()
 			if(StoryVariables.isDeliverStringsToBard == true):
 				pause_game()
 				var dialog = Dialogic.start("getIngredientsFromVendors")
@@ -22,6 +16,7 @@ func _input(event):
 				add_child(dialog)
 				StoryVariables.isDeliverStringsToBard = false
 				StoryVariables.isGetIngredientsFromVendors = true
+				StoryVariables.chapter1_checkIfPlebItemsCollected()
 			elif(StoryVariables.isAllItemsCollected == true):
 				pause_game()
 				var dialog = Dialogic.start("collectOtherworldlyItems")
@@ -47,6 +42,42 @@ func _input(event):
 				add_child(dialog)
 				StoryVariables.isBringThiefToVendors = true
 				StoryVariables.isCatchTheThief = false
+				StoryVariables.isInThiefGame = false
+			elif(StoryVariables.chapterOneQuest == true and StoryVariables.isDeliverStringsToBard == false and StoryVariables.isAllItemsCollected == false):
+				#ch1 during quest
+				pause_game()
+				var dialog = Dialogic.start("ch1_plebsQuest")
+				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
+				dialog.connect('timeline_end', self, 'unpause')
+				add_child(dialog)
+			elif(StoryVariables.currentlyInChapterOne == true and StoryVariables.chapterOneQuest == false and StoryVariables.isDeliverStringsToBard == false and StoryVariables.isAllItemsCollected == false):
+				#ch1 before/after quest
+				pause_game()
+				var dialog = Dialogic.start("ch1_plebsNoQuest")
+				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
+				dialog.connect('timeline_end', self, 'unpause')
+				add_child(dialog)
+			elif(StoryVariables.chapterTwoQuest == true and StoryVariables.isFindWhoIsCloseToJanitor == false and StoryVariables.isCatchTheThief == false):
+				#ch2 during quest
+				pause_game()
+				var dialog = Dialogic.start("ch2_plebsQuest")
+				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
+				dialog.connect('timeline_end', self, 'unpause')
+				add_child(dialog)
+			elif(StoryVariables.currentlyInChapterTwo == true and StoryVariables.chapterTwoQuest == false and StoryVariables.isFindWhoIsCloseToJanitor == false and StoryVariables.isCatchTheThief == false):
+				#ch2 before/after quest
+				pause_game()
+				var dialog = Dialogic.start("ch2_plebsNoQuest")
+				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
+				dialog.connect('timeline_end', self, 'unpause')
+				add_child(dialog)
+			elif(StoryVariables.currentlyInChapterThree == true):
+				#ch3 basic
+				pause_game()
+				var dialog = Dialogic.start("ch3_plebs")
+				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
+				dialog.connect('timeline_end', self, 'unpause')
+				add_child(dialog)
 				
 
 func pause_game():

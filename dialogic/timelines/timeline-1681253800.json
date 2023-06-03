@@ -1,6 +1,10 @@
 {
 	"events": [
 		{
+			"event_id": "dialogic_024",
+			"set_theme": "default-theme.cfg"
+		},
+		{
 			"animation": "[Default]",
 			"animation_length": 1,
 			"change_mirror_portrait": false,
@@ -23,7 +27,7 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "happy",
 			"text": "Hehe… a pretty face like this doesn’t belong in this dump. Don’t worry, gorgeous, you’ll get out soon."
 		}
 	],

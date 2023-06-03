@@ -1,9 +1,17 @@
 {
 	"events": [
 		{
-			"event_id": "dialogic_023",
-			"hide_dialogbox": true,
-			"wait_seconds": 1
+			"background": "res://Scenes/thrishaStuff/images/dialog_backgrounds/Dorm_Night.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://Scenes/thrishaStuff/Audio/Dorm/Kevin MacLeod： Chill.wav",
+			"volume": 0
 		},
 		{
 			"animation": "slide_in_left.gd",
@@ -134,14 +142,14 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "One week passes…"
+			"text": "One week later..."
 		},
 		{
 			"event_id": "dialogic_024",
 			"set_theme": "default-theme.cfg"
 		},
 		{
-			"background": "res://Scenes/thrishaStuff/images/dialog_backgrounds/Dorm_W_Mirror_1920.png",
+			"background": "res://Scenes/thrishaStuff/images/dialog_backgrounds/Dorm_Night.png",
 			"event_id": "dialogic_021"
 		},
 		{
@@ -337,8 +345,42 @@
 			"text": "…*snore*..."
 		},
 		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "[All]",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
 			"background": "res://dialogic/black.jpeg",
 			"event_id": "dialogic_021"
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
 		}
 	],
 	"metadata": {

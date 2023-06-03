@@ -10,6 +10,8 @@ onready var overworld = preload("res://Scenes/leoStuff/HUD/map/mapArt/Map_Overwo
 
 onready var wonderland = preload("res://Scenes/leoStuff/HUD/map/mapArt/Map_Wonderland-1.png");
 
+onready var wonderlandlock = preload("res://Scenes/leoStuff/HUD/map/mapArt/Map_Wonderland_Locked.png");
+
 onready var overworldBut = preload("res://Scenes/leoStuff/HUD/map/mapArt/Map_Overworld_BUTTON.png");
 
 onready var wonderlandBut = preload("res://Scenes/leoStuff/HUD/map/mapArt/Map_Wonderland_BUTTON.png");
@@ -30,6 +32,8 @@ onready var qcourtyard = preload("res://Scenes/leoStuff/HUD/map/mapArt/qCourtyar
 onready var tavern = preload("res://Scenes/leoStuff/HUD/map/mapArt/tavern.png");
 
 func _ready():
+	
+	
 	
 	if !isOverworld:
 		isOverworld = true;
@@ -170,7 +174,12 @@ func _on_change_pressed():
 func changeMap():
 	
 	if isOverworld:
-		$PokemonMap.texture = wonderland;
+		if StoryVariables.isChapter3Minigame:
+			$PokemonMap.texture = wonderland;
+		else:
+			$PokemonMap.texture = wonderlandlock
+		
+		
 		isOverworld = false;
 		
 		$classroom.hide();
@@ -184,7 +193,8 @@ func changeMap():
 		$ArstocratTown.show();
 		$Courtyard.show();
 		$PlebTown.show();
-		$QueenCourt.show();
+		if StoryVariables.isChapter3Minigame:
+			$QueenCourt.show();
 		$Tavern.show();
 		$TeaParty.show();
 		

@@ -9859,6 +9859,7 @@ position = Vector2( 0, -135 )
 texture = ExtResource( 5 )
 
 [node name="Professor" type="Area2D" parent="."]
+pause_mode = 2
 position = Vector2( 4352, 554 )
 script = ExtResource( 7 )
 __meta__ = {
@@ -9980,6 +9981,7 @@ position = Vector2( 11, -11.5 )
 shape = SubResource( 10 )
 
 [node name="Nerd" type="Area2D" parent="."]
+pause_mode = 2
 position = Vector2( 2446, 580 )
 script = ExtResource( 1 )
 __meta__ = {
@@ -10101,6 +10103,7 @@ position = Vector2( 11, -11.5 )
 shape = SubResource( 10 )
 
 [node name="Marlon" type="Area2D" parent="."]
+pause_mode = 2
 position = Vector2( 3290, 586 )
 script = ExtResource( 70 )
 __meta__ = {
@@ -10264,9 +10267,9 @@ stream = ExtResource( 9 )
 
 [connection signal="body_entered" from="Watercolor" to="Watercolor" method="_on_Watercolor_body_entered"]
 [connection signal="body_exited" from="Watercolor" to="Watercolor" method="_on_Watercolor_body_exited"]
-[connection signal="body_entered" from="Professor" to="Professor" method="_on_Cheerleader_body_entered"]
-[connection signal="body_exited" from="Professor" to="Professor" method="_on_Cheerleader_body_exited"]
-[connection signal="body_entered" from="Nerd" to="Nerd" method="_on_Cheerleader_body_entered"]
-[connection signal="body_exited" from="Nerd" to="Nerd" method="_on_Cheerleader_body_exited"]
+[connection signal="body_entered" from="Professor" to="Professor" method="_on_Professor_body_entered"]
+[connection signal="body_exited" from="Professor" to="Professor" method="_on_Professor_body_exited"]
+[connection signal="body_entered" from="Nerd" to="Nerd" method="_on_Nerd_body_entered"]
+[connection signal="body_exited" from="Nerd" to="Nerd" method="_on_Nerd_body_exited"]
 [connection signal="body_entered" from="Marlon" to="Marlon" method="_on_Marlon_body_entered"]
 [connection signal="body_exited" from="Marlon" to="Marlon" method="_on_Marlon_body_exited"]

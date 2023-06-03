@@ -204,7 +204,7 @@
 			"text": "Wonderful, and that reminds me… Here is another [b]cheat treat[/b] as a reward. Use it if you feel the time calls for it."
 		},
 		{
-			"background": "res://Scenes/thrishaStuff/images/dialog_backgrounds/Tea_Party_1920.png",
+			"background": "res://Scenes/thrishaStuff/images/cheat_treat.png",
 			"event_id": "dialogic_021"
 		},
 		{
@@ -212,6 +212,10 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Nice!!"
+		},
+		{
+			"background": "res://Scenes/thrishaStuff/images/dialog_backgrounds/Tea_Party_1920.png",
+			"event_id": "dialogic_021"
 		},
 		{
 			"character": "character-1681338302.json",
@@ -238,7 +242,7 @@
 			"text": "Now that you’re with us, you can have this!"
 		},
 		{
-			"background": "res://Scenes/thrishaStuff/images/dialog_backgrounds/Tea_Party_1920.png",
+			"background": "res://dialogic/black.jpeg",
 			"event_id": "dialogic_021"
 		},
 		{
@@ -285,11 +289,11 @@
 		},
 		{
 			"event_id": "dialogic_023",
-			"hide_dialogbox": false,
+			"hide_dialogbox": true,
 			"wait_seconds": 3
 		},
 		{
-			"background": "res://Scenes/thrishaStuff/images/dialog_backgrounds/Dorm_W_Mirror_1920.png",
+			"background": "res://Scenes/thrishaStuff/images/dialog_backgrounds/Dorm_Night.png",
 			"event_id": "dialogic_021"
 		},
 		{
@@ -390,6 +394,11 @@
 		{
 			"background": "res://dialogic/black.jpeg",
 			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
 		}
 	],
 	"metadata": {

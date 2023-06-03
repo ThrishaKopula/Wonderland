@@ -1,9 +1,14 @@
 extends Node
 
+var goodPoints = 0
+var badPoints = 0
+
 # Declare member variables here. Examples:
 var canPlayerMove = true
 var isLeft = false
 var isRight = false
+
+var dormDay = true
 
 var isMapInteracted = false
 var isAlisBedInteracted = false
@@ -20,6 +25,10 @@ var isChapterThreeDone = false
 var currentlyInChapterOne = false
 var currentlyInChapterTwo = false
 var currentlyInChapterThree = false
+
+var chapterOneQuest = false
+var chapterTwoQuest = false
+var chapterThreeQuest = false
 
 #CHAPTER ONE
 var isChapterOneStartDone = false
@@ -47,7 +56,7 @@ var isChapterTwoStart= false
 var isInitiateCh2MainQuest = false
 var isFindWhoIsCloseToJanitor = false
 var isRetrieveExoticFruit = false
-var isCatchTheThief = false
+var isCatchTheThief = true
 var isBringThiefToVendors = false
 var isDeliverExoticFruitToLunchLady = false
 var isDeliverToJanitor = false
@@ -68,6 +77,30 @@ var mini_game1 = false
 
 #CHAPTER 3
 var isChapter3Start = false
+var isRejectedByJesters = false
+var isEavesdropOnJesters = false
+var isInitiateRoyalGiftsQuest = false
+var isAllRoyalItemsCollected = false
+var isDeliverGiftsToJesters = false
+var isChapter3Minigame = false
+var isTalkToGuards = false
+var isTalkToQueen = false
+
+#ROYAL GIFTS QUEST
+var heartItem = false
+var diamondItem = false
+var cloverItem = false
+var spadeItem = false
+
+#SIDE QUESTS
+var isNerdQuestStarted = false
+var isNerdQuestEnded = false
+
+var isMayorQuestStarted = false
+var isMayorQuestEnded = false
+
+var isJockQuestStarted = false
+var isJockQuestEnded = false
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -77,6 +110,9 @@ func _ready():
 func prologue_checkAllInteractions():
 	if (isMapInteracted == true && isAlisBedInteracted == true && isOtherBedInteracted == true && isMirrorInteracted == true):
 		isAllRoomInteracted = true
+		get_tree().paused = false
+		Fade.change_scene("res://Scenes/thrishaStuff/Locations/Overworld/Dream.tscn")
+		yield(get_tree().create_timer(2), "timeout")
 		get_tree().paused = true
 		canPlayerMove = false
 		var dialog = Dialogic.start("movingInPart2")
@@ -85,9 +121,9 @@ func prologue_checkAllInteractions():
 		add_child(dialog)
 	
 func unpauseProloguePart3(timeline_name):
-	get_tree().paused = false
-	Fade.change_scene("res://Scenes/thrishaStuff/Locations/Overworld/Dream.tscn")
-	yield(get_tree().create_timer(2), "timeout")
+#	get_tree().paused = false
+#	Fade.change_scene("res://Scenes/thrishaStuff/Locations/Overworld/Dream.tscn")
+#	yield(get_tree().create_timer(2), "timeout")
 	
 	get_tree().paused = true
 	canPlayerMove = false
@@ -110,7 +146,30 @@ func chapter1_checkIfPlebItemsCollected():
 		dialog.pause_mode = Node.PAUSE_MODE_PROCESS
 		dialog.connect('timeline_end', self, 'unpause')
 		add_child(dialog)
+
+func chapter3_checkJesterItems():
+	if (heartItem == true and cloverItem == true and spadeItem == true and diamondItem == true):
+		isAllRoyalItemsCollected = true
+		get_tree().paused = true
+		canPlayerMove = false
+		var dialog = Dialogic.start("afterRoyalInteracted")
+		dialog.pause_mode = Node.PAUSE_MODE_PROCESS
+		dialog.connect('timeline_end', self, 'unpause')
+		add_child(dialog)
 		
 func unpause(timeline_name):
 	get_tree().paused = false
 	canPlayerMove = true
+	
+func checkEnding():
+	if(isNerdQuestEnded == false):
+		badPoints += 1
+	if(isMayorQuestEnded == false):
+		badPoints += 1
+	if(isJockQuestEnded == false):
+		badPoints += 1
+	
+	if(goodPoints >= badPoints):
+		pass
+	else:
+		pass
