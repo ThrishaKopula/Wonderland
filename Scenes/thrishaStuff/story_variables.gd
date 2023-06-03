@@ -23,7 +23,7 @@ var isChapterTwoDone = false
 var isChapterThreeDone = false
 
 var currentlyInChapterOne = false
-var currentlyInChapterTwo = false
+var currentlyInChapterTwo = true
 var currentlyInChapterThree = false
 
 var chapterOneQuest = false
@@ -56,7 +56,7 @@ var isChapterTwoStart= false
 var isInitiateCh2MainQuest = false
 var isFindWhoIsCloseToJanitor = false
 var isRetrieveExoticFruit = false
-var isCatchTheThief = false
+var isCatchTheThief = true
 var isBringThiefToVendors = false
 var isDeliverExoticFruitToLunchLady = false
 var isDeliverToJanitor = false
@@ -64,7 +64,7 @@ var isAfterCleaningMinigame = false
 var isDeliverKeyToMatthew = false
 
 #CATCH THE THIEF GAME
-var isInThiefGame = false
+var isInThiefGame = true
 var isInTavern = false
 var isInPlebTown = false
 var isInAristocratTown = false

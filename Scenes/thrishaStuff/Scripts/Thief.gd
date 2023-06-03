@@ -64,7 +64,6 @@ func _input(event):
 				add_child(dialog)
 				StoryVariables.catch_num += 1
 		
-
 func pause_game():
 	get_tree().paused = true
 	StoryVariables.canPlayerMove = false
