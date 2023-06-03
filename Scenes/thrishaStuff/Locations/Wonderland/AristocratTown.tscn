@@ -10297,6 +10297,7 @@ shape = SubResource( 2 )
 [node name="AristocratTownAudio" type="AudioStreamPlayer" parent="."]
 pause_mode = 2
 stream = ExtResource( 1 )
+volume_db = -3.0
 
 [connection signal="body_entered" from="Mayor" to="Mayor" method="_on_Mayor_body_entered"]
 [connection signal="body_exited" from="Mayor" to="Mayor" method="_on_Mayor_body_exited"]

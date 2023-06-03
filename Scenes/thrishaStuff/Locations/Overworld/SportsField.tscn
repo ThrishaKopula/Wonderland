@@ -10280,6 +10280,7 @@ shape = SubResource( 4 )
 [node name="SportsFieldAudio" type="AudioStreamPlayer" parent="."]
 pause_mode = 2
 stream = ExtResource( 9 )
+volume_db = -3.0
 
 [connection signal="body_entered" from="Football" to="Football" method="_on_Football_body_entered"]
 [connection signal="body_exited" from="Football" to="Football" method="_on_Football_body_exited"]

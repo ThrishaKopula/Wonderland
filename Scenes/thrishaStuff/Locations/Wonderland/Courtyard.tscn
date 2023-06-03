@@ -99,6 +99,7 @@ shape = SubResource( 2 )
 [node name="CourtyardAudio" type="AudioStreamPlayer" parent="."]
 pause_mode = 2
 stream = ExtResource( 7 )
+volume_db = -15.0
 
 [connection signal="body_entered" from="Jesters" to="Jesters" method="_on_Jesters_body_entered"]
 [connection signal="body_exited" from="Jesters" to="Jesters" method="_on_Jesters_body_exited"]

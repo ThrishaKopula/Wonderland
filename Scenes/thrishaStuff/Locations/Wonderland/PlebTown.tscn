@@ -10276,7 +10276,6 @@ inOverworld = false
 
 [node name="HUD" parent="player" instance=ExtResource( 10 )]
 position = Vector2( 162, -121 )
-current = true
 limit_left = -1764
 limit_top = 0
 limit_right = 3416
@@ -10302,7 +10301,7 @@ shape = SubResource( 3 )
 [node name="PlebTownAudio" type="AudioStreamPlayer" parent="."]
 pause_mode = 2
 stream = ExtResource( 1 )
-volume_db = -7.0
+volume_db = -15.0
 
 [connection signal="body_entered" from="Plebs" to="Plebs" method="_on_Plebs_body_entered"]
 [connection signal="body_exited" from="Plebs" to="Plebs" method="_on_Plebs_body_exited"]

@@ -12928,6 +12928,7 @@ shape = SubResource( 3 )
 [node name="TavernAudio" type="AudioStreamPlayer" parent="."]
 pause_mode = 2
 stream = ExtResource( 1 )
+volume_db = -6.0
 
 [connection signal="body_entered" from="Bartender" to="Bartender" method="_on_Bartender_body_entered"]
 [connection signal="body_exited" from="Bartender" to="Bartender" method="_on_Bartender_body_exited"]
