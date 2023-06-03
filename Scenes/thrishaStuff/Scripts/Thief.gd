@@ -26,10 +26,10 @@ func _input(event):
 					2:
 						dialog = Dialogic.start("thief_catch3")
 						StoryVariables.isCatchTheThief = true
-						
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
 				dialog.connect('timeline_end', self, 'unpause')
 				add_child(dialog)
+				StoryVariables.catch_tavern = true
 				StoryVariables.catch_num += 1
 			elif(StoryVariables.currentlyInChapterTwo == true and StoryVariables.isInThiefGame == true and StoryVariables.isInPlebTown == true):
 				pause_game()
@@ -47,6 +47,7 @@ func _input(event):
 				dialog.connect('timeline_end', self, 'unpause')
 				add_child(dialog)
 				StoryVariables.catch_num += 1
+				StoryVariables.catch_plebTown = true
 			elif(StoryVariables.currentlyInChapterTwo == true and StoryVariables.isInThiefGame == true and StoryVariables.isInAristocratTown == true):
 				pause_game()
 				var dialog;
@@ -63,6 +64,7 @@ func _input(event):
 				dialog.connect('timeline_end', self, 'unpause')
 				add_child(dialog)
 				StoryVariables.catch_num += 1
+				StoryVariables.catch_aristocratTown = true
 		
 func pause_game():
 	get_tree().paused = true

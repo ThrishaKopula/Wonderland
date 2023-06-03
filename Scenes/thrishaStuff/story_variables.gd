@@ -23,7 +23,7 @@ var isChapterTwoDone = false
 var isChapterThreeDone = false
 
 var currentlyInChapterOne = false
-var currentlyInChapterTwo = true
+var currentlyInChapterTwo = false
 var currentlyInChapterThree = false
 
 var chapterOneQuest = false
@@ -64,7 +64,7 @@ var isAfterCleaningMinigame = false
 var isDeliverKeyToMatthew = false
 
 #CATCH THE THIEF GAME
-var isInThiefGame = true
+var isInThiefGame = false
 var isInTavern = false
 var isInPlebTown = false
 var isInAristocratTown = false
