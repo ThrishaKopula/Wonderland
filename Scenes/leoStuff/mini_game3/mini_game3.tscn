@@ -1,10 +1,11 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://Scenes/leoStuff/mini_game3/mini_game3_logic.gd" type="Script" id=1]
 [ext_resource path="res://Scenes/leoStuff/shine/card.tscn" type="PackedScene" id=2]
 [ext_resource path="res://addons/animated_grid_container_plugin/animated_grid_container.gd" type="Script" id=3]
 [ext_resource path="res://art/green.png" type="Texture" id=4]
 [ext_resource path="res://art/blue.png" type="Texture" id=5]
+[ext_resource path="res://Scenes/leoStuff/mini_game1/art/cheat.png" type="Texture" id=6]
 
 [sub_resource type="Animation" id=1]
 resource_name = "flip to up"
@@ -127,6 +128,20 @@ margin_bottom = 232.0
 [node name="AnimationPlayer" type="AnimationPlayer" parent="Control"]
 "anims/flip to up" = SubResource( 1 )
 anims/shuffle = SubResource( 2 )
+
+[node name="cheat" type="Button" parent="."]
+margin_left = -6.0
+margin_top = 859.0
+margin_right = 328.0
+margin_bottom = 1083.0
+grow_horizontal = 2
+grow_vertical = 2
+rect_scale = Vector2( 0.9, 0.9 )
+rect_pivot_offset = Vector2( 167, 112 )
+focus_mode = 0
+enabled_focus_mode = 0
+icon = ExtResource( 6 )
+flat = true
 
 [connection signal="pressed" from="Control/AnimatedGridContainer/J/Button" to="Control" method="_on_J_pressed"]
 [connection signal="pressed" from="Control/AnimatedGridContainer/J2/Button" to="Control" method="_on_J2_pressed"]

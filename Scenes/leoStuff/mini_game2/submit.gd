@@ -27,3 +27,7 @@ func _on_submit_area_shape_exited(area_rid, area, area_shape_index, local_shape_
 	
 	Mini2Global.cur_color = 0;
 	pass # Replace with function body.
+
+
+func _on_cheat_pressed():
+	pass # Replace with function body.
