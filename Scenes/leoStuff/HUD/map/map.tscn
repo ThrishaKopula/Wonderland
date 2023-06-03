@@ -1,9 +1,10 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://Scenes/leoStuff/HUD/map/map.gd" type="Script" id=1]
 [ext_resource path="res://Scenes/leoStuff/HUD/map/text.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Scenes/leoStuff/HUD/map/mapArt/Map_Overworld-1.png" type="Texture" id=3]
 [ext_resource path="res://Scenes/leoStuff/HUD/map/mapArt/Map_Overworld_BUTTON.png" type="Texture" id=4]
+[ext_resource path="res://Scenes/leoStuff/transition/fade.tscn" type="PackedScene" id=5]
 
 [node name="map" type="CanvasLayer"]
 script = ExtResource( 1 )
@@ -140,6 +141,8 @@ icon = ExtResource( 4 )
 flat = true
 icon_align = 1
 
+[node name="fading" parent="." instance=ExtResource( 5 )]
+
 [connection signal="hide" from="dorm" to="." method="_on_Button_hide"]
 [connection signal="mouse_entered" from="dorm" to="." method="_on_Button_mouse_entered"]
 [connection signal="mouse_exited" from="dorm" to="." method="_on_Button_mouse_exited"]
@@ -187,3 +190,5 @@ icon_align = 1
 [connection signal="mouse_entered" from="change" to="." method="_on_change_mouse_entered"]
 [connection signal="mouse_exited" from="change" to="." method="_on_change_mouse_exited"]
 [connection signal="pressed" from="change" to="." method="_on_change_pressed"]
+
+[editable path="fading"]
