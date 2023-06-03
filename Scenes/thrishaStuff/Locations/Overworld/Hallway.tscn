@@ -9865,6 +9865,7 @@ position = Vector2( 0, -135 )
 texture = ExtResource( 4 )
 
 [node name="Janitor" type="Area2D" parent="."]
+pause_mode = 2
 position = Vector2( 4210, 583 )
 script = ExtResource( 7 )
 __meta__ = {
@@ -9986,6 +9987,7 @@ position = Vector2( 11, -11.5 )
 shape = SubResource( 21 )
 
 [node name="overworld_NPC2" type="Area2D" parent="."]
+pause_mode = 2
 position = Vector2( 527, 569 )
 script = ExtResource( 41 )
 __meta__ = {
@@ -10104,6 +10106,7 @@ position = Vector2( 7, 25 )
 shape = SubResource( 9 )
 
 [node name="Marlon" type="Area2D" parent="."]
+pause_mode = 2
 position = Vector2( 2213, 585 )
 script = ExtResource( 48 )
 __meta__ = {

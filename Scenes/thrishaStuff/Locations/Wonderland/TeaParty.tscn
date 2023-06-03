@@ -7305,6 +7305,7 @@ texture = ExtResource( 38 )
 texture = ExtResource( 37 )
 
 [node name="MadHatter" type="Area2D" parent="."]
+pause_mode = 2
 position = Vector2( 506, 712 )
 script = ExtResource( 4 )
 __meta__ = {
@@ -7426,6 +7427,7 @@ position = Vector2( 11, -11.5 )
 shape = SubResource( 8 )
 
 [node name="Marlon" type="Area2D" parent="."]
+pause_mode = 2
 position = Vector2( -35, 708 )
 script = ExtResource( 46 )
 __meta__ = {

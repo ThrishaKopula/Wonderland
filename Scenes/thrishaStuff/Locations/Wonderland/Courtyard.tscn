@@ -30,6 +30,7 @@ position = Vector2( 1112.5, 540 )
 texture = ExtResource( 42 )
 
 [node name="Jesters" type="Area2D" parent="."]
+pause_mode = 2
 position = Vector2( 997, 658 )
 script = ExtResource( 4 )
 __meta__ = {

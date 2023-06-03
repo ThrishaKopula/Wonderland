@@ -4809,6 +4809,7 @@ position = Vector2( -74, -469 )
 texture = ExtResource( 15 )
 
 [node name="Marlon" type="Area2D" parent="."]
+pause_mode = 2
 position = Vector2( 667, 706 )
 script = ExtResource( 39 )
 __meta__ = {

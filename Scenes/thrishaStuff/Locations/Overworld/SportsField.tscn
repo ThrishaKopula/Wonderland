@@ -9996,6 +9996,7 @@ position = Vector2( 11, -11.5 )
 shape = SubResource( 10 )
 
 [node name="Cheerleader" type="Area2D" parent="."]
+pause_mode = 2
 position = Vector2( 1544, 712 )
 script = ExtResource( 6 )
 __meta__ = {
@@ -10117,6 +10118,7 @@ position = Vector2( 11, -11.5 )
 shape = SubResource( 10 )
 
 [node name="Marlon" type="Area2D" parent="."]
+pause_mode = 2
 position = Vector2( 2089, 729 )
 script = ExtResource( 47 )
 __meta__ = {
