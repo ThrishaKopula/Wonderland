@@ -3,7 +3,6 @@
 [ext_resource path="res://Scenes/thrishaStuff/Audio/Tavern/Kevin MacLeod： Thatched Villagers.wav" type="AudioStream" id=1]
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/Bard.gd" type="Script" id=2]
 [ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/Overworld-Alistair-Idle-4.png" type="Texture" id=3]
-[ext_resource path="res://icon.png" type="Texture" id=4]
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/Bartender.gd" type="Script" id=5]
 [ext_resource path="res://Scenes/mimistuff/marlon/Marlon-Wonderland-10.png" type="Texture" id=6]
 [ext_resource path="res://Scenes/leoStuff/HUD/HUD.tscn" type="PackedScene" id=7]
@@ -69,6 +68,7 @@
 [ext_resource path="res://Scenes/mimistuff/marlon/Marlon-Wonderland-11.png" type="Texture" id=67]
 [ext_resource path="res://Scenes/mimistuff/marlon/Marlon-Wonderland-14.png" type="Texture" id=68]
 [ext_resource path="res://Scenes/thrishaStuff/images/dialog_backgrounds/Tavern.png" type="Texture" id=69]
+[ext_resource path="res://Scenes/thrishaStuff/images/speech_bubbles/Speech_Bubble_-2.png" type="Texture" id=70]
 
 [sub_resource type="Animation" id=11]
 resource_name = "Idle 1 Overworld"
@@ -12396,8 +12396,8 @@ __meta__ = {
 }
 
 [node name="QuestionMark" type="Sprite" parent="Bartender"]
-position = Vector2( 0, -500 )
-texture = ExtResource( 4 )
+position = Vector2( 0, -450 )
+texture = ExtResource( 70 )
 
 [node name="body" type="Sprite" parent="Bartender"]
 z_index = 10
@@ -12519,8 +12519,8 @@ __meta__ = {
 }
 
 [node name="QuestionMark" type="Sprite" parent="Bard"]
-position = Vector2( 0, -500 )
-texture = ExtResource( 4 )
+position = Vector2( 0, -400 )
+texture = ExtResource( 70 )
 
 [node name="body" type="Sprite" parent="Bard"]
 z_index = 10
@@ -12641,8 +12641,8 @@ __meta__ = {
 }
 
 [node name="QuestionMark" type="Sprite" parent="Thief"]
-position = Vector2( 0, -500 )
-texture = ExtResource( 4 )
+position = Vector2( 0, -450 )
+texture = ExtResource( 70 )
 
 [node name="body" type="Sprite" parent="Thief"]
 z_index = 10
@@ -12764,8 +12764,8 @@ __meta__ = {
 inOverworld = false
 
 [node name="QuestionMark" type="Sprite" parent="Marlon"]
-position = Vector2( 0, -500 )
-texture = ExtResource( 4 )
+position = Vector2( 0, -450 )
+texture = ExtResource( 70 )
 
 [node name="body" type="Sprite" parent="Marlon"]
 z_index = 10

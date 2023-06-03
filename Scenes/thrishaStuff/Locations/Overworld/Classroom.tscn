@@ -1,4 +1,4 @@
-[gd_scene load_steps=92 format=2]
+[gd_scene load_steps=93 format=2]
 
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/Nerd.gd" type="Script" id=1]
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/Watercolor.gd" type="Script" id=2]
@@ -70,6 +70,7 @@
 [ext_resource path="res://Scenes/mimistuff/marlon/Marlon-Wonderland-11.png" type="Texture" id=68]
 [ext_resource path="res://Scenes/mimistuff/marlon/Marlon-Wonderland-14.png" type="Texture" id=69]
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/Marlon.gd" type="Script" id=70]
+[ext_resource path="res://Scenes/thrishaStuff/images/speech_bubbles/Speech_Bubble_-2.png" type="Texture" id=71]
 
 [sub_resource type="CircleShape2D" id=2]
 radius = 162.077
@@ -9867,8 +9868,8 @@ __meta__ = {
 }
 
 [node name="QuestionMark" type="Sprite" parent="Professor"]
-position = Vector2( 0, -500 )
-texture = ExtResource( 5 )
+position = Vector2( 0, -450 )
+texture = ExtResource( 71 )
 
 [node name="body" type="Sprite" parent="Professor"]
 z_index = 10
@@ -9989,8 +9990,8 @@ __meta__ = {
 }
 
 [node name="QuestionMark" type="Sprite" parent="Nerd"]
-position = Vector2( 0, -500 )
-texture = ExtResource( 5 )
+position = Vector2( 0, -450 )
+texture = ExtResource( 71 )
 
 [node name="body" type="Sprite" parent="Nerd"]
 z_index = 10
@@ -10111,8 +10112,8 @@ __meta__ = {
 }
 
 [node name="QuestionMark" type="Sprite" parent="Marlon"]
-position = Vector2( 0, -500 )
-texture = ExtResource( 5 )
+position = Vector2( 0, -450 )
+texture = ExtResource( 71 )
 
 [node name="body" type="Sprite" parent="Marlon"]
 z_index = 10

@@ -22,7 +22,7 @@ var isChapterOneDone = false
 var isChapterTwoDone = false
 var isChapterThreeDone = false
 
-var currentlyInChapterOne = false
+var currentlyInChapterOne = true
 var currentlyInChapterTwo = false
 var currentlyInChapterThree = false
 
@@ -31,7 +31,7 @@ var chapterTwoQuest = false
 var chapterThreeQuest = false
 
 #CHAPTER ONE
-var isChapterOneStartDone = false
+var isChapterOneStartDone = true
 
 #Getting Strings For Bard
 var isInitiateMainQuestDone = false

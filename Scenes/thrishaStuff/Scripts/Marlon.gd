@@ -1,5 +1,8 @@
 extends Area2D
 
+var basic = preload("res://Scenes/thrishaStuff/images/speech_bubbles/Speech_Bubble_-2.png")
+var basicTalked = preload("res://Scenes/thrishaStuff/images/speech_bubbles/Speech_Bubble_-1.png")
+var quest = preload("res://Scenes/thrishaStuff/images/speech_bubbles/Speech_Bubble_-3.png")
 
 onready var character = $AnimationPlayer
 
@@ -63,6 +66,7 @@ func unpause(timeline_name):
 	get_tree().paused = false
 	StoryVariables.canPlayerMove = true
 	active = false
+	$QuestionMark.texture = basicTalked
 	
 func _on_Marlon_body_entered(body):
 	if body.name == 'player' and (StoryVariables.isPrologueDone == true or StoryVariables.currentlyInChapterOne == true or StoryVariables.currentlyInChapterTwo == true or StoryVariables.currentlyInChapterThree == true):
@@ -92,5 +96,3 @@ func _physics_process(_delta):
 					character.play("Idle 2 Wonderland")
 				2:
 					character.play("Idle 3 Wonderland")
-	
-

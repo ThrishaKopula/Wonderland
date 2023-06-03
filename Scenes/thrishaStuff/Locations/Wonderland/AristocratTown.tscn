@@ -2,7 +2,7 @@
 
 [ext_resource path="res://Scenes/thrishaStuff/Audio/AristocratTown/Kevin MacLeod： Trio for Piano Violin and Viola.wav" type="AudioStream" id=1]
 [ext_resource path="res://Scenes/thrishaStuff/Prefab/plebs.tscn" type="PackedScene" id=2]
-[ext_resource path="res://icon.png" type="Texture" id=3]
+[ext_resource path="res://Scenes/thrishaStuff/images/speech_bubbles/Speech_Bubble_-2.png" type="Texture" id=3]
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/Aristocrats.gd" type="Script" id=4]
 [ext_resource path="res://Scenes/leoStuff/HUD/HUD.tscn" type="PackedScene" id=5]
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/AristocratTown.gd" type="Script" id=6]
@@ -9866,10 +9866,6 @@ __meta__ = {
 "_edit_group_": true
 }
 
-[node name="QuestionMark" type="Sprite" parent="Mayor"]
-position = Vector2( 0, -500 )
-texture = ExtResource( 3 )
-
 [node name="body" type="Sprite" parent="Mayor"]
 z_index = 10
 
@@ -9980,6 +9976,10 @@ anims/UNAVAILABLE = SubResource( 24 )
 position = Vector2( 11, -11.5 )
 shape = SubResource( 25 )
 
+[node name="QuestionMark" type="Sprite" parent="Mayor"]
+position = Vector2( 0, -450 )
+texture = ExtResource( 3 )
+
 [node name="Aristocrats" type="Area2D" parent="."]
 pause_mode = 2
 position = Vector2( -1030, 623 )
@@ -9987,10 +9987,6 @@ script = ExtResource( 4 )
 __meta__ = {
 "_edit_group_": true
 }
-
-[node name="QuestionMark" type="Sprite" parent="Aristocrats"]
-position = Vector2( 300, -500 )
-texture = ExtResource( 3 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Aristocrats"]
 position = Vector2( 326, -11.5 )
@@ -10007,6 +10003,10 @@ pleb = 1
 position = Vector2( 588, -12 )
 pleb = 3
 
+[node name="QuestionMark" type="Sprite" parent="Aristocrats"]
+position = Vector2( 300, -450 )
+texture = ExtResource( 3 )
+
 [node name="Thief" type="Area2D" parent="."]
 pause_mode = 2
 position = Vector2( 244, 627 )
@@ -10014,10 +10014,6 @@ script = ExtResource( 7 )
 __meta__ = {
 "_edit_group_": true
 }
-
-[node name="QuestionMark" type="Sprite" parent="Thief"]
-position = Vector2( 0, -500 )
-texture = ExtResource( 3 )
 
 [node name="body" type="Sprite" parent="Thief"]
 z_index = 10
@@ -10129,6 +10125,10 @@ anims/UNAVAILABLE = SubResource( 17 )
 position = Vector2( 11, -11.5 )
 shape = SubResource( 18 )
 
+[node name="QuestionMark" type="Sprite" parent="Thief"]
+position = Vector2( 0, -450 )
+texture = ExtResource( 3 )
+
 [node name="Marlon" type="Area2D" parent="."]
 pause_mode = 2
 position = Vector2( 1569, 620 )
@@ -10137,10 +10137,6 @@ __meta__ = {
 "_edit_group_": true
 }
 inOverworld = false
-
-[node name="QuestionMark" type="Sprite" parent="Marlon"]
-position = Vector2( 0, -500 )
-texture = ExtResource( 3 )
 
 [node name="body" type="Sprite" parent="Marlon"]
 z_index = 10
@@ -10263,6 +10259,10 @@ anims/UNAVAILABLE = SubResource( 11 )
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Marlon"]
 position = Vector2( 11, -11.5 )
 shape = SubResource( 12 )
+
+[node name="QuestionMark" type="Sprite" parent="Marlon"]
+position = Vector2( 0, -450 )
+texture = ExtResource( 3 )
 
 [node name="player" parent="." instance=ExtResource( 8 )]
 pause_mode = 2

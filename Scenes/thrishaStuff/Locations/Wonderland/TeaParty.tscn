@@ -2,7 +2,7 @@
 
 [ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/Overworld-Alistair-Idle-4.png" type="Texture" id=1]
 [ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/coattail_blank.png" type="Texture" id=2]
-[ext_resource path="res://icon.png" type="Texture" id=3]
+[ext_resource path="res://Scenes/thrishaStuff/images/speech_bubbles/Speech_Bubble_-2.png" type="Texture" id=3]
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/MadHatter.gd" type="Script" id=4]
 [ext_resource path="res://Scenes/leoStuff/HUD/HUD.tscn" type="PackedScene" id=5]
 [ext_resource path="res://Scenes/thrishaStuff/Audio/TeaParty/Kevin MacLeod： Darkest Child (var A).wav" type="AudioStream" id=6]
@@ -7312,10 +7312,6 @@ __meta__ = {
 "_edit_group_": true
 }
 
-[node name="QuestionMark" type="Sprite" parent="MadHatter"]
-position = Vector2( 0, -500 )
-texture = ExtResource( 3 )
-
 [node name="body" type="Sprite" parent="MadHatter"]
 z_index = 10
 
@@ -7426,6 +7422,10 @@ anims/UNAVAILABLE = SubResource( 7 )
 position = Vector2( 11, -11.5 )
 shape = SubResource( 8 )
 
+[node name="QuestionMark" type="Sprite" parent="MadHatter"]
+position = Vector2( 0, -450 )
+texture = ExtResource( 3 )
+
 [node name="Marlon" type="Area2D" parent="."]
 pause_mode = 2
 position = Vector2( -35, 708 )
@@ -7434,10 +7434,6 @@ __meta__ = {
 "_edit_group_": true
 }
 inOverworld = false
-
-[node name="QuestionMark" type="Sprite" parent="Marlon"]
-position = Vector2( 0, -500 )
-texture = ExtResource( 3 )
 
 [node name="body" type="Sprite" parent="Marlon"]
 z_index = 10
@@ -7560,6 +7556,10 @@ anims/UNAVAILABLE = SubResource( 16 )
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Marlon"]
 position = Vector2( 11, -11.5 )
 shape = SubResource( 17 )
+
+[node name="QuestionMark" type="Sprite" parent="Marlon"]
+position = Vector2( 0, -450 )
+texture = ExtResource( 3 )
 
 [node name="player" parent="." instance=ExtResource( 8 )]
 pause_mode = 2
