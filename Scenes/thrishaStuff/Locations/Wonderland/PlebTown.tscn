@@ -10302,6 +10302,7 @@ shape = SubResource( 3 )
 [node name="PlebTownAudio" type="AudioStreamPlayer" parent="."]
 pause_mode = 2
 stream = ExtResource( 1 )
+volume_db = -7.0
 
 [connection signal="body_entered" from="Plebs" to="Plebs" method="_on_Plebs_body_entered"]
 [connection signal="body_exited" from="Plebs" to="Plebs" method="_on_Plebs_body_exited"]

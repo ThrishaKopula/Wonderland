@@ -10247,6 +10247,7 @@ shape = SubResource( 1 )
 [node name="CafeteriaAudio" type="AudioStreamPlayer" parent="."]
 pause_mode = 2
 stream = ExtResource( 8 )
+volume_db = -3.0
 
 [connection signal="body_entered" from="MusicGeek" to="MusicGeek" method="_on_MusicGeek_body_entered"]
 [connection signal="body_exited" from="MusicGeek" to="MusicGeek" method="_on_MusicGeek_body_exited"]

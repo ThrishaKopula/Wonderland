@@ -7594,6 +7594,7 @@ shape = SubResource( 2 )
 [node name="TeaPartyAudio" type="AudioStreamPlayer" parent="."]
 pause_mode = 2
 stream = ExtResource( 6 )
+volume_db = -10.0
 
 [connection signal="body_entered" from="MadHatter" to="MadHatter" method="_on_MadHatter_body_entered"]
 [connection signal="body_exited" from="MadHatter" to="MadHatter" method="_on_MadHatter_body_exited"]

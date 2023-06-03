@@ -10264,6 +10264,7 @@ shape = SubResource( 4 )
 [node name="ClassroomAudio" type="AudioStreamPlayer" parent="."]
 pause_mode = 2
 stream = ExtResource( 9 )
+volume_db = -3.0
 
 [connection signal="body_entered" from="Watercolor" to="Watercolor" method="_on_Watercolor_body_entered"]
 [connection signal="body_exited" from="Watercolor" to="Watercolor" method="_on_Watercolor_body_exited"]
