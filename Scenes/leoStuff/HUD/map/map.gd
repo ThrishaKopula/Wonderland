@@ -60,7 +60,7 @@ func _input(delta):
 
 
 func _on_Button_mouse_entered():
-	print("in");
+	
 	change_text.texture = label1;
 	text.show();
 	pass # Replace with function body.
@@ -75,7 +75,9 @@ func _on_Button_hide():
 	
 func _on_Button_pressed():
 	
-	get_tree().change_scene("res://Scenes/thrishaStuff/Locations/Overworld/Dorm.tscn");
+	Fade.change_scene("res://Scenes/thrishaStuff/Locations/Overworld/Dorm.tscn");
+	
+	#get_tree().change_scene("res://Scenes/thrishaStuff/Locations/Overworld/Dorm.tscn");
 	pass # Replace with function body.
 
 
@@ -98,11 +100,15 @@ func _on_Button2_hide():
 
 func _on_Button2_pressed():
 	
-	get_tree().change_scene("res://Scenes/thrishaStuff/Locations/Overworld/Hallway.tscn");
+	Fade.change_scene("res://Scenes/thrishaStuff/Locations/Overworld/Hallway.tscn");
+	
+	#get_tree().change_scene("res://Scenes/thrishaStuff/Locations/Overworld/Hallway.tscn");
 	pass
 
 func _on_cafe_pressed():
-	get_tree().change_scene("res://Scenes/thrishaStuff/Locations/Overworld/Cafeteria.tscn");
+	
+	Fade.change_scene("res://Scenes/thrishaStuff/Locations/Overworld/Cafeteria.tscn");
+	#get_tree().change_scene("res://Scenes/thrishaStuff/Locations/Overworld/Cafeteria.tscn");
 	pass # Replace with function body.
 
 
@@ -123,7 +129,8 @@ func _on_cafe_hide():
 
 
 func _on_sport_pressed():
-	get_tree().change_scene("res://Scenes/thrishaStuff/Locations/Overworld/SportsField.tscn");
+	Fade.change_scene("res://Scenes/thrishaStuff/Locations/Overworld/SportsField.tscn");
+	#get_tree().change_scene("res://Scenes/thrishaStuff/Locations/Overworld/SportsField.tscn");
 	pass # Replace with function body.
 
 
@@ -144,7 +151,8 @@ func _on_sport_hide():
 
 
 func _on_classroom_pressed():
-	get_tree().change_scene("res://Scenes/thrishaStuff/Locations/Overworld/Classroom.tscn");
+	Fade.change_scene("res://Scenes/thrishaStuff/Locations/Overworld/Classroom.tscn");
+	#get_tree().change_scene("res://Scenes/thrishaStuff/Locations/Overworld/Classroom.tscn");
 	pass # Replace with function body.
 
 
@@ -222,7 +230,8 @@ func changeMap():
 	pass
 
 func _on_ArstocratTown_pressed():
-	get_tree().change_scene("res://Scenes/thrishaStuff/Locations/Wonderland/AristocratTown.tscn");
+	Fade.change_scene("res://Scenes/thrishaStuff/Locations/Wonderland/AristocratTown.tscn");
+	#get_tree().change_scene("res://Scenes/thrishaStuff/Locations/Wonderland/AristocratTown.tscn");
 	
 	pass # Replace with function body.
 
@@ -245,7 +254,8 @@ func _on_ArstocratTown_hide():
 	pass # Replace with function body.
 
 func _on_Courtyard_pressed():
-	get_tree().change_scene("res://Scenes/thrishaStuff/Locations/Wonderland/Courtyard.tscn");
+	Fade.change_scene("res://Scenes/thrishaStuff/Locations/Wonderland/Courtyard.tscn");
+	#get_tree().change_scene("res://Scenes/thrishaStuff/Locations/Wonderland/Courtyard.tscn");
 	
 	pass # Replace with function body.
 
@@ -268,7 +278,8 @@ func _on_Courtyard_hide():
 
 
 func _on_PlebTown_pressed():
-	get_tree().change_scene("res://Scenes/thrishaStuff/Locations/Wonderland/PlebTown.tscn");
+	Fade.change_scene("res://Scenes/thrishaStuff/Locations/Wonderland/PlebTown.tscn");
+	#get_tree().change_scene("res://Scenes/thrishaStuff/Locations/Wonderland/PlebTown.tscn");
 	
 	pass # Replace with function body.
 
@@ -291,7 +302,8 @@ func _on_PlebTown_hide():
 
 
 func _on_QueenCourt_pressed():
-	get_tree().change_scene("res://Scenes/thrishaStuff/Locations/Wonderland/QueenCourt.tscn");
+	Fade.change_scene("res://Scenes/thrishaStuff/Locations/Wonderland/QueenCourt.tscn");
+	#get_tree().change_scene("res://Scenes/thrishaStuff/Locations/Wonderland/QueenCourt.tscn");
 	
 	pass # Replace with function body.
 
@@ -315,7 +327,8 @@ func _on_QueenCourt_hide():
 
 
 func _on_Tavern_pressed():
-	get_tree().change_scene("res://Scenes/thrishaStuff/Locations/Wonderland/Tavern.tscn");
+	Fade.change_scene("res://Scenes/thrishaStuff/Locations/Wonderland/Tavern.tscn");
+	#get_tree().change_scene("res://Scenes/thrishaStuff/Locations/Wonderland/Tavern.tscn");
 	
 	pass # Replace with function body.
 
@@ -339,7 +352,8 @@ func _on_Tavern_hide():
 
 
 func _on_TeaParty_pressed():
-	get_tree().change_scene("res://Scenes/thrishaStuff/Locations/Wonderland/TeaParty.tscn");
+	Fade.change_scene("res://Scenes/thrishaStuff/Locations/Wonderland/TeaParty.tscn");
+	#get_tree().change_scene("res://Scenes/thrishaStuff/Locations/Wonderland/TeaParty.tscn");
 	
 	pass # Replace with function body.
 

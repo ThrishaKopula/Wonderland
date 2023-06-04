@@ -1,5 +1,13 @@
 extends Area2D
 
+var basic = preload("res://Scenes/thrishaStuff/images/speech_bubbles/Speech_Bubble_-2.png")
+var basicTalked = preload("res://Scenes/thrishaStuff/images/speech_bubbles/Speech_Bubble_-1.png")
+var quest = preload("res://Scenes/thrishaStuff/images/speech_bubbles/Speech_Bubble_-3.png")
+
+var interactedCh1 = false
+var interactedCh2 = false
+var interactedCh3 = false
+
 onready var character = $AnimationPlayer
 
 onready var sprite = $body
@@ -11,15 +19,19 @@ var active = false
 
 func _process(_delta):
 	$QuestionMark.visible = active
+	if(interactedCh1 == true or interactedCh2 == true or interactedCh3 == true):
+		$QuestionMark.texture = basicTalked
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	pass # Replace with function body.
+	pass
 	
 func _input(event):
 	if get_node_or_null('DialogNode') == null:
 		if event.is_action_pressed("interact") and active:
 			if(StoryVariables.currentlyInChapterOne == true):
 				#chapter 1 basic dialogue
+				active = false
+				interactedCh1 = true
 				pause_game()
 				var dialog = Dialogic.start("ch1_bartender")
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
@@ -27,6 +39,8 @@ func _input(event):
 				add_child(dialog)
 			elif(StoryVariables.currentlyInChapterTwo == true):
 				#chapter 2 basic dialogue
+				active = false
+				interactedCh2 = true
 				pause_game()
 				var dialog = Dialogic.start("ch2_bartender")
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
@@ -34,6 +48,8 @@ func _input(event):
 				add_child(dialog)
 			elif(StoryVariables.currentlyInChapterThree == true):
 				#chapter 3 basic dialogue
+				active = false
+				interactedCh3 = true
 				pause_game()
 				var dialog = Dialogic.start("ch3_bartender")
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
@@ -47,7 +63,7 @@ func pause_game():
 func unpause(timeline_name):
 	get_tree().paused = false
 	StoryVariables.canPlayerMove = true
-	active = false
+	
 
 func _on_Bartender_body_entered(body):
 	if body.name == 'player':

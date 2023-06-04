@@ -22,7 +22,7 @@ var isChapterOneDone = false
 var isChapterTwoDone = false
 var isChapterThreeDone = false
 
-var currentlyInChapterOne = false
+var currentlyInChapterOne = true
 var currentlyInChapterTwo = false
 var currentlyInChapterThree = false
 
@@ -31,7 +31,7 @@ var chapterTwoQuest = false
 var chapterThreeQuest = false
 
 #CHAPTER ONE
-var isChapterOneStartDone = false
+var isChapterOneStartDone = true
 
 #Getting Strings For Bard
 var isInitiateMainQuestDone = false
@@ -56,7 +56,7 @@ var isChapterTwoStart= false
 var isInitiateCh2MainQuest = false
 var isFindWhoIsCloseToJanitor = false
 var isRetrieveExoticFruit = false
-var isCatchTheThief = true
+var isCatchTheThief = false
 var isBringThiefToVendors = false
 var isDeliverExoticFruitToLunchLady = false
 var isDeliverToJanitor = false

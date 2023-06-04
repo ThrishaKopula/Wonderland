@@ -2,7 +2,7 @@
 
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/Courtyard.gd" type="Script" id=1]
 [ext_resource path="res://Scenes/thrishaStuff/Prefab/plebs.tscn" type="PackedScene" id=2]
-[ext_resource path="res://icon.png" type="Texture" id=3]
+[ext_resource path="res://Scenes/thrishaStuff/images/speech_bubbles/Speech_Bubble_-2.png" type="Texture" id=3]
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/Jesters.gd" type="Script" id=4]
 [ext_resource path="res://Scenes/leoStuff/HUD/HUD.tscn" type="PackedScene" id=5]
 [ext_resource path="res://Scenes/mimistuff/alistair_animations/character.tscn" type="PackedScene" id=6]
@@ -37,10 +37,6 @@ __meta__ = {
 "_edit_group_": true
 }
 
-[node name="QuestionMark" type="Sprite" parent="Jesters"]
-position = Vector2( 300, -500 )
-texture = ExtResource( 3 )
-
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Jesters"]
 position = Vector2( 450.5, -11.5 )
 shape = SubResource( 12 )
@@ -59,6 +55,10 @@ pleb = 3
 [node name="spade" parent="Jesters" instance=ExtResource( 2 )]
 position = Vector2( 890, -17 )
 pleb = 3
+
+[node name="QuestionMark" type="Sprite" parent="Jesters"]
+position = Vector2( 400, -450 )
+texture = ExtResource( 3 )
 
 [node name="player" parent="." instance=ExtResource( 6 )]
 pause_mode = 2
@@ -99,6 +99,7 @@ shape = SubResource( 2 )
 [node name="CourtyardAudio" type="AudioStreamPlayer" parent="."]
 pause_mode = 2
 stream = ExtResource( 7 )
+volume_db = -15.0
 
 [connection signal="body_entered" from="Jesters" to="Jesters" method="_on_Jesters_body_entered"]
 [connection signal="body_exited" from="Jesters" to="Jesters" method="_on_Jesters_body_exited"]
