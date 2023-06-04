@@ -4956,6 +4956,7 @@ texture = ExtResource( 12 )
 
 [node name="HUD" parent="player" instance=ExtResource( 3 )]
 position = Vector2( 162, -121 )
+current = true
 limit_left = 0
 limit_top = 0
 limit_right = 2225

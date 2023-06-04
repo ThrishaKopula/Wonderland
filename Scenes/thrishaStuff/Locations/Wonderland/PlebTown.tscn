@@ -10276,6 +10276,7 @@ inOverworld = false
 
 [node name="HUD" parent="player" instance=ExtResource( 10 )]
 position = Vector2( 162, -121 )
+current = true
 limit_left = -1764
 limit_top = 0
 limit_right = 3416

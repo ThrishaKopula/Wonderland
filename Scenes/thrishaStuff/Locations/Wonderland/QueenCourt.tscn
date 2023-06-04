@@ -1,28 +1,50 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/QueenCourt.gd" type="Script" id=1]
 [ext_resource path="res://Scenes/mimistuff/alistair_animations/character.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Scenes/leoStuff/HUD/HUD.tscn" type="PackedScene" id=3]
 [ext_resource path="res://Scenes/thrishaStuff/Audio/QueenCourt/Kevin MacLeod： Habanera.wav" type="AudioStream" id=4]
+[ext_resource path="res://Scenes/thrishaStuff/images/dialog_backgrounds/Queens_Court.png" type="Texture" id=5]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 16, 546.5 )
 
 [node name="QueenCourt" type="Node2D"]
 script = ExtResource( 1 )
 
+[node name="QueenCourt" type="Sprite" parent="."]
+position = Vector2( 2479.5, 540 )
+texture = ExtResource( 5 )
+
 [node name="player" parent="." instance=ExtResource( 2 )]
 pause_mode = 2
-position = Vector2( 1056, 715 )
+position = Vector2( 728, 715 )
+z_index = 25
 inOverworld = false
 
 [node name="HUD" parent="player" instance=ExtResource( 3 )]
-position = Vector2( -196, -121 )
+position = Vector2( 162, -121 )
 current = true
 limit_left = 0
 limit_top = 0
-limit_right = 2225
+limit_right = 4937
 limit_bottom = 0
 
 [node name="map" parent="player/HUD" index="0"]
 isOverworld = false
+
+[node name="rightBoundary" type="StaticBody2D" parent="."]
+position = Vector2( 4937, 0 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="rightBoundary"]
+position = Vector2( -4, 532.5 )
+shape = SubResource( 1 )
+
+[node name="leftBoundary" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="leftBoundary"]
+position = Vector2( -4, 532.5 )
+shape = SubResource( 1 )
 
 [node name="QueenCourtAudio" type="AudioStreamPlayer" parent="."]
 pause_mode = 2
