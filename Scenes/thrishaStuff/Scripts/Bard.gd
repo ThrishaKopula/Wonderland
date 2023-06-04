@@ -1,10 +1,5 @@
 extends Area2D
 
-
-var basic = preload("res://Scenes/thrishaStuff/images/speech_bubbles/Speech_Bubble_-2.png")
-var basicTalked = preload("res://Scenes/thrishaStuff/images/speech_bubbles/Speech_Bubble_-1.png")
-var quest = preload("res://Scenes/thrishaStuff/images/speech_bubbles/Speech_Bubble_-3.png")
-
 onready var character = $AnimationPlayer
 
 onready var sprite = $body
@@ -18,9 +13,9 @@ var doneWithStrings = false
 func _process(_delta):
 	$QuestionMark.visible = active
 	if(StoryVariables.isChapterOneStartDone == true or StoryVariables.isReportBackToMusicGeek == true or StoryVariables.isCollectOtherworldlyItems == true):
-		$QuestionMark.texture = quest
+		$QuestionMark.texture = StoryVariables.quest
 	else:
-		$QuestionMark.texture = basicTalked
+		$QuestionMark.texture = StoryVariables.basicTalked
 	
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -105,7 +100,6 @@ func miniGameUnpause(timeline_name):
 func unpause(timeline_name):
 	get_tree().paused = false
 	StoryVariables.canPlayerMove = true
-#	active = false
 
 func _on_Bard_body_entered(body):
 	if body.name == 'player':

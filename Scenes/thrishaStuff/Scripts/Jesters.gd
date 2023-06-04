@@ -4,12 +4,17 @@ var active = false
 	
 func _process(_delta):
 	$QuestionMark.visible = active
+	if(StoryVariables.isChapter3Start == true or StoryVariables.isRejectedByJesters == true or StoryVariables.isEavesdropOnJesters == true or StoryVariables.isAllRoyalItemsCollected == true):
+		$QuestionMark.texture = StoryVariables.quest
+	else:
+		$QuestionMark.texture = StoryVariables.basicTalked
 
 func _input(event):
 	if get_node_or_null('DialogNode') == null:
 		if event.is_action_pressed("interact") and active:
 			StoryVariables.chapter1_checkIfPlebItemsCollected()
 			if(StoryVariables.isChapter3Start == true):
+				active = false
 				pause_game()
 				var dialog = Dialogic.start("rejectedByJesters")
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
@@ -18,6 +23,7 @@ func _input(event):
 				StoryVariables.isRejectedByJesters = true
 				StoryVariables.isChapter3Start = false
 			elif(StoryVariables.isRejectedByJesters == true):
+				active = false
 				pause_game()
 				var dialog = Dialogic.start("/Chapter 3/eavesdropOnJesters")
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
@@ -26,6 +32,7 @@ func _input(event):
 				StoryVariables.isEavesdropOnJesters = true
 				StoryVariables.isRejectedByJesters = false
 			elif(StoryVariables.isEavesdropOnJesters == true):
+				active = false
 				pause_game()
 				var dialog = Dialogic.start("/Chapter 3/initiateRoyalGiftsQuest")
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
@@ -35,6 +42,7 @@ func _input(event):
 				StoryVariables.isInitiateRoyalGiftsQuest = true
 				StoryVariables.isEavesdropOnJesters = false
 			elif(StoryVariables.isAllRoyalItemsCollected == true):
+				active = false
 				pause_game()
 				var dialog = Dialogic.start("/Chapter 3/deliverGiftsToJesters")
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
@@ -45,6 +53,7 @@ func _input(event):
 				StoryVariables.isAllRoyalItemsCollected = false
 			elif(StoryVariables.currentlyInChapterOne == true):
 				#ch1 before/after quest
+				active = false
 				pause_game()
 				var dialog = Dialogic.start("ch1_jesters")
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
@@ -52,6 +61,7 @@ func _input(event):
 				add_child(dialog)
 			elif(StoryVariables.currentlyInChapterTwo == true):
 				#ch2 before/after quest
+				active = false
 				pause_game()
 				var dialog = Dialogic.start("ch2_jesters")
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
@@ -59,6 +69,7 @@ func _input(event):
 				add_child(dialog)
 			elif(StoryVariables.chapterThreeQuest == true and StoryVariables.isAllRoyalItemsCollected == false and StoryVariables.isChapter3Start == false and StoryVariables.isRejectedByJesters == false and StoryVariables.isEavesdropOnJesters == false):
 				#ch3 during quest
+				active = false
 				pause_game()
 				var dialog = Dialogic.start("ch3_jestersQuest")
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
@@ -72,8 +83,6 @@ func pause_game():
 func unpause(timeline_name):
 	get_tree().paused = false
 	StoryVariables.canPlayerMove = true
-	active = false
-
 
 func _on_Jesters_body_entered(body):
 	if body.name == 'player':

@@ -4,11 +4,16 @@ var active = false
 
 func _process(_delta):
 	$QuestionMark.visible = active
+	if(StoryVariables.isGetBallerinaFromBartender == true or StoryVariables.isAfterCleaningMinigame == true):
+		$QuestionMark.texture = StoryVariables.quest
+	else:
+		$QuestionMark.texture = StoryVariables.basicTalked
 
 func _input(event):
 	if get_node_or_null('DialogNode') == null:
 		if event.is_action_pressed("interact") and active:
 			if(StoryVariables.isGetBallerinaFromBartender == true):
+				active = false
 				pause_game()
 				var dialog = Dialogic.start("/Chapter 1/giveBallerinaToMatthew")
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
@@ -16,6 +21,7 @@ func _input(event):
 				add_child(dialog)
 				StoryVariables.isGiveBallerinaToMatthew = true
 			elif(StoryVariables.isAfterCleaningMinigame == true):
+				active = false
 				pause_game()
 				var dialog = Dialogic.start("/Chapter 2/deliverKeyToMatthew")
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
@@ -24,6 +30,7 @@ func _input(event):
 				StoryVariables.isDeliverKeyToMatthew = true
 			elif(StoryVariables.currentlyInChapterOne == true and StoryVariables.chapterOneQuest == true and StoryVariables.isGetBallerinaFromBartender == false):
 				#chapter 1 during quest
+				active = false
 				pause_game()
 				var dialog = Dialogic.start("ch1_matthewQuest")
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
@@ -31,6 +38,7 @@ func _input(event):
 				add_child(dialog)
 			elif(StoryVariables.currentlyInChapterOne == true and StoryVariables.chapterOneQuest == false and StoryVariables.isGetBallerinaFromBartender == false):
 				#chapter 1 before/after quest
+				active = false
 				pause_game()
 				var dialog = Dialogic.start("ch1_matthewNoQuest")
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
@@ -38,6 +46,7 @@ func _input(event):
 				add_child(dialog)
 			elif(StoryVariables.currentlyInChapterTwo == true and StoryVariables.chapterTwoQuest == true and StoryVariables.isAfterCleaningMinigame == false):
 				#chapter 2 during quest
+				active = false
 				pause_game()
 				var dialog = Dialogic.start("ch2_matthewQuest")
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
@@ -45,6 +54,7 @@ func _input(event):
 				add_child(dialog)
 			elif(StoryVariables.currentlyInChapterTwo == true and StoryVariables.chapterTwoQuest == false and StoryVariables.isAfterCleaningMinigame == false):
 				#chapter 2 before/after quest
+				active = false
 				pause_game()
 				var dialog = Dialogic.start("ch2_matthewNoQuest")
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
@@ -52,6 +62,7 @@ func _input(event):
 				add_child(dialog)
 			elif(StoryVariables.currentlyInChapterThree == true and StoryVariables.chapterThreeQuest == true):
 				#chapter 3 before/after quest
+				active = false
 				pause_game()
 				var dialog = Dialogic.start("ch3_matthewQuest")
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
@@ -59,6 +70,7 @@ func _input(event):
 				add_child(dialog)
 			elif(StoryVariables.currentlyInChapterThree == true and StoryVariables.chapterThreeQuest == false):
 				#chapter 3 before/after quest
+				active = false
 				pause_game()
 				var dialog = Dialogic.start("ch3_matthewNoQuest")
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
@@ -72,7 +84,6 @@ func pause_game():
 func unpause(timeline_name):
 	get_tree().paused = false
 	StoryVariables.canPlayerMove = true
-	active = false
 
 func unpauseToDorm(timeline_name):
 	StoryVariables.dormDay = false

@@ -16,6 +16,7 @@ func _input(event):
 	if get_node_or_null('DialogNode') == null:
 		if event.is_action_pressed("interact") and active:
 			if(StoryVariables.currentlyInChapterTwo == true and StoryVariables.isInThiefGame == true and StoryVariables.isInTavern == true):
+				active = false
 				pause_game()
 				var dialog;
 				match StoryVariables.catch_num:
@@ -32,6 +33,7 @@ func _input(event):
 				StoryVariables.catch_tavern = true
 				StoryVariables.catch_num += 1
 			elif(StoryVariables.currentlyInChapterTwo == true and StoryVariables.isInThiefGame == true and StoryVariables.isInPlebTown == true):
+				active = false
 				pause_game()
 				var dialog;
 				match StoryVariables.catch_num:
@@ -49,6 +51,7 @@ func _input(event):
 				StoryVariables.catch_num += 1
 				StoryVariables.catch_plebTown = true
 			elif(StoryVariables.currentlyInChapterTwo == true and StoryVariables.isInThiefGame == true and StoryVariables.isInAristocratTown == true):
+				active = false
 				pause_game()
 				var dialog;
 				match StoryVariables.catch_num:
@@ -73,7 +76,6 @@ func pause_game():
 func unpause(timeline_name):
 	get_tree().paused = false
 	StoryVariables.canPlayerMove = true
-	active = false
 
 func _on_Thief_body_entered(body):
 	if body.name == 'player' and StoryVariables.isInThiefGame == true:

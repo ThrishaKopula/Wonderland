@@ -9988,6 +9988,7 @@ shape = SubResource( 21 )
 
 [node name="overworld_NPC2" type="Area2D" parent="."]
 pause_mode = 2
+modulate = Color( 1, 1, 1, 0.784314 )
 position = Vector2( 527, 569 )
 script = ExtResource( 41 )
 __meta__ = {

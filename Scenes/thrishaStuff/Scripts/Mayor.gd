@@ -20,6 +20,7 @@ func _input(event):
 		if event.is_action_pressed("interact") and active:
 			if(StoryVariables.currentlyInChapterTwo and StoryVariables.isMayorQuestEnded == false):
 				#side quest
+				active = false
 				pause_game()
 				var dialog = Dialogic.start("mayor_sideQuest")
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
@@ -28,6 +29,7 @@ func _input(event):
 				StoryVariables.isMayorQuestStarted = true
 			if(StoryVariables.currentlyInChapterOne == true):
 				#chapter 1 basic dialogue
+				active = false
 				pause_game()
 				var dialog = Dialogic.start("ch1_mayor")
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
@@ -35,6 +37,7 @@ func _input(event):
 				add_child(dialog)
 			elif(StoryVariables.currentlyInChapterTwo == true and StoryVariables.isMayorQuestEnded == true):
 				#chapter 2 basic dialogue
+				active = false
 				pause_game()
 				var dialog = Dialogic.start("ch2_mayor")
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
@@ -42,6 +45,7 @@ func _input(event):
 				add_child(dialog)
 			elif(StoryVariables.currentlyInChapterThree == true):
 				#chapter 3 basic dialogue
+				active = false
 				pause_game()
 				var dialog = Dialogic.start("ch3_mayor")
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
@@ -55,7 +59,6 @@ func pause_game():
 func unpause(timeline_name):
 	get_tree().paused = false
 	StoryVariables.canPlayerMove = true
-	active = false
 	
 	if Dialogic.get_variable('mayorHelp') == "0":
 		StoryVariables.isMayorQuestEnded = true
