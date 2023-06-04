@@ -9977,7 +9977,7 @@ position = Vector2( 11, -11.5 )
 shape = SubResource( 25 )
 
 [node name="QuestionMark" type="Sprite" parent="Mayor"]
-position = Vector2( 0, -450 )
+position = Vector2( 0, -400 )
 texture = ExtResource( 3 )
 
 [node name="Aristocrats" type="Area2D" parent="."]
@@ -10004,7 +10004,7 @@ position = Vector2( 588, -12 )
 pleb = 3
 
 [node name="QuestionMark" type="Sprite" parent="Aristocrats"]
-position = Vector2( 300, -450 )
+position = Vector2( 300, -400 )
 texture = ExtResource( 3 )
 
 [node name="Thief" type="Area2D" parent="."]
@@ -10126,7 +10126,7 @@ position = Vector2( 11, -11.5 )
 shape = SubResource( 18 )
 
 [node name="QuestionMark" type="Sprite" parent="Thief"]
-position = Vector2( 0, -450 )
+position = Vector2( 0, -400 )
 texture = ExtResource( 3 )
 
 [node name="Marlon" type="Area2D" parent="."]
@@ -10261,7 +10261,7 @@ position = Vector2( 11, -11.5 )
 shape = SubResource( 12 )
 
 [node name="QuestionMark" type="Sprite" parent="Marlon"]
-position = Vector2( 0, -450 )
+position = Vector2( 0, -400 )
 texture = ExtResource( 3 )
 
 [node name="player" parent="." instance=ExtResource( 8 )]

@@ -9881,7 +9881,7 @@ position = Vector2( 764, -6 )
 pleb = 2
 
 [node name="QuestionMark" type="Sprite" parent="Plebs"]
-position = Vector2( 350, -450 )
+position = Vector2( 350, -480 )
 texture = ExtResource( 8 )
 
 [node name="plebStands" type="Sprite" parent="."]
@@ -10008,7 +10008,7 @@ position = Vector2( 11, -11.5 )
 shape = SubResource( 24 )
 
 [node name="QuestionMark" type="Sprite" parent="RealThief"]
-position = Vector2( 0, -450 )
+position = Vector2( 0, -400 )
 texture = ExtResource( 8 )
 
 [node name="Thief" type="Area2D" parent="."]
@@ -10130,7 +10130,7 @@ position = Vector2( 11, -11.5 )
 shape = SubResource( 24 )
 
 [node name="QuestionMark" type="Sprite" parent="Thief"]
-position = Vector2( 0, -450 )
+position = Vector2( 0, -400 )
 texture = ExtResource( 8 )
 
 [node name="Marlon" type="Area2D" parent="."]
@@ -10265,7 +10265,7 @@ position = Vector2( 11, -11.5 )
 shape = SubResource( 18 )
 
 [node name="QuestionMark" type="Sprite" parent="Marlon"]
-position = Vector2( 0, -450 )
+position = Vector2( 0, -400 )
 texture = ExtResource( 8 )
 
 [node name="player" parent="." instance=ExtResource( 12 )]

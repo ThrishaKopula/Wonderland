@@ -1,9 +1,10 @@
-[gd_scene load_steps=94 format=2]
+[gd_scene load_steps=95 format=2]
 
 [ext_resource path="res://Scenes/thrishaStuff/images/poster.png" type="Texture" id=1]
 [ext_resource path="res://Scenes/mimistuff/alistair_animations/character.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/Poster.gd" type="Script" id=3]
 [ext_resource path="res://icon.png" type="Texture" id=4]
+[ext_resource path="res://Scenes/thrishaStuff/images/speech_bubbles/Speech_Bubble_-2.png" type="Texture" id=5]
 [ext_resource path="res://Scenes/mimistuff/marlon/Marlon-Wonderland-10.png" type="Texture" id=6]
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/Janitor.gd" type="Script" id=7]
 [ext_resource path="res://Scenes/leoStuff/HUD/HUD.tscn" type="PackedScene" id=8]
@@ -9872,10 +9873,6 @@ __meta__ = {
 "_edit_group_": true
 }
 
-[node name="QuestionMark" type="Sprite" parent="Janitor"]
-position = Vector2( 0, -500 )
-texture = ExtResource( 4 )
-
 [node name="body" type="Sprite" parent="Janitor"]
 z_index = 10
 
@@ -9985,6 +9982,10 @@ anims/UNAVAILABLE = SubResource( 26 )
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Janitor"]
 position = Vector2( 11, -11.5 )
 shape = SubResource( 21 )
+
+[node name="QuestionMark" type="Sprite" parent="Janitor"]
+position = Vector2( 0, -400 )
+texture = ExtResource( 5 )
 
 [node name="overworld_NPC2" type="Area2D" parent="."]
 pause_mode = 2
@@ -10114,10 +10115,6 @@ __meta__ = {
 "_edit_group_": true
 }
 
-[node name="QuestionMark" type="Sprite" parent="Marlon"]
-position = Vector2( 0, -500 )
-texture = ExtResource( 4 )
-
 [node name="body" type="Sprite" parent="Marlon"]
 z_index = 10
 
@@ -10239,6 +10236,10 @@ anims/UNAVAILABLE = SubResource( 34 )
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Marlon"]
 position = Vector2( 11, -11.5 )
 shape = SubResource( 35 )
+
+[node name="QuestionMark" type="Sprite" parent="Marlon"]
+position = Vector2( 0, -400 )
+texture = ExtResource( 5 )
 
 [node name="player" parent="." instance=ExtResource( 2 )]
 pause_mode = 2

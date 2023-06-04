@@ -7423,7 +7423,7 @@ position = Vector2( 11, -11.5 )
 shape = SubResource( 8 )
 
 [node name="QuestionMark" type="Sprite" parent="MadHatter"]
-position = Vector2( 0, -450 )
+position = Vector2( 0, -400 )
 texture = ExtResource( 3 )
 
 [node name="Marlon" type="Area2D" parent="."]
@@ -7558,7 +7558,7 @@ position = Vector2( 11, -11.5 )
 shape = SubResource( 17 )
 
 [node name="QuestionMark" type="Sprite" parent="Marlon"]
-position = Vector2( 0, -450 )
+position = Vector2( 0, -400 )
 texture = ExtResource( 3 )
 
 [node name="player" parent="." instance=ExtResource( 8 )]

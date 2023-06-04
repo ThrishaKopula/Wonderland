@@ -9868,7 +9868,7 @@ __meta__ = {
 }
 
 [node name="QuestionMark" type="Sprite" parent="Professor"]
-position = Vector2( 0, -450 )
+position = Vector2( 0, -400 )
 texture = ExtResource( 71 )
 
 [node name="body" type="Sprite" parent="Professor"]
@@ -9990,7 +9990,7 @@ __meta__ = {
 }
 
 [node name="QuestionMark" type="Sprite" parent="Nerd"]
-position = Vector2( 0, -450 )
+position = Vector2( 0, -400 )
 texture = ExtResource( 71 )
 
 [node name="body" type="Sprite" parent="Nerd"]
@@ -10112,7 +10112,7 @@ __meta__ = {
 }
 
 [node name="QuestionMark" type="Sprite" parent="Marlon"]
-position = Vector2( 0, -450 )
+position = Vector2( 0, -400 )
 texture = ExtResource( 71 )
 
 [node name="body" type="Sprite" parent="Marlon"]

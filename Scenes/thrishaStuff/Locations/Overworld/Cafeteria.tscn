@@ -10213,7 +10213,7 @@ position = Vector2( 11, -11.5 )
 shape = SubResource( 22 )
 
 [node name="QuestionMark" type="Sprite" parent="Marlon"]
-position = Vector2( 0, -450 )
+position = Vector2( 0, -400 )
 texture = ExtResource( 4 )
 
 [node name="player" parent="." instance=ExtResource( 11 )]
