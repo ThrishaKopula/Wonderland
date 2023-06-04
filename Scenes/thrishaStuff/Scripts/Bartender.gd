@@ -14,12 +14,6 @@ var interactedCh3 = false
 
 func _process(_delta):
 	$QuestionMark.visible = active
-	if(interactedCh1 == true and StoryVariables.currentlyInChapterOne):
-		$QuestionMark.texture = StoryVariables.basicTalked
-	if(interactedCh2 == true and StoryVariables.currentlyInChapterTwo):
-		$QuestionMark.texture = StoryVariables.basicTalked
-	if(interactedCh3 == true and StoryVariables.currentlyInChapterThree):
-		$QuestionMark.texture = StoryVariables.basicTalked
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	pass

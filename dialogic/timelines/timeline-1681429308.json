@@ -101,11 +101,6 @@
 			"text": "…"
 		},
 		{
-			"event_id": "dialogic_023",
-			"hide_dialogbox": true,
-			"wait_seconds": 2
-		},
-		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
@@ -158,50 +153,10 @@
 			"event_id": "dialogic_021"
 		},
 		{
-			"animation": "[Default]",
-			"animation_length": 0,
-			"change_mirror_portrait": false,
-			"change_z_index": false,
-			"character": "character-1681086547.json",
-			"event_id": "dialogic_002",
-			"mirror_portrait": false,
-			"portrait": "Default",
-			"portrait_definition": "",
-			"position": {
-				"0": true,
-				"1": false,
-				"2": false,
-				"3": false,
-				"4": false
-			},
-			"type": 0,
-			"z_index": 0
-		},
-		{
 			"character": "character-1681086547.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "BEE–"
-		},
-		{
-			"animation": "[Default]",
-			"animation_length": 0,
-			"change_mirror_portrait": false,
-			"change_z_index": false,
-			"character": "character-1681086055.json",
-			"event_id": "dialogic_002",
-			"mirror_portrait": false,
-			"portrait": "Default",
-			"portrait_definition": "",
-			"position": {
-				"0": true,
-				"1": false,
-				"2": false,
-				"3": false,
-				"4": false
-			},
-			"type": 0,
-			"z_index": 0
 		},
 		{
 			"character": "character-1681086055.json",
@@ -227,6 +182,26 @@
 			"event_id": "dialogic_021"
 		},
 		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086547.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
 			"character": "character-1681086547.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
@@ -237,6 +212,26 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "You should ask around here and in Wonderland to see if anyone has any information."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
 		},
 		{
 			"character": "character-1681086055.json",

@@ -4,10 +4,6 @@ var active = false
 	
 func _process(_delta):
 	$QuestionMark.visible = active
-	if(StoryVariables.isDeliverStringsToBard == true or StoryVariables.isAllItemsCollected == true or StoryVariables.isFindWhoIsCloseToJanitor == true or StoryVariables.isCatchTheThief == true):
-		$QuestionMark.texture = StoryVariables.quest
-	else:
-		$QuestionMark.texture = StoryVariables.basicTalked
 
 func _input(event):
 	if get_node_or_null('DialogNode') == null:

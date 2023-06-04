@@ -10247,6 +10247,7 @@ position = Vector2( 3232, 726 )
 
 [node name="HUD" parent="player" instance=ExtResource( 8 )]
 position = Vector2( -178, -121 )
+current = true
 limit_left = 0
 limit_top = 0
 limit_right = 6354

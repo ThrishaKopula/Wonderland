@@ -12,10 +12,6 @@ var doneWithStrings = false
 
 func _process(_delta):
 	$QuestionMark.visible = active
-	if(StoryVariables.isChapterOneStartDone == true or StoryVariables.isReportBackToMusicGeek == true or StoryVariables.isCollectOtherworldlyItems == true):
-		$QuestionMark.texture = StoryVariables.quest
-	else:
-		$QuestionMark.texture = StoryVariables.basicTalked
 	
 # Called when the node enters the scene tree for the first time.
 func _ready():

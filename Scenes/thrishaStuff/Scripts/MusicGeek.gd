@@ -11,12 +11,12 @@ var active = false
 var initiateStrings = false
 var letterDeliver = false
 
+var interactedCh1 = false
+var interactedCh2 = false
+var interactedCh3 = false
+
 func _process(_delta):
 	$QuestionMark.visible = active
-	if(StoryVariables.isInitiateMainQuestDone == true or StoryVariables.isDeliverLetterToLover == true):
-		$QuestionMark.texture = StoryVariables.quest
-	else:
-		$QuestionMark.texture = StoryVariables.basicTalked
 
 func _input(event):
 	if get_node_or_null('DialogNode') == null:
@@ -60,6 +60,7 @@ func _input(event):
 			elif(StoryVariables.currentlyInChapterOne == true and letterDeliver == true):
 				#ch1 after letter
 				active = false
+				interactedCh1 = true
 				pause_game()
 				var dialog = Dialogic.start("ch1_mgLetter")
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
@@ -68,6 +69,7 @@ func _input(event):
 			elif(StoryVariables.currentlyInChapterTwo == true):
 				#ch2 basic
 				active = false
+				interactedCh2 = true
 				pause_game()
 				var dialog = Dialogic.start("ch2_musicGeek")
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
@@ -76,6 +78,7 @@ func _input(event):
 			elif(StoryVariables.currentlyInChapterThree == true):
 				#ch3 basic
 				active = false
+				interactedCh3 = true
 				pause_game()
 				var dialog = Dialogic.start("ch3_musicGeek")
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS

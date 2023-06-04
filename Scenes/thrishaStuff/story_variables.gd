@@ -108,8 +108,7 @@ var isJockQuestEnded = false
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	connect("my_signal", self, "signal_handler")
-	pass # Replace with function body.
+	pass
 
 func prologue_checkAllInteractions():
 	if (isMapInteracted == true && isAlisBedInteracted == true && isOtherBedInteracted == true && isMirrorInteracted == true):
@@ -125,10 +124,6 @@ func prologue_checkAllInteractions():
 		add_child(dialog)
 	
 func unpauseProloguePart3(timeline_name):
-#	get_tree().paused = false
-#	Fade.change_scene("res://Scenes/thrishaStuff/Locations/Overworld/Dream.tscn")
-#	yield(get_tree().create_timer(2), "timeout")
-	
 	get_tree().paused = true
 	canPlayerMove = false
 	var dialog = Dialogic.start("movingInPart3")

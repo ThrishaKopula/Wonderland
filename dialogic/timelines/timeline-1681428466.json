@@ -6,7 +6,7 @@
 		},
 		{
 			"event_id": "dialogic_024",
-			"set_theme": "theme-1683225590.cfg"
+			"set_theme": "default-theme.cfg"
 		},
 		{
 			"animation": "[Default]",
@@ -35,7 +35,7 @@
 			"text": "Of course I am!"
 		},
 		{
-			"character": "character-1681338302.json",
+			"character": "character-1681086055.json",
 			"event_id": "dialogic_010",
 			"options": [
 
