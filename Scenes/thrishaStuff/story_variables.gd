@@ -161,6 +161,10 @@ func unpause(timeline_name):
 	canPlayerMove = true
 	
 func checkEnding():
+	#everytime you cheat in a game, badPoints+1
+	#when NPC help is ignored, badPoints+1
+	#when NPC is helped, goodPoints+1
+	#when player does not cheat in game, goodPoints+1
 	if(isNerdQuestEnded == false):
 		badPoints += 1
 	if(isMayorQuestEnded == false):
