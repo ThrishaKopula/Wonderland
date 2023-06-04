@@ -1,10 +1,6 @@
 extends Node
 
-
-# Declare member variables here. Examples:
-# var a = 2
-# var b = "text"
-
+var cheat = false;
 var drink = preload("res://Scenes/leoStuff/mini_game2/drink.tscn");
 
 var drink_onScene = false;
@@ -12,15 +8,15 @@ var drink_onScene = false;
 var red_pump = 0;
 var green_pump = 0;
 var blue_pump = 0;
-var yellow_pump = 0;
 var on_color = null;
+
+var sending = false;
 
 var win_R = 0;
 var win_G = 0;
 var win_B = 0;
-var win_Y = 0;
 
-# red = 1 green = 2 blue = 3 yellow = 4 checkWin = 5
+# red = 1 green = 2 blue = 3
 var cur_color = 0;
 
 var correct_drink = 0;
@@ -29,14 +25,22 @@ var correct_drink = 0;
 func _ready():
 	pass # Replace with function body.
 
+
+func nextDrink():
+	var rng = RandomNumberGenerator.new()
+	rng.randomize();
+	win_R = rng.randi_range(0, 4);
+	win_G = rng.randi_range(0, 4);
+	win_B = rng.randi_range(0, 4);
+	
+	pass
+	
 func check_win():
 	
-	
-	if red_pump == win_R and green_pump == win_G and blue_pump == win_B and yellow_pump == win_Y:
+	if red_pump == win_R and green_pump == win_G and blue_pump == win_B:
 		
 		print("W");
 		correct_drink += 1;
-		win();
 		
 	else:
 		
@@ -45,10 +49,19 @@ func check_win():
 	if correct_drink == 5:
 		win();
 	
+	
+	reset();
+	pass
+	
+func reset():
+	
 	red_pump = 0;
 	green_pump = 0;
 	blue_pump = 0;
-	yellow_pump = 0;
+	on_color = null;
+	cur_color = 0;
+	drink_onScene = false;
+	
 	pass
 
 func win():

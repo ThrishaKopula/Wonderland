@@ -14,9 +14,13 @@ func _ready():
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	
+	if position.y < 800 and !Mini2Global.sending:
+		position.y = 800;
 	
-	if hold:
+	if hold and !Mini2Global.sending:
 		position = get_global_mouse_position();
+	
+	scale = Vector2((position.y * 1.3)/750, (position.y * 1.3)/750);
 	
 	
 	pass
