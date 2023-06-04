@@ -1,13 +1,5 @@
 extends Area2D
 
-var basic = preload("res://Scenes/thrishaStuff/images/speech_bubbles/Speech_Bubble_-2.png")
-var basicTalked = preload("res://Scenes/thrishaStuff/images/speech_bubbles/Speech_Bubble_-1.png")
-var quest = preload("res://Scenes/thrishaStuff/images/speech_bubbles/Speech_Bubble_-3.png")
-
-var interactedCh1 = false
-var interactedCh2 = false
-var interactedCh3 = false
-
 onready var character = $AnimationPlayer
 
 onready var sprite = $body
@@ -16,11 +8,18 @@ func _physics_process(_delta):
 	character.play("Idle 2 Overworld")
 
 var active = false
+var interactedCh1 = false
+var interactedCh2 = false
+var interactedCh3 = false
 
 func _process(_delta):
 	$QuestionMark.visible = active
-	if(interactedCh1 == true or interactedCh2 == true or interactedCh3 == true):
-		$QuestionMark.texture = basicTalked
+	if(interactedCh1 == true and StoryVariables.currentlyInChapterOne):
+		$QuestionMark.texture = StoryVariables.basicTalked
+	if(interactedCh2 == true and StoryVariables.currentlyInChapterTwo):
+		$QuestionMark.texture = StoryVariables.basicTalked
+	if(interactedCh3 == true and StoryVariables.currentlyInChapterThree):
+		$QuestionMark.texture = StoryVariables.basicTalked
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	pass
