@@ -9962,7 +9962,7 @@ texture = ExtResource( 4 )
 
 [node name="LunchLady" type="Area2D" parent="."]
 pause_mode = 2
-position = Vector2( 4626, 725 )
+position = Vector2( 4507, 725 )
 script = ExtResource( 3 )
 __meta__ = {
 "_edit_group_": true
@@ -10229,7 +10229,7 @@ limit_right = 4959
 limit_bottom = 0
 
 [node name="rightBoundary" type="StaticBody2D" parent="."]
-position = Vector2( 4226, 0 )
+position = Vector2( 4089, 0 )
 __meta__ = {
 "_edit_group_": true
 }

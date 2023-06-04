@@ -1,8 +1,13 @@
 {
 	"events": [
 		{
-			"event_id": "dialogic_024",
-			"set_theme": "theme-1683686222.cfg"
+			"background": "res://dialogic/black.jpeg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
 		},
 		{
 			"audio_bus": "Master",
@@ -14,8 +19,8 @@
 			"volume": 0
 		},
 		{
-			"background": "res://dialogic/black.jpeg",
-			"event_id": "dialogic_021"
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1683686222.cfg"
 		},
 		{
 			"animation": "[Default]",

@@ -3,6 +3,6 @@
 [ext_resource path="res://dialogic/Fonts/Cairo-SemiBold.ttf" type="DynamicFontData" id=1]
 
 [resource]
-size = 30
+size = 35
 extra_spacing_bottom = 2
 font_data = ExtResource( 1 )

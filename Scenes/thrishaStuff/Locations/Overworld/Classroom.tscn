@@ -10246,11 +10246,14 @@ position = Vector2( -125, -121 )
 current = true
 limit_left = 0
 limit_top = 0
-limit_right = 4979
+limit_right = 4936
 limit_bottom = 0
 
 [node name="rightBoundary" type="StaticBody2D" parent="."]
-position = Vector2( 4972, 0 )
+position = Vector2( 4936, 0 )
+__meta__ = {
+"_edit_group_": true
+}
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="rightBoundary"]
 position = Vector2( -4, 532.5 )
