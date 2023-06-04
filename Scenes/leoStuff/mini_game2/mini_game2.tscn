@@ -120,7 +120,7 @@ flat = true
 
 [node name="red" parent="." instance=ExtResource( 1 )]
 modulate = Color( 1, 1, 1, 0 )
-position = Vector2( 1395, 886 )
+position = Vector2( 531, 886 )
 scale = Vector2( 4, 5 )
 color = 1
 
@@ -132,7 +132,7 @@ color = 2
 
 [node name="blue" parent="." instance=ExtResource( 1 )]
 modulate = Color( 1, 1, 1, 0 )
-position = Vector2( 531, 886 )
+position = Vector2( 1395, 886 )
 scale = Vector2( 4, 5 )
 color = 3
 
@@ -151,7 +151,7 @@ icon = ExtResource( 5 )
 flat = true
 
 [node name="drink1" parent="." instance=ExtResource( 2 )]
-position = Vector2( 1395, 430 )
+position = Vector2( 531, 430 )
 scale = Vector2( 0.8, 0.8 )
 z_index = 1
 
@@ -188,7 +188,7 @@ enabled_focus_mode = 0
 flat = true
 
 [node name="drink3" parent="." instance=ExtResource( 2 )]
-position = Vector2( 531, 430 )
+position = Vector2( 1395, 430 )
 scale = Vector2( 0.8, 0.8 )
 z_index = 1
 
