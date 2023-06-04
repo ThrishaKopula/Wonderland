@@ -8,16 +8,25 @@ func _physics_process(_delta):
 	character.play("Idle 2 Overworld")
 
 var active = false
+var interactedCh1 = false
+var interactedCh2 = false
+var interactedCh3 = false
 
 func _process(_delta):
-	
 	$QuestionMark.visible = active
+	if(interactedCh1 == true and StoryVariables.currentlyInChapterOne):
+		$QuestionMark.texture = StoryVariables.basicTalked
+	if(interactedCh2 == true and StoryVariables.currentlyInChapterTwo):
+		$QuestionMark.texture = StoryVariables.basicTalked
+	if(interactedCh3 == true and StoryVariables.currentlyInChapterThree):
+		$QuestionMark.texture = StoryVariables.basicTalked
 
 func _input(event):
 	if get_node_or_null('DialogNode') == null:
 		if event.is_action_pressed("interact") and active:
 			if(StoryVariables.currentlyInChapterOne == true):
 				#chapter 1 basic dialogue
+				interactedCh1 = true
 				pause_game()
 				var dialog = Dialogic.start("ch1_thief")
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
@@ -25,6 +34,7 @@ func _input(event):
 				add_child(dialog)
 			if(StoryVariables.currentlyInChapterTwo == true):
 				#chapter 2 basic dialogue
+				interactedCh2 = true
 				pause_game()
 				var dialog = Dialogic.start("ch2_thief")
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
@@ -32,6 +42,7 @@ func _input(event):
 				add_child(dialog)
 			if(StoryVariables.currentlyInChapterThree == true):
 				#chapter 3 basic dialogue
+				interactedCh3 = true
 				pause_game()
 				var dialog = Dialogic.start("ch3_thief")
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS

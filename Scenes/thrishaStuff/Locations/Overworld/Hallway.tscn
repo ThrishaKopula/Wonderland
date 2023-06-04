@@ -1,9 +1,10 @@
-[gd_scene load_steps=94 format=2]
+[gd_scene load_steps=95 format=2]
 
 [ext_resource path="res://Scenes/thrishaStuff/images/poster.png" type="Texture" id=1]
 [ext_resource path="res://Scenes/mimistuff/alistair_animations/character.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/Poster.gd" type="Script" id=3]
 [ext_resource path="res://icon.png" type="Texture" id=4]
+[ext_resource path="res://Scenes/thrishaStuff/images/speech_bubbles/Speech_Bubble_-2.png" type="Texture" id=5]
 [ext_resource path="res://Scenes/mimistuff/marlon/Marlon-Wonderland-10.png" type="Texture" id=6]
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/Janitor.gd" type="Script" id=7]
 [ext_resource path="res://Scenes/leoStuff/HUD/HUD.tscn" type="PackedScene" id=8]
@@ -9865,15 +9866,12 @@ position = Vector2( 0, -135 )
 texture = ExtResource( 4 )
 
 [node name="Janitor" type="Area2D" parent="."]
+pause_mode = 2
 position = Vector2( 4210, 583 )
 script = ExtResource( 7 )
 __meta__ = {
 "_edit_group_": true
 }
-
-[node name="QuestionMark" type="Sprite" parent="Janitor"]
-position = Vector2( 0, -500 )
-texture = ExtResource( 4 )
 
 [node name="body" type="Sprite" parent="Janitor"]
 z_index = 10
@@ -9985,7 +9983,13 @@ anims/UNAVAILABLE = SubResource( 26 )
 position = Vector2( 11, -11.5 )
 shape = SubResource( 21 )
 
+[node name="QuestionMark" type="Sprite" parent="Janitor"]
+position = Vector2( 0, -400 )
+texture = ExtResource( 5 )
+
 [node name="overworld_NPC2" type="Area2D" parent="."]
+pause_mode = 2
+modulate = Color( 1, 1, 1, 0.784314 )
 position = Vector2( 527, 569 )
 script = ExtResource( 41 )
 __meta__ = {
@@ -10104,15 +10108,12 @@ position = Vector2( 7, 25 )
 shape = SubResource( 9 )
 
 [node name="Marlon" type="Area2D" parent="."]
+pause_mode = 2
 position = Vector2( 2213, 585 )
 script = ExtResource( 48 )
 __meta__ = {
 "_edit_group_": true
 }
-
-[node name="QuestionMark" type="Sprite" parent="Marlon"]
-position = Vector2( 0, -500 )
-texture = ExtResource( 4 )
 
 [node name="body" type="Sprite" parent="Marlon"]
 z_index = 10
@@ -10236,13 +10237,16 @@ anims/UNAVAILABLE = SubResource( 34 )
 position = Vector2( 11, -11.5 )
 shape = SubResource( 35 )
 
+[node name="QuestionMark" type="Sprite" parent="Marlon"]
+position = Vector2( 0, -400 )
+texture = ExtResource( 5 )
+
 [node name="player" parent="." instance=ExtResource( 2 )]
 pause_mode = 2
 position = Vector2( 3232, 726 )
 
 [node name="HUD" parent="player" instance=ExtResource( 8 )]
 position = Vector2( -178, -121 )
-current = true
 limit_left = 0
 limit_top = 0
 limit_right = 6354
@@ -10264,7 +10268,7 @@ shape = SubResource( 3 )
 [node name="HallwayAudio" type="AudioStreamPlayer" parent="."]
 pause_mode = 2
 stream = ExtResource( 9 )
-volume_db = -3.0
+volume_db = -8.0
 
 [connection signal="body_entered" from="Poster" to="Poster" method="_on_Poster_body_entered"]
 [connection signal="body_exited" from="Poster" to="Poster" method="_on_Poster_body_exited"]

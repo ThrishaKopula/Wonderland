@@ -24,5 +24,4 @@ func _on_Thief_body_entered(body):
 
 func _on_Thief_body_exited(body):
 	StoryVariables.isInPlebTown = false
-	StoryVariables.catch_plebTown = true
 	$Thief.hide()

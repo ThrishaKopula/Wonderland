@@ -19,14 +19,15 @@
 						"character-1682643732.json",
 						"character-1683770218.json",
 						"character-1683770471.json",
-						"character-1685727814.json"
+						"character-1685727814.json",
+						"character-1685754874.json"
 					],
 					"folders": {
 
 					},
 					"metadata": {
 						"color": null,
-						"folded": false
+						"folded": true
 					}
 				},
 				"Wonderland": {
@@ -39,9 +40,23 @@
 						"character-1681439104.json",
 						"character-1681452544.json",
 						"character-1683771916.json",
-						"character-1685579332.json"
+						"character-1685579332.json",
+						"character-1685754955.json"
 					],
 					"folders": {
+						"Aristocrats": {
+							"files": [
+								"character-1685754645.json",
+								"character-1685754656.json"
+							],
+							"folders": {
+
+							},
+							"metadata": {
+								"color": null,
+								"folded": false
+							}
+						},
 						"Jesters": {
 							"files": [
 								"character-1684459870.json",
@@ -81,22 +96,21 @@
 			},
 			"metadata": {
 				"color": null,
-				"folded": true
+				"folded": false
 			}
 		},
 		"Definitions": {
 			"files": [
-				"1681425960-366",
-				"1685727918-648",
 				"1685734949-440",
-				"1685735501-247"
+				"1685735501-247",
+				"1685727918-648"
 			],
 			"folders": {
 
 			},
 			"metadata": {
 				"color": null,
-				"folded": false
+				"folded": true
 			}
 		},
 		"Themes": {
@@ -112,7 +126,7 @@
 			},
 			"metadata": {
 				"color": null,
-				"folded": false
+				"folded": true
 			}
 		},
 		"Timelines": {
@@ -270,7 +284,7 @@
 							},
 							"metadata": {
 								"color": null,
-								"folded": false
+								"folded": true
 							}
 						}
 					},

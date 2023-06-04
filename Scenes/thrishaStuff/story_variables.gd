@@ -1,5 +1,9 @@
 extends Node
 
+var basic = preload("res://Scenes/thrishaStuff/images/speech_bubbles/Speech_Bubble_-2.png")
+var basicTalked = preload("res://Scenes/thrishaStuff/images/speech_bubbles/Speech_Bubble_-1.png")
+var quest = preload("res://Scenes/thrishaStuff/images/speech_bubbles/Speech_Bubble_-3.png")
+
 var goodPoints = 0
 var badPoints = 0
 
@@ -22,8 +26,8 @@ var isChapterOneDone = false
 var isChapterTwoDone = false
 var isChapterThreeDone = false
 
-var currentlyInChapterOne = false
-var currentlyInChapterTwo = true
+var currentlyInChapterOne = true
+var currentlyInChapterTwo = false
 var currentlyInChapterThree = false
 
 var chapterOneQuest = false
@@ -31,7 +35,7 @@ var chapterTwoQuest = false
 var chapterThreeQuest = false
 
 #CHAPTER ONE
-var isChapterOneStartDone = false
+var isChapterOneStartDone = true
 
 #Getting Strings For Bard
 var isInitiateMainQuestDone = false
@@ -56,7 +60,7 @@ var isChapterTwoStart= false
 var isInitiateCh2MainQuest = false
 var isFindWhoIsCloseToJanitor = false
 var isRetrieveExoticFruit = false
-var isCatchTheThief = true
+var isCatchTheThief = false
 var isBringThiefToVendors = false
 var isDeliverExoticFruitToLunchLady = false
 var isDeliverToJanitor = false
@@ -64,7 +68,7 @@ var isAfterCleaningMinigame = false
 var isDeliverKeyToMatthew = false
 
 #CATCH THE THIEF GAME
-var isInThiefGame = true
+var isInThiefGame = false
 var isInTavern = false
 var isInPlebTown = false
 var isInAristocratTown = false

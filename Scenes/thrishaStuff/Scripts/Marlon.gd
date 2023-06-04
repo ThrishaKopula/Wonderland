@@ -1,5 +1,12 @@
 extends Area2D
 
+var basic = preload("res://Scenes/thrishaStuff/images/speech_bubbles/Speech_Bubble_-2.png")
+var basicTalked = preload("res://Scenes/thrishaStuff/images/speech_bubbles/Speech_Bubble_-1.png")
+var quest = preload("res://Scenes/thrishaStuff/images/speech_bubbles/Speech_Bubble_-3.png")
+
+var interactedCh1 = false
+var interactedCh2 = false
+var interactedCh3 = false
 
 onready var character = $AnimationPlayer
 
@@ -15,6 +22,12 @@ var active = false
 
 func _process(_delta):
 	$QuestionMark.visible = active
+	if(interactedCh1 == true and StoryVariables.currentlyInChapterOne):
+		$QuestionMark.texture = StoryVariables.basicTalked
+	if(interactedCh2 == true and StoryVariables.currentlyInChapterTwo):
+		$QuestionMark.texture = StoryVariables.basicTalked
+	if(interactedCh3 == true and StoryVariables.currentlyInChapterThree):
+		$QuestionMark.texture = StoryVariables.basicTalked
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -24,6 +37,8 @@ func _input(event):
 	if get_node_or_null('DialogNode') == null:
 		if event.is_action_pressed("interact") and active:
 			if(StoryVariables.currentlyInChapterOne == true):
+				active = false
+				interactedCh1 = true
 				pause_game()
 				var dialog;
 				if(inOverworld):
@@ -34,6 +49,8 @@ func _input(event):
 				dialog.connect('timeline_end', self, 'unpause')
 				add_child(dialog)
 			elif(StoryVariables.currentlyInChapterTwo == true):
+				active = false
+				interactedCh2 = true
 				pause_game()
 				var dialog;
 				if(inOverworld):
@@ -44,6 +61,8 @@ func _input(event):
 				dialog.connect('timeline_end', self, 'unpause')
 				add_child(dialog)
 			elif(StoryVariables.currentlyInChapterThree == true):
+				active = false
+				interactedCh3 = true
 				pause_game()
 				var dialog;
 				if(inOverworld):
@@ -62,7 +81,6 @@ func pause_game():
 func unpause(timeline_name):
 	get_tree().paused = false
 	StoryVariables.canPlayerMove = true
-	active = false
 	
 func _on_Marlon_body_entered(body):
 	if body.name == 'player' and (StoryVariables.isPrologueDone == true or StoryVariables.currentlyInChapterOne == true or StoryVariables.currentlyInChapterTwo == true or StoryVariables.currentlyInChapterThree == true):
@@ -92,5 +110,3 @@ func _physics_process(_delta):
 					character.play("Idle 2 Wonderland")
 				2:
 					character.play("Idle 3 Wonderland")
-	
-

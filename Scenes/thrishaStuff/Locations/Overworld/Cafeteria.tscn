@@ -3,7 +3,7 @@
 [ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/Overworld-Alistair-Idle-4.png" type="Texture" id=1]
 [ext_resource path="res://Scenes/mimistuff/marlon/Marlon-Wonderland-10.png" type="Texture" id=2]
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/LunchLady.gd" type="Script" id=3]
-[ext_resource path="res://icon.png" type="Texture" id=4]
+[ext_resource path="res://Scenes/thrishaStuff/images/speech_bubbles/Speech_Bubble_-2.png" type="Texture" id=4]
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/MusicGeek.gd" type="Script" id=5]
 [ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/coattail_blank.png" type="Texture" id=6]
 [ext_resource path="res://Scenes/leoStuff/HUD/HUD.tscn" type="PackedScene" id=7]
@@ -9839,15 +9839,12 @@ position = Vector2( 2479.5, 540 )
 texture = ExtResource( 68 )
 
 [node name="MusicGeek" type="Area2D" parent="."]
+pause_mode = 2
 position = Vector2( 796, 604 )
 script = ExtResource( 5 )
 __meta__ = {
 "_edit_group_": true
 }
-
-[node name="QuestionMark" type="Sprite" parent="MusicGeek"]
-position = Vector2( 0, -500 )
-texture = ExtResource( 4 )
 
 [node name="body" type="Sprite" parent="MusicGeek"]
 z_index = 10
@@ -9959,16 +9956,17 @@ anims/UNAVAILABLE = SubResource( 7 )
 position = Vector2( 11, -11.5 )
 shape = SubResource( 8 )
 
+[node name="QuestionMark" type="Sprite" parent="MusicGeek"]
+position = Vector2( 0, -400 )
+texture = ExtResource( 4 )
+
 [node name="LunchLady" type="Area2D" parent="."]
+pause_mode = 2
 position = Vector2( 4626, 725 )
 script = ExtResource( 3 )
 __meta__ = {
 "_edit_group_": true
 }
-
-[node name="QuestionMark" type="Sprite" parent="LunchLady"]
-position = Vector2( 0, -500 )
-texture = ExtResource( 4 )
 
 [node name="body" type="Sprite" parent="LunchLady"]
 z_index = 10
@@ -10080,16 +10078,17 @@ anims/UNAVAILABLE = SubResource( 13 )
 position = Vector2( -203.5, -11.5 )
 shape = SubResource( 8 )
 
+[node name="QuestionMark" type="Sprite" parent="LunchLady"]
+position = Vector2( 0, -400 )
+texture = ExtResource( 4 )
+
 [node name="Marlon" type="Area2D" parent="."]
+pause_mode = 2
 position = Vector2( 3038, 718 )
 script = ExtResource( 45 )
 __meta__ = {
 "_edit_group_": true
 }
-
-[node name="QuestionMark" type="Sprite" parent="Marlon"]
-position = Vector2( 0, -500 )
-texture = ExtResource( 4 )
 
 [node name="body" type="Sprite" parent="Marlon"]
 z_index = 10
@@ -10213,6 +10212,10 @@ anims/UNAVAILABLE = SubResource( 21 )
 position = Vector2( 11, -11.5 )
 shape = SubResource( 22 )
 
+[node name="QuestionMark" type="Sprite" parent="Marlon"]
+position = Vector2( 0, -400 )
+texture = ExtResource( 4 )
+
 [node name="player" parent="." instance=ExtResource( 11 )]
 pause_mode = 2
 position = Vector2( 2532, 738 )
@@ -10244,6 +10247,7 @@ shape = SubResource( 1 )
 [node name="CafeteriaAudio" type="AudioStreamPlayer" parent="."]
 pause_mode = 2
 stream = ExtResource( 8 )
+volume_db = -3.0
 
 [connection signal="body_entered" from="MusicGeek" to="MusicGeek" method="_on_MusicGeek_body_entered"]
 [connection signal="body_exited" from="MusicGeek" to="MusicGeek" method="_on_MusicGeek_body_exited"]

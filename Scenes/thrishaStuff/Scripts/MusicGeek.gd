@@ -13,11 +13,16 @@ var letterDeliver = false
 
 func _process(_delta):
 	$QuestionMark.visible = active
+	if(StoryVariables.isInitiateMainQuestDone == true or StoryVariables.isDeliverLetterToLover == true):
+		$QuestionMark.texture = StoryVariables.quest
+	else:
+		$QuestionMark.texture = StoryVariables.basicTalked
 
 func _input(event):
 	if get_node_or_null('DialogNode') == null:
 		if event.is_action_pressed("interact") and active:
 			if(StoryVariables.isInitiateMainQuestDone == true):
+				active = false
 				pause_game()
 				var dialog = Dialogic.start("searchForStrings")
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
@@ -27,6 +32,7 @@ func _input(event):
 				StoryVariables.isInitiateMainQuestDone = false
 				initiateStrings = true
 			elif(StoryVariables.isDeliverLetterToLover == true):
+				active = false
 				pause_game()
 				var dialog = Dialogic.start("reportBackToMusicGeek")
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
@@ -37,6 +43,7 @@ func _input(event):
 				letterDeliver = true
 			elif(StoryVariables.currentlyInChapterOne == true and initiateStrings == false and letterDeliver == false):
 				#ch1 before main quest
+				active = false
 				pause_game()
 				var dialog = Dialogic.start("ch1_mgStrings")
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
@@ -44,6 +51,7 @@ func _input(event):
 				add_child(dialog)
 			elif(StoryVariables.currentlyInChapterOne == true and initiateStrings == true and letterDeliver == false):
 				#ch1 before reporting back
+				active = false
 				pause_game()
 				var dialog = Dialogic.start("ch1_mgReport")
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
@@ -51,6 +59,7 @@ func _input(event):
 				add_child(dialog)
 			elif(StoryVariables.currentlyInChapterOne == true and letterDeliver == true):
 				#ch1 after letter
+				active = false
 				pause_game()
 				var dialog = Dialogic.start("ch1_mgLetter")
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
@@ -58,6 +67,7 @@ func _input(event):
 				add_child(dialog)
 			elif(StoryVariables.currentlyInChapterTwo == true):
 				#ch2 basic
+				active = false
 				pause_game()
 				var dialog = Dialogic.start("ch2_musicGeek")
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
@@ -65,6 +75,7 @@ func _input(event):
 				add_child(dialog)
 			elif(StoryVariables.currentlyInChapterThree == true):
 				#ch3 basic
+				active = false
 				pause_game()
 				var dialog = Dialogic.start("ch3_musicGeek")
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
@@ -77,7 +88,6 @@ func pause_game():
 func unpause(timeline_name):
 	get_tree().paused = false
 	StoryVariables.canPlayerMove = true
-	active = false
 
 func _on_MusicGeek_body_entered(body):
 	if body.name == 'player':

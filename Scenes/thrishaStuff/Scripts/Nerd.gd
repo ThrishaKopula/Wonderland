@@ -8,15 +8,25 @@ func _physics_process(_delta):
 	character.play("Idle 2 Overworld")
 
 var active = false
+var interactedCh1 = false
+var interactedCh2 = false
+var interactedCh3 = false
 
 func _process(_delta):
 	$QuestionMark.visible = active
+	if(interactedCh1 == true and StoryVariables.currentlyInChapterOne):
+		$QuestionMark.texture = StoryVariables.basicTalked
+	if(interactedCh2 == true and StoryVariables.currentlyInChapterTwo):
+		$QuestionMark.texture = StoryVariables.basicTalked
+	if(interactedCh3 == true and StoryVariables.currentlyInChapterThree):
+		$QuestionMark.texture = StoryVariables.basicTalked
 
 func _input(event):
 	if get_node_or_null('DialogNode') == null:
 		if event.is_action_pressed("interact") and active:
 			if(StoryVariables.currentlyInChapterOne and StoryVariables.isNerdQuestEnded == false):
 				#side quest
+				active = false
 				pause_game()
 				var dialog = Dialogic.start("nerd_sideQuest")
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
@@ -25,6 +35,8 @@ func _input(event):
 				StoryVariables.isNerdQuestStarted = true
 			if(StoryVariables.currentlyInChapterOne == true and StoryVariables.isNerdQuestEnded == true):
 				#chapter 1 basic dialogue
+				interactedCh1 = true
+				active = false
 				pause_game()
 				var dialog = Dialogic.start("ch1_nerd")
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
@@ -32,6 +44,8 @@ func _input(event):
 				add_child(dialog)
 			elif(StoryVariables.currentlyInChapterTwo == true):
 				#chapter 2 basic dialogue
+				interactedCh2 = true
+				active = false
 				pause_game()
 				var dialog = Dialogic.start("ch2_nerd")
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
@@ -39,6 +53,8 @@ func _input(event):
 				add_child(dialog)
 			elif(StoryVariables.currentlyInChapterThree == true):
 				#chapter 3 basic dialogue
+				interactedCh3 = true
+				active = false
 				pause_game()
 				var dialog = Dialogic.start("ch3_nerd")
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
@@ -52,7 +68,6 @@ func pause_game():
 func unpause(timeline_name):
 	get_tree().paused = false
 	StoryVariables.canPlayerMove = true
-	active = false
 	
 	if Dialogic.get_variable('nerdHelp') == "0":
 		StoryVariables.isNerdQuestEnded = true
