@@ -216,7 +216,7 @@ tracks/1/keys = {
 
 [node name="cookie" type="Sprite" parent="."]
 position = Vector2( 0, 805 )
-texture = ExtResource( 6 )
+texture = ExtResource( 19 )
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 "anims/Best Cookie (Yellow)" = SubResource( 5 )

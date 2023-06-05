@@ -60,7 +60,7 @@ tracks/0/keys = {
 "times": PoolRealArray( 0, 1 ),
 "transitions": PoolRealArray( 2.82843, 14.42 ),
 "update": 0,
-"values": [ Vector2( 2064, 680 ), Vector2( 1250, 680 ) ]
+"values": [ Vector2( 2064, 680 ), Vector2( 1179, 680 ) ]
 }
 
 [sub_resource type="Animation" id=7]

@@ -37,7 +37,10 @@ func nextDrink():
 	
 func check_win():
 	
-	if red_pump == win_R and green_pump == win_G and blue_pump == win_B:
+	if cheat:
+		print("Cheat w");
+		correct_drink += 1;
+	elif red_pump == win_R and green_pump == win_G and blue_pump == win_B:
 		
 		print("W");
 		correct_drink += 1;
@@ -49,7 +52,7 @@ func check_win():
 	if correct_drink == 5:
 		win();
 	
-	
+	nextDrink();
 	reset();
 	pass
 	
