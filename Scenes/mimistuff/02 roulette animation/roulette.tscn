@@ -74,7 +74,6 @@ tracks/2/keys = {
 [sub_resource type="Animation" id=3]
 resource_name = "spin"
 length = 6.0
-loop = true
 tracks/0/type = "value"
 tracks/0/path = NodePath("wheel:position")
 tracks/0/interp = 1
