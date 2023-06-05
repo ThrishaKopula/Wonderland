@@ -49,7 +49,7 @@ func updateNum():
 
 func _on_cheat_pressed():
 	
-	
+	StoryVariables.badPoints += 1;
 	
 	Mini2Global.cheat = true;
 	$cheat.disabled = true;
