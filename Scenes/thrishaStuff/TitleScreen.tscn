@@ -1,21 +1,25 @@
-[gd_scene load_steps=19 format=2]
+[gd_scene load_steps=23 format=2]
 
-[ext_resource path="res://Scenes/mimistuff/0 Main Page animations/Main-Page-4.png" type="Texture" id=1]
-[ext_resource path="res://Scenes/mimistuff/0 Main Page animations/Main-Page-12.png" type="Texture" id=2]
-[ext_resource path="res://Scenes/mimistuff/0 Main Page animations/Main-Page-9.png" type="Texture" id=3]
-[ext_resource path="res://Scenes/mimistuff/0 Main Page animations/Main-Page-10.png" type="Texture" id=4]
-[ext_resource path="res://Scenes/mimistuff/0 Main Page animations/Main-Page-6.png" type="Texture" id=5]
-[ext_resource path="res://Scenes/mimistuff/0 Main Page animations/Main-Page-5.png" type="Texture" id=6]
-[ext_resource path="res://Scenes/mimistuff/0 Main Page animations/Main-Page-14.png" type="Texture" id=7]
-[ext_resource path="res://Scenes/mimistuff/0 Main Page animations/Main-Page-8.png" type="Texture" id=8]
-[ext_resource path="res://Scenes/mimistuff/0 Main Page animations/Main-Page-2.png" type="Texture" id=9]
-[ext_resource path="res://Scenes/mimistuff/0 Main Page animations/Main-Page-13.png" type="Texture" id=10]
-[ext_resource path="res://Scenes/mimistuff/0 Main Page animations/Main-Page-11.png" type="Texture" id=11]
-[ext_resource path="res://Scenes/mimistuff/0 Main Page animations/Main-Page-7.png" type="Texture" id=12]
-[ext_resource path="res://Scenes/mimistuff/0 Main Page animations/Main-Page-1.png" type="Texture" id=13]
-[ext_resource path="res://Scenes/mimistuff/0 Main Page animations/Main-Page-16.png" type="Texture" id=14]
-[ext_resource path="res://Scenes/mimistuff/0 Main Page animations/Main-Page-15.png" type="Texture" id=15]
-[ext_resource path="res://Scenes/mimistuff/0 Main Page animations/Main-Page-17.png" type="Texture" id=16]
+[ext_resource path="res://Scenes/mimistuff/0 Main Page animations/Main-Page-17.png" type="Texture" id=1]
+[ext_resource path="res://Scenes/mimistuff/0 Main Page animations/Main-Page-16.png" type="Texture" id=2]
+[ext_resource path="res://Scenes/mimistuff/0 Main Page animations/Main-Page-11.png" type="Texture" id=3]
+[ext_resource path="res://Scenes/mimistuff/0 Main Page animations/Main-Page-8.png" type="Texture" id=4]
+[ext_resource path="res://Scenes/mimistuff/0 Main Page animations/Main-Page-7.png" type="Texture" id=5]
+[ext_resource path="res://Scenes/mimistuff/0 Main Page animations/Main-Page-12.png" type="Texture" id=6]
+[ext_resource path="res://Scenes/mimistuff/0 Main Page animations/Main-Page-9.png" type="Texture" id=7]
+[ext_resource path="res://Scenes/mimistuff/0 Main Page animations/Main-Page-4.png" type="Texture" id=8]
+[ext_resource path="res://Scenes/mimistuff/0 Main Page animations/Main-Page-13.png" type="Texture" id=9]
+[ext_resource path="res://Scenes/mimistuff/0 Main Page animations/Main-Page-6.png" type="Texture" id=10]
+[ext_resource path="res://Scenes/mimistuff/0 Main Page animations/Main-Page-2.png" type="Texture" id=11]
+[ext_resource path="res://Scenes/mimistuff/0 Main Page animations/Main-Page-14.png" type="Texture" id=12]
+[ext_resource path="res://Scenes/mimistuff/0 Main Page animations/Main-Page-15.png" type="Texture" id=13]
+[ext_resource path="res://Scenes/mimistuff/0 Main Page animations/Main-Page-1.png" type="Texture" id=14]
+[ext_resource path="res://Scenes/mimistuff/0 Main Page animations/Main-Page-10.png" type="Texture" id=15]
+[ext_resource path="res://Scenes/mimistuff/0 Main Page animations/Main-Page-5.png" type="Texture" id=16]
+[ext_resource path="res://Scenes/thrishaStuff/Scripts/TitleScreen.gd" type="Script" id=17]
+[ext_resource path="res://Scenes/thrishaStuff/Audio/MouseClick.wav" type="AudioStream" id=18]
+[ext_resource path="res://Scenes/thrishaStuff/Scripts/MenuAudio.gd" type="Script" id=19]
+[ext_resource path="res://Scenes/thrishaStuff/Audio/Dorm/Kevin MacLeod： Chill.wav" type="AudioStream" id=20]
 
 [sub_resource type="Animation" id=1]
 length = 0.001
@@ -949,75 +953,102 @@ tracks/38/keys = {
 "values": [ Color( 0, 0, 0, 1 ), Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 1 ), Color( 0, 0, 0, 1 ), Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 1 ), Color( 0, 0, 0, 1 ) ]
 }
 
-[node name="page" type="Node2D"]
+[node name="TitleScreen" type="Node2D"]
+position = Vector2( 960, 540 )
+script = ExtResource( 17 )
 
 [node name="bg" type="Sprite" parent="."]
-texture = ExtResource( 13 )
+texture = ExtResource( 14 )
 
 [node name="mirror" type="Sprite" parent="."]
-texture = ExtResource( 9 )
+texture = ExtResource( 11 )
 
 [node name="lights" type="Sprite" parent="."]
 
 [node name="l1" type="Sprite" parent="lights"]
 position = Vector2( -580, -575 )
 rotation = 0.156092
-texture = ExtResource( 15 )
+texture = ExtResource( 13 )
 offset = Vector2( 553, 550 )
 
 [node name="l2" type="Sprite" parent="lights"]
 position = Vector2( -604, -568 )
 rotation = 0.207188
-texture = ExtResource( 14 )
+texture = ExtResource( 2 )
 offset = Vector2( 474, 541 )
 
 [node name="l3" type="Sprite" parent="lights"]
 position = Vector2( -279, -567 )
 rotation = 0.111735
-texture = ExtResource( 16 )
+texture = ExtResource( 1 )
 offset = Vector2( 409, 538 )
 
 [node name="l0" type="Sprite" parent="lights"]
 position = Vector2( -230, -545 )
-texture = ExtResource( 15 )
+texture = ExtResource( 13 )
 offset = Vector2( 549, 536 )
 
 [node name="word" type="Sprite" parent="."]
 
 [node name="w" type="Sprite" parent="word"]
-texture = ExtResource( 7 )
-
-[node name="o" type="Sprite" parent="word"]
-texture = ExtResource( 10 )
-
-[node name="n" type="Sprite" parent="word"]
-texture = ExtResource( 2 )
-
-[node name="d" type="Sprite" parent="word"]
-texture = ExtResource( 11 )
-
-[node name="e" type="Sprite" parent="word"]
-texture = ExtResource( 4 )
-
-[node name="r" type="Sprite" parent="word"]
-texture = ExtResource( 3 )
-
-[node name="l" type="Sprite" parent="word"]
-texture = ExtResource( 8 )
-
-[node name="a" type="Sprite" parent="word"]
 texture = ExtResource( 12 )
 
-[node name="n2" type="Sprite" parent="word"]
+[node name="o" type="Sprite" parent="word"]
+texture = ExtResource( 9 )
+
+[node name="n" type="Sprite" parent="word"]
+texture = ExtResource( 6 )
+
+[node name="d" type="Sprite" parent="word"]
+texture = ExtResource( 3 )
+
+[node name="e" type="Sprite" parent="word"]
+texture = ExtResource( 15 )
+
+[node name="r" type="Sprite" parent="word"]
+texture = ExtResource( 7 )
+
+[node name="l" type="Sprite" parent="word"]
+texture = ExtResource( 4 )
+
+[node name="a" type="Sprite" parent="word"]
 texture = ExtResource( 5 )
 
+[node name="n2" type="Sprite" parent="word"]
+texture = ExtResource( 10 )
+
 [node name="d2" type="Sprite" parent="word"]
-texture = ExtResource( 6 )
+texture = ExtResource( 16 )
 
 [node name="start" type="Sprite" parent="."]
 modulate = Color( 0.294946, 0.294946, 0.294946, 1 )
-texture = ExtResource( 1 )
+texture = ExtResource( 8 )
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 anims/RESET = SubResource( 1 )
 anims/idle = SubResource( 2 )
+
+[node name="clickAnywhere" type="Button" parent="."]
+modulate = Color( 1, 1, 1, 0 )
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -958.0
+margin_top = -540.0
+margin_right = 960.0
+margin_bottom = 540.0
+rect_pivot_offset = Vector2( 960, 540 )
+
+[node name="ButtonClick" type="AudioStreamPlayer2D" parent="."]
+pause_mode = 2
+position = Vector2( 980, 566 )
+stream = ExtResource( 18 )
+
+[node name="TitleAudio" type="AudioStreamPlayer" parent="."]
+pause_mode = 2
+stream = ExtResource( 20 )
+volume_db = -3.0
+autoplay = true
+script = ExtResource( 19 )
+
+[connection signal="button_down" from="clickAnywhere" to="." method="_on_clickAnywhere_button_down"]
+[connection signal="pressed" from="clickAnywhere" to="." method="_on_clickAnywhere_pressed"]

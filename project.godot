@@ -81,7 +81,7 @@ _global_script_class_icons={
 [application]
 
 config/name="CMPM172FinalGame"
-run/main_scene="res://Scenes/thrishaStuff/MainMenu.tscn"
+run/main_scene="res://Scenes/thrishaStuff/TitleScreen.tscn"
 config/icon="res://icon.png"
 
 [autoload]
