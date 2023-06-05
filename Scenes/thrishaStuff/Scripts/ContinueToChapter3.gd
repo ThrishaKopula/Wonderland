@@ -19,7 +19,8 @@ func _on_Continue_pressed():
 	StoryVariables.isChapter3Start = true
 	StoryVariables.currentlyInChapterThree = true
 	get_tree().change_scene("res://Scenes/thrishaStuff/Locations/Overworld/Classroom.tscn")
-
+	StoryVariables.canPlayerMove = true
+	
 func _on_Continue_button_down():
 	$ButtonClick.play()
 

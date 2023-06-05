@@ -5418,4 +5418,9 @@ shape = SubResource( 1 )
 pause_mode = 2
 stream = ExtResource( 4 )
 
+[connection signal="body_entered" from="Guard" to="Guard" method="_on_Guard_body_entered"]
+[connection signal="body_exited" from="Guard" to="Guard" method="_on_Guard_body_exited"]
+[connection signal="body_entered" from="Queen" to="Queen" method="_on_Queen_body_entered"]
+[connection signal="body_exited" from="Queen" to="Queen" method="_on_Queen_body_exited"]
+
 [editable path="player/HUD"]

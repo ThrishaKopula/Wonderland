@@ -9891,7 +9891,7 @@ texture = ExtResource( 72 )
 
 [node name="RealThief" type="Area2D" parent="."]
 pause_mode = 2
-position = Vector2( 3251, 743 )
+position = Vector2( 2848, 646 )
 script = ExtResource( 9 )
 __meta__ = {
 "_edit_group_": true

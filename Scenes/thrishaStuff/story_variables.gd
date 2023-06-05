@@ -28,7 +28,7 @@ var isChapterThreeDone = false
 
 var currentlyInChapterOne = true
 var currentlyInChapterTwo = false
-var currentlyInChapterThree = false
+var currentlyInChapterThree = true
 
 var chapterOneQuest = false
 var chapterTwoQuest = false
@@ -171,8 +171,18 @@ func checkEnding():
 		badPoints += 1
 	if(isJockQuestEnded == false):
 		badPoints += 1
-	
+	goodPoints += 10
 	if(goodPoints >= badPoints):
-		pass
+		get_tree().paused = true
+		canPlayerMove = false
+		var dialog = Dialogic.start("goodEnding")
+		dialog.pause_mode = Node.PAUSE_MODE_PROCESS
+		dialog.connect('timeline_end', self, 'unpause')
+		add_child(dialog)
 	else:
-		pass
+		get_tree().paused = true
+		canPlayerMove = false
+		var dialog = Dialogic.start("badEnding")
+		dialog.pause_mode = Node.PAUSE_MODE_PROCESS
+		dialog.connect('timeline_end', self, 'unpause')
+		add_child(dialog)
