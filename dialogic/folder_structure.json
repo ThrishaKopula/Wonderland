@@ -41,7 +41,8 @@
 						"character-1681452544.json",
 						"character-1683771916.json",
 						"character-1685579332.json",
-						"character-1685754955.json"
+						"character-1685754955.json",
+						"character-1685953799.json"
 					],
 					"folders": {
 						"Aristocrats": {
@@ -329,7 +330,7 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": true
+						"folded": false
 					}
 				},
 				"Janitor": {

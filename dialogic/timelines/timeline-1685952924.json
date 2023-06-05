@@ -1,10 +1,14 @@
 {
 	"events": [
 		{
-			"character": "",
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1683225590.cfg"
+		},
+		{
+			"character": "character-1685953799.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "ch3 guard"
+			"text": "HALT"
 		}
 	],
 	"metadata": {

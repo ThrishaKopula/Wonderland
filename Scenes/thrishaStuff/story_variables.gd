@@ -171,18 +171,30 @@ func checkEnding():
 		badPoints += 1
 	if(isJockQuestEnded == false):
 		badPoints += 1
-	goodPoints += 10
+
 	if(goodPoints >= badPoints):
-		get_tree().paused = true
+		get_tree().paused = false
 		canPlayerMove = false
+		Fade.change_scene("res://Scenes/thrishaStuff/Locations/Overworld/Dream.tscn")
+		yield(get_tree().create_timer(2), "timeout")
+		get_tree().paused = true
 		var dialog = Dialogic.start("goodEnding")
 		dialog.pause_mode = Node.PAUSE_MODE_PROCESS
-		dialog.connect('timeline_end', self, 'unpause')
+		dialog.connect('timeline_end', self, 'unpauseEnding')
 		add_child(dialog)
 	else:
-		get_tree().paused = true
+		get_tree().paused = false
 		canPlayerMove = false
+		Fade.change_scene("res://Scenes/thrishaStuff/Locations/Overworld/Dream.tscn")
+		yield(get_tree().create_timer(2), "timeout")
+		get_tree().paused = true
 		var dialog = Dialogic.start("badEnding")
 		dialog.pause_mode = Node.PAUSE_MODE_PROCESS
-		dialog.connect('timeline_end', self, 'unpause')
+		dialog.connect('timeline_end', self, 'unpauseEnding')
 		add_child(dialog)
+
+func unpauseEnding(timeline_name):
+	get_tree().paused = false
+	canPlayerMove = true
+	Fade.change_scene("res://Scenes/thrishaStuff/GameOver.tscn")
+	yield(get_tree().create_timer(2), "timeout")
