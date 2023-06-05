@@ -20,7 +20,7 @@ func _ready():
 	
 func _input(event):
 	if get_node_or_null('DialogNode') == null:
-		if event.is_action_pressed("interact") and active:
+		if active:
 			if(StoryVariables.currentlyInChapterThree == true):
 				#chapter 3 basic dialogue
 				active = false
