@@ -7,6 +7,8 @@ var quest = preload("res://Scenes/thrishaStuff/images/speech_bubbles/Speech_Bubb
 var goodPoints = 0
 var badPoints = 0
 
+var miniGameToMainMenu = false
+
 # Declare member variables here. Examples:
 var canPlayerMove = true
 var isLeft = false
