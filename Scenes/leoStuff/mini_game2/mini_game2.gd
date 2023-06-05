@@ -1,6 +1,8 @@
 extends Node2D
 
 var cur_drink;
+
+var time = 100;
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	$cheatOn.hide();
@@ -20,8 +22,25 @@ func _ready():
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
-#	pass
+func _process(delta):
+	
+	if time > 0:
+	
+		time -= delta;
+		$nums/time.text = String(int(time));
+		
+	else:
+		$nums/time.text = "0";
+		Mini2Global.nextDrink();
+		Mini2Global.reset();
+		Mini2Global.correct_drink = 0;
+		$winLogo/AnimationPlayer.play("lose");
+		
+		yield($winLogo/AnimationPlayer,"animation_finished");
+		
+		get_tree().reload_current_scene();
+	
+	pass
 
 func updateNum():
 	$nums/numCherry.text = String(Mini2Global.win_R);
@@ -29,9 +48,17 @@ func updateNum():
 	$nums/numLemon.text = String(Mini2Global.win_B);
 
 func _on_cheat_pressed():
+	
+	
+	
 	Mini2Global.cheat = true;
 	$cheat.disabled = true;
-	StoryVariables.badPoints += 1
+	$overall.get_node("AnimationPlayer").play("Blue Cookie");
+	$cheatOn.show();
+	
+	$nums/numCherry.hide();
+	$nums/numPeach.hide();
+	$nums/numLemon.hide();
 	
 	pass # Replace with function body.
 
@@ -103,7 +130,7 @@ func _on_drinkButt3_pressed():
 
 func _on_finishButt_pressed():
 	
-	if Mini2Global.drink_onScene:
+	if Mini2Global.drink_onScene and !Mini2Global.sending:
 	
 		var animation = cur_drink.get_node("AnimationPlayer");
 		animation.get_animation("send").track_set_key_value(0,0,cur_drink.position);
@@ -114,15 +141,16 @@ func _on_finishButt_pressed():
 		
 		cur_drink.queue_free();
 			
-		Mini2Global.sending = true;
+		Mini2Global.sending = false;
 		
 		Mini2Global.check_win();
+		updateNum();
 	pass # Replace with function body.
 
 
 func _on_discardButt_pressed():
 	
-	if Mini2Global.drink_onScene:
+	if Mini2Global.drink_onScene and !Mini2Global.sending:
 		
 		var animation = cur_drink.get_node("AnimationPlayer");
 		animation.get_animation("delete").track_set_key_value(0,0,cur_drink.position);
@@ -131,7 +159,7 @@ func _on_discardButt_pressed():
 		
 		yield (animation, "animation_finished");
 		
-		Mini2Global.sending = true;
+		Mini2Global.sending = false;
 		cur_drink.queue_free();
 		Mini2Global.reset();
 	
