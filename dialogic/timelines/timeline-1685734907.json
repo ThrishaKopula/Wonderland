@@ -25,16 +25,28 @@
 			"z_index": 0
 		},
 		{
+			"character": "character-1685754955.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh no, where is it? Where did I put it?"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "default_wonderland",
+			"text": "( Hmm...looks like he's looking for something. )"
+		},
+		{
 			"character": "",
 			"event_id": "dialogic_010",
 			"options": [
 
 			],
 			"portrait": "",
-			"question": "jskdfhskd"
+			"question": "Looks like he's lost something..."
 		},
 		{
-			"choice": "help",
+			"choice": "He could use a hand.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
@@ -49,11 +61,159 @@
 			"set_value": "1"
 		},
 		{
-			"choice": "no help",
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hello Mr. Mayor, did you lose something? "
+		},
+		{
+			"character": "character-1685754955.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yeah! I happened to lose my monacle, have you seen it?"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No..."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "But I guess I can help you look for it."
+		},
+		{
+			"background": "res://dialogic/black.jpeg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1683081099.cfg"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alistair and the mayor search for the missing monacle."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "They scout around the town and there, glistening underneath a decorative plant, is the shining eye piece the mayor was looking for."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alistair dusts off the monacle and hands it to the grateful mayor."
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1683225590.cfg"
+		},
+		{
+			"background": "",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1685754955.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yay! Thank you sweet boy, I can finally see my documents!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "What documents?"
+		},
+		{
+			"character": "character-1685754955.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh, just the petition to grant Pleb Town some funding for their stalls."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You're just giving out money? "
+		},
+		{
+			"character": "character-1685754955.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yeah, they might not look it, but those Plebs are some of the most hardworking people in town!"
+		},
+		{
+			"character": "character-1685754955.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "They made this entire game in a single quarter! "
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Wow, that's impressive."
+		},
+		{
+			"character": "character-1685754955.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yeah, anyways, if I just get one more signature, I can finally submit this petition."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( The vendors live in Pleb Town... )"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( The funding could help them out. )"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I can sign it."
+		},
+		{
+			"character": "character-1685754955.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Really? That would be amazing, thank you so much!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No problem! "
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( Glad to see the Plebs will have a chance to renovate. )"
+		},
+		{
+			"choice": "I'm already busy looking for the key.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
 			"value": ""
+		},
+		{
+			"character": "character-1685754955.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I still can't see!"
 		},
 		{
 			"event_id": "dialogic_013"
