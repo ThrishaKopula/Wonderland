@@ -19,7 +19,7 @@
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/TitleScreen.gd" type="Script" id=17]
 [ext_resource path="res://Scenes/thrishaStuff/Audio/MouseClick.wav" type="AudioStream" id=18]
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/MenuAudio.gd" type="Script" id=19]
-[ext_resource path="res://Scenes/thrishaStuff/Audio/Dorm/Kevin MacLeod： Chill.wav" type="AudioStream" id=20]
+[ext_resource path="res://Scenes/thrishaStuff/Audio/TitleScreen/Kevin MacLeod ~ Arcadia.wav" type="AudioStream" id=20]
 
 [sub_resource type="Animation" id=1]
 length = 0.001
