@@ -4810,7 +4810,7 @@ texture = ExtResource( 15 )
 
 [node name="Marlon" type="Area2D" parent="."]
 pause_mode = 2
-position = Vector2( 667, 706 )
+position = Vector2( 318, 683 )
 script = ExtResource( 39 )
 __meta__ = {
 "_edit_group_": true
