@@ -223,7 +223,7 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": false
+						"folded": true
 					}
 				},
 				"Chapter 2": {
@@ -257,7 +257,7 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": false
+						"folded": true
 					}
 				},
 				"Chapter 3": {
@@ -298,6 +298,31 @@
 						"timeline-1685407052.json",
 						"timeline-1685407061.json",
 						"timeline-1685407072.json"
+					],
+					"folders": {
+
+					},
+					"metadata": {
+						"color": null,
+						"folded": true
+					}
+				},
+				"Endings": {
+					"files": [
+						"timeline-1685953244.json",
+						"timeline-1685953255.json"
+					],
+					"folders": {
+
+					},
+					"metadata": {
+						"color": null,
+						"folded": false
+					}
+				},
+				"Guard": {
+					"files": [
+						"timeline-1685952924.json"
 					],
 					"folders": {
 
