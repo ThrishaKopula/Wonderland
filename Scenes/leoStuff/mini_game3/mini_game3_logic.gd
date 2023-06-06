@@ -49,6 +49,10 @@ func new_game():
 			for n in range(2):
 				ran_shuffle();
 				yield(get_tree().create_timer(2), "timeout");
+		3:
+			for n in range(3):
+				ran_shuffle();
+				yield(get_tree().create_timer(2), "timeout");
 	
 	inAct = false;
 	get_wCard();
@@ -141,7 +145,7 @@ func pick(item,type):
 		inAct = true;
 		yield(get_tree().create_timer(2), "timeout");
 		$AnimatedGridContainer/Joker.texture_normal = back_card;
-		if picked_type != "none":
+		if picked_type != "none" and !cheat:
 			picked.texture_normal = back_card;
 			picked = null;
 			picked_type = "none";
@@ -166,7 +170,6 @@ func pick(item,type):
 		pair_got += 1;
 		inAct = true;
 		yield(get_tree().create_timer(2), "timeout");
-		inAct = false;
 		
 		item.texture_normal = back_card;
 		
@@ -179,7 +182,7 @@ func pick(item,type):
 			$"../cheat".disabled = false;
 		
 		yield(get_tree().create_timer(1), "timeout");
-		if pair_got >= 3:
+		if pair_got >= 4:
 			$"../winLogo/AnimationPlayer".play("win");
 		else:
 			new_game();
