@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=2]
+[gd_scene load_steps=22 format=2]
 
 [ext_resource path="res://Scenes/leoStuff/mini_game3/mini_game3_logic.gd" type="Script" id=1]
 [ext_resource path="res://Scenes/leoStuff/shine/card.tscn" type="PackedScene" id=2]
@@ -12,6 +12,9 @@
 [ext_resource path="res://addons/dialogic/Example Assets/Fonts/Overlock/Overlock-Black.ttf" type="DynamicFontData" id=10]
 [ext_resource path="res://Scenes/mimistuff/00 cookie eat animation/cookie ani.tscn" type="PackedScene" id=11]
 [ext_resource path="res://Scenes/leoStuff/mini_game3/mini3Art/Card_Mini_game-2.png" type="Texture" id=12]
+[ext_resource path="res://Scenes/leoStuff/mini_game1/art/back.png" type="Texture" id=13]
+[ext_resource path="res://Scenes/leoStuff/mini_game1/art/lose.png" type="Texture" id=14]
+[ext_resource path="res://Scenes/leoStuff/mini_game1/art/win.png" type="Texture" id=15]
 
 [sub_resource type="DynamicFont" id=1]
 size = 100
@@ -45,6 +48,87 @@ tracks/0/keys = {
 "transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
 "update": 0,
 "values": [ Color( 0, 0, 0, 1 ), Color( 0.14902, 0.654902, 0.286275, 1 ), Color( 0, 0, 0, 1 ), Color( 0.14902, 0.654902, 0.286275, 1 ), Color( 0, 0, 0, 1 ), Color( 0.14902, 0.654902, 0.286275, 1 ), Color( 0, 0, 0, 1 ), Color( 0.14902, 0.654902, 0.286275, 1 ), Color( 0, 0, 0, 1 ), Color( 0.14902, 0.654902, 0.286275, 1 ), Color( 0, 0, 0, 1 ) ]
+}
+
+[sub_resource type="Animation" id=4]
+resource_name = "RESET"
+tracks/0/type = "value"
+tracks/0/path = NodePath("WL:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("WL/text:texture")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ ExtResource( 14 ) ]
+}
+
+[sub_resource type="Animation" id=5]
+resource_name = "lose"
+tracks/0/type = "value"
+tracks/0/path = NodePath("WL:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("WL/text:texture")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ ExtResource( 14 ) ]
+}
+
+[sub_resource type="Animation" id=6]
+resource_name = "win"
+tracks/0/type = "value"
+tracks/0/path = NodePath("WL/text:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ ExtResource( 15 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("WL:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
 }
 
 [node name="Node2D" type="Node2D"]
@@ -178,6 +262,26 @@ anims/flash = SubResource( 3 )
 [node name="overall" parent="." instance=ExtResource( 11 )]
 pause_mode = 2
 position = Vector2( 960, 600 )
+
+[node name="winLogo" type="Node2D" parent="."]
+z_index = 20
+
+[node name="WL" type="Node2D" parent="winLogo"]
+modulate = Color( 1, 1, 1, 0 )
+z_index = 20
+
+[node name="back" type="Sprite" parent="winLogo/WL"]
+texture = ExtResource( 13 )
+centered = false
+
+[node name="text" type="Sprite" parent="winLogo/WL"]
+texture = ExtResource( 14 )
+centered = false
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="winLogo"]
+anims/RESET = SubResource( 4 )
+anims/lose = SubResource( 5 )
+anims/win = SubResource( 6 )
 
 [connection signal="pressed" from="Control/AnimatedGridContainer/J/Button" to="Control" method="_on_J_pressed"]
 [connection signal="pressed" from="Control/AnimatedGridContainer/J2/Button" to="Control" method="_on_J2_pressed"]

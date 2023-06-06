@@ -30,8 +30,8 @@ func new_game():
 	$"../get".texture = back_card;
 	pregame = true;
 	inAct = true;
-	#for n in range(10):
-	#	ran_shuffle();
+	for n in range(10):
+		ran_shuffle();
 		
 	$"../lives".text = String(lives);
 	
@@ -126,9 +126,9 @@ func _on_J_pressed():
 
 func _on_J2_pressed():
 	if !inAct:
-		print("J2 pressed")
-		pick(get_node("AnimatedGridContainer/J2"), "J");
+		print("J2 pressed");
 		$AnimatedGridContainer/J2.texture_normal = j;
+		pick(get_node("AnimatedGridContainer/J2"), "J");
 	pass # Replace with function body.
 	
 
@@ -137,6 +137,16 @@ func pick(item,type):
 	
 	if type == "Joker":
 		lives -= 1;
+		$"../lives".text = String(lives);
+		inAct = true;
+		yield(get_tree().create_timer(2), "timeout");
+		$AnimatedGridContainer/Joker.texture_normal = back_card;
+		if picked_type != "none":
+			picked.texture_normal = back_card;
+			picked = null;
+			picked_type = "none";
+			
+		inAct = false;
 		
 	elif picked_type == "none":
 		print("none")
@@ -169,7 +179,10 @@ func pick(item,type):
 			$"../cheat".disabled = false;
 		
 		yield(get_tree().create_timer(1), "timeout");
-		new_game();
+		if pair_got >= 3:
+			$"../winLogo/AnimationPlayer".play("win");
+		else:
+			new_game();
 		
 	else:
 		print("else");
@@ -189,9 +202,6 @@ func pick(item,type):
 		
 	if lives <  0:
 		lose();
-	
-	if pair_got <= 3:
-		print("win");
 		
 	pass
 	
