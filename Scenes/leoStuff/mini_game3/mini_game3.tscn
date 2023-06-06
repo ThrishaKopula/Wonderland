@@ -6,7 +6,7 @@
 [ext_resource path="res://Scenes/mimistuff/alistair wonderland idle/wonderland idle.tscn" type="PackedScene" id=4]
 [ext_resource path="res://Scenes/leoStuff/mini_game3/mini3Art/CARD_BACK.png" type="Texture" id=5]
 [ext_resource path="res://Scenes/leoStuff/mini_game1/art/cheat.png" type="Texture" id=6]
-[ext_resource path="res://Scenes/leoStuff/mini_game3/mini3Art/Card_Mini_game-3.png" type="Texture" id=7]
+[ext_resource path="res://Scenes/leoStuff/mini_game3/mini3Art/Card_Mini_game.png" type="Texture" id=7]
 [ext_resource path="res://Scenes/leoStuff/mini_game3/mini3Art/Card_Mini_game-5.png" type="Texture" id=8]
 [ext_resource path="res://Scenes/leoStuff/mini_game3/mini3Art/Card_Mini_game-1.png" type="Texture" id=9]
 [ext_resource path="res://addons/dialogic/Example Assets/Fonts/Overlock/Overlock-Black.ttf" type="DynamicFontData" id=10]
