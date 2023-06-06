@@ -203,13 +203,14 @@ func pick(item,type):
 			picked = null;
 			picked_type = "none";
 		
-	if lives <  0:
+	if lives <=  0:
 		lose();
 		
 	pass
 	
 func lose():
-	print("L");
+	
+	$"../winLogo/AnimationPlayer".play("lose");
 	
 	pass
 
