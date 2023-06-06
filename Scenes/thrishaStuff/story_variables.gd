@@ -28,16 +28,16 @@ var isChapterOneDone = false
 var isChapterTwoDone = false
 var isChapterThreeDone = false
 
-var currentlyInChapterOne = true
+var currentlyInChapterOne = false
 var currentlyInChapterTwo = false
-var currentlyInChapterThree = true
+var currentlyInChapterThree = false
 
 var chapterOneQuest = false
 var chapterTwoQuest = false
 var chapterThreeQuest = false
 
 #CHAPTER ONE
-var isChapterOneStartDone = true
+var isChapterOneStartDone = false
 
 #Getting Strings For Bard
 var isInitiateMainQuestDone = false
