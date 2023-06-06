@@ -171,3 +171,9 @@ func _on_cardMatchButton_mouse_entered():
 
 func _on_cardMatchButton_mouse_exited():
 	$cardMatch.scale = Vector2(1, 1)
+
+func _on_Quit_mouse_entered():
+	$quit.scale = Vector2(1.1, 1.1)
+
+func _on_Quit_mouse_exited():
+	$quit.scale = Vector2(1, 1)

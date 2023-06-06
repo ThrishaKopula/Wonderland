@@ -1,4 +1,4 @@
-[gd_scene load_steps=20 format=2]
+[gd_scene load_steps=21 format=2]
 
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/MainMenu.gd" type="Script" id=1]
 [ext_resource path="res://Scenes/thrishaStuff/Audio/MouseClick.wav" type="AudioStream" id=2]
@@ -18,6 +18,7 @@
 [ext_resource path="res://Scenes/thrishaStuff/images/mainMenu/chapter3.png" type="Texture" id=16]
 [ext_resource path="res://Scenes/thrishaStuff/images/mainMenu/bartendingButton.png" type="Texture" id=17]
 [ext_resource path="res://Scenes/thrishaStuff/images/mainMenu/cardMatchButton.png" type="Texture" id=18]
+[ext_resource path="res://Scenes/thrishaStuff/images/mainMenu/quitButton.png" type="Texture" id=19]
 
 [sub_resource type="Theme" id=1]
 
@@ -159,6 +160,20 @@ texture = ExtResource( 9 )
 position = Vector2( 960, 540 )
 texture = ExtResource( 7 )
 
+[node name="quit" type="Sprite" parent="."]
+position = Vector2( 1793, 66 )
+texture = ExtResource( 19 )
+offset = Vector2( -833, 474 )
+
+[node name="Quit" type="Button" parent="quit"]
+margin_left = -159.0
+margin_top = -95.0
+margin_right = 190.0
+margin_bottom = 73.0
+rect_rotation = 16.6124
+rect_pivot_offset = Vector2( 144, 82 )
+flat = true
+
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
 visible = false
 anchor_left = 1.0
@@ -181,12 +196,6 @@ margin_top = 24.0
 margin_right = 65.0
 margin_bottom = 44.0
 text = "Controls"
-
-[node name="Quit" type="Button" parent="VBoxContainer"]
-margin_top = 48.0
-margin_right = 65.0
-margin_bottom = 68.0
-text = "Quit"
 
 [node name="Credits" type="Button" parent="VBoxContainer"]
 margin_top = 72.0
@@ -251,11 +260,13 @@ script = ExtResource( 5 )
 [connection signal="mouse_entered" from="cardMatch/cardMatchButton" to="." method="_on_cardMatchButton_mouse_entered"]
 [connection signal="mouse_exited" from="cardMatch/cardMatchButton" to="." method="_on_cardMatchButton_mouse_exited"]
 [connection signal="pressed" from="cardMatch/cardMatchButton" to="." method="_on_cardMatchButton_pressed"]
+[connection signal="button_down" from="quit/Quit" to="." method="_on_Quit_button_down"]
+[connection signal="mouse_entered" from="quit/Quit" to="." method="_on_Quit_mouse_entered"]
+[connection signal="mouse_exited" from="quit/Quit" to="." method="_on_Quit_mouse_exited"]
+[connection signal="pressed" from="quit/Quit" to="." method="_on_Quit_pressed"]
 [connection signal="button_down" from="VBoxContainer/testing" to="." method="_on_StartButton_button_down"]
 [connection signal="pressed" from="VBoxContainer/testing" to="." method="_on_StartButton_pressed"]
 [connection signal="button_down" from="VBoxContainer/Options" to="." method="_on_Options_button_down"]
-[connection signal="button_down" from="VBoxContainer/Quit" to="." method="_on_Quit_button_down"]
-[connection signal="pressed" from="VBoxContainer/Quit" to="." method="_on_Quit_pressed"]
 [connection signal="button_down" from="VBoxContainer/Credits" to="." method="_on_Credits_button_down"]
 [connection signal="pressed" from="VBoxContainer/Credits" to="." method="_on_Credits_pressed"]
 
