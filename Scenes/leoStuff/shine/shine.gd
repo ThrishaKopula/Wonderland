@@ -43,3 +43,16 @@ func _on_Button_mouse_exited():
 	icon.material.set_shader_param("onoff",0)
 
 	pass # Replace with function body.
+
+
+
+func _on_J2_pressed():
+	pass # Replace with function body.
+
+
+func _on_Q2_pressed():
+	pass # Replace with function body.
+
+
+func _on_K2_pressed():
+	pass # Replace with function body.

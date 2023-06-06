@@ -49,11 +49,16 @@ func check_win():
 		
 		print("L");
 	
-	if correct_drink == 5:
-		win();
-	
 	nextDrink();
 	reset();
+	
+	if correct_drink == 5:
+		if StoryVariables.miniGameToMainMenu:
+			StoryVariables.miniGameToMainMenu = false;
+			Fade.change_scene("res://Scenes/thrishaStuff/MainMenu.tscn");
+		else:
+			win();
+	
 	pass
 	
 func reset():

@@ -38,7 +38,11 @@ func _process(delta):
 		
 		yield($winLogo/AnimationPlayer,"animation_finished");
 		
-		get_tree().reload_current_scene();
+		if StoryVariables.miniGameToMainMenu:
+			StoryVariables.miniGameToMainMenu = false;
+			Fade.change_scene("res://Scenes/thrishaStuff/MainMenu.tscn");
+		else:
+			get_tree().reload_current_scene();
 	
 	pass
 
@@ -55,11 +59,13 @@ func _on_cheat_pressed():
 	$cheat.disabled = true;
 	$overall.get_node("AnimationPlayer").play("Blue Cookie");
 	$cheatOn.show();
-	
 	$nums/numCherry.hide();
 	$nums/numPeach.hide();
 	$nums/numLemon.hide();
+	Mini2Global.sending = true;
 	
+	yield ($overall.get_node("AnimationPlayer"),"animation_finished");
+	Mini2Global.sending = false;
 	pass # Replace with function body.
 
 
