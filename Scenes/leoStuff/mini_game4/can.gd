@@ -21,7 +21,10 @@ func _ready():
 
 func _on_can_body_entered(body):
 	
-	if body.get("color") == can_color:
+	if $"..".cheat:
+		print("good");
+		body.queue_free();
+	elif body.get("color") == can_color:
 		print("good");
 		body.queue_free();
 	

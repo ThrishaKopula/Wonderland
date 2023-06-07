@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=2]
+[gd_scene load_steps=21 format=2]
 
 [ext_resource path="res://Scenes/leoStuff/mini_game4/mini4Art/Cleaning_Mini_Game-5.png" type="Texture" id=1]
 [ext_resource path="res://Scenes/leoStuff/mini_game4/can.tscn" type="PackedScene" id=2]
@@ -8,6 +8,11 @@
 [ext_resource path="res://Scenes/leoStuff/mini_game4/mini_game4.gd" type="Script" id=6]
 [ext_resource path="res://Scenes/leoStuff/mini_game4/mini4Art/Cleaning_Mini_Game-3.png" type="Texture" id=7]
 [ext_resource path="res://Scenes/leoStuff/mini_game4/mini4Art/Cleaning_Mini_Game-2.png" type="Texture" id=8]
+[ext_resource path="res://Scenes/leoStuff/mini_game1/art/cheat.png" type="Texture" id=9]
+[ext_resource path="res://Scenes/leoStuff/mini_game1/art/win.png" type="Texture" id=10]
+[ext_resource path="res://Scenes/leoStuff/mini_game1/art/back.png" type="Texture" id=11]
+[ext_resource path="res://Scenes/leoStuff/mini_game1/art/lose.png" type="Texture" id=12]
+[ext_resource path="res://Scenes/mimistuff/00 cookie eat animation/cookie ani.tscn" type="PackedScene" id=13]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 987, 46.875 )
@@ -33,11 +38,132 @@ tracks/0/keys = {
 "values": [ Color( 0, 0, 0, 1 ), Color( 1, 0, 0, 1 ), Color( 0, 0, 0, 1 ), Color( 1, 0.00784314, 0.00784314, 1 ), Color( 0, 0, 0, 1 ) ]
 }
 
+[sub_resource type="Animation" id=5]
+resource_name = "RESET"
+tracks/0/type = "value"
+tracks/0/path = NodePath("WL:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("WL/text:texture")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ ExtResource( 12 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath(".:visible")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=6]
+resource_name = "lose"
+tracks/0/type = "value"
+tracks/0/path = NodePath("WL:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("WL/text:texture")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ ExtResource( 12 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath(".:visible")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+
+[sub_resource type="Animation" id=7]
+resource_name = "win"
+tracks/0/type = "value"
+tracks/0/path = NodePath("WL/text:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ ExtResource( 10 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("WL:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath(".:visible")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+
 [node name="Node2D" type="Node2D"]
 script = ExtResource( 6 )
 
 [node name="background" type="Sprite" parent="."]
 texture = ExtResource( 4 )
+centered = false
+
+[node name="CleaningMiniGame-2" type="Sprite" parent="."]
+texture = ExtResource( 8 )
 centered = false
 
 [node name="CleaningMiniGame-3" type="Sprite" parent="."]
@@ -57,11 +183,6 @@ shape = SubResource( 2 )
 [node name="CollisionShape2D3" type="CollisionShape2D" parent="Wall"]
 position = Vector2( 1970.5, 543.25 )
 shape = SubResource( 3 )
-
-[node name="CleaningMiniGame-2" type="Sprite" parent="Wall"]
-position = Vector2( 1679, 426 )
-texture = ExtResource( 8 )
-centered = false
 
 [node name="Button" type="Button" parent="."]
 margin_left = 1679.0
@@ -101,4 +222,43 @@ z_index = 10
 texture = ExtResource( 1 )
 centered = false
 
+[node name="cheat" type="Button" parent="."]
+margin_left = 920.0
+margin_top = -11.0
+margin_right = 1273.0
+margin_bottom = 222.0
+grow_horizontal = 2
+grow_vertical = 2
+rect_scale = Vector2( 0.9, 0.9 )
+rect_pivot_offset = Vector2( 167, 112 )
+focus_mode = 0
+enabled_focus_mode = 0
+icon = ExtResource( 9 )
+flat = true
+
+[node name="winLogo" type="Node2D" parent="."]
+visible = false
+z_index = 20
+
+[node name="WL" type="Node2D" parent="winLogo"]
+modulate = Color( 1, 1, 1, 0 )
+z_index = 20
+
+[node name="back" type="Sprite" parent="winLogo/WL"]
+texture = ExtResource( 11 )
+centered = false
+
+[node name="text" type="Sprite" parent="winLogo/WL"]
+texture = ExtResource( 12 )
+centered = false
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="winLogo"]
+anims/RESET = SubResource( 5 )
+anims/lose = SubResource( 6 )
+anims/win = SubResource( 7 )
+
+[node name="overall" parent="." instance=ExtResource( 13 )]
+position = Vector2( 960, 600 )
+
 [connection signal="pressed" from="Button" to="Button" method="_on_Button_pressed"]
+[connection signal="pressed" from="cheat" to="." method="_on_cheat_pressed"]
