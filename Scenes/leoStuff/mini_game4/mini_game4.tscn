@@ -1,10 +1,13 @@
-[gd_scene load_steps=10 format=2]
+[gd_scene load_steps=13 format=2]
 
-[ext_resource path="res://icon.png" type="Texture" id=1]
+[ext_resource path="res://Scenes/leoStuff/mini_game4/mini4Art/Cleaning_Mini_Game-5.png" type="Texture" id=1]
 [ext_resource path="res://Scenes/leoStuff/mini_game4/can.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Scenes/leoStuff/mini_game4/spawn_trash.gd" type="Script" id=3]
+[ext_resource path="res://Scenes/leoStuff/mini_game4/mini4Art/Cleaning_Mini_Game-1.png" type="Texture" id=4]
 [ext_resource path="res://addons/dialogic/Example Assets/Fonts/Overlock/Overlock.tres" type="DynamicFont" id=5]
 [ext_resource path="res://Scenes/leoStuff/mini_game4/mini_game4.gd" type="Script" id=6]
+[ext_resource path="res://Scenes/leoStuff/mini_game4/mini4Art/Cleaning_Mini_Game-3.png" type="Texture" id=7]
+[ext_resource path="res://Scenes/leoStuff/mini_game4/mini4Art/Cleaning_Mini_Game-2.png" type="Texture" id=8]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 987, 46.875 )
@@ -27,16 +30,19 @@ tracks/0/keys = {
 "times": PoolRealArray( 0.1, 0.2, 0.3, 0.4, 0.5 ),
 "transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
 "update": 0,
-"values": [ Color( 1, 1, 1, 1 ), Color( 1, 0, 0, 1 ), Color( 1, 1, 1, 1 ), Color( 1, 0.00784314, 0.00784314, 1 ), Color( 1, 1, 1, 1 ) ]
+"values": [ Color( 0, 0, 0, 1 ), Color( 1, 0, 0, 1 ), Color( 0, 0, 0, 1 ), Color( 1, 0.00784314, 0.00784314, 1 ), Color( 0, 0, 0, 1 ) ]
 }
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource( 6 )
 
-[node name="Sprite" type="Sprite" parent="."]
-position = Vector2( 1561, 107 )
-scale = Vector2( 1.59375, 3.28125 )
-texture = ExtResource( 1 )
+[node name="background" type="Sprite" parent="."]
+texture = ExtResource( 4 )
+centered = false
+
+[node name="CleaningMiniGame-3" type="Sprite" parent="."]
+texture = ExtResource( 7 )
+centered = false
 
 [node name="Wall" type="StaticBody2D" parent="."]
 
@@ -52,22 +58,30 @@ shape = SubResource( 2 )
 position = Vector2( 1970.5, 543.25 )
 shape = SubResource( 3 )
 
+[node name="CleaningMiniGame-2" type="Sprite" parent="Wall"]
+position = Vector2( 1679, 426 )
+texture = ExtResource( 8 )
+centered = false
+
 [node name="Button" type="Button" parent="."]
-margin_left = 1591.0
-margin_top = 36.0
-margin_right = 1777.0
-margin_bottom = 132.0
+margin_left = 1679.0
+margin_top = 426.0
+margin_right = 1865.0
+margin_bottom = 522.0
 script = ExtResource( 3 )
 
 [node name="can" parent="." instance=ExtResource( 2 )]
-position = Vector2( 421, 506 )
+position = Vector2( 232, 618 )
+scale = Vector2( 21.4112, 9.8838 )
 
 [node name="can1" parent="." instance=ExtResource( 2 )]
-position = Vector2( 775, 502 )
+position = Vector2( 669, 618 )
+scale = Vector2( 21.1238, 10.0838 )
 can_color = 1
 
 [node name="can2" parent="." instance=ExtResource( 2 )]
-position = Vector2( 1180, 506 )
+position = Vector2( 1109, 620 )
+scale = Vector2( 21.2438, 9.7238 )
 can_color = 2
 
 [node name="Label" type="Label" parent="."]
@@ -75,11 +89,16 @@ margin_left = 76.0
 margin_top = 51.0
 margin_right = 246.0
 margin_bottom = 106.0
-custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 5 )
 text = "Time: "
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 anims/flash = SubResource( 4 )
+
+[node name="CleaningMiniGame-5" type="Sprite" parent="."]
+z_index = 10
+texture = ExtResource( 1 )
+centered = false
 
 [connection signal="pressed" from="Button" to="Button" method="_on_Button_pressed"]

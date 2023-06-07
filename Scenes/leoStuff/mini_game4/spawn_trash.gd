@@ -18,9 +18,15 @@ func _ready():
 
 func _on_Button_pressed():
 	
+	var rng = RandomNumberGenerator.new();
+	rng.randomize();
+	
+	
 	var trash = load("res://Scenes/leoStuff/mini_game4/trash.tscn");
 	var trashs = trash.instance();
-	add_child(trashs);
+	trashs.position = Vector2(rng.randi_range(1500, 1750),100);
+	
+	$"..".add_child(trashs);
 	
 	pass # Replace with function body.
 
