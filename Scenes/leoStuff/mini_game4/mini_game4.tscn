@@ -223,7 +223,7 @@ can_color = 2
 
 [node name="can3" parent="." instance=ExtResource( 2 )]
 position = Vector2( 785, -354 )
-scale = Vector2( 61.7, 10 )
+scale = Vector2( 61.7, 1.56 )
 
 [node name="Label" type="Label" parent="."]
 margin_left = 480.0

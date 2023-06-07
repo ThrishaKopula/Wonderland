@@ -25,7 +25,7 @@ func _on_can_body_entered(body):
 		print("good");
 		body.queue_free();
 		$"..".trashNum -= 1;
-		$"../Tleft".text = $"..".trashNum;
+		$"../Tleft".text = String($"..".trashNum);
 		
 	elif body.get("color") == can_color:
 		print("good");

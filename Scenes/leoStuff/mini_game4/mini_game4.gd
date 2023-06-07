@@ -69,7 +69,7 @@ func _on_cheat_pressed():
 	$can.queue_free();
 	$can1.queue_free();
 	$can2.queue_free();
-	$can3.position = Vector2(670,620);
+	$can3.position = Vector2(670,520);
 	#yield($overall.get_node("AnimationPlayer"), "animation_finished");
 	$cans.texture = load("res://Scenes/leoStuff/mini_game4/mini4Art/big.png");
 	
