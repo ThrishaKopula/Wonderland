@@ -63,6 +63,9 @@ func bad_call():
 
 
 func _on_cheat_pressed():
+	
+	StoryVariables.badPoints += 1;
+	
 	$cheat.disabled = true;
 	cheat = true;
 	$overall.get_node("AnimationPlayer").play("Purple Cookie");
