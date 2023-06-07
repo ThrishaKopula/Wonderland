@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Cleaning_Mini_Game-1.png-26594f78964db0c6a5e0c83cc26c3758.stex"
+path="res://.import/big.png-c334236da1375bdd67778e3bdf629977.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Scenes/leoStuff/mini_game4/mini4Art/Cleaning_Mini_Game-1.png"
-dest_files=[ "res://.import/Cleaning_Mini_Game-1.png-26594f78964db0c6a5e0c83cc26c3758.stex" ]
+source_file="res://Scenes/leoStuff/mini_game4/mini4Art/big.png"
+dest_files=[ "res://.import/big.png-c334236da1375bdd67778e3bdf629977.stex" ]
 
 [params]
 

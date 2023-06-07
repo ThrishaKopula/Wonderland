@@ -2,11 +2,14 @@ extends Node2D
 
 
 # Declare member variables here. Examples:
-export var time = 100;
+export var time = 101;
 onready var timelabel = $Label;
 
-var punish = false
+
 var cheat = false;
+var once = true;
+
+var trashNum = 50;
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -16,16 +19,29 @@ func _ready():
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	
-	if !punish:
-		time = time - delta;
-	
-	timelabel.text ="Time: " + var2str(int(time));
-	
-	if int(time) % 5 == 0:
+	if trashNum <= 0:
+		$winLogo/AnimationPlayer.play("win");
+		yield($winLogo/AnimationPlayer,"animation_finished");
 		
-		for i in range(10):
-			spawn();
+		
+	if time > 0:
+		time = time - delta;
+		timelabel.text = var2str(int(time));
+	else:
+		
+		timelabel.text = "0";
+		$winLogo/AnimationPlayer.play("lose");
+		yield($winLogo/AnimationPlayer,"animation_finished");
 	
+	
+	if int(time) % 5 == 0 and once:
+		once = false;
+		for i in range(5):
+			spawn();
+			yield(get_tree().create_timer(.5), "timeout");
+	elif int(time) % 5 != 0 and !once:
+		once = true;
+		
 	pass
 
 func spawn():
@@ -50,9 +66,11 @@ func _on_cheat_pressed():
 	$cheat.disabled = true;
 	cheat = true;
 	$overall.get_node("AnimationPlayer").play("Purple Cookie");
-	
-	
+	$can.queue_free();
+	$can1.queue_free();
+	$can2.queue_free();
+	$can3.position = Vector2(670,620);
 	#yield($overall.get_node("AnimationPlayer"), "animation_finished");
-	$"CleaningMiniGame-3".texture = load("res://Scenes/leoStuff/mini_game4/mini4Art/Cleaning_Mini_Game-4.png");
+	$cans.texture = load("res://Scenes/leoStuff/mini_game4/mini4Art/big.png");
 	
 	pass # Replace with function body.

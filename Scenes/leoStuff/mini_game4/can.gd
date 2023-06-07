@@ -24,10 +24,15 @@ func _on_can_body_entered(body):
 	if $"..".cheat:
 		print("good");
 		body.queue_free();
+		$"..".trashNum -= 1;
+		$"../Tleft".text = $"..".trashNum;
+		
 	elif body.get("color") == can_color:
 		print("good");
 		body.queue_free();
-	
+		$"..".trashNum -= 1;
+		$"../Tleft".text = String($"..".trashNum);
+		
 	else:
 		$"..".bad_call();
 		print("bad");
