@@ -8,7 +8,111 @@
 			"character": "character-1685953799.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "HALT"
+			"text": "HALT!"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "default_wonderland",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Why, what is it?"
+		},
+		{
+			"character": "character-1685953799.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Uhh.. to be honest, this is my first Halt... Do I just arrest you or something?"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "..."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( Well, hope this works. )"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh, you haven't read the handbook?"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Rule 736 says that it is illegal to Halt handsome men!"
+		},
+		{
+			"character": "character-1685953799.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Shoot really?! Well good thing I'm not breaking any rules here!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "..."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "This little-"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "mad_wonderland",
+			"text": "MOVE!"
+		},
+		{
+			"character": "character-1685953799.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Eep! Just go, you're scary!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "default_wonderland",
+			"text": "That was easy. "
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "..."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Too easy..."
 		}
 	],
 	"metadata": {
