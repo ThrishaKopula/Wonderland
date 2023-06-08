@@ -25,6 +25,12 @@
 			"z_index": 0
 		},
 		{
+			"character": "character-1685754645.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Have you heard about the new petition that's floating around?!"
+		},
+		{
 			"animation": "[Default]",
 			"animation_length": 0,
 			"change_mirror_portrait": false,
@@ -45,10 +51,90 @@
 			"z_index": 0
 		},
 		{
-			"character": "",
+			"character": "character-1685754656.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "ch2 aristo"
+			"text": "Ugh, of course I have, it's absolutely preposterous! I mean why should I give my hard-earned money to some lowly Plebs? "
+		},
+		{
+			"character": "character-1685754645.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Exactly! What did they do to deserve it?"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "default_wonderland",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( I'm getting annoyed... )"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hey! Have you ever even visited Pleb Town? "
+		},
+		{
+			"character": "character-1685754645.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "*scoff* Of course not! Why would I step my foot there?"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "If you went, you would see how hard the Plebs work. Day and night they are out trying to make a living."
+		},
+		{
+			"character": "character-1685754645.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "..."
+		},
+		{
+			"character": "character-1685754656.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "...well, I work hard too! Why should I give my money to them?"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I don't know about all that, but all I do know is that you Aristocrats have so much money, you don't even know what to do with it! "
+		},
+		{
+			"character": "character-1685754645.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "*hmph* That may be true..."
+		},
+		{
+			"character": "character-1685754656.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "We're still not signing the petition!"
 		}
 	],
 	"metadata": {
