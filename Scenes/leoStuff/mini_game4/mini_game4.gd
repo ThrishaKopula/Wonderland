@@ -9,29 +9,40 @@ onready var timelabel = $Label;
 var cheat = false;
 var once = true;
 
-var trashNum = 50;
-
+var trashNum = 1;
+var canTimerStart = false
+var canAudioPlay = true
+var gameOver = false
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	pass # Replace with function body.
+	var dialog = Dialogic.start("CleaningGameRules");
+	dialog.connect('timeline_end', self, 'unpauseAfterRules');
+	add_child(dialog);
 
+func unpauseAfterRules(timeline_name):
+	get_tree().paused = false;
+	canTimerStart = true
 
+func checkAudio():
+	if(canAudioPlay == true):
+		$CleaningAudio.play()
+	else:
+		$CleaningAudio.stop()
+		$CleaningAudio.playing == false
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
-	
 	if trashNum <= 0:
 		$winLogo/AnimationPlayer.play("win");
 		yield($winLogo/AnimationPlayer,"animation_finished");
-		
-		
-	if time > 0:
-		time = time - delta;
-		timelabel.text = var2str(int(time));
-	else:
-		
-		timelabel.text = "0";
-		$winLogo/AnimationPlayer.play("lose");
-		yield($winLogo/AnimationPlayer,"animation_finished");
+
+	if(canTimerStart == true):
+		if time > 0:
+			time = time - delta;
+			timelabel.text = var2str(int(time));
+		else:
+			timelabel.text = "0";
+			$winLogo/AnimationPlayer.play("lose");
+			yield($winLogo/AnimationPlayer,"animation_finished");
 	
 	
 	if int(time) % 5 == 0 and once:
@@ -60,7 +71,6 @@ func bad_call():
 	time = time - 10;
 	
 	$AnimationPlayer.play("flash");
-
 
 func _on_cheat_pressed():
 	

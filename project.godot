@@ -92,6 +92,7 @@ Saving="*res://Scenes/leoStuff/saving/saving.gd"
 StoryVariables="*res://Scenes/thrishaStuff/story_variables.gd"
 Mini2Global="*res://Scenes/leoStuff/mini_game2/mini2_global.gd"
 Fade="*res://Scenes/leoStuff/transition/fade.tscn"
+Mini4Global="*res://Scenes/leoStuff/mini_game4/mini4global.gd"
 
 [display]
 
