@@ -9,6 +9,32 @@
 			"animation_length": 0,
 			"change_mirror_portrait": false,
 			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hey Bartender, I'll have a lemonde with light ice."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
 			"character": "character-1681452544.json",
 			"event_id": "dialogic_002",
 			"mirror_portrait": false,
@@ -25,10 +51,34 @@
 			"z_index": 0
 		},
 		{
-			"character": "",
+			"character": "character-1681452544.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "ch3 bartender"
+			"text": "Coming right up!"
+		},
+		{
+			"character": "character-1681452544.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Here you go. "
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "*slurp* Oh wow, this tastes amazing!"
+		},
+		{
+			"character": "character-1681452544.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( Damn it! )"
+		},
+		{
+			"character": "character-1681452544.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( Aw man I didn't think that one through. )"
 		}
 	],
 	"metadata": {
