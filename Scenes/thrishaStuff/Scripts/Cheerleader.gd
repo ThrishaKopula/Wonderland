@@ -5,7 +5,7 @@ onready var character = $AnimationPlayer
 onready var sprite = $body
 
 func _physics_process(_delta):
-	character.play("Idle 3 Overworld")
+	character.play("Idle 1 Overworld")
 	
 var active = false
 
