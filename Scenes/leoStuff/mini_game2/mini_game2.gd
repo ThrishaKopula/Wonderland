@@ -3,7 +3,8 @@ extends Node2D
 var cur_drink;
 
 var time = 100;
-# Called when the node enters the scene tree for the first time.
+var canTimerStart = false
+	
 func _ready():
 	$cheatOn.hide();
 	$drink1.get_node("AnimationPlayer").play("cherry idle");
@@ -18,34 +19,37 @@ func _ready():
 #	$drink2.get_node("AnimationPlayer").play("peach pour");
 #	$drink3.get_node("AnimationPlayer").play("lemon pour");
 
-	pass # Replace with function body.
+	var dialog = Dialogic.start("BartendingGameRules");
+	dialog.connect('timeline_end', self, 'unpauseAfterRules');
+	add_child(dialog);
 
+func unpauseAfterRules(timeline_name):
+	get_tree().paused = false;
+	canTimerStart = true
 
-# Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
+	if ($BartendingAudio.playing == false):
+		$BartendingAudio.play()
 	
-	if time > 0:
-	
-		time -= delta;
-		$nums/time.text = String(int(time));
-		
-	else:
-		$nums/time.text = "0";
-		Mini2Global.nextDrink();
-		Mini2Global.reset();
-		Mini2Global.correct_drink = 0;
-		$winLogo/AnimationPlayer.play("lose");
-		
-		yield($winLogo/AnimationPlayer,"animation_finished");
-		
-		if StoryVariables.miniGameToMainMenu:
-			StoryVariables.miniGameToMainMenu = false;
-			Fade.change_scene("res://Scenes/thrishaStuff/MainMenu.tscn");
+	if(canTimerStart == true):
+		if time > 0:
+			time -= delta;
+			$nums/time.text = String(int(time));
 		else:
-			get_tree().reload_current_scene();
+			$nums/time.text = "0";
+			Mini2Global.nextDrink();
+			Mini2Global.reset();
+			Mini2Global.correct_drink = 0;
+			$winLogo/AnimationPlayer.play("lose");
+			
+			yield($winLogo/AnimationPlayer,"animation_finished");
+			
+			if StoryVariables.miniGameToMainMenu:
+				StoryVariables.miniGameToMainMenu = false;
+				Fade.change_scene("res://Scenes/thrishaStuff/MainMenu.tscn");
+			else:
+				get_tree().reload_current_scene();
 	
-	pass
-
 func updateNum():
 	$nums/numCherry.text = String(Mini2Global.win_R);
 	$nums/numPeach.text = String(Mini2Global.win_G);
@@ -68,7 +72,6 @@ func _on_cheat_pressed():
 	Mini2Global.sending = false;
 	pass # Replace with function body.
 
-
 func _on_newButt_pressed():
 	
 	if !Mini2Global.drink_onScene:
@@ -84,7 +87,6 @@ func _on_newButt_pressed():
 	
 	
 	pass # Replace with function body.
-
 
 func _on_drinkButt_pressed():
 	
@@ -103,7 +105,6 @@ func _on_drinkButt_pressed():
 
 	pass # Replace with function body.
 
-
 func _on_drinkButt2_pressed():
 	if Mini2Global.cur_color == 2 and !Mini2Global.sending:
 		Mini2Global.sending = true;
@@ -118,7 +119,6 @@ func _on_drinkButt2_pressed():
 		
 	pass # Replace with function body.
 
-
 func _on_drinkButt3_pressed():
 	if Mini2Global.cur_color == 3 and !Mini2Global.sending:
 		Mini2Global.sending = true;
@@ -132,7 +132,6 @@ func _on_drinkButt3_pressed():
 		Mini2Global.sending = false;
 		
 	pass # Replace with function body.
-
 
 func _on_finishButt_pressed():
 	
@@ -152,7 +151,6 @@ func _on_finishButt_pressed():
 		Mini2Global.check_win();
 		updateNum();
 	pass # Replace with function body.
-
 
 func _on_discardButt_pressed():
 	

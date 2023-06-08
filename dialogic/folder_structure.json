@@ -224,7 +224,7 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": true
+						"folded": false
 					}
 				},
 				"Chapter 2": {
@@ -443,14 +443,15 @@
 				},
 				"MiniGameDialogues": {
 					"files": [
-						"timeline-1686246124.json"
+						"timeline-1686246124.json",
+						"timeline-1686247040.json"
 					],
 					"folders": {
 
 					},
 					"metadata": {
 						"color": null,
-						"folded": false
+						"folded": true
 					}
 				},
 				"MusicGeek": {

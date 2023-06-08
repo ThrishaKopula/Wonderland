@@ -20,12 +20,7 @@ var win_B = 0;
 var cur_color = 0;
 
 var correct_drink = 0;
-
-# Called when the node enters the scene tree for the first time.
-func _ready():
-	pass # Replace with function body.
-
-
+		
 func nextDrink():
 	var rng = RandomNumberGenerator.new()
 	rng.randomize();
@@ -86,8 +81,4 @@ func win():
 func unpause(timeline_name):
 	get_tree().paused = false
 	StoryVariables.canPlayerMove = true
-
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
-#	pass
+		
