@@ -19,7 +19,7 @@ func _ready():
 		0:
 			$Sprite.texture = load("res://Scenes/leoStuff/mini_game4/mini4Art/Cleaning_Mini_Game-3(1).png");
 		1:
-			$Sprite.texture = load("res://Scenes/leoStuff/mini_game4/mini4Art/Cleaning_Mini_Game-1(1).png");
+			$Sprite.texture = load("res://Scenes/leoStuff/mini_game4/mini4Art/paper.png");
 		2:
 			$Sprite.texture = load("res://Scenes/leoStuff/mini_game4/mini4Art/Cleaning_Mini_Game-2(1).png");
 	pass # Replace with function body.

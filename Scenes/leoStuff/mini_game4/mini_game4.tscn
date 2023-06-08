@@ -201,10 +201,11 @@ position = Vector2( 1970.5, 543.25 )
 shape = SubResource( 3 )
 
 [node name="Button" type="Button" parent="."]
-margin_left = 1679.0
-margin_top = 426.0
-margin_right = 1865.0
-margin_bottom = 522.0
+visible = false
+margin_left = 1562.0
+margin_top = -173.0
+margin_right = 1748.0
+margin_bottom = -77.0
 script = ExtResource( 3 )
 
 [node name="can" parent="." instance=ExtResource( 2 )]
