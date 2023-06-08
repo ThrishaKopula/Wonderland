@@ -24,7 +24,63 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "ch2 jock"
+			"text": "*zzz*"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Are you sleeping? It's only 2pm!"
+		},
+		{
+			"character": "character-1685754874.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "*starte* Oh hey little dude... sorry about that!"
+		},
+		{
+			"character": "character-1685754874.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Practice has beenn rough and coach gave us a 8 minute break, so I'm power napping."
+		},
+		{
+			"character": "character-1685754874.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Gotta catch al the sleep I can get!"
+		},
+		{
+			"character": "character-1685754874.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "*zzz*"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( Man, it must be tough being an athlete... )"
 		}
 	],
 	"metadata": {

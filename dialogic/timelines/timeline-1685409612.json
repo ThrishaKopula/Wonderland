@@ -21,10 +21,10 @@
 			"z_index": 0
 		},
 		{
-			"character": "",
+			"character": "character-1681451149.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "mg string"
+			"text": "Hmm…Hmmm"
 		}
 	],
 	"metadata": {

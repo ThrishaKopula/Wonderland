@@ -63,14 +63,6 @@ func _input(event):
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
 				dialog.connect('timeline_end', self, 'unpause')
 				add_child(dialog)
-			elif(StoryVariables.chapterThreeQuest == true and StoryVariables.isAllRoyalItemsCollected == false and StoryVariables.isChapter3Start == false and StoryVariables.isRejectedByJesters == false and StoryVariables.isEavesdropOnJesters == false):
-				#ch3 during quest
-				active = false
-				pause_game()
-				var dialog = Dialogic.start("ch3_jestersQuest")
-				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
-				dialog.connect('timeline_end', self, 'unpause')
-				add_child(dialog)
 			
 func pause_game():
 	get_tree().paused = true

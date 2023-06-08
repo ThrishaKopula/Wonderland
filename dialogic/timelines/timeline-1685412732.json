@@ -21,10 +21,78 @@
 			"z_index": 0
 		},
 		{
-			"character": "",
+			"character": "character-1683770471.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "ch3 ll"
+			"text": "Hey honey, would you like to try this new macaroni salad I made?"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You know what, fine I'll try it."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "*munch munch*"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( Oh wow... )"
+		},
+		{
+			"character": "character-1683770471.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Is it to your liking?"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "It- it tastes amazing!"
+		},
+		{
+			"character": "character-1683770471.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Awee I'm glad you like it!"
+		},
+		{
+			"character": "character-1683770471.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "See, you should be more open to trying new things! "
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( She's right... I missed out on this food all lhis time... )"
 		}
 	],
 	"metadata": {

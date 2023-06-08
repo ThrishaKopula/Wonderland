@@ -21,10 +21,102 @@
 			"z_index": 0
 		},
 		{
-			"character": "",
+			"character": "character-1681272416.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "something about not doing as well in quizzes, need help from Marlon"
+			"text": "Hey Alistair. I actually wanted to talk to you."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh, what's up Professor?"
+		},
+		{
+			"character": "character-1681272416.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Your grades have beenn slipping."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh."
+		},
+		{
+			"character": "character-1681272416.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I assumed from the pop quiz that you were ok on your own, but it seems that youu might need extra help."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( *scoff* What is he talking about? Sure, I have a couple Ds but that doesn't mean I'm failing? I mean isn't the lowest grade a Z? )"
+		},
+		{
+			"character": "character-1681272416.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Fortunately, one of my best students agreed to tutor you!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "And who is that?"
+		},
+		{
+			"character": "character-1681272416.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Well it's Marlon of course!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( MARLON?! HOW? )"
+		},
+		{
+			"character": "character-1681272416.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You should definitely talk to him and scheudle a session."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( Ugh. This is so embarrasing.)"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yes, will do Professor."
 		}
 	],
 	"metadata": {

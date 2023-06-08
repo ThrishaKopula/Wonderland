@@ -21,10 +21,10 @@
 			"z_index": 0
 		},
 		{
-			"character": "",
+			"character": "character-1681272416.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "ch3 prof"
+			"text": "Are you still being tutored by Marlon? Make sure to continue...you need it!"
 		}
 	],
 	"metadata": {

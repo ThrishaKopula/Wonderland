@@ -21,10 +21,22 @@
 			"z_index": 0
 		},
 		{
-			"character": "",
+			"character": "character-1681451149.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "mg letter"
+			"text": "Shoud I go too cheerleader and proclaim my ove right now?"
+		},
+		{
+			"character": "character-1681451149.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No no no, I should wait untill she talks to me..."
+		},
+		{
+			"character": "character-1681451149.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I can't be making a fool of myself already!"
 		}
 	],
 	"metadata": {

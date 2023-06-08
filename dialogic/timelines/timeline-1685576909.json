@@ -25,6 +25,12 @@
 			"z_index": 0
 		},
 		{
+			"character": "character-1685754645.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "If I ever see that mayor around here again, I might drop kick him."
+		},
+		{
 			"animation": "[Default]",
 			"animation_length": 0,
 			"change_mirror_portrait": false,
@@ -45,10 +51,48 @@
 			"z_index": 0
 		},
 		{
-			"character": "",
+			"character": "character-1685754656.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "ch3 aristo"
+			"text": "*scoff* And get your shows dirty? "
+		},
+		{
+			"character": "character-1681495641.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You're right... I don't even know if I'll be able to afford new ones since all my money is going to Pleb Town!"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "default_wonderland",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "It's $5..."
+		},
+		{
+			"character": "character-1685754645.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "We-well! Still!"
 		}
 	],
 	"metadata": {
