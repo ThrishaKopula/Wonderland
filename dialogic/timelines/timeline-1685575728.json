@@ -25,10 +25,48 @@
 			"z_index": 0
 		},
 		{
-			"character": "",
+			"character": "character-1681338302.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "ch3 mat quest"
+			"text": "I have nothing left to read."
+		},
+		{
+			"character": "character-1681338302.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Find that final piece, Alistair."
+		},
+		{
+			"character": "character-1681338302.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I will be ready when you return."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( I should go get the [b]pedestal[/b]… )"
 		}
 	],
 	"metadata": {

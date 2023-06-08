@@ -25,10 +25,42 @@
 			"z_index": 0
 		},
 		{
-			"character": "",
+			"character": "character-1681338302.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "ch2 mat quest\n"
+			"text": "Hmm… Not now, Sir Worthington."
+		},
+		{
+			"character": "character-1681338302.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "*sip sip* …Please… let me finish this cup."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( Guess I should leave him be for now. )"
 		}
 	],
 	"metadata": {

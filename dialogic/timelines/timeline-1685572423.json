@@ -21,10 +21,72 @@
 			"z_index": 0
 		},
 		{
-			"character": "",
+			"character": "character-1681272416.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "ch1 prof"
+			"text": "Good work on the pop quiz on the first day, Alistair!"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh! Uh, yeah… it was easy."
+		},
+		{
+			"character": "character-1681272416.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Is that so, that’s wonderful! Perhaps you ought to transfer to my advanced class…"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Erm… no thanks!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "That would really, REALLY, embarrass the rest of the class."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Wouldn’t want to do that, heh heh…"
+		},
+		{
+			"character": "character-1681272416.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Well then, how magnanimous of you."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( Yikes, that was close… )  "
 		}
 	],
 	"metadata": {

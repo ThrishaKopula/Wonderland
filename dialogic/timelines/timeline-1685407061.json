@@ -21,10 +21,60 @@
 			"z_index": 0
 		},
 		{
-			"character": "",
+			"character": "character-1681451499.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "testing cheer 2"
+			"text": "Hey Alistair!"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hey Cheerleader, how are you?"
+		},
+		{
+			"character": "character-1681451499.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Well, after you gave the letter to me, I had a chance to talk to Music Geek! "
+		},
+		{
+			"character": "character-1681451499.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "She..."
+		},
+		{
+			"character": "character-1681451499.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "...invited me to her orchestra performance!"
+		},
+		{
+			"character": "character-1681451499.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I can't wait to attend, she just plays so beautifully. "
 		}
 	],
 	"metadata": {

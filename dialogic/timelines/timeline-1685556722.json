@@ -21,10 +21,96 @@
 			"z_index": 0
 		},
 		{
-			"character": "",
+			"character": "character-1685754874.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "ch1 jock"
+			"text": "One, two, three, four…"
+		},
+		{
+			"character": "character-1685754874.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "One, two, three, four…"
+		},
+		{
+			"character": "character-1685754874.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Aaand done! Haaaah, those stretches really hit the spot! I’m feeling great!"
+		},
+		{
+			"character": "character-1685754874.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Whoo! Hey there little dude, can you pass me that bottle of water?"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( Little? Is he talking to me…? )"
+		},
+		{
+			"character": "character-1685754874.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ah, it’s all good buddy, I got it."
+		},
+		{
+			"character": "character-1685754874.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Gotta stay hydrated! Especially since I've been practicing!"
+		},
+		{
+			"character": "character-1685754874.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You here to do some training?"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( His energy is obnoxious… )"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ah, no, carry on…"
+		},
+		{
+			"character": "character-1685754874.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alright, little dude! See ya!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( Little dude…grr… )"
 		}
 	],
 	"metadata": {

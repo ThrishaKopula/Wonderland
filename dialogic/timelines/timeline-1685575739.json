@@ -25,10 +25,10 @@
 			"z_index": 0
 		},
 		{
-			"character": "",
+			"character": "character-1681338302.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "ch3 mat no quest"
+			"text": "some sus line"
 		}
 	],
 	"metadata": {
