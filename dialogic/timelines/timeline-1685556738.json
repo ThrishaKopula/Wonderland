@@ -5,6 +5,32 @@
 			"animation_length": 0,
 			"change_mirror_portrait": false,
 			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You look lively."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
 			"character": "character-1685754874.json",
 			"event_id": "dialogic_002",
 			"mirror_portrait": false,
@@ -21,10 +47,28 @@
 			"z_index": 0
 		},
 		{
-			"character": "",
+			"character": "character-1685754874.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "ch3 jock"
+			"text": "Hey buddy! After tallking to Professor, I figured out how to manage my schedule and still get a solid 8 hours of sleep!"
+		},
+		{
+			"character": "character-1685754874.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "My throws are improving, my grades are going up, and I've been feeling more energetic!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "That's great to hear Jock!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( I definitely need to mannage my time better... )"
 		}
 	],
 	"metadata": {

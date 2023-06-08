@@ -21,10 +21,72 @@
 			"z_index": 0
 		},
 		{
-			"character": "",
+			"character": "character-1685727814.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "ch2 nerd"
+			"text": "I... got a B."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "That's great!"
+		},
+		{
+			"character": "character-1685727814.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Grea- GREAT?!"
+		},
+		{
+			"character": "character-1685727814.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I was always the top of the class, but now HE is."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Who?"
+		},
+		{
+			"character": "character-1685727814.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ugh that boy Marlon! Who does he think he is, just waltzing in and claiming my spot?!"
+		},
+		{
+			"character": "character-1685727814.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No matter, this just means I have to work even harder to reach my goals. "
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( Marlon... )"
 		}
 	],
 	"metadata": {

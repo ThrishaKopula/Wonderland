@@ -1,6 +1,36 @@
 {
 	"events": [
 		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1683225590.cfg"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "default_wonderland",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "How are you? Aren;t you working with the vendors now?"
+		},
+		{
 			"animation": "[Default]",
 			"animation_length": 0,
 			"change_mirror_portrait": false,
@@ -21,10 +51,28 @@
 			"z_index": 0
 		},
 		{
-			"character": "",
+			"character": "character-1683771916.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "ch3 thief"
+			"text": "Hey Alistair! It's been great, I don't have to steal their food just to survive! "
+		},
+		{
+			"character": "character-1683771916.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "*sigh* I didn't think my life could get any better than this..."
+		},
+		{
+			"character": "character-1683771916.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Food, water, and kind people. Isn't that all you need in life?"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "..."
 		}
 	],
 	"metadata": {

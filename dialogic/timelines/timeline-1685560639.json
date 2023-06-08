@@ -25,10 +25,10 @@
 			"z_index": 0
 		},
 		{
-			"character": "",
+			"character": "character-1681495641.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "ch2 pleb quest"
+			"text": "I hope that Thief gets caught soon..."
 		}
 	],
 	"metadata": {

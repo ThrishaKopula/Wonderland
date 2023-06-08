@@ -146,7 +146,7 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": true
+						"folded": false
 					}
 				},
 				"Bard": {
@@ -161,7 +161,7 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": false
+						"folded": true
 					}
 				},
 				"Bartender": {
@@ -175,7 +175,7 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": false
+						"folded": true
 					}
 				},
 				"Chapter 1": {
@@ -350,15 +350,14 @@
 				"Jesters": {
 					"files": [
 						"timeline-1685581162.json",
-						"timeline-1685581172.json",
-						"timeline-1685581185.json"
+						"timeline-1685581172.json"
 					],
 					"folders": {
 
 					},
 					"metadata": {
 						"color": null,
-						"folded": true
+						"folded": false
 					}
 				},
 				"Jock": {
@@ -557,7 +556,7 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": false
+						"folded": true
 					}
 				}
 			},

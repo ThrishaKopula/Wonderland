@@ -5,6 +5,32 @@
 			"animation_length": 0,
 			"change_mirror_portrait": false,
 			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hey Nerd! How's your one sided competition with Marlon going?"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
 			"character": "character-1685727814.json",
 			"event_id": "dialogic_002",
 			"mirror_portrait": false,
@@ -21,10 +47,28 @@
 			"z_index": 0
 		},
 		{
-			"character": "",
+			"character": "character-1685727814.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "ch3 nerd"
+			"text": "Ugh! I still can't seem to beat him. "
+		},
+		{
+			"character": "character-1685727814.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I don't get it... I've NEVER seen him study. Hey, aren't you roommates with him? What does he do?"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Umm...to be honest he just lounges around or sleeps."
+		},
+		{
+			"character": "character-1685727814.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "That's it? Maybe I should take more naps..."
 		}
 	],
 	"metadata": {

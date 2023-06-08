@@ -9,13 +9,13 @@
 			"animation_length": 0,
 			"change_mirror_portrait": false,
 			"change_z_index": false,
-			"character": "",
+			"character": "character-1681495641.json",
 			"event_id": "dialogic_002",
 			"mirror_portrait": false,
-			"portrait": "",
+			"portrait": "Default",
 			"portrait_definition": "",
 			"position": {
-				"0": false,
+				"0": true,
 				"1": false,
 				"2": false,
 				"3": false,
@@ -28,7 +28,59 @@
 			"character": "character-1681495641.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": ""
+			"text": "Oh no my stall is chipping... It's only been 15 years since I got it!"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681495654.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681495654.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Tell me about it. We're the only vendors in Wonderland! We deserve a little better, don't you think?"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681495659.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681495659.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Is there anyone out there who can help us?"
 		}
 	],
 	"metadata": {

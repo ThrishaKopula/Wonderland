@@ -24,7 +24,13 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "ch2 thief"
+			"text": "*mutter mutter*"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Today's the day..."
 		}
 	],
 	"metadata": {
