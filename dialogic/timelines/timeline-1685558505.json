@@ -21,10 +21,10 @@
 			"z_index": 0
 		},
 		{
-			"character": "",
+			"character": "character-1683770218.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "ch2 middle quest"
+			"text": "*grumble* I'm starving, but I have no time to stop and get food."
 		}
 	],
 	"metadata": {

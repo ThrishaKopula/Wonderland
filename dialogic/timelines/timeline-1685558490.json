@@ -21,10 +21,84 @@
 			"z_index": 0
 		},
 		{
-			"character": "",
+			"character": "character-1683770218.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "ch1 janitor"
+			"text": "Ah shucks, my back!"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "What happened to your back?"
+		},
+		{
+			"character": "character-1683770218.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ahh don't worry son, it's just my age catching up to me!"
+		},
+		{
+			"character": "character-1683770218.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "My body isn't what it used to be..."
+		},
+		{
+			"character": "character-1683770218.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ever since I took on this job, it's been rough."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Why can't you just quit?"
+		},
+		{
+			"character": "character-1683770218.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "We all need to make ends meet somehow, boy!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( I guess I never had to worry about making ends meet... Mom and Dad always had enough. )"
+		},
+		{
+			"character": "character-1683770218.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "And plus, how else can I see my beautiful wife everyday?"
+		},
+		{
+			"character": "character-1683770218.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Well, these floors won't clean themseves! And you, off to class now boy!"
 		}
 	],
 	"metadata": {

@@ -208,19 +208,19 @@
 			"character": "character-1685754955.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Really? That would be amazing, thank you so much!"
+			"text": "Really? That would be amazing, thank you so much! I knew I could count on the new generation to make things right again!"
 		},
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "No problem! "
+			"text": "No problem?"
 		},
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "( Glad to see the Plebs will have a chance to renovate. )"
+			"text": "( Well, I am glad to see the Plebs will have a chance to renovate. )"
 		},
 		{
 			"choice": "I'm already busy looking for the key.",

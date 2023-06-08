@@ -60,7 +60,7 @@
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "{\"events\":[{\"event_id\":\"dialogic_024\",\"set_theme\":\"theme-1683225590.cfg\"},{\"animation\":\"[Default]\",\"animation_length\":0,\"change_mirror_portrait\":false,\"change_z_index\":false,\"character\":\"character-1681338302.json\",\"event_id\":\"dialogic_002\",\"mirror_portrait\":false,\"portrait\":\"Default\",\"portrait_definition\":\"\",\"position\":{\"0\":true,\"1\":false,\"2\":false,\"3\":false,\"4\":false},\"type\":0,\"z_index\":0},{\"character\":\"character-1681338302.json\",\"event_id\":\"dialogic_001\",\"portrait\":\"\",\"text\":\"Hm… Apologies.\"},{\"character\":\"character-1681338302.json\",\"event_id\":\"dialogic_001\",\"portrait\":\"\",\"text\":\"I am busy reading the tea leaves now. Please… leave me alone for a while.\"},{\"animation\":\"[Default]\",\"animation_length\":0,\"change_mirror_portrait\":false,\"change_z_index\":false,\"character\":\"character-1681086055.json\",\"event_id\":\"dialogic_002\",\"mirror_portrait\":false,\"portrait\":\"Default\",\"portrait_definition\":\"\",\"position\":{\"0\":true,\"1\":false,\"2\":false,\"3\":false,\"4\":false},\"type\":0,\"z_index\":0},{\"character\":\"character-1681086055.json\",\"event_id\":\"dialogic_001\",\"portrait\":\"\",\"text\":\"( Guess he won’t be much help right now. )\"}],\"dialogic_version\":\"1.4.5\",\"project_name\":\"CMPM172FinalGame\"}( Guess he won’t be much help right now. )"
+			"text": "( Guess he won’t be much help right now. )"
 		}
 	],
 	"metadata": {

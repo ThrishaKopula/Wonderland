@@ -25,6 +25,12 @@
 			"z_index": 0
 		},
 		{
+			"character": "character-1685754645.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh, dear heavens… they really do let anyone in here these days, don’t they?"
+		},
+		{
 			"animation": "[Default]",
 			"animation_length": 0,
 			"change_mirror_portrait": false,
@@ -45,10 +51,96 @@
 			"z_index": 0
 		},
 		{
-			"character": "",
+			"character": "character-1685754656.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "ch1 aristo"
+			"text": "I need to purchase a monocle… there appears to be a rag-wearing ruffian before me."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "default_wonderland",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "What? Is she talking to me!?"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Excuse me!?"
+		},
+		{
+			"character": "character-1685754645.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ohohoho, you come with a tongue on you, don’t you, boy?"
+		},
+		{
+			"character": "character-1685754656.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Well, pipe down."
+		},
+		{
+			"character": "character-1685754656.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I don’t want my ears to be filled with the sound of poor people!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "WHAT!? I’ll have you know my father is–"
+		},
+		{
+			"character": "character-1685754645.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "*tsk tsk* No ears on you either, I presume? Oh you’re a sore sight for my eyes and a buzzing noise for my ears!"
+		},
+		{
+			"character": "character-1685754645.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Don’t torment me any longer, I will pay you no more mind!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( This snooty, bigheaded woman is driving me mad! )"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( … )"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( Anyway! I would never act out like that! Hmph, I’ll talk to someone else. )"
 		}
 	],
 	"metadata": {

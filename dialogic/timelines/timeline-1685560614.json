@@ -25,10 +25,94 @@
 			"z_index": 0
 		},
 		{
-			"character": "",
+			"character": "character-1681495641.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "ch1 pleb quest"
+			"text": "How come out stalls look so plain...why can't we decorate it?!"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681495654.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681495654.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "We're broke. We have no money. If only we could trade our fruits for items..."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681495659.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681495659.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "*sigh* That would be nice, wouldn't it?"
+		},
+		{
+			"character": "character-1681495850.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "*intense stare*"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "default_wonderland",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( Should I be doing something? )"
 		}
 	],
 	"metadata": {

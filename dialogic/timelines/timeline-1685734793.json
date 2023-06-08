@@ -9,6 +9,38 @@
 			"animation_length": 0,
 			"change_mirror_portrait": false,
 			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "default_wonderland",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( The kid looks lost, where are his parents? )"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Do you uhh.. need help or something?"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
 			"character": "character-1685754955.json",
 			"event_id": "dialogic_002",
 			"mirror_portrait": false,
@@ -25,10 +57,94 @@
 			"z_index": 0
 		},
 		{
-			"character": "",
+			"character": "character-1685754955.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "ch1 mayor"
+			"text": "The minds of the youth shape the future and in order to bring change we must act now!"
+		},
+		{
+			"character": "character-1685754955.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Join me, little one, in my quest to being justice to Pleb Town! Although I am the mayor of Aristocrat Town, I can feel for the Plebs. "
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "What's wrong with Pleb Town?"
+		},
+		{
+			"character": "character-1685754955.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "They have no money."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh. That's it?"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( How is that my problem? )"
+		},
+		{
+			"character": "character-1685754955.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "What do you mean that's i- *ahem* Money is but a driving force in today's advanced society and without it, how are we different from a fruit fly?!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( I can see a couple more differences... )"
+		},
+		{
+			"character": "character-1685754955.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh good heavens! I'm running late for my town council meeting!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh, well catch you later..."
+		},
+		{
+			"character": "character-1685754955.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "...Mr. Mayor. You may refer to me as just that!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Err.. okay... Mr. Mayor. "
+		},
+		{
+			"character": "character-1685754955.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Splendid! Well I must run, bye!"
+		},
+		{
+			"character": "character-1685754955.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "And think about my offer!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( He's seems interesting... )"
 		}
 	],
 	"metadata": {

@@ -21,10 +21,42 @@
 			"z_index": 0
 		},
 		{
-			"character": "",
+			"character": "character-1685727814.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "ch1 nerd"
+			"text": "*mutter mutter*"
+		},
+		{
+			"character": "character-1685727814.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The yaw pitch roll and the directional cosine matrix is the first step to understanding the body of stability reference frame of a uav."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( I don't think I'll ever understand what that sentence meant. )"
 		}
 	],
 	"metadata": {

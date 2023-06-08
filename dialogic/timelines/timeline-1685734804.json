@@ -25,10 +25,10 @@
 			"z_index": 0
 		},
 		{
-			"character": "",
+			"character": "character-1685754955.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "ch2 mayor"
+			"text": "The petition is submitted. Thanks to you, it looks like a new bill will pass to grant Pleb Town funding for their stalls!"
 		}
 	],
 	"metadata": {

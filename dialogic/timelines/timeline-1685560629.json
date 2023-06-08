@@ -9,13 +9,13 @@
 			"animation_length": 0,
 			"change_mirror_portrait": false,
 			"change_z_index": false,
-			"character": "character-1681495641.json",
+			"character": "",
 			"event_id": "dialogic_002",
 			"mirror_portrait": false,
-			"portrait": "Default",
+			"portrait": "",
 			"portrait_definition": "",
 			"position": {
-				"0": true,
+				"0": false,
 				"1": false,
 				"2": false,
 				"3": false,
@@ -25,10 +25,10 @@
 			"z_index": 0
 		},
 		{
-			"character": "",
+			"character": "character-1681495641.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "ch1 pleb no quest"
+			"text": ""
 		}
 	],
 	"metadata": {

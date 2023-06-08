@@ -21,10 +21,10 @@
 			"z_index": 0
 		},
 		{
-			"character": "",
+			"character": "character-1683770471.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "ch2 quest ll "
+			"text": "I just need some [b]Peaches[/b]..."
 		}
 	],
 	"metadata": {

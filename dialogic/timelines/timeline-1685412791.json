@@ -1,12 +1,6 @@
 {
 	"events": [
 		{
-			"character": "",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "ch2 no quest ll"
-		},
-		{
 			"animation": "[Default]",
 			"animation_length": 0,
 			"change_mirror_portrait": false,
@@ -25,6 +19,24 @@
 			},
 			"type": 0,
 			"z_index": 0
+		},
+		{
+			"character": "character-1683770471.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alistair, honey! Would you like to try this peach pudding I made?"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "...No thank you. My catering service brings my lunch every day."
+		},
+		{
+			"character": "character-1683770471.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Well, there will always be a bowl for you here! "
 		}
 	],
 	"metadata": {
