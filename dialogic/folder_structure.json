@@ -127,7 +127,7 @@
 			},
 			"metadata": {
 				"color": null,
-				"folded": false
+				"folded": true
 			}
 		},
 		"Timelines": {
@@ -175,7 +175,7 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": true
+						"folded": false
 					}
 				},
 				"Chapter 1": {
@@ -373,7 +373,7 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": false
+						"folded": true
 					}
 				},
 				"LunchLady": {
@@ -438,7 +438,7 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": false
+						"folded": true
 					}
 				},
 				"MusicGeek": {
@@ -469,7 +469,7 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": false
+						"folded": true
 					}
 				},
 				"Plebs": {

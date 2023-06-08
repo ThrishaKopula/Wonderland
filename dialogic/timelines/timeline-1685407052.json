@@ -21,10 +21,66 @@
 			"z_index": 0
 		},
 		{
-			"character": "",
+			"character": "character-1681451499.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "testing cheer 1"
+			"text": "YOU CAN DO IT! 1 2 3!"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( Ugh... so loud. )"
+		},
+		{
+			"character": "character-1681451499.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hey! You there! Are you here for the cheer tryouts?"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "What! No of course not!"
+		},
+		{
+			"character": "character-1681451499.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Awe, well let me know if you change your mind! You seem like a great fit!"
+		},
+		{
+			"character": "character-1681451499.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "FROM THE TOP! 1 2 3!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( A great fit... Me? Ew.)"
 		}
 	],
 	"metadata": {
