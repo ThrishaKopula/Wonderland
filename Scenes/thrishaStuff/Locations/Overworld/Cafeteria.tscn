@@ -1,4 +1,4 @@
-[gd_scene load_steps=97 format=2]
+[gd_scene load_steps=123 format=2]
 
 [ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/Overworld-Alistair-Idle-4.png" type="Texture" id=1]
 [ext_resource path="res://Scenes/mimistuff/marlon/Marlon-Wonderland-10.png" type="Texture" id=2]
@@ -69,6 +69,32 @@
 [ext_resource path="res://Scenes/mimistuff/marlon/Marlon-Wonderland-14.png" type="Texture" id=67]
 [ext_resource path="res://Scenes/thrishaStuff/images/dialog_backgrounds/Dining_Hall.png" type="Texture" id=68]
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/overworld_NPC.gd" type="Script" id=69]
+[ext_resource path="res://Scenes/mimistuff/music_geek/Music-Geek-4.png" type="Texture" id=70]
+[ext_resource path="res://Scenes/mimistuff/music_geek/Music-Geek-6.png" type="Texture" id=71]
+[ext_resource path="res://Scenes/mimistuff/music_geek/Music-Geek-5.png" type="Texture" id=72]
+[ext_resource path="res://Scenes/mimistuff/music_geek/Music-Geek-15.png" type="Texture" id=73]
+[ext_resource path="res://Scenes/mimistuff/music_geek/Music-Geek-3.png" type="Texture" id=74]
+[ext_resource path="res://Scenes/mimistuff/music_geek/Music-Geek-11.png" type="Texture" id=75]
+[ext_resource path="res://Scenes/mimistuff/music_geek/Music-Geek-7.png" type="Texture" id=76]
+[ext_resource path="res://Scenes/mimistuff/music_geek/Music-Geek-14.png" type="Texture" id=77]
+[ext_resource path="res://Scenes/mimistuff/music_geek/Music-Geek-8.png" type="Texture" id=78]
+[ext_resource path="res://Scenes/mimistuff/music_geek/Music-Geek-9.png" type="Texture" id=79]
+[ext_resource path="res://Scenes/mimistuff/music_geek/Music-Geek-10.png" type="Texture" id=80]
+[ext_resource path="res://Scenes/mimistuff/music_geek/Music-Geek-12.png" type="Texture" id=81]
+[ext_resource path="res://Scenes/mimistuff/music_geek/Music-Geek-13.png" type="Texture" id=82]
+[ext_resource path="res://Scenes/mimistuff/lunch_lady/Lunch-Lady-3.png" type="Texture" id=83]
+[ext_resource path="res://Scenes/mimistuff/lunch_lady/Lunch-Lady-11.png" type="Texture" id=84]
+[ext_resource path="res://Scenes/mimistuff/lunch_lady/Lunch-Lady-15.png" type="Texture" id=85]
+[ext_resource path="res://Scenes/mimistuff/lunch_lady/Lunch-Lady-5.png" type="Texture" id=86]
+[ext_resource path="res://Scenes/mimistuff/lunch_lady/Lunch-Lady-4.png" type="Texture" id=87]
+[ext_resource path="res://Scenes/mimistuff/lunch_lady/Lunch-Lady-12.png" type="Texture" id=88]
+[ext_resource path="res://Scenes/mimistuff/lunch_lady/Lunch-Lady-9.png" type="Texture" id=89]
+[ext_resource path="res://Scenes/mimistuff/lunch_lady/Lunch-Lady-13.png" type="Texture" id=90]
+[ext_resource path="res://Scenes/mimistuff/lunch_lady/Lunch-Lady-7.png" type="Texture" id=91]
+[ext_resource path="res://Scenes/mimistuff/lunch_lady/Lunch-Lady-6.png" type="Texture" id=92]
+[ext_resource path="res://Scenes/mimistuff/lunch_lady/Lunch-Lady-10.png" type="Texture" id=93]
+[ext_resource path="res://Scenes/mimistuff/lunch_lady/Lunch-Lady-8.png" type="Texture" id=94]
+[ext_resource path="res://Scenes/mimistuff/lunch_lady/Lunch-Lady-14.png" type="Texture" id=95]
 
 [sub_resource type="Animation" id=23]
 resource_name = "Idle 1 Overworld"
@@ -12520,21 +12546,21 @@ z_index = 10
 [node name="torso" type="Sprite" parent="MusicGeek/body"]
 position = Vector2( 24, 106 )
 rotation = -0.0872665
-texture = ExtResource( 10 )
+texture = ExtResource( 75 )
 offset = Vector2( 24, -109 )
 region_rect = Rect2( 347, 299, 1, 0 )
 
 [node name="head" type="Sprite" parent="MusicGeek/body/torso"]
 position = Vector2( 1, -125 )
 z_index = 1
-texture = ExtResource( 38 )
+texture = ExtResource( 73 )
 offset = Vector2( 25, 11 )
 
 [node name="butt" type="Sprite" parent="MusicGeek/body/torso"]
 position = Vector2( -5.50391, 5.54138 )
 rotation = 0.122173
 z_index = -1
-texture = ExtResource( 34 )
+texture = ExtResource( 72 )
 offset = Vector2( 26, -114 )
 
 [node name="coattails" type="Sprite" parent="MusicGeek/body/torso/butt"]
@@ -12547,65 +12573,65 @@ offset = Vector2( 19, -70 )
 [node name="l thigh" type="Sprite" parent="MusicGeek/body/torso/butt"]
 position = Vector2( -28, 14 )
 z_index = -1
-texture = ExtResource( 26 )
+texture = ExtResource( 70 )
 offset = Vector2( 54, -131 )
 
 [node name="l leg" type="Sprite" parent="MusicGeek/body/torso/butt/l thigh"]
 position = Vector2( -2, 73 )
 z_index = -1
-texture = ExtResource( 33 )
+texture = ExtResource( 74 )
 offset = Vector2( 55, -206 )
 
 [node name="r thigh" type="Sprite" parent="MusicGeek/body/torso/butt"]
 position = Vector2( 25, 10 )
 z_index = 1
-texture = ExtResource( 36 )
+texture = ExtResource( 76 )
 offset = Vector2( 0, -124 )
 
 [node name="r leg" type="Sprite" parent="MusicGeek/body/torso/butt/r thigh"]
 position = Vector2( 3, 79 )
 z_index = -1
-texture = ExtResource( 37 )
+texture = ExtResource( 71 )
 offset = Vector2( -4, -207 )
 
 [node name="l upper" type="Sprite" parent="MusicGeek/body/torso"]
 position = Vector2( -9, -109 )
 rotation = 0.107086
 z_index = -3
-texture = ExtResource( 27 )
+texture = ExtResource( 78 )
 offset = Vector2( 33, -1 )
 
 [node name="l arm" type="Sprite" parent="MusicGeek/body/torso/l upper"]
 position = Vector2( -45.6521, 43.1264 )
 rotation = -0.881885
-texture = ExtResource( 12 )
+texture = ExtResource( 79 )
 offset = Vector2( 75, -43 )
 
 [node name="l hand" type="Sprite" parent="MusicGeek/body/torso/l upper/l arm"]
 position = Vector2( -30, 40 )
 rotation = 0.106363
-texture = ExtResource( 25 )
+texture = ExtResource( 80 )
 offset = Vector2( 104, -79 )
 
 [node name="r upper" type="Sprite" parent="MusicGeek/body/torso"]
 position = Vector2( 20, -115 )
 rotation = 0.19221
 z_index = 1
-texture = ExtResource( 21 )
+texture = ExtResource( 81 )
 offset = Vector2( 3, 0 )
 
 [node name="r arm" type="Sprite" parent="MusicGeek/body/torso/r upper"]
 position = Vector2( 41, 42 )
 rotation = 2.68671
 z_index = 1
-texture = ExtResource( 29 )
+texture = ExtResource( 82 )
 offset = Vector2( -38, -43 )
 
 [node name="r hand" type="Sprite" parent="MusicGeek/body/torso/r upper/r arm"]
 position = Vector2( 29, 38 )
 rotation = 0.348237
 z_index = 1
-texture = ExtResource( 28 )
+texture = ExtResource( 77 )
 offset = Vector2( -66, -78 )
 
 [node name="shadow" type="Sprite" parent="MusicGeek/body"]
@@ -12642,21 +12668,21 @@ z_index = 10
 [node name="torso" type="Sprite" parent="LunchLady/body"]
 position = Vector2( 24, 106 )
 rotation = -0.0872665
-texture = ExtResource( 10 )
+texture = ExtResource( 84 )
 offset = Vector2( 24, -109 )
 region_rect = Rect2( 347, 299, 1, 0 )
 
 [node name="head" type="Sprite" parent="LunchLady/body/torso"]
 position = Vector2( 1, -125 )
 z_index = 1
-texture = ExtResource( 38 )
+texture = ExtResource( 85 )
 offset = Vector2( 25, 11 )
 
 [node name="butt" type="Sprite" parent="LunchLady/body/torso"]
 position = Vector2( -5.50391, 5.54138 )
 rotation = 0.122173
 z_index = -1
-texture = ExtResource( 34 )
+texture = ExtResource( 86 )
 offset = Vector2( 26, -114 )
 
 [node name="coattails" type="Sprite" parent="LunchLady/body/torso/butt"]
@@ -12669,65 +12695,65 @@ offset = Vector2( 19, -70 )
 [node name="l thigh" type="Sprite" parent="LunchLady/body/torso/butt"]
 position = Vector2( -28, 14 )
 z_index = -1
-texture = ExtResource( 26 )
+texture = ExtResource( 87 )
 offset = Vector2( 54, -131 )
 
 [node name="l leg" type="Sprite" parent="LunchLady/body/torso/butt/l thigh"]
 position = Vector2( -2, 73 )
 z_index = -1
-texture = ExtResource( 33 )
+texture = ExtResource( 83 )
 offset = Vector2( 55, -206 )
 
 [node name="r thigh" type="Sprite" parent="LunchLady/body/torso/butt"]
 position = Vector2( 25, 10 )
 z_index = 1
-texture = ExtResource( 36 )
+texture = ExtResource( 91 )
 offset = Vector2( 0, -124 )
 
 [node name="r leg" type="Sprite" parent="LunchLady/body/torso/butt/r thigh"]
 position = Vector2( 3, 79 )
 z_index = -1
-texture = ExtResource( 37 )
+texture = ExtResource( 92 )
 offset = Vector2( -4, -207 )
 
 [node name="l upper" type="Sprite" parent="LunchLady/body/torso"]
 position = Vector2( -9, -109 )
 rotation = 0.107086
 z_index = -3
-texture = ExtResource( 27 )
+texture = ExtResource( 94 )
 offset = Vector2( 33, -1 )
 
 [node name="l arm" type="Sprite" parent="LunchLady/body/torso/l upper"]
 position = Vector2( -45.6521, 43.1264 )
 rotation = -0.881885
-texture = ExtResource( 12 )
+texture = ExtResource( 89 )
 offset = Vector2( 75, -43 )
 
 [node name="l hand" type="Sprite" parent="LunchLady/body/torso/l upper/l arm"]
 position = Vector2( -30, 40 )
 rotation = 0.106363
-texture = ExtResource( 25 )
+texture = ExtResource( 93 )
 offset = Vector2( 104, -79 )
 
 [node name="r upper" type="Sprite" parent="LunchLady/body/torso"]
 position = Vector2( 20, -115 )
 rotation = 0.19221
 z_index = 1
-texture = ExtResource( 21 )
+texture = ExtResource( 88 )
 offset = Vector2( 3, 0 )
 
 [node name="r arm" type="Sprite" parent="LunchLady/body/torso/r upper"]
 position = Vector2( 41, 42 )
 rotation = 2.68671
 z_index = 1
-texture = ExtResource( 29 )
+texture = ExtResource( 90 )
 offset = Vector2( -38, -43 )
 
 [node name="r hand" type="Sprite" parent="LunchLady/body/torso/r upper/r arm"]
 position = Vector2( 29, 38 )
 rotation = 0.348237
 z_index = 1
-texture = ExtResource( 28 )
+texture = ExtResource( 95 )
 offset = Vector2( -66, -78 )
 
 [node name="shadow" type="Sprite" parent="LunchLady/body"]
