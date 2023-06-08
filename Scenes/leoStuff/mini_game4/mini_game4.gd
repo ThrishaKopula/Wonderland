@@ -2,7 +2,7 @@ extends Node2D
 
 
 # Declare member variables here. Examples:
-export var time = 101;
+export var time = 2;
 onready var timelabel = $Label;
 
 
@@ -15,6 +15,8 @@ var canAudioPlay = true
 var gameOver = false
 # Called when the node enters the scene tree for the first time.
 func _ready():
+	$Tleft.text = String(trashNum);
+	$Label.text = String(time);
 	var dialog = Dialogic.start("CleaningGameRules");
 	dialog.connect('timeline_end', self, 'unpauseAfterRules');
 	add_child(dialog);
@@ -31,18 +33,18 @@ func checkAudio():
 		$CleaningAudio.playing == false
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
-	if trashNum <= 0:
-		$winLogo/AnimationPlayer.play("win");
-		yield($winLogo/AnimationPlayer,"animation_finished");
 
 	if(canTimerStart == true):
 		if time > 0:
 			time = time - delta;
 			timelabel.text = var2str(int(time));
 		else:
+			canTimerStart = false;
 			timelabel.text = "0";
 			$winLogo/AnimationPlayer.play("lose");
 			yield($winLogo/AnimationPlayer,"animation_finished");
+			get_tree().reload_current_scene();
+			
 	
 	
 	if int(time) % 5 == 0 and once:

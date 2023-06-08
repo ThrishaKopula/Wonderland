@@ -37,6 +37,10 @@ func _on_can_body_entered(body):
 		$"..".bad_call();
 		print("bad");
 		body.queue_free();
-		
+	
+	if $"..".trashNum <= 0:
+		$"../winLogo/AnimationPlayer".play("win");
+		yield($"../winLogo/AnimationPlayer","animation_finished");
+		Mini4Global.win();
 	
 	pass # Replace with function body.
