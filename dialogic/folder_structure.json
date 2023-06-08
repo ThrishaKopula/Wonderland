@@ -441,6 +441,18 @@
 						"folded": true
 					}
 				},
+				"MiniGameDialogues": {
+					"files": [
+						"timeline-1686246124.json"
+					],
+					"folders": {
+
+					},
+					"metadata": {
+						"color": null,
+						"folded": false
+					}
+				},
 				"MusicGeek": {
 					"files": [
 						"timeline-1685409612.json",
