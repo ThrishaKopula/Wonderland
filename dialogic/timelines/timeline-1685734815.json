@@ -9,6 +9,32 @@
 			"animation_length": 0,
 			"change_mirror_portrait": false,
 			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "default_wonderland",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hey Mr. May-"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
 			"character": "character-1685754955.json",
 			"event_id": "dialogic_002",
 			"mirror_portrait": false,
@@ -25,10 +51,136 @@
 			"z_index": 0
 		},
 		{
-			"character": "",
+			"character": "character-1685754955.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "ch3 mayor"
+			"text": "SHHH!!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Huh? "
+		},
+		{
+			"character": "character-1685754955.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "*whisper* BE QUIET!"
+		},
+		{
+			"character": "character-1685754955.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You cannot be here!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Why? What's wrong?"
+		},
+		{
+			"character": "character-1685754955.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ever since the Pleb Town petition was granted, the Aristocrats have been angry at me! After all, it's their easy earned money that's funding the new stalls in Pleb Town!"
+		},
+		{
+			"character": "character-1685754955.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I'm just-"
+		},
+		{
+			"character": "character-1685754955.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I-"
+		},
+		{
+			"character": "character-1685754955.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "*sniffle* WAHHHHH"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "... there there."
+		},
+		{
+			"character": "character-1685754955.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I just wanted to make everyone ha-happy! *sniffle*"
+		},
+		{
+			"character": "character-1685754955.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "*sigh* I have to tell you a secret..."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "What is it?"
+		},
+		{
+			"character": "character-1685754955.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I'm actually a kid."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( ... I definitely could not have known. )"
+		},
+		{
+			"character": "character-1685754955.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I know it's hard to believe, but it's the truth."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "*sigh*"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Thank you for telling me the truth. This is truly shocking."
+		},
+		{
+			"character": "character-1685754955.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "*nods fervently* Uh huh! *sniffle* It's so hard hiding my youth from everyone, but I have to!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Why's that?"
+		},
+		{
+			"character": "character-1685754955.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Well have you seen any other kids around here? I have to fit in somehow!"
+		},
+		{
+			"character": "character-1685754955.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh shoot, I see someone coming! I'm gonna go hide somewhere now. Bye!"
 		}
 	],
 	"metadata": {

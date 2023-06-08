@@ -25,10 +25,10 @@
 			"z_index": 0
 		},
 		{
-			"character": "",
+			"character": "character-1681439104.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "*strum* La laaa la la laa"
+			"text": "*strum* Hmm..."
 		}
 	],
 	"metadata": {
