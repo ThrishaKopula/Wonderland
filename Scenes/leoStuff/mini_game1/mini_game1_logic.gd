@@ -58,7 +58,11 @@ func swap(item):
 				timelabel.text = var2str(0);
 				$"../Wcon".play("lose");
 				yield( $"../Wcon", "animation_finished");
-				get_tree().reload_current_scene();
+				if StoryVariables.miniGameToMainMenu:
+					StoryVariables.miniGameToMainMenu = false;
+					Fade.change_scene("res://Scenes/thrishaStuff/MainMenu.tscn");
+				else:
+					get_tree().reload_current_scene();
 			else:
 				
 				timelabel.text = var2str(turn);
@@ -87,16 +91,22 @@ func win():
 	
 	yield( $"../Wcon", "animation_finished");
 	
-	var dialog = Dialogic.start("afterMiniGame");
-	dialog.connect('timeline_end', self, 'unpause');
-	add_child(dialog);
-	StoryVariables.isPrologueDone = true
+	if StoryVariables.miniGameToMainMenu:
+		
+		StoryVariables.miniGameToMainMenu = false;
+		Fade.change_scene("res://Scenes/thrishaStuff/MainMenu.tscn");
+	else:
+		
+		var dialog = Dialogic.start("afterMiniGame");
+		dialog.connect('timeline_end', self, 'unpause');
+		add_child(dialog);
+		StoryVariables.isPrologueDone = true;
 	pass
 
 func unpause(timeline_name):
-	get_tree().paused = false
-	Fade.change_scene("res://Scenes/thrishaStuff/ContinueToChapter1.tscn")
-	yield(get_tree().create_timer(2), "timeout")
+	get_tree().paused = false;
+	Fade.change_scene("res://Scenes/thrishaStuff/ContinueToChapter1.tscn");
+	yield(get_tree().create_timer(2), "timeout");
 	pass
 
 func _on_A4_pressed():

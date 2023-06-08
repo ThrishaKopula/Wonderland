@@ -117,6 +117,7 @@ func _on_teaParty_button_down():
 
 func _on_teaParty_pressed():
 	canAudioPlay = false
+	StoryVariables.miniGameToMainMenu = true;
 	checkAudio()
 	Fade.change_scene("res://Scenes/leoStuff/mini_game1/mini_game_1.tscn")
 	yield(get_tree().create_timer(2), "timeout")
@@ -131,6 +132,8 @@ func _on_bartendingButton_button_down():
 	$ButtonClick.play()
 
 func _on_bartendingButton_pressed():
+	
+	StoryVariables.miniGameToMainMenu = true;
 	canAudioPlay = false
 	checkAudio()
 	Fade.change_scene("res://Scenes/leoStuff/mini_game2/mini_game2.tscn")
@@ -146,6 +149,8 @@ func _on_cleaningButton_button_down():
 	$ButtonClick.play()
 
 func _on_cleaningButton_pressed():
+	
+	StoryVariables.miniGameToMainMenu = true;
 	canAudioPlay = false
 	checkAudio()
 	Fade.change_scene("res://Scenes/leoStuff/mini_game4/mini_game4.tscn")
@@ -161,6 +166,8 @@ func _on_cardMatchButton_button_down():
 	$ButtonClick.play()
 
 func _on_cardMatchButton_pressed():
+	
+	StoryVariables.miniGameToMainMenu = true;
 	canAudioPlay = false
 	checkAudio()
 	Fade.change_scene("res://Scenes/leoStuff/mini_game3/mini_game3.tscn")
