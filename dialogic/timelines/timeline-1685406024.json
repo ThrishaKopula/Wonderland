@@ -25,10 +25,90 @@
 			"z_index": 0
 		},
 		{
-			"character": "",
+			"character": "character-1681439104.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "testing chapter 3 bard"
+			"text": "*strums* *hums*"
+		},
+		{
+			"character": "character-1681439104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I think I finally got used to these strings!"
+		},
+		{
+			"character": "character-1681439104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "My lyre isn't what it used to be. In fact, I think it's a completely new instrument!"
+		},
+		{
+			"character": "character-1681439104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I even made up a new name for it, wanna hear?"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "default_wonderland",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "...sure?"
+		},
+		{
+			"character": "character-1681439104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I call it a...."
+		},
+		{
+			"character": "character-1681439104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "...violin!"
+		},
+		{
+			"character": "character-1681439104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "How'd you like that?"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "..."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I think it's very fitting."
+		},
+		{
+			"character": "character-1681439104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I know right!"
 		}
 	],
 	"metadata": {

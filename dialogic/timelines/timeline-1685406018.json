@@ -9,6 +9,32 @@
 			"animation_length": 0,
 			"change_mirror_portrait": false,
 			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "default_wonderland",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Any new tunes?"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
 			"character": "character-1681439104.json",
 			"event_id": "dialogic_002",
 			"mirror_portrait": false,
@@ -25,10 +51,52 @@
 			"z_index": 0
 		},
 		{
-			"character": "",
+			"character": "character-1681439104.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "ch2 bard"
+			"text": "I think I'm going through a crisis..."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "What? Why do you think that?"
+		},
+		{
+			"character": "character-1681439104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ever since I fixed my lyre, it just hasn't been playing the same!"
+		},
+		{
+			"character": "character-1681439104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The notes sound different, almost like a different intsrument. "
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( Those strings were from Music Geek's violin... )"
+		},
+		{
+			"character": "character-1681439104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Say, where did you get those strings?"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( How do I tell him that I teleported to an alternate dimension and aided in the cause of a blooming romance just to procure some strings for him so that I could manipulate him into helping me find a piece of a music box that is powerful enough to split worlds ?"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Uhhhh... shoot I gotta run, catch you later!"
 		}
 	],
 	"metadata": {
