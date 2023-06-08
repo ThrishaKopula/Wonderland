@@ -2,14 +2,14 @@ extends Node2D
 
 
 # Declare member variables here. Examples:
-export var time = 2;
+export var time = 50;
 onready var timelabel = $Label;
 
 
 var cheat = false;
 var once = true;
 
-var trashNum = 1;
+var trashNum = 25;
 var canTimerStart = false
 var canAudioPlay = true
 var gameOver = false

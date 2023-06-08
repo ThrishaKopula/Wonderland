@@ -25,10 +25,3 @@ func win():
 func unpause(timeline_name):
 	get_tree().paused = false;
 	StoryVariables.canPlayerMove = true;
-	
-	
-	pass
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
-#	pass

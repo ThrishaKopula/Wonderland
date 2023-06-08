@@ -291,7 +291,7 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": true
+						"folded": false
 					}
 				},
 				"Cheerleader": {
@@ -438,14 +438,15 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": false
+						"folded": true
 					}
 				},
 				"MiniGameDialogues": {
 					"files": [
 						"timeline-1686246124.json",
 						"timeline-1686247040.json",
-						"timeline-1686249677.json"
+						"timeline-1686249677.json",
+						"timeline-1686257070.json"
 					],
 					"folders": {
 

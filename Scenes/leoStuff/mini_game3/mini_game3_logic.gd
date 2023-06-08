@@ -21,11 +21,18 @@ var a = preload("res://Scenes/leoStuff/mini_game3/mini3Art/_CARDSCard_Mini_game-
 var joke = preload("res://Scenes/leoStuff/mini_game3/mini3Art/_CARDSCard_Mini_game-5.png");
 
 func _ready():
-	
+	var dialog = Dialogic.start("CardMemoryGameRules");
+	dialog.connect('timeline_end', self, 'unpauseAfterRules');
+	add_child(dialog);
+
+func unpauseAfterRules(timeline_name):
+	get_tree().paused = false;
 	new_game();
-	
-	pass # Replace with function body.
-	
+
+func _process(delta):
+	if ($"../CardMemoryAudio".playing == false):
+		$"../CardMemoryAudio".play()
+	pass
 func new_game():
 	$"../get".texture = back_card;
 	pregame = true;
@@ -58,7 +65,6 @@ func new_game():
 	get_wCard();
 	pregame = false;
 	pass
-
 
 func get_wCard():
 	var rng = RandomNumberGenerator.new()
@@ -94,7 +100,6 @@ func get_wCard():
 				$AnimatedGridContainer/A.texture_normal = a;
 				$AnimatedGridContainer/A.get_child(1).disabled = true;
 				pick(get_node("AnimatedGridContainer/A"), "A");
-	
 
 func flip_up():
 	$AnimatedGridContainer/J.texture_normal = j;
@@ -127,7 +132,6 @@ func _on_J_pressed():
 		pick(get_node("AnimatedGridContainer/J"), "J");
 	pass # Replace with function body.
 
-
 func _on_J2_pressed():
 	if !inAct:
 		print("J2 pressed");
@@ -135,7 +139,6 @@ func _on_J2_pressed():
 		pick(get_node("AnimatedGridContainer/J2"), "J");
 	pass # Replace with function body.
 	
-
 func pick(item,type):
 	print("start pick");
 	
@@ -238,21 +241,17 @@ func ran_shuffle():
 	
 	pass
 
-
-
 func _on_Q_pressed():
 	if !inAct:
 		$AnimatedGridContainer/Q.texture_normal = q;
 		pick(get_node("AnimatedGridContainer/Q"), "Q");
 	pass # Replace with function body.
 
-
 func _on_Q2_pressed():
 	if !inAct:
 		$AnimatedGridContainer/Q2.texture_normal = q;
 		pick(get_node("AnimatedGridContainer/Q2"), "Q");
 	pass # Replace with function body.
-
 
 func _on_K_pressed():
 	if !inAct:
@@ -278,13 +277,11 @@ func _on_A2_pressed():
 		pick(get_node("AnimatedGridContainer/A2"), "A");
 	pass # Replace with function body.
 
-
 func _on_Joke_pressed():
 	if !inAct:
 		$AnimatedGridContainer/Joker.texture_normal = joke;
 		pick(get_node("AnimatedGridContainer/Joker"), "Joker");
 	pass # Replace with function body.
-
 
 func _on_cheat_pressed():
 	

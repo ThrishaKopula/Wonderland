@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Kevin MacLeod： Hotrock.wav-bab227ba185f2a2b40412a28c135912b.sample"
+
+[deps]
+
+source_file="res://Scenes/thrishaStuff/Audio/CardMemoryGame/Kevin MacLeod： Hotrock.wav"
+dest_files=[ "res://.import/Kevin MacLeod： Hotrock.wav-bab227ba185f2a2b40412a28c135912b.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

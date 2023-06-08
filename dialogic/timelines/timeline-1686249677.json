@@ -3,7 +3,8 @@
 		{
 			"event_id": "dialogic_023",
 			"hide_dialogbox": true,
-			"wait_seconds": 1
+			"wait_seconds": 1,
+			"waiting_skippable": false
 		},
 		{
 			"animation": "[Default]",

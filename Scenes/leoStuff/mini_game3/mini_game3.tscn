@@ -1,4 +1,4 @@
-[gd_scene load_steps=22 format=2]
+[gd_scene load_steps=24 format=2]
 
 [ext_resource path="res://Scenes/leoStuff/mini_game3/mini_game3_logic.gd" type="Script" id=1]
 [ext_resource path="res://Scenes/leoStuff/shine/card.tscn" type="PackedScene" id=2]
@@ -15,6 +15,8 @@
 [ext_resource path="res://Scenes/leoStuff/mini_game1/art/back.png" type="Texture" id=13]
 [ext_resource path="res://Scenes/leoStuff/mini_game1/art/lose.png" type="Texture" id=14]
 [ext_resource path="res://Scenes/leoStuff/mini_game1/art/win.png" type="Texture" id=15]
+[ext_resource path="res://Scenes/thrishaStuff/Audio/CardMemoryGame/Kevin MacLeod： Hotrock.wav" type="AudioStream" id=16]
+[ext_resource path="res://Scenes/leoStuff/mini_game3/mini_game3_global.gd" type="Script" id=17]
 
 [sub_resource type="DynamicFont" id=1]
 size = 100
@@ -168,6 +170,7 @@ tracks/2/keys = {
 }
 
 [node name="Node2D" type="Node2D"]
+script = ExtResource( 17 )
 
 [node name="CardMiniGame-1" type="Sprite" parent="."]
 texture = ExtResource( 9 )
@@ -319,6 +322,12 @@ centered = false
 anims/RESET = SubResource( 4 )
 anims/lose = SubResource( 5 )
 anims/win = SubResource( 6 )
+
+[node name="CardMemoryAudio" type="AudioStreamPlayer" parent="."]
+pause_mode = 2
+stream = ExtResource( 16 )
+volume_db = -10.0
+autoplay = true
 
 [connection signal="pressed" from="Control/AnimatedGridContainer/J/Button" to="Control" method="_on_J_pressed"]
 [connection signal="pressed" from="Control/AnimatedGridContainer/J2/Button" to="Control" method="_on_J2_pressed"]
