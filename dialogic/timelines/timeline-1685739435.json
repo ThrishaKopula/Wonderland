@@ -21,10 +21,90 @@
 			"z_index": 0
 		},
 		{
-			"character": "",
+			"character": "character-1681451149.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "ch2 music geek"
+			"text": "Hmm…Hmmm.."
+		},
+		{
+			"character": "character-1681451149.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh! I almost didn't hear you. How have you been?"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I'm alright, what are you up to?"
+		},
+		{
+			"character": "character-1681451149.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I'm practicing for my upcoming orchestra performance! I've always had a bit of stage fright but this time it's even worse..."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Why's that?"
+		},
+		{
+			"character": "character-1681451149.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Well, I gathered the courage to ask Cheerleader to come. I really want to show her the song I wrote but I'm just so nervous. "
+		},
+		{
+			"character": "character-1681451149.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "What if she hates it?! Oh shoot, she'll think it's cringe... she won't want to talk to m-"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alright. Calm down. "
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "She's heard you practice before and already thinks you play really well. "
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Just play as you always do."
+		},
+		{
+			"character": "character-1681451149.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "...You're right, I got this. If only she knew I wrote the song for her..."
 		}
 	],
 	"metadata": {

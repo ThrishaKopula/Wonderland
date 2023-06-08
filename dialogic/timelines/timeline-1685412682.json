@@ -5,6 +5,38 @@
 			"animation_length": 0,
 			"change_mirror_portrait": false,
 			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "So this is a college dining hall…"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( Heh, this looks like a children’s cafeteria. The food looks so bland! )"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
 			"character": "character-1683770471.json",
 			"event_id": "dialogic_002",
 			"mirror_portrait": false,
@@ -21,10 +53,88 @@
 			"z_index": 0
 		},
 		{
-			"character": "",
+			"character": "character-1683770471.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "ch1 ll"
+			"text": "Hiya there! What’ll you be having?"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh, uh… I…"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The uh… or the uh…"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( I don’t want any of these! )"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I’m actually not hungry."
+		},
+		{
+			"character": "character-1683770471.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh, well that’s too bad."
+		},
+		{
+			"character": "character-1683770471.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "We’ll always have food for our students through the day, so make sure you stop by for every meal."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Uh… okay."
+		},
+		{
+			"character": "character-1683770471.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Haha, no need to look so apprehensive!"
+		},
+		{
+			"character": "character-1683770471.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I know each student has their own thoughts about canteen food, but…"
+		},
+		{
+			"character": "character-1683770471.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "We do our best to make sure none of you go hungry!"
+		},
+		{
+			"character": "character-1683770471.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "So even if it isn’t as nice as a five star restaurant, it’ll keep you nourished for your classes and clubs!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh, okay then."
+		},
+		{
+			"character": "character-1683770471.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "See you, dear!"
 		}
 	],
 	"metadata": {

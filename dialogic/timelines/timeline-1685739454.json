@@ -21,10 +21,66 @@
 			"z_index": 0
 		},
 		{
-			"character": "",
+			"character": "character-1681451149.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "ch3 music geek"
+			"text": "Alistair!"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Well you look like you're in a good mood."
+		},
+		{
+			"character": "character-1681451149.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Of course I am! After my orchestra concert, Cheerleader came up to me and told me how amazing I played. "
+		},
+		{
+			"character": "character-1681451149.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "... and she asked me out on a date. "
+		},
+		{
+			"character": "character-1681451149.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I got so nervous, I started stuttering and almost said no! Can you belive it?!"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( Yeah, that sounds about right. )"
+		},
+		{
+			"character": "character-1681451149.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Anyways, I have to go and ready, she's picking me up tonight! Talk to you later, bye!"
 		}
 	],
 	"metadata": {

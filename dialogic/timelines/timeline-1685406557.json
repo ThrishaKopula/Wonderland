@@ -25,10 +25,66 @@
 			"z_index": 0
 		},
 		{
-			"character": "",
+			"character": "character-1681452544.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "ch1 bartender"
+			"text": "Sorry for the delay sir, here's your drink."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "What? I never ordered a drink."
+		},
+		{
+			"character": "character-1681452544.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh? My apologies, then sir."
+		},
+		{
+			"character": "character-1681452544.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "*GULP*"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Did-did you just drink the entire glass?"
+		},
+		{
+			"character": "character-1681452544.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "*burp* *giggle*"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( Is this what he does everytime there's a wrong order? )"
 		}
 	],
 	"metadata": {

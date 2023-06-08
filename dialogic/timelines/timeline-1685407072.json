@@ -5,6 +5,32 @@
 			"animation_length": 0,
 			"change_mirror_portrait": false,
 			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You look extra bouncy today, what's new?"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
 			"character": "character-1681451499.json",
 			"event_id": "dialogic_002",
 			"mirror_portrait": false,
@@ -21,10 +47,34 @@
 			"z_index": 0
 		},
 		{
-			"character": "",
+			"character": "character-1681451499.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "testing cheer 3"
+			"text": "I'm just so excited! I'm taking Music Geek out on a date tonight!"
+		},
+		{
+			"character": "character-1681451499.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "As I was listening to her play in her concert, I could just feel the hard work and dedication she put in. "
+		},
+		{
+			"character": "character-1681451499.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I've been hearing her practice that song for a while now, and seeing her play it on stage made my heart flutter! "
+		},
+		{
+			"character": "character-1681451499.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I had to ask her out, then and there. Her cheeks turned so red and she started stammering, it was so cute!"
+		},
+		{
+			"character": "character-1681451499.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alright, I'm going to pick her up soon, catch you later!"
 		}
 	],
 	"metadata": {
