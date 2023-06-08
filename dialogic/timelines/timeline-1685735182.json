@@ -21,16 +21,42 @@
 			"z_index": 0
 		},
 		{
-			"character": "",
+			"character": "character-1685754874.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "*yawn*"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681086055.json",
 			"event_id": "dialogic_010",
 			"options": [
 
 			],
 			"portrait": "",
-			"question": "jskdfhskd"
+			"question": "( He looks like he's been up all night. )"
 		},
 		{
-			"choice": "help",
+			"choice": "I should go check up on him.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
@@ -45,11 +71,189 @@
 			"set_value": "1"
 		},
 		{
-			"choice": "no help",
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hey man, are you ok?"
+		},
+		{
+			"character": "character-1685754874.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yeah man, I'm fine... *zzzzzz*"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( ... He's definitely not fine. )"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You sure? You look like you didn't get any sleep last night."
+		},
+		{
+			"character": "character-1685754874.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Nah man, I slept for a little bit after studying for the Biz 101 quiz, but I guess I'll need more than 2 hours."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "2 hours? That's definitely not enough sleep."
+		},
+		{
+			"character": "character-1685754874.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yeah, I usually get up at 5am to practice my throws out on the field."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Why do you push yourself so hard?"
+		},
+		{
+			"character": "character-1685754874.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "*yawn* If I don't dedicate at least 3 hours a day, then I'll never see improvement."
+		},
+		{
+			"character": "character-1685754874.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "And that's just for football practice! There's also my morning routine and warmups that I need to get up even earlier for..."
+		},
+		{
+			"character": "character-1685754874.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "By the time I get home from classes, I'm totally wiped out."
+		},
+		{
+			"character": "character-1685754874.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "It's probably also why I'm failing Biz 101. I just wish I had more time."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "( I never realized how hard it must have been for Jock... ) "
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Have you tried talking to Professor? He might be able come up with a way to work with your schedule."
+		},
+		{
+			"character": "character-1685754874.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I haven't actually. Playing football and keeping up my strict work ethic was my decision. Asking help from Professor would mean that I am unable to hold up my commitment."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Not all students wake up at the crack of dawn to get up and practice out on the fields like you do. Asking the Professor won't make you any less committed.  "
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Getting more sleep might increase your performance both in class and out on the fields, don't you think?"
+		},
+		{
+			"character": "character-1685754874.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "..."
+		},
+		{
+			"character": "character-1685754874.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You're right. I've never thought about it like that. It's not healthy for me to keep going on like this."
+		},
+		{
+			"character": "character-1685754874.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I think I will have a talk with the Professor, thank you Alistair."
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I hope everything goes well."
+		},
+		{
+			"background": "res://dialogic/black.jpeg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1683081099.cfg"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Jock hesitanty enters the classroom and walks up to Professor."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "As the conversation goes on, Jock's shoulders visibly relax in relief."
+		},
+		{
+			"background": "",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "default-theme.cfg"
+		},
+		{
+			"character": "character-1685754874.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I talked to Professor and he said he will try his best to create and academic plan that works around my schedule! "
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "That's great, Jock. "
+		},
+		{
+			"character": "character-1685754874.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Well, looks like I have to get back to practice, nice talking to you Alistair!"
+		},
+		{
+			"choice": "I have my own problems to worry about. ",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
 			"value": ""
+		},
+		{
+			"character": "character-1685754874.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "*zzz* "
 		},
 		{
 			"event_id": "dialogic_013"
