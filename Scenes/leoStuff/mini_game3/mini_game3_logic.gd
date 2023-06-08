@@ -187,6 +187,8 @@ func pick(item,type):
 		yield(get_tree().create_timer(1), "timeout");
 		if pair_got >= 4:
 			$"../winLogo/AnimationPlayer".play("win");
+			yield(get_tree().create_timer(2), "timeout");
+			MiniGame3Global.win()
 		else:
 			new_game();
 		
