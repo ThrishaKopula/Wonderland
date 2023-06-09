@@ -13,6 +13,8 @@ export var enable = true;
 func _ready():
 	
 	hide();
+	$controlSprite.hide();
+	$back.hide();
 	pass # Replace with function body.
 
 
@@ -32,4 +34,19 @@ func _on_Menu_pressed():
 	
 	get_tree().change_scene("res://Scenes/thrishaStuff/MainMenu.tscn");
 	
+	pass # Replace with function body.
+
+
+
+
+
+func _on_back_pressed():
+	$controlSprite.hide();
+	$back.hide();
+	pass # Replace with function body.
+
+
+func _on_control_pressed():
+	$controlSprite.show();
+	$back.show();
 	pass # Replace with function body.
