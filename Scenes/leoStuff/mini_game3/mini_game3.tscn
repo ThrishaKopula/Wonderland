@@ -292,7 +292,7 @@ margin_right = 1029.0
 margin_bottom = 150.0
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 1 )
-text = "5"
+text = "6"
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="lives"]
 anims/RESET = SubResource( 2 )

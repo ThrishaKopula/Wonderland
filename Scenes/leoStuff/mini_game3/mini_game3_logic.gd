@@ -5,7 +5,7 @@ var picked_type = "none"
 
 # need 4 pairs
 var pair_got = 0;
-var lives = 5;
+var lives = 6;
 var inAct = false;
 var wcard = "";
 var cheat = false;
