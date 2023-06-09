@@ -48,8 +48,9 @@ func play():
 		
 		yield($base.get_node("AnimationPlayer"),"animation_finished");
 		
+		yield(get_tree().create_timer(1), "timeout");
 		$winLogo.get_node("AnimationPlayer").play("win");
-		yield(get_tree().create_timer(2), "timeout");
+		
 		
 	else:
 		
@@ -59,7 +60,7 @@ func play():
 			$base.get_node("AnimationPlayer").play("red win");
 	
 		yield($base.get_node("AnimationPlayer"),"animation_finished");
-		yield(get_tree().create_timer(2), "timeout");
+		yield(get_tree().create_timer(1), "timeout");
 		
 		
 		$winLogo.get_node("AnimationPlayer").play("lose");
