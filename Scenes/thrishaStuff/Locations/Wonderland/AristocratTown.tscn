@@ -1,4 +1,4 @@
-[gd_scene load_steps=95 format=2]
+[gd_scene load_steps=107 format=2]
 
 [ext_resource path="res://Scenes/thrishaStuff/Audio/AristocratTown/Kevin MacLeod： Trio for Piano Violin and Viola.wav" type="AudioStream" id=1]
 [ext_resource path="res://Scenes/thrishaStuff/Prefab/plebs.tscn" type="PackedScene" id=2]
@@ -71,6 +71,18 @@
 [ext_resource path="res://Scenes/thrishaStuff/images/dialog_backgrounds/aristocratTown/Aristocrat_Town-1.png" type="Texture" id=69]
 [ext_resource path="res://Scenes/thrishaStuff/images/dialog_backgrounds/aristocratTown/Aristocrat_Town-2.png" type="Texture" id=70]
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/Mayor.gd" type="Script" id=71]
+[ext_resource path="res://Scenes/mimistuff/mayor/Mayor-11.png" type="Texture" id=72]
+[ext_resource path="res://Scenes/mimistuff/mayor/Mayor-15.png" type="Texture" id=73]
+[ext_resource path="res://Scenes/mimistuff/mayor/Mayor-4.png" type="Texture" id=74]
+[ext_resource path="res://Scenes/mimistuff/mayor/Mayor-3.png" type="Texture" id=75]
+[ext_resource path="res://Scenes/mimistuff/mayor/Mayor-7.png" type="Texture" id=76]
+[ext_resource path="res://Scenes/mimistuff/mayor/Mayor-6.png" type="Texture" id=77]
+[ext_resource path="res://Scenes/mimistuff/mayor/Mayor-8.png" type="Texture" id=78]
+[ext_resource path="res://Scenes/mimistuff/mayor/Mayor-13.png" type="Texture" id=79]
+[ext_resource path="res://Scenes/mimistuff/mayor/Mayor-9.png" type="Texture" id=80]
+[ext_resource path="res://Scenes/mimistuff/mayor/Mayor-10.png" type="Texture" id=81]
+[ext_resource path="res://Scenes/mimistuff/mayor/Mayor-12.png" type="Texture" id=82]
+[ext_resource path="res://Scenes/mimistuff/mayor/Mayor-14.png" type="Texture" id=83]
 
 [sub_resource type="Animation" id=20]
 resource_name = "Idle 1 Overworld"
@@ -9872,14 +9884,14 @@ z_index = 10
 [node name="torso" type="Sprite" parent="Mayor/body"]
 position = Vector2( 24, 106 )
 rotation = -0.0872665
-texture = ExtResource( 57 )
+texture = ExtResource( 72 )
 offset = Vector2( 24, -109 )
 region_rect = Rect2( 347, 299, 1, 0 )
 
 [node name="head" type="Sprite" parent="Mayor/body/torso"]
 position = Vector2( 1, -125 )
 z_index = 1
-texture = ExtResource( 44 )
+texture = ExtResource( 73 )
 offset = Vector2( 25, 11 )
 
 [node name="butt" type="Sprite" parent="Mayor/body/torso"]
@@ -9899,65 +9911,64 @@ offset = Vector2( 19, -70 )
 [node name="l thigh" type="Sprite" parent="Mayor/body/torso/butt"]
 position = Vector2( -28, 14 )
 z_index = -1
-texture = ExtResource( 53 )
+texture = ExtResource( 74 )
 offset = Vector2( 54, -131 )
 
 [node name="l leg" type="Sprite" parent="Mayor/body/torso/butt/l thigh"]
 position = Vector2( -2, 73 )
 z_index = -1
-texture = ExtResource( 49 )
+texture = ExtResource( 75 )
 offset = Vector2( 55, -206 )
 
 [node name="r thigh" type="Sprite" parent="Mayor/body/torso/butt"]
 position = Vector2( 25, 10 )
-z_index = 1
-texture = ExtResource( 46 )
+texture = ExtResource( 76 )
 offset = Vector2( 0, -124 )
 
 [node name="r leg" type="Sprite" parent="Mayor/body/torso/butt/r thigh"]
 position = Vector2( 3, 79 )
 z_index = -1
-texture = ExtResource( 47 )
+texture = ExtResource( 77 )
 offset = Vector2( -4, -207 )
 
 [node name="l upper" type="Sprite" parent="Mayor/body/torso"]
 position = Vector2( -9, -109 )
 rotation = 0.107086
 z_index = -3
-texture = ExtResource( 52 )
+texture = ExtResource( 78 )
 offset = Vector2( 33, -1 )
 
 [node name="l arm" type="Sprite" parent="Mayor/body/torso/l upper"]
 position = Vector2( -45.6521, 43.1264 )
 rotation = -0.881885
-texture = ExtResource( 67 )
+texture = ExtResource( 80 )
 offset = Vector2( 75, -43 )
 
 [node name="l hand" type="Sprite" parent="Mayor/body/torso/l upper/l arm"]
 position = Vector2( -30, 40 )
 rotation = 0.106363
-texture = ExtResource( 48 )
+texture = ExtResource( 81 )
 offset = Vector2( 104, -79 )
 
 [node name="r upper" type="Sprite" parent="Mayor/body/torso"]
 position = Vector2( 20, -115 )
 rotation = 0.19221
 z_index = 1
-texture = ExtResource( 43 )
+texture = ExtResource( 82 )
 offset = Vector2( 3, 0 )
 
 [node name="r arm" type="Sprite" parent="Mayor/body/torso/r upper"]
 position = Vector2( 41, 42 )
 rotation = 2.68671
 z_index = 1
-texture = ExtResource( 51 )
+texture = ExtResource( 79 )
 offset = Vector2( -38, -43 )
 
 [node name="r hand" type="Sprite" parent="Mayor/body/torso/r upper/r arm"]
 position = Vector2( 29, 38 )
 rotation = 0.348237
 z_index = 1
-texture = ExtResource( 50 )
+texture = ExtResource( 83 )
 offset = Vector2( -66, -78 )
 
 [node name="shadow" type="Sprite" parent="Mayor/body"]
