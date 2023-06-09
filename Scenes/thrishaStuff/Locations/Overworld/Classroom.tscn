@@ -4,8 +4,8 @@
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/Watercolor.gd" type="Script" id=2]
 [ext_resource path="res://Scenes/thrishaStuff/images/Classroom.png" type="Texture" id=3]
 [ext_resource path="res://Scenes/leoStuff/HUD/HUD.tscn" type="PackedScene" id=4]
-[ext_resource path="res://icon.png" type="Texture" id=5]
-[ext_resource path="res://Scenes/thrishaStuff/images/watercolor.png" type="Texture" id=6]
+[ext_resource path="res://Scenes/thrishaStuff/images/F_To_Interact.png" type="Texture" id=5]
+[ext_resource path="res://Scenes/thrishaStuff/images/interactables/watercolor.png" type="Texture" id=6]
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/Professor.gd" type="Script" id=7]
 [ext_resource path="res://Scenes/mimistuff/marlon/Marlon-Wonderland-10.png" type="Texture" id=8]
 [ext_resource path="res://Scenes/thrishaStuff/Audio/Classroom/Kevin MacLeod： Covert Affair.wav" type="AudioStream" id=9]
@@ -12417,7 +12417,7 @@ position = Vector2( 2480, 540 )
 texture = ExtResource( 3 )
 
 [node name="Watercolor" type="Area2D" parent="."]
-position = Vector2( 586, 431 )
+position = Vector2( 690, 390 )
 script = ExtResource( 2 )
 __meta__ = {
 "_edit_group_": true
@@ -12427,7 +12427,6 @@ __meta__ = {
 shape = SubResource( 2 )
 
 [node name="Sprite" type="Sprite" parent="Watercolor"]
-scale = Vector2( 0.16, 0.16 )
 texture = ExtResource( 6 )
 
 [node name="QuestionMark" type="Sprite" parent="Watercolor"]
@@ -12936,7 +12935,7 @@ pause_mode = 2
 position = Vector2( 1056, 715 )
 
 [node name="HUD" parent="player" instance=ExtResource( 4 )]
-position = Vector2( -125, -121 )
+position = Vector2( -106, -186 )
 current = true
 limit_left = 0
 limit_top = 0
