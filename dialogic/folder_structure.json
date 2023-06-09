@@ -132,7 +132,8 @@
 		},
 		"Timelines": {
 			"files": [
-				"timeline-1681428466.json"
+				"timeline-1681428466.json",
+				"timeline-1686269469.json"
 			],
 			"folders": {
 				"Aristocrats": {
@@ -146,7 +147,7 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": false
+						"folded": true
 					}
 				},
 				"Bard": {

@@ -149,8 +149,17 @@ margin_right = 220.0
 margin_bottom = 41.0
 
 [node name="controls" type="Sprite" parent="."]
-position = Vector2( 960, 540 )
+position = Vector2( 682, 783 )
 texture = ExtResource( 12 )
+offset = Vector2( 278, -243 )
+
+[node name="controlsButton" type="Button" parent="controls"]
+modulate = Color( 1, 1, 1, 0 )
+margin_left = -235.0
+margin_top = -41.0
+margin_right = 218.0
+margin_bottom = 46.0
+rect_pivot_offset = Vector2( 229, 44 )
 
 [node name="credits" type="Sprite" parent="."]
 position = Vector2( 960, 540 )
@@ -260,6 +269,10 @@ script = ExtResource( 5 )
 [connection signal="mouse_entered" from="cardMatch/cardMatchButton" to="." method="_on_cardMatchButton_mouse_entered"]
 [connection signal="mouse_exited" from="cardMatch/cardMatchButton" to="." method="_on_cardMatchButton_mouse_exited"]
 [connection signal="pressed" from="cardMatch/cardMatchButton" to="." method="_on_cardMatchButton_pressed"]
+[connection signal="button_down" from="controls/controlsButton" to="." method="_on_controlsButton_button_down"]
+[connection signal="mouse_entered" from="controls/controlsButton" to="." method="_on_controlsButton_mouse_entered"]
+[connection signal="mouse_exited" from="controls/controlsButton" to="." method="_on_controlsButton_mouse_exited"]
+[connection signal="pressed" from="controls/controlsButton" to="." method="_on_controlsButton_pressed"]
 [connection signal="button_down" from="quit/Quit" to="." method="_on_Quit_button_down"]
 [connection signal="mouse_entered" from="quit/Quit" to="." method="_on_Quit_mouse_entered"]
 [connection signal="mouse_exited" from="quit/Quit" to="." method="_on_Quit_mouse_exited"]

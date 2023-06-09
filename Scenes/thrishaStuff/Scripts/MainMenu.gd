@@ -149,7 +149,6 @@ func _on_cleaningButton_button_down():
 	$ButtonClick.play()
 
 func _on_cleaningButton_pressed():
-	
 	StoryVariables.miniGameToMainMenu = true;
 	canAudioPlay = false
 	checkAudio()
@@ -184,3 +183,15 @@ func _on_Quit_mouse_entered():
 
 func _on_Quit_mouse_exited():
 	$quit.scale = Vector2(1, 1)
+
+func _on_controlsButton_button_down():
+	$ButtonClick.play()
+
+func _on_controlsButton_pressed():
+	get_tree().change_scene("res://Scenes/thrishaStuff/Controls.tscn")
+
+func _on_controlsButton_mouse_entered():
+	$controls.scale = Vector2(1.1, 1.1)
+
+func _on_controlsButton_mouse_exited():
+	$controls.scale = Vector2(1, 1)

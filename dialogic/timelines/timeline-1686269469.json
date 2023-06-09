@@ -1,0 +1,20 @@
+{
+	"events": [
+		{
+			"background": "res://Scenes/thrishaStuff/images/Controls.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "."
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1686269469.json",
+		"name": "Controls"
+	}
+}
