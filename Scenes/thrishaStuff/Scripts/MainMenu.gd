@@ -195,3 +195,15 @@ func _on_controlsButton_mouse_entered():
 
 func _on_controlsButton_mouse_exited():
 	$controls.scale = Vector2(1, 1)
+
+func _on_creditsButton_pressed():
+	get_tree().change_scene("res://Scenes/thrishaStuff/Credits.tscn")
+
+func _on_creditsButton_button_down():
+	$ButtonClick.play()
+
+func _on_creditsButton_mouse_entered():
+	$credits.scale = Vector2(1.1, 1.1)
+
+func _on_creditsButton_mouse_exited():
+	$credits.scale = Vector2(1, 1)

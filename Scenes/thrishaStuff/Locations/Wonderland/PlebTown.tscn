@@ -9858,7 +9858,7 @@ texture = ExtResource( 73 )
 
 [node name="Plebs" type="Area2D" parent="."]
 pause_mode = 2
-position = Vector2( 369, 571 )
+position = Vector2( -165, 571 )
 script = ExtResource( 2 )
 __meta__ = {
 "_edit_group_": true
@@ -9885,13 +9885,13 @@ position = Vector2( 350, -480 )
 texture = ExtResource( 8 )
 
 [node name="plebStands" type="Sprite" parent="."]
-position = Vector2( 793, 608 )
+position = Vector2( 259, 608 )
 z_index = 20
 texture = ExtResource( 72 )
 
 [node name="RealThief" type="Area2D" parent="."]
 pause_mode = 2
-position = Vector2( 2848, 646 )
+position = Vector2( 1349, 585 )
 script = ExtResource( 9 )
 __meta__ = {
 "_edit_group_": true
@@ -10013,7 +10013,7 @@ texture = ExtResource( 8 )
 
 [node name="Thief" type="Area2D" parent="."]
 pause_mode = 2
-position = Vector2( -766, 553 )
+position = Vector2( -1137, 553 )
 script = ExtResource( 7 )
 __meta__ = {
 "_edit_group_": true
@@ -10135,7 +10135,7 @@ texture = ExtResource( 8 )
 
 [node name="Marlon" type="Area2D" parent="."]
 pause_mode = 2
-position = Vector2( 2194, 730 )
+position = Vector2( 2756, 604 )
 script = ExtResource( 21 )
 __meta__ = {
 "_edit_group_": true
@@ -10270,7 +10270,7 @@ texture = ExtResource( 8 )
 
 [node name="player" parent="." instance=ExtResource( 12 )]
 pause_mode = 2
-position = Vector2( 728, 715 )
+position = Vector2( 1918, 719 )
 z_index = 25
 inOverworld = false
 

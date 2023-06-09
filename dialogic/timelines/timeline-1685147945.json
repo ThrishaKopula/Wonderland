@@ -480,17 +480,17 @@
 
 			],
 			"portrait": "",
-			"question": "What's the dev's favorite color?"
+			"question": "What is my favorite color?"
 		},
 		{
-			"choice": "purple",
+			"choice": "Purple",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
 			"value": ""
 		},
 		{
-			"choice": "yellow",
+			"choice": "Yellow",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",

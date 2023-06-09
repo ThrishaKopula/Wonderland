@@ -1,5 +1,9 @@
 extends Control
 
+func _process(delta):
+	if($MenuAudio.playing == false):
+		$MenuAudio.playing = true
+		
 func _on_returnButton_button_down():
 	$ButtonClick.play()
 
