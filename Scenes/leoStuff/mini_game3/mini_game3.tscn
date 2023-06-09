@@ -326,7 +326,7 @@ anims/win = SubResource( 6 )
 [node name="CardMemoryAudio" type="AudioStreamPlayer" parent="."]
 pause_mode = 2
 stream = ExtResource( 16 )
-volume_db = -10.0
+volume_db = -3.0
 autoplay = true
 
 [node name="card" type="AudioStreamPlayer" parent="."]

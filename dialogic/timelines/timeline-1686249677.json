@@ -30,7 +30,31 @@
 			"character": "character-1681086547.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "cleaning rules"
+			"text": "Yikes, it really is a disaster in here!"
+		},
+		{
+			"character": "character-1681086547.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Three types of trash will periodically drop from the chute at the top of the room. "
+		},
+		{
+			"character": "character-1681086547.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You need to sort them into the proper bins by dragging them over the top of the bin. "
+		},
+		{
+			"character": "character-1681086547.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You'll only need to sort [b]25[/b] number of pieces within the time limit, so choose how you want to effectively sort the trash!"
+		},
+		{
+			"character": "character-1681086547.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "And remember, if things get hard, you know what to do, hehe."
 		}
 	],
 	"metadata": {
