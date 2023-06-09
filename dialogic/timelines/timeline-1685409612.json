@@ -24,7 +24,13 @@
 			"character": "character-1681451149.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Hmm…Hmmm"
+			"text": "Hum…Hummm."
+		},
+		{
+			"character": "character-1681451149.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "That tune sounds pretty good, I should try it out on my violin."
 		}
 	],
 	"metadata": {

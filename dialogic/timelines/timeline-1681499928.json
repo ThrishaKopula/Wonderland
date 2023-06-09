@@ -8,7 +8,7 @@
 			"character": "character-1681086547.json",
 			"event_id": "dialogic_002",
 			"mirror_portrait": false,
-			"portrait": "Default",
+			"portrait": "default_wonderland",
 			"portrait_definition": "",
 			"position": {
 				"0": true,
@@ -53,7 +53,7 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "happy_wonderland",
 			"text": "I’ve got the [b]Ballerina[/b]."
 		},
 		{
@@ -97,7 +97,7 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "shock_wonderland",
 			"text": "Wait, wait. No rewards? All that work I did? Don’t I get something?"
 		},
 		{
@@ -149,7 +149,7 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "happy_wonderland",
 			"text": "In my world? That’ll be easy!"
 		},
 		{
@@ -173,7 +173,7 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "default_wonderland",
 			"text": "Yeah, yeah, sure…"
 		},
 		{
@@ -215,13 +215,13 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "mad_wonderland",
 			"text": "Shut up!"
 		},
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "default_wonderland",
 			"text": "See you tomorrow Matthew. That [b]Key[/b] is as good as ours."
 		},
 		{

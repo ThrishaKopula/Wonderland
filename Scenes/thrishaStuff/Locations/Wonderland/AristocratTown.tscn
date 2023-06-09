@@ -9879,6 +9879,8 @@ __meta__ = {
 }
 
 [node name="body" type="Sprite" parent="Mayor"]
+position = Vector2( 3, 111 )
+scale = Vector2( 0.7, 0.7 )
 z_index = 10
 
 [node name="torso" type="Sprite" parent="Mayor/body"]
@@ -9988,7 +9990,7 @@ position = Vector2( 11, -11.5 )
 shape = SubResource( 25 )
 
 [node name="QuestionMark" type="Sprite" parent="Mayor"]
-position = Vector2( 0, -400 )
+position = Vector2( 0, -256 )
 texture = ExtResource( 3 )
 
 [node name="Aristocrats" type="Area2D" parent="."]

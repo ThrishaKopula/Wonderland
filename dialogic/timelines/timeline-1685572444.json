@@ -56,7 +56,7 @@
 			"character": "character-1681272416.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Your grades have beenn slipping."
+			"text": "Your grades have been slipping."
 		},
 		{
 			"character": "character-1681086055.json",
@@ -68,7 +68,7 @@
 			"character": "character-1681272416.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "I assumed from the pop quiz that you were ok on your own, but it seems that youu might need extra help."
+			"text": "I assumed from the pop quiz that you were ok on your own, but it seems that you might need extra help."
 		},
 		{
 			"character": "character-1681086055.json",
@@ -92,24 +92,24 @@
 			"character": "character-1681272416.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Well it's Marlon of course!"
+			"text": "Well it's Marlon, of course!"
 		},
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "shock",
 			"text": "( MARLON?! HOW? )"
 		},
 		{
 			"character": "character-1681272416.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "You should definitely talk to him and scheudle a session."
+			"text": "You should definitely talk to him and schedule a session."
 		},
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Default",
 			"text": "( Ugh. This is so embarrasing.)"
 		},
 		{

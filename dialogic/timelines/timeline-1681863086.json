@@ -134,13 +134,13 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "mad_wonderland",
 			"text": "( Okay, so I’m working with a carnival fortune teller and a… bunny. )"
 		},
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "default_wonderland",
 			"text": "Well, I don’t know anything about Wonderland. Where do I even start?"
 		},
 		{
@@ -188,13 +188,13 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "( This queen must have a lot of influence over here. )"
+			"portrait": "shock_wonderland",
+			"text": "( This queen guy must have a lot of influence over here. )"
 		},
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "default_wonderland",
 			"text": "That’s fine. As long as you stick around and give me those magical treats, I’ll do the talking."
 		},
 		{
@@ -255,7 +255,7 @@
 			"character": "character-1681086547.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Here, lemme show you how to use it now…"
+			"text": "Here, lemme show you how to use it now… [b]Press M to travel between Wonderland and your Overworld.[/b]"
 		},
 		{
 			"background": "res://dialogic/black.jpeg",
@@ -356,7 +356,7 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "mad",
 			"text": "…"
 		},
 		{
@@ -368,7 +368,7 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "mad",
 			"text": "Ugh…Goodnight."
 		},
 		{

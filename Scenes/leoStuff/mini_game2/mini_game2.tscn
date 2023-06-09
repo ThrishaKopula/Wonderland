@@ -322,7 +322,7 @@ anims/lose = SubResource( 6 )
 [node name="BartendingAudio" type="AudioStreamPlayer" parent="."]
 pause_mode = 2
 stream = ExtResource( 21 )
-volume_db = -10.0
+volume_db = -3.0
 autoplay = true
 
 [connection signal="pressed" from="finish/finishButt" to="." method="_on_finishButt_pressed"]

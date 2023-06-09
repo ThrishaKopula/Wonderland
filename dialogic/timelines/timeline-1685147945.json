@@ -83,13 +83,13 @@
 			"character": "character-1682574603.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Say something, you fucking bastard!"
+			"text": "Say something, you bastard!"
 		},
 		{
 			"character": "character-1682574603.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Were these all those ‘business trips’ you went on?"
+			"text": "What were all those ‘business trips’ you went on?"
 		},
 		{
 			"character": "character-1682574603.json",
@@ -234,7 +234,7 @@
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "… I need that money. With that money mom promised me… I can do whatever I want to live my life too."
+			"text": "With that money mom promised me… I can do whatever I want to live my life too."
 		},
 		{
 			"background": "res://dialogic/black.jpeg",
@@ -311,8 +311,8 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "SHUT THE FUCK UP!!"
+			"portrait": "mad",
+			"text": "SHUT UP!!"
 		},
 		{
 			"animation": "[Default]",
@@ -367,7 +367,7 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "mad",
 			"text": "The whole school is awake! What’s your deal?"
 		},
 		{
@@ -379,7 +379,7 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Default",
 			"text": "Ugh, class…?"
 		},
 		{
@@ -403,13 +403,13 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "shock",
 			"text": "A MINUTE! All that beeping with a minute to spare!?"
 		},
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Default",
 			"text": "Alright, I'll head to class, but you better be gone by the time I come back."
 		},
 		{
@@ -427,6 +427,15 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Okay he’s gone, I swear it’s in here somewhere…"
+		},
+		{
+			"background": "res://dialogic/black.jpeg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
 		},
 		{
 			"background": "res://Scenes/thrishaStuff/images/dialog_backgrounds/Classroom_1920.png",
@@ -479,8 +488,8 @@
 			"options": [
 
 			],
-			"portrait": "",
-			"question": "What is my favorite color?"
+			"portrait": "shock",
+			"question": "Let's see here... \"What color is an apple?\""
 		},
 		{
 			"choice": "Purple",
@@ -490,7 +499,59 @@
 			"value": ""
 		},
 		{
-			"choice": "Yellow",
+			"choice": "Blue",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "shock",
+			"question": "What... \"What color is an orange?\""
+		},
+		{
+			"choice": "Apple",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "Another apple",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1681086055.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "shock",
+			"question": "Alright last one... \"Which financial institution has launched a 'green' bond fund for central banks to promote green finance?\""
+		},
+		{
+			"choice": "Huh?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "I'm definitely failing this...",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
@@ -518,13 +579,13 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "Default",
+			"portrait": "shock",
 			"text": "( Man… there’s no way I passed that… )"
 		},
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Default",
 			"text": "( Ugh… )"
 		},
 		{
@@ -867,7 +928,7 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "default_wonderland",
+			"portrait": "shock_wonderland",
 			"text": "Uh… Well… okay."
 		},
 		{
@@ -879,7 +940,7 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "default_wonderland",
 			"text": "Who are you?"
 		},
 		{
@@ -891,7 +952,7 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "shock_wonderland",
 			"text": "Why are you a bunny?"
 		},
 		{
@@ -971,19 +1032,19 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "default_wonderland",
+			"portrait": "shock_wonderland",
 			"text": "Alright, alright, I get it."
 		},
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "default_wonderland",
 			"text": "…"
 		},
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "mad_wonderland",
 			"text": "What sort of harlequin-looking costume is this?"
 		},
 		{
@@ -1033,10 +1094,6 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "March, come here for a moment…"
-		},
-		{
-			"background": "res://Scenes/thrishaStuff/images/dialog_backgrounds/Tea_Party_1920.png",
-			"event_id": "dialogic_021"
 		},
 		{
 			"character": "character-1681338302.json",
@@ -1351,7 +1408,7 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "shock_wonderland",
 			"text": "What… What is this?"
 		},
 		{
@@ -1375,7 +1432,7 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "default_wonderland",
 			"text": "( I’m not eating that. )"
 		},
 		{
@@ -1427,13 +1484,13 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "shock_wonderland",
 			"text": "( … )"
 		},
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "default_wonderland",
 			"text": "( How can I purchase this? )"
 		},
 		{
@@ -1551,7 +1608,7 @@
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_002",
 			"mirror_portrait": false,
-			"portrait": "Default",
+			"portrait": "shock",
 			"portrait_definition": "",
 			"position": {
 				"0": true,
@@ -1566,7 +1623,7 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "Default",
+			"portrait": "shock",
 			"text": "Ugh… I think I’m gonna be sick…"
 		},
 		{
@@ -1701,7 +1758,7 @@
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
 			"portrait": "mad",
-			"text": "GODDAMN, IT WASN’T A DREAM!"
+			"text": "IT WASN’T A DREAM!"
 		},
 		{
 			"character": "character-1681086547.json",
@@ -1732,7 +1789,7 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "Default",
+			"portrait": "shock",
 			"text": "Huh?"
 		},
 		{
@@ -1744,7 +1801,7 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Default",
 			"text": "( Oh, they were serious huh… )"
 		},
 		{
@@ -1890,7 +1947,7 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "Default",
+			"portrait": "shock",
 			"text": "( What? )"
 		},
 		{
@@ -1898,18 +1955,6 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "( What was that? )"
-		},
-		{
-			"character": "character-1681086055.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "( There’s no way I actually passed…Unless… )"
-		},
-		{
-			"character": "character-1681086547.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "Nope, there’s no way you passed."
 		},
 		{
 			"character": "character-1681086055.json",
@@ -1932,7 +1977,7 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Default",
 			"text": "How interesting…"
 		},
 		{
@@ -2018,7 +2063,7 @@
 		{
 			"character": "character-1681086547.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "shock_overworld",
 			"text": "!!!"
 		},
 		{
@@ -2030,13 +2075,13 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Default",
 			"text": "Take me back to your… What did you call it?"
 		},
 		{
 			"character": "character-1681086547.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Default",
 			"text": "Oh, Wonderland! Yes! Yes, that’s lovely, come with me!"
 		},
 		{
@@ -2221,25 +2266,13 @@
 			"character": "character-1681338302.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "However, when other sorcerers caught wind of her discovery, the music box was shattered as she played it, tearing the space between your world and Wonderland."
+			"text": "However, the music box shattered as she played it, tearing the space between your world and Wonderland."
 		},
 		{
 			"character": "character-1681338302.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "The pieces of the box were scattered across both worlds, and the power to substantiate wishes were lost forever."
-		},
-		{
-			"character": "character-1681086547.json",
-			"event_id": "dialogic_001",
-			"portrait": "default_wonderland",
-			"text": "Or so we thought!"
-		},
-		{
-			"character": "character-1681338302.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "Yes."
+			"text": "The pieces of the box were scattered across both worlds, and the power to substantiate wishes were lost forever, but the two worlds became connected."
 		},
 		{
 			"character": "character-1681338302.json",
@@ -2260,9 +2293,9 @@
 			"text": "Yes, what you see here is the [b]outer box[/b] of that very music box."
 		},
 		{
-			"character": "character-1681338302.json",
+			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "shock_wonderland",
 			"text": "W-Woah…"
 		},
 		{
@@ -2298,7 +2331,7 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "default_wonderland",
 			"text": "( Oh… I guess I did work pretty hard begging mom to buy me the latest models. )"
 		},
 		{
@@ -2352,13 +2385,13 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "mad_wonderland",
 			"text": "Yay!"
 		},
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "default_wonderland",
 			"text": "( Hopefully this will be over soon… )"
 		},
 		{

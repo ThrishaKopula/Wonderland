@@ -139,7 +139,7 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "mad_wonderland",
 			"text": "( …Are you kidding? )"
 		},
 		{
@@ -203,7 +203,7 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "default_wonderland",
 			"text": "( …Interesting replacement for a cork… but it’s what I need! No complaining here. )"
 		},
 		{

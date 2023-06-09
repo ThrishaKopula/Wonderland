@@ -65,7 +65,7 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "happy_wonderland",
 			"text": "Here, this is a nice thing to put up on your wall at home!"
 		},
 		{
@@ -161,7 +161,7 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "default_wonderland",
 			"text": "Lovely doing business with you all."
 		},
 		{

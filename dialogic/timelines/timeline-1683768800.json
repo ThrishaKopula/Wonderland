@@ -10,6 +10,22 @@
 			"wait_seconds": 2
 		},
 		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1683081099.cfg"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alistair has had a long day of running around and crawls into bed for the night."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Once again, as he drifts off to sleep, his mind starts to dream."
+		},
+		{
 			"audio_bus": "Master",
 			"background-music": "play",
 			"event_id": "dialogic_031",
@@ -78,7 +94,7 @@
 			"character": "character-1682643732.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "I found some pieces of wood leftover from the treehouse you built for me."
+			"text": "I found some pieces of wood leftover from the treehouse you bought me."
 		},
 		{
 			"character": "character-1682643732.json",
@@ -218,13 +234,13 @@
 			"character": "character-1682643732.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Okay, mom"
+			"text": "Okay, mom."
 		},
 		{
 			"character": "character-1682643732.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "I’m going to go play in my room."
+			"text": "I’m going to go play in my room. *sniff*"
 		},
 		{
 			"character": "character-1682574603.json",
@@ -239,7 +255,7 @@
 			"text": "*Sigh* "
 		},
 		{
-			"background": "res://Scenes/thrishaStuff/images/dialog_backgrounds/Dorm_W_Mirror_1920.png",
+			"background": "res://Scenes/thrishaStuff/images/dialog_backgrounds/Dorm_Night.png",
 			"event_id": "dialogic_021"
 		},
 		{
@@ -395,12 +411,6 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "The piece should be in your world this time. We can start looking for clues once class is over, just like last time."
-		},
-		{
-			"character": "character-1681086547.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "Oh, but you should ask around here and in Wonderland for information. Who knows what clues you’ll find."
 		},
 		{
 			"character": "character-1681086055.json",

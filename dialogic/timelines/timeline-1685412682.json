@@ -29,8 +29,8 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "( Heh, this looks like a children’s cafeteria. The food looks so bland! )"
+			"portrait": "shock",
+			"text": "( Huh, this looks like a children’s cafeteria. The food looks so bland! )"
 		},
 		{
 			"animation": "[Default]",
@@ -61,7 +61,7 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Default",
 			"text": "Oh, uh… I…"
 		},
 		{

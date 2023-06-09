@@ -7424,7 +7424,7 @@ position = Vector2( 11, -11.5 )
 shape = SubResource( 8 )
 
 [node name="QuestionMark" type="Sprite" parent="MadHatter"]
-position = Vector2( 0, -400 )
+position = Vector2( 0, -446 )
 texture = ExtResource( 3 )
 
 [node name="Marlon" type="Area2D" parent="."]

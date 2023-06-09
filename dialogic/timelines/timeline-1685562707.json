@@ -21,13 +21,13 @@
 			"z_index": 0
 		},
 		{
-			"character": "",
+			"character": "character-1683771916.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "*mutter mutter*"
 		},
 		{
-			"character": "",
+			"character": "character-1683771916.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Today's the day..."

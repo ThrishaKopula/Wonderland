@@ -17,7 +17,7 @@
 			"character": "character-1681086547.json",
 			"event_id": "dialogic_002",
 			"mirror_portrait": false,
-			"portrait": "Default",
+			"portrait": "default_wonderland",
 			"portrait_definition": "",
 			"position": {
 				"0": true,
@@ -33,7 +33,55 @@
 			"character": "character-1681086547.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "bartending rules"
+			"text": "Looking good behind the bar, Alistair!"
+		},
+		{
+			"character": "character-1681086547.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "There are 5 drink orders that you need to make. But you have to be quick, cause you're on the clock!"
+		},
+		{
+			"character": "character-1681086547.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "There are 3 drink flavors, and it's on you to measure the customers' drink order."
+		},
+		{
+			"character": "character-1681086547.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Click [b]New Drink[/b] to recieve an empty cup, and drag it to the correct filling stations. "
+		},
+		{
+			"character": "character-1681086547.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Then click on the flavoring bottle to dispense 1x of that flavoring."
+		},
+		{
+			"character": "character-1681086547.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Once you've crafted the correct drink, click [b]Finish Drink[/b] to serve the customer."
+		},
+		{
+			"character": "character-1681086547.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "If you think you made a mistake, you can always [b]Discard Drink[/b] and start over."
+		},
+		{
+			"character": "character-1681086547.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "If you give the customer an incorrect drink, you will have to start over."
+		},
+		{
+			"character": "character-1681086547.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "And remember, if you find your back against the wall, you do have that treat we gave you!"
 		}
 	],
 	"metadata": {

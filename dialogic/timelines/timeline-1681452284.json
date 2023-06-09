@@ -136,7 +136,7 @@
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
 			"portrait": "happy_wonderland",
-			"text": "Really!"
+			"text": "Really!?"
 		},
 		{
 			"character": "character-1681439104.json",
@@ -197,7 +197,7 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "default_wonderland",
 			"text": "Huh?"
 		},
 		{
@@ -227,7 +227,7 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "shock_wonderland",
 			"text": "Excuse me?"
 		},
 		{
@@ -239,7 +239,7 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "mad_wonderland",
 			"text": "…Fine, fine! What do I need to do?"
 		},
 		{

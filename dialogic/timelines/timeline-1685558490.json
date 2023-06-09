@@ -56,7 +56,7 @@
 			"character": "character-1683770218.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Ahh don't worry son, it's just my age catching up to me!"
+			"text": "Don't worry son, it's just my age catching up to me!"
 		},
 		{
 			"character": "character-1683770218.json",
@@ -98,7 +98,7 @@
 			"character": "character-1683770218.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Well, these floors won't clean themseves! And you, off to class now boy!"
+			"text": "Well, these floors won't clean themseves! And you, off to class now, boy!"
 		}
 	],
 	"metadata": {

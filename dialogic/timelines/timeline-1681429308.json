@@ -20,6 +20,16 @@
 		},
 		{
 			"event_id": "dialogic_024",
+			"set_theme": "theme-1683081099.cfg"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alistair is fast asleep and he's dreaming once again..."
+		},
+		{
+			"event_id": "dialogic_024",
 			"set_theme": "theme-1683686222.cfg"
 		},
 		{
@@ -86,7 +96,7 @@
 			"character": "character-1682633822.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "See. Even though he's made his decision. Plus it’s easier this way. No need to hire someone to drop him off and pick him up everyday, just for him to talk to kids that aren’t like him…"
+			"text": "See. He's made his decision. Plus it’s easier this way. No need to hire someone to drop him off and pick him up everyday, just for him to talk to kids that aren’t like him…"
 		},
 		{
 			"character": "character-1682574603.json",

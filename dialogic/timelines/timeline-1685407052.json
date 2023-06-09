@@ -61,7 +61,7 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "shock",
 			"text": "What! No of course not!"
 		},
 		{
@@ -79,7 +79,7 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Default",
 			"text": "( A great fit... Me? Ew.)"
 		}
 	],

@@ -67,7 +67,7 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "mad",
 			"text": "( Little? Is he talking to me…? )"
 		},
 		{
@@ -91,7 +91,7 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Default",
 			"text": "( His energy is obnoxious… )"
 		},
 		{

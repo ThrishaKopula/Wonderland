@@ -38,7 +38,7 @@
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_002",
 			"mirror_portrait": false,
-			"portrait": "Default",
+			"portrait": "default_wonderland",
 			"portrait_definition": "",
 			"position": {
 				"0": true,
@@ -60,7 +60,7 @@
 			"character": "character-1681452544.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Oh? My apologies, then sir."
+			"text": "Oh? My apologies then, sir."
 		},
 		{
 			"character": "character-1681452544.json",
@@ -71,7 +71,7 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "shock_wonderland",
 			"text": "Did-did you just drink the entire glass?"
 		},
 		{
@@ -83,7 +83,7 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "shock_wonderland",
 			"text": "( Is this what he does everytime there's a wrong order? )"
 		}
 	],

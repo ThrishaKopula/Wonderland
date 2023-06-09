@@ -32,8 +32,38 @@
 		{
 			"character": "character-1681086547.json",
 			"event_id": "dialogic_001",
+			"portrait": "default_wonderland",
+			"text": "Here we go, Alistair!"
+		},
+		{
+			"character": "character-1681086547.json",
+			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "tea party rules"
+			"text": "See this table we've set up? I want you to arrange it like I tell you."
+		},
+		{
+			"character": "character-1681086547.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Click [b]adjacent[/b] tea cups to swap their positions. Swap until the table matches the pattern on the right."
+		},
+		{
+			"character": "character-1681086547.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Be careful though, you only have a limited number of turns."
+		},
+		{
+			"character": "character-1681086547.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "But I guess if you really wanted to, you can try [b]cheating[/b]."
+		},
+		{
+			"character": "character-1681086547.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hehe that's all the hints I'll give. Good luck Alistair!"
 		}
 	],
 	"metadata": {

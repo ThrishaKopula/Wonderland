@@ -59,13 +59,13 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "mad",
 			"text": "Sheesh, calm down."
 		},
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Default",
 			"text": "…"
 		},
 		{
@@ -101,7 +101,7 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "mad",
 			"text": "My [b]strings[/b]?"
 		},
 		{
@@ -125,7 +125,7 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Default",
 			"text": "Uh… yeah, of course. I’ll take those [b]strings[/b] now. "
 		},
 		{
@@ -174,7 +174,7 @@
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Alright, time to take these [b]strings [/b] back to that Bard."
+			"text": "Alright, time to take these [b]strings[/b] back to that Bard."
 		}
 	],
 	"metadata": {

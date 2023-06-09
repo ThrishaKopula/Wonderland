@@ -64,7 +64,7 @@
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_002",
 			"mirror_portrait": false,
-			"portrait": "default_wonderland",
+			"portrait": "shock_wonderland",
 			"portrait_definition": "",
 			"position": {
 				"0": false,
@@ -109,8 +109,8 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "WHAT!? I’ll have you know my father is–"
+			"portrait": "mad_wonderland",
+			"text": "WHAT!? "
 		},
 		{
 			"character": "character-1685754645.json",
@@ -133,13 +133,13 @@
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "default_wonderland",
 			"text": "( … )"
 		},
 		{
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "mad_wonderland",
 			"text": "( Anyway! I would never act out like that! Hmph, I’ll talk to someone else. )"
 		}
 	],
