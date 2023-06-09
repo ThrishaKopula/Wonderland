@@ -29,7 +29,9 @@ func _ready():
 	add_child(dialog);
 
 func swap(item):
-
+	
+	$"../cup".play();
+	
 	if clicked_node == null:
 		clicked_node = item;
 		clicked_node.modulate = Color(0.662745, 0.662745, 0.662745);

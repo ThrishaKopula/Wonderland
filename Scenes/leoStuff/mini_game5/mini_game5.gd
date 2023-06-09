@@ -8,7 +8,7 @@ var red = true;
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	
+	$backsound.play();
 	if(StoryVariables.isNerdQuestEnded == false):
 		StoryVariables.badPoints += 1
 	if(StoryVariables.isMayorQuestEnded == false):
@@ -63,7 +63,8 @@ func play():
 				$base.get_node("AnimationPlayer").play("black win");
 				
 		yield($base.get_node("AnimationPlayer"),"animation_finished");
-		yield(get_tree().create_timer(1), "timeout");
+		$clock.play();
+		yield(get_tree().create_timer(2), "timeout");
 			
 		if gamba == 0 and red == true:
 			print("red")
@@ -85,7 +86,8 @@ func play():
 				$base.get_node("AnimationPlayer").play("black win");
 			
 			yield($base.get_node("AnimationPlayer"),"animation_finished");
-			yield(get_tree().create_timer(1), "timeout");
+			$clock.play();
+			yield(get_tree().create_timer(2), "timeout");
 			$winLogo.get_node("AnimationPlayer").play("win");
 			yield($winLogo.get_node("AnimationPlayer"),"animation_finished");
 			yield(get_tree().create_timer(1), "timeout");
@@ -100,7 +102,8 @@ func play():
 				$base.get_node("AnimationPlayer").play("red win");
 		
 			yield($base.get_node("AnimationPlayer"),"animation_finished");
-			yield(get_tree().create_timer(1), "timeout");
+			$clock.play();
+			yield(get_tree().create_timer(2), "timeout");
 			$winLogo.get_node("AnimationPlayer").play("lose");
 			yield($winLogo.get_node("AnimationPlayer"),"animation_finished");
 			yield(get_tree().create_timer(1), "timeout");

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/casino.mp3-c3229cf6828fb1e323a17a2979e2627e.mp3str"
+
+[deps]
+
+source_file="res://Scenes/leoStuff/mini_game5/casino.mp3"
+dest_files=[ "res://.import/casino.mp3-c3229cf6828fb1e323a17a2979e2627e.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

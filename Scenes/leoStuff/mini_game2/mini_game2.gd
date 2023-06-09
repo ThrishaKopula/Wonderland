@@ -91,6 +91,7 @@ func _on_newButt_pressed():
 func _on_drinkButt_pressed():
 	
 	if Mini2Global.cur_color == 1 and !Mini2Global.sending:
+		$pour.play();
 		Mini2Global.sending = true;
 		$drink1.get_node("AnimationPlayer").play("cherry pour");
 		
@@ -107,6 +108,7 @@ func _on_drinkButt_pressed():
 
 func _on_drinkButt2_pressed():
 	if Mini2Global.cur_color == 2 and !Mini2Global.sending:
+		$pour.play();
 		Mini2Global.sending = true;
 		Mini2Global.green_pump = Mini2Global.green_pump + 1;
 		$drink2.get_node("AnimationPlayer").play("peach pour");
@@ -121,6 +123,7 @@ func _on_drinkButt2_pressed():
 
 func _on_drinkButt3_pressed():
 	if Mini2Global.cur_color == 3 and !Mini2Global.sending:
+		$pour.play();
 		Mini2Global.sending = true;
 		Mini2Global.blue_pump = Mini2Global.blue_pump + 1;
 		$drink3.get_node("AnimationPlayer").play("lemon pour");

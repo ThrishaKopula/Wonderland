@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=2]
+[gd_scene load_steps=16 format=2]
 
 [ext_resource path="res://Scenes/leoStuff/mini_game5/mini_game5.gd" type="Script" id=1]
 [ext_resource path="res://Scenes/mimistuff/02 roulette animation/roulette.tscn" type="PackedScene" id=2]
@@ -8,6 +8,8 @@
 [ext_resource path="res://Scenes/leoStuff/mini_game1/art/win.png" type="Texture" id=6]
 [ext_resource path="res://Scenes/leoStuff/mini_game1/art/lose.png" type="Texture" id=7]
 [ext_resource path="res://Scenes/leoStuff/mini_game1/art/back.png" type="Texture" id=8]
+[ext_resource path="res://Scenes/leoStuff/mini_game5/clock.mp3" type="AudioStream" id=9]
+[ext_resource path="res://Scenes/leoStuff/mini_game5/casino.mp3" type="AudioStream" id=10]
 
 [sub_resource type="DynamicFont" id=1]
 size = 60
@@ -185,6 +187,13 @@ centered = false
 anims/RESET = SubResource( 3 )
 anims/lose = SubResource( 4 )
 anims/win = SubResource( 5 )
+
+[node name="clock" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 9 )
+
+[node name="backsound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 10 )
+volume_db = -10.0
 
 [connection signal="pressed" from="Red" to="." method="_on_Red_pressed"]
 [connection signal="pressed" from="Black" to="." method="_on_Black_pressed"]

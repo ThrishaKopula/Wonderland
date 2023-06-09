@@ -1,4 +1,4 @@
-[gd_scene load_steps=26 format=2]
+[gd_scene load_steps=27 format=2]
 
 [ext_resource path="res://Scenes/leoStuff/mini_game4/mini4Art/Cleaning_Mini_Game-5.png" type="Texture" id=1]
 [ext_resource path="res://Scenes/leoStuff/mini_game4/can.tscn" type="PackedScene" id=2]
@@ -17,6 +17,7 @@
 [ext_resource path="res://addons/dialogic/Example Assets/Fonts/Overlock/Overlock-Black.ttf" type="DynamicFontData" id=15]
 [ext_resource path="res://Scenes/leoStuff/mini_game2/mini2art/Bartending_Mini_game_-13.png" type="Texture" id=16]
 [ext_resource path="res://Scenes/thrishaStuff/Audio/TeaPartyGame/Kevin MacLeod： Got Funk.wav" type="AudioStream" id=17]
+[ext_resource path="res://Scenes/leoStuff/mini_game4/trash.mp3" type="AudioStream" id=18]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 987, 46.875 )
@@ -296,6 +297,9 @@ pause_mode = 2
 stream = ExtResource( 17 )
 volume_db = -10.0
 autoplay = true
+
+[node name="trash" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 18 )
 
 [connection signal="pressed" from="Button" to="Button" method="_on_Button_pressed"]
 [connection signal="pressed" from="cheat" to="." method="_on_cheat_pressed"]

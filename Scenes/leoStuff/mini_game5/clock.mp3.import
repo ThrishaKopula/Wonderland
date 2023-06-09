@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/clock.mp3-7de67ff32a0665200df91cf6adc52b81.mp3str"
+
+[deps]
+
+source_file="res://Scenes/leoStuff/mini_game5/clock.mp3"
+dest_files=[ "res://.import/clock.mp3-7de67ff32a0665200df91cf6adc52b81.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0
