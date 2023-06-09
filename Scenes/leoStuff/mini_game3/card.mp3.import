@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/card.mp3-f9d86955c353df9571e062f90732b7fc.mp3str"
+
+[deps]
+
+source_file="res://Scenes/leoStuff/mini_game3/card.mp3"
+dest_files=[ "res://.import/card.mp3-f9d86955c353df9571e062f90732b7fc.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

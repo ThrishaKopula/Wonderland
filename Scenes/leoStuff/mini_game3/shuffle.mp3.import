@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/shuffle.mp3-008cc0e430443f44b8e661d92ab95614.mp3str"
+
+[deps]
+
+source_file="res://Scenes/leoStuff/mini_game3/shuffle.mp3"
+dest_files=[ "res://.import/shuffle.mp3-008cc0e430443f44b8e661d92ab95614.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/drinkPour.mp3-351bd9a0f88bd131ea74b59d94e42e77.mp3str"
+
+[deps]
+
+source_file="res://Scenes/leoStuff/mini_game2/drinkPour.mp3"
+dest_files=[ "res://.import/drinkPour.mp3-351bd9a0f88bd131ea74b59d94e42e77.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

@@ -37,15 +37,18 @@ func new_game():
 	$"../get".texture = back_card;
 	pregame = true;
 	inAct = true;
+	$"../shuffle".play();
 	for n in range(10):
 		ran_shuffle();
 		
 	$"../lives".text = String(lives);
 	
 	yield(get_tree().create_timer(2), "timeout");
+	$"../card".play()
 	flip_up()
 	yield(get_tree().create_timer(8), "timeout");
 	flip_Down();
+	$"../card".play()
 	yield(get_tree().create_timer(1), "timeout");
 	
 	match pair_got:
@@ -67,7 +70,8 @@ func new_game():
 	pass
 
 func get_wCard():
-	var rng = RandomNumberGenerator.new()
+	$"../card".play();
+	var rng = RandomNumberGenerator.new();
 	rng.randomize();
 	var card = rng.randi_range(0,3);
 	
@@ -141,7 +145,7 @@ func _on_J2_pressed():
 	
 func pick(item,type):
 	print("start pick");
-	
+	$"../card".play();
 	if type == "Joker":
 		lives -= 1;
 		$"../lives".text = String(lives);
