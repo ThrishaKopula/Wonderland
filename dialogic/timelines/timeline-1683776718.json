@@ -38,7 +38,7 @@
 			"character": "character-1681086547.json",
 			"event_id": "dialogic_002",
 			"mirror_portrait": false,
-			"portrait": "Default",
+			"portrait": "default_wonderland",
 			"portrait_definition": "",
 			"position": {
 				"0": true,
@@ -266,7 +266,7 @@
 			"character": "character-1681086055.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "( Who is this Queen? They sound so scary… )"
+			"text": "( Who is this Queen? He sounds so scary… )"
 		},
 		{
 			"character": "character-1681086055.json",
@@ -416,7 +416,7 @@
 		},
 		{
 			"event_id": "dialogic_024",
-			"set_theme": "theme-1683685843.cfg"
+			"set_theme": "theme-1683686222.cfg"
 		},
 		{
 			"animation": "[Default]",
