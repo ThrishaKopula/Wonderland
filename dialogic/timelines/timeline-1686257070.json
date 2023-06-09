@@ -11,7 +11,7 @@
 			"animation_length": 0,
 			"change_mirror_portrait": false,
 			"change_z_index": false,
-			"character": "character-1681086547.json",
+			"character": "character-1684459870.json",
 			"event_id": "dialogic_002",
 			"mirror_portrait": false,
 			"portrait": "Default",
@@ -27,10 +27,34 @@
 			"z_index": 0
 		},
 		{
-			"character": "character-1681086547.json",
+			"character": "character-1684459870.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "memory rules"
+			"text": "Alright, listen up! Here's our rules!"
+		},
+		{
+			"character": "character-1684459870.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "See these cards? We'll flip them over briefly so you can memorize their locations."
+		},
+		{
+			"character": "character-1684459870.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Then we'll flip them back and ask you to find a matching pair."
+		},
+		{
+			"character": "character-1684459870.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "We'll play 4 rounds, and each round will get harder, so don't get cocky."
+		},
+		{
+			"character": "character-1684459870.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ready or not, here we go!"
 		}
 	],
 	"metadata": {
