@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://Scenes/leoStuff/HUD/pause/menu_font.tres" type="DynamicFont" id=1]
 [ext_resource path="res://Scenes/leoStuff/HUD/pause/pasue.gd" type="Script" id=2]
+[ext_resource path="res://Scenes/thrishaStuff/images/Controls.png" type="Texture" id=3]
 
 [node name="CanvasLayer" type="CanvasLayer"]
 script = ExtResource( 2 )
@@ -23,17 +24,36 @@ margin_bottom = 286.0
 custom_fonts/font = ExtResource( 1 )
 text = "Menu"
 
-[node name="save" type="Button" parent="."]
+[node name="control" type="Button" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -102.0
+margin_top = 306.0
+margin_right = 98.0
+margin_bottom = 386.0
+custom_fonts/font = ExtResource( 1 )
+text = "Control"
+
+[node name="controlSprite" type="Sprite" parent="."]
+visible = false
+texture = ExtResource( 3 )
+centered = false
+
+[node name="back" type="Button" parent="."]
 visible = false
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-margin_left = -100.0
-margin_top = 275.0
-margin_right = 100.0
-margin_bottom = 355.0
+margin_left = -710.0
+margin_top = -523.0
+margin_right = -510.0
+margin_bottom = -443.0
 custom_fonts/font = ExtResource( 1 )
-text = "Save"
+text = "Back"
 
 [connection signal="pressed" from="Menu" to="." method="_on_Menu_pressed"]
+[connection signal="pressed" from="control" to="." method="_on_control_pressed"]
+[connection signal="pressed" from="back" to="." method="_on_back_pressed"]
