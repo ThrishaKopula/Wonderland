@@ -20,7 +20,7 @@ func _ready():
 #	pass
 
 func _on_can_body_entered(body):
-	
+	$"../trash".play();
 	if $"..".cheat:
 		print("good");
 		body.queue_free();
