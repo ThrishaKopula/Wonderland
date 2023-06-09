@@ -220,6 +220,7 @@ func lose():
 	yield ($"../winLogo/AnimationPlayer","animation_finished");
 	
 	if StoryVariables.miniGameToMainMenu:
+		StoryVariables.miniGameToMainMenu = false;
 		Fade.change_scene("res://Scenes/thrishaStuff/MainMenu.tscn");
 	else:
 		Fade.change_scene("res://Scenes/leoStuff/mini_game3/mini_game3.tscn");

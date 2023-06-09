@@ -13,6 +13,7 @@ func _ready():
 
 func win():
 	if StoryVariables.miniGameToMainMenu:
+		StoryVariables.miniGameToMainMenu = false;
 		Fade.change_scene("res://Scenes/thrishaStuff/MainMenu.tscn");
 	else:
 		get_tree().paused = false;

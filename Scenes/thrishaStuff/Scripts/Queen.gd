@@ -39,6 +39,7 @@ func unpause(timeline_name):
 	StoryVariables.canPlayerMove = true
 #	ADD AFTER QUEEN GAME
 	StoryVariables.checkEnding()
+	Fade.change_scene("res://Scenes/leoStuff/mini_game5/mini_game5.tscn");
 
 func _on_Queen_body_entered(body):
 	if body.name == 'player':

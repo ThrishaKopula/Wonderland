@@ -43,6 +43,7 @@ func _process(delta):
 			$winLogo/AnimationPlayer.play("lose");
 			yield($winLogo/AnimationPlayer,"animation_finished");
 			if StoryVariables.miniGameToMainMenu:
+				StoryVariables.miniGameToMainMenu = false;
 				Fade.change_scene("res://Scenes/thrishaStuff/MainMenu.tscn");
 			else:
 				Fade.change_scene("res://Scenes/leoStuff/mini_game4/mini_game4.tscn");

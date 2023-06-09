@@ -207,3 +207,25 @@ func _on_creditsButton_mouse_entered():
 
 func _on_creditsButton_mouse_exited():
 	$credits.scale = Vector2(1, 1)
+
+
+func _on_rouletteButton_pressed():
+	StoryVariables.miniGameToMainMenu = true;
+	Fade.change_scene("res://Scenes/leoStuff/mini_game5/mini_game5.tscn")
+	yield(get_tree().create_timer(2), "timeout")
+	pass # Replace with function body.
+
+
+func _on_rouletteButton_button_down():
+	$ButtonClick.play()
+	pass # Replace with function body.
+
+
+func _on_rouletteButton_mouse_entered():
+	$roulette.scale = Vector2(1.1, 1.1)
+	pass # Replace with function body.
+
+
+func _on_rouletteButton_mouse_exited():
+	$roulette.scale = Vector2(1, 1)
+	pass # Replace with function body.

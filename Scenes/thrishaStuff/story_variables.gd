@@ -167,12 +167,12 @@ func checkEnding():
 	#when NPC help is ignored, badPoints+1
 	#when NPC is helped, goodPoints+1
 	#when player does not cheat in game, goodPoints+1
-	if(isNerdQuestEnded == false):
-		badPoints += 1
-	if(isMayorQuestEnded == false):
-		badPoints += 1
-	if(isJockQuestEnded == false):
-		badPoints += 1
+#	if(isNerdQuestEnded == false):
+#		badPoints += 1
+#	if(isMayorQuestEnded == false):
+#		badPoints += 1
+#	if(isJockQuestEnded == false):
+#		badPoints += 1
 
 	if(goodPoints >= badPoints):
 		get_tree().paused = false
