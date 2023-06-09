@@ -286,13 +286,13 @@
 							},
 							"metadata": {
 								"color": null,
-								"folded": true
+								"folded": false
 							}
 						}
 					},
 					"metadata": {
 						"color": null,
-						"folded": true
+						"folded": false
 					}
 				},
 				"Cheerleader": {
@@ -543,7 +543,7 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": false
+						"folded": true
 					}
 				},
 				"Thief": {

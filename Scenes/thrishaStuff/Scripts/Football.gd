@@ -31,9 +31,10 @@ func unpause(timeline_name):
 	StoryVariables.canPlayerMove = true
 	active = false
 	StoryVariables.chapter1_checkIfPlebItemsCollected()
+	hide()
 
 func _on_Football_body_entered(body):
-	if (body.name == 'player' and StoryVariables.isGetIngredientsFromVendors == true):
+	if (body.name == 'player' and StoryVariables.isGetIngredientsFromVendors == true and StoryVariables.isPleb_CItemCollected == false):
 		active = true
 
 func _on_Football_body_exited(body):

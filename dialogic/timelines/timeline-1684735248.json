@@ -2,7 +2,7 @@
 	"events": [
 		{
 			"event_id": "dialogic_024",
-			"set_theme": "theme-1683225590.cfg"
+			"set_theme": "default-theme.cfg"
 		},
 		{
 			"animation": "[Default]",

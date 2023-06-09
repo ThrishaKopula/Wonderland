@@ -1,4 +1,4 @@
-[gd_scene load_steps=126 format=2]
+[gd_scene load_steps=128 format=2]
 
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/Nerd.gd" type="Script" id=1]
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/Watercolor.gd" type="Script" id=2]
@@ -98,6 +98,8 @@
 [ext_resource path="res://Scenes/mimistuff/nerd/Nerd-12.png" type="Texture" id=96]
 [ext_resource path="res://Scenes/mimistuff/nerd/Nerd-13.png" type="Texture" id=97]
 [ext_resource path="res://Scenes/mimistuff/nerd/Nerd-14.png" type="Texture" id=98]
+[ext_resource path="res://Scenes/thrishaStuff/Scripts/RomanceNovel.gd" type="Script" id=99]
+[ext_resource path="res://Scenes/thrishaStuff/images/interactables/romanceBook.png" type="Texture" id=100]
 
 [sub_resource type="CircleShape2D" id=2]
 radius = 162.077
@@ -12416,6 +12418,23 @@ script = ExtResource( 10 )
 position = Vector2( 2480, 540 )
 texture = ExtResource( 3 )
 
+[node name="RomanceNovel" type="Area2D" parent="."]
+position = Vector2( 1346, 411 )
+script = ExtResource( 99 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RomanceNovel"]
+shape = SubResource( 2 )
+
+[node name="Sprite" type="Sprite" parent="RomanceNovel"]
+texture = ExtResource( 100 )
+
+[node name="QuestionMark" type="Sprite" parent="RomanceNovel"]
+position = Vector2( 0, -135 )
+texture = ExtResource( 5 )
+
 [node name="Watercolor" type="Area2D" parent="."]
 position = Vector2( 690, 390 )
 script = ExtResource( 2 )
@@ -12963,6 +12982,8 @@ pause_mode = 2
 stream = ExtResource( 9 )
 volume_db = -3.0
 
+[connection signal="body_entered" from="RomanceNovel" to="RomanceNovel" method="_on_RomanceNovel_body_entered"]
+[connection signal="body_exited" from="RomanceNovel" to="RomanceNovel" method="_on_RomanceNovel_body_exited"]
 [connection signal="body_entered" from="Watercolor" to="Watercolor" method="_on_Watercolor_body_entered"]
 [connection signal="body_exited" from="Watercolor" to="Watercolor" method="_on_Watercolor_body_exited"]
 [connection signal="body_entered" from="Professor" to="Professor" method="_on_Professor_body_entered"]

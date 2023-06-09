@@ -1,4 +1,4 @@
-[gd_scene load_steps=123 format=2]
+[gd_scene load_steps=127 format=2]
 
 [ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/Overworld-Alistair-Idle-4.png" type="Texture" id=1]
 [ext_resource path="res://Scenes/mimistuff/marlon/Marlon-Wonderland-10.png" type="Texture" id=2]
@@ -95,6 +95,12 @@
 [ext_resource path="res://Scenes/mimistuff/lunch_lady/Lunch-Lady-10.png" type="Texture" id=93]
 [ext_resource path="res://Scenes/mimistuff/lunch_lady/Lunch-Lady-8.png" type="Texture" id=94]
 [ext_resource path="res://Scenes/mimistuff/lunch_lady/Lunch-Lady-14.png" type="Texture" id=95]
+[ext_resource path="res://Scenes/thrishaStuff/Scripts/Knife.gd" type="Script" id=96]
+[ext_resource path="res://Scenes/thrishaStuff/images/F_To_Interact.png" type="Texture" id=97]
+[ext_resource path="res://Scenes/thrishaStuff/images/interactables/knife.png" type="Texture" id=98]
+
+[sub_resource type="CircleShape2D" id=29]
+radius = 162.077
 
 [sub_resource type="Animation" id=23]
 resource_name = "Idle 1 Overworld"
@@ -12413,6 +12419,24 @@ script = ExtResource( 9 )
 position = Vector2( 2479.5, 540 )
 texture = ExtResource( 68 )
 
+[node name="Knife" type="Area2D" parent="."]
+position = Vector2( 3116, 707 )
+script = ExtResource( 96 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Knife"]
+shape = SubResource( 29 )
+
+[node name="Sprite" type="Sprite" parent="Knife"]
+rotation = -1.62936
+texture = ExtResource( 98 )
+
+[node name="QuestionMark" type="Sprite" parent="Knife"]
+position = Vector2( 0, -135 )
+texture = ExtResource( 97 )
+
 [node name="NPC" type="Area2D" parent="."]
 pause_mode = 2
 position = Vector2( 3693, 501 )
@@ -12943,6 +12967,8 @@ pause_mode = 2
 stream = ExtResource( 8 )
 volume_db = -3.0
 
+[connection signal="body_entered" from="Knife" to="Knife" method="_on_Knife_body_entered"]
+[connection signal="body_exited" from="Knife" to="Knife" method="_on_Knife_body_exited"]
 [connection signal="body_entered" from="NPC" to="NPC" method="_on_NPC_body_entered"]
 [connection signal="body_exited" from="NPC" to="NPC" method="_on_NPC_body_exited"]
 [connection signal="body_entered" from="MusicGeek" to="MusicGeek" method="_on_MusicGeek_body_entered"]
