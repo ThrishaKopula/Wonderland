@@ -12415,7 +12415,7 @@ texture = ExtResource( 69 )
 
 [node name="Bartender" type="Area2D" parent="."]
 pause_mode = 2
-position = Vector2( 514, 625 )
+position = Vector2( 534, 605 )
 rotation = 0.00164021
 scale = Vector2( -1, 1 )
 script = ExtResource( 5 )
@@ -12534,7 +12534,7 @@ anims/RESET = SubResource( 14 )
 anims/UNAVAILABLE = SubResource( 15 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Bartender"]
-position = Vector2( 288, 54.5 )
+position = Vector2( -400, 54.5 )
 scale = Vector2( 50.16, 26.44 )
 shape = SubResource( 30 )
 

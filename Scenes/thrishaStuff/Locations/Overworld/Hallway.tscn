@@ -7304,7 +7304,7 @@ position = Vector2( 3177, 540 )
 texture = ExtResource( 71 )
 
 [node name="Spade" type="Area2D" parent="."]
-position = Vector2( 5096, 611 )
+position = Vector2( 5157, 675 )
 script = ExtResource( 86 )
 __meta__ = {
 "_edit_group_": true
@@ -7315,7 +7315,6 @@ shape = SubResource( 46 )
 
 [node name="Sprite" type="Sprite" parent="Spade"]
 rotation = 0.232332
-scale = Vector2( 2, 2 )
 texture = ExtResource( 85 )
 
 [node name="QuestionMark" type="Sprite" parent="Spade"]
