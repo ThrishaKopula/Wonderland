@@ -1,4 +1,4 @@
-[gd_scene load_steps=51 format=2]
+[gd_scene load_steps=66 format=2]
 
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/QueenCourt.gd" type="Script" id=1]
 [ext_resource path="res://Scenes/mimistuff/alistair_animations/character.tscn" type="PackedScene" id=2]
@@ -38,6 +38,21 @@
 [ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/coattail_blank.png" type="Texture" id=36]
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/Queen.gd" type="Script" id=37]
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/Guard.gd" type="Script" id=38]
+[ext_resource path="res://Scenes/mimistuff/queen/Queen-12.png" type="Texture" id=39]
+[ext_resource path="res://Scenes/mimistuff/queen/Queen-2.png" type="Texture" id=40]
+[ext_resource path="res://Scenes/mimistuff/queen/Queen-16.png" type="Texture" id=41]
+[ext_resource path="res://Scenes/mimistuff/queen/Queen-8.png" type="Texture" id=42]
+[ext_resource path="res://Scenes/mimistuff/queen/Queen-7.png" type="Texture" id=43]
+[ext_resource path="res://Scenes/mimistuff/queen/Queen-14.png" type="Texture" id=44]
+[ext_resource path="res://Scenes/mimistuff/queen/Queen-4.png" type="Texture" id=45]
+[ext_resource path="res://Scenes/mimistuff/queen/Queen-10.png" type="Texture" id=46]
+[ext_resource path="res://Scenes/mimistuff/queen/Queen-11.png" type="Texture" id=47]
+[ext_resource path="res://Scenes/mimistuff/queen/Queen-5.png" type="Texture" id=48]
+[ext_resource path="res://Scenes/mimistuff/queen/Queen-13.png" type="Texture" id=49]
+[ext_resource path="res://Scenes/mimistuff/queen/Queen-15.png" type="Texture" id=50]
+[ext_resource path="res://Scenes/mimistuff/queen/Queen-6.png" type="Texture" id=51]
+[ext_resource path="res://Scenes/mimistuff/queen/Queen-9.png" type="Texture" id=52]
+[ext_resource path="res://Scenes/mimistuff/queen/Queen-3.png" type="Texture" id=53]
 
 [sub_resource type="Animation" id=2]
 resource_name = "Idle 1 Overworld"
@@ -3132,6 +3147,30 @@ tracks/44/keys = {
 "update": 1,
 "values": [ ExtResource( 27 ) ]
 }
+tracks/45/type = "value"
+tracks/45/path = NodePath("body/torso/head/hair:position")
+tracks/45/interp = 1
+tracks/45/loop_wrap = true
+tracks/45/imported = false
+tracks/45/enabled = true
+tracks/45/keys = {
+"times": PoolRealArray( 0, 1, 2 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 33, -3 ), Vector2( 49, -2 ), Vector2( 33, -3 ) ]
+}
+tracks/46/type = "value"
+tracks/46/path = NodePath("body/torso/head/hair:rotation_degrees")
+tracks/46/interp = 1
+tracks/46/loop_wrap = true
+tracks/46/imported = false
+tracks/46/enabled = true
+tracks/46/keys = {
+"times": PoolRealArray( 0, 1, 2 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ 0.0, -4.00214, 0.0 ]
+}
 
 [sub_resource type="Animation" id=9]
 resource_name = "Idle 2 Overworld"
@@ -3677,6 +3716,30 @@ tracks/44/keys = {
 "transitions": PoolRealArray( 1 ),
 "update": 1,
 "values": [ ExtResource( 27 ) ]
+}
+tracks/45/type = "value"
+tracks/45/path = NodePath("body/torso/head/hair:position")
+tracks/45/interp = 1
+tracks/45/loop_wrap = true
+tracks/45/imported = false
+tracks/45/enabled = true
+tracks/45/keys = {
+"times": PoolRealArray( 0, 0.75, 2.25, 3 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 48.652, -2.02175 ), Vector2( 33.9999, -10 ), Vector2( 48.788, -9.79895 ), Vector2( 48.652, -2.02175 ) ]
+}
+tracks/46/type = "value"
+tracks/46/path = NodePath("body/torso/head/hair:rotation_degrees")
+tracks/46/interp = 1
+tracks/46/loop_wrap = true
+tracks/46/imported = false
+tracks/46/enabled = true
+tracks/46/keys = {
+"times": PoolRealArray( 0, 0.75, 2.25, 3 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ -3.91509, 1.46668, -2.04306, -3.91509 ]
 }
 
 [sub_resource type="Animation" id=10]
@@ -4224,6 +4287,30 @@ tracks/44/keys = {
 "update": 1,
 "values": [ ExtResource( 27 ) ]
 }
+tracks/45/type = "value"
+tracks/45/path = NodePath("body/torso/head/hair:position")
+tracks/45/interp = 1
+tracks/45/loop_wrap = true
+tracks/45/imported = false
+tracks/45/enabled = true
+tracks/45/keys = {
+"times": PoolRealArray( 0, 0.75, 1.5 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 48.652, -2.02175 ), Vector2( 40.7565, -5.29641 ), Vector2( 48.652, -2.02175 ) ]
+}
+tracks/46/type = "value"
+tracks/46/path = NodePath("body/torso/head/hair:rotation_degrees")
+tracks/46/interp = 1
+tracks/46/loop_wrap = true
+tracks/46/imported = false
+tracks/46/enabled = true
+tracks/46/keys = {
+"times": PoolRealArray( 0, 0.75, 1.5 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ -3.91509, -0.705034, -3.91509 ]
+}
 
 [sub_resource type="Animation" id=11]
 length = 0.001
@@ -4767,6 +4854,30 @@ tracks/44/keys = {
 "update": 0,
 "values": [ Vector2( 1, 1 ) ]
 }
+tracks/45/type = "value"
+tracks/45/path = NodePath("body/torso/head/hair:position")
+tracks/45/interp = 1
+tracks/45/loop_wrap = true
+tracks/45/imported = false
+tracks/45/enabled = true
+tracks/45/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 33, -3 ) ]
+}
+tracks/46/type = "value"
+tracks/46/path = NodePath("body/torso/head/hair:rotation_degrees")
+tracks/46/interp = 1
+tracks/46/loop_wrap = true
+tracks/46/imported = false
+tracks/46/enabled = true
+tracks/46/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
+}
 
 [sub_resource type="Animation" id=12]
 resource_name = "UNAVAILABLE"
@@ -5264,7 +5375,7 @@ position = Vector2( 0, -400 )
 texture = ExtResource( 26 )
 
 [node name="Queen" type="Area2D" parent="."]
-position = Vector2( 3603, 588 )
+position = Vector2( 3815, 599 )
 script = ExtResource( 37 )
 __meta__ = {
 "_edit_group_": true
@@ -5276,97 +5387,102 @@ z_index = 10
 [node name="torso" type="Sprite" parent="Queen/body"]
 position = Vector2( 24, 106 )
 rotation = -0.0872665
-texture = ExtResource( 21 )
+texture = ExtResource( 39 )
 offset = Vector2( 24, -109 )
 region_rect = Rect2( 347, 299, 1, 0 )
 
 [node name="head" type="Sprite" parent="Queen/body/torso"]
 position = Vector2( 1, -125 )
 z_index = 1
-texture = ExtResource( 13 )
+texture = ExtResource( 41 )
 offset = Vector2( 25, 11 )
+
+[node name="hair" type="Sprite" parent="Queen/body/torso/head"]
+position = Vector2( 33, -3 )
+z_index = -2
+texture = ExtResource( 40 )
 
 [node name="butt" type="Sprite" parent="Queen/body/torso"]
 position = Vector2( -5.50391, 5.54138 )
 rotation = 0.122173
 z_index = -1
-texture = ExtResource( 9 )
+texture = ExtResource( 51 )
 offset = Vector2( 26, -114 )
 
 [node name="coattails" type="Sprite" parent="Queen/body/torso/butt"]
 position = Vector2( 4.63951, -28.6053 )
 rotation = -0.0872665
 z_index = -4
-texture = ExtResource( 6 )
+texture = ExtResource( 53 )
 offset = Vector2( 19, -70 )
 
 [node name="l thigh" type="Sprite" parent="Queen/body/torso/butt"]
 position = Vector2( -28, 14 )
 z_index = -1
-texture = ExtResource( 24 )
+texture = ExtResource( 48 )
 offset = Vector2( 54, -131 )
 
 [node name="l leg" type="Sprite" parent="Queen/body/torso/butt/l thigh"]
 position = Vector2( -2, 73 )
 z_index = -1
-texture = ExtResource( 7 )
+texture = ExtResource( 45 )
 offset = Vector2( 55, -206 )
 
 [node name="r thigh" type="Sprite" parent="Queen/body/torso/butt"]
 position = Vector2( 25, 10 )
 z_index = 1
-texture = ExtResource( 18 )
+texture = ExtResource( 42 )
 offset = Vector2( 0, -124 )
 
 [node name="r leg" type="Sprite" parent="Queen/body/torso/butt/r thigh"]
 position = Vector2( 3, 79 )
 z_index = -1
-texture = ExtResource( 17 )
+texture = ExtResource( 43 )
 offset = Vector2( -4, -207 )
 
 [node name="l upper" type="Sprite" parent="Queen/body/torso"]
 position = Vector2( -9, -109 )
 rotation = 0.107086
 z_index = -3
-texture = ExtResource( 20 )
+texture = ExtResource( 52 )
 offset = Vector2( 33, -1 )
 
 [node name="l arm" type="Sprite" parent="Queen/body/torso/l upper"]
 position = Vector2( -45.6521, 43.1264 )
 rotation = -0.881885
-texture = ExtResource( 32 )
+texture = ExtResource( 46 )
 offset = Vector2( 75, -43 )
 
 [node name="l hand" type="Sprite" parent="Queen/body/torso/l upper/l arm"]
 position = Vector2( -30, 40 )
 rotation = 0.106363
-texture = ExtResource( 19 )
+texture = ExtResource( 47 )
 offset = Vector2( 104, -79 )
 
 [node name="r upper" type="Sprite" parent="Queen/body/torso"]
 position = Vector2( 20, -115 )
 rotation = 0.19221
 z_index = 1
-texture = ExtResource( 11 )
+texture = ExtResource( 49 )
 offset = Vector2( 3, 0 )
 
 [node name="r arm" type="Sprite" parent="Queen/body/torso/r upper"]
 position = Vector2( 41, 42 )
 rotation = 2.68671
 z_index = 1
-texture = ExtResource( 25 )
+texture = ExtResource( 44 )
 offset = Vector2( -38, -43 )
 
 [node name="r hand" type="Sprite" parent="Queen/body/torso/r upper/r arm"]
 position = Vector2( 29, 38 )
 rotation = 0.348237
 z_index = 1
-texture = ExtResource( 15 )
+texture = ExtResource( 50 )
 offset = Vector2( -66, -78 )
 
 [node name="shadow" type="Sprite" parent="Queen/body"]
 position = Vector2( 37, -7 )
-z_index = -4
+z_index = -6
 texture = ExtResource( 14 )
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="Queen"]
