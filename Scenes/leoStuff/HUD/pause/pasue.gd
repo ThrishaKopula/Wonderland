@@ -15,6 +15,7 @@ func _ready():
 	hide();
 	$controlSprite.hide();
 	$back.hide();
+	$return.hide()
 	pass # Replace with function body.
 
 
@@ -36,17 +37,35 @@ func _on_Menu_pressed():
 	
 	pass # Replace with function body.
 
-
-
-
-
-func _on_back_pressed():
-	$controlSprite.hide();
-	$back.hide();
-	pass # Replace with function body.
-
-
 func _on_control_pressed():
 	$controlSprite.show();
 	$back.show();
+	$return.show()
+	$VBoxContainer.hide()
 	pass # Replace with function body.
+
+func _on_control_mouse_entered():
+	$VBoxContainer/control.rect_scale = Vector2(1.1, 1.1)
+
+func _on_control_mouse_exited():
+	$VBoxContainer/control.rect_scale = Vector2(1, 1)
+
+func _on_Menu_mouse_entered():
+	$VBoxContainer/Menu.rect_scale = Vector2(1.1, 1.1)
+
+func _on_Menu_mouse_exited():
+	$VBoxContainer/Menu.rect_scale = Vector2(1, 1)
+
+
+func _on_returnButton_pressed():
+	$controlSprite.hide();
+	$back.hide();
+	$return.hide()
+	$VBoxContainer.show()
+	$return.scale = Vector2(1, 1)
+
+func _on_returnButton_mouse_entered():
+	$return.scale = Vector2(1.1, 1.1)
+
+func _on_returnButton_mouse_exited():
+	$return.scale = Vector2(1, 1)

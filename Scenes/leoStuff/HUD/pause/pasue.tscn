@@ -1,59 +1,82 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://Scenes/leoStuff/HUD/pause/menu_font.tres" type="DynamicFont" id=1]
 [ext_resource path="res://Scenes/leoStuff/HUD/pause/pasue.gd" type="Script" id=2]
-[ext_resource path="res://Scenes/thrishaStuff/images/Controls.png" type="Texture" id=3]
+[ext_resource path="res://Scenes/thrishaStuff/images/controls.png" type="Texture" id=3]
+[ext_resource path="res://Scenes/thrishaStuff/images/pauseBackground.png" type="Texture" id=4]
+[ext_resource path="res://Scenes/thrishaStuff/images/pauseMenuButton.png" type="Texture" id=5]
+[ext_resource path="res://Scenes/thrishaStuff/images/pauseControlButton.png" type="Texture" id=6]
+[ext_resource path="res://Scenes/thrishaStuff/images/mainMenu/returnButton.png" type="Texture" id=7]
 
 [node name="CanvasLayer" type="CanvasLayer"]
 script = ExtResource( 2 )
 
-[node name="Panel" type="Panel" parent="."]
-modulate = Color( 1, 1, 1, 0.831373 )
-margin_right = 1920.0
-margin_bottom = 1080.0
-
-[node name="Menu" type="Button" parent="."]
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-margin_left = -100.0
-margin_top = 206.0
-margin_right = 100.0
-margin_bottom = 286.0
-custom_fonts/font = ExtResource( 1 )
-text = "Menu"
-
-[node name="control" type="Button" parent="."]
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-margin_left = -102.0
-margin_top = 306.0
-margin_right = 98.0
-margin_bottom = 386.0
-custom_fonts/font = ExtResource( 1 )
-text = "Control"
+[node name="background" type="Sprite" parent="."]
+position = Vector2( 960, 540 )
+texture = ExtResource( 4 )
 
 [node name="controlSprite" type="Sprite" parent="."]
 visible = false
 texture = ExtResource( 3 )
 centered = false
 
-[node name="back" type="Button" parent="."]
+[node name="return" type="Sprite" parent="."]
 visible = false
+position = Vector2( 1790, 953 )
+texture = ExtResource( 7 )
+offset = Vector2( -830, -413 )
+
+[node name="returnButton" type="Button" parent="return"]
+modulate = Color( 1, 1, 1, 0 )
+anchor_left = 0.956
+anchor_top = 0.89
+anchor_right = 0.964
+anchor_bottom = 0.911
+margin_left = -2082.52
+margin_top = -1061.2
+margin_right = -1534.88
+margin_bottom = -768.88
+rect_rotation = -35.4283
+rect_pivot_offset = Vector2( 211, 110 )
+flat = true
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-margin_left = -710.0
-margin_top = -523.0
-margin_right = -510.0
-margin_bottom = -443.0
-custom_fonts/font = ExtResource( 1 )
-text = "Back"
+margin_left = -269.0
+margin_top = -129.0
+margin_right = 269.0
+margin_bottom = 129.0
+alignment = 1
 
-[connection signal="pressed" from="Menu" to="." method="_on_Menu_pressed"]
-[connection signal="pressed" from="control" to="." method="_on_control_pressed"]
-[connection signal="pressed" from="back" to="." method="_on_back_pressed"]
+[node name="Menu" type="Button" parent="VBoxContainer"]
+margin_right = 538.0
+margin_bottom = 127.0
+rect_pivot_offset = Vector2( 281, 62 )
+custom_fonts/font = ExtResource( 1 )
+icon = ExtResource( 5 )
+flat = true
+
+[node name="control" type="Button" parent="VBoxContainer"]
+margin_top = 131.0
+margin_right = 538.0
+margin_bottom = 258.0
+rect_pivot_offset = Vector2( 280, 63 )
+custom_fonts/font = ExtResource( 1 )
+icon = ExtResource( 6 )
+flat = true
+
+[connection signal="mouse_entered" from="return/returnButton" to="." method="_on_returnButton_mouse_entered"]
+[connection signal="mouse_exited" from="return/returnButton" to="." method="_on_returnButton_mouse_exited"]
+[connection signal="pressed" from="return/returnButton" to="." method="_on_returnButton_pressed"]
+[connection signal="mouse_entered" from="VBoxContainer/Menu" to="." method="_on_Menu_mouse_entered"]
+[connection signal="mouse_exited" from="VBoxContainer/Menu" to="." method="_on_Menu_mouse_exited"]
+[connection signal="pressed" from="VBoxContainer/Menu" to="." method="_on_Menu_pressed"]
+[connection signal="mouse_entered" from="VBoxContainer/control" to="." method="_on_control_mouse_entered"]
+[connection signal="mouse_exited" from="VBoxContainer/control" to="." method="_on_control_mouse_exited"]
+[connection signal="pressed" from="VBoxContainer/control" to="." method="_on_control_pressed"]

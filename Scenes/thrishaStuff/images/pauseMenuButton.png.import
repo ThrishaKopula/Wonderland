@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/controls.png-3633be69456f1e0488008b2dda9a2be8.stex"
+path="res://.import/pauseMenuButton.png-841d5088ef82298b03a7ffa2ac7ebb63.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Scenes/thrishaStuff/images/controls.png"
-dest_files=[ "res://.import/controls.png-3633be69456f1e0488008b2dda9a2be8.stex" ]
+source_file="res://Scenes/thrishaStuff/images/pauseMenuButton.png"
+dest_files=[ "res://.import/pauseMenuButton.png-841d5088ef82298b03a7ffa2ac7ebb63.stex" ]
 
 [params]
 
