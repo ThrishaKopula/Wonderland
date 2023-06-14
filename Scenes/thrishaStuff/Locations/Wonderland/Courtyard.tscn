@@ -1,15 +1,31 @@
-[gd_scene load_steps=66 format=2]
+[gd_scene load_steps=69 format=2]
 
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/Courtyard.gd" type="Script" id=1]
+[ext_resource path="res://Scenes/mimistuff/jester_heart_MASTER/Jesters-12.png" type="Texture" id=2]
 [ext_resource path="res://Scenes/thrishaStuff/images/speech_bubbles/Speech_Bubble_-2.png" type="Texture" id=3]
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/Jesters.gd" type="Script" id=4]
 [ext_resource path="res://Scenes/leoStuff/HUD/HUD.tscn" type="PackedScene" id=5]
 [ext_resource path="res://Scenes/mimistuff/alistair_animations/character.tscn" type="PackedScene" id=6]
 [ext_resource path="res://Scenes/thrishaStuff/Audio/Courtyard/Kevin MacLeod： Carny's Dance.wav" type="AudioStream" id=7]
 [ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/Overworld-Alistair-Idle-10.png" type="Texture" id=8]
-[ext_resource path="res://Scenes/mimistuff/overworld_NPC/coattail blank.png" type="Texture" id=9]
+[ext_resource path="res://Scenes/mimistuff/jester_heart_MASTER/Jesters-18.png" type="Texture" id=9]
 [ext_resource path="res://Scenes/mimistuff/overworld_NPC/fadeshadow.png" type="Texture" id=10]
 [ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/coattail_blank.png" type="Texture" id=11]
+[ext_resource path="res://Scenes/mimistuff/jester_heart_MASTER/Jesters-3.png" type="Texture" id=12]
+[ext_resource path="res://Scenes/mimistuff/jester_heart_MASTER/Jesters-5.png" type="Texture" id=13]
+[ext_resource path="res://Scenes/mimistuff/jester_heart_MASTER/Jesters-14.png" type="Texture" id=14]
+[ext_resource path="res://Scenes/mimistuff/jester_heart_MASTER/Jesters-9.png" type="Texture" id=15]
+[ext_resource path="res://Scenes/mimistuff/jester_heart_MASTER/Jesters-11.png" type="Texture" id=16]
+[ext_resource path="res://Scenes/mimistuff/jester_heart_MASTER/Jesters-6.png" type="Texture" id=17]
+[ext_resource path="res://Scenes/mimistuff/jester_heart_MASTER/Jesters-10.png" type="Texture" id=18]
+[ext_resource path="res://Scenes/mimistuff/jester_heart_MASTER/Jesters-8.png" type="Texture" id=19]
+[ext_resource path="res://Scenes/mimistuff/jester_heart_MASTER/Jesters-19.png" type="Texture" id=20]
+[ext_resource path="res://Scenes/mimistuff/jester_heart_MASTER/Jesters-4.png" type="Texture" id=21]
+[ext_resource path="res://Scenes/mimistuff/jester_heart_MASTER/Jesters-13.png" type="Texture" id=22]
+[ext_resource path="res://Scenes/mimistuff/jester_heart_MASTER/Jesters-7.png" type="Texture" id=23]
+[ext_resource path="res://Scenes/mimistuff/jester_heart_MASTER/Jesters-15.png" type="Texture" id=24]
+[ext_resource path="res://Scenes/mimistuff/jester_heart_MASTER/Jesters-16.png" type="Texture" id=25]
+[ext_resource path="res://Scenes/mimistuff/jester_heart_MASTER/Jesters-17.png" type="Texture" id=26]
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/Heart.gd" type="Script" id=41]
 [ext_resource path="res://Scenes/thrishaStuff/images/dialog_backgrounds/courtyard/Queens_Courtyard-2.png" type="Texture" id=42]
 [ext_resource path="res://Scenes/thrishaStuff/images/dialog_backgrounds/courtyard/Queens_Courtyard-1.png" type="Texture" id=43]
@@ -22,22 +38,9 @@
 [ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/Overworld-Alistair-Idle-5.png" type="Texture" id=50]
 [ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/Overworld-Alistair-Idle-6.png" type="Texture" id=51]
 [ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/Overworld-Alistair-Idle-3.png" type="Texture" id=52]
-[ext_resource path="res://Scenes/mimistuff/overworld_NPC/Basic-Npcs-11.png" type="Texture" id=53]
-[ext_resource path="res://Scenes/mimistuff/overworld_NPC/Basic-Npcs-6.png" type="Texture" id=54]
-[ext_resource path="res://Scenes/mimistuff/overworld_NPC/Basic-Npcs-9.png" type="Texture" id=55]
 [ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/Overworld-Alistair-Idle-14.png" type="Texture" id=56]
 [ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/Overworld-Alistair-Idle-7.png" type="Texture" id=57]
-[ext_resource path="res://Scenes/mimistuff/overworld_NPC/Basic-Npcs-14.png" type="Texture" id=58]
-[ext_resource path="res://Scenes/mimistuff/overworld_NPC/Basic-Npcs-4.png" type="Texture" id=59]
-[ext_resource path="res://Scenes/mimistuff/overworld_NPC/Basic-Npcs-5.png" type="Texture" id=60]
-[ext_resource path="res://Scenes/mimistuff/overworld_NPC/Basic-Npcs-2.png" type="Texture" id=61]
 [ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/Overworld-Alistair-Idle-11.png" type="Texture" id=62]
-[ext_resource path="res://Scenes/mimistuff/overworld_NPC/Basic-Npcs-12.png" type="Texture" id=63]
-[ext_resource path="res://Scenes/mimistuff/overworld_NPC/Basic-Npcs-7.png" type="Texture" id=64]
-[ext_resource path="res://Scenes/mimistuff/overworld_NPC/Basic-Npcs-3.png" type="Texture" id=65]
-[ext_resource path="res://Scenes/mimistuff/overworld_NPC/Basic-Npcs-10.png" type="Texture" id=66]
-[ext_resource path="res://Scenes/mimistuff/overworld_NPC/Basic-Npcs-13.png" type="Texture" id=67]
-[ext_resource path="res://Scenes/mimistuff/overworld_NPC/Basic-Npcs-8.png" type="Texture" id=68]
 [ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/Overworld-Alistair-Idle-8.png" type="Texture" id=69]
 [ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/Overworld-Alistair-Idle-13.png" type="Texture" id=70]
 [ext_resource path="res://Scenes/mimistuff/alistair overworld idle/Alistair Idle Overworld/Overworld-Alistair-Idle-9.png" type="Texture" id=71]
@@ -10266,92 +10269,92 @@ z_index = 10
 [node name="torso" type="Sprite" parent="Jesters/Heart/body"]
 position = Vector2( 24, 106 )
 rotation = -0.0872665
-texture = ExtResource( 66 )
+texture = ExtResource( 2 )
 offset = Vector2( 24, -109 )
 region_rect = Rect2( 347, 299, 1, 0 )
 
 [node name="head" type="Sprite" parent="Jesters/Heart/body/torso"]
 position = Vector2( 1, -125 )
 z_index = 1
-texture = ExtResource( 58 )
+texture = ExtResource( 20 )
 offset = Vector2( 25, 11 )
 
 [node name="butt" type="Sprite" parent="Jesters/Heart/body/torso"]
 position = Vector2( -5.50391, 5.54138 )
 rotation = 0.122173
 z_index = -1
-texture = ExtResource( 59 )
+texture = ExtResource( 17 )
 offset = Vector2( 26, -114 )
 
 [node name="coattails" type="Sprite" parent="Jesters/Heart/body/torso/butt"]
 position = Vector2( 4.63951, -28.6053 )
 rotation = -0.0872665
 z_index = -4
-texture = ExtResource( 9 )
+texture = ExtResource( 12 )
 offset = Vector2( 19, -70 )
 
 [node name="l thigh" type="Sprite" parent="Jesters/Heart/body/torso/butt"]
 position = Vector2( -28, 14 )
 z_index = -1
-texture = ExtResource( 65 )
+texture = ExtResource( 13 )
 offset = Vector2( 54, -131 )
 
 [node name="l leg" type="Sprite" parent="Jesters/Heart/body/torso/butt/l thigh"]
 position = Vector2( -2, 73 )
 z_index = -1
-texture = ExtResource( 61 )
+texture = ExtResource( 21 )
 offset = Vector2( 55, -206 )
 
 [node name="r thigh" type="Sprite" parent="Jesters/Heart/body/torso/butt"]
 position = Vector2( 25, 10 )
 z_index = 1
-texture = ExtResource( 54 )
+texture = ExtResource( 19 )
 offset = Vector2( 0, -124 )
 
 [node name="r leg" type="Sprite" parent="Jesters/Heart/body/torso/butt/r thigh"]
 position = Vector2( 3, 79 )
 z_index = -1
-texture = ExtResource( 60 )
+texture = ExtResource( 23 )
 offset = Vector2( -4, -207 )
 
 [node name="l upper" type="Sprite" parent="Jesters/Heart/body/torso"]
 position = Vector2( -9, -109 )
 rotation = 0.107086
 z_index = -3
-texture = ExtResource( 64 )
+texture = ExtResource( 15 )
 offset = Vector2( 33, -1 )
 
 [node name="l arm" type="Sprite" parent="Jesters/Heart/body/torso/l upper"]
 position = Vector2( -45.6521, 43.1264 )
 rotation = -0.881885
-texture = ExtResource( 68 )
+texture = ExtResource( 18 )
 offset = Vector2( 75, -43 )
 
 [node name="l hand" type="Sprite" parent="Jesters/Heart/body/torso/l upper/l arm"]
 position = Vector2( -30, 40 )
 rotation = 0.106363
-texture = ExtResource( 55 )
+texture = ExtResource( 16 )
 offset = Vector2( 104, -79 )
 
 [node name="r upper" type="Sprite" parent="Jesters/Heart/body/torso"]
 position = Vector2( 20, -115 )
 rotation = 0.19221
 z_index = 1
-texture = ExtResource( 53 )
+texture = ExtResource( 22 )
 offset = Vector2( 3, 0 )
 
 [node name="r arm" type="Sprite" parent="Jesters/Heart/body/torso/r upper"]
 position = Vector2( 41, 42 )
 rotation = 2.68671
 z_index = 1
-texture = ExtResource( 63 )
+texture = ExtResource( 14 )
 offset = Vector2( -38, -43 )
 
 [node name="r hand" type="Sprite" parent="Jesters/Heart/body/torso/r upper/r arm"]
 position = Vector2( 29, 38 )
 rotation = 0.348237
 z_index = 1
-texture = ExtResource( 67 )
+texture = ExtResource( 24 )
 offset = Vector2( -66, -78 )
 
 [node name="shadow" type="Sprite" parent="Jesters/Heart/body"]
@@ -10384,92 +10387,92 @@ z_index = 10
 [node name="torso" type="Sprite" parent="Jesters/Spade/body"]
 position = Vector2( 24, 106 )
 rotation = -0.0872665
-texture = ExtResource( 66 )
+texture = ExtResource( 2 )
 offset = Vector2( 24, -109 )
 region_rect = Rect2( 347, 299, 1, 0 )
 
 [node name="head" type="Sprite" parent="Jesters/Spade/body/torso"]
 position = Vector2( 1, -125 )
 z_index = 1
-texture = ExtResource( 58 )
+texture = ExtResource( 25 )
 offset = Vector2( 25, 11 )
 
 [node name="butt" type="Sprite" parent="Jesters/Spade/body/torso"]
 position = Vector2( -5.50391, 5.54138 )
 rotation = 0.122173
 z_index = -1
-texture = ExtResource( 59 )
+texture = ExtResource( 17 )
 offset = Vector2( 26, -114 )
 
 [node name="coattails" type="Sprite" parent="Jesters/Spade/body/torso/butt"]
 position = Vector2( 4.63951, -28.6053 )
 rotation = -0.0872665
 z_index = -4
-texture = ExtResource( 9 )
+texture = ExtResource( 12 )
 offset = Vector2( 19, -70 )
 
 [node name="l thigh" type="Sprite" parent="Jesters/Spade/body/torso/butt"]
 position = Vector2( -28, 14 )
 z_index = -1
-texture = ExtResource( 65 )
+texture = ExtResource( 13 )
 offset = Vector2( 54, -131 )
 
 [node name="l leg" type="Sprite" parent="Jesters/Spade/body/torso/butt/l thigh"]
 position = Vector2( -2, 73 )
 z_index = -1
-texture = ExtResource( 61 )
+texture = ExtResource( 21 )
 offset = Vector2( 55, -206 )
 
 [node name="r thigh" type="Sprite" parent="Jesters/Spade/body/torso/butt"]
 position = Vector2( 25, 10 )
 z_index = 1
-texture = ExtResource( 54 )
+texture = ExtResource( 19 )
 offset = Vector2( 0, -124 )
 
 [node name="r leg" type="Sprite" parent="Jesters/Spade/body/torso/butt/r thigh"]
 position = Vector2( 3, 79 )
 z_index = -1
-texture = ExtResource( 60 )
+texture = ExtResource( 23 )
 offset = Vector2( -4, -207 )
 
 [node name="l upper" type="Sprite" parent="Jesters/Spade/body/torso"]
 position = Vector2( -9, -109 )
 rotation = 0.107086
 z_index = -3
-texture = ExtResource( 64 )
+texture = ExtResource( 15 )
 offset = Vector2( 33, -1 )
 
 [node name="l arm" type="Sprite" parent="Jesters/Spade/body/torso/l upper"]
 position = Vector2( -45.6521, 43.1264 )
 rotation = -0.881885
-texture = ExtResource( 68 )
+texture = ExtResource( 18 )
 offset = Vector2( 75, -43 )
 
 [node name="l hand" type="Sprite" parent="Jesters/Spade/body/torso/l upper/l arm"]
 position = Vector2( -30, 40 )
 rotation = 0.106363
-texture = ExtResource( 55 )
+texture = ExtResource( 16 )
 offset = Vector2( 104, -79 )
 
 [node name="r upper" type="Sprite" parent="Jesters/Spade/body/torso"]
 position = Vector2( 20, -115 )
 rotation = 0.19221
 z_index = 1
-texture = ExtResource( 53 )
+texture = ExtResource( 22 )
 offset = Vector2( 3, 0 )
 
 [node name="r arm" type="Sprite" parent="Jesters/Spade/body/torso/r upper"]
 position = Vector2( 41, 42 )
 rotation = 2.68671
 z_index = 1
-texture = ExtResource( 63 )
+texture = ExtResource( 14 )
 offset = Vector2( -38, -43 )
 
 [node name="r hand" type="Sprite" parent="Jesters/Spade/body/torso/r upper/r arm"]
 position = Vector2( 29, 38 )
 rotation = 0.348237
 z_index = 1
-texture = ExtResource( 67 )
+texture = ExtResource( 24 )
 offset = Vector2( -66, -78 )
 
 [node name="shadow" type="Sprite" parent="Jesters/Spade/body"]
@@ -10502,92 +10505,92 @@ z_index = 10
 [node name="torso" type="Sprite" parent="Jesters/Diamond/body"]
 position = Vector2( 24, 106 )
 rotation = -0.0872665
-texture = ExtResource( 66 )
+texture = ExtResource( 2 )
 offset = Vector2( 24, -109 )
 region_rect = Rect2( 347, 299, 1, 0 )
 
 [node name="head" type="Sprite" parent="Jesters/Diamond/body/torso"]
 position = Vector2( 1, -125 )
 z_index = 1
-texture = ExtResource( 58 )
+texture = ExtResource( 26 )
 offset = Vector2( 25, 11 )
 
 [node name="butt" type="Sprite" parent="Jesters/Diamond/body/torso"]
 position = Vector2( -5.50391, 5.54138 )
 rotation = 0.122173
 z_index = -1
-texture = ExtResource( 59 )
+texture = ExtResource( 17 )
 offset = Vector2( 26, -114 )
 
 [node name="coattails" type="Sprite" parent="Jesters/Diamond/body/torso/butt"]
 position = Vector2( 4.63951, -28.6053 )
 rotation = -0.0872665
 z_index = -4
-texture = ExtResource( 9 )
+texture = ExtResource( 12 )
 offset = Vector2( 19, -70 )
 
 [node name="l thigh" type="Sprite" parent="Jesters/Diamond/body/torso/butt"]
 position = Vector2( -28, 14 )
 z_index = -1
-texture = ExtResource( 65 )
+texture = ExtResource( 13 )
 offset = Vector2( 54, -131 )
 
 [node name="l leg" type="Sprite" parent="Jesters/Diamond/body/torso/butt/l thigh"]
 position = Vector2( -2, 73 )
 z_index = -1
-texture = ExtResource( 61 )
+texture = ExtResource( 21 )
 offset = Vector2( 55, -206 )
 
 [node name="r thigh" type="Sprite" parent="Jesters/Diamond/body/torso/butt"]
 position = Vector2( 25, 10 )
 z_index = 1
-texture = ExtResource( 54 )
+texture = ExtResource( 19 )
 offset = Vector2( 0, -124 )
 
 [node name="r leg" type="Sprite" parent="Jesters/Diamond/body/torso/butt/r thigh"]
 position = Vector2( 3, 79 )
 z_index = -1
-texture = ExtResource( 60 )
+texture = ExtResource( 23 )
 offset = Vector2( -4, -207 )
 
 [node name="l upper" type="Sprite" parent="Jesters/Diamond/body/torso"]
 position = Vector2( -9, -109 )
 rotation = 0.107086
 z_index = -3
-texture = ExtResource( 64 )
+texture = ExtResource( 15 )
 offset = Vector2( 33, -1 )
 
 [node name="l arm" type="Sprite" parent="Jesters/Diamond/body/torso/l upper"]
 position = Vector2( -45.6521, 43.1264 )
 rotation = -0.881885
-texture = ExtResource( 68 )
+texture = ExtResource( 18 )
 offset = Vector2( 75, -43 )
 
 [node name="l hand" type="Sprite" parent="Jesters/Diamond/body/torso/l upper/l arm"]
 position = Vector2( -30, 40 )
 rotation = 0.106363
-texture = ExtResource( 55 )
+texture = ExtResource( 16 )
 offset = Vector2( 104, -79 )
 
 [node name="r upper" type="Sprite" parent="Jesters/Diamond/body/torso"]
 position = Vector2( 20, -115 )
 rotation = 0.19221
 z_index = 1
-texture = ExtResource( 53 )
+texture = ExtResource( 22 )
 offset = Vector2( 3, 0 )
 
 [node name="r arm" type="Sprite" parent="Jesters/Diamond/body/torso/r upper"]
 position = Vector2( 41, 42 )
 rotation = 2.68671
 z_index = 1
-texture = ExtResource( 63 )
+texture = ExtResource( 14 )
 offset = Vector2( -38, -43 )
 
 [node name="r hand" type="Sprite" parent="Jesters/Diamond/body/torso/r upper/r arm"]
 position = Vector2( 29, 38 )
 rotation = 0.348237
 z_index = 1
-texture = ExtResource( 67 )
+texture = ExtResource( 24 )
 offset = Vector2( -66, -78 )
 
 [node name="shadow" type="Sprite" parent="Jesters/Diamond/body"]
@@ -10620,92 +10623,92 @@ z_index = 10
 [node name="torso" type="Sprite" parent="Jesters/Clover/body"]
 position = Vector2( 24, 106 )
 rotation = -0.0872665
-texture = ExtResource( 66 )
+texture = ExtResource( 2 )
 offset = Vector2( 24, -109 )
 region_rect = Rect2( 347, 299, 1, 0 )
 
 [node name="head" type="Sprite" parent="Jesters/Clover/body/torso"]
 position = Vector2( 1, -125 )
 z_index = 1
-texture = ExtResource( 58 )
+texture = ExtResource( 9 )
 offset = Vector2( 25, 11 )
 
 [node name="butt" type="Sprite" parent="Jesters/Clover/body/torso"]
 position = Vector2( -5.50391, 5.54138 )
 rotation = 0.122173
 z_index = -1
-texture = ExtResource( 59 )
+texture = ExtResource( 17 )
 offset = Vector2( 26, -114 )
 
 [node name="coattails" type="Sprite" parent="Jesters/Clover/body/torso/butt"]
 position = Vector2( 4.63951, -28.6053 )
 rotation = -0.0872665
 z_index = -4
-texture = ExtResource( 9 )
+texture = ExtResource( 12 )
 offset = Vector2( 19, -70 )
 
 [node name="l thigh" type="Sprite" parent="Jesters/Clover/body/torso/butt"]
 position = Vector2( -28, 14 )
 z_index = -1
-texture = ExtResource( 65 )
+texture = ExtResource( 13 )
 offset = Vector2( 54, -131 )
 
 [node name="l leg" type="Sprite" parent="Jesters/Clover/body/torso/butt/l thigh"]
 position = Vector2( -2, 73 )
 z_index = -1
-texture = ExtResource( 61 )
+texture = ExtResource( 21 )
 offset = Vector2( 55, -206 )
 
 [node name="r thigh" type="Sprite" parent="Jesters/Clover/body/torso/butt"]
 position = Vector2( 25, 10 )
 z_index = 1
-texture = ExtResource( 54 )
+texture = ExtResource( 19 )
 offset = Vector2( 0, -124 )
 
 [node name="r leg" type="Sprite" parent="Jesters/Clover/body/torso/butt/r thigh"]
 position = Vector2( 3, 79 )
 z_index = -1
-texture = ExtResource( 60 )
+texture = ExtResource( 23 )
 offset = Vector2( -4, -207 )
 
 [node name="l upper" type="Sprite" parent="Jesters/Clover/body/torso"]
 position = Vector2( -9, -109 )
 rotation = 0.107086
 z_index = -3
-texture = ExtResource( 64 )
+texture = ExtResource( 15 )
 offset = Vector2( 33, -1 )
 
 [node name="l arm" type="Sprite" parent="Jesters/Clover/body/torso/l upper"]
 position = Vector2( -45.6521, 43.1264 )
 rotation = -0.881885
-texture = ExtResource( 68 )
+texture = ExtResource( 18 )
 offset = Vector2( 75, -43 )
 
 [node name="l hand" type="Sprite" parent="Jesters/Clover/body/torso/l upper/l arm"]
 position = Vector2( -30, 40 )
 rotation = 0.106363
-texture = ExtResource( 55 )
+texture = ExtResource( 16 )
 offset = Vector2( 104, -79 )
 
 [node name="r upper" type="Sprite" parent="Jesters/Clover/body/torso"]
 position = Vector2( 20, -115 )
 rotation = 0.19221
 z_index = 1
-texture = ExtResource( 53 )
+texture = ExtResource( 22 )
 offset = Vector2( 3, 0 )
 
 [node name="r arm" type="Sprite" parent="Jesters/Clover/body/torso/r upper"]
 position = Vector2( 41, 42 )
 rotation = 2.68671
 z_index = 1
-texture = ExtResource( 63 )
+texture = ExtResource( 14 )
 offset = Vector2( -38, -43 )
 
 [node name="r hand" type="Sprite" parent="Jesters/Clover/body/torso/r upper/r arm"]
 position = Vector2( 29, 38 )
 rotation = 0.348237
 z_index = 1
-texture = ExtResource( 67 )
+texture = ExtResource( 24 )
 offset = Vector2( -66, -78 )
 
 [node name="shadow" type="Sprite" parent="Jesters/Clover/body"]
