@@ -1,6 +1,6 @@
 [gd_scene load_steps=7 format=2]
 
-[ext_resource path="res://Scenes/thrishaStuff/images/Controls.png" type="Texture" id=1]
+[ext_resource path="res://Scenes/thrishaStuff/images/controls.png" type="Texture" id=1]
 [ext_resource path="res://Scenes/thrishaStuff/images/mainMenu/returnButton.png" type="Texture" id=2]
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/Controls.gd" type="Script" id=3]
 [ext_resource path="res://Scenes/thrishaStuff/Audio/MouseClick.wav" type="AudioStream" id=4]
