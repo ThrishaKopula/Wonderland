@@ -10003,11 +10003,10 @@ __meta__ = {
 }
 
 [node name="aristo1" parent="Aristocrats" instance=ExtResource( 84 )]
-aristo = 1
 
 [node name="aristo2" parent="Aristocrats" instance=ExtResource( 84 )]
 position = Vector2( 350, 0 )
-aristo = 2
+aristo = 1
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Aristocrats"]
 position = Vector2( 205.5, -11.5 )
