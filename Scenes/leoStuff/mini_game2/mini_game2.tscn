@@ -170,7 +170,7 @@ centered = false
 
 [node name="newButt" type="Button" parent="."]
 margin_left = 1590.0
-margin_top = 903.0
+margin_top = 742.0
 margin_right = 1889.0
 margin_bottom = 1035.0
 focus_mode = 0
