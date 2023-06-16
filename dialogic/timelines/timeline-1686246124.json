@@ -45,7 +45,7 @@
 			"character": "character-1681086547.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Click [b]adjacent[/b] tea cups to swap their positions. Swap until the table matches the pattern on the right."
+			"text": "Click [b]cardinal adjacent[/b] tea cups to swap their positions. Swap until the table matches the pattern on the right."
 		},
 		{
 			"character": "character-1681086547.json",
