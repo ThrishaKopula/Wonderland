@@ -2,7 +2,7 @@ extends Node2D
 
 var cur_drink;
 
-var time = 100;
+var time = 120;
 var canTimerStart = false
 	
 func _ready():
