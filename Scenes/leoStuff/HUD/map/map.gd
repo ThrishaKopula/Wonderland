@@ -43,6 +43,9 @@ func _ready():
 	text.hide();
 	change_text = text.get_child(0).get_child(0);
 	hide();
+	
+	if !StoryVariables.isPrologueDone:
+		enable = false;
 
 	pass # Replace with function body.
 
