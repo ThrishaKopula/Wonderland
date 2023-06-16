@@ -80,10 +80,15 @@ func _on_newButt_pressed():
 		cur_drink = drink.instance();
 		add_child(cur_drink);
 		cur_drink.position = Vector2(-100,-200);
+		Mini2Global.sending = true;
+		Mini2Global.drink_onScene = true;
 		
 		cur_drink.get_node("AnimationPlayer").play("new drink");
+		yield(cur_drink.get_node("AnimationPlayer"), "animation_finished");
 		
-		Mini2Global.drink_onScene = true;
+		yield(get_tree().create_timer(.3), "timeout");
+		Mini2Global.sending = false;
+		
 	
 	
 	pass # Replace with function body.
@@ -98,8 +103,7 @@ func _on_drinkButt_pressed():
 		yield($drink1.get_node("AnimationPlayer"), "animation_finished");
 		$drink1.get_node("AnimationPlayer").play("cherry idle");
 		
-		yield(get_tree().create_timer(.5), "timeout")
-		
+		yield(get_tree().create_timer(.5), "timeout");
 		Mini2Global.sending = false;
 		Mini2Global.red_pump = Mini2Global.red_pump + 1;
 		
@@ -115,7 +119,7 @@ func _on_drinkButt2_pressed():
 		
 		yield($drink2.get_node("AnimationPlayer"), "animation_finished");
 		$drink2.get_node("AnimationPlayer").play("peach idle");
-		yield(get_tree().create_timer(.5), "timeout")
+		yield(get_tree().create_timer(.5), "timeout");
 		
 		Mini2Global.sending = false;
 		

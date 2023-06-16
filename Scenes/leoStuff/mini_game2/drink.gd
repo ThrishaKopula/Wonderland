@@ -14,14 +14,17 @@ func _ready():
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	
-	if position.y < 700 and !Mini2Global.sending:
-		position.y = 700;
+	if position.y < 600 and !Mini2Global.sending:
+		position.y = 600;
 	
 	if hold and !Mini2Global.sending:
 		position = get_global_mouse_position();
-	
+	else:
+		if Mini2Global.on_color != null and !Mini2Global.sending:
+			
+			position = Mini2Global.on_color;
+		
 	scale = Vector2((position.y * 1.3)/750, (position.y * 1.3)/750);
-	
 	
 	pass
 
@@ -30,10 +33,10 @@ func _on_drink_input_event(viewport, event, shape_idx):
 	
 	if Input.is_action_just_pressed("click") and !Mini2Global.sending:
 		hold = true;
-		#print("up");
+		print("up");
 	elif Input.is_action_just_released("click") and !Mini2Global.sending:
 		hold = false;
-		#print("down");
+		print("down");
 		if Mini2Global.cur_color != 0:
 			
 			if Mini2Global.cur_color == 5:
@@ -41,9 +44,7 @@ func _on_drink_input_event(viewport, event, shape_idx):
 				Mini2Global.drink_onScene = false;
 				Mini2Global.check_win();
 				queue_free();
-			else:
+			
 				
-				#print("let go");
-				position = Mini2Global.on_color;
 	
 	pass # Replace with function body.

@@ -178,19 +178,16 @@ enabled_focus_mode = 0
 flat = true
 
 [node name="red" parent="." instance=ExtResource( 1 )]
-modulate = Color( 1, 1, 1, 0 )
 position = Vector2( 531, 886 )
 scale = Vector2( 4, 5 )
 color = 1
 
 [node name="green" parent="." instance=ExtResource( 1 )]
-modulate = Color( 1, 1, 1, 0 )
 position = Vector2( 962, 886 )
 scale = Vector2( 4, 5 )
 color = 2
 
 [node name="blue" parent="." instance=ExtResource( 1 )]
-modulate = Color( 1, 1, 1, 0 )
 position = Vector2( 1395, 886 )
 scale = Vector2( 4, 5 )
 color = 3
