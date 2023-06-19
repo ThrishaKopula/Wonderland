@@ -153,6 +153,7 @@ func pick(item,type):
 		yield(get_tree().create_timer(2), "timeout");
 		$AnimatedGridContainer/Joker.texture_normal = back_card;
 		if picked_type != "none" and !cheat:
+			picked.get_child(1).disabled = false;
 			picked.texture_normal = back_card;
 			picked = null;
 			picked_type = "none";

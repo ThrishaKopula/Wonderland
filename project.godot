@@ -86,8 +86,6 @@ config/icon="res://icon.png"
 
 [autoload]
 
-Controller="*res://Scripts/controller.gd"
-ControllerLeo="*res://code/ControllerLeo.gd"
 Saving="*res://Scenes/leoStuff/saving/saving.gd"
 StoryVariables="*res://Scenes/thrishaStuff/story_variables.gd"
 Mini2Global="*res://Scenes/leoStuff/mini_game2/mini2_global.gd"

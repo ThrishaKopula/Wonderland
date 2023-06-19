@@ -59,22 +59,21 @@ func play():
 			0:
 				$base.get_node("AnimationPlayer").play("red win");
 				
-			1:
+			1:	
 				$base.get_node("AnimationPlayer").play("black win");
 				
 		yield($base.get_node("AnimationPlayer"),"animation_finished");
 		$clock.play();
 		yield(get_tree().create_timer(2), "timeout");
 			
-		if gamba == 0 and red == true:
-			print("red")
+		if (gamba == 0 and red == true) || (gamba == 1 and red == false):
 			$winLogo.get_node("AnimationPlayer").play("win");
 			yield($winLogo.get_node("AnimationPlayer"),"animation_finished");
 		else:
-			print("black")
 			$winLogo.get_node("AnimationPlayer").play("lose");
 			yield($winLogo.get_node("AnimationPlayer"),"animation_finished");
 		
+			
 		Fade.change_scene("res://Scenes/thrishaStuff/MainMenu.tscn");
 	else:
 		
@@ -116,10 +115,14 @@ func play():
 func _on_Red_pressed():
 	spins = false;
 	red = true;
+	$Black.disabled = true;
+	$Red.disabled = true;
 	pass # Replace with function body.
 
 
 func _on_Black_pressed():
 	spins = false;
 	red = false;
+	$Black.disabled = true;
+	$Red.disabled = true;
 	pass # Replace with function body.
