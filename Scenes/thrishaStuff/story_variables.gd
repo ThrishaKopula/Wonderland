@@ -200,3 +200,87 @@ func unpauseEnding(timeline_name):
 	canPlayerMove = true
 	Fade.change_scene("res://Scenes/thrishaStuff/GameOver.tscn")
 	yield(get_tree().create_timer(2), "timeout")
+
+func resetVariables():
+	goodPoints = 0
+	badPoints = 0
+	miniGameToMainMenu = false
+	isLeft = false
+	isRight = false
+
+	dormDay = true
+	isMapInteracted = false
+	isAlisBedInteracted = false
+	isOtherBedInteracted = false
+	isMirrorInteracted = false
+	isAllRoomInteracted = false
+	isPrologueDone = false
+	isChapterOneDone = false
+	isChapterTwoDone = false
+	isChapterThreeDone = false
+
+	currentlyInChapterOne = false
+	currentlyInChapterTwo = false
+	currentlyInChapterThree = false
+
+	chapterOneQuest = false
+	chapterTwoQuest = false
+	chapterThreeQuest = false
+	isChapterOneStartDone = false
+	isInitiateMainQuestDone = false
+	isSearchForStringsDone = false
+	isDeliverLetterToLover = false
+	isReportBackToMusicGeek = false
+	isDeliverStringsToBard = false
+	isGetIngredientsFromVendors = false
+	isCollectOtherworldlyItems = false
+	isPleb_AItemCollected = false
+	isPleb_BItemCollected = false
+	isPleb_CItemCollected = false
+	isAllItemsCollected = false
+	isBringIngredientsToTavern = false
+	isGetBallerinaFromBartender = false
+	isGiveBallerinaToMatthew = false
+	isChapterTwoStart= false
+	isInitiateCh2MainQuest = false
+	isFindWhoIsCloseToJanitor = false
+	isRetrieveExoticFruit = false
+	isCatchTheThief = false
+	isBringThiefToVendors = false
+	isDeliverExoticFruitToLunchLady = false
+	isDeliverToJanitor = false
+	isAfterCleaningMinigame = false
+	isDeliverKeyToMatthew = false
+	isInThiefGame = false
+	isInTavern = false
+	isInPlebTown = false
+	isInAristocratTown = false
+
+	catch_tavern = false
+	catch_plebTown = false
+	catch_aristocratTown = false
+	catch_num = 0
+	mini_game1 = false
+
+#CHAPTER 3
+	isChapter3Start = false
+	isRejectedByJesters = false
+	isEavesdropOnJesters = false
+	isInitiateRoyalGiftsQuest = false
+	isAllRoyalItemsCollected = false
+	isDeliverGiftsToJesters = false
+	isChapter3Minigame = false
+	isTalkToGuards = false
+	isTalkToQueen = false
+	heartItem = false
+	diamondItem = false
+	cloverItem = false
+	spadeItem = false
+	isNerdQuestStarted = false
+	isNerdQuestEnded = false
+
+	isMayorQuestStarted = false
+	isMayorQuestEnded = false
+
+	isJockQuestStarted = false
+	isJockQuestEnded = false

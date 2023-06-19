@@ -32,7 +32,7 @@ func _input(delta):
 
 
 func _on_Menu_pressed():
-	
+	StoryVariables.resetVariables()
 	get_tree().change_scene("res://Scenes/thrishaStuff/MainMenu.tscn");
 	
 	pass # Replace with function body.
