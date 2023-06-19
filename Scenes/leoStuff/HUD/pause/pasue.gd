@@ -14,7 +14,7 @@ func _ready():
 	
 	hide();
 	$controlSprite.hide();
-	$back.hide();
+#	$back.hide();
 	$return.hide()
 	pass # Replace with function body.
 

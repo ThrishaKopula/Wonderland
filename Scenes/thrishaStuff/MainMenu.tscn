@@ -1,4 +1,4 @@
-[gd_scene load_steps=21 format=2]
+[gd_scene load_steps=22 format=2]
 
 [ext_resource path="res://Scenes/thrishaStuff/Scripts/MainMenu.gd" type="Script" id=1]
 [ext_resource path="res://Scenes/thrishaStuff/Audio/MouseClick.wav" type="AudioStream" id=2]
@@ -19,6 +19,7 @@
 [ext_resource path="res://Scenes/thrishaStuff/images/mainMenu/bartendingButton.png" type="Texture" id=17]
 [ext_resource path="res://Scenes/thrishaStuff/images/mainMenu/cardMatchButton.png" type="Texture" id=18]
 [ext_resource path="res://Scenes/thrishaStuff/images/mainMenu/quitButton.png" type="Texture" id=19]
+[ext_resource path="res://Scenes/thrishaStuff/images/mainMenu/titleScreenButton.png" type="Texture" id=20]
 
 [sub_resource type="Theme" id=1]
 
@@ -177,9 +178,31 @@ rect_pivot_offset = Vector2( 220, 126 )
 flat = true
 
 [node name="discord" type="Sprite" parent="."]
-visible = false
-position = Vector2( 960, 540 )
+position = Vector2( 1766, 955 )
 texture = ExtResource( 7 )
+offset = Vector2( -806, -415 )
+
+[node name="discordButton" type="Button" parent="discord"]
+margin_left = -238.0
+margin_top = -17.0
+margin_right = 250.0
+margin_bottom = 315.0
+rect_rotation = -36.5903
+rect_pivot_offset = Vector2( 82, 47 )
+flat = true
+
+[node name="titleScreen" type="Sprite" parent="."]
+position = Vector2( 132, 101 )
+texture = ExtResource( 20 )
+offset = Vector2( 828, 439 )
+
+[node name="titleScreenButton" type="Button" parent="titleScreen"]
+margin_left = -283.0
+margin_top = -4.0
+margin_right = 187.0
+margin_bottom = 275.0
+rect_rotation = -36.5147
+flat = true
 
 [node name="quit" type="Sprite" parent="."]
 position = Vector2( 1793, 66 )
@@ -293,6 +316,14 @@ script = ExtResource( 5 )
 [connection signal="mouse_entered" from="credits/creditsButton" to="." method="_on_creditsButton_mouse_entered"]
 [connection signal="mouse_exited" from="credits/creditsButton" to="." method="_on_creditsButton_mouse_exited"]
 [connection signal="pressed" from="credits/creditsButton" to="." method="_on_creditsButton_pressed"]
+[connection signal="button_down" from="discord/discordButton" to="." method="_on_discordButton_button_down"]
+[connection signal="mouse_entered" from="discord/discordButton" to="." method="_on_discordButton_mouse_entered"]
+[connection signal="mouse_exited" from="discord/discordButton" to="." method="_on_discordButton_mouse_exited"]
+[connection signal="pressed" from="discord/discordButton" to="." method="_on_discordButton_pressed"]
+[connection signal="button_down" from="titleScreen/titleScreenButton" to="." method="_on_titleScreenButton_button_down"]
+[connection signal="mouse_entered" from="titleScreen/titleScreenButton" to="." method="_on_titleScreenButton_mouse_entered"]
+[connection signal="mouse_exited" from="titleScreen/titleScreenButton" to="." method="_on_titleScreenButton_mouse_exited"]
+[connection signal="pressed" from="titleScreen/titleScreenButton" to="." method="_on_titleScreenButton_pressed"]
 [connection signal="button_down" from="quit/Quit" to="." method="_on_Quit_button_down"]
 [connection signal="mouse_entered" from="quit/Quit" to="." method="_on_Quit_mouse_entered"]
 [connection signal="mouse_exited" from="quit/Quit" to="." method="_on_Quit_mouse_exited"]

@@ -39,6 +39,7 @@ func _on_Credits_button_down():
 	$ButtonClick.play()
 	
 func _on_Prologue_pressed():
+	$prologue/Prologue.disabled = true
 	canAudioPlay = false
 	checkAudio()
 	var dialog = Dialogic.start("movingIn")
@@ -56,6 +57,7 @@ func _on_Prologue_mouse_exited():
 	$prologue.scale = Vector2(1, 1)
 
 func _on_Chapter_1_pressed():
+	$"chapter1/Chapter 1".disabled = true
 	canAudioPlay = false
 	checkAudio()
 	var dialog = Dialogic.start("chapter1Start")
@@ -75,6 +77,7 @@ func _on_Chapter_1_mouse_exited():
 	$chapter1.scale = Vector2(1, 1)
 
 func _on_Chapter_2_pressed():
+	$"chapter2/Chapter 2".disabled = true
 	canAudioPlay = false
 	checkAudio()
 	var dialog = Dialogic.start("chapter2Start")
@@ -91,6 +94,7 @@ func _on_Chapter_3_button_down():
 	$ButtonClick.play()
 
 func _on_Chapter_3_pressed():
+	$"chapter3/Chapter 3".disabled = true
 	canAudioPlay = false
 	checkAudio()
 	var dialog = Dialogic.start("chapter3Start")
@@ -215,17 +219,38 @@ func _on_rouletteButton_pressed():
 	yield(get_tree().create_timer(2), "timeout")
 	pass # Replace with function body.
 
-
 func _on_rouletteButton_button_down():
 	$ButtonClick.play()
 	pass # Replace with function body.
-
 
 func _on_rouletteButton_mouse_entered():
 	$roulette.scale = Vector2(1.1, 1.1)
 	pass # Replace with function body.
 
-
 func _on_rouletteButton_mouse_exited():
 	$roulette.scale = Vector2(1, 1)
 	pass # Replace with function body.
+
+func _on_discordButton_button_down():
+	$ButtonClick.play()
+
+func _on_discordButton_pressed():
+	get_tree().change_scene("res://Scenes/thrishaStuff/Discord.tscn")
+
+func _on_discordButton_mouse_entered():
+	$discord.scale = Vector2(1.1, 1.1)
+
+func _on_discordButton_mouse_exited():
+	$discord.scale = Vector2(1, 1)
+
+func _on_titleScreenButton_button_down():
+	$ButtonClick.play()
+
+func _on_titleScreenButton_pressed():
+	Fade.change_scene("res://Scenes/thrishaStuff/TitleScreen.tscn")
+
+func _on_titleScreenButton_mouse_entered():
+	$titleScreen.scale = Vector2(1.1, 1.1)
+
+func _on_titleScreenButton_mouse_exited():
+	$titleScreen.scale = Vector2(1, 1)
